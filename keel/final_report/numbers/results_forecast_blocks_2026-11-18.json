@@ -1,0 +1,423 @@
+{
+ "run": "Wed 18 Nov 2026 morning (Sydney), numbers owner's worker",
+ "card": "Q124",
+ "section": "NUMBERS 8v",
+ "rule": "Sun 15 Nov 2026 evening: fund fee charged from each trade day (price = gross holdings' value); distributions wait in the Treasury-bill ETF at its 0.15% fee; haircut 0.5%; rounded down to $5,000",
+ "design": "H_plain",
+ "curve": "11/06/2026",
+ "register_results": "2026-11-17",
+ "basis": "register as re-sized Tue 17 Nov evening; central path at today's forwards; house model 200,000 paths, seed 2033, VT median moved, 17.88% spread kept",
+ "rates": {
+  "3.1": 0.031,
+  "5.0": 0.05,
+  "6.5": 0.065,
+  "7.5": 0.075
+ },
+ "central": {
+  "3.1": {
+   "vt3_index_before_fee": 1.0959127909999997,
+   "vt2_index_before_fee": 1.0629609999999998,
+   "completion_jan2028": 39161.9680698433,
+   "floor_money_jan2028": 81244.27740480486,
+   "vt_bought_jan2028": 29593.754525351833,
+   "vt_on_move_day": 32373.831224377405,
+   "bottom_unrounded": 97605.07604520187,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 114840.29411174537,
+   "top_stated": 110000.0,
+   "top_clear_of_115000_step": -159.7058882546262,
+   "funds_pay": 120130.24537047588,
+   "contribution": 110000.0,
+   "above_top": 10130.245370475881,
+   "her_flexibility_shares_kept_jan2033": 17185.418928222054,
+   "her_flexibility_plus_above_top": 27315.664298697928,
+   "contribution_plus_flexibility_plus_above_top": 137315.66429869793
+  },
+  "5.0": {
+   "vt3_index_before_fee": 1.1576250000000001,
+   "vt2_index_before_fee": 1.1025,
+   "completion_jan2028": 39161.9680698433,
+   "floor_money_jan2028": 81244.27740480486,
+   "vt_bought_jan2028": 29593.754525351833,
+   "vt_on_move_day": 34196.841828009936,
+   "bottom_unrounded": 97605.07604520187,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 115810.83062543327,
+   "top_stated": 115000.0,
+   "top_clear_of_115000_step": 810.830625433271,
+   "funds_pay": 121130.6017329944,
+   "contribution": 115000.0,
+   "above_top": 6130.601732994401,
+   "her_flexibility_shares_kept_jan2033": 18828.394633184507,
+   "her_flexibility_plus_above_top": 24958.996366178908,
+   "contribution_plus_flexibility_plus_above_top": 139958.9963661789
+  },
+  "6.5": {
+   "vt3_index_before_fee": 1.207949625,
+   "vt2_index_before_fee": 1.1342249999999998,
+   "completion_jan2028": 39161.9680698433,
+   "floor_money_jan2028": 81244.27740480486,
+   "vt_bought_jan2028": 29593.754525351833,
+   "vt_on_move_day": 35683.4573046789,
+   "bottom_unrounded": 97605.07604520187,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 116602.27670865726,
+   "top_stated": 115000.0,
+   "top_clear_of_115000_step": 1602.2767086572567,
+   "funds_pay": 121946.3650904543,
+   "contribution": 115000.0,
+   "above_top": 6946.365090454303,
+   "her_flexibility_shares_kept_jan2033": 20212.258124235355,
+   "her_flexibility_plus_above_top": 27158.623214689665,
+   "contribution_plus_flexibility_plus_above_top": 142158.62321468967
+  },
+  "7.5": {
+   "vt3_index_before_fee": 1.2422968749999999,
+   "vt2_index_before_fee": 1.155625,
+   "completion_jan2028": 39161.9680698433,
+   "floor_money_jan2028": 81244.27740480486,
+   "vt_bought_jan2028": 29593.754525351833,
+   "vt_on_move_day": 36698.09285200822,
+   "bottom_unrounded": 97605.07604520187,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 117142.44956602114,
+   "top_stated": 115000.0,
+   "top_clear_of_115000_step": 2142.4495660211396,
+   "funds_pay": 122503.1348225589,
+   "contribution": 115000.0,
+   "above_top": 7503.134822558903,
+   "her_flexibility_shares_kept_jan2033": 21179.178869581778,
+   "her_flexibility_plus_above_top": 28682.313692140684,
+   "contribution_plus_flexibility_plus_above_top": 143682.31369214068
+  }
+ },
+ "threshold": {
+  "top_unrounded_at_vt_zero": 97605.07604520187,
+  "top_added_per_1x_vt_at_move": 15726.815316040505,
+  "vt3_needed_for_115000": 1.1060677960054786,
+  "vt_change_needed": 0.10606779600547855,
+  "yearly_growth_needed_2028_2031": 0.03417471641464065,
+  "card_q124_row23_yield_plus_inflation_three_years": 0.11871013634100014
+ },
+ "valuation_case": {
+  "note": "J.P. Morgan's -0.65% a year valuation block over ten years (P/E 20.82 to 19.505) landed between January 2028 and the move; ten-year return unchanged",
+  "5.0_pe_19.505": {
+   "vt3_index_before_fee": 1.1059691103781502,
+   "vt2_index_before_fee": 1.1169734628887464,
+   "completion_jan2028": 39161.9680698433,
+   "floor_money_jan2028": 81244.27740480486,
+   "vt_bought_jan2028": 29593.754525351833,
+   "vt_on_move_day": 32670.900105186443,
+   "bottom_unrounded": 97605.07604520187,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 114998.44798936466,
+   "top_stated": 110000.0,
+   "top_clear_of_115000_step": -1.552010635336046,
+   "funds_pay": 120293.25854463484,
+   "contribution": 110000.0,
+   "above_top": 10293.258544634838,
+   "her_flexibility_shares_kept_jan2033": 18224.375264690614,
+   "her_flexibility_plus_above_top": 28517.63380932546,
+   "contribution_plus_flexibility_plus_above_top": 138517.63380932546,
+   "ten_year_return": 0.05,
+   "other_blocks_a_year": 0.05686965274282829,
+   "pe_factor_by_the_move": 0.9368686669549724,
+   "pe_at_the_move": 19.505605646002525,
+   "vt_change_to_move_before_fee": 0.10596911037815016
+  },
+  "5.0_pe_19.5_exact": {
+   "vt3_index_before_fee": 1.1056512698847545,
+   "vt2_index_before_fee": 1.1169734628887464,
+   "completion_jan2028": 39161.9680698433,
+   "floor_money_jan2028": 81244.27740480486,
+   "vt_bought_jan2028": 29593.754525351833,
+   "vt_on_move_day": 32661.510932458496,
+   "bottom_unrounded": 97605.07604520187,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 114993.44937062508,
+   "top_stated": 110000.0,
+   "top_clear_of_115000_step": -6.5506293749203905,
+   "funds_pay": 120288.10634274503,
+   "contribution": 110000.0,
+   "above_top": 10288.106342745028,
+   "her_flexibility_shares_kept_jan2033": 18219.13782688914,
+   "her_flexibility_plus_above_top": 28507.244169634156,
+   "contribution_plus_flexibility_plus_above_top": 138507.24416963416,
+   "ten_year_return": 0.05,
+   "other_blocks_a_year": 0.05686965274282829,
+   "pe_factor_by_the_move": 0.9365994236311239,
+   "pe_at_the_move": 19.5,
+   "vt_change_to_move_before_fee": 0.10565126988475448
+  },
+  "7.5_pe_19.505": {
+   "vt3_index_before_fee": 1.1868627316007394,
+   "vt2_index_before_fee": 1.170795880318193,
+   "completion_jan2028": 39161.9680698433,
+   "floor_money_jan2028": 81244.27740480486,
+   "vt_bought_jan2028": 29593.754525351833,
+   "vt_on_move_day": 35060.53955651467,
+   "bottom_unrounded": 97605.07604520187,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 116270.64703057807,
+   "top_stated": 115000.0,
+   "top_clear_of_115000_step": 1270.6470305780676,
+   "funds_pay": 121604.5460514097,
+   "contribution": 115000.0,
+   "above_top": 6604.546051409707,
+   "her_flexibility_shares_kept_jan2033": 20499.745784857856,
+   "her_flexibility_plus_above_top": 27104.29183626757,
+   "contribution_plus_flexibility_plus_above_top": 142104.29183626757,
+   "ten_year_return": 0.075,
+   "other_blocks_a_year": 0.08203321590337187,
+   "pe_factor_by_the_move": 0.9368686669549724,
+   "pe_at_the_move": 19.505605646002525,
+   "vt_change_to_move_before_fee": 0.1868627316007394
+  }
+ },
+ "card_row24": {
+  "-2.0": {
+   "no_valuation_sum": 0.037,
+   "pe_at_move_that_loses_the_step": 20.65029231596375,
+   "fall_against_earnings": 0.008151185592519261,
+   "pe_if_sum_read_as_continuous_rate": 20.608946194018696,
+   "card_row24": 20.6,
+   "pe_19_5_by_the_move_top_stated": 110000.0,
+   "pe_19_5_by_the_move_top_unrounded": 114031.04289974096,
+   "no_valuation_change_top_stated": 115000.0
+  },
+  "-1.0": {
+   "no_valuation_sum": 0.047,
+   "pe_at_move_that_loses_the_step": 20.064226778053573,
+   "fall_against_earnings": 0.036300346875428824,
+   "pe_if_sum_read_as_continuous_rate": 19.99985978512697,
+   "card_row24": 20.0,
+   "pe_19_5_by_the_move_top_stated": 110000.0,
+   "pe_19_5_by_the_move_top_unrounded": 114510.83677402222,
+   "no_valuation_change_top_stated": 115000.0
+  },
+  "+0.2": {
+   "no_valuation_sum": 0.059,
+   "pe_at_move_that_loses_the_step": 19.38985639185895,
+   "fall_against_earnings": 0.06869085533818686,
+   "pe_if_sum_read_as_continuous_rate": 19.292670612746193,
+   "card_row24": 19.3,
+   "pe_19_5_by_the_move_top_stated": 115000.0,
+   "pe_19_5_by_the_move_top_unrounded": 115098.81144290091,
+   "no_valuation_change_top_stated": 115000.0
+  },
+  "+0.67": {
+   "no_valuation_sum": 0.0637,
+   "pe_at_move_that_loses_the_step": 19.133965878432168,
+   "fall_against_earnings": 0.080981465973479,
+   "pe_if_sum_read_as_continuous_rate": 19.022552763109054,
+   "card_row24": 19.0,
+   "pe_19_5_by_the_move_top_stated": 115000.0,
+   "pe_19_5_by_the_move_top_unrounded": 115332.76612647831,
+   "no_valuation_change_top_stated": 115000.0
+  }
+ },
+ "card_gloomiest_3.06": {
+  "vt3_index_before_fee": 1.094637732616,
+  "vt2_index_before_fee": 1.06213636,
+  "completion_jan2028": 39161.9680698433,
+  "floor_money_jan2028": 81244.27740480486,
+  "vt_bought_jan2028": 29593.754525351833,
+  "vt_on_move_day": 32336.16533958819,
+  "bottom_unrounded": 97605.07604520187,
+  "bottom_stated": 95000.0,
+  "top_unrounded": 114820.24150402304,
+  "top_stated": 110000.0,
+  "top_clear_of_115000_step": -179.75849597695924,
+  "funds_pay": 120109.57664401663,
+  "contribution": 110000.0,
+  "above_top": 10109.576644016634,
+  "her_flexibility_shares_kept_jan2033": 17152.107407079144,
+  "her_flexibility_plus_above_top": 27261.68405109577,
+  "contribution_plus_flexibility_plus_above_top": 137261.68405109577
+ },
+ "card_lowest_no_valuation_3.70": {
+  "vt3_index_before_fee": 1.1151576529999998,
+  "vt2_index_before_fee": 1.0753689999999998,
+  "completion_jan2028": 39161.9680698433,
+  "floor_money_jan2028": 81244.27740480486,
+  "vt_bought_jan2028": 29593.754525351833,
+  "vt_on_move_day": 32942.334411347176,
+  "bottom_unrounded": 97605.07604520187,
+  "bottom_stated": 95000.0,
+  "top_unrounded": 115142.95450220205,
+  "top_stated": 115000.0,
+  "top_clear_of_115000_step": 142.95450220204657,
+  "funds_pay": 120442.20503711965,
+  "contribution": 115000.0,
+  "above_top": 5442.205037119653,
+  "her_flexibility_shares_kept_jan2033": 17691.33388419958,
+  "her_flexibility_plus_above_top": 23133.53892131924,
+  "contribution_plus_flexibility_plus_above_top": 138133.53892131924
+ },
+ "house": {
+  "3.1": {
+   "top_under_115000": 0.4915,
+   "top_under_110000": 0.35063,
+   "top_115000_or_more": 0.5085,
+   "stated_top_p5_p50_p95": [
+    95000.0,
+    115000.0,
+    135000.0
+   ],
+   "stated_bottom_p5_p50_p95": [
+    80000.0,
+    95000.0,
+    115000.0
+   ],
+   "her_flexibility_shares_kept_p5_p50_p95": [
+    7806.789527258208,
+    16623.35472685041,
+    33179.41761645424
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    14226.62133348586,
+    24689.139197061908,
+    42222.502868922595
+   ],
+   "top_lower_than_at_7_5_same_path": 0.46869,
+   "shares_alone_top_under_115000_rates_at_forwards": 0.5118800276725984
+  },
+  "5.0": {
+   "top_under_115000": 0.464265,
+   "top_under_110000": 0.326555,
+   "top_115000_or_more": 0.535735,
+   "stated_top_p5_p50_p95": [
+    95000.0,
+    115000.0,
+    140000.0
+   ],
+   "stated_bottom_p5_p50_p95": [
+    80000.0,
+    95000.0,
+    115000.0
+   ],
+   "her_flexibility_shares_kept_p5_p50_p95": [
+    8553.141162944956,
+    18212.595470137523,
+    36351.465808955145
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    15032.458660415949,
+    26298.687789133037,
+    45370.48169758841
+   ],
+   "top_lower_than_at_7_5_same_path": 0.271165,
+   "shares_alone_top_under_115000_rates_at_forwards": 0.4415217110959478
+  },
+  "6.5": {
+   "top_under_115000": 0.44241,
+   "top_under_110000": 0.307635,
+   "top_115000_or_more": 0.55759,
+   "stated_top_p5_p50_p95": [
+    95000.0,
+    115000.0,
+    140000.0
+   ],
+   "stated_bottom_p5_p50_p95": [
+    80000.0,
+    95000.0,
+    115000.0
+   ],
+   "her_flexibility_shares_kept_p5_p50_p95": [
+    9181.786356536897,
+    19551.198491766376,
+    39023.253147134994
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    15697.261606275166,
+    27666.85772404974,
+    48029.51032745413
+   ],
+   "top_lower_than_at_7_5_same_path": 0.109445,
+   "shares_alone_top_under_115000_rates_at_forwards": 0.38800594925579834
+  },
+  "7.5": {
+   "top_under_115000": 0.427785,
+   "top_under_110000": 0.295435,
+   "top_115000_or_more": 0.572215,
+   "stated_top_p5_p50_p95": [
+    95000.0,
+    115000.0,
+    140000.0
+   ],
+   "stated_bottom_p5_p50_p95": [
+    80000.0,
+    95000.0,
+    115000.0
+   ],
+   "her_flexibility_shares_kept_p5_p50_p95": [
+    9621.027714573438,
+    20486.495245937913,
+    40890.0605462364
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    16176.365555886608,
+    28623.812442236784,
+    49900.64681570996
+   ],
+   "top_lower_than_at_7_5_same_path": 0.0,
+   "shares_alone_top_under_115000_rates_at_forwards": 0.35381008708195993
+  },
+  "val_5.0": {
+   "top_under_115000": 0.48695,
+   "top_under_110000": 0.3465,
+   "top_115000_or_more": 0.51305,
+   "stated_top_p5_p50_p95": [
+    95000.0,
+    115000.0,
+    135000.0
+   ],
+   "stated_bottom_p5_p50_p95": [
+    80000.0,
+    95000.0,
+    115000.0
+   ],
+   "her_flexibility_shares_kept_p5_p50_p95": [
+    8278.754364466888,
+    17628.33108494566,
+    35185.30215828181
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    14734.274239552156,
+    25687.146787079342,
+    44235.911148143874
+   ],
+   "top_lower_than_at_7_5_same_path": 0.43644,
+   "shares_alone_top_under_115000_rates_at_forwards": 0.5001149405977968
+  },
+  "val_7.5": {
+   "top_under_115000": 0.45167,
+   "top_under_110000": 0.315265,
+   "top_115000_or_more": 0.54833,
+   "stated_top_p5_p50_p95": [
+    95000.0,
+    115000.0,
+    140000.0
+   ],
+   "stated_bottom_p5_p50_p95": [
+    80000.0,
+    95000.0,
+    115000.0
+   ],
+   "her_flexibility_shares_kept_p5_p50_p95": [
+    9312.382862070901,
+    19829.283616259454,
+    39578.297699217874
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    15828.401111744854,
+    27919.93270713363,
+    48598.88325932946
+   ],
+   "top_lower_than_at_7_5_same_path": 0.1774,
+   "shares_alone_top_under_115000_rates_at_forwards": 0.40995768940643706
+  }
+ },
+ "all_asserts_pass": true,
+ "seconds": 7.9
+}

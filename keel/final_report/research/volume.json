@@ -1,17 +1,26 @@
 {
- "built": "2026-11-17T21:59+11:00",
- "today": "2026-11-17",
- "store_ideas": 6720,
- "store_judged": 5886,
+ "built": "2026-11-18T07:27+11:00",
+ "today": "2026-11-18",
+ "store_ideas": 7307,
+ "store_judged": 6473,
  "totals": {
-  "workers": 192,
-  "cards": 152,
-  "rows": 5460,
-  "sources": 5759,
-  "passages": 86,
-  "readings": 44
+  "workers": 233,
+  "cards": 166,
+  "rows": 6047,
+  "sources": 6297,
+  "passages": 99,
+  "readings": 48
  },
  "days": [
+  {
+   "day": "2026-11-18",
+   "workers": 41,
+   "cards": 14,
+   "rows": 587,
+   "sources": 538,
+   "passages": 13,
+   "readings": 4
+  },
   {
    "day": "2026-11-17",
    "workers": 79,
@@ -19,7 +28,7 @@
    "rows": 1086,
    "sources": 1067,
    "passages": 26,
-   "readings": 10
+   "readings": 9
   },
   {
    "day": "2026-11-16",
@@ -37,7 +46,7 @@
    "rows": 361,
    "sources": 547,
    "passages": 21,
-   "readings": 7
+   "readings": 8
   },
   {
    "day": "2026-11-14",
@@ -135,6 +144,14 @@
    "analysis_workers": "19",
    "readers": "8",
    "notes": "Thirteen research workers: cards Q109-Q121 (reverse stress tests for 3e; reservoir firm yield; aviation fuel categories; Taiwan's rotating credit groups and their law; Taiwanese donor lists and exact sums; pencil and ink in law and archives; one-day move or averaging out; Olympic and Expo guarantees; data freshness; illustrators who founded places; Taiwan's public promises cut and floors; certainty words as numbers; Taiwanese ink, seal and type craft), 519 rows from about 490 sources read at source (many in part or as extracts, each card's Gaps says which); twelve raters judged every row the same evening (store 6,720 ideas); seven analysis workers (the numbers re-size: the ten payments carry the 0.5% cost margin, plan.py's day count fixed, every file swept; the aha test 5 pack and its results; landing Q109-Q121 in SKELETON, CONCEIT, GEM_LEDGER section 11 and REFERENCES 2h; the readers' fixes, 28 of 29) and two fresh voice writers; eight readers: voice round 7 (three), cold aha test 5 (three), coherence reader 8 and a lay reader"
+  },
+  {
+   "date": "2026-11-18",
+   "run": "morning (overdrive)",
+   "research_workers": "14",
+   "analysis_workers": "19",
+   "readers": "8",
+   "notes": "Fourteen research workers one level deeper on Q1-Q14 and the thinnest tags: cards Q122-Q135 (merger exit clauses and the two reasons; fractional Kelly and the half kept; world shares from their building blocks; UK pension yield triggers that never fired; prepaid tuition plans; the advance against royalties; certainty words in Chinese for Taiwan; founders' own commitment letters and the Giving Pledge; failure-first forms from accident reports for 3e; Taiwan's building materials, wages and the NT dollar with monthly data since 1991; gift annuity and pre-need reserves; who holds and releases a reserve; can a creator sell her career; months of running money in arts groups), 587 rows from about 520 sources read at source (many in part, each card's Gaps says which); fourteen raters judged every row the same morning (store 7,307 ideas); five analysis workers (numbers: what it takes to break each promise, NUMBERS 8u, and 3e recast failure first; the share forecast from its building blocks on the engine, NUMBERS 8v; the aha test 6 pack and its results; landing Q122-Q135 in SKELETON, GOLDMINE, GEM_LEDGER section 13, REFERENCES and CONCEIT) and two fresh voice writers; eight readers: voice round 8 (three), cold aha test 6 (three, one item per file, one reader from outside fixed income), coherence reader 9 and a lay reader"
   }
  ],
  "cards": [

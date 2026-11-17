@@ -3,6 +3,10 @@
 Every figure the Final Report may use comes from this page. It uses one curve, one engine and Caplet's design as
 submitted. These are research notes, not report text.
 
+**What changed on Wed 18 Nov, morning (numbers owner; `numbers/RUN_2026-11-18.md`).** No existing figure moves. One section is added, **8u, what it takes to break each promise** (card Q109's shape for 3e): the ten payments (at today's rates the 2028 deposit could arrive 73.9% smaller and all ten still meet the standard), the stated bottom (its cover about 3%, 3.16%), the stated top (about 2%, 2.32%) and her flexibility (it covers a rise of 24.9% in the US-dollar cost of a building budget set on the top). New in it: fund costs beyond the margin ($593 / $1,187 / $3,561 short at 0.75% / 1% / 2% unless waiting cash earns 0.16% / 0.32% / 0.95% a year), the bottom's own cover in every house path, the yield moves that step the bottom she can state (about 0.10 points before 1 Jan 2027 lowers it to $90,000) and the missed deposit with the ETF's fee ($58,775). Section 9's 8s variant is left open with its reason.
+
+**Also Wed 18 Nov, morning (numbers owner's worker; card Q124; `numbers/RUN_2026-11-18.md`).** No existing figure moves. One section is added, **8v, the share forecast from its building blocks**: the engine run at 3.1%, 5.0%, 6.5% and 7.5% a year and one valuation case. The payments and the bottom are identical at every return; the stated top is $115,000 above 3.417% a year to the move and $110,000 at 3.1%; her flexibility $17,185 / $18,828 / $20,212 / $21,179; house paths stating under $115,000 42.8% at 7.5% to 49.1% at 3.1%. Card Q124's 5% figures hold; its row 24 P/Es move by about 0.1.
+
 **What changed on Tue 17 Nov, evening (numbers owner; the lead's call of Tue 17 Nov 07:00 and Keel's call of the evening, `../pm/ASK_HUMANS.md`; `numbers/RUN_2026-11-17_evening.md`). The ten payments carry the 0.5% margin.** Done the evening the shortfall was found, not on Wed 18 Nov, so no file carries a figure the register knows is short. Every results file is re-run and dated 2026-11-17 (`completion.RESULTS`); the Sun 15 and Mon 16 Nov files are kept as the record. Each changed figure below and in the sections is marked "re-sized Tue 17 Nov evening: 0.5% margin on the payments, 365.25-day fix", with the old figure in brackets once.
 - **The ten payments carry the range's 0.5% margin for fund costs beyond the 0.07% fee** (`completion.PAY_MARGIN`, `cost_cut`). The backstop is sized by the same linear programme so the ten are paid if no coupon earns anything, after the bill ETF's 0.15% fee, with every iBond fund flow 0.5% smaller. It costs $844 more in 1 Jan 2027 money ($35,213, was $34,369), $881 more in January 2028 money, and is spent on the 2036-2037 payments, where section 2 found the exposure ($1,181 at 0.5%, now covered). At zero interest with the fees, $1,177 is left after 2042 (was nothing).
 - **The 365.25-day carry is fixed** (`engine.T01`: 2027's 365 days in every carry, `plan.py` 8k). Alone it moves no headline figure by a dollar (the top-up $2,388.22 to $2,388.15; the no-margin design costs $336,656 either way); the margin does the rest.
@@ -2190,6 +2194,162 @@ What it shows:
 - **Files that set $589,623 (or "about $589,000 / $589,700") against SIPC** are listed in section 10 (Mon 16 Nov night
   block), not edited.
 
+### 8u. What it takes to break each promise (Wed 18 Nov morning, numbers owner, MODEL; card Q109; `numbers/break_test.py`, `numbers/results_break_2026-11-18.json`)
+- **Why.** 3e's assumptions and limits is the report's lowest cell (SCORECARD: clarity 2; the evening lay reader of Tue
+  17 Nov: "about 200 words still carry some twenty ideas"). Card Q109 gave the shape of a reverse stress test: "define
+  what constitutes business failure and then detail what events could drive that outcome" (PRA 2025 draft, 8.2). This
+  section is that table for Laura's promises: for each, the failure in plain words, the events that would drive it and
+  the size each event would need. IPS l.17's two reasons to change the plan are a different list (below, "The two
+  lists"; card Q109 row 33).
+- **Script and rerun:** `python3 -I keel/final_report/numbers/break_test.py` from the repo root (about 30 seconds).
+  Imports engine, plan and completion and changes none of them; reads no results file; writes only
+  `results_break_2026-11-18.json`. It re-derives every register figure the table uses that the engine can give and
+  asserts it (the first $39,162 and the $2,388 top-up; 3.57 and 3.89 points; $40,821 / $42,569 / $46,351 for falls during
+  2027; the missed deposit's $3,016 and $57,455; 0.50% and 0.74% covered; $74,031 at forwards at 0.5%; the central
+  covers 2.32%, 6.12% and 3.16%; the floor's $102,365; the unrounded bottom $97,605; Table 3 row 6's $85,000; 8p's +10.6%
+  and -21.2%; her flexibility $28,682 and 8q's 24.9%; the deletion test's $7,365). Every assert passes.
+- **What it computes that the register did not have (new, MODEL):** (1) the payments' shortfall, and the interest cash
+  waiting would need, if fund costs beyond the 0.07% fee pass the 0.5% margin (0.75%, 1%, 2% of every iBond fund flow;
+  the same ledger and cut as `cost_cover.py` part B); (2) the stated bottom's own cover, the floor alone, at its
+  expected payout centrally and in every house path; (3) the fall (or rise) in yields that moves the bottom she will be
+  able to state by one $5,000 step, before 1 Jan 2027 (exact re-sizing, as section 5(e)) and during 2027 alone (plan.run
+  with `completion.margin_fn`, as section 5's "A fall during 2027"); (4) the missed deposit with the short-term Treasury
+  ETF's fee. Keel arithmetic is marked.
+- **Basis.** The register as re-sized Tue 17 Nov evening (design H_plain with the fee cushion and the payments' 0.5%
+  margin; the range rule on the fund's holdings; Keel's reading of "most"), the 6 Nov 2026 curve (section 0), central
+  path at today's forwards with VT at 7.5%, house model 200,000 paths, seed 2033. Later curves are disclosed, never
+  re-booked (below).
+- **Three verbs, kept apart.** A promise *breaks* when a figure Laura owes or has stated is not paid on its date. A
+  figure not yet stated is *lowered* (it breaks nothing: nothing is stated before it is owned, IPS l.15). Her
+  flexibility *shrinks* or is *drawn on* (it is promised to no one, IPS l.15, so it breaks no promise).
+
+| Promise (owned from) | It breaks if | What would have to happen (each event and the size it needs) | What only lowers or shrinks it | One figure for 3e |
+|---|---|---|---|---|
+| **The ten payments** (most of each owned from January 2027, all ten from January 2028; the standard: paid even if cash waiting earns nothing, with the 0.5% margin for fund costs beyond the fee, section 2) | A payment is short of $50,000, or late, on its 1 January | (a) **A US default**: any Treasury payment more than five business days late (Table 3 row 2); one event, any size. (b) **No 2028 deposit by 31 March 2028**: the ten $57,455 short if cash waiting earns nothing ($58,775 with the short-term Treasury ETF's fee, new), the 2033 payment $3,016 short at today's market rates, short in all 585 historical windows (section 5). (c) **A deposit smaller than the first slice the payments need**: under $39,162 at today's rates, a cut of more than 73.9%; a $30,000 / $20,000 / $10,000 deposit leaves the ten $11,647 / $27,201 / $42,756 short at zero interest; at today's market rates they are paid while the deposit covers the $2,388 top-up (98.4%) (section 5). (d) **A fall in yields before the ten are bought (Mon 4 Jan 2027) that makes the first slice larger than the whole deposit**: 3.57 points (3.89 for the ten at today's market rates; sections 1, 5). With the deposit in full no fall during 2027 can: at zero rates the first slice is $60,393 (section 5, "When most cannot hold" (b)), so the standard survives a deposit 59.7% smaller whatever 2027 brings (Keel arithmetic). (e) **Fund costs beyond the 0.07% fee larger than the 0.5% margin, with cash waiting earning too little**: covered to 0.50% of every fund flow under the standard, 0.74% without the ETF's fee (section 2); at 0.75% / 1% / 2%, **$593 / $1,187 / $3,561 short** (on 2036 and 2037) unless waiting money earns at least **0.16% / 0.32% / 0.95% a year** before the ETF's 0.15% (new). (f) **Late, not short**: a broker failure while the account holds more than SIPC's $500,000 (end of August 2029 to December 2032; at most $87,008 over, 30 Nov 2032; the history is delay, not loss, where assets were kept apart; 8t) | Nothing breaks them: any fall in share prices (VT worthless, all ten paid: section 4's deletion test); any move in yields once the first slice is bought in January 2028; "most" giving way (section 5) | **About three-quarters**: at today's rates the 2028 deposit could arrive 73.9% smaller and all ten would still be paid even if cash waiting earns nothing (AHA_REGISTER "The order of purchase", fixed wording: "only a deposit more than about three-quarters smaller leaves the payments short of that standard") |
+| **The stated bottom** ($95,000 centrally; owned from January 2028, when the floor is bought; stated in 2031) | The floor pays less than the bottom she stated: a stated figure goes unpaid (her credibility with co-sponsors), never "a smaller contribution than hoped" (card Q109 rows 4, 42) | (a) **A US default** (the same event as the payments'). (b) **Fund costs beyond the two fees larger than the cover under the bottom**: centrally 3.16% of the floor's value at zero interest (section 3), **7.20% of its expected payout** (new); at least 0.50% in every house path by construction (**1-in-20 low 0.76%, median 3.03%**, new; at the expected payout, least 1.90%, median 7.15%, new); costs of 0.75% / 1% would break it, at zero interest, in 4.8% / 9.8% of house paths (9,691 / 19,688; section 3's row). (c) **One step not taken**: the floor's $15,446 of payouts before its end kept in the short-term Treasury ETF until the contribution is paid (section 3). Not in its set: a missed deposit (no bottom is stated: "no range until paid", Table 3 row 1; card Q109 row 31); any share price (VT worthless: still $95,000) | Before January 2028 it is not yet owned, so these lower the bottom she will be able to state and break nothing: **a fall in yields of about 0.10 points before 1 Jan 2027 takes it to $90,000, 0.28 points to $85,000, 1.31 points to $80,000; during 2027 alone 0.38, 1.12 and 1.87 points; a rise of 0.09 points before 1 Jan 2027 takes it to $100,000** (new; section 4's "Rounding is fragile at the centre", seen from the yield side); 1 point before 1 Jan 2027 gives $85,000 (Table 3 row 6, reproduced); a $112,500 deposit gives $65,000 (section 5) | About 3% (3.16%), 11.7 times the frictions measured (about 0.27%, section 0; Keel arithmetic). Reaches 3e only through note 2, which uses the top's figure |
+| **The stated top** ($115,000 centrally: the contribution and the figure co-sponsors count; owned once half the shares move into Treasuries before the 2031 meetings) | The two funds pay less than the top she stated | (a) **A US default.** (b) **Fund costs beyond the two fees larger than the cover under the top**: centrally 2.32% at zero interest, 6.12% at the interest the market expects; at least 0.50% in every house path by construction, least 1.68% at the expected payout; past the cover, about $118 short for each further 0.1% centrally (section 3). (c) **One step not taken**: both funds' payouts before the end ($15,446 and $1,153) kept in the short-term Treasury ETF; the move made before the meetings (a top stated early is not owned: the move would buy less than a top stated 1 / 3 / 6 / 12 months early in 2.9% / 6.2% / 8.6% / 10.6% of house paths, section 4). Not in its set: a missed deposit (no top is stated); any fall in prices after the move | Before the move: VT's fall. $115,000 needs VT at least 10.6% above its January 2028 cost on the move day; $110,000 holds to a 21.2% fall, $105,000 to 53.0%, $100,000 to 84.8%; VT worthless leaves one figure, $95,000 (8p, reproduced). After the move, a fall in shares moves only her flexibility. Thirteen of fifteen houses' forecasts give $115,000 (8p) | **About 2%**: on today's figures those costs would have to pass 2.32% of what the two funds pay if cash waiting earns nothing, 8.6 times the frictions measured (Keel arithmetic). It is the 0.5% held back plus the rounding down, never "the margin" (3c's margin is at least 0.5%, its floor in every future); never "about 3%" (3.09% before the Tue 17 Nov evening re-size) and never "more than ten times" (card Q109 row 38's 11.4 was the old 3.09%) |
+| **Her flexibility** ($28,682 centrally on 1 Jan 2033: half the shares, $21,179, plus the $7,503 the funds pay above the top; promised to no one, IPS l.15) | It cannot break a promise. Its limit: it can run out before its uses are met | Drawn on by IPS l.15's three uses: **building costs that overrun and a stronger Taiwan dollar**: it covers a rise of 24.9% in the US-dollar cost of a building budget set on the top (30.2% on the bottom, Keel arithmetic); a 10% stronger Taiwan dollar takes $11,500 (8j: covered, with the excess, in 99.74% of house paths); the two-year joint rise since 1991 passed 28.0% in 1 span in 20, which needs $32,191, $3,509 more than it has; the worst, 38.9%, $16,074 more (8q). **A co-sponsor falling short**: not sized (case l.106-107; CANON A31) | Shrinks with shares: VT worthless leaves $7,365 (what the floor pays above the bottom); flat to the move then 40% down by 2033, $8,852 against $17,048 (8p). A fall in yields of 1.30 points before January 2027 buys no shares at all: $3,700 (section 5(e)); so does a deposit of $75,000 or less (section 5). A share slump before the meetings followed by a cost burst before the contribution can catch it (8q; card Q85) | **About 25%**: on today's figures her flexibility covers a rise of about 25% (24.9%) in the US-dollar cost of a building budget set on the top; the worst two-year spans since 1991 rose by more (8q). Never "about a quarter": WORDS keeps that phrase for the first $39,162's share of the deposit |
+
+**The two lists (card Q109 rows 25, 31-33; IPS l.17; CANON A34).**
+- IPS l.17's two reasons to change the plan: a missed deposit and a Treasury default. They are exits for when the plan
+  cannot be carried out, never for when keeping it would hurt (Q7b-033).
+- The ways a promise breaks, from the table: **a US default is in all three promises' sets** (the common cause, card
+  Q109 row 25: named once in 3e, nowhere else attached, Book 19); **a missed deposit is in the payments' set only**: it
+  can never make a stated figure untrue, because none is stated before it is owned; **fund costs beyond the margin are
+  in all three sets and are not a reason to change** (Table 3 row 4 closes a fund event with an act); a deposit smaller
+  than the first slice and a fall of 3.57 points before January 2027 are in the payments' set and are not reasons either
+  (a smaller deposit runs the same order, CANON D9). **No fall in any price is in any set**: IPS l.17's "A fall in the
+  market is not one of them", tested from the failure end.
+- So 3e never says "only two things can break the plan" (card Q109 row 33) and never that the two reasons are the ways
+  the plan can fail.
+
+**Later curves (disclosed, never re-booked; section 0).** On the 13 Nov 2026 curve (section 5, "On a later curve") the
+first slice is $32,074, so the deposit could arrive 78.6% smaller (Keel arithmetic); the first slice moves with yields
+until the ten are bought on Mon 4 Jan 2027, so "about three-quarters" is said only "at today's rates", with the curve's
+date in a table note.
+
+**For card Q109's owner (the card is not edited; its figures predate the Tue 17 Nov evening re-size):** row 29's "no
+margin until the re-size planned for Wed 18 Nov" (done Tue 17 Nov evening; the two-event set is now costs above 0.5% with
+waiting cash under 0.32% a year at a 1% cost, this section), 3.60 (now 3.57), "1.33 points ... 0.09%" (1.30 points, 0.20%,
+section 5(d)) and "about 0.06% a year" (a 0.1% cost now needs none); row 30 and verdict 2's 3.09%, 3.92% and 6.86% (2.32%,
+3.16% and 6.12%) and $15,569 and $1,162 ($15,446 and $1,153); row 33's "a few hundred dollars" (now: $0 to 0.5%, then
+about $240 for each 0.1% beyond, $593 at 0.75%); row 34 (Table 3 row 4's gap now holds at zero interest to 0.5%); row 36's
+$474,387 ($474,355); rows 37 and claim 3's $29,823 and 25.9% ($28,682 and 24.9%); row 38's 11.4 times (8.6 for the top,
+11.7 for the bottom).
+
+**Words for 3e (each checked against WORDS, CANON and Book 19).** "About three-quarters" only with "at today's rates";
+"about 2%" only "on today's figures", never called the margin; "about 25%" with "on today's figures", never "about a
+quarter" (WORDS: one phrase, one quantity), "cushion" or "smallest when needed". "Certain" takes the stated range as its subject, never a figure. Treasuries may be
+called guaranteed or risk-free, with no "barring a US default" (Book 19); the default is named once, as the IPS's own
+condition. Never "fail-safe", never "only two things can break the plan", never a stated contribution above the stated
+top, never a probability rarer than 1 in 100 in prose (so the new house shares in rows 2 and 3 stay here).
+
+**Limits.** Central path and house paths only; fund costs taken as a flat share off every iBond fund flow; yields move
+in parallel; the engine's IBTM holdings stand in for the floor fund (section 0); the bottom's one-step yields before 1
+Jan 2027 use section 5's exact re-sizing and during 2027 plan.run's duration pricing of the unbought tail (within about
+$40 of the exact, section 5 (b)); a step in the bottom is a $5,000 rounding edge, so its yield thresholds are small by
+construction and say nothing about odds.
+
+### 8v. The share forecast from its building blocks (Wed 18 Nov morning, numbers owner's worker, MODEL; card Q124; `numbers/forecast_blocks.py`, `numbers/results_forecast_blocks_2026-11-18.json`)
+- **Why.** Card Q124 rebuilt world shares' expected return from today's dividend yield, inflation, growth, buybacks and
+  valuation: a sum near 5% a year (3.1% to 6.4% across its anchors), against the register's 7.5%, J.P. Morgan's 2027
+  estimate, above the middle of published forecasts (median about 6.5%). It read three claims off 8p without a run. This
+  section runs them on the register's engine. No forecast is called wrong here: each row is a "what if", and 7.5% stays
+  the register's input (section 0; CANON B15).
+- **Script and rerun:** `python3 -I keel/final_report/numbers/forecast_blocks.py` from the repo root (about 8 seconds).
+  Imports engine, plan and completion and changes none of them; reads no results file; writes only
+  `results_forecast_blocks_2026-11-18.json`. It asserts every register figure it touches: section 4's central row to the
+  cent (unrounded $97,605.08 and $117,142.45; funds pay $122,503.13; $7,503.13; $21,179.18; $28,682.31; the completion,
+  floor money, VT bought and VT on the move day); 8p's Syzygy and median rows ($115,811 and $18,828; $116,602 and
+  $20,212); 8p's +10.6% (3.4% a year) and 35.4%; section 4's house figures at 7.5% (57.2% at $115,000 or more; top
+  $95,000 / $115,000 / $140,000; bottom $80,000 / $95,000 / $115,000; 8f's $20,486); and that its house draws at 7.5%
+  equal `plan.draws` number for number. Every assert passes.
+- **Basis.** The register as re-sized Tue 17 Nov evening (H_plain with the fee cushion and the payments' 0.5% margin, the
+  range rule on the fund's holdings, Keel's reading of "most", the 6 Nov 2026 curve, the move on 1 Jan 2031).
+  - *Central:* today's forwards, VT at (1 + r) cubed to the move and squared after (8p's house panel).
+  - *House paths:* the register's 200,000 (seed 2033) with VT's median moved to r and J.P. Morgan's 17.88% spread kept;
+    the same random numbers, so only the median moves.
+  - *Shares alone:* rates at today's forwards; the chance VT is under the +10.6% the $115,000 step needs at the move
+    (lognormal arithmetic, as 8p's 35.4%).
+  - *The valuation case:* card Q124 row 18's input, J.P. Morgan's valuation block of -0.65% a year, which takes ACWI's
+    P/E from 20.82 to about 19.5 over ten years. The case keeps a 5.0% ten-year return but lands that whole fall in the
+    three years from January 2028 to the move; the other blocks earn 5.69% a year throughout (1.05 / 0.9935). The P/E in
+    January 2028 is taken as today's 20.82, as the card takes it. The engine has no blocks: the case enters only as VT's
+    value at the move, +10.60% on its January 2028 cost before the fee.
+
+| World shares a year (VT, before its 0.06% fee) | Stated range, central (unrounded top) | Her flexibility, 1 Jan 2033, central (plus anything above the top) | House paths with a stated top under $115,000 (shares alone, rates at forwards) |
+|---|---|---|---|
+| 3.1% (card Q124's lowest sum, with J.P. Morgan's valuation block) | $95,000 to $110,000 ($114,840) | $17,185 ($27,316) | 49.1% (51.2%) |
+| 5.0% (card Q124's middle; Syzygy, 8p) | $95,000 to $115,000 ($115,811) | $18,828 ($24,959) | 46.4% (44.2%) |
+| 6.5% (the median of fifteen houses' forecasts, card Q6b) | $95,000 to $115,000 ($116,602) | $20,212 ($27,159) | 44.2% (38.8%) |
+| **7.5% (J.P. Morgan 2027; the register)** | **$95,000 to $115,000 ($117,142)** | **$21,179 ($28,682)** | **42.8% (35.4%)** |
+| 5.0% over ten years, with the valuation fall (P/E 20.82 to about 19.5) landing before the move | $95,000 to $110,000 ($114,998, $2 under the step) | $18,224 ($28,518) | 48.7% (50.0%) |
+
+- **What it changes in the plan: nothing in the ten payments or the bottom.** VT does not enter the completion, the
+  floor or the payments' ledger; the script asserts that the completion ($39,162), the floor money ($81,244) and the
+  stated bottom are identical at every return, path by path in all 200,000 house paths. The bottom is $95,000 in every row.
+- **The top.** Centrally the stated top is $115,000 for any return above **3.417% a year to the move** (8p's "about
+  3.4%", re-derived), and $110,000 below it. In the house paths the forecast moves the share stating under $115,000 from
+  42.8% (7.5%) to 49.1% (3.1%), about 6 points; at every forecast the house median top is $115,000 and the 1-in-20 low
+  $95,000 (1-in-20 high $140,000, or $135,000 at 3.1% and in the valuation case). What shares do before the move moves the
+  top more than the choice of forecast does (Table 2's $95,000 to $140,000).
+- **Her flexibility.** The shares kept fall with the forecast, centrally $21,179 at 7.5% to $18,828 at 5.0% and $17,185
+  at 3.1% (house medians $20,486, $18,213, $16,623). With anything above the top the order is not the same: where the top
+  states $5,000 lower, that $5,000 stays with her (above the top $10,130 at 3.1% against $6,131 at 5.0%), so $27,316 at
+  3.1% is more than $24,959 at 5.0%.
+- **Card Q124's claims, checked.**
+  - *"At 5% the stated top stays $115,000 and her flexibility is about $18,828 against $21,179": holds.* The run gives
+    8p's Syzygy row to the dollar; the top clears the step by $811 (by $2,142 at 7.5%). Like with like: $18,828 is set
+    against $21,179, and $24,959 against $28,682 (WORDS: the second pair is "her flexibility plus anything above the top").
+  - *"Only the gloomiest sum (3.1%) sits under the 3.4% hurdle": holds.* At 3.06% and 3.1% the top states $110,000 ($180
+    and $160 under the step); the card's lowest sum with no valuation change, 3.70%, states $115,000, by $143. Row 23's
+    arithmetic holds (+10.6% needed; yield and inflation alone give 11.9% over three years).
+  - *"The step is lost mainly if valuations fall in the three years to the 2031 move": supported as far as the engine
+    reaches.* The top turns on VT's value on the move day, not on the ten-year figure: the same 5.0% over ten years
+    states $115,000 with its valuation fall spread over ten years and $110,000 (by $2) with the fall landed before the
+    move. The case sits on the step (at a P/E of exactly 19.5 it is $7 under), so it shows that the timing carries the
+    step, not a figure for prose. J.P. Morgan's 7.5% with the same fall landed before the move still states $115,000
+    ($116,271; her flexibility $20,500). The engine draws VT's value whole, so whether a fall comes from valuation or from
+    earnings is the card's reading (Grinold and Kroner's "noisiest component"), not a result of this run.
+  - *Row 24's P/Es: corrected by about 0.1.* Compounded yearly, as the engine's growth factors are, the step goes when
+    ACWI's P/E at the move falls to **20.65, 20.06, 19.39 or 19.13** (falls against earnings of 0.8%, 3.6%, 6.9% and 8.1%)
+    for the card's no-valuation sums 3.70%, 4.70%, 5.90% and 6.37%. The card's 20.6, 20.0, 19.3 and 19.0 (1%, 4%, 7%, 9%)
+    come back only if the sums are read as continuous rates. At a P/E of 19.5 by the move the first two state $110,000 and
+    the last two $115,000 (by $99 and $333).
+- **Notes for 3e (not wording).** A lower share forecast mostly lowers what Laura keeps, not what she can promise: at 5%
+  a year her flexibility is about $18,800 against about $21,200, and the top she can state is the same; below about 3.4%
+  a year to the move it is one $5,000 step lower; the payments and the bottom do not move. J.P. Morgan's 7.5% is "above
+  the middle of published forecasts (median about 6.5%)". Never "the top stays $115,000 at every return" (8p), never that
+  a forecast is wrong or too high, never $18,828 set against $28,682. "Certain" takes the stated range as its subject,
+  never a figure. The valuation case's $2 and the row 24 P/Es stay here.
+- **For the owner.** Card Q124: row 24 and verdict 4's P/Es read 20.7, 20.1, 19.4 and 19.1 (falls 1%, 4%, 7% and 8%) on
+  the engine; its Gaps line "no run at these values" is closed by this section; rows 23 and 38 and verdict 4 hold as
+  written. No figure elsewhere in this register disagrees with the run.
+- **Limits.** One spread (J.P. Morgan's 17.88%) at every median; the houses' own spreads are not used. Stocks and yields
+  are drawn apart in the house paths (section 7). The valuation case is one growth factor on VT with the P/E in January
+  2028 set at today's 20.82 (MSCI ACWI trailing, 30 Oct 2026; VT's own 19.3 is another vendor's average, card Q124 row
+  26) and the card's blocks read as yearly rates. The move on 1 Jan 2031, as everywhere in the register.
+
 ## 9. Still to add (later days)
 - **Sun 15 Nov evening (numbers owner), open after the fee fix:**
   - The haircut's size is the lead's call; the code keeps 0.5% (`completion.HAIRCUT`). The w1 frictions add to about 0.27%, so the 0.5% now leaves about 0.23% of each end beyond them (section 0).
@@ -2202,7 +2362,9 @@ What it shows:
   Q47 row 3 and SKELETON 3f ("registration on ten dates") are re-read against 8s; 3f's "none" rests on section 2 and
   needs the 2028 deposit's first dollars, so it is set against 3.2% and 13.7%, never 40.8%; RANKING_4's "a plan that
   bought the ten in Treasuries first never missed one" is the 27 Sep model's assumption, not its result. Not run: a
-  variant that keeps shares past 2033 and sells them to pay each date.
+  variant that keeps shares past 2033 and sells them to pay each date. **Left open Wed 18 Nov morning (numbers owner):**
+  the 27 Sep model draws no return after 2032 and has no share weight or sale rule after 2033, so the variant cannot be
+  run with it; any run would be a new model resting on choices the team never made (8s: "It was not the team's plan").
 - **Cards Q19, Q20 and Q24 refresh to these figures** (section 10). Q24's Taiwan dollar test (verdict 3, rows 22-25, card 4) is replaced by 8j.
 - **8j and 8k were added Tue 10 Nov evening.** Still open from them:
   - SKELETON 3b's Taiwan dollar sentence was written "to be re-run before use"; it is now re-run (section 10 gives the replacement).
@@ -2230,6 +2392,11 @@ What it shows:
   - **Section 2's names box and finding 3** still anchor the extra Treasuries on IPS l.13; WORDS, SKELETON, INTENT and CONCEIT now say l.13's "complete it", "top up" and "isn't dependent on yields staying put" belong to the $2,388 top-up alone, and the $35,894 is the part of the operating reserve above the ten that the report recommends (case l.95-96, Wharton), held in Treasuries as IPS l.11 says (coherence reader 6, H1; lead's decision Mon 16 Nov). **Done Tue 17 Nov:** section 2's names box and finding 3's "Why this keeps to the IPS" are re-anchored that way (l.13's clause for the $2,388 alone; the $35,894 as the reserve's part above the ten, case l.95-96 and Wharton's ask, held in Treasuries as IPS l.11 says); finding 3's "the whole completion" is now "the first $38,282 of the 2028 deposit". The register's working labels "completion", "top-up" and "backstop" elsewhere are unchanged (names box).
   - **Table 3 row 5's distance** from net asset value for a stressed trade day ("limit orders within [x]%", bond desk 4, M6; section 3's March 2020 note says more than 1%): a figure for the register before the row prints one. **Done Tue 17 Nov:** section 4, "A trade-day limit for Table 3 row 5": **0.5% of net asset value for each fund leg**, the worst median gap of March 2020 for government bond and equity ETFs (IOSCO; card Q45 row 1); normal days far inside it; a fill at the limit on every leg leaves the central stated range unchanged (`numbers/cost_cover.py` part C). The bond legs have no net asset value and keep the 25-basis-point curve test (8m). **Still open, for the exhibits' owner:** `exhibits/exhibit_data.py` l.574-575 and `exhibits/tables.md` l.98 still print "[x]%" (not edited here).
   - **`exhibits/tables.md` was edited by hand Mon 16 Nov night** (Tables 1-3, Figure 1's legend and note 1); `exhibit_data.py` and `build_exhibits.py` must carry the same changes before the next build, and Table 3's one-page fit must be re-measured.
+- **Wed 18 Nov morning (numbers owner): 8u added** (what it takes to break each promise; `numbers/break_test.py`,
+  `results_break_2026-11-18.json`; every register figure it uses re-derived and asserted, no existing figure changed).
+  Still open, for card Q109's owner: the card's figures that predate the Tue 17 Nov evening re-size (listed at the end of
+  8u). For the exhibits owner: Table 2's note says "(method in 3e)" for the starting months, and 3e's recast notes no
+  longer carry that method (SKELETON Exhibits item 3, Wed 18 Nov morning).
 - Later days add what the research rounds and the skeleton ask for.
 
 - **Added Mon 16 Nov evening (lead, from card Q88 and rater AL):** the WInS fills are dated 7-8 Oct in 8b and 6-7 Oct in 8g and 8m; both are right in their own zone (Sydney and ET), so every use names its zone, and 8b says so in its next edit. The price drift from the 2 Oct prices to the fills ($558.79 measured from 2 Oct, the iBond funds $507 under, three extra VT shares $476.49; card Q88) is not yet in 8m: re-derive it from the trade records before 2.5 quotes any of it. **Done Tue 17 Nov:** 8b names both zones on its fill row, its prose and its note, and 8e's fill row does the same; 8m's "(6 Oct)" is "(6 Oct ET)". 8m now carries the drift re-derived from portfolio.csv, book_l.csv, the 23 Oct snapshot and 8g (`numbers/book_drift.py`): $507.48, $476.49, $50.10 and $557.58 reproduce; $558.79 reproduces only against the sheet's displayed "$2,955" (its own prices give $2,955.29, so the gap is $558.50); Q88's $50.10 and $476.49 come from two different splits ($0.90 counted twice if added); new, the bonds came in $478.31 under the 5 Oct 01:18 ET check (the sheet's bond prices are Book L's clean + accrued, so Q88's open basis is settled), and the parts now net exactly. **Still open, for the card's owner:** card Q88 rows 9 and 13 and its Gaps bullet on the bond basis.

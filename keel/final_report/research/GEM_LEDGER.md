@@ -555,3 +555,99 @@ Rows that land nowhere, one line per card:
 - **Q119:** none refused; the pension rows stay in 3a's store, since Taiwan's law is out of the case's scope and 3d keeps Q9c.
 - **Q120:** none refused; the remaining standards rows are References or store context for version B.
 - **Q121:** rows 004 refused (a connoisseur's seal is endorsement, the signed sense), 018 refused (stirring maps to rebalancing; the plan is buy-and-hold) and 023 refused (slow drying argues for a gradual move, against NUMBERS 8r).
+
+## 12. Wed 18 Nov morning: 3e recast in card Q109's shape (numbers owner)
+
+SKELETON's 3e density row was rewritten as three notes (the ten payments; a figure she has stated; her flexibility),
+each in the order "how it breaks, the events that drive it, one figure" (NUMBERS 8u), then one line for the case's five
+areas (card Q37) and one for IPS l.17's two reasons as a separate list (card Q109 row 33). Reason for every move below:
+3e's clarity cell is the report's lowest (SCORECARD: 2; the evening lay reader, Tue 17 Nov: "about 200 words still carry
+some twenty ideas"), so anything that is not a failure, its events, its one figure or an area's name leaves 3e's prose.
+The replaced row is kept verbatim in `numbers/RUN_2026-11-18.md`; its own store list and DENSITY_CUT's list are unchanged.
+Nothing is deleted from the store; each item below names where it now lives.
+
+| Item that left 3e's prose | Where it lives now | Reason |
+|---|---|---|
+| The 4%-10% test and the $5,000 step said as what it is (NUMBERS 4, 8p) | 3c, its one home, with aha row 7 and NUMBERS 8v's honest edge (the lead's call, Wed 18 Nov morning, coherence reader 9, H5; SKELETON 3c's store column now agrees) | A test of the return assumption, not a way a promise breaks; thesis 6 stays in 3e's area (1) in words |
+| GMO's -2.5% and $110,000; fifteen houses' spread beyond "above the middle" (8p, card Q117) | The store | Area (1) keeps the assumption in words; the 7.5% with its place among forecasts goes to Table 2's note (lead's call, Wed 18 Nov morning; coherence reader 9, M1) |
+| History figures are shares of overlapping starting months, never probabilities | Table 2's note, replacing "(method in 3e)" (exhibits owner; NUMBERS 9) | The method belongs beside the rows it describes |
+| Yields moving independent of shares; the curve's date | Table 2's note (already printed there since Tue 17 Nov evening, as "independent of shares", never "in parallel", coherence reader 9, M8) | Already in the exhibit |
+| A fall in shares before the move lowers only the top, after it only her flexibility | Notes 2 and 3, in words | Merged into the notes' "not in its list" and "shrinks" |
+| "The plan answers to the move day, not the low on the way"; the 40% fall's $105,000 (8p; Q6c-015, Q6c-016) | The store; Table 2's shares-fall row keeps its own $105,000 | Not a way a promise breaks; a figure too many |
+| Area (2): "the cut-off is reason 1's trigger, not the assumption" | Table 3 row 1 (already) | Table 3 carries the dates |
+| A deposit received after 31 March 2028 still runs the same order (card Q34) | Table 3's note only if room; else the store | A Table 3 point, not a failure |
+| Co-sponsor money year by year in Taiwan dollars (card Q11d) | 3d's context if room; else the store | Note 3 names the co-sponsor shortfall without sizing it (case l.106-107) |
+| Public co-sponsors fall short through budget votes and rule changes, not recessions (card Q10d; never that Taiwan's government cut arts money in a recession, CANON B4) | 3d's context if room; else the store | As above |
+| The legislature that votes Taiwan's 2033 budget is not yet elected in 2031 (card Q92) | 3d's context if room; Table 3 watch candidate (exhibits owner); else the store | As above |
+| Building costs rise in bursts that raise the level for good, (card Q10c; never "led lately by wages": October 2026's rise was about 70% materials, card Q131 rows 2 and 25) | The store; Table 3 row 7 holds the trend band | Note 3 carries the tested limit, not the cost history |
+| "Otherwise the uses take turns" (card Q5e's second half) | 3b, where the three uses are listed once, if room; else the store | Card Q5e's first half (an inflationary fall hits her flexibility and a use at once) is merged into note 3's honest limit |
+| Fund costs beyond the fee "so far small in the ended funds" (card Q3c, about 0.27%) | The store, with card Q3c (coherence reader 9, M8: neither 3c nor 3d has a slot); Table 3 row 4 watches fund events; NUMBERS 8u keeps the 8.6 and 11.7 times | Notes 1-2 name the margin; its evidence sits with its size |
+| The default "priced by markets as small outside a debt-limit standoff" (card Q4c); the CBO comparison | The store; Table 3 row 2 watches the event | The default is named once as the IPS's condition, unsized in prose |
+| The plan answers for the money, not the site or the people (card Q9c) | 3e's scope clause if the writers have room, else the store (coherence reader 9, M8: 3d holds a different Q9c point; SKELETON's old limits list, l.178-180, still names it) | A scope line, not a failure |
+| Yale's 8% tax and Stanford's 2009 trigger (Q7c-003, Q7c-004) | The store | The two-reasons line keeps Q7b-033's exits; the contrast costs a sentence 3e lacks |
+| The two weak tests said as a limit (Q7b-035) | The store | As above; no new rule (CANON A34) |
+| "Runs unless someone acts" (Q7b-034) | 3a if room; else the store | Not a failure; 3e's room goes to the notes |
+| SVB as the one "no one can force a sale" example | The store; the aha register's reserve, "nobody can run on the plan" | Note 1 keeps card Q3b's point in words |
+| Defence in depth (IAEA SSR-2/1 4.10) | References only, no nuclear vocabulary | As before |
+| The career critique's answer (Campbell and Viceira; Ibbotson et al.) | 2.3, or the store | Note 1 keeps rank 4's tested limit only |
+| Card Q108 row 3 (her genre's fall after 2008; never "her genre fell by a third") and card Q98 row 26 (from the 3e reservoir) | Q108 row 3 may replace card Q12 as note 1's evidence clause, never beside it (the lead's call); Q98 row 26 to the order-of-purchase aha, 2.3 or 3a | One evidence clause per note |
+| Conceit images other than "erase every pencil line" (pays on delivery; registration marks; a stroke is not retouched; a US default is the paper) | CONCEIT's store | One turn per part (voice round 2); "erase" is the deletion test, which is note 2's "not in its list" |
+| New 8u figures (house-path shares, the bottom's yield steps, the $58,775 with the ETF's fee, the cost thresholds for the payments) | NUMBERS 8u only | No probability rarer than 1 in 100 in prose; one figure per note |
+
+
+**Coherence reader 9's homes (Wed 18 Nov morning, `meta/COHERENCE_9_2026-11-18.md`, M8 and M10):** the rows above now name homes that exist. Table 3's lines for 3e (`exhibits/tables.md` l.113-127: rows 2, 4, 5 and 7, the $1,177 line and IBTA as an example) stay as Table 3's reservoir, never 3e prose; row 6's line (a fall in yields before January 2028 lowers the bottom she can state, never one she has stated) went into note 2's "not in its list" (M5). "About three-quarters smaller" stays 2.3's one number (GOLDMINE 39) and 3e note 1 says it in words (H4).
+
+## 13. Wed 18 Nov morning: cards Q122-Q135 (587 rows, all rated)
+
+Nothing lost: every row is in the store with a judged score and a note (`store/ratings.csv`, last row per id: keep 402, adapt
+114, merged 70, refuse 1). The landing run read the 42 top-rated rows (three a card, scores 18 to 24) that the raters named for a part, plus Q129-004
+and store row H7-070 for goldmine row 17 and card Q127's conceit verdict (row 37). Landed in SKELETON as dated notes "(Wed 18 Nov
+morning)", under the density cut: no new figure in any part's prose, every row in its part's reservoir row with a stated order
+of claim on room, its rater's fix applied before landing. 3e's density and reservoir rows were being recast by the lead and were
+not touched; the 3e rows wait in a hand-off paragraph after "3e's two versions" ("rows for 3e ... held here for the lead"). Voice
+round 8's "What changes" went into 3d (density row and reservoir row) and 3f (conceit table and reservoir row), with CONCEIT's 3f
+row and V2.5. Goldmine rows 15 (3a) and 17 (3d) are placed. Seven new aha candidates are in
+`goldmine/AHA_REGISTER_candidates.md` ("New candidates, Wed 18 Nov morning").
+
+| Ids | Score or status | Where it lands |
+|---|---|---|
+| Q129-030, with Q9-016 and Q135-040 | 20 (Q9-016 25; Q135-040 22) | SKELETON 3a reservoir row, item (1): goldmine row 15 placed (purpose: why the ten-year commitment comes first, on a case from Laura's own world), with a pointer at the thesis-8 clause in 3a's density row; the clause in words, no figure; Korea, never Taiwan; the founder had died in 2008 |
+| Q129-025 | 20 adapt | SKELETON 3.0 reservoir row: an alternate to Q118-009 for 3.0's one evidence clause, never beside it; fix applied (Ando never calls running money the real gift: a building is not enough without money to run it; $50,000 a year is a base) |
+| Q126-036 | 24 | SKELETON 3a reservoir row, item (2), first if one clause frees: Florida's 2006 rule is IPS l.11 in a board's words; fix: confirm at the board's own record, never "only Florida" |
+| Q126-028 | 23 | SKELETON 3a reservoir row, item (3): a pooled promise named three forecasts, the ten rest on none; never merged with the two reasons (Q109) |
+| Q133-002 (with synthesis row 016) | 20 | SKELETON 3a reservoir row, item (4), second in line: the lessor releases only against invoices and keeps what is unclaimed, a Treasury pays on its date; the $75,934 stays in the store |
+| Q125-011, Q125-004 | 22, 22 | SKELETON 3a reservoir row, item (5), third in line: waiting is a bet against the rates already priced, a date takes none; fixes: translation given; pensions' plans were staged, Laura's is one date; never that the team chose a date for this reason |
+| Q132-015, Q132-004 | 21 adapt, 22 adapt | SKELETON 3a reservoir row, item (6): side by side with the case's ban on outside funding, never "because"; 004 never borrows "one step further" (3f's aha, CANON A4); its "plus two percent" is a payout ceiling for a pool partly in shares |
+| Q135-025, Q135-014 | 20, 20 | SKELETON 3a reservoir row, item (7): 025 a framing clause for Wharton's "appropriate operating reserve" if 3a's opening wants one; 014 for questions (quoted from the card; the site refused a re-read) |
+| Q127-012 | 20 | SKELETON 2.3 reservoir row, item (1): a publisher promises floors because it pools thousands of books; Laura cannot pool, so she owns hers; beside aha row 2 |
+| Q135-040 | 22 | SKELETON 2.3 reservoir row, item (2): residencies' giving fell in 2008-09 while applications rose ("can", never "fall together"); also goldmine row 15's support in 3a, never printed twice |
+| Q134-001, Q134-030 | 20, 20 adapt | SKELETON 2.3 reservoir row, item (3): a judge's question only ("royalties trade"); 030's fix applied (never "which is what the IPS means"; athletes, not authors) |
+| Q123-019 | 20 | SKELETON 3b reservoir row, item (1): Benter's "effective wealth" rule beside IPS l.11 quoted exactly; the plan goes further |
+| Q123-013, Q123-014 | 19, 20 adapt | SKELETON 3b reservoir row, item (2): a bettor's half guards against estimation error, the plan keeps the estimate out of the promise; 014's fix applied (true above about 3.4% a year on the central path; GMO and Ninety One give $110,000, 13 of 15; market luck before the move still moves the top), no figure in 3b |
+| Q131-014, Q131-015 | 20, 20 | SKELETON 3b reservoir row, item (3), and Table 3 (exhibits item 4, row 7): a stronger Taiwan dollar came with a dearer building; card figures (median 22.3%, 9.3% to 29.0%) not yet in NUMBERS, printed only after the numbers owner enters them beside 8q |
+| Q128-002, Q128-007 | 20, 20 | SKELETON 3c reservoir row, item (1), first from today if 3c has room: "unlikely" printed as "impossible" in the IPCC's Chinese, "certain" heard alike; mainland samples, check TCCIP's Taiwan rendering first |
+| Q127-009 | 20 | SKELETON 3c reservoir row, item (2): "a guarantee of payment" is the government lawyers' word for an advance (a party's, never the court's); a word guard, never in Laura's words |
+| H7-070 with Q129-004 | 22; 19 | SKELETON 3d reservoir row, item (1): goldmine row 17 placed (purpose: why co-sponsors can count her figure, owed against held); 9 of 23 letters, a sample picked for spread, store only; never that owning binds her (Q99) |
+| Q129-010 | 20 adapt | SKELETON 3d reservoir row, item (2): Lucas's "as long as I have the resources" against a figure held in full after the move (fix applied: the whole stated figure, not only the bottom); one of (1) and (2) at most |
+| Q127-034 | 20 | SKELETON 3d reservoir row, item (3): Airborne's earn-out line, why a top is named only after the move; the 11 of 100 worded as NUMBERS 4's "a top stated a year early", store only |
+| Q128-026 | 20 | SKELETON 3d reservoir row, item (4), and round 8's "guaranteed" rule in 3d's density row: Taiwan's fund law keeps "guaranteed" off a fund with no guarantor, so Laura's "guaranteed" takes her Treasuries, never IBTM's payout |
+| Q122-020 | 21 | SKELETON Table 3 (exhibits item 4): the "Never" column's outside reason (AB Stable: the carve-out held and the seller lost because it reacted); no new row or rule |
+| Q130-035 | 21 | SKELETON 3e hand-off, item (2), and Table 3 (exhibits item 4): tie each limit to the promise and figure it moves; retail investors only, if cited |
+| Q122-003, Q122-014 | 20, 20 | SKELETON 3e hand-off, item (1), for the two-reasons line in words: the economy carve-out is in nearly every large deal (check the 99+% at the paper's exhibit before printing; never call l.17 a MAC clause); Hexion's "easily ascertainable objective facts" as Keel's reading |
+| Q130-038 | 22 | SKELETON 3e hand-off, item (1): readers merge lists that sound alike, so the clause keeping the two lists apart stays; 8u's verbs glossed at first use |
+| Q130-012 | 19 | SKELETON 3e hand-off, item (2), and the aha candidates: short failure lists are earned; never "only two things can break the plan" (the payments' set has six events, NUMBERS 8u) |
+| Q124-006, Q124-029, Q124-004 | 18, 19, 19 | SKELETON 3e hand-off, item (3), area (1) in words: Bogle's investment against speculative return; never "building blocks" (CFA's other method), a wording guard for every part; the makers graded their 2002 forecast too high (reservoir only, never a verdict on 7.5%) |
+| Q125-015, Q126-015 | 20, 22 | SKELETON 3e hand-off, item (4): honest counters for a judge's question or the store (the Dutch back-test, its term-premium reason; Alabama's ratio swung on rulings, 2011-2013 only) |
+| Q131-002 | 19 | SKELETON 3e hand-off, item (5), a correction for the lead, and Table 3 row 7: October 2026's +7.18% was about 70% materials by contribution, so the 3e density row's store list's "led lately by wages (Q10c)" should read "led lately by materials" or drop the cause; the same phrase in section 12 above ("Building costs rise in bursts ... led lately by wages") is the numbers owner's to correct |
+| Q127-037 | keep, 17 | CONCEIT V2.1: "her next advance" added to pencil's examples; the advance parallel is never a turn (owed pulls ink toward signed; a second trade image; the shapes run opposite) |
+| Voice round 8 (`voice/ROUND8.md`) | | SKELETON 3d density row (Laura's words in plain terms, the condition as what happens, the year every time, full spoken sentences, "guaranteed" for the Treasuries) and reservoir row (the ask's terms glossed); SKELETON 3f conceit row and reservoir row ("the first plan's payments were in pencil" in its own sentence after the decision, glossed in the same sentence; written plain at writer P's density, no opening declaration and no closing tally); CONCEIT V2.2 row 3f, the note under V2.2 and V2.5 |
+
+Top rows not landed, each with its reason (all stay in the store):
+- **Q132-002** (20): the law licenses a fixed promise only once its money is set aside; the order is aha row 4's, in 3.0 (rater: never a second home for "she states only what she owns").
+- **Q133-026** (20): a public university takes pledges of five years and ten only case by case; 3d's one Taiwan half-clause is Q9c's, the lead's call of Tue 17 Nov evening.
+- **Q133-013** (19): who holds a reserve decides who loses; custody is carried by cards Q72 and Q78 and NUMBERS 8t (delay, not loss).
+- **Q134-006** (19): a finished stream's median price across 2,683 deals; a third party's music-led, unadjusted medians, and Q134-001 answers the same question.
+
+Rows that land nowhere, one line per card: the other rows of cards Q122-Q135 stay in the store with their raters' notes; the one
+refusal is recorded there. WORDS's conceit row still says 3f has no turn ("none for 3f, which stays plain"); its owner updates it
+to round 8's working turn, since this run did not edit WORDS.

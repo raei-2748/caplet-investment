@@ -127,6 +127,11 @@ of them, reading a round's passages blind.
   overprint 0 of 3, the third outside printing image to fail; "our first pencil, rubbed out" 3 of 3 but it stretches
   pencil from a figure to a plan). Every reader gave the IPS's reason for dropping the first plan and the model as the
   check. The whole reflection was heard as the team's and lost ground only where the record's dates and figures piled up.
+- Round 8 (Wed 18 Nov morning, `ROUND8.md`): writers O and P on writer J's diet, Laura's words to a co-sponsor (written
+  and spoken, plain) and the Team Reflection at a lighter density. Caplet 9 of 9; practice writers 23 of 24; one turn 6
+  of 6 ("the first plan's payments were in pencil", best in its own sentence after the decision); Laura's notes 11 of 12
+  and understood 12 of 12, but ranked lowest for fundraising terms ("draw", "close date", "custodian") and clipped spoken
+  fragments; the lighter reflection's mean rank 4.7, the best whole reflection yet.
 
 ## Files
 

@@ -134,8 +134,8 @@ are facts to write from, not sentences to copy.
     and the range would be one figure, the bottom (no payout figure here, as in SKELETON and CONCEIT since Tue 17 Nov).
   - **Dot gain.** A press always prints a little darker than the file, so printers lighten the file first and the print
     lands where they want it. The funds' fee, the 0.5% held back and the rounding down are taken out before the range is
-    stated, so the money comes out lighter than the figure she names only if the funds' other costs pass the margin
-    held back (at least 0.5%, about 2% on today's figures; "about 3%" before the Tue 17 Nov evening re-size, coherence
+    stated, so the money comes out lighter than the figure she names only if the funds' other costs pass the room
+    held back under the top (the 0.5% margin plus the rounding down, about 2% on today's figures; never "the margin" for the whole room; "about 3%" before the Tue 17 Nov evening re-size, coherence
     reader 8, M2) (coherence reader 6, M1; bond desk 4, H1, Mon 16 Nov).
   - (Retired Tue 17 Nov after voice round 6: "let the ink dry" and the key plate needed decoding; do not use them. The
     plain fact stays: the top is stated only once the shares have moved, and a top stated a year early would be more
