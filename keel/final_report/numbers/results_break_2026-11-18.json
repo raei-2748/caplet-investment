@@ -1,0 +1,149 @@
+{
+ "run": "Wed 18 Nov 2026 morning (Sydney), numbers owner",
+ "rule": "Sun 15 Nov 2026 evening: fund fee charged from each trade day (price = gross holdings' value); distributions wait in the Treasury-bill ETF at its 0.15% fee; haircut 0.5%; rounded down to $5,000",
+ "design": "H_plain",
+ "curve": "11/06/2026",
+ "register_results": "2026-11-17",
+ "note": "MODEL. Register figures re-derived and asserted; new figures marked new in NUMBERS 8u.",
+ "1_payments": {
+  "deposit": {
+   "first_slice_jan2028": 39161.968069843286,
+   "standard_survives_a_deposit_fall_of": 0.7389202128677115,
+   "topup_jan2028": 2388.148374122341,
+   "ladder_at_forwards_survives_a_deposit_fall_of": 0.9840790108391844
+  },
+  "fall_before_jan2027_taking_the_whole_deposit_points": {
+   "standard": 3.57195,
+   "ladder_at_forwards": 3.8891499999999994
+  },
+  "fall_during_2027": {
+   "first_slice_after_2pt": 46350.68297588834,
+   "register_first_slice_at_zero_rates_most_check_b": 60393,
+   "plan_run_first_slice_at_d1_minus_10pt": 96829.23896529264,
+   "note": "most_check (b) prices the tail on its flows with rates floored at zero: $60,393 (register). plan.run prices the tail by duration, so its -10-point figure is not the floored one and is shown only as a check that no 2027 fall reaches $150,000."
+  },
+  "missed_deposit": {
+   "short_2033_at_forwards": 3016.2297452894345,
+   "short_ten_at_zero": 57455.45735757391,
+   "short_ten_zero_and_bill_fee": 58775.393082796254
+  },
+  "fund_costs_beyond_fee": {
+   "0.0050": {
+    "short_standard_total": 0,
+    "short_standard_by_year": {},
+    "short_zero_no_bill_fee": 0.0,
+    "left_after_2042_forwards": 74030.78627208354,
+    "net_rate_needed_on_waiting_money": -0.001500005338049541,
+    "gross_rate_needed_before_bill_fee": -5.338049541021156e-09
+   },
+   "0.0075": {
+    "short_standard_total": 593.4659987717241,
+    "short_standard_by_year": {
+     "2036": 471.21066887964116,
+     "2037": 122.25532989208295
+    },
+    "short_zero_no_bill_fee": 25.027191808119824,
+    "left_after_2042_forwards": 73079.16797976405,
+    "net_rate_needed_on_waiting_money": 8.367407717403214e-05,
+    "gross_rate_needed_before_bill_fee": 0.0015836740771740321
+   },
+   "0.0100": {
+    "short_standard_total": 1186.931997543492,
+    "short_standard_by_year": {
+     "2036": 942.4213377593114,
+     "2037": 244.51065978418046
+    },
+    "short_zero_no_bill_fee": 601.1910328183221,
+    "left_after_2042_forwards": 72127.54968744458,
+    "net_rate_needed_on_waiting_money": 0.0016650480445227487,
+    "gross_rate_needed_before_bill_fee": 0.0031650480445227485
+   },
+   "0.0200": {
+    "short_standard_total": 3560.7959926304247,
+    "short_standard_by_year": {
+     "2036": 2827.264013277898,
+     "2037": 733.5319793525268
+    },
+    "short_zero_no_bill_fee": 2984.6896532647224,
+    "left_after_2042_forwards": 68321.07651816681,
+    "net_rate_needed_on_waiting_money": 0.007967577797990545,
+    "gross_rate_needed_before_bill_fee": 0.009467577797990545
+   },
+   "largest_cost_covered_standard": 0.005000021062706305,
+   "largest_cost_covered_zero_no_bill_fee": 0.007367821149366126
+  }
+ },
+ "2_bottom": {
+  "central": {
+   "floor_zero_value": 98095.55381427324,
+   "floor_modelled_payout": 102365.47319642748,
+   "stated_bottom": 95000.0,
+   "cover_floor_alone_zero_interest": 0.031556514988784645,
+   "cover_floor_alone_modelled_payout": 0.07195270989754521
+  },
+  "house": {
+   "paths": 200000,
+   "cover_zero_interest": {
+    "min": 0.005000238173997085,
+    "p5": 0.0075684862347269784,
+    "median": 0.03026303712325812
+   },
+   "cover_modelled_payout": {
+    "min": 0.019019467418216585,
+    "p5": 0.045403130416692694,
+    "median": 0.07147293736684934
+   },
+   "paths_below_bottom_zero_interest_at_cost_0.0075": 9691,
+   "paths_below_bottom_zero_interest_at_cost_0.0100": 19688
+  },
+  "one_step_lower": {
+   "before_jan2027": {
+    "stated_below_95000": 0.09705,
+    "stated_below_90000": 0.28335,
+    "stated_below_85000": 1.3112499999999998,
+    "stated_after_0.25pt": 90000.0,
+    "stated_after_0.5pt": 85000.0,
+    "stated_after_1pt": 85000.0
+   },
+   "during_2027_alone": {
+    "stated_below_95000": 0.383591663225279,
+    "stated_below_90000": 1.1245809897502086,
+    "stated_below_85000": 1.8711582130425988,
+    "stated_after_0.25pt": 95000.0,
+    "stated_after_0.5pt": 90000.0,
+    "stated_after_1pt": 90000.0
+   }
+  },
+  "one_step_higher_rise_before_jan2027_points": 0.08925000000000001
+ },
+ "3_top": {
+  "central": {
+   "both_zero_value": 117731.10509147853,
+   "both_modelled_payout": 122503.1348225589,
+   "stated_top": 115000.0,
+   "cover_zero_interest": 0.023197820910255018,
+   "cover_modelled_payout": 0.061248512810932576
+  },
+  "vt_change_from_jan2028_cost_at_the_move_for_stated_top_at_least": {
+   "115000": 0.10606779600547878,
+   "110000": -0.21186052575081926,
+   "105000": -0.5297888475071166,
+   "100000": -0.847717169263415
+  }
+ },
+ "4_flexibility": {
+  "central": 28682.31369214068,
+  "half_kept": 21179.178869581778,
+  "above_the_top": 7503.134822558903,
+  "rise_in_usd_building_cost_it_covers_on_the_top": 0.24941142340991895,
+  "rise_it_covers_on_the_bottom": 0.3019190914962177,
+  "ten_pct_stronger_twd_on_the_top": 11500.0,
+  "vt_worthless_at_the_move": {
+   "stated": [
+    95000.0,
+    95000.0
+   ],
+   "her_flexibility": 7365.473229685906
+  }
+ }
+}

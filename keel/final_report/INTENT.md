@@ -82,8 +82,8 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
 3. In 2031 Laura states her range, about $95,000 to $115,000 on today's figures, and both ends are money she already
    owns in Treasury funds; co-sponsors count the top, owned before she speaks; the bottom is the part owned since
    January 2028 (funder test, Mon 16 Nov evening; WHY_A_RANGE 4e, which calls this item "failure 3"). The contribution
-   falls short of the top only if the funds' costs beyond the fees pass the margin held back (at least 0.5% of their
-   value, about 2% on today's figures; "about 3%" before the Tue 17 Nov evening re-size, coherence reader 8, M2) with
+   falls short of the top only if the funds' costs beyond the fees pass the room held back under the top (the 0.5% margin
+   plus the rounding down, about 2% on today's figures; "the margin" is the 0.5% alone, coherence reader 9, H3, Wed 18 Nov; "about 3%" before the Tue 17 Nov evening re-size, coherence reader 8, M2) with
    cash waiting earning nothing, and then by about $120 for each further 0.1% centrally (about $144 at the house 1-in-20
    high, NUMBERS 3; coherence reader 8, L6) (bond desk 4, Mon 16 Nov, H1; never "a few hundred dollars"; the coherence reader: this condition must
    travel with the confidence). (Notes, not words for the report: the written
