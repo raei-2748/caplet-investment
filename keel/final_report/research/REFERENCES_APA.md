@@ -1100,6 +1100,92 @@ Culture 2016a, National Audit Office 2024a, TCCIP 2026b, Vanguard 2026d).
   Q140 row 45, Q142 rows 35-37 (the mapping), Q144 row 11, Q145 rows 4 and 25, Q149 rows 33 and 34.
 - The other entries in these cards' Sources sections: behind no landed row, so they stay with their cards.
 
+### 2k. Entries added 19 Nov 2026 (Thu): sources behind today's syntheses and cards Q151-Q162
+
+Added by the conceit-and-ledger run of Thu 19 Nov: the investing and economics literature that today's syntheses
+(`SYNTHESES.md`, kept or adapted) rest on, the literature behind the strongest rows of cards Q151-Q162 that GEM_LEDGER
+section 15 gives a home, and the legal sources behind the facts this run placed in CONCEIT V2.1 (cards Q157 and
+Q160). As in sections 2g-2j, each entry is copied from its card's Sources section, the card's retrieval date moved to
+the Accessed column and its reading note to Status. Status "FROM CARD" until a references run re-checks it. English
+entries only, alphabetised; nothing from Wharton. The two legal entries (row 907, a code section with its official
+comment, and row 926, a statute) follow the cards' forms, and the owner places them under the legal-reference rule
+(section 5).
+
+| # | APA 7 entry | Card and row | Status | Accessed |
+|---|---|---|---|---|
+| 893 | Ames, D. R., & Mason, M. F. (2015). Tandem anchoring: Informational and politeness effects of range offers in social exchange. *Journal of Personality and Social Psychology, 108*(2), 254-274. https://www.columbia.edu/~da358/publications/Tandem_anchoring.pdf | Q159 r29 (GEM_LEDGER 15: 3d, evidence for naming the top) | FROM CARD (Study 1 read in full) | 19 Nov 2026 |
+| 894 | Andreoni, J., & Payne, A. A. (2011). Is crowding out due entirely to fundraising? Evidence from a panel of charities. *Journal of Public Economics, 95*(5-6), 334-343. https://doi.org/10.1016/j.jpubeco.2010.11.011 | Q158 r19 (GEM_LEDGER 15: 3e, an honest limit) | FROM CARD (read at econweb.ucsd.edu) | 19 Nov 2026 |
+| 895 | Arrow, K. J., & Fisher, A. C. (1974). Environmental preservation, uncertainty, and irreversibility. *The Quarterly Journal of Economics, 88*(2), 312-319. https://doi.org/10.2307/1883074 | Q154 r6 (CONCEIT V2.2 3b aha cell; 3b's theory line) | FROM CARD (full text read at pdf.stafforini.com); cited in CONCEIT since Sun 15 Nov with no list entry until now | 19 Nov 2026 |
+| 896 | Asness, C., Cao, J., Ilmanen, A., & Villalon, D. (2025). Rebuffed: An empirical review of buffer funds. *The Journal of Portfolio Management, 51*(10). https://www.aqr.com/-/media/AQR/Documents/Insights/Journal-Article/JPM-Rebuffed-An-Empirical-Review-of-Buffer-Funds.pdf | Q162 r19 (3b evidence clause) | FROM CARD (pp. 2, 6, 15-17 read); ELEMENTS MISSING: page range | 19 Nov 2026 |
+| 897 | Asness, C., & Villalon, D. (2025, May 8). *Buffer madness*. AQR Capital Management. https://www.aqr.com/Insights/Perspectives/Buffer-Madness | Q162 r21 (3a or 3b, with Q162 r36) | FROM CARD (footnote 16 read) | 19 Nov 2026 |
+| 898 | Bader, L. N. (1983). Actuarial implications of dedicated pension funds [with discussion by C. D. Beers, P. Tino and J. W. Pennisten]. *Transactions of the Society of Actuaries, 35*, 563-584. https://www.soa.org/globalassets/assets/library/research/transactions-of-society-of-actuaries/1983/january/tsa83v3519.pdf | Q104 r13 (synthesis SB-1: 2.2 or 3a) | FROM CARD (read in full) | 16 Nov 2026 |
+| 899 | Bortolotti, B., Megginson, W., & Smart, S. B. (2008). The rise of accelerated seasoned equity underwritings. *Journal of Applied Corporate Finance, 20*(3), 35-57. https://www.bernardobortolotti.com/wp-content/uploads/2013/03/20107281613154The-rise-of-Accelerated-Seasoned-Equity-Underwritings.pdf | Q152 r1 (3c and WORDS: "a bought deal") | FROM CARD (re-read at source by the rater) | 19 Nov 2026 |
+| 900 | Brav, A., Graham, J. R., Harvey, C. R., & Michaely, R. (2005). Payout policy in the 21st century. *Journal of Financial Economics, 77*(3), 483-527. https://people.duke.edu/~charvey/Research/Published_Papers/P88_Payout_policy_in.pdf | Q153 r2 (synthesis SC-1; 3c beside aha 7) | FROM CARD (read at source 19 Nov, closing SC-1's gap, which had it only through a CFA digest) | 19 Nov 2026 |
+| 901 | Breedon, F., & Twinn, I. (1995). *The valuation of underwriting agreements for UK rights issues: Evidence from the traded option market* (Bank of England Working Paper No. 39). Bank of England. https://www.bankofengland.co.uk/-/media/boe/files/working-paper/1995/valuation-of-underwriting-agreements-for-uk-rights-issues-evidence-from-the-traded-option-market.pdf | Q152 r9, r10, r11 (3c, "speaking early does") | FROM CARD | 19 Nov 2026 |
+| 902 | Buffett, W. E. (2010, February 26). *To the shareholders of Berkshire Hathaway Inc.* [2009 letter]. Berkshire Hathaway. https://www.berkshirehathaway.com/letters/2009ltr.pdf | Q14b r11 (synthesis SE-3: 3f's closing paragraph) | FROM CARD (SE-3's gap: confirm when the S&P comparison began before "fixed before" is said of Buffett) | 16 Nov 2026 |
+| 903 | Center for Effective Philanthropy. (2020). *New attitudes, old practices: The provision of multiyear general operating support*. https://cep.org/wp-content/uploads/2020/11/Ford_MYGOS_FNL.pdf | Q158 r16 (3d) | FROM CARD (Table 1 and Figure 2 read) | 19 Nov 2026 |
+| 904 | Chaboud, A., Correia Golay, E., Fleming, M., Huh, Y., Keane, F., & Shachar, O. (2025, November). *Liquidity and trading dynamics in the off-the-run U.S. Treasury market* (Staff Report No. 1170). Federal Reserve Bank of New York. https://doi.org/10.59576/sr.1170 | Q45 r22, r23 (synthesis SB-6: 3a's liquidity clause) | FROM CARD (Tables 2-3 and text read) | 15 Nov 2026 |
+| 905 | Choi, S. Y. (2025). How does nonprofit revenue diversification affect revenue volatility before, during, and after external economic crisis? *Nonprofit and Voluntary Sector Quarterly, 54*(6). https://doi.org/10.1177/08997640251316487 | Q158 r8 (3d and 3e; beside synthesis SD-7) | FROM CARD (Table 4 and the robustness text read); ELEMENTS MISSING: page range | 19 Nov 2026 |
+| 906 | DeAngelo, H., DeAngelo, L., & Skinner, D. J. (2000). Special dividends and the evolution of dividend signaling. *Journal of Financial Economics, 57*(3), 309-354. http://marshallinside.usc.edu/deangelo/Publications/SpecialDiv.pdf | Q153 r23, r26 (3d aha; 3e) | FROM CARD (Table 6 read; the card also gives the ScienceDirect page) | 19 Nov 2026 |
+| 907 | District of Columbia. (2026). *D.C. Code § 28:8-503: Property interest of entitlement holder in financial asset held by securities intermediary, with Uniform Commercial Code Comment*. https://code.dccouncil.gov/us/dc/council/code/sections/28:8-503 | Q157 r32 (CONCEIT V2.1: Official Comment 2, "not a claim to a specific identifiable thing"; 2.0) | FROM CARD (the comment was read here; legal material, which the owner may instead cite as the UCC under section 5) | 19 Nov 2026 |
+| 908 | Duffie, D. (2020, June). *Still the world's safe haven? Redesigning the U.S. Treasury market after the COVID-19 crisis* (Hutchins Center Working Paper No. 62). Brookings Institution. https://www.brookings.edu/wp-content/uploads/2020/05/wp62_duffie_v2.pdf | Q45 r21 (synthesis SB-6) | FROM CARD (read in full); REFERENCES_PLAN A239 now carded | 15 Nov 2026 |
+| 909 | Ferguson, R. E. (1983). Duration. *Proceedings of the Casualty Actuarial Society, 70*, 265-288. https://www.casact.org/sites/default/files/database/proceed_proceed83_83265.pdf | Q104 r5 (synthesis SB-1) | FROM CARD (read in full; it reprints Leibowitz's 1979 Salomon Brothers tables) | 16 Nov 2026 |
+| 910 | Friedman, M. (1955). The role of government in education. In R. A. Solo (Ed.), *Economics and the public interest* (pp. 123-144). Rutgers University Press. https://la.utexas.edu/users/hcleaver/330T/350kPEEFriedmanRoleOfGovttable.pdf | Q134 r25 (synthesis SA-1: 2.3) | FROM CARD (read in extract) | 18 Nov 2026 |
+| 911 | Gardner, N. R., Ritschel, J. D., White, E. D., & Wallen, A. T. (2017). Forecasting foreign currency exchange rates for Department of Defense budgeting. *Journal of Public Procurement, 17*(3), 315-336. http://www.ippa.org/images/JOPP/vol17/issue-3/Article_2_Gardner-et-al.pdf | Q69 r11 (synthesis SC-3: 3e and Table 3 row 7's note) | FROM CARD | 16 Nov 2026 |
+| 912 | Grossman, H. I., & Van Huyck, J. B. (1988). Sovereign debt as a contingent claim: Excusable default, repudiation, and reputation. *American Economic Review, 78*(5), 1088-1097. https://ideas.repec.org/a/aea/aecrev/v78y1988i5p1088-97.html | Q7 r8 (syntheses SA-5 and SE-4: 3e; GOLDMINE 20) | FROM CARD (abstract and NBER Working Paper 1673 read; SA-5's gap: read the published article before it is cited); REFERENCES_PLAN A108 now carded | 9 Nov 2026 |
+| 913 | Henry, C. (1974). Investment decisions under uncertainty: The "irreversibility effect." *The American Economic Review, 64*(6), 1006-1012. https://pdf.stafforini.com/henry-1974-investment-decisions-uncertainty.pdf | Q154 r2 (3b's theory line; CONCEIT V2.2 3b aha cell) | FROM CARD (full text read) | 19 Nov 2026 |
+| 914 | IFR. (2013, August 23). 1987: £7.2bn BP privatisation: The deal that defied Black Monday. https://www.ifre.com/ifr-reports/37216/1987-7.2bn-bp-privatisation-the-deal-that-defied-black-monday | Q152 r20, r32 (3c: why nothing is stated before the move) | FROM CARD (the rater asks that the speaker's role at the time be named with the quote) | 19 Nov 2026 |
+| 915 | Israelov, R. (2019). Pathetic protection: The elusive benefits of protective puts. *The Journal of Alternative Investments, 21*(3). https://www.aqr.com/-/media/AQR/Documents/Journal-Articles/Pathetic-Protection-JAI-Wint19.pdf | Q162 r25, r26 (3b; beside Perold and Sharpe, row 409) | FROM CARD (pp. 4-8, 28-29 and footnote 5 read); ELEMENTS MISSING: page range | 19 Nov 2026 |
+| 916 | Kaplan, R. M., & Irvin, V. L. (2015). Likelihood of null effects of large NHLBI clinical trials has increased over time. *PLoS ONE, 10*(8), e0132382. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132382 | Q91 r34 (synthesis SE-3: 3f's closing paragraph) | FROM CARD (read in full) | 16 Nov 2026 |
+| 917 | Kashner, E. (2025, December 18). *Buffer ETFs vs. T-bills: A total cost of ownership perspective*. FactSet Insight. https://insight.factset.com/buffer-etfs-vs.-t-bills-a-total-cost-of-ownership-perspective | Q162 r24 (3b parallel) | FROM CARD (article and author confirmed by the rater; the case inside it dates from May 2025, so check the dates before citing) | 19 Nov 2026 |
+| 918 | KPMG. (2025). *Handbook: Contingencies*. https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/US_DPP_BOOK_Contingencies_FRV.pdf | Q106 r19 (synthesis SE-2: 3c's analytical clause, it or Boeing's 10-K, CONCEIT V2.2 3c row) | FROM CARD (section 6.3; SE-2's gap: read ASC 450-30 itself, since the handbook is a reading of it) | 17 Nov 2026 |
+| 919 | Lent, G. E. (1955). Government holdings of tax-exempt securities. In *The ownership of tax-exempt securities, 1913-1953* (pp. 43-55). National Bureau of Economic Research. https://www.nber.org/system/files/chapters/c6456/c6456.pdf | Q62 r22, r14 (synthesis SB-3: 3a) | FROM CARD (SB-3's gap: read ch. 3 whole) | 16 Nov 2026 |
+| 920 | Lintner, J. (1956). Distribution of incomes of corporations among dividends, retained earnings, and taxes. *American Economic Review, 46*(2), 97-113. https://www.jstor.org/stable/1910664 | Q153 r2, r5, r6, r7, r9, r42 (synthesis SC-1; 3c) | FROM CARD (read in copies of the JSTOR scan at quantcorpfin.com and files.transtutors.com; SC-1 had it only through a secondary) | 19 Nov 2026 |
+| 921 | London Bullion Market Association. (n.d.). *The OTC guide: 8. Precious metal accounts; 24. Frequently asked questions*. https://www.lbma.org.uk/publications/the-otc-guide/precious-metal-accounts | Q157 r39 (CONCEIT V2.1: an unallocated holder "is an unsecured creditor"; 2.0, one clause) | FROM CARD (the card also gives the FAQ and clearing pages) | 19 Nov 2026 |
+| 922 | Major League Baseball & Major League Baseball Players Association. (2022). *2022-2026 Basic Agreement*. https://mlbplayers.com/_files/ugd/4d23dc_d6dfc2344d2042de973e37de62484da5.pdf | Q160 r5 (CONCEIT V2.1, behind "owned" in 3a: Art. XVI(c), p. 90), r1, r3 | FROM CARD (read at source; write under this agreement, which expires 1 Dec 2026, Q160 r13) | 19 Nov 2026 |
+| 923 | Marks, H. (2024, October 22). *Ruminating on asset allocation* [Memo to Oaktree clients]. Oaktree Capital Management. https://www.oaktreecapital.com/docs/default-source/default-document-library/ruminating-on-asset-allocation.pdf | Q162 r32, r36 (synthesis SB-8; GOLDMINE 33: 3a) | FROM CARD (both sentences re-read word for word, closing H1-031's and SB-8's check) | 19 Nov 2026 |
+| 924 | Nonprofit Operating Reserves Initiative Workgroup. (2009). *Maintaining nonprofit operating reserves: An organizational imperative for nonprofit financial stability* [White paper]. https://www.nonprofitaccountingbasics.org/sites/default/files/01-OperatingReservesWhitePaper2009.pdf | Q158 r33 (3a aha candidate) | FROM CARD (Appendix A read) | 19 Nov 2026 |
+| 925 | Pindyck, R. S. (2001). *Optimal timing problems in environmental economics* (MIT CEEPR Working Paper 01-001). Massachusetts Institute of Technology. https://dspace.mit.edu/bitstream/1721.1/44973/1/2001-001.pdf | Q154 r19 (3b and 3e: two one-way doors; CONCEIT V2.2 3b aha cell) | FROM CARD (pp. 2, 8-9 and 14 read; the 2000 journal article it cites was not read) | 19 Nov 2026 |
+| 926 | Securities Investor Protection Act, 15 U.S.C. §§ 78lll, 78fff-2. https://www.law.cornell.edu/uscode/text/15/78lll | Q157 r36 (CONCEIT V2.1 and WORDS: "held for her", never "in her name") | FROM CARD; ELEMENTS MISSING: the year of the Code edition, as row 267 | 19 Nov 2026 |
+| 927 | Uniform Law Commission. (2024, September 6). *Statement on ownership of investment property under Uniform Commercial Code Article 8*. https://higherlogicdownload.s3.amazonaws.com/UNIFORMLAWS/b7c515db-1895-4387-bb2d-ee99e58c0066/UploadedImages/Documents/ULC_Statement_on_Ownership_of_Investment_Property_under_UCC_Article_8-Sep_2024.pdf | Q157 r34 (CONCEIT V2.1: "a property interest, and not a contract claim"; 2.0, one clause) | FROM CARD | 19 Nov 2026 |
+| 928 | Watts, R. L. (2003). Conservatism in accounting Part I: Explanations and implications. *Accounting Horizons, 17*(3), 207-221. https://doi.org/10.2308/acch.2003.17.3.207 | Q43 r28 (synthesis SE-2; CONCEIT 5b rank 1, behind 3b's turn) | FROM CARD (read in full at pdfcoffee.com) | 14 Nov 2026 |
+| 929 | Yaniv, I., & Foster, D. P. (1997). Precision and accuracy of judgmental estimation. *Journal of Behavioral Decision Making, 10*(1), 21-32. https://deanfoster.net/research/dp138.pdf | Q159 r7, r8 (3c or 3d: why the top is named) | FROM CARD (introduction read; the 1995 paper is row 249) | 19 Nov 2026 |
+
+**Behind today's syntheses, already in the list** (cited by row, not re-added): Andreoni (2006), row 1; Barrett and
+Dannenberg (2012), row 5; Ben-David, Graham and Harvey (2013), row 6; Bracha, Menietti and Vesterlund (2011), row 20;
+Cumming, Leboeuf and Schwienbacher (2020), row 36; Francis and Johnson (2015), row 58; Gneezy, Keenan and Gneezy (2014),
+row 62; Leibowitz (1986a, 1986b), rows 86 and 87; List and Lucking-Reiley (2002), row 89; Redington (1952), row 105;
+Velthuis and Gera (2025), row 117; Ellis and Davidi (2005), row 173; Gneezy and Epley (2014), row 179; Ryan (2013), row
+223; Teigen (2023), row 238; Yaniv and Foster (1995), row 249; Perold and Sharpe (1995), row 409; Uhlmann and Cohen
+(2005), row 715; Strokosch (2010), row 800; Mapping Museums Lab (2025), row 852.
+
+**Behind today's syntheses or rows but not added** (each with its reason):
+- Herbst and Hendren (2024), behind synthesis SA-1 (Q134 r29): only a summary was read (microeconomicinsights.org); SA-1's
+  own gap says to read the *American Economic Review* article before it enters References.
+- Betermier, Jansson, Parlour and Walden (2012), behind SA-1 (Q1 r22): card Q1 read the Riksbank working paper and marks
+  the journal volume, pages and title as unchecked; add once checked.
+- Barrett and Dannenberg (2014) and Hurlstone et al. (2025), behind SD-1: the 2014 result was read only through Hurlstone,
+  and card Q11a gives no full entry for either; SD-1's gap asks for the 2014 paper at source.
+- Mæhlen et al. (2024), behind SC-6: card Q5d gives no full entry, and SC-6 waits on the PCC manual's 2023 revision.
+- Swensen, *Pioneering Portfolio Management*, behind SB-7: not read at source (SB-7's gap); SB-7 waits.
+- Marks (2014a, 2020), behind SE-5: SE-5 lands only if the lead swaps Marks in for Madsen et al. in 3f; the entries stay
+  with card Q13 until then.
+- Shiller (2011), lecture 19, behind SC-2: SC-2 is out after cold aha test 8 (GEM_LEDGER section 15); card Q152's
+  Bortolotti et al. (row 899 here) carries the "bought deal" word instead.
+- The bookkeeping texts (*Bookkeeping: Complete course*, 1912; *Bookkeeping and accountancy*, 1911; card Q106 r25-26) and
+  Boeing's 10-K (Q155 r25): CONCEIT V2.2's 3c row holds them as a second fact and an alternative clause, one at most; added
+  when a writer uses them. Likewise Goldcorp and London Wine (Q157 r44), Auckland Stadiums (Q155 r21) and the Sydney Opera
+  House's Venue Hire Policy (Q155 r15), all CONCEIT V2.5 candidates or the store's second fact.
+- Government, court, filing and news sources behind today's top rows (Hansard 1987-88 and HM Treasury, n.d., behind Q152
+  r20-33; 17 CFR 240.10b-9 behind Q152 r2 and r36; Taiwan's 證券交易法 behind Q152 r38; the FSC's 2025 releases behind
+  Q161 r11-28; pcc.mlwmlw.org behind Q156 r1-2; the iShares and etf.com pages behind Q151; Innovator's prospectuses and
+  briefs behind Q162 r3, r17, r18, r36 and r42; Taiwan's Legislative Yuan Budget Center and 表演藝術聯盟 behind Q158 r41-44):
+  their rows have homes in GEM_LEDGER section 15 for the landing run, and their entries are added when it places them, as
+  section 2j did.
+- Michaely, Thaler and Womack (1995), Amihud and Li (2003) and the other Q153 sources; Quigg (1993) behind Q154 r26; the
+  rest of cards Q151-Q162's Sources: behind rows of 18 or less, store-only rows or judges' questions, so they stay with
+  their cards.
+
 ## 3. Retractions
 
 Method: every journal article above that has a DOI was run through Crossref's update filter

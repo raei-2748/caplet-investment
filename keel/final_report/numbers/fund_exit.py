@@ -91,7 +91,7 @@ FZ, MZ = f(rr["floor_zero"]), f(rr["moved_zero"])
 assert (BOT, TOP) == (95_000.0, 115_000.0)
 near(FM, 81_244.28, 0.01, "floor money")
 near(MM, 18_349.05, 0.01, "moved money")
-near(FZ + MZ, 117_731, 1, "both funds' zero-interest value")
+near(FZ + MZ, 117_731, 1, "both lots' zero-interest value (the late-2032 fund bought twice)")
 
 
 # ---------------------------------------------------------------- one lot, exit on D

@@ -137,6 +137,12 @@ of them, reading a round's passages blind.
   4 of 6 (R1 3 of 3, one risk per sentence and the short closing line, mean rank 6.0); one turn 2 of 6 (understood, no
   voice); Laura's words 11 of 12, no fundraising term heard, spoken above written; every check answer right (3e's two
   figures 12 of 12), one gap: "mine still comes first" left open whether she pays anyway ("either way" fixes it).
+- Round 10 (Thu 19 Nov morning, `ROUND10.md`): writers S and T on writer J's diet, 3e plain and with the turn as the
+  closing line's gloss, and 3b (the facility contribution and her flexibility) plain and with "ink only goes one way".
+  Caplet 9 of 9; 3e turn 4 of 6 against plain 3 of 6 (S2, the turn in dashes inside a spoken sentence, mean rank 5.3,
+  the best 3e yet); 3b plain 5 of 6, turn 3 of 6 (S4 5.3, T4 12.3); writer S 11 of 12, T 4 of 12: the writer mattered
+  more than the turn; every check answer right (24 of 24); marked down: the plan's shorthand ("the room under the
+  figure"), definition-led paragraphs, slogan pairs, stacked citations. 3e keeps its turn in today's place.
 
 ## Files
 

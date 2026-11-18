@@ -20,6 +20,18 @@ plan.py and completion.py and changes none of them; reads no results file; write
 from cost_cover.py (insts_less) and most_check.py (comp's re-pricing is not needed: a fall during 2027 is priced by
 plan.run with completion.margin_fn, as section 5's "A fall during 2027" is), because importing either script re-runs it
 and rewrites its results file.
+
+Labels (Thu 19 Nov 2026 morning, numbers owner; NUMBERS 8u, 9; coherence reader 10, M1; bond desk 5, H1). Printed labels
+only; every figure and every JSON key is unchanged, so a re-run rewrites the results file byte for byte.
+  * The top rests on ONE fund, the late-2032 fund (IBTM), bought twice: the floor lot (January 2028) and the moved lot
+    (the shares moved in January 2031). `3_top.central.both_zero_value` ($117,731) is what those two purchases pay if
+    cash waiting earns nothing, after the 0.07% fund fee from each trade day and the bill ETF's 0.15% on distributions
+    (completion.rule's zero_world: floor_zero + moved_zero); `both_modelled_payout` ($122,503) is what they pay at
+    today's forwards. The top's 2.32% ("about 2%", in all, never a year) is 1 - top / both_zero_value; its 6.12% is
+    1 - top / both_modelled_payout. "both" means the two purchases, never two funds.
+  * `4_flexibility.central` ($28,682) and `vt_worthless_at_the_move.her_flexibility` ($7,365) are her flexibility plus
+    anything above the top (WORDS l.28: the half kept plus the excess); her flexibility alone is the half kept
+    (`half_kept`, $21,179). The JSON key keeps its old name; the printed label says the pot.
 """
 import copy
 import json
@@ -281,10 +293,13 @@ print(f"   paths below bottom at zero interest, costs 0.75% / 1%: {hb['paths_bel
 for lab, s in steps.items():
     print(f"   one step lower ({lab}): {s}")
 print(f"   one step higher: a rise of {100 * up:.2f} pt before 1 Jan 2027")
-print("3. Top")
-print(f"   cover {100 * (1 - top / Tz):.2f}% zero, {100 * (1 - top / PAY):.2f}% modelled; VT thresholds {({a: round(100 * b, 2) for a, b in thr.items()})}")
-print("4. Flexibility")
-print(f"   {k(kept + excess)}; covers a {100 * flex['rise_in_usd_building_cost_it_covers_on_the_top']:.1f}% rise on the top, "
+print("3. Top (the late-2032 fund's two purchases: the floor lot, January 2028, and the moved lot, January 2031)")
+print(f"   room under the top {100 * (1 - top / Tz):.2f}% of their zero-interest payout {k(Tz)}, {100 * (1 - top / PAY):.2f}% of "
+      f"their modelled payout {k(PAY)}; VT thresholds {({a: round(100 * b, 2) for a, b in thr.items()})}")
+print("4. Her flexibility plus anything above the top (the half kept plus the excess)")
+print(f"   {k(kept + excess)} (half kept {k(kept)} + above the top {k(excess)}); covers a "
+      f"{100 * flex['rise_in_usd_building_cost_it_covers_on_the_top']:.1f}% rise on the top, "
       f"{100 * flex['rise_it_covers_on_the_bottom']:.1f}% on the bottom; 10% stronger NT$ {k(0.1 * top)}; VT worthless: "
-      f"{flex['vt_worthless_at_the_move']}")
+      f"stated {flex['vt_worthless_at_the_move']['stated']}, her flexibility plus anything above the top "
+      f"{k(flex['vt_worthless_at_the_move']['her_flexibility'])}")
 print("wrote", OUT.name)

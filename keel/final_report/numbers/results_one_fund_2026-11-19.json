@@ -1,0 +1,309 @@
+{
+ "run": "Thu 19 Nov 2026 (Sydney), numbers owner",
+ "status": "MODEL, Keel arithmetic",
+ "numbers_section": "8w",
+ "curve": "11/06/2026",
+ "design": "H_plain",
+ "world": "today's forward rates; VT on plan.run's central 7.5% path; iBond funds at net asset value",
+ "fund_read_at_source": {
+  "net_assets": 641351942.0,
+  "shares_outstanding": 29250000.0,
+  "nav_per_share": 21.9352,
+  "as_of": "17 Nov 2026",
+  "holdings": 15,
+  "source": "https://www.ishares.com/us/products/328944/ishares-ibonds-dec-2032-term-treasury-etf (read Thu 19 Nov 2026, Sydney; the same $641,351,942 was read at blackrock.com on 18 Nov, card Q146 row 26)"
+ },
+ "wins_reference": {
+  "ibtm_shares": 4503,
+  "ibtm_cost": 97489.95,
+  "ibtm_share_of_book": 0.325,
+  "source": "NUMBERS 8g (at cost on the original $300,000); CANON D2 (4,503 shares: 1,142 rung, 3,361 floor)"
+ },
+ "wins_ibtm_share_of_fund_by_shares": 0.00015394871794871794,
+ "promises": {
+  "ten_payments": 500000.0,
+  "stated_top": 115000.0,
+  "stated_bottom": 95000.0,
+  "all_promised": 615000.0,
+  "on_ibtm": 165000.0,
+  "on_ibtm_share": 0.2682926829268293,
+  "own_lot_pays_forwards": 50000.0,
+  "own_lot_pays_standard": 47337.65122112597
+ },
+ "snapshots": [
+  {
+   "date": "2028-01-01",
+   "ibtm": {
+    "own_lot_2033_payment": 37896.85206452126,
+    "floor_lot": 81244.27740480486,
+    "moved_lot": 0.0,
+    "total": 119141.12946932612
+   },
+   "ibtm_distributions_already_paid_waiting_in_bill_etf": {
+    "own_lot": 1664.6279201453972,
+    "floor_lot": 0,
+    "moved_lot": 0.0
+   },
+   "whole_portfolio": 463174.9026749502,
+   "ibtm_share": 0.2572270837242184,
+   "bill_etf_all_waiting": 15589.852470886446,
+   "bill_etf_share": 0.033658672740796564,
+   "whole_portfolio_custody_lumping": 463174.9026749502,
+   "fee_wedge": 0.0,
+   "whole_portfolio_8t_headline_basis": 462495.6965323683,
+   "ibtm_with_its_distributions_waiting": 120805.75738947152,
+   "ibtm_with_its_distributions_waiting_share": 0.2608210347576871,
+   "next_largest_holding": {
+    "name": "IBTO",
+    "value": 35931.02285472846,
+    "share": 0.07757549609708529
+   },
+   "next_largest_single_security": {
+    "name": "IBTO",
+    "value": 35931.02285472846,
+    "share": 0.07757549609708529
+   },
+   "facility_lots_reconcile_with_plan_run": {
+    "floor_lot_held_plus_waiting": 81244.27740480486,
+    "plan_run_formula": 81244.27740480486
+   },
+   "ibtm_share_of_fund_17nov2026": 0.0001857656017970335,
+   "ibtm_equivalent_shares_at_17nov2026_nav": 5431.504133508066,
+   "ibtm_equivalent_shares_share_of_shares_outstanding": 0.00018569244900882277,
+   "promises_ibtm_pays": [
+    {
+     "promise": "the 2033 payment (IBTM is its own Treasury holding)",
+     "figure": 50000.0,
+     "lot": "own lot (January 2027; $2,287 tail January 2028)",
+     "pays": "$50,000 at today's forwards; $47,338 if cash waiting earns nothing, the extra Treasuries the other $2,662 (8h)"
+    },
+    {
+     "promise": "the bottom (owned, not yet stated: stated in 2031)",
+     "figure": 95000.0,
+     "lot": "floor lot (January 2028)",
+     "pays": "zero-interest value $98,096; $102,365 at today's forwards (section 4)"
+    }
+   ],
+   "promised_dollars_on_ibtm": 145000.0
+  },
+  {
+   "date": "2031-01-01",
+   "ibtm": {
+    "own_lot_2033_payment": 38273.37347832179,
+    "floor_lot": 82051.47400624231,
+    "moved_lot": 18349.04642600411,
+    "total": 138673.8939105682
+   },
+   "ibtm_distributions_already_paid_waiting_in_bill_etf": {
+    "own_lot": 7156.180247492469,
+    "floor_lot": 11235.93441059131,
+    "moved_lot": 0
+   },
+   "whole_portfolio": 534943.4571018852,
+   "ibtm_share": 0.25923093753094806,
+   "bill_etf_all_waiting": 78246.60086241527,
+   "bill_etf_share": 0.14627078773208071,
+   "whole_portfolio_custody_lumping": 534929.4810712509,
+   "fee_wedge": -13.976030634406925,
+   "whole_portfolio_8t_headline_basis": 534545.3785408054,
+   "ibtm_with_its_distributions_waiting": 157066.008568652,
+   "ibtm_with_its_distributions_waiting_share": 0.29361235563020865,
+   "next_largest_holding": {
+    "name": "short-term Treasury ETF (all waiting money)",
+    "value": 78246.60086241527,
+    "share": 0.14627078773208071
+   },
+   "next_largest_single_security": {
+    "name": "IBTO",
+    "value": 35888.13631160832,
+    "share": 0.06708771896386252
+   },
+   "facility_lots_reconcile_with_plan_run": {
+    "floor_lot_held_plus_waiting": 93287.40841683361,
+    "plan_run_formula": 93273.4323861992
+   },
+   "ibtm_share_of_fund_17nov2026": 0.00021622121152097207,
+   "ibtm_equivalent_shares_at_17nov2026_nav": 6321.979918604263,
+   "ibtm_equivalent_shares_share_of_shares_outstanding": 0.00021613606559330812,
+   "promises_ibtm_pays": [
+    {
+     "promise": "the 2033 payment (IBTM is its own Treasury holding)",
+     "figure": 50000.0,
+     "lot": "own lot (January 2027; $2,287 tail January 2028)",
+     "pays": "$50,000 at today's forwards; $47,338 if cash waiting earns nothing, the extra Treasuries the other $2,662 (8h)"
+    },
+    {
+     "promise": "the bottom (stated in 2031)",
+     "figure": 95000.0,
+     "lot": "floor lot (January 2028)",
+     "pays": "zero-interest value $98,096; $102,365 at today's forwards (section 4)"
+    },
+    {
+     "promise": "the top = the 2033 contribution (stated in 2031)",
+     "figure": 115000.0,
+     "lot": "floor lot + moved lot (the late-2032 fund bought twice)",
+     "pays": "zero-interest value $117,731; $122,503 at today's forwards (section 4)"
+    }
+   ],
+   "promised_dollars_on_ibtm": 165000.0
+  },
+  {
+   "date": "2032-01-01",
+   "ibtm": {
+    "own_lot_2033_payment": 38433.63039325506,
+    "floor_lot": 82395.03703439856,
+    "moved_lot": 18425.876903826094,
+    "total": 139254.5443314797
+   },
+   "ibtm_distributions_already_paid_waiting_in_bill_etf": {
+    "own_lot": 9166.99213015123,
+    "floor_lot": 15348.098874414023,
+    "moved_lot": 798.0125285543716
+   },
+   "whole_portfolio": 561105.3127585625,
+   "ibtm_share": 0.24817898024679622,
+   "bill_etf_all_waiting": 101994.6065446328,
+   "bill_etf_share": 0.1817744445212907,
+   "whole_portfolio_custody_lumping": 561080.1495228059,
+   "fee_wedge": -25.16323575655224,
+   "whole_portfolio_8t_headline_basis": 560803.8913503558,
+   "ibtm_with_its_distributions_waiting": 164567.6478645993,
+   "ibtm_with_its_distributions_waiting_share": 0.29329190817234513,
+   "next_largest_holding": {
+    "name": "short-term Treasury ETF (all waiting money)",
+    "value": 101994.6065446328,
+    "share": 0.1817744445212907
+   },
+   "next_largest_single_security": {
+    "name": "IBTO",
+    "value": 35894.22856826588,
+    "share": 0.06397057335244083
+   },
+   "facility_lots_reconcile_with_plan_run": {
+    "floor_lot_held_plus_waiting": 97743.13590881258,
+    "plan_run_formula": 97718.38955985605
+   },
+   "ibtm_share_of_fund_17nov2026": 0.0002171265653257813,
+   "ibtm_equivalent_shares_at_17nov2026_nav": 6348.451089184494,
+   "ibtm_equivalent_shares_share_of_shares_outstanding": 0.00021704106287810237,
+   "promises_ibtm_pays": [
+    {
+     "promise": "the 2033 payment (IBTM is its own Treasury holding)",
+     "figure": 50000.0,
+     "lot": "own lot (January 2027; $2,287 tail January 2028)",
+     "pays": "$50,000 at today's forwards; $47,338 if cash waiting earns nothing, the extra Treasuries the other $2,662 (8h)"
+    },
+    {
+     "promise": "the bottom (stated in 2031)",
+     "figure": 95000.0,
+     "lot": "floor lot (January 2028)",
+     "pays": "zero-interest value $98,096; $102,365 at today's forwards (section 4)"
+    },
+    {
+     "promise": "the top = the 2033 contribution (stated in 2031)",
+     "figure": 115000.0,
+     "lot": "floor lot + moved lot (the late-2032 fund bought twice)",
+     "pays": "zero-interest value $117,731; $122,503 at today's forwards (section 4)"
+    }
+   ],
+   "promised_dollars_on_ibtm": 165000.0
+  },
+  {
+   "date": "2032-11-30",
+   "ibtm": {
+    "own_lot_2033_payment": 39352.00526686331,
+    "floor_lot": 84339.77770693634,
+    "moved_lot": 18860.776304709732,
+    "total": 142552.55927850938
+   },
+   "ibtm_distributions_already_paid_waiting_in_bill_etf": {
+    "own_lot": 10429.289610662185,
+    "floor_lot": 17855.79310459691,
+    "moved_lot": 1237.3512814721817
+   },
+   "whole_portfolio": 587230.6229745791,
+   "ibtm_share": 0.2427539602012213,
+   "bill_etf_all_waiting": 122780.58497422287,
+   "bill_etf_share": 0.20908409774729678,
+   "whole_portfolio_custody_lumping": 587192.1070236313,
+   "fee_wedge": -38.515950947854435,
+   "whole_portfolio_8t_headline_basis": 587007.915483147,
+   "ibtm_with_its_distributions_waiting": 172074.99327524065,
+   "ibtm_with_its_distributions_waiting_share": 0.2930279630234639,
+   "next_largest_holding": {
+    "name": "short-term Treasury ETF (all waiting money)",
+    "value": 122780.58497422287,
+    "share": 0.20908409774729678
+   },
+   "next_largest_single_security": {
+    "name": "IBTO",
+    "value": 36666.22111457095,
+    "share": 0.062439218392325246
+   },
+   "facility_lots_reconcile_with_plan_run": {
+    "floor_lot_held_plus_waiting": 102195.57081153325,
+    "plan_run_formula": 102158.28043915766
+   },
+   "ibtm_share_of_fund_17nov2026": 0.00022226885106790457,
+   "ibtm_equivalent_shares_at_17nov2026_nav": 6498.80371633308,
+   "ibtm_equivalent_shares_share_of_shares_outstanding": 0.000222181323635319,
+   "promises_ibtm_pays": [
+    {
+     "promise": "the 2033 payment (IBTM is its own Treasury holding)",
+     "figure": 50000.0,
+     "lot": "own lot (January 2027; $2,287 tail January 2028)",
+     "pays": "$50,000 at today's forwards; $47,338 if cash waiting earns nothing, the extra Treasuries the other $2,662 (8h)"
+    },
+    {
+     "promise": "the bottom (stated in 2031)",
+     "figure": 95000.0,
+     "lot": "floor lot (January 2028)",
+     "pays": "zero-interest value $98,096; $102,365 at today's forwards (section 4)"
+    },
+    {
+     "promise": "the top = the 2033 contribution (stated in 2031)",
+     "figure": 115000.0,
+     "lot": "floor lot + moved lot (the late-2032 fund bought twice)",
+     "pays": "zero-interest value $117,731; $122,503 at today's forwards (section 4)"
+    }
+   ],
+   "promised_dollars_on_ibtm": 165000.0
+  }
+ ],
+ "vt_sensitivity_1jan2031": {
+  "1-in-20 low": {
+   "vt_1jan2031": 18962.0,
+   "ibtm": 129805.84748456409,
+   "whole_portfolio": 517207.364249877,
+   "ibtm_share": 0.25097447650001237
+  },
+  "1-in-20 high": {
+   "vt_1jan2031": 61435.0,
+   "ibtm": 151042.3474845641,
+   "whole_portfolio": 559680.3642498769,
+   "ibtm_share": 0.26987251497915543
+  }
+ },
+ "one_fund_event_section_3": {
+  "top_largest_short_zero": 4589.1772492683085,
+  "top_first_exit_short": "2031-01-02",
+  "top_covered_from": "2032-01-01",
+  "top_exits_short": 12,
+  "bottom_largest_short_zero": 2886.884858497142,
+  "bottom_last_exit_short": "2031-10-01",
+  "bottom_exits_short": 10,
+  "top_smallest_room_at_market_rates": 7294.544202013116,
+  "above_top_no_exit_at_market_rates_this_method": 7458.545432223764,
+  "ten_short_exit_1jan2031": 1826.5824089680827,
+  "ten_short_exit_1jan2031_by_year": {
+   "2036": 1826.5824089680827
+  },
+  "ten_short_exit_1jul2031": 936.3957377282059,
+  "ten_short_worst_exit": "2027-02-01",
+  "ten_short_worst": 8671.285680251953,
+  "ten_last_exit_short": "2032-01-01",
+  "ten_short_exit_1jan2031_with_0.5pct_cost": 2756.001721498047,
+  "ten_last_exit_short_with_0.5pct_cost": "2032-07-01",
+  "ten_short_at_market_rates_any": false
+ }
+}
