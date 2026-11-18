@@ -14,8 +14,11 @@ Part A, bond desk 4's check figures (research/panel/2026-11-16_bond_desk_4_3c_an
 NUMBERS 9, "Mon 16 Nov night"). A "cost beyond the fees" is x% of what the funds pay, taken off on top of the 0.07% fund
 fee and the bill fund's 0.15% that the rule already charges. The top is missed at cost x if
   * at zero interest:  (floor + moved half's zero-interest value) x (1 - x) < stated top, so the cover is 1 - top / that;
-  * at the interest the market expects: what the two funds pay (plan.run, the path's own rates) x (1 - x) < stated top,
-    so the cover is 1 - top / what the funds pay.
+  * at the interest the market expects: what the late-2032 fund pays on its two purchases (plan.run, the path's own
+    rates) x (1 - x) < stated top, so the cover is 1 - top / what the funds pay.
+  (Labels, Thu 19 Nov morning, numbers owner; bond desk 5, H1: one fund, IBTM, bought twice, the floor lot in January
+  2028 and the moved lot in January 2031; "both" in the printed labels and JSON keys means the two purchases, never two
+  funds. Printed labels only; the JSON is unchanged.)
 Plus the contribution's place against $95,000-$115,000 from today (51.2%: a check figure, never printed), and the floor's
 holdings' coupons paid out before its end (check3).
 
@@ -80,11 +83,11 @@ A = {
         "per_0.1pct_of_both_funds_zero": 0.001 * Tz,
     }
 }
-print("A. central: both funds' zero-interest value %.2f, stated top %.0f, haircut %.2f + rounding %.2f = %.2f"
+print("A. central: both lots' zero-interest value %.2f, stated top %.0f, haircut %.2f + rounding %.2f = %.2f"
       % (Tz, top, Tz - t_raw, t_raw - top, Tz - top))
 print("   cover at zero interest 1 - %.0f/%.2f = %.4f%%; at the modelled payout 1 - %.0f/%.2f = %.4f%%"
       % (top, Tz, 100 * (1 - top / Tz), top, pay, 100 * (1 - top / pay)))
-print("   bottom: below it only at costs of %.2f%% (floor alone, zero interest) / %.2f%% (both funds, zero) / %.2f%% (modelled)"
+print("   bottom: below it only at costs of %.2f%% (floor alone, zero interest) / %.2f%% (both lots, zero) / %.2f%% (modelled)"
       % (100 * (1 - bot / Fz), 100 * (1 - bot / Tz), 100 * (1 - bot / pay)))
 
 d0, d1, d2, vt3, vt2 = P.draws(P.N, P.SEED)

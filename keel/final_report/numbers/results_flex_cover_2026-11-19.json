@@ -1,0 +1,100 @@
+{
+ "run": "Thu 19 Nov 2026 morning (Sydney), numbers owner",
+ "section": "NUMBERS 8u (the about 25% at other share returns); bond desk 5, H2",
+ "rule": "Sun 15 Nov 2026 evening: fund fee charged from each trade day (price = gross holdings' value); distributions wait in the Treasury-bill ETF at its 0.15% fee; haircut 0.5%; rounded down to $5,000",
+ "design": "H_plain",
+ "curve": "11/06/2026",
+ "register_results": "2026-11-17",
+ "basis": "register as re-sized Tue 17 Nov evening; central path at today's forwards, VT at (1+r)^3 to the move and (1+r)^2 after; house model 200,000 paths, seed 2033, VT median moved to r, 17.88% spread kept; cover = (half kept + anything above the top) / contribution (= stated top)",
+ "rates": {
+  "3.1": 0.031,
+  "5.0": 0.05,
+  "6.5": 0.065,
+  "7.5": 0.075
+ },
+ "central": {
+  "3.1": {
+   "stated_bottom": 95000.0,
+   "stated_top": 110000.0,
+   "top_unrounded": 114840.29411174537,
+   "late2032_fund_pays_both_purchases": 120130.24537047588,
+   "contribution": 110000.0,
+   "above_top": 10130.245370475881,
+   "half_kept": 17185.418928222054,
+   "her_flexibility_plus_anything_above_the_top": 27315.664298697928,
+   "cover_on_the_stated_top": 0.2483242208972539,
+   "cover_on_115000": 0.23752751564085153,
+   "half_kept_alone_cover_on_the_stated_top": 0.15623108116565504
+  },
+  "5.0": {
+   "stated_bottom": 95000.0,
+   "stated_top": 115000.0,
+   "top_unrounded": 115810.83062543327,
+   "late2032_fund_pays_both_purchases": 121130.6017329944,
+   "contribution": 115000.0,
+   "above_top": 6130.601732994401,
+   "half_kept": 18828.394633184507,
+   "her_flexibility_plus_anything_above_the_top": 24958.996366178908,
+   "cover_on_the_stated_top": 0.21703475101025138,
+   "cover_on_115000": 0.21703475101025138,
+   "half_kept_alone_cover_on_the_stated_top": 0.16372517072334355
+  },
+  "6.5": {
+   "stated_bottom": 95000.0,
+   "stated_top": 115000.0,
+   "top_unrounded": 116602.27670865726,
+   "late2032_fund_pays_both_purchases": 121946.3650904543,
+   "contribution": 115000.0,
+   "above_top": 6946.365090454303,
+   "half_kept": 20212.258124235355,
+   "her_flexibility_plus_anything_above_the_top": 27158.623214689665,
+   "cover_on_the_stated_top": 0.23616194099730145,
+   "cover_on_115000": 0.23616194099730145,
+   "half_kept_alone_cover_on_the_stated_top": 0.17575876629769874
+  },
+  "7.5": {
+   "stated_bottom": 95000.0,
+   "stated_top": 115000.0,
+   "top_unrounded": 117142.44956602114,
+   "late2032_fund_pays_both_purchases": 122503.1348225589,
+   "contribution": 115000.0,
+   "above_top": 7503.134822558903,
+   "half_kept": 21179.178869581778,
+   "her_flexibility_plus_anything_above_the_top": 28682.313692140684,
+   "cover_on_the_stated_top": 0.24941142340991898,
+   "cover_on_115000": 0.24941142340991898,
+   "half_kept_alone_cover_on_the_stated_top": 0.18416677277897198
+  }
+ },
+ "house": {
+  "3.1": {
+   "paths": 200000,
+   "rise_covered_19_in_20": 0.14155485203129478,
+   "rise_covered_median": 0.21789214429297293,
+   "half_kept_alone_19_in_20": 0.07615445103290612,
+   "half_kept_alone_median": 0.1469447153883546
+  },
+  "5.0": {
+   "paths": 200000,
+   "rise_covered_19_in_20": 0.14837721008569857,
+   "rise_covered_median": 0.23015748909868977,
+   "half_kept_alone_19_in_20": 0.0829293316666006,
+   "half_kept_alone_median": 0.15961148678914974
+  },
+  "6.5": {
+   "paths": 200000,
+   "rise_covered_19_in_20": 0.1541238261534222,
+   "rise_covered_median": 0.2404436863803855,
+   "half_kept_alone_19_in_20": 0.08861276672112575,
+   "half_kept_alone_median": 0.1701990817681384
+  },
+  "7.5": {
+   "paths": 200000,
+   "rise_covered_19_in_20": 0.15833036947012183,
+   "rise_covered_median": 0.2476070601657303,
+   "half_kept_alone_19_in_20": 0.09262145922393127,
+   "half_kept_alone_median": 0.17754932894326242
+  }
+ },
+ "all_asserts_pass": true
+}

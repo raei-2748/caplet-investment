@@ -198,3 +198,13 @@ U.S. Copyright Office. (2023, February 21). *Re: Zarya of the Dawn (Registration
 Washington University Olin Business School. (2023, August 24). *Study: AI tools cause a decline in freelance work and income, at least in the short run*. https://olin.washu.edu/about/news-and-media/news/2023/08/study-ai-tools-cause-a-decline-in-freelance-work-and-incomeat-least-in-the-short-run.php. Retrieved November 18, 2026.
 
 Zhang, K., Yuan, Z., & Xiong, H. (2024). *The impact of generative artificial intelligence on market equilibrium: Evidence from a natural experiment* (arXiv:2311.07071v2). https://arxiv.org/abs/2311.07071 (full text read at https://arxiv.org/html/2311.07071v2). Retrieved November 18, 2026.
+
+## Note added Thu 19 Nov morning (numbers owner): row 29's later-curve figure
+
+- **Row 29, "(78.6% on the 13 Nov curve)":** exact on that curve the first slice of the 2028 deposit is **$31,859**, so
+  the deposit could arrive **78.8%** smaller and all ten still be paid even if cash waiting earns nothing. The 78.6% (a
+  first slice of $32,074) was card Q98's parallel-shift stand-in for the 13 Nov curve, $215 off. NUMBERS 5's
+  reconciliation line and 8u's dated line (Wed 18 Nov evening); section 4, "On a later curve (Wed 18 Nov evening)",
+  `numbers/later_curve_range.py`. The register stays on the 6 Nov 2026 curve, where the figure is 73.9% ("about
+  three-quarters", only "at today's rates"); the 13 Nov figure is disclosed, never re-booked. The row itself is not
+  rewritten.
