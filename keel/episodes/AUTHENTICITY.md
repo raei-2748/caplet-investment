@@ -165,7 +165,12 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   given as three numbers never tied together, three entry endings that landed), then eight (one serious: a sentence
   defining the scorecard's average; a line that read as blaming the writers for Amara's mistake), then four small ones
   (a nested report sentence, a $1.14 script fix played down, Amara's mistake named only in the summary, a count missed
-  with nobody's name on it); each was cut or put in plain words, and the third read's fixes went in without a fourth read.
+  with nobody's name on it); each was cut or put in plain words, and the third read's fixes went in without a fourth read. Ep 52 (Wed 18 Nov) failed three fresh
+  reads: 13 lines (three serious: a two-beat line closing on a mark's drop, "re-size" never explained, a paragraph on a
+  rater's brief written in office words and passive enough to read as Keel wronged, cut), then 11 (one serious: the
+  2% line nobody could say out loud; Jun's wrong fix named only by implication, now said plainly), then three small ones
+  (the 2% line still packed, an unexplained label for the bond reader, the narrator claiming the readers); each was cut
+  or put in plain words, and the third read's fixes went in without a fourth read.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
