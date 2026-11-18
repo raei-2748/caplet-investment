@@ -391,7 +391,9 @@ for wname in ("house", "history", "joint"):
 out["independent_pairing_24m"] = ind
 
 # ---------------------------------------------------------------- 6. Keel arithmetic on the register's central figures
-CEN = {"contribution": 115_000.0, "stated_bottom": 95_000.0, "kept": 21_347.0, "excess": 8_476.0}
+# (Wed 18 Nov evening: the re-sized central pots, as section 2's register check asserts; the Mon 16 Nov values were
+# kept $21,347 and excess $8,476, left here until tonight by mistake: numbers owner, Wed 18 Nov evening)
+CEN = {"contribution": 115_000.0, "stated_bottom": 95_000.0, "kept": 21_179.0, "excess": 7_503.0}
 ka = {}
 for sname, x in STRESS.items():
     for base in ("contribution", "stated_bottom"):

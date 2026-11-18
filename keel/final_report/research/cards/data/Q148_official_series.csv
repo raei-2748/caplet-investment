@@ -1,0 +1,198 @@
+# Q148 data: official series for independent artists, writers and performers (US NAICS 711510 / 7115 / 711) and Taiwan publishing, read at source 18 Nov 2026 (Sydney). pct_change columns are Keel arithmetic on the source's figures unless the note says "as published". Blank = not read.
+series,year,value,unit,pct_change,source,note
+census_nonemployer_7115_receipts,2005,12419000,USD thousand,,Census Statistical Abstract via card Q1c row 2,
+census_nonemployer_7115_receipts,2006,13067000,USD thousand,5.22,Census Statistical Abstract via card Q1c row 2,
+census_nonemployer_7115_receipts,2007,14299000,USD thousand,9.43,Census Statistical Abstract via card Q1c row 2,
+census_nonemployer_7115_receipts,2008,14555179,USD thousand,1.79,www2.census.gov nonemp08us.txt,
+census_nonemployer_7115_receipts,2009,13658262,USD thousand,-6.16,www2.census.gov nonemp09us.txt,
+census_nonemployer_7115_receipts,2010,14289895,USD thousand,4.62,www2.census.gov nonemp10us.txt,
+census_nonemployer_7115_receipts,2011,15089298,USD thousand,5.59,www2.census.gov nonemp11us.txt,above 2008
+census_nonemployer_7115_receipts,2012,16185902,USD thousand,7.27,www2.census.gov nonemp12us.txt,
+census_nonemployer_7115_receipts,2013,16465347,USD thousand,1.73,www2.census.gov nonemp13us.txt,
+census_nonemployer_7115_receipts,2014,17780937,USD thousand,7.99,www2.census.gov nonemp14us.txt,
+census_nonemployer_7115_receipts,2015,18371382,USD thousand,3.32,www2.census.gov nonemp15us.txt,
+census_nonemployer_7115_receipts,2019,23595600,USD thousand,,data.census.gov via card Q1c row 10,
+census_nonemployer_7115_receipts,2020,20674500,USD thousand,-12.38,data.census.gov via card Q1c row 10,
+census_nonemployer_7115_receipts,2021,25816000,USD thousand,24.87,data.census.gov via card Q1c row 10,above 2019
+census_nonemployer_7115_businesses,2008,696472,count,,nonemp08us.txt,
+census_nonemployer_7115_businesses,2009,690975,count,-0.79,nonemp09us.txt,
+census_nonemployer_7115_businesses,2010,710327,count,2.80,nonemp10us.txt,
+census_nonemployer_7115_businesses,2011,730022,count,2.77,nonemp11us.txt,
+census_nonemployer_7115_businesses,2012,748921,count,2.59,nonemp12us.txt,
+census_nonemployer_7115_businesses,2013,765790,count,2.25,nonemp13us.txt,
+census_nonemployer_7115_businesses,2014,798730,count,4.30,nonemp14us.txt,
+census_nonemployer_7115_businesses,2015,819224,count,2.57,nonemp15us.txt,
+census_nonemployer_7115_businesses,2019,969978,count,,via card Q1c row 10,
+census_nonemployer_7115_businesses,2020,874421,count,-9.85,via card Q1c row 10,
+census_nonemployer_7115_receipts_per_business,2008,20898,USD,,Keel arithmetic on nonemp08us.txt,
+census_nonemployer_7115_receipts_per_business,2009,19767,USD,-5.42,Keel arithmetic on nonemp09us.txt,
+census_nonemployer_7115_receipts_per_business,2010,20117,USD,1.77,Keel arithmetic on nonemp10us.txt,
+census_nonemployer_7115_sole_prop_receipts,2008,12811801,USD thousand,,nonemp08us.txt (legal form S),
+census_nonemployer_7115_sole_prop_receipts,2009,11808168,USD thousand,-7.83,nonemp09us.txt (legal form S),
+census_nonemployer_7115_sole_prop_receipts,2010,12315458,USD thousand,4.30,nonemp10us.txt (legal form S),
+census_nonemployer_7115_sole_prop_receipts,2011,12921702,USD thousand,4.92,nonemp11us.txt (legal form S),above 2008
+census_nonemployer_7115_sole_prop_receipts,2012,13829307,USD thousand,7.02,nonemp12us.txt (legal form S),
+census_nonemployer_7115_sole_prop_receipts,2013,13910661,USD thousand,0.59,nonemp13us.txt (legal form S),
+census_nonemployer_7115_sole_prop_businesses,2008,676182,count,,nonemp08us.txt (legal form S),
+census_nonemployer_7115_sole_prop_businesses,2009,667175,count,-1.33,nonemp09us.txt (legal form S),
+census_nonemployer_all_receipts,2008,962791527,USD thousand,,nonemp08us.txt (all sectors),
+census_nonemployer_all_receipts,2009,923018039,USD thousand,-4.13,nonemp09us.txt (all sectors),
+census_nonemployer_all_receipts,2010,950813840,USD thousand,3.01,nonemp10us.txt (all sectors),
+census_nonemployer_all_receipts,2011,989628512,USD thousand,4.08,nonemp11us.txt (all sectors),
+census_nonemployer_all_receipts,2012,1030932886,USD thousand,4.17,nonemp12us.txt (all sectors),
+census_nonemployer_all_businesses,2008,21351320,count,,nonemp08us.txt,
+census_nonemployer_all_businesses,2009,21695828,count,1.61,nonemp09us.txt,
+census_nonemployer_7115_share_of_all_receipts,2008,1.51,percent,,Keel arithmetic,
+census_nonemployer_7115_share_of_all_receipts,2009,1.48,percent,,Keel arithmetic,
+census_nonemployer_7115_share_of_all_receipts,2010,1.50,percent,,Keel arithmetic,
+census_nonemployer_7115_share_of_all_receipts,2011,1.52,percent,,Keel arithmetic,
+census_nonemployer_7115_share_of_all_receipts,2012,1.57,percent,,Keel arithmetic,
+irs_soi_naics711_receipts,2007,23.9,USD billion,,IRS SOI TY2008 bulletin Figure A,
+irs_soi_naics711_receipts,2008,24.6,USD billion,2.8,IRS SOI TY2008 bulletin Figure A,as published
+irs_soi_naics711_receipts,2009,22.2,USD billion,-10.0,IRS SOI TY2009 bulletin Figure A (card Q1c row 5),as published
+irs_soi_naics711_receipts,2010,23.4,USD billion,5.6,IRS SOI TY2011 bulletin Figure A (level); change as published in the TY2010 bulletin via card Q1c row 6,
+irs_soi_naics711_receipts,2011,25.3,USD billion,8.4,IRS SOI TY2011 bulletin Figure A,as published; above 2008
+irs_soi_naics711_receipts,2020,30.488562,USD billion,,IRS SOI TY2020 bulletin Table 1,
+irs_soi_naics711_receipts,2021,38.189385,USD billion,25.26,IRS SOI TY2021 bulletin Table 1,
+irs_soi_naics711_profits,2007,7.3,USD billion,,IRS SOI TY2008 bulletin Figure A,
+irs_soi_naics711_profits,2008,7.6,USD billion,3.0,IRS SOI TY2008 bulletin Figure A,as published
+irs_soi_naics711_profits,2010,7.7,USD billion,,IRS SOI TY2011 bulletin Figure A,
+irs_soi_naics711_profits,2011,8.5,USD billion,11.1,IRS SOI TY2011 bulletin Figure A,as published
+irs_soi_naics711_returns,2007,1068.0,thousand returns,,IRS SOI TY2008 bulletin Figure A,
+irs_soi_naics711_returns,2008,1094.0,thousand returns,2.4,IRS SOI TY2008 bulletin Figure A,as published
+irs_soi_naics711_returns,2010,1157.5,thousand returns,,IRS SOI TY2011 bulletin Figure A,
+irs_soi_naics711_returns,2011,1165.5,thousand returns,,IRS SOI TY2011 bulletin Figure A,
+irs_soi_naics711_returns,2020,1410.043,thousand returns,,IRS SOI TY2020 bulletin Table 1,
+irs_soi_naics711_returns,2021,1426.310,thousand returns,,IRS SOI TY2021 bulletin Table 1,
+irs_soi_arts_sector_receipts,2007,31.0,USD billion,,IRS SOI TY2008 bulletin Figure A,
+irs_soi_arts_sector_receipts,2008,33.1,USD billion,6.6,IRS SOI TY2008 bulletin Figure A,as published
+irs_soi_arts_sector_receipts,2010,31.3,USD billion,,IRS SOI TY2011 bulletin Figure A,
+irs_soi_arts_sector_receipts,2011,34.1,USD billion,9.0,IRS SOI TY2011 bulletin Figure A,as published
+irs_soi_arts_sector_receipts,2019,53.2,USD billion,,IRS SOI TY2020 bulletin Figure A,
+irs_soi_arts_sector_receipts,2020,40.7,USD billion,-23.4,IRS SOI TY2020 bulletin Figure A,as published
+irs_soi_arts_sector_receipts,2021,51.5,USD billion,26.4,IRS SOI TY2021 bulletin Figure A,as published; still below 2019
+irs_soi_arts_sector_receipts,2022,64.0,USD billion,24.4,IRS SOI TY2022 bulletin (search excerpt),as published; above 2019
+irs_soi_arts_sector_profits,2019,13.0,USD billion,,IRS SOI TY2020 bulletin Figure F,
+irs_soi_arts_sector_profits,2020,9.6,USD billion,-26.2,IRS SOI TY2020 bulletin Figure F,as published; largest percentage decrease of any sector
+irs_soi_arts_sector_profits,2021,13.0,USD billion,35.9,IRS SOI TY2021 bulletin Figure G,as published
+irs_soi_arts_sector_profits,2022,15.0,USD billion,15.0,IRS SOI TY2022 bulletin (search excerpt),as published
+irs_soi_all_nonfarm_receipts,2020,,percent,-2.1,IRS SOI TY2020 bulletin,as published
+irs_soi_all_nonfarm_profits,2020,337.2,USD billion,-5.1,IRS SOI TY2020 bulletin,as published
+irs_soi_all_nonfarm_receipts,2021,,percent,16.4,IRS SOI TY2021 bulletin,as published
+qcew_711510_private_employment,2005,43791,jobs (annual average),,BLS ENUUS000105711510,
+qcew_711510_private_employment,2006,47377,jobs (annual average),8.19,BLS ENUUS000105711510,
+qcew_711510_private_employment,2007,49298,jobs (annual average),4.05,BLS ENUUS000105711510,
+qcew_711510_private_employment,2008,49223,jobs (annual average),-0.15,BLS ENUUS000105711510,
+qcew_711510_private_employment,2009,45689,jobs (annual average),-7.18,BLS ENUUS000105711510,
+qcew_711510_private_employment,2010,45158,jobs (annual average),-1.16,BLS ENUUS000105711510,
+qcew_711510_private_employment,2011,47072,jobs (annual average),4.24,BLS ENUUS000105711510,
+qcew_711510_private_employment,2012,48971,jobs (annual average),4.03,BLS ENUUS000105711510,
+qcew_711510_private_employment,2013,50782,jobs (annual average),3.70,BLS ENUUS000105711510,above 2007
+qcew_711510_private_employment,2014,52221,jobs (annual average),2.83,BLS ENUUS000105711510,
+qcew_711510_private_employment,2015,52114,jobs (annual average),-0.20,BLS ENUUS000105711510,
+qcew_711510_private_employment,2016,51240,jobs (annual average),-1.68,BLS ENUUS000105711510,
+qcew_711510_private_employment,2017,50611,jobs (annual average),-1.23,BLS ENUUS000105711510,
+qcew_711510_private_employment,2018,51432,jobs (annual average),1.62,BLS ENUUS000105711510,
+qcew_711510_private_employment,2019,53116,jobs (annual average),3.27,BLS ENUUS000105711510; QCEW 2019 CSV US000,
+qcew_711510_private_employment,2020,43483,jobs (annual average),-18.14,BLS ENUUS000105711510; QCEW 2020 CSV US000,
+qcew_711510_private_employment,2021,49822,jobs (annual average),14.58,QCEW 2021 CSV US000,
+qcew_711510_private_employment,2022,58372,jobs (annual average),17.16,Keel arithmetic: 2023 level 59575 less over-the-year change 1203 (QCEW 2023 CSV US000),above 2019
+qcew_711510_private_employment,2023,59575,jobs (annual average),2.06,QCEW 2023 CSV US000,
+qcew_711510_private_employment,2024,61092,jobs (annual average),,BLS ENUUS000105711510,
+qcew_711510_private_employment,2025,59571,jobs (annual average),-2.49,BLS ENUUS000105711510,
+qcew_711510_private_total_wages,2005,4671679,USD thousand,,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2006,5277182,USD thousand,12.96,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2007,5453277,USD thousand,3.34,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2008,5761457,USD thousand,5.65,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2009,5489893,USD thousand,-4.71,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2010,5653262,USD thousand,2.98,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2011,6184066,USD thousand,9.39,BLS ENUUS000305711510,above 2008
+qcew_711510_private_total_wages,2012,6401906,USD thousand,3.52,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2013,6159791,USD thousand,-3.78,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2014,6712080,USD thousand,8.97,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2015,6952615,USD thousand,3.58,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2016,7177797,USD thousand,3.24,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2017,7645674,USD thousand,6.52,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2018,7800978,USD thousand,2.03,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2019,8605519,USD thousand,10.31,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2020,7851897,USD thousand,-8.76,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2021,9016711,USD thousand,14.83,BLS ENUUS000305711510,above 2019
+qcew_711510_private_total_wages,2022,9878146,USD thousand,9.55,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2023,9046849,USD thousand,-8.42,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2024,9900644,USD thousand,9.44,BLS ENUUS000305711510,
+qcew_711510_private_total_wages,2025,9585600,USD thousand,-3.18,BLS ENUUS000305711510,
+qcew_711510_private_establishments,2019,29861,count,7.5,QCEW 2019 CSV US000,as published (over the year)
+qcew_711510_private_establishments,2020,32075,count,7.4,QCEW 2020 CSV US000,
+qcew_711510_private_establishments,2021,33929,count,5.8,QCEW 2021 CSV US000,as published (over the year)
+qcew_711510_private_establishments,2023,39010,count,6.2,QCEW 2023 CSV US000,as published (over the year)
+qcew_711510_private_avg_annual_pay,2019,162014,USD,,QCEW 2019 CSV US000,
+qcew_711510_private_avg_annual_pay,2020,180572,USD,11.45,QCEW 2020 CSV US000,
+qcew_711510_private_avg_annual_pay,2021,180979,USD,,QCEW 2021 CSV US000,
+qcew_711510_private_avg_annual_pay,2023,151858,USD,,QCEW 2023 CSV US000,
+bea_acpsa_indep_artists_real_va_pct,2018,,percent,9.9,BEA acpsa0425 Table 1,as published (2025 vintage)
+bea_acpsa_indep_artists_real_va_pct,2019,,percent,3.7,BEA acpsa0425 Table 1,as published (2025 vintage)
+bea_acpsa_indep_artists_real_va_pct,2020,,percent,-18.2,BEA acpsa0425 Table 1,as published (2025 vintage)
+bea_acpsa_indep_artists_real_va_pct,2021,,percent,26.5,BEA acpsa0425 Table 1,as published (2025 vintage)
+bea_acpsa_indep_artists_real_va_pct,2022,,percent,8.2,BEA acpsa0425 Table 1,as published (2025 vintage)
+bea_acpsa_indep_artists_real_va_pct,2023,,percent,-11.9,BEA acpsa0425 Table 1,as published (2025 vintage)
+bea_acpsa_total_arts_real_va_pct,2020,,percent,-1.7,BEA acpsa0425 Table 1,as published (2025 vintage)
+bea_acpsa_total_arts_real_va_pct,2023,,percent,6.6,BEA acpsa0425 Table 1,as published (2025 vintage)
+bea_acpsa_indep_artists_gross_output,2018,50407,USD million,,BEA acpsa0425 Table 7 line 7,
+bea_acpsa_indep_artists_gross_output,2019,53841,USD million,6.81,BEA acpsa0425 Table 7 line 7,
+bea_acpsa_indep_artists_gross_output,2020,41956,USD million,-22.07,BEA acpsa0425 Table 7 line 7,
+bea_acpsa_indep_artists_gross_output,2021,58614,USD million,39.70,BEA acpsa0425 Table 7 line 7,above 2019
+bea_acpsa_indep_artists_gross_output,2022,71133,USD million,21.36,BEA acpsa0425 Table 7 line 7,
+bea_acpsa_indep_artists_gross_output,2023,62513,USD million,-12.12,BEA acpsa0425 Table 7 line 7,
+us_real_gdp_pct,2008,,percent,0.1,FRED A191RL1A225NBEA,as published
+us_real_gdp_pct,2009,,percent,-2.6,FRED A191RL1A225NBEA,as published
+us_real_gdp_pct,2010,,percent,2.7,FRED A191RL1A225NBEA,as published
+us_real_gdp_pct,2020,,percent,-2.1,FRED A191RL1A225NBEA,as published
+us_real_gdp_pct,2021,,percent,6.3,FRED A191RL1A225NBEA,as published
+us_real_gdp_pct,2022,,percent,2.4,FRED A191RL1A225NBEA,as published
+us_real_gdp_pct,2023,,percent,2.9,FRED A191RL1A225NBEA,as published
+us_nominal_gdp_pct,2008,,percent,2.0,FRED A191RP1A027NBEA,as published
+us_nominal_gdp_pct,2009,,percent,-2.0,FRED A191RP1A027NBEA,as published
+us_nominal_gdp_pct,2010,,percent,3.9,FRED A191RP1A027NBEA,as published
+us_nominal_gdp_pct,2020,,percent,-0.8,FRED A191RP1A027NBEA,as published
+us_nominal_gdp_pct,2021,,percent,11.1,FRED A191RP1A027NBEA,as published
+sp500_total_return,2007,,percent,5.48,Damodaran histretSP (repo file D3),
+sp500_total_return,2008,,percent,-36.55,Damodaran histretSP (repo file D3),
+sp500_total_return,2009,,percent,25.94,Damodaran histretSP (repo file D3),
+sp500_total_return,2010,,percent,14.82,Damodaran histretSP (repo file D3),
+sp500_total_return,2011,,percent,2.10,Damodaran histretSP (repo file D3),
+sp500_total_return,2012,,percent,15.89,Damodaran histretSP (repo file D3),index regains end-2007 level (Keel arithmetic 1.0857)
+sp500_total_return,2019,,percent,31.21,Damodaran histretSP (repo file D3),
+sp500_total_return,2020,,percent,18.02,Damodaran histretSP (repo file D3),
+sp500_total_return,2021,,percent,28.47,Damodaran histretSP (repo file D3),
+sp500_total_return,2022,,percent,-18.04,Damodaran histretSP (repo file D3),
+sp500_total_return,2023,,percent,26.06,Damodaran histretSP (repo file D3),
+taiwan_publishing_revenue_2010report,2008,66283,NTD million,,MOC 2010 CCI annual report,narrow scope
+taiwan_publishing_revenue_2010report,2009,61539,NTD million,-7.16,MOC 2010 CCI annual report,below 2002 (NT$61.689bn) as the report says
+taiwan_publishing_revenue_2013report,2008,110490213,NTD thousand,,MOC 2013 CCI annual report,wide scope
+taiwan_publishing_revenue_2013report,2009,104145589,NTD thousand,-5.74,MOC 2013 CCI annual report,
+taiwan_publishing_revenue_2013report,2010,114712860,NTD thousand,10.15,MOC 2013 CCI annual report,above 2008
+taiwan_publishing_revenue_2013report,2011,115090559,NTD thousand,0.33,MOC 2013 CCI annual report,
+taiwan_publishing_revenue_2013report,2012,115286356,NTD thousand,0.17,MOC 2013 CCI annual report,
+taiwan_book_publishing_revenue_2013report,2008,28841596,NTD thousand,,MOC 2013 CCI annual report (書籍出版),
+taiwan_book_publishing_revenue_2013report,2009,28492236,NTD thousand,-1.21,MOC 2013 CCI annual report (書籍出版),
+taiwan_book_publishing_revenue_2013report,2010,33405920,NTD thousand,17.25,MOC 2013 CCI annual report (書籍出版),
+taiwan_book_publishing_revenue_2013report,2011,32747045,NTD thousand,-1.97,MOC 2013 CCI annual report (書籍出版),
+taiwan_book_publishing_revenue_2013report,2012,34156416,NTD thousand,4.30,MOC 2013 CCI annual report (書籍出版),
+taiwan_comics_publisher_revenue,2016,5.22,NTD 100 million,,TAICCA 2021 report,
+taiwan_comics_publisher_revenue,2017,4.77,NTD 100 million,-8.62,TAICCA 2021 report,
+taiwan_comics_publisher_revenue,2018,4.42,NTD 100 million,-7.34,TAICCA 2021 report,
+taiwan_comics_publisher_revenue,2019,4.34,NTD 100 million,-1.88,TAICCA 2024 report,as published
+taiwan_comics_publisher_revenue,2020,4.12,NTD 100 million,-5.07,TAICCA 2024 report,as published
+taiwan_comics_publisher_revenue,2021,3.98,NTD 100 million,-3.40,TAICCA 2024 report,as published
+taiwan_comics_publisher_revenue,2022,3.89,NTD 100 million,-2.26,TAICCA 2024 report,as published
+taiwan_comics_publisher_revenue,2023,4.43,NTD 100 million,14.00,TAICCA 2024 report,as published; above 2019
+taiwan_comics_publisher_revenue,2024,4.59,NTD 100 million,3.47,TAICCA 2024 report,as published
+taiwan_comics_market_revenue,2016,6.82,NTD 100 million,,TAICCA 2021 report,
+taiwan_comics_market_revenue,2019,5.52,NTD 100 million,,TAICCA 2021 report,
+taiwan_comics_market_revenue,2020,5.21,NTD 100 million,-5.62,TAICCA 2021 report,
+taiwan_comics_market_revenue,2021,5.13,NTD 100 million,-1.54,TAICCA 2022 report,
+taiwan_physical_book_publishing_mof_basis,2019,18579810,NTD thousand,,TAICCA 2022 CCI annual report Table 2-23 (taicca.tw 1736403536252.pdf),
+taiwan_physical_book_publishing_mof_basis,2020,17859874,NTD thousand,-3.87,TAICCA 2022 CCI annual report Table 2-23 (taicca.tw 1736403536252.pdf),
+taiwan_physical_book_publishing_mof_basis,2021,18976408,NTD thousand,6.25,TAICCA 2022 CCI annual report Table 2-23 (taicca.tw 1736403536252.pdf),above 2019; TAICCA survey says -5.47% for 2021
+taiwan_comic_houses_revenue_pct,2020,,percent,-21.99,TAICCA 2022 CCI annual report Table 2-23 (taicca.tw 1736403536252.pdf) (漫畫書屋),as published
+taiwan_comic_houses_revenue_pct,2021,,percent,-46.14,TAICCA 2022 CCI annual report Table 2-23 (taicca.tw 1736403536252.pdf) (漫畫書屋),as published

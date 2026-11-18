@@ -19,8 +19,9 @@ are facts to write from, not sentences to copy.
 - Caplet's plan (the IPS, frozen): the ten payments are bought with Treasuries in January 2027; the 2028 deposit first
   finishes that job, then most of it buys a Treasury fund that matures in late 2032 (the bottom of her range), and the
   rest buys VT, a world share fund (which sets the top). Half the shares are promised to no one; the other half moves
-  into Treasuries before the 2031 meetings. Only two things would change the plan: a missed deposit or a Treasury
-  default.
+  into Treasuries before the 2031 meetings. The IPS names only two reasons to change the plan (l.17): a missed deposit or a Treasury
+  default; "A fall in the market is not one of them." (Struck Wed 18 Nov evening, coherence reader 10, L1 and H2: "Only two
+  things would change the plan:"; the two reasons are not the only ways a promise can fail, card Q109, NUMBERS 8u.)
 
 ## The ten payments
 - At the close on 6 Nov 2026, buying the ten payments cost about $301,500 priced on the Treasury curve, roughly the
@@ -41,10 +42,10 @@ are facts to write from, not sentences to copy.
   never in prose and never as a percentage (coherence reader 8, M8). (Re-sized Tue 17 Nov
   evening: the extra Treasuries now also hold back 0.5% for fund costs beyond the fee, the same margin the range carries,
   so the ten payments carry the 0.5% margin; the first part of the 2028 deposit was $38,282 and the reserve about $444,500 before.)
-- The team dropped its first plan (about three-quarters shares) for how a writer is paid (IPS l.9). A check run that
-  day priced the change: the first plan missed at least one payment in about 1 in 31 model runs (3.2%), against none
+- The team dropped its first plan (mostly shares; struck Wed 18 Nov evening: "about three-quarters shares", 2.3's phrase) for how a writer is paid (IPS l.9). A check run that
+  day measured what the change bought (struck Wed 18 Nov evening, coherence reader 10, M8: "priced the change"): the first plan missed at least one payment in about 1 in 31 model runs (3.2%), against none
   for the Treasury plan from January 2028, which meets each payment even if cash waiting earns nothing once the 2028
-  deposit's first dollars arrive (NUMBERS 2). The 3.2% is the price of the IPS's "one step further" (l.11), never the
+  deposit's first dollars arrive (NUMBERS 2). The 3.2% against none is what the IPS's "one step further" (l.11) bought (struck Wed 18 Nov evening, M8: "is the price of"; "price" is kept for a dollar cost, its model named), never the
   reason and never a test of "high": 96.8 in 100 would pass the usual reading of "high" (card Q120). (Corrected Mon 16
   Nov from NUMBERS 8s: the first model's "never missed one" was written into its code, not found by it. Reordered Tue 17
   Nov evening, coherence reader 8, M6.)
@@ -82,7 +83,7 @@ are facts to write from, not sentences to copy.
   Q66, Q85; NUMBERS 8q; coherence reader 6, Mon 16 Nov, L10; never "cushion").
 
 ## Real events from the competition (dated, from the team's record)
-- 27 Sep: the team dropped its first plan (about three-quarters shares) for the reason the IPS gives: "the actual
+- 27 Sep: the team dropped its first plan (mostly shares; struck Wed 18 Nov evening: "about three-quarters shares") for the reason the IPS gives: "the actual
   nature of a writer's income" (IPS l.9), which comes later and smaller in the same recessions that hit shares. The
   first model that day only priced the change (the missed-payment numbers above); it was the check, never the reason
   (corrected Tue 17 Nov evening, coherence reader 7, H1).
@@ -130,12 +131,12 @@ are facts to write from, not sentences to copy.
     report's models, the 7.5% and every median are like that: the judges see them, the co-sponsors in 2031 never will.
   - **The printed page.** Laura's words to co-sponsors have no comics words in them at all, because the printed page
     only shows ink.
-  - **Erase every pencil line and the page still reads.** If the shares went to zero, the ten payments wouldn't change
+  - **Erase every pencil line and the page still reads.** From January 2028, when the only pencil left is the shares (dated Wed 18 Nov evening, coherence reader 10, M4: the 2028 deposit is pencil until it arrives), if the shares went to zero, the ten payments wouldn't change
     and the range would be one figure, the bottom (no payout figure here, as in SKELETON and CONCEIT since Tue 17 Nov).
   - **Dot gain.** A press always prints a little darker than the file, so printers lighten the file first and the print
     lands where they want it. The funds' fee, the 0.5% held back and the rounding down are taken out before the range is
     stated, so the money comes out lighter than the figure she names only if the funds' other costs pass the room
-    held back under the top (the 0.5% margin plus the rounding down, about 2% on today's figures; never "the margin" for the whole room; "about 3%" before the Tue 17 Nov evening re-size, coherence
+    held back under the top (the 0.5% margin plus the rounding down, about 2% of what the fund pays, in all, never a year, on today's figures (Wed 18 Nov evening, bond desk 5, M1); never "the margin" for the whole room; "about 3%" before the Tue 17 Nov evening re-size, coherence
     reader 8, M2) (coherence reader 6, M1; bond desk 4, H1, Mon 16 Nov).
   - (Retired Tue 17 Nov after voice round 6: "let the ink dry" and the key plate needed decoding; do not use them. The
     plain fact stays: the top is stated only once the shares have moved, and a top stated a year early would be more

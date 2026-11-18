@@ -1,0 +1,1569 @@
+{
+ "run": "Wed 18 Nov 2026 evening (Sydney), numbers owner",
+ "rule": "Sun 15 Nov 2026 evening: fund fee charged from each trade day (price = gross holdings' value); distributions wait in the Treasury-bill ETF at its 0.15% fee; haircut 0.5%; rounded down to $5,000",
+ "design": "H_plain",
+ "curve": "11/06/2026",
+ "register_results": "2026-11-17",
+ "note": "MODEL, Keel arithmetic. Central path (today's forwards; VT at 7.5%). An exit is an early end, a merger or a moved end of IBTM; its proceeds wait in the short-term Treasury ETF (Table 3 row 4's action).",
+ "stated": {
+  "bottom": 95000.0,
+  "top": 115000.0,
+  "floor_zero": 98095.55381427324,
+  "moved_zero": 19635.551277205286,
+  "both_zero": 117731.10509147853,
+  "room_under_top": 2731.10509147853,
+  "haircut_part": 588.6555254573926,
+  "rounding_part": 2142.4495660211396,
+  "room_under_bottom_floor_alone": 3095.5538142732403
+ },
+ "no_exit_forwards_this_method": 122458.54543222376,
+ "no_exit_modelled_payout_plan_run": 122503.1348225589,
+ "range_exits_after_the_move": [
+  {
+   "exit": "2031-01-02",
+   "zero": {
+    "floor_lot": 92113.11514150286,
+    "moved_lot": 18297.70760922883,
+    "both": 110410.82275073169,
+    "against_top": -4589.1772492683085,
+    "floor_against_bottom": -2886.884858497142
+   },
+   "face": {
+    "floor_lot": 92410.29376762001,
+    "moved_lot": 18351.364220202246,
+    "both": 110761.65798782225,
+    "against_top": -4238.342012177745,
+    "floor_against_bottom": -2589.706232379991
+   },
+   "fwd": {
+    "floor_lot": 102188.29679595196,
+    "moved_lot": 20106.247406061153,
+    "both": 122294.54420201312,
+    "against_top": 7294.544202013116,
+    "floor_against_bottom": 7188.296795951959
+   },
+   "loss_against_no_exit_zero": 7320.282340746839,
+   "rate_needed_before_etf_fee": 0.019228189778148497
+  },
+  {
+   "exit": "2031-02-01",
+   "zero": {
+    "floor_lot": 92427.5844127751,
+    "moved_lot": 18368.031894417018,
+    "both": 110795.61630719212,
+    "against_top": -4204.383692807882,
+    "floor_against_bottom": -2572.4155872248957
+   },
+   "face": {
+    "floor_lot": 92715.73474868425,
+    "moved_lot": 18419.669522572873,
+    "both": 111135.40427125712,
+    "against_top": -3864.5957287428755,
+    "floor_against_bottom": -2284.265251315752
+   },
+   "fwd": {
+    "floor_lot": 102194.08728118532,
+    "moved_lot": 20107.542323473215,
+    "both": 122301.62960465853,
+    "against_top": 7301.629604658534,
+    "floor_against_bottom": 7194.087281185319
+   },
+   "loss_against_no_exit_zero": 6935.488784286412,
+   "rate_needed_before_etf_fee": 0.018218371539263208
+  },
+  {
+   "exit": "2031-03-01",
+   "zero": {
+    "floor_lot": 92721.78152607717,
+    "moved_lot": 18433.822747728995,
+    "both": 111155.60427380617,
+    "against_top": -3844.395726193834,
+    "floor_against_bottom": -2278.218473922825
+   },
+   "face": {
+    "floor_lot": 93001.45152567183,
+    "moved_lot": 18483.563931163688,
+    "both": 111485.01545683552,
+    "against_top": -3514.984543164479,
+    "floor_against_bottom": -1998.5484743281704
+   },
+   "fwd": {
+    "floor_lot": 102199.48436455446,
+    "moved_lot": 20108.74926502429,
+    "both": 122308.23362957875,
+    "against_top": 7308.233629578754,
+    "floor_against_bottom": 7199.484364554461
+   },
+   "loss_against_no_exit_zero": 6575.500817672364,
+   "rate_needed_before_etf_fee": 0.017209525351464715
+  },
+  {
+   "exit": "2031-04-01",
+   "zero": {
+    "floor_lot": 93048.75533681708,
+    "moved_lot": 18506.943404073292,
+    "both": 111555.69874089037,
+    "against_top": -3444.301259109634,
+    "floor_against_bottom": -1951.2446631829225
+   },
+   "face": {
+    "floor_lot": 93318.96172902074,
+    "moved_lot": 18554.56825537041,
+    "both": 111873.52998439115,
+    "against_top": -3126.470015608851,
+    "floor_against_bottom": -1681.0382709792611
+   },
+   "fwd": {
+    "floor_lot": 102205.46009283679,
+    "moved_lot": 20110.08560805785,
+    "both": 122315.54570089464,
+    "against_top": 7315.54570089464,
+    "floor_against_bottom": 7205.460092836787
+   },
+   "loss_against_no_exit_zero": 6175.406350588164,
+   "rate_needed_before_etf_fee": 0.01600755176260492
+  },
+  {
+   "exit": "2031-05-01",
+   "zero": {
+    "floor_lot": 93366.44273992053,
+    "moved_lot": 18577.98735519181,
+    "both": 111944.43009511234,
+    "against_top": -3055.569904887656,
+    "floor_against_bottom": -1633.5572600794694
+   },
+   "face": {
+    "floor_lot": 93627.41566384704,
+    "moved_lot": 18623.547340011606,
+    "both": 112250.96300385865,
+    "against_top": -2749.0369961413526,
+    "floor_against_bottom": -1372.584336152955
+   },
+   "fwd": {
+    "floor_lot": 102211.24344190766,
+    "moved_lot": 20111.378929620736,
+    "both": 122322.6223715284,
+    "against_top": 7322.6223715283995,
+    "floor_against_bottom": 7211.24344190766
+   },
+   "loss_against_no_exit_zero": 5786.674996366186,
+   "rate_needed_before_etf_fee": 0.014748963978050086
+  },
+  {
+   "exit": "2031-06-01",
+   "zero": {
+    "floor_lot": 93697.51636657168,
+    "moved_lot": 18652.024847137243,
+    "both": 112349.54121370893,
+    "against_top": -2650.4587862910703,
+    "floor_against_bottom": -1302.4836334283173
+   },
+   "face": {
+    "floor_lot": 93948.87337566385,
+    "moved_lot": 18695.434439537392,
+    "both": 112644.30781520125,
+    "against_top": -2355.692184798754,
+    "floor_against_bottom": -1051.126624336146
+   },
+   "fwd": {
+    "floor_lot": 102217.21996839851,
+    "moved_lot": 20112.715451156462,
+    "both": 122329.93541955497,
+    "against_top": 7329.935419554968,
+    "floor_against_bottom": 7217.219968398509
+   },
+   "loss_against_no_exit_zero": 5381.5638777696,
+   "rate_needed_before_etf_fee": 0.013327724233015818
+  },
+  {
+   "exit": "2031-07-01",
+   "zero": {
+    "floor_lot": 94019.58590823063,
+    "moved_lot": 18724.048769240726,
+    "both": 112743.63467747136,
+    "against_top": -2256.36532252864,
+    "floor_against_bottom": -980.414091769373
+   },
+   "face": {
+    "floor_lot": 94261.5616799409,
+    "moved_lot": 18765.360449783246,
+    "both": 113026.92212972415,
+    "against_top": -1973.0778702758544,
+    "floor_against_bottom": -738.4383200590964
+   },
+   "fwd": {
+    "floor_lot": 102223.00408998082,
+    "moved_lot": 20114.00894547491,
+    "both": 122337.01303545573,
+    "against_top": 7337.013035455733,
+    "floor_against_bottom": 7223.004089980823
+   },
+   "loss_against_no_exit_zero": 4987.47041400717,
+   "rate_needed_before_etf_fee": 0.01182646988667014
+  },
+  {
+   "exit": "2031-08-01",
+   "zero": {
+    "floor_lot": 94347.40303628985,
+    "moved_lot": 18797.35801535543,
+    "both": 113144.76105164527,
+    "against_top": -1855.2389483547304,
+    "floor_against_bottom": -652.5969637101516
+   },
+   "face": {
+    "floor_lot": 94579.79032914349,
+    "moved_lot": 18836.5254389443,
+    "both": 113416.31576808779,
+    "against_top": -1583.684231912208,
+    "floor_against_bottom": -420.2096708565077
+   },
+   "fwd": {
+    "floor_lot": 102228.86834190165,
+    "moved_lot": 20115.32035921917,
+    "both": 122344.18870112082,
+    "against_top": 7344.188701120816,
+    "floor_against_bottom": 7228.868341901645
+   },
+   "loss_against_no_exit_zero": 4586.3440398332605,
+   "rate_needed_before_etf_fee": 0.010162682379836266
+  },
+  {
+   "exit": "2031-09-01",
+   "zero": {
+    "floor_lot": 94675.87705213181,
+    "moved_lot": 18870.814160286616,
+    "both": 113546.69121241843,
+    "against_top": -1453.308787581569,
+    "floor_against_bottom": -324.12294786819257
+   },
+   "face": {
+    "floor_lot": 94898.61602236985,
+    "moved_lot": 18907.823944152973,
+    "both": 113806.43996652283,
+    "against_top": -1193.5600334771734,
+    "floor_against_bottom": -101.38397763014655
+   },
+   "fwd": {
+    "floor_lot": 102234.7208765259,
+    "moved_lot": 20116.629152642214,
+    "both": 122351.35002916811,
+    "against_top": 7351.350029168112,
+    "floor_against_bottom": 7234.720876525898
+   },
+   "loss_against_no_exit_zero": 4184.413879060099,
+   "rate_needed_before_etf_fee": 0.008338570299145056
+  },
+  {
+   "exit": "2031-10-01",
+   "zero": {
+    "floor_lot": 94995.02932828895,
+    "moved_lot": 18942.18569873974,
+    "both": 113937.2150270287,
+    "against_top": -1062.7849729713053,
+    "floor_against_bottom": -4.970671711053001
+   },
+   "face": {
+    "floor_lot": 95208.35498647467,
+    "moved_lot": 18977.09039793867,
+    "both": 114185.44538441335,
+    "against_top": -814.5546155866468,
+    "floor_against_bottom": 208.35498647467466
+   },
+   "fwd": {
+    "floor_lot": 102240.38499796549,
+    "moved_lot": 20117.895811511127,
+    "both": 122358.28080947662,
+    "against_top": 7358.280809476622,
+    "floor_against_bottom": 7240.3849979654915
+   },
+   "loss_against_no_exit_zero": 3793.8900644498353,
+   "rate_needed_before_etf_fee": 0.006393091707012057
+  },
+  {
+   "exit": "2031-11-01",
+   "zero": {
+    "floor_lot": 95326.14198992372,
+    "moved_lot": 19016.23192001923,
+    "both": 114342.37390994295,
+    "against_top": -657.6260900570487,
+    "floor_against_bottom": 326.1419899237226
+   },
+   "face": {
+    "floor_lot": 95529.66131849878,
+    "moved_lot": 19048.943644631483,
+    "both": 114578.60496313026,
+    "against_top": -421.3950368697406,
+    "floor_against_bottom": 529.66131849878
+   },
+   "fwd": {
+    "floor_lot": 102246.23831434264,
+    "moved_lot": 20119.204779756383,
+    "both": 122365.44309409903,
+    "against_top": 7365.443094099028,
+    "floor_against_bottom": 7246.238314342641
+   },
+   "loss_against_no_exit_zero": 3388.731181535579,
+   "rate_needed_before_etf_fee": 0.004165591596305765
+  },
+  {
+   "exit": "2031-12-01",
+   "zero": {
+    "floor_lot": 95657.80671604536,
+    "moved_lot": 19090.401598640863,
+    "both": 114748.20831468623,
+    "against_top": -251.79168531377218,
+    "floor_against_bottom": 657.8067160453647
+   },
+   "face": {
+    "floor_lot": 95851.77444555954,
+    "moved_lot": 19120.977313672138,
+    "both": 114972.75175923167,
+    "against_top": -27.248240768327378,
+    "floor_against_bottom": 851.7744455595384
+   },
+   "fwd": {
+    "floor_lot": 102251.90319236788,
+    "moved_lot": 20120.4716078194,
+    "both": 122372.37480018729,
+    "against_top": 7372.374800187288,
+    "floor_against_bottom": 7251.903192367885
+   },
+   "loss_against_no_exit_zero": 2982.8967767923023,
+   "rate_needed_before_etf_fee": 0.0016817487754042658
+  },
+  {
+   "exit": "2032-01-01",
+   "zero": {
+    "floor_lot": 96004.13321619947,
+    "moved_lot": 19167.850067505657,
+    "both": 115171.98328370512,
+    "against_top": 171.98328370512172,
+    "floor_against_bottom": 1004.1332161994651
+   },
+   "face": {
+    "floor_lot": 96188.15145112193,
+    "moved_lot": 19196.200792183135,
+    "both": 115384.35224330507,
+    "against_top": 384.35224330506753,
+    "floor_against_bottom": 1188.1514511219284
+   },
+   "fwd": {
+    "floor_lot": 102257.7572906024,
+    "moved_lot": 20121.780750910224,
+    "both": 122379.53804151263,
+    "against_top": 7379.538041512627,
+    "floor_against_bottom": 7257.7572906024
+   },
+   "loss_against_no_exit_zero": 2559.1218077734084,
+   "rate_needed_before_etf_fee": 0.0
+  },
+  {
+   "exit": "2032-02-01",
+   "zero": {
+    "floor_lot": 96345.36194767583,
+    "moved_lot": 19244.1585301089,
+    "both": 115589.52047778474,
+    "against_top": 589.5204777847393,
+    "floor_against_bottom": 1345.3619476758322
+   },
+   "face": {
+    "floor_lot": 96519.53498810896,
+    "moved_lot": 19270.30758890596,
+    "both": 115789.84257701492,
+    "against_top": 789.8425770149188,
+    "floor_against_bottom": 1519.5349881089642
+   },
+   "fwd": {
+    "floor_lot": 102263.50135242808,
+    "moved_lot": 20123.06528672618,
+    "both": 122386.56663915426,
+    "against_top": 7386.566639154262,
+    "floor_against_bottom": 7263.50135242808
+   },
+   "loss_against_no_exit_zero": 2141.5846136937907,
+   "rate_needed_before_etf_fee": 0.0
+  },
+  {
+   "exit": "2032-03-01",
+   "zero": {
+    "floor_lot": 96665.22263354178,
+    "moved_lot": 19315.68848914853,
+    "both": 115980.9111226903,
+    "against_top": 980.9111226903042,
+    "floor_against_bottom": 1665.22263354178
+   },
+   "face": {
+    "floor_lot": 96830.1286907302,
+    "moved_lot": 19339.765186567005,
+    "both": 116169.8938772972,
+    "against_top": 1169.8938772972033,
+    "floor_against_bottom": 1830.1286907301983
+   },
+   "fwd": {
+    "floor_lot": 102268.8641134302,
+    "moved_lot": 20124.26455281849,
+    "both": 122393.1286662487,
+    "against_top": 7393.128666248696,
+    "floor_against_bottom": 7268.8641134302015
+   },
+   "loss_against_no_exit_zero": 1750.193968788226,
+   "rate_needed_before_etf_fee": 0.0
+  },
+  {
+   "exit": "2032-04-01",
+   "zero": {
+    "floor_lot": 97008.54130909954,
+    "moved_lot": 19392.464322770295,
+    "both": 116401.00563186983,
+    "against_top": 1401.0056318698335,
+    "floor_against_bottom": 2008.5413090995426
+   },
+   "face": {
+    "floor_lot": 97163.45968783402,
+    "moved_lot": 19414.307490835898,
+    "both": 116577.76717866992,
+    "against_top": 1577.7671786699211,
+    "floor_against_bottom": 2163.4596878340235
+   },
+   "fwd": {
+    "floor_lot": 102274.59709659632,
+    "moved_lot": 20125.54661113065,
+    "both": 122400.14370772697,
+    "against_top": 7400.143707726966,
+    "floor_against_bottom": 7274.597096596321
+   },
+   "loss_against_no_exit_zero": 1330.0994596086966,
+   "rate_needed_before_etf_fee": 0.0
+  },
+  {
+   "exit": "2032-05-01",
+   "zero": {
+    "floor_lot": 97342.16689093327,
+    "moved_lot": 19467.07250457461,
+    "both": 116809.23939550787,
+    "against_top": 1809.2393955078733,
+    "floor_against_bottom": 2342.1668909332657
+   },
+   "face": {
+    "floor_lot": 97487.33900882406,
+    "moved_lot": 19486.736131140606,
+    "both": 116974.07513996467,
+    "against_top": 1974.0751399646688,
+    "floor_against_bottom": 2487.339008824056
+   },
+   "fwd": {
+    "floor_lot": 102280.1455153497,
+    "moved_lot": 20126.787395583702,
+    "both": 122406.93291093339,
+    "against_top": 7406.932910933392,
+    "floor_against_bottom": 7280.145515349694
+   },
+   "loss_against_no_exit_zero": 921.8656959706568,
+   "rate_needed_before_etf_fee": 0.0
+  },
+  {
+   "exit": "2032-06-01",
+   "zero": {
+    "floor_lot": 97691.53587007748,
+    "moved_lot": 19545.20135839185,
+    "both": 117236.73722846933,
+    "against_top": 2236.7372284693265,
+    "floor_against_bottom": 2691.5358700774814
+   },
+   "face": {
+    "floor_lot": 97826.55545593853,
+    "moved_lot": 19562.59458965037,
+    "both": 117389.1500455889,
+    "against_top": 2389.1500455889036,
+    "floor_against_bottom": 2826.5554559385346
+   },
+   "fwd": {
+    "floor_lot": 102285.87926429961,
+    "moved_lot": 20128.069625146923,
+    "both": 122413.94888944653,
+    "against_top": 7413.948889446532,
+    "floor_against_bottom": 7285.879264299612
+   },
+   "loss_against_no_exit_zero": 494.3678630092036,
+   "rate_needed_before_etf_fee": 0.0
+  },
+  {
+   "exit": "2032-07-01",
+   "zero": {
+    "floor_lot": 98031.77847171992,
+    "moved_lot": 19621.289294279104,
+    "both": 117653.06776599903,
+    "against_top": 2653.0677659990324,
+    "floor_against_bottom": 3031.7784717199247
+   },
+   "face": {
+    "floor_lot": 98156.89100043276,
+    "moved_lot": 19636.467025404818,
+    "both": 117793.35802583757,
+    "against_top": 2793.358025837573,
+    "floor_against_bottom": 3156.8910004327627
+   },
+   "fwd": {
+    "floor_lot": 102291.42842418357,
+    "moved_lot": 20129.310575337884,
+    "both": 122420.73899952145,
+    "against_top": 7420.738999521447,
+    "floor_against_bottom": 7291.42842418357
+   },
+   "loss_against_no_exit_zero": 78.03732547949767,
+   "rate_needed_before_etf_fee": 0.0
+  },
+  {
+   "exit": "2032-08-01",
+   "zero": {
+    "floor_lot": 98070.94554941218,
+    "moved_lot": 19630.048168335295,
+    "both": 117700.99371774748,
+    "against_top": 2700.9937177474785,
+    "floor_against_bottom": 3070.9455494121794
+   },
+   "face": {
+    "floor_lot": 98185.5594265151,
+    "moved_lot": 19642.87810195787,
+    "both": 117828.43752847298,
+    "against_top": 2828.437528472976,
+    "floor_against_bottom": 3185.559426515101
+   },
+   "fwd": {
+    "floor_lot": 102297.16293901962,
+    "moved_lot": 20130.59297617505,
+    "both": 122427.75591519466,
+    "against_top": 7427.7559151946625,
+    "floor_against_bottom": 7297.162939019618
+   },
+   "loss_against_no_exit_zero": 30.11137373105157,
+   "rate_needed_before_etf_fee": 0.0
+  },
+  {
+   "exit": "2032-09-01",
+   "zero": {
+    "floor_lot": 98076.5541414659,
+    "moved_lot": 19631.302409252046,
+    "both": 117707.85655071794,
+    "against_top": 2707.8565507179446,
+    "floor_against_bottom": 3076.5541414658946
+   },
+   "face": {
+    "floor_lot": 98180.64625465554,
+    "moved_lot": 19641.77937680221,
+    "both": 117822.42563145775,
+    "against_top": 2822.4256314577506,
+    "floor_against_bottom": 3180.6462546555413
+   },
+   "fwd": {
+    "floor_lot": 102302.89784311561,
+    "moved_lot": 20131.875464061846,
+    "both": 122434.77330717746,
+    "against_top": 7434.773307177456,
+    "floor_against_bottom": 7302.897843115614
+   },
+   "loss_against_no_exit_zero": 23.248540760585456,
+   "rate_needed_before_etf_fee": 0.0
+  },
+  {
+   "exit": "2032-10-01",
+   "zero": {
+    "floor_lot": 98081.98217368391,
+    "moved_lot": 19632.516271847162,
+    "both": 117714.49844553106,
+    "against_top": 2714.4984455310623,
+    "floor_against_bottom": 3081.9821736839076
+   },
+   "face": {
+    "floor_lot": 98175.89185022605,
+    "moved_lot": 19640.716156565628,
+    "both": 117816.60800679168,
+    "against_top": 2816.6080067916773,
+    "floor_against_bottom": 3175.8918502260494
+   },
+   "fwd": {
+    "floor_lot": 102308.44812095759,
+    "moved_lot": 20133.11666426005,
+    "both": 122441.56478521763,
+    "against_top": 7441.5647852176335,
+    "floor_against_bottom": 7308.44812095759
+   },
+   "loss_against_no_exit_zero": 16.60664594746777,
+   "rate_needed_before_etf_fee": 0.0
+  },
+  {
+   "exit": "2032-11-01",
+   "zero": {
+    "floor_lot": 98087.59151490589,
+    "moved_lot": 19633.77068029927,
+    "both": 117721.36219520515,
+    "against_top": 2721.362195205147,
+    "floor_against_bottom": 3087.5915149058856
+   },
+   "face": {
+    "floor_lot": 98170.97925291442,
+    "moved_lot": 19639.617559895243,
+    "both": 117810.59681280966,
+    "against_top": 2810.5968128096574,
+    "floor_against_bottom": 3170.979252914418
+   },
+   "fwd": {
+    "floor_lot": 102314.18379109405,
+    "moved_lot": 20134.399323455298,
+    "both": 122448.58311454934,
+    "against_top": 7448.583114549343,
+    "floor_against_bottom": 7314.183791094052
+   },
+   "loss_against_no_exit_zero": 9.74289627338294,
+   "rate_needed_before_etf_fee": 0.0
+  },
+  {
+   "exit": "2032-12-01",
+   "zero": {
+    "floor_lot": 98093.02027217386,
+    "moved_lot": 19634.984705036208,
+    "both": 117728.00497721008,
+    "against_top": 2728.0049772100756,
+    "floor_against_bottom": 3093.0202721738606
+   },
+   "face": {
+    "floor_lot": 98166.22540446652,
+    "moved_lot": 19638.554463991983,
+    "both": 117804.7798684585,
+    "against_top": 2804.7798684584995,
+    "floor_against_bottom": 3166.225404466517
+   },
+   "fwd": {
+    "floor_lot": 102319.73481031493,
+    "moved_lot": 20135.640689446947,
+    "both": 122455.37549976187,
+    "against_top": 7455.375499761867,
+    "floor_against_bottom": 7319.734810314927
+   },
+   "loss_against_no_exit_zero": 3.1001142684544902,
+   "rate_needed_before_etf_fee": 0.0
+  }
+ ],
+ "range_summary": {
+  "exits_short_of_top_zero": 12,
+  "first_exit_short": "2031-01-02",
+  "last_exit_short": "2031-12-01",
+  "covered_from": "2032-01-01",
+  "largest_short_zero": 4589.1772492683085,
+  "largest_short_face": 4238.342012177745,
+  "smallest_room_forwards": 7294.544202013116,
+  "exits_floor_lot_short_of_bottom_zero": 10,
+  "last_exit_floor_short_of_bottom": "2031-10-01",
+  "largest_floor_short_of_bottom_zero": 2886.884858497142
+ },
+ "before_the_move_floor_lot": {
+  "2029-01-01": {
+   "floor_lot_zero": 84443.12693373588,
+   "floor_lot_fwd": 102039.76428348162,
+   "floor_zero_no_exit": 98095.55381427324
+  },
+  "2030-01-01": {
+   "floor_lot_zero": 88283.29144288851,
+   "floor_lot_fwd": 102115.48193856864,
+   "floor_zero_no_exit": 98095.55381427324
+  },
+  "2031-01-01": {
+   "floor_lot_zero": 92102.44497882131,
+   "floor_lot_fwd": 102188.09993022644,
+   "floor_zero_no_exit": 98095.55381427324
+  }
+ },
+ "yield_1pt_higher_on_exit_day": {
+  "exit": "2031-01-02",
+  "both_zero_yield_1pt_higher_on_exit_day": 108978.65696526307,
+  "against_top": -6021.3430347369285
+ },
+ "payments_ibtm_exit": {
+  "no_exit": {
+   "standard": {
+    "short": 0.0,
+    "left_after_2042": 1176.6596204203015,
+    "short_by_year": {}
+   },
+   "forwards": {
+    "short": 0.0,
+    "left_after_2042": 75934.02285672241,
+    "short_by_year": {}
+   }
+  },
+  "no_exit_with_0.5pct_cost": {
+   "standard": {
+    "short": 7.275957614183426e-12,
+    "left_after_2042": 7.275957614183426e-12,
+    "short_by_year": {}
+   },
+   "forwards": {
+    "short": 0.0,
+    "left_after_2042": 74030.78627208354,
+    "short_by_year": {}
+   }
+  },
+  "monthly": [
+   {
+    "exit": "2027-02-01",
+    "standard_short": 8671.285680251953,
+    "standard_short_by_year": {
+     "2033": 2770.6105126452458,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 9567.672856076613,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2027-03-01",
+    "standard_short": 8550.407882456624,
+    "standard_short_by_year": {
+     "2033": 2649.732714849917,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 9447.399447270269,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2027-04-01",
+    "standard_short": 8416.116989781432,
+    "standard_short_by_year": {
+     "2033": 2515.4418221747255,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 9313.78000905845,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2027-05-01",
+    "standard_short": 8285.694302473777,
+    "standard_short_by_year": {
+     "2033": 2385.0191348670705,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 9184.009435187334,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2027-06-01",
+    "standard_short": 8145.499664818322,
+    "standard_short_by_year": {
+     "2033": 2244.8244972116154,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 9044.515770720165,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2027-07-01",
+    "standard_short": 8008.02045367915,
+    "standard_short_by_year": {
+     "2033": 2107.345286072443,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 8907.723955636677,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2027-08-01",
+    "standard_short": 7868.166507302609,
+    "standard_short_by_year": {
+     "2033": 1967.4913396959018,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 8768.569278992029,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2027-09-01",
+    "standard_short": 7728.075668483827,
+    "standard_short_by_year": {
+     "2033": 1827.40050087712,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 8629.178894367331,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2027-10-01",
+    "standard_short": 7591.99761188394,
+    "standard_short_by_year": {
+     "2033": 1691.3224442772334,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 8493.781228050451,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2027-11-01",
+    "standard_short": 7450.858502692943,
+    "standard_short_by_year": {
+     "2033": 1550.1833350862362,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 8353.347814405402,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2027-12-01",
+    "standard_short": 7309.4433686532575,
+    "standard_short_by_year": {
+     "2033": 1408.7682010465505,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 8212.639756035911,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-01-01",
+    "standard_short": 7161.801065349886,
+    "standard_short_by_year": {
+     "2033": 1261.125897743179,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 8065.735664249063,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-02-01",
+    "standard_short": 7016.421075424827,
+    "standard_short_by_year": {
+     "2033": 1115.74590781812,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 7921.082574273627,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-03-01",
+    "standard_short": 6880.187426032338,
+    "standard_short_by_year": {
+     "2033": 979.5122584256314,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 7785.530093128102,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-04-01",
+    "standard_short": 6734.003006647588,
+    "standard_short_by_year": {
+     "2033": 833.3278390408814,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 7640.076595840277,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-05-01",
+    "standard_short": 6591.98574139869,
+    "standard_short_by_year": {
+     "2033": 691.3105737919832,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 7498.769416917625,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-06-01",
+    "standard_short": 6439.9579226476635,
+    "standard_short_by_year": {
+     "2033": 539.2827550409565,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 7347.501737260347,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-07-01",
+    "standard_short": 6291.176038737933,
+    "standard_short_by_year": {
+     "2033": 390.5008711312257,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 7199.463762770174,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-08-01",
+    "standard_short": 6139.772615912632,
+    "standard_short_by_year": {
+     "2033": 239.09744830592535,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 7048.817357059001,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-09-01",
+    "standard_short": 5988.066546991307,
+    "standard_short_by_year": {
+     "2033": 87.39137938460044,
+     "2034": 1675.929317322858,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 6897.869818482293,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-10-01",
+    "standard_short": 5840.752481894189,
+    "standard_short_by_year": {
+     "2034": 1616.0066316103403,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 6751.202883299229,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-11-01",
+    "standard_short": 5688.05030153734,
+    "standard_short_by_year": {
+     "2034": 1463.3044512534907,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 6599.039286471292,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2028-12-01",
+    "standard_short": 5541.55449043557,
+    "standard_short_by_year": {
+     "2034": 1316.8086401517212,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 6453.275954425037,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-01-01",
+    "standard_short": 5389.916621604287,
+    "standard_short_by_year": {
+     "2034": 1165.1707713204378,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 6302.396274937899,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-02-01",
+    "standard_short": 5240.577116832734,
+    "standard_short_by_year": {
+     "2034": 1015.8312665488847,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 6153.8034676902025,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-03-01",
+    "standard_short": 5105.454084938727,
+    "standard_short_by_year": {
+     "2034": 880.7082346548777,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 6019.356050955677,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-04-01",
+    "standard_short": 4955.279171667877,
+    "standard_short_by_year": {
+     "2034": 730.5333213840277,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 5869.932012251171,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-05-01",
+    "standard_short": 4809.371663483944,
+    "standard_short_by_year": {
+     "2034": 584.6258132000949,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 5724.754041608168,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-06-01",
+    "standard_short": 4655.871458222115,
+    "standard_short_by_year": {
+     "2034": 431.1256079382656,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 5572.0213373726365,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-07-01",
+    "standard_short": 4506.215135906859,
+    "standard_short_by_year": {
+     "2034": 281.46928562301036,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 5423.113296668955,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-08-01",
+    "standard_short": 4353.908021575517,
+    "standard_short_by_year": {
+     "2034": 129.16217129166762,
+     "2035": 2265.035882817625,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 5271.5677179092745,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-09-01",
+    "standard_short": 4201.328729829773,
+    "standard_short_by_year": {
+     "2035": 2241.6187623635487,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 5119.716370302231,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-10-01",
+    "standard_short": 4053.262865796816,
+    "standard_short_by_year": {
+     "2035": 2093.552898330592,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 4972.169832948479,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-11-01",
+    "standard_short": 3899.643406022071,
+    "standard_short_by_year": {
+     "2035": 1939.9334385558468,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 4819.089178552182,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2029-12-01",
+    "standard_short": 3753.4529297991467,
+    "standard_short_by_year": {
+     "2035": 1793.7429623329226,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 4673.436595498279,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-01-01",
+    "standard_short": 3602.3917038690633,
+    "standard_short_by_year": {
+     "2035": 1642.6817364028393,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 4523.130675697845,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-02-01",
+    "standard_short": 3453.612222651711,
+    "standard_short_by_year": {
+     "2035": 1493.9022551854869,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 4375.095091886578,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-03-01",
+    "standard_short": 3318.998481189723,
+    "standard_short_by_year": {
+     "2035": 1359.288513723499,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 4241.154419131897,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-04-01",
+    "standard_short": 3169.393800791695,
+    "standard_short_by_year": {
+     "2035": 1209.683833325471,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 4092.2977621358586,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-05-01",
+    "standard_short": 3024.044550746112,
+    "standard_short_by_year": {
+     "2035": 1064.3345832798877,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 3947.675258340496,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-06-01",
+    "standard_short": 2872.580920146531,
+    "standard_short_by_year": {
+     "2035": 912.8709526803068,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 3796.9689458939247,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-07-01",
+    "standard_short": 2725.2525969411363,
+    "standard_short_by_year": {
+     "2035": 765.5426294749122,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 3650.3772643045595,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-08-01",
+    "standard_short": 2575.3142874099067,
+    "standard_short_by_year": {
+     "2035": 615.6043199436826,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 3501.1886463209667,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-09-01",
+    "standard_short": 2425.083809242031,
+    "standard_short_by_year": {
+     "2035": 465.3738417758068,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 3351.709320543938,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-10-01",
+    "standard_short": 2279.123321365958,
+    "standard_short_by_year": {
+     "2035": 319.4133538997339,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 3206.4786351072544,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-11-01",
+    "standard_short": 2127.6997522529564,
+    "standard_short_by_year": {
+     "2035": 167.98978478673234,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 3055.8121838398147,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2030-12-01",
+    "standard_short": 1979.8814582430423,
+    "standard_short_by_year": {
+     "2035": 20.171490776818246,
+     "2036": 1959.709967466224
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 2908.7329812999596,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-01-01",
+    "standard_short": 1826.5824089680827,
+    "standard_short_by_year": {
+     "2036": 1826.5824089680827
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 2756.001721498047,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-02-01",
+    "standard_short": 1675.6103098593667,
+    "standard_short_by_year": {
+     "2036": 1675.6103098593667
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 2605.559142406608,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-03-01",
+    "standard_short": 1539.0056685618474,
+    "standard_short_by_year": {
+     "2036": 1539.0056685618474
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 2469.43362865947,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-04-01",
+    "standard_short": 1387.1818126834623,
+    "standard_short_by_year": {
+     "2036": 1387.1818126834623
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 2318.1422802527522,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-05-01",
+    "standard_short": 1239.6699174830428,
+    "standard_short_by_year": {
+     "2036": 1239.6699174830428
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 2171.1807989661465,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-06-01",
+    "standard_short": 1085.942392749239,
+    "standard_short_by_year": {
+     "2036": 1085.942392749239
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 2018.2219118560315,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-07-01",
+    "standard_short": 936.3957377282059,
+    "standard_short_by_year": {
+     "2036": 936.3957377282059
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 1869.4229901100844,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-08-01",
+    "standard_short": 784.1803040446757,
+    "standard_short_by_year": {
+     "2036": 784.1803040446757
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 1717.9686335949882,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-09-01",
+    "standard_short": 631.659857443381,
+    "standard_short_by_year": {
+     "2036": 631.659857443381
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 1566.210789226694,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-10-01",
+    "standard_short": 483.4677772615105,
+    "standard_short_by_year": {
+     "2036": 483.4677772615105
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 1418.7596694457316,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-11-01",
+    "standard_short": 329.7221274011026,
+    "standard_short_by_year": {
+     "2036": 329.7221274011026
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 1265.7827478346298,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2031-12-01",
+    "standard_short": 175.72013725794386,
+    "standard_short_by_year": {
+     "2036": 175.72013725794386
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 1112.550767642184,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-01-01",
+    "standard_short": 14.910240810058895,
+    "standard_short_by_year": {
+     "2036": 14.910240810058895
+    },
+    "standard_left_after_2042": 242.68393870016007,
+    "standard_with_0.5pct_cost_short": 952.5449206765479,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-02-01",
+    "standard_short": 0.0,
+    "standard_short_by_year": {},
+    "standard_left_after_2042": 384.93025586989825,
+    "standard_with_0.5pct_cost_short": 794.8942870559549,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-03-01",
+    "standard_short": 0.0,
+    "standard_short_by_year": {},
+    "standard_left_after_2042": 532.1202778734369,
+    "standard_with_0.5pct_cost_short": 647.1158758450765,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-04-01",
+    "standard_short": 0.0,
+    "standard_short_by_year": {},
+    "standard_left_after_2042": 690.1049432060026,
+    "standard_with_0.5pct_cost_short": 488.4996699315743,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-05-01",
+    "standard_short": 0.0,
+    "standard_short_by_year": {},
+    "standard_left_after_2042": 843.6291457759653,
+    "standard_with_0.5pct_cost_short": 334.3617573925003,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-06-01",
+    "standard_short": 0.0,
+    "standard_short_by_year": {},
+    "standard_left_after_2042": 1004.397974206302,
+    "standard_with_0.5pct_cost_short": 172.95025874419662,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-07-01",
+    "standard_short": 0.0,
+    "standard_short_by_year": {},
+    "standard_left_after_2042": 1160.9671252000117,
+    "standard_with_0.5pct_cost_short": 15.755225660170254,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-08-01",
+    "standard_short": 0.0,
+    "standard_short_by_year": {},
+    "standard_left_after_2042": 1176.6596204203015,
+    "standard_with_0.5pct_cost_short": 7.275957614183426e-12,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-09-01",
+    "standard_short": 0.0,
+    "standard_short_by_year": {},
+    "standard_left_after_2042": 1176.6596204203088,
+    "standard_with_0.5pct_cost_short": 0.0,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-10-01",
+    "standard_short": 0.0,
+    "standard_short_by_year": {},
+    "standard_left_after_2042": 1176.6596204203088,
+    "standard_with_0.5pct_cost_short": 0.0,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-11-01",
+    "standard_short": 0.0,
+    "standard_short_by_year": {},
+    "standard_left_after_2042": 1176.6596204203015,
+    "standard_with_0.5pct_cost_short": 0.0,
+    "forwards_short": 0.0
+   },
+   {
+    "exit": "2032-12-01",
+    "standard_short": 0.0,
+    "standard_short_by_year": {},
+    "standard_left_after_2042": 1176.6596204203015,
+    "standard_with_0.5pct_cost_short": 7.275957614183426e-12,
+    "forwards_short": 0.0
+   }
+  ],
+  "worst": {
+   "exit": "2027-02-01",
+   "standard_short": 8671.285680251953,
+   "standard_short_by_year": {
+    "2033": 2770.6105126452458,
+    "2034": 1675.929317322858,
+    "2035": 2265.035882817625,
+    "2036": 1959.709967466224
+   },
+   "standard_left_after_2042": 242.68393870016007,
+   "standard_with_0.5pct_cost_short": 9567.672856076613,
+   "forwards_short": 0.0
+  },
+  "exits_short_standard": 60,
+  "last_exit_short_standard": "2032-01-01",
+  "exits_short_with_0.5pct_cost": 66,
+  "last_exit_short_with_0.5pct_cost": "2032-07-01"
+ },
+ "payments_other_funds_exit": {
+  "IBTO": {
+   "worst_exit": "2027-02-01",
+   "worst_short_standard": 9958.072491665502,
+   "short_by_year_at_worst": {
+    "2034": 5733.326641381653,
+    "2035": 2265.035882817625,
+    "2036": 1959.709967466224
+   },
+   "exits_short": 70,
+   "exits_tested": 83,
+   "last_exit_short": "2032-11-01",
+   "short_at_forwards_any": false,
+   "holdings_mature": "2033-06-04",
+   "fund_ends": "2033-12-15"
+  },
+  "IBTP": {
+   "worst_exit": "2027-02-01",
+   "worst_short_standard": 11183.89790722738,
+   "short_by_year_at_worst": {
+    "2035": 9224.187939761156,
+    "2036": 1959.709967466224
+   },
+   "exits_short": 83,
+   "exits_tested": 95,
+   "last_exit_short": "2033-12-01",
+   "short_at_forwards_any": false,
+   "holdings_mature": "2034-07-04",
+   "fund_ends": "2034-12-15"
+  },
+  "IBTQ": {
+   "worst_exit": "2027-02-01",
+   "worst_short_standard": 12636.93798252476,
+   "short_by_year_at_worst": {
+    "2036": 12636.93798252476
+   },
+   "exits_short": 95,
+   "exits_tested": 107,
+   "last_exit_short": "2034-12-01",
+   "short_at_forwards_any": false,
+   "holdings_mature": "2035-07-04",
+   "fund_ends": "2035-12-15"
+  },
+  "IBTR": {
+   "worst_exit": "2027-02-01",
+   "worst_short_standard": 14687.504254897322,
+   "short_by_year_at_worst": {
+    "2037": 14687.504254897314
+   },
+   "exits_short": 104,
+   "exits_tested": 119,
+   "last_exit_short": "2035-09-01",
+   "short_at_forwards_any": false,
+   "holdings_mature": "2036-05-04",
+   "fund_ends": "2036-12-15"
+  }
+ }
+}

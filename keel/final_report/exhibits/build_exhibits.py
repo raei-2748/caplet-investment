@@ -4,7 +4,11 @@ Figure 1 fixes and Table 2's held-the-same line and history check, REBUILD_2026-
 that night's hand edits to tables.md (coherence reader 6; bond desk 4) carried in, here and in exhibit_data.py, and an
 exhibit too tall for one Letter page measured on a tall page and previewed whole, with a warning; Tue 17 Nov: Table 3
 cut back to one page, 27.9 to 21.4 lines with its note, the cut details listed under it for 3e's notes, and row 5's
-trade-day limit from NUMBERS 4, REBUILD_2026-11-17.md).
+trade-day limit from NUMBERS 4, REBUILD_2026-11-17.md; Wed 18 Nov evening: the morning's hand edits to Table 2's note
+carried in, the 7.5%'s source and standing, the room under the top and the starting months' method, with carry_check,
+then a second pass: no median figure (the lead's call on card Q146) and the note trimmed to sit between two prose
+lines; then a third pass: Table 3 row 4 in the numbers owner's words on what the 0.5% margin pays, and bond desk 5's
+H1-H3, M5 and M6 in Tables 2 and 3, REBUILD_2026-11-18_evening.md).
 
     python3 -I keel/final_report/exhibits/build_exhibits.py            everything below (about a minute)
     python3 -I keel/final_report/exhibits/build_exhibits.py figure     Figure 1 only
@@ -335,10 +339,36 @@ EXHIBITS = {
            # Tue 17 Nov (coherence reader 7, M13; lay reader 3): 3b's simulated futures' volatility and yield moves join
            # the shares item (about 17 words in a terse note) and 3c's rate past the margin leaves 3c's prose for an
            # if-then item (about 25 words), so 137 (was 95); 3c and 3e give back about 36 words of prose
-           "section": "Section 3, parts 3b and 3c", "note_budget_words": 137,
+           # Wed 18 Nov evening (the morning's hand edits, carried): 32 more words in a terse note, so 169 (was 137):
+           # 22.2 lines, one Letter page but not between two prose lines (measured: 138 words or fewer, 20.2 lines;
+           # 139-156, 21.2; 157 or more, 22.2).
+           # Wed 18 Nov evening, second pass (the lead's call, ASK_HUMANS top row, card Q146: no median figure; the
+           # coordinator: 156 words or fewer): counted clause by clause against Tue 17 Nov's terse note
+           # (REBUILD_2026-11-18_evening.md, "Second pass"), +16 words, not +32: the 7.5%'s source and standing, +7
+           # ("(J.P. Morgan's 2027 assumption, above the middle of published forecasts)", J.P. Morgan named once for
+           # the 7.5% and the 17.88%, no median, no count); the room under the top, +5 ("used up the room under the top
+           # (about 2% centrally)" for "passed the range's 0.5%", "centrally" moved; its two parts are the range-rule
+           # item's 0.5% and rounding down); the method, +4 ("(overlapping starting months, past frequencies, never
+           # probabilities)" for "(method in 3e)"). So 153: 21.2 lines, between two prose lines again
+           # Wed 18 Nov evening, third pass (bond desk 5, H1 and H3; REBUILD_2026-11-18_evening.md, "Third pass"):
+           # counted on a full terse rendering of the note, before and after (254 and 255 words), +1, so 154: the
+           # curve's date gains "the day trading froze" (+4, H3); the range rule names the fund, "the late-2032 Treasury
+           # fund" (+2, H1), and the room item says "the fund's costs ... (about 2% of what it pays" (+4, H1: one fund,
+           # bought twice; the 2% is a share of what it pays, in all); paid for by "(our own assumption)" for "(our own
+           # assumption, not a market figure)" (-4), "above the top" for "above the stated top" (-1), and the dates item
+           # said once ("to the floor's trade day, Mon 3 Jan 2028" for "to January 2028 (traded Mon 3 Jan 2028)", -4);
+           # no fact cut. Still 139-156 words, so 21.2 lines (measured)
+           "section": "Section 3, parts 3b and 3c", "note_budget_words": 154,
            "note_items": [
-               "MODEL, not forecasts; Treasury curve of 6 Nov 2026",
-               "each end (the range rule): units of the fund held x its remaining coupons and principal per unit, "
+               # Wed 18 Nov evening, third pass (bond desk 5, H3): the range Table 2 states is dated to the curve of the
+               # day trading froze, and never re-sized (on 13 Nov 2026's curve the same rule states $105,000 to $125,000:
+               # NUMBERS 4, "On a later curve", disclosed, never re-booked)
+               "MODEL, not forecasts; Treasury curve of 6 Nov 2026, the day trading froze (bond desk 5, H3: never "
+               "re-sized to a later curve, NUMBERS 4)",
+               # Third pass (bond desk 5, H1): the floor and the shares moved into Treasuries buy the same fund, IBTM,
+               # the late-2032 Treasury fund (plan.py; CANON C19, D2; Table 1's "2033 and the floor"), so the rule names it
+               "each end (the range rule): units of the late-2032 Treasury fund held x its remaining coupons and "
+               "principal per unit, "
                "from its published holdings on the trade day, undiscounted, less the fees to 15 Dec 2032 and 0.5%; "
                # Mon 16 Nov night (coherence reader 6, L2): WORDS bans "moved half" and names the history "every
                # starting month since 1962"
@@ -346,27 +376,50 @@ EXHIBITS = {
                "Treasuries, rounded down once (NUMBERS 0, 3; coherence reader 6, Mon 16 Nov, L2: never \"the moved "
                "half's\")",
                # Tue 17 Nov (coherence reader 7, M13; lay reader 3): the simulated futures' assumptions beside the 7.5%,
-               # out of 3e's prose (17.88%) and beside 3b's "about 93 of 100" (0.9 points a year), NUMBERS 0
-               f"shares 7.5% a year in rows 1 and 3; 3b's simulated futures draw shares with "
-               f"{100 * D.SHARE_VOL:.2f}% volatility (J.P. Morgan 2027) and yields moving about "
-               f"{D.YIELD_SD_POINTS:.1f} points a year, independent of shares (our own assumption, not a market "
-               "figure; NUMBERS 0)",
+               # out of 3e's prose (17.88%) and beside 3b's "about 93 of 100" (0.9 points a year), NUMBERS 0.
+               # Wed 18 Nov morning (hand edit; the lead's call on coherence reader 9, H6): the 7.5% named as J.P.
+               # Morgan's and placed above the middle of published forecasts; 3e names the assumption in words and points
+               # here. Second pass, Wed 18 Nov evening (the lead's call on card Q146, ASK_HUMANS): no median figure and
+               # no count of houses, since the median moves with the panel (fifteen, sixteen, seventeen) while "above the
+               # middle" holds on every count (check() asserts it, unprinted); J.P. Morgan named once, for the 7.5% and
+               # the 17.88% ("its"). Never "the top", "the consensus", "upper third" or a median (words_check). The
+               # reviewer's mark follows the source, so the Letter PDF's placeholder note leaves it out (_unmarked)
+               f"shares {100 * D.SHARE_RETURN:.1f}% a year in rows 1 and 3 (J.P. Morgan's 2027 assumption, "
+               f"{D.SHARE_RETURN_STANDING}, CANON B15; coherence reader 9, H6, and the lead's calls of Wed 18 Nov "
+               "morning and evening (no median figure, card Q146, ASK_HUMANS): 3e names the assumption in words and "
+               f"points here) and, in 3b's simulated futures, its {100 * D.SHARE_VOL:.2f}% volatility; yields there "
+               f"move about {D.YIELD_SD_POINTS:.1f} points a year, independent of shares (our own assumption; "
+               "NUMBERS 0)",
                # Tue 17 Nov (lay reader 3: "$120 for each further 0.1%" was one figure too many in 3c's prose): the
-               # bond desk's signed form kept for judges as an if-then line (NUMBERS 3; bond desk 4, H1), the 0.5% the
-               # range's only (coherence reader 7, M3)
-               f"if the funds' costs beyond their fees passed the range's 0.5% and cash waiting earned nothing, the "
+               # bond desk's signed form kept for judges as an if-then line (NUMBERS 3; bond desk 4, H1).
                # Tue 17 Nov evening (coherence reader 8, L6): $118 is the central slope, $144 at the house 1-in-20
-               # high (NUMBERS 3), so "centrally", never "at most"
-               f"contribution would fall short of the top by about ${round(D.SHORT_PER_TENTH, -1):,.0f} for "
-               "each further 0.1% centrally (NUMBERS 3; bond desk 4, H1)",
-               "starting months: U.S. yields and stocks from the start month (method in 3e)",
+               # high (NUMBERS 3), so "centrally", never "at most".
+               # Wed 18 Nov morning (hand edit; coherence reader 9, H2: "past the range's 0.5%" read as the central
+               # threshold): the threshold is the room under the top (WORDS: the 0.5% margin plus the rounding down;
+               # 2.32% centrally, NUMBERS 8u, printed "about 2%"), and "centrally" moves to it, where it governs the
+               # whole if-then line. Second pass: its two parts are named once, in the range-rule item above ("less the
+               # fees ... and 0.5%", "rounded down"; carry_check), so this item prints "about 2% centrally" alone
+               # Third pass (bond desk 5, H1): "the fund's costs", one fund (named in the range-rule item), and the 2%
+               # is "of what it pays" on both purchases, in all (2.32% = 1 - $115,000 / $117,731, NUMBERS 8u)
+               f"if the fund's costs beyond the fees used up the room under the top (about "
+               f"{round(100 * D.ROOM_UNDER_TOP)}% of what it pays, centrally, NUMBERS 8u: its two parts, the 0.5% and "
+               "the rounding down, are the range-rule item's) and cash waiting earned nothing, the contribution would "
+               "fall short of "
+               f"the top by about ${round(D.SHORT_PER_TENTH, -1):,.0f} for each further 0.1% (NUMBERS 3, 8u; bond desk "
+               "4, H1; coherence reader 9, H2, Wed 18 Nov: \"past the range's 0.5%\" read as the central threshold)",
+               # Wed 18 Nov morning (hand edit; SKELETON Exhibits item 3 and row 3e's hand-off): 3e's recast no longer
+               # carries the method, so "(method in 3e)" goes and the note says it. Second pass: "past frequencies" for
+               # SKELETON's "shares of the past", which the note's "shares" (stocks) could make a reader misread
+               # (D.TABLE2_STARTS_METHOD, checked against SKELETON's two ends of the phrase)
+               f"starting months: U.S. yields and stocks from the start month ({D.TABLE2_STARTS_METHOD})",
                "inflation row: prices up 5% a year",
-               "flexibility: the half of VT promised to no one plus whatever the funds pay above the stated top, to "
-               "the nearest $100 (8i)",
+               "flexibility: the half of VT promised to no one plus whatever the fund pays above the top, to the "
+               "nearest $100 (8i; bond desk 5, H1: one fund)",
                "spread rows: each column's own percentile",
-               "each column's own date: the bottom turns on markets to January 2028 (traded Mon 3 Jan 2028), the top "
-               "on markets to the move before the 2031 meetings (traded Thu 2 Jan 2031), her flexibility on markets "
-               "to January 2033 (NUMBERS 4; IPS l.15)",
+               # Third pass: the same three dates said once each (the trade days are the dates the markets run to)
+               "each column's own date: the bottom turns on markets to the floor's trade day, Mon 3 Jan 2028; the top "
+               "to the move's, Thu 2 Jan 2031, before the 2031 meetings; her flexibility to January 2033 (NUMBERS 4; "
+               "IPS l.15)",
                f"checked against history: each named world's flexibility ({D.hundreds(D.TABLE2_FLEX_WORLDS[0])} to "
                f"{D.hundreds(D.TABLE2_FLEX_WORLDS[1])}) is below the median starting month's "
                f"({D.hundreds(D.TABLE2_FLEX_MEDIAN)}) (8i, 8j)"]},
@@ -397,7 +450,9 @@ EXHIBITS = {
                f"payments hold, even if cash waiting earns nothing, to a {D.FALL_TAKES_WHOLE_DEPOSIT:.2f}-point fall "
                "before 2027",
                # Tue 17 Nov (coherence reader 7, M13; case l.146-147): the building-cost band's source and date
-               f"building-cost trend: {D.CCI_SOURCE} (8d)"]},
+               # Wed 18 Nov evening, third pass (bond desk 5, M6 (a)): the cell says "five-year building costs", so the
+               # item's name follows it (the same two words)
+               f"building costs: {D.CCI_SOURCE} (8d)"]},
 }
 
 
@@ -605,8 +660,50 @@ def add_table3(BT, rep, note_text, top=False):
 # NUMBERS 3). Patterns are matched on whole words, case ignored.
 # Mon 16 Nov night: "fixed" is allowed only negated, "not a fixed" (WORDS: an iBond fund pays "not a fixed amount";
 # Figure 1's note item 1, coherence reader 6, M9: "its net asset value, not a fixed sum").
+# Wed 18 Nov evening: J.P. Morgan's 7.5% is never "the top" of the forecasts, "the consensus" or "upper third" (CANON
+# B15; card Q117; the lead's brief), so three more patterns; second pass, a fourth: no median figure (card Q146)
 NEVER_WORDS = (r"\bpencil", r"\bink(ed|s)?\b", r"\bendowment", r"\boptimal", r"\bnatural hedge", r"\bfail-safe",
-               r"(?<!\bnot a )\bfixed\b", r"\b89%")
+               r"(?<!\bnot a )\bfixed\b", r"\b89%", r"\bupper third", r"\bconsensus",
+               r"\btop of (?:the )?(?:published )?(?:forecasts|estimates)",
+               # second pass (the lead's call, card Q146): no median figure for the published forecasts anywhere
+               r"\bmedian (?:about |of )?[\d.]+%")
+
+# Wed 18 Nov evening: what Table 2's note must carry since the morning's hand edits (the build stops if one is
+# missing), and the stale pointers it must not (3e's recast no longer carries the starting months' method; the
+# threshold is the room under the top, not "the range's 0.5%")
+# Second pass (the lead's call on card Q146; the coordinator's trim): the phrase without a median; the room under the
+# top as "about 2% centrally", its two parts still named in the range-rule item (the last three musts); never a median,
+# a count of houses, "shares of the past" (the note's shares are stocks), and J.P. Morgan named once
+# Third pass (bond desk 5, H1 and H3): one fund behind the top, named, "the fund's costs" and "what it pays"; the
+# curve dated to the day trading froze; never "the funds' costs", "the funds pay" or "two Treasury funds"
+T2_NOTE_MUST = (f"J.P. Morgan's 2027 assumption, {D.SHARE_RETURN_STANDING}",
+                f"the room under the top (about {round(100 * D.ROOM_UNDER_TOP)}% of what it pays, centrally",
+                D.TABLE2_STARTS_METHOD,
+                "less the fees to 15 Dec 2032 and 0.5%", "the bottom rounded down to $5,000", "rounded down once",
+                "units of the late-2032 Treasury fund held", "the fund's costs beyond the fees",
+                "whatever the fund pays above the top", "Treasury curve of 6 Nov 2026, the day trading froze")
+T2_NOTE_NEVER = ("method in 3e", "passed the range's 0.5%", "median about", "fifteen", "shares of the past",
+                 "upper third", "the funds' costs", "the funds pay", "two Treasury funds")
+
+
+def carry_check(verbose=True):
+    """Fails if Table 2's note items lack one of the Wed 18 Nov morning edits, or keep a pointer they replaced, in the
+    items themselves or in the Letter PDF's placeholder note (which leaves the reviewers' marks out)."""
+    items = "; ".join(EXHIBITS["t2"]["note_items"])
+    placeholder = items_note("t2")
+    fails = [("must", s, where) for s in T2_NOTE_MUST for where, t in (("items", items), ("placeholder", placeholder))
+             if s not in t]
+    fails += [("never", s, "items") for s in T2_NOTE_NEVER if s in items]
+    fails += [("never", s, "placeholder") for s in T2_NOTE_NEVER if s in placeholder]
+    # second pass: J.P. Morgan named once in the note (it covers the 7.5% and the 17.88%)
+    fails += [("once", "J.P. Morgan", where) for where, t in (("items", items), ("placeholder", placeholder))
+              if t.count("J.P. Morgan") != 1]
+    n = 2 * len(T2_NOTE_MUST) + 2 * len(T2_NOTE_NEVER) + 2
+    if verbose:
+        for kind, s, where in fails:
+            print(f"  FAIL     carry     Table 2 note ({where}): {kind} {s!r}")
+        print(f"Carry check: Table 2's note, {n} checks, {len(fails)} FAIL")
+    return n, fails
 
 
 def exhibit_texts():
@@ -771,8 +868,22 @@ def measure(BT, workdir):
                     # Mon 16 Nov night: too tall for one Letter page (Table 3 after that night's hand edits). Measured
                     # again by the same method on a page of Letter width and 22 in tall, so the size of the overrun
                     # is known: Letter's text block is 9 in (648 pt, 23.5 double-spaced lines).
-                    res[key] = {"lines": None, "pages_spanned": b[0] - a[0] + 1, "note_words": words,
-                                **_measure_tall(BT, ex, note, workdir, variant)}
+                    tall = _measure_tall(BT, ex, note, workdir, variant)
+                    if tall["fits_one_page"]:
+                        # Wed 18 Nov evening (Table 2 with its 169-word note): taller than the room between two prose
+                        # lines but inside Letter's 9-in block, so it fits one page with at most one prose line
+                        # beside it. Its height by the same gap method is the page cost; before tonight this case
+                        # was printed as "does not fit one page" with a negative overrun
+                        n_lines = tall["lines_on_a_tall_page"]
+                        res[key] = {"lines": n_lines, "inches": tall["inches"],
+                                    "prose_words_displaced": int(round(n_lines * 14.26, -1)), "note_words": words,
+                                    "pages_spanned": 1, "fits_one_page": True, "between_two_prose_lines": False,
+                                    "under_letter_text_block_inches": round(-tall["over_one_letter_page_inches"], 2),
+                                    "method": "fits one Letter page, not between two prose lines: the same gap "
+                                              "measured on a page of Letter width, 22 in tall (Letter's text block "
+                                              "is 9 in, 23.5 double-spaced lines)"}
+                    else:
+                        res[key] = {"lines": None, "pages_spanned": b[0] - a[0] + 1, "note_words": words, **tall}
     return res
 
 
@@ -793,7 +904,8 @@ def _measure_tall(BT, ex, note, workdir, variant):
     inches = (gap - 27.6) / 72
     return {"lines_on_a_tall_page": round(gap / 27.6 - 1, 1), "inches": round(inches, 2),
             "over_one_letter_page_inches": round(inches - LETTER_BODY_IN, 2),
-            "over_one_letter_page_lines": round((inches - LETTER_BODY_IN) * 72 / 27.6, 1), "fits_one_page": False,
+            "over_one_letter_page_lines": round((inches - LETTER_BODY_IN) * 72 / 27.6, 1),
+            "fits_one_page": inches <= LETTER_BODY_IN,      # Wed 18 Nov evening: was always False
             "method": "too tall for one Letter page: measured on a page of Letter width, 22 in tall (Letter's text "
                       "block is 9 in, 23.5 double-spaced lines)"}
 
@@ -868,8 +980,9 @@ def _md_table(header, rows, right):
 
 def tables_md(measures):
     L = []
-    L.append("# The Final Report's exhibits as text (built Tue 17 Nov 2026, Sydney)\n")
+    L.append("# The Final Report's exhibits as text (built Wed 18 Nov 2026 evening, Sydney)\n")
     L.append(f"Generated by `build_exhibits.py` from `exhibit_data.py`, which reads `../numbers/results_*_{D.REGISTER_DATE}.json` "
+             "(and, for Table 2's note, `results_break_2026-11-18.json`, NUMBERS 8u) "
              "and checks every figure against `../NUMBERS.md` (sections named under each exhibit). Notes for the "
              "store, not report prose: titles are working labels and each note lists the items it must carry; both "
              "are written on 27 Nov. Square brackets mark placeholders. MODEL = Keel's calculation, not a forecast.\n")
@@ -902,6 +1015,41 @@ def tables_md(measures):
              "2's note says \"centrally\" for the rate past the margin (L6). Table 3 measures "
              + str(measures.get("t3_note_budget", {}).get("lines")) + " lines with a "
              + str(EXHIBITS["t3"]["note_budget_words"]) + "-word note.\n")
+    # Wed 18 Nov evening: the morning's hand edits to Table 2's note, carried into the scripts (carry_check). The first
+    # pass's line is kept as it was measured (static); the second pass's line carries tonight's measures
+    t2m, t3m = measures.get("t2_note_budget", {}), measures.get("t3_note_budget", {})
+    L.append("**Wed 18 Nov morning hand edits to Table 2's note, carried Wed 18 Nov evening (`REBUILD_2026-11-18_evening.md`; "
+             "the lead's calls on coherence reader 9, H2 and H6; SKELETON Exhibits item 3 and row 3e's hand-off):** the "
+             "7.5% named as J.P. Morgan's 2027 assumption for world shares and placed above the middle of published "
+             "forecasts, never \"the top\", \"the consensus\" or \"upper third\"; the rate past the margin from the room "
+             "under the top (the 0.5% margin plus the rounding down, about 2% centrally, NUMBERS 8u); the starting "
+             "months' method in the note, since 3e's recast no longer carries it. Table 2 then measured 22.2 lines with "
+             "a 169-word note (was 20.2 with 137), one Letter page but not between two prose lines.\n")
+    t2_where = (", one Letter page but not between two prose lines" if t2m.get("between_two_prose_lines") is False
+                else ", between two prose lines on one Letter page")
+    # Wed 18 Nov evening, third pass: the second pass's line is kept as it was measured (static, like the first's)
+    L.append("**Wed 18 Nov evening, second pass (the lead's call, `../../pm/ASK_HUMANS.md` top row, card Q146; the "
+             "coordinator's trim):** no median figure and no count of houses: \"J.P. Morgan's 2027 assumption, "
+             + D.SHARE_RETURN_STANDING + "\", since the median moves with the panel while \"above the middle\" holds on "
+             "every count (checked, not printed); J.P. Morgan named once, for the 7.5% and the 17.88%; the room under "
+             "the top printed \"about 2% centrally\", its two parts named in the range-rule item; the method "
+             "\"overlapping starting months, past frequencies, never probabilities\" (\"shares of the past\" could be "
+             "read as stocks). Table 2 measured 21.2 lines with a 153-word note, between two prose lines on one Letter "
+             "page; Table 3 21.9 lines with its 44-word note, one Letter page; no figure changed.\n")
+    # Wed 18 Nov evening, third pass (the lead's call on Table 3 row 4; bond desk 5): this line carries tonight's
+    # measures
+    L.append("**Wed 18 Nov evening, third pass (the lead's call on Table 3 row 4, NUMBERS 3 \"An early end of the "
+             "late-2032 fund after the move\" and 9; bond desk 5, `../research/panel/2026-11-18_bond_desk_5_3c_table3_3e.md`, "
+             "H1, H2, H3, M5, M6):** Table 3 row 4 says what the 0.5% margin pays and what it cannot, in the numbers "
+             "owner's words fitted to four lines (\"trading costs from the 0.5% margin, lost interest from what its "
+             "cash earns\"), the 3e list split the same way with the early end's size; Table 2's note names the one "
+             "fund behind the top, the late-2032 Treasury fund, bought twice (\"the fund's costs\", \"about 2% of "
+             "what it pays\"), and dates its curve to the day trading froze; row 7 says \"her $115,000 part\", "
+             "\"shares at 7.5%\" for the $28,700, \"alone\" for the currency's $11,500 and \"five-year\" for the "
+             "building-cost band, the joint move (22.3% in the middle span) and the two index readings in the 3e list; row 5 "
+             "says \"funds\". Table 2 measures " + str(t2m.get("lines")) + " lines with a "
+             + str(EXHIBITS["t2"]["note_budget_words"]) + "-word note" + t2_where + "; Table 3 " + str(t3m.get("lines"))
+             + " lines with its " + str(EXHIBITS["t3"]["note_budget_words"]) + "-word note, one Letter page.\n")
 
     def cost(ex):
         m = measures.get(f"{ex}_note_budget", {})
@@ -914,9 +1062,12 @@ def tables_md(measures):
                     f"({m['over_one_letter_page_inches']} in) more than Letter's 9-in text block**; "
                     f"{n.get('lines_on_a_tall_page', n.get('lines'))} lines ({n.get('inches')} in) without a note "
                     f"({n.get('over_one_letter_page_lines', 0)} over). Measured on a page of Letter width, 22 in tall.")
+        # Wed 18 Nov evening: an exhibit inside Letter's 9-in block but too tall to sit between two prose lines
+        where = (f", one Letter page but not between two prose lines ({m.get('under_letter_text_block_inches')} in "
+                 f"under Letter's 9-in text block)" if m.get("between_two_prose_lines") is False else "")
         return (f"Page cost in Wharton's format (Letter, 12 pt, double-spaced text, single-spaced body): "
                 f"**{m.get('lines')} double-spaced lines** with a {m.get('note_words')}-word note "
-                f"(about {m.get('prose_words_displaced')} words of prose); "
+                f"(about {m.get('prose_words_displaced')} words of prose{where}); "
                 f"{n.get('lines')} lines without a note.")
 
     # Table 1
@@ -1035,8 +1186,8 @@ def tables_md(measures):
              "(bond desk 4, M7; its building-cost trigger declined: SKELETON's Sat 14 Nov decision, CANON A34); the "
              "note names its basis (bond desk 4, L10; the ladder alone holds to 3.89 points, NUMBERS 5).\n")
     # Tue 17 Nov: the details cut to fit the page, for 3e's notes (D.TABLE3_FOR_3E, checked in D.check())
-    L.append("**For 3e's notes (Tue 17 Nov): what left Table 3's cells to fit one page, not printed in the table or its "
-             "note, never lost.**\n")
+    L.append("**For 3e's notes (Tue 17 Nov; rows 4, 5 and 7 added to on Wed 18 Nov evening, third pass): what left "
+             "Table 3's cells to fit one page, not printed in the table or its note, never lost.**\n")
     L.append("\n".join(f"- {t}." for t in D.TABLE3_FOR_3E) + "\n")
     L.append("Not a row: custody (one line of 3e prose, SKELETON item 4 (c)). IBTA's early end in 2021 is in the list "
              "above (row 4's window and cash), an example of row 4's \"early end\" for 3e's prose, never in the table "
@@ -1054,6 +1205,9 @@ def main(argv):
     _, word_fails = words_check()
     if word_fails:
         sys.exit("Stopped: an exhibit text carries a word never printed there (listed above).")
+    _, carry_fails = carry_check()          # Wed 18 Nov evening: the morning's hand edits to Table 2's note
+    if carry_fails:
+        sys.exit("Stopped: Table 2's note lacks a Wed 18 Nov edit or keeps a pointer it replaced (listed above).")
     print("font:", FONT)
     print(figure1([(os.path.join(HERE, "figure1_reserve.svg"), None),
                    (os.path.join(HERE, "figure1_reserve_2x.png"), PREVIEW_DPI),
@@ -1071,8 +1225,11 @@ def main(argv):
     m["_method"] = ("Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced "
                     "text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a "
                     "blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)")
-    m["_built"] = (f"Tue 17 Nov 2026 (Sydney), register of {D.REGISTER_DATE} (results_*_{D.REGISTER_DATE}.json; Table 3 "
-                   "row 5's limit from NUMBERS 4, Tue 17 Nov)")
+    m["_built"] = (f"Wed 18 Nov 2026 evening (Sydney), register of {D.REGISTER_DATE} (results_*_{D.REGISTER_DATE}.json; "
+                   "Table 3 row 5's limit from NUMBERS 4, Tue 17 Nov; Table 2's note from NUMBERS 8u and 8v, second pass, "
+                   "results_break_2026-11-18.json, Wed 18 Nov; third pass: Table 3 row 4 and the 3e list from NUMBERS 3's "
+                   "early end, results_fund_exit_2026-11-18.json, and 8q's strong-Taiwan-dollar spans, "
+                   "results_strong_twd_windows_2026-11-18.json)")
     with open(os.path.join(HERE, "measurements.json"), "w") as fh:
         json.dump(m, fh, indent=1)
     print(json.dumps(m, indent=1))

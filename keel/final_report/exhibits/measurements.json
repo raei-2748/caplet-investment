@@ -28,10 +28,10 @@
   "pages_spanned": 1
  },
  "t2_note_budget": {
-  "lines": 20.2,
-  "inches": 7.73,
-  "prose_words_displaced": 290,
-  "note_words": 137,
+  "lines": 21.2,
+  "inches": 8.11,
+  "prose_words_displaced": 300,
+  "note_words": 154,
   "pages_spanned": 1
  },
  "t2_no_note": {
@@ -70,5 +70,5 @@
   "method": "card Q23 row 33 (fit_mock): Letter, Wharton's format, 120-word filler paragraphs, the paper title on page 2, Level 1 heading, lead + 2.1 under one Level 2 heading before Table 1 (top of page 3), 2.2, 2.3 and 2.5 under three after it; Table 1 with its note budget in filler. Real text runs 2-3% under a filler ceiling (Q23), so the real-text headroom takes 3% off the ceiling."
  },
  "_method": "Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)",
- "_built": "Tue 17 Nov 2026 (Sydney), register of 2026-11-17 (results_*_2026-11-17.json; Table 3 row 5's limit from NUMBERS 4, Tue 17 Nov)"
+ "_built": "Wed 18 Nov 2026 evening (Sydney), register of 2026-11-17 (results_*_2026-11-17.json; Table 3 row 5's limit from NUMBERS 4, Tue 17 Nov; Table 2's note from NUMBERS 8u and 8v, second pass, results_break_2026-11-18.json, Wed 18 Nov; third pass: Table 3 row 4 and the 3e list from NUMBERS 3's early end, results_fund_exit_2026-11-18.json, and 8q's strong-Taiwan-dollar spans, results_strong_twd_windows_2026-11-18.json)"
 }

@@ -1,0 +1,568 @@
+{
+ "stamp": {
+  "run": "Wed 18 Nov 2026 evening (Sydney)",
+  "status": "Keel arithmetic on data read at source (not MODEL, not a forecast)",
+  "card": "research/cards/Q131_taiwan_materials_labour_and_the_nt_dollar.md (rows 14, 15, 40)",
+  "numbers_section": "8q, block 'Added Wed 18 Nov evening (card Q131)'",
+  "cci": "card Q10e's read (taiwan_joint.py CCI_TEXT, parsed) Jan 1991-Sep 2026 + Oct 2026 120.50 (card Q103)",
+  "twd": "keel/models/data/twd_per_usd_monthly.csv (FRED EXTAUS mirror, VERIFIED 8l) + Oct 2026 32.2695 (card Q131, FRED read 17 Nov 2026, preliminary)",
+  "pots": "results_taiwan_joint_2026-11-17.json checks.register (central_kept, central_excess)"
+ },
+ "checks": {
+  "months": 430,
+  "card_q131_csv_max_abs_diff": {
+   "cci_total": 0.0,
+   "twd_per_usd": 0.0
+  },
+  "p95_1in20_405_windows_reproduces_8q": 0.27992374497912165,
+  "p95_1in20_406_windows_with_oct2026": 0.2799049952301508,
+  "same_30_windows_on_8q_data_to_sep2026": true
+ },
+ "definition": {
+  "window_months": 24,
+  "starts": [
+   "1991-01",
+   "2024-10"
+  ],
+  "windows": 406,
+  "strong_ntd_at_least": 0.1,
+  "ntd_move": "fx_start / fx_end - 1",
+  "usd_cost_rise": "(cci_end / cci_start) * (fx_start / fx_end) - 1"
+ },
+ "strong_windows": {
+  "count": 30,
+  "share_of_windows": 0.07389162561576355,
+  "usd_cost_median": 0.22267361414933917,
+  "usd_cost_min": 0.09305308203594675,
+  "usd_cost_min_window": [
+   "1998-09",
+   "2000-09"
+  ],
+  "usd_cost_max": 0.29031650884294025,
+  "usd_cost_max_window": [
+   "2003-03",
+   "2005-03"
+  ],
+  "beat_the_currency_move": 25,
+  "index_in_ntd_rose": 25,
+  "closest_window_above_the_line": {
+   "start": "2019-01",
+   "ntd_move": 0.1000460613937677
+  },
+  "next_ntd_moves_below_the_line": [
+   0.09952189094816011,
+   0.09559495127476714,
+   0.09467692667211947
+  ],
+  "other_windows_usd_cost_median": 0.019599562592412578,
+  "ntd_move_median": 0.11745842593786837,
+  "index_in_ntd_median": 0.07203418986455201,
+  "median_usd_over_median_ntd": 1.8957653516242943,
+  "index_fell_in_ntd": [
+   -0.01574365623263574,
+   -0.014050656313551624,
+   -0.009798484008134656,
+   -0.00813459049731935,
+   -0.006887565152643327
+  ],
+  "above_8q_central_cover_24_9": 10,
+  "above_8q_1in20_28_0": 7,
+  "above_half_kept_alone_cover_18_4": 21,
+  "periods_with_a_window_above_central_cover": 2,
+  "of_405_windows_above_8q_1in20": {
+   "windows": 21,
+   "of_which_strong_ntd": 7,
+   "others_ntd_move_range": [
+    0.022345591142744148,
+    0.08556356271489807
+   ],
+   "others_starts": [
+    "1991-01",
+    "1991-03",
+    "1991-04",
+    "1991-05",
+    "2002-03",
+    "2002-12",
+    "2003-01",
+    "2006-02",
+    "2006-03",
+    "2006-04",
+    "2006-05",
+    "2006-06",
+    "2006-07",
+    "2006-08"
+   ]
+  },
+  "above_central_cover_by_period": [
+   0,
+   5,
+   0,
+   0,
+   5
+  ],
+  "windows": [
+   {
+    "start": "1998-01",
+    "end": "2000-01",
+    "ntd_move": 0.10448534291587741,
+    "usd_cost_rise": 0.09687812815640462,
+    "index_in_ntd": -0.006887565152643327
+   },
+   {
+    "start": "1998-06",
+    "end": "2000-06",
+    "ntd_move": 0.12073109420865702,
+    "usd_cost_rise": 0.11161440569965686,
+    "index_in_ntd": -0.00813459049731935
+   },
+   {
+    "start": "1998-07",
+    "end": "2000-07",
+    "ntd_move": 0.10985095436970282,
+    "usd_cost_rise": 0.09897609754189829,
+    "index_in_ntd": -0.009798484008134656
+   },
+   {
+    "start": "1998-08",
+    "end": "2000-08",
+    "ntd_move": 0.11651733904282424,
+    "usd_cost_rise": 0.10082953764381242,
+    "index_in_ntd": -0.014050656313551624
+   },
+   {
+    "start": "1998-09",
+    "end": "2000-09",
+    "ntd_move": 0.11053699471435396,
+    "usd_cost_rise": 0.09305308203594675,
+    "index_in_ntd": -0.01574365623263574
+   },
+   {
+    "start": "2003-02",
+    "end": "2005-02",
+    "ntd_move": 0.10275703545666981,
+    "usd_cost_rise": 0.2865827124409601,
+    "index_in_ntd": 0.16669644452385213
+   },
+   {
+    "start": "2003-03",
+    "end": "2005-03",
+    "ntd_move": 0.11625275272861724,
+    "usd_cost_rise": 0.29031650884294025,
+    "index_in_ntd": 0.1559357911448227
+   },
+   {
+    "start": "2003-04",
+    "end": "2005-04",
+    "ntd_move": 0.10622299872935193,
+    "usd_cost_rise": 0.2808382729934791,
+    "index_in_ntd": 0.15784816846575844
+   },
+   {
+    "start": "2003-05",
+    "end": "2005-05",
+    "ntd_move": 0.10976421068792153,
+    "usd_cost_rise": 0.2852921805310362,
+    "index_in_ntd": 0.158166904422254
+   },
+   {
+    "start": "2003-06",
+    "end": "2005-06",
+    "ntd_move": 0.10481285469561974,
+    "usd_cost_rise": 0.26987256728657383,
+    "index_in_ntd": 0.14940060833780633
+   },
+   {
+    "start": "2008-12",
+    "end": "2010-12",
+    "ntd_move": 0.10882768030928336,
+    "usd_cost_rise": 0.13201740398561346,
+    "index_in_ntd": 0.02091373086020165
+   },
+   {
+    "start": "2009-01",
+    "end": "2011-01",
+    "ntd_move": 0.14630459799728635,
+    "usd_cost_rise": 0.19300749311438792,
+    "index_in_ntd": 0.04074213363419843
+   },
+   {
+    "start": "2009-02",
+    "end": "2011-02",
+    "ntd_move": 0.16944521294218506,
+    "usd_cost_rise": 0.2230019886917327,
+    "index_in_ntd": 0.04579673776662463
+   },
+   {
+    "start": "2009-03",
+    "end": "2011-03",
+    "ntd_move": 0.16312684365781704,
+    "usd_cost_rise": 0.2460803628183339,
+    "index_in_ntd": 0.07131940906775358
+   },
+   {
+    "start": "2009-04",
+    "end": "2011-04",
+    "ntd_move": 0.15935533289168613,
+    "usd_cost_rise": 0.24361554293324583,
+    "index_in_ntd": 0.07267850300166057
+   },
+   {
+    "start": "2009-05",
+    "end": "2011-05",
+    "ntd_move": 0.1442341834283687,
+    "usd_cost_rise": 0.23028223303265083,
+    "index_in_ntd": 0.0752014324082364
+   },
+   {
+    "start": "2009-06",
+    "end": "2011-06",
+    "ntd_move": 0.1373812118645834,
+    "usd_cost_rise": 0.22407761834511697,
+    "index_in_ntd": 0.07622458114848452
+   },
+   {
+    "start": "2009-07",
+    "end": "2011-07",
+    "ntd_move": 0.14009016819836995,
+    "usd_cost_rise": 0.22234523960694563,
+    "index_in_ntd": 0.07214786488209035
+   },
+   {
+    "start": "2009-08",
+    "end": "2011-08",
+    "ntd_move": 0.13425436870412955,
+    "usd_cost_rise": 0.2117205502463908,
+    "index_in_ntd": 0.06829700963000507
+   },
+   {
+    "start": "2016-01",
+    "end": "2018-01",
+    "ntd_move": 0.1371643339398989,
+    "usd_cost_rise": 0.1951090133763269,
+    "index_in_ntd": 0.05095541401273884
+   },
+   {
+    "start": "2016-02",
+    "end": "2018-02",
+    "ntd_move": 0.136522167285559,
+    "usd_cost_rise": 0.19442257232158977,
+    "index_in_ntd": 0.05094524920206234
+   },
+   {
+    "start": "2016-03",
+    "end": "2018-03",
+    "ntd_move": 0.11604124784668013,
+    "usd_cost_rise": 0.17789149846299934,
+    "index_in_ntd": 0.055419323197645864
+   },
+   {
+    "start": "2016-04",
+    "end": "2018-04",
+    "ntd_move": 0.10019164848332185,
+    "usd_cost_rise": 0.15007909714151313,
+    "index_in_ntd": 0.045344325897187066
+   },
+   {
+    "start": "2019-01",
+    "end": "2021-01",
+    "ntd_move": 0.1000460613937677,
+    "usd_cost_rise": 0.18846051031726496,
+    "index_in_ntd": 0.08037340619307831
+   },
+   {
+    "start": "2019-02",
+    "end": "2021-02",
+    "ntd_move": 0.10227943781740878,
+    "usd_cost_rise": 0.18155594249051354,
+    "index_in_ntd": 0.07192051484701367
+   },
+   {
+    "start": "2019-05",
+    "end": "2021-05",
+    "ntd_move": 0.1183995128329125,
+    "usd_cost_rise": 0.2525873324880026,
+    "index_in_ntd": 0.11998200832115136
+   },
+   {
+    "start": "2019-06",
+    "end": "2021-06",
+    "ntd_move": 0.12633189344852402,
+    "usd_cost_rise": 0.28049746476154325,
+    "index_in_ntd": 0.13687401751628103
+   },
+   {
+    "start": "2019-07",
+    "end": "2021-07",
+    "ntd_move": 0.11000067864171648,
+    "usd_cost_rise": 0.2698008886381995,
+    "index_in_ntd": 0.14396406513194848
+   },
+   {
+    "start": "2019-08",
+    "end": "2021-08",
+    "ntd_move": 0.12669109913816312,
+    "usd_cost_rise": 0.290263405571338,
+    "index_in_ntd": 0.14517937219730936
+   },
+   {
+    "start": "2019-09",
+    "end": "2021-09",
+    "ntd_move": 0.12097326936257713,
+    "usd_cost_rise": 0.28962306797791326,
+    "index_in_ntd": 0.1504494382022472
+   }
+  ],
+  "episodes": [
+   {
+    "starts": [
+     "1998-01",
+     "1998-01"
+    ],
+    "windows": 1,
+    "usd_cost_median": 0.09687812815640462,
+    "usd_cost_min": 0.09687812815640462,
+    "usd_cost_max": 0.09687812815640462,
+    "ntd_move_max": 0.10448534291587741,
+    "index_in_ntd_median": -0.006887565152643327
+   },
+   {
+    "starts": [
+     "1998-06",
+     "1998-09"
+    ],
+    "windows": 4,
+    "usd_cost_median": 0.09990281759285535,
+    "usd_cost_min": 0.09305308203594675,
+    "usd_cost_max": 0.11161440569965686,
+    "ntd_move_max": 0.12073109420865702,
+    "index_in_ntd_median": -0.01192457016084314
+   },
+   {
+    "starts": [
+     "2003-02",
+     "2003-06"
+    ],
+    "windows": 5,
+    "usd_cost_median": 0.2852921805310362,
+    "usd_cost_min": 0.26987256728657383,
+    "usd_cost_max": 0.29031650884294025,
+    "ntd_move_max": 0.11625275272861724,
+    "index_in_ntd_median": 0.15784816846575844
+   },
+   {
+    "starts": [
+     "2008-12",
+     "2009-08"
+    ],
+    "windows": 9,
+    "usd_cost_median": 0.2230019886917327,
+    "usd_cost_min": 0.13201740398561346,
+    "usd_cost_max": 0.2460803628183339,
+    "ntd_move_max": 0.16944521294218506,
+    "index_in_ntd_median": 0.07131940906775358
+   },
+   {
+    "starts": [
+     "2016-01",
+     "2016-04"
+    ],
+    "windows": 4,
+    "usd_cost_median": 0.18615703539229456,
+    "usd_cost_min": 0.15007909714151313,
+    "usd_cost_max": 0.1951090133763269,
+    "ntd_move_max": 0.1371643339398989,
+    "index_in_ntd_median": 0.05095033160740059
+   },
+   {
+    "starts": [
+     "2019-01",
+     "2019-02"
+    ],
+    "windows": 2,
+    "usd_cost_median": 0.18500822640388925,
+    "usd_cost_min": 0.18155594249051354,
+    "usd_cost_max": 0.18846051031726496,
+    "ntd_move_max": 0.10227943781740878,
+    "index_in_ntd_median": 0.07614696052004599
+   },
+   {
+    "starts": [
+     "2019-05",
+     "2019-09"
+    ],
+    "windows": 5,
+    "usd_cost_median": 0.28049746476154325,
+    "usd_cost_min": 0.2525873324880026,
+    "usd_cost_max": 0.290263405571338,
+    "ntd_move_max": 0.12669109913816312,
+    "index_in_ntd_median": 0.14396406513194848
+   }
+  ],
+  "periods": [
+   {
+    "starts": [
+     "1998-01",
+     "1998-09"
+    ],
+    "windows": 5,
+    "usd_cost_median": 0.09897609754189829,
+    "usd_cost_min": 0.09305308203594675,
+    "usd_cost_max": 0.11161440569965686,
+    "ntd_move_max": 0.12073109420865702,
+    "index_in_ntd_median": -0.009798484008134656
+   },
+   {
+    "starts": [
+     "2003-02",
+     "2003-06"
+    ],
+    "windows": 5,
+    "usd_cost_median": 0.2852921805310362,
+    "usd_cost_min": 0.26987256728657383,
+    "usd_cost_max": 0.29031650884294025,
+    "ntd_move_max": 0.11625275272861724,
+    "index_in_ntd_median": 0.15784816846575844
+   },
+   {
+    "starts": [
+     "2008-12",
+     "2009-08"
+    ],
+    "windows": 9,
+    "usd_cost_median": 0.2230019886917327,
+    "usd_cost_min": 0.13201740398561346,
+    "usd_cost_max": 0.2460803628183339,
+    "ntd_move_max": 0.16944521294218506,
+    "index_in_ntd_median": 0.07131940906775358
+   },
+   {
+    "starts": [
+     "2016-01",
+     "2016-04"
+    ],
+    "windows": 4,
+    "usd_cost_median": 0.18615703539229456,
+    "usd_cost_min": 0.15007909714151313,
+    "usd_cost_max": 0.1951090133763269,
+    "ntd_move_max": 0.1371643339398989,
+    "index_in_ntd_median": 0.05095033160740059
+   },
+   {
+    "starts": [
+     "2019-01",
+     "2019-09"
+    ],
+    "windows": 7,
+    "usd_cost_median": 0.2698008886381995,
+    "usd_cost_min": 0.18155594249051354,
+    "usd_cost_max": 0.290263405571338,
+    "ntd_move_max": 0.12669109913816312,
+    "index_in_ntd_median": 0.13687401751628103
+   }
+  ],
+  "median_of_period_medians": 0.2230019886917327,
+  "january_starts": {
+   "starts": [
+    "1998-01",
+    "2009-01",
+    "2016-01",
+    "2019-01"
+   ],
+   "usd_cost": [
+    0.09687812815640462,
+    0.19300749311438792,
+    0.1951090133763269,
+    0.18846051031726496
+   ]
+  },
+  "threshold_sensitivity": {
+   "0.090": {
+    "windows": 39,
+    "median": 0.2117205502463908,
+    "min": 0.09064862734864976,
+    "max": 0.29031650884294025
+   },
+   "0.095": {
+    "windows": 32,
+    "median": 0.22353980351842484,
+    "min": 0.09305308203594675,
+    "max": 0.29031650884294025
+   },
+   "0.105": {
+    "windows": 24,
+    "median": 0.22353980351842484,
+    "min": 0.09305308203594675,
+    "max": 0.29031650884294025
+   },
+   "0.110": {
+    "windows": 20,
+    "median": 0.22353980351842484,
+    "min": 0.09305308203594675,
+    "max": 0.29031650884294025
+   }
+  },
+  "strong_12m_windows_since_2022": {
+   "starts": [
+    "2024-07"
+   ],
+   "ntd_move": 0.11266381499343892,
+   "usd_cost_rise": 0.11077659731044709
+  }
+ },
+ "keel_arithmetic_on_8q_central_pots": {
+  "pots": {
+   "half_kept": 21179.178869581778,
+   "excess": 7503.134822558903,
+   "half_kept_plus_excess": 28682.31369214068
+  },
+  "cover_central": 0.24941142340991895,
+  "cover_half_kept_alone": 0.18416677277897198,
+  "8q_1in20_rise": 0.2799237449791214,
+  "8q_rise_covered_19_in_20": {
+   "house": 0.15833036947012177,
+   "history": 0.17990878739676405,
+   "joint": 0.1760837390808068
+  },
+  "8q_24_6pct_row_covers": {
+   "house": 0.51048,
+   "history": 0.6491525423728813,
+   "joint": 0.652991452991453
+  },
+  "median": {
+   "rise": 0.22267361414933917,
+   "need_top": 25607.465627174006,
+   "left_top_flex_plus_excess": 3074.8480649666744,
+   "left_top_half_kept": -4428.286757592228,
+   "need_bottom": 21153.99334418722,
+   "left_bottom_flex_plus_excess": 7528.32034795346,
+   "left_bottom_half_kept": 25.18552539455777
+  },
+  "lowest": {
+   "rise": 0.09305308203594675,
+   "need_top": 10701.104434133877,
+   "left_top_flex_plus_excess": 17981.209258006806,
+   "left_top_half_kept": 10478.074435447901,
+   "need_bottom": 8840.042793414941,
+   "left_bottom_flex_plus_excess": 19842.27089872574,
+   "left_bottom_half_kept": 12339.136076166837
+  },
+  "highest": {
+   "rise": 0.29031650884294025,
+   "need_top": 33386.39851693813,
+   "left_top_flex_plus_excess": -4704.084824797446,
+   "left_top_half_kept": -12207.219647356349,
+   "need_bottom": 27580.068340079324,
+   "left_bottom_flex_plus_excess": 1102.2453520613562,
+   "left_bottom_half_kept": -6400.889470497546
+  },
+  "8q_1in20": {
+   "rise": 0.2799237449791214,
+   "need_top": 32191.230672598966,
+   "left_top_flex_plus_excess": -3508.9169804582853,
+   "left_top_half_kept": -11012.051803017188,
+   "need_bottom": 26592.755773016535,
+   "left_bottom_flex_plus_excess": 2089.557919124145,
+   "left_bottom_half_kept": -5413.576903434758
+  }
+ }
+}
