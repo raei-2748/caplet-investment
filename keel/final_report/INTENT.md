@@ -63,7 +63,7 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    "which l.13 promises ("our plan isn't dependent on yields staying put")", which is the top-up's). l.11 is the test they meet, never their
    justification (never "justified by l.11", "the ten as bought would have fallen short", or "could have been met only
    from the shares": each tells a judge the submitted plan failed; second and third coherence readers, Fri 13 Nov).
-   What comes back from the extra Treasuries, in one wording everywhere (coherence reader 7, Tue 17 Nov, M11): worth about $46,600 in 1 January 2033 money if rates hold, all of it Laura's by the last payment in 2042; if cash waiting earns nothing, none
+   What comes back from the extra Treasuries, in one wording everywhere (coherence reader 7, Tue 17 Nov, M11): worth about $46,600 in 1 January 2033 money if rates hold, all of it Laura's by the last payment in 2042; if cash waiting earns nothing, none beyond the 0.5% margin for fund costs (struck Wed 18 Nov evening, coherence reader 10, M11: "none" alone; WORDS l.27's wording copied)
    (NUMBERS 8k; never "most", never "back by 2033", lay reader Fri 13 Nov evening). The report never offers a definition of high certainty of its own:
    l.11 is the definition (CANON A4). The operating reserve is defined at first use as the money set aside for the
    ten payments (SKELETON 3a; never "from 2033 the Treasuries are the operating reserve": coherence reader 6, L8;
@@ -95,8 +95,12 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    dollar, a co-sponsor falling short; no ranking of our own, coherence reader Thu 12 Nov evening; "her flexibility" is the half kept, about $21,200, and
    $28,700 is "her flexibility plus anything above the top" (re-sized Tue 17 Nov evening, were $21,300 and $29,800; coherence reader 8, M3), third coherence reader, Fri 13 Nov evening); a share slump followed by a cost burst can catch her flexibility (never "cushion", "tends to be" or "smallest when it is needed": cards Q66 and Q85 and NUMBERS 8q, Mon 16 Nov, find no general tendency; coherence reader 6, Mon 16 Nov, L2), and the report says so, with a
    recession replayed from history (card Q24).
-5. Laura watches many things, but only a missed deposit or a Treasury default changes the plan; everything else changes
-   a number, never a payment. (Defined Wed 11 Nov evening, so the two exits are not vague: a Treasury default is
+5. Laura watches many things, but only a missed deposit or a Treasury default would change the plan, IPS l.17's "only 2 possible
+   reasons we would change our plan"; "A fall in the market is not one of them" (l.17): it changes a figure not yet stated, never
+   a payment or a stated figure. (Struck Wed 18 Nov evening, coherence reader 10, H2: "changes the plan; everything else changes
+   a number, never a payment", false against NUMBERS 8u: fund costs beyond the margin, a broker failure (late), a deposit
+   smaller than the first slice and a fall in yields before the ten are bought each break the payments' standard without
+   being a reason to change; the two lists stay apart, card Q109.) (Defined Wed 11 Nov evening, so the two exits are not vague: a Treasury default is
    a payment on any marketable Treasury not made within five business days; a missed deposit is nothing received by
    31 March 2028. Card Q30, bond reader, ASK_HUMANS.)
 6. The team changed its own first plan for its own reason, then checked it (IPS l.9's reason first, the 27 Sep model only the check that priced it, CANON A3; coherence reader 8, L13), and its recommendation came from a disagreement it settled

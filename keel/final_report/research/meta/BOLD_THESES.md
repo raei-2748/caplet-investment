@@ -34,7 +34,7 @@ re-run it in NUMBERS before use.
 | 2 | Promised money is leverage: a "moderate" 60/40 is the aggressive choice for Laura | 5 | 4 | 3b, 2.3 | H1, H3, V |
 | 3 | Name a figure only once the money behind it is a bond | 5 | 4 | 3c, 3b | H3, W |
 | 4 | Confidence belongs to the rule; the uncertainty is which range | 5 | 4 | 3c, 3d | W |
-| 5 | Nobody can run on the plan, so the two reasons are the complete list | 4 | 5 | 2.3, 3a, Table 3 | W |
+| 5 | Nobody can run on the plan, so the two reasons are the complete list *(superseded Wed 18 Nov evening by NUMBERS 8u's two lists, coherence reader 10, H1)* | 4 | 5 | 2.3, 3a, Table 3 | W |
 | 6 | The share forecast barely matters; the Treasuries do the work | 4 | 5 | 3c, 3e | H3 |
 | 7 | Her flexibility is worth something only on bad news; half is a choice, not an optimum | 4 | 4 | 3b, 3e | H1, W |
 | 8 | Residencies run out of running money, not building money | 4 | 4 | 3.0, 3a, 3d | H2, W |
@@ -47,7 +47,7 @@ re-run it in NUMBERS before use.
 | 15 | Our WInS portfolio is a scale model: measure what scales, calculate what does not | 2 | 5 | 2.1, 2.5 | H4, W |
 
 **How the fifteen chain into one argument (report order, not rank).** Laura's standard is a test with no forecast in it
-(1). Only two flows can break a plan built to it, and they are the IPS's two reasons (5). So no share stands behind a
+(1). Only two flows can break a plan built to it, and they are the IPS's two reasons (5) *(struck Wed 18 Nov evening, coherence reader 10, H1: superseded by NUMBERS 8u's two lists; the IPS's two reasons are exits for when the plan cannot be carried out, Q7b-033, and the ways a promise breaks are a separate list, card Q109)*. So no share stands behind a
 promise, because promised money levers whatever sits on top of it (2, 10), and her career would lever it again (9). So
 the floor is bought first and a figure is named only once it is owned (3), which is why the confidence attaches to the
 rule (4) and the share forecast hardly moves it (6). What is not promised is kept for bad news only (7, 13). What
@@ -277,7 +277,7 @@ never "paths". Check the confidence wording against CANON A29-A32 before draftin
 
 ---
 
-## 5. Nobody can run on the plan, so the two reasons are the complete list
+## 5. Nobody can run on the plan, so the two reasons are the complete list *(superseded Wed 18 Nov evening, coherence reader 10, H1: NUMBERS 8u's "two lists" put fund costs beyond the margin in all three promises' sets, and a deposit smaller than the first slice and a 3.57-point fall before the ten are bought in the payments' set, none of them a reason to change; a default is a failed flow she owns a claim to (AHA_REGISTER l.49). So the claim's "the only things that could break it are the two it does not own" and step 4's "complete by construction" are struck; what stands: no one outside can demand any of her Treasuries before it pays (card Q3b), and the two reasons are exits for when the plan cannot be carried out, never for when keeping it would hurt (Q7b-033). SKELETON l.47 and l.94 carry the strike.)*
 
 **(1) Claim.** "Every 'safe' portfolio that famously broke (a bank, a county, Britain's pension funds) had someone who
 could demand cash before its bonds paid. Laura's plan has no one like that, so the only things that could break it are
@@ -411,7 +411,7 @@ Fisher's "quasi-option value".
 
 **(5) Evidence.** NUMBERS 8o (the trade at the centre; "the total barely moves"), 8f ($15,423 median in years shares fell
 against $23,315 in years they rose), 8k ($21,347; $29,823 with anything above the top), 8j. Cards Q5c (cards 1-5), Q5e
-(the uses take turns), Q32. Store H3-086. ARGUMENT_LOG Sat 14 Nov.
+(the uses take turns; struck Wed 18 Nov evening, coherence reader 10, M7: contradicted by NUMBERS 8q's Q131 block), Q32. Store H3-086. ARGUMENT_LOG Sat 14 Nov.
 
 **(6) Where it could be wrong.** Her flexibility sits in world shares, so it is smaller in the years shares fall (8f).
 Held reserves are drawn often and are sometimes too small (GAO: 23 of 53 major NASA projects overran by 15% or more; Q5c
@@ -710,7 +710,7 @@ construction cost index since 2000.
 **(5) Evidence.** NUMBERS 8j, 8o, 8d. Cards Q10b (Q10b-031), Q10c (Q10c-002), Q5d (Q5d-028), Q11d (card 5), Q5e.
 
 **(6) Where it could be wrong.** The Taiwan dollar may weaken, which helps her. The three uses take turns and are tested
-one at a time, never together (Q5e; NUMBERS 8o limits). The facility's cost is unknown and out of scope (case l.164).
+one at a time, never together (Q5e; NUMBERS 8o limits). *(Struck Wed 18 Nov evening, coherence reader 10, M7: "The three uses take turns and are tested one at a time, never together"; NUMBERS 8q's Q131 block finds a stronger Taiwan dollar came with a dearer building, and 3e note 3 tests the two together.)* The facility's cost is unknown and out of scope (case l.164).
 *The report admits it* in Table 3 row 7 ("10% stronger than in 2031", and a building-cost trend).
 
 **(7) Lands.** 3b (one clause on why her flexibility exists) and 3e (Table 3 row 7). A clause plus a table row.
@@ -817,7 +817,7 @@ portfolio".
   study found).
 - "Half is optimal", "the model chose half", "moving 30% would be worse" (NUMBERS 8o: totals agree within about $1,100;
   30% is a smaller promise, not a worse one) [H1].
-- "A natural hedge", or "smallest when most needed" for all three uses (8j: +0.09; Q5e: the uses take turns) [H1].
+- "A natural hedge", or "smallest when most needed" for all three uses (8j: +0.09; Q5e: the uses take turns, struck Wed 18 Nov evening, coherence reader 10, M7; the reason now: a stronger Taiwan dollar has come with a dearer building, NUMBERS 8q's Q131 block) [H1].
 - Taiwan's government cut arts money in a recession (CANON B4) [H2]; the Hualien code change (ARGUMENT_LOG, killed).
 - "The plan is CPPI with multiplier 1" (Q3a row 1: CPPI means a multiplier above one); "a capital-protected note minus the
   option" (VT is more than the floor's expected interest, NUMBERS 4) [H3].

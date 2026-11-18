@@ -33,6 +33,12 @@ Where the figures come from:
                             (results_reserve margin_value_1jan2033_at_forwards; NUMBERS 8h, 8i, section 4), never its
                             cost carried, $46,603 (margin_cost_carried_to_1jan2033_at_forwards: no funds' fee). NUMBERS 9.
                             (Re-sized Tue 17 Nov evening with the payments' 0.5% margin: were $45,456 and $45,487.)
+  Wed 18 Nov evening        the morning's hand edits to Table 2's note, carried from tables.md: the 7.5% is J.P.
+                            Morgan's 2027 assumption, "above the middle of published forecasts" (NUMBERS 0, 8v; CANON
+                            B15; second pass: no median figure, the lead's call on card Q146); the rate past the margin
+                            starts from the room under the top, 2.32% centrally, printed "about 2%"
+                            (numbers/results_break_2026-11-18.json, NUMBERS 8u; WORDS); the starting months' method in
+                            the note itself (SKELETON row 3e). Ten new checks.
 
 Nothing is computed here except rounding, sums and the joining of two parts the register names (the flexibility is the
 half kept plus the excess, NUMBERS 8i column "Half kept plus excess"). Run this file to print every exhibit figure and
@@ -481,7 +487,31 @@ SHARE_VOL = 0.1788
 YIELD_SD_POINTS = 0.9
 SHORT_PER_TENTH = 118.0   # printed to the nearest $10, "about $120 ... centrally" ($119 until Tue 17 Nov evening's re-size;
                           # "at most" until coherence reader 8, L6: $144 at the house 1-in-20 high, NUMBERS 3)
-TWD_TEST = 0.10                                          # a 10% stronger Taiwan dollar (NUMBERS 8j)
+# Wed 18 Nov evening (exhibits owner): the Wed 18 Nov morning hand edits to Table 2's note, carried from tables.md (the
+# lead's calls on coherence reader 9, H2 and H6; SKELETON Exhibits item 3 and row 3e's hand-off; NUMBERS 8u, 8v, 9).
+# (1) The 7.5% is named as J.P. Morgan's and placed against the published forecasts in NUMBERS 8v's words, "above the
+# middle of published forecasts (median about 6.5%)", never "the top", "the consensus" or "upper third" (CANON B15;
+# card Q117: the median only with the fifteen named). (2) The rate past the margin is read from the room under the top
+# (WORDS: the 0.5% margin plus the rounding down; about 2% centrally, NUMBERS 8u), no longer from "the range's 0.5%",
+# which coherence reader 9 (H2) read as the central threshold. (3) The starting months' method is said in the note
+# itself, since 3e's recast no longer carries it (SKELETON row 3e, Wed 18 Nov morning).
+# Wed 18 Nov evening, second pass (the lead's call, keel/pm/ASK_HUMANS.md top row; card Q146): the report gives NO
+# median figure for the published forecasts. Fidelity International's 7.6% (Nov 2026, read at source) makes seventeen
+# houses with Goldman Sachs's 7.7%, and the median moves with the panel (about 6.5% of fifteen, 6.7% of sixteen, 6.9%
+# of seventeen), while "above the middle of published forecasts" holds on every count. So the note prints the phrase
+# alone, with no median and no count of houses; check() asserts 7.5% is above every median 8v names, unprinted. And
+# (Table 2's note trimmed to 153 words, to sit between two prose lines again) the method says "past frequencies" for
+# SKELETON's "shares of the past", which the note's "shares" (stocks) could make readers misread; the room under the
+# top is printed "about 2% centrally" alone, since the note's range-rule item already names its two parts (the 0.5% and
+# the rounding down)
+BREAK = _load("results_break_2026-11-18.json")          # NUMBERS 8u (Wed 18 Nov morning) on the 2026-11-17 register
+assert BREAK["register_results"] == REGISTER_DATE and BREAK["curve"] == "11/06/2026", (BREAK["register_results"], BREAK["curve"])
+SHARE_RETURN = 0.075              # J.P. Morgan's 2027 assumption for world shares (NUMBERS 0; CANON B15)
+SHARE_RETURN_STANDING = "above the middle of published forecasts"     # the lead's call: no median figure, no count
+ROOM_UNDER_TOP = BREAK["3_top"]["central"]["cover_zero_interest"]   # 2.32%, printed "about 2% centrally" (8u; WORDS)
+TABLE2_STARTS_METHOD = "overlapping starting months, past frequencies, never probabilities"   # SKELETON row 3e's,
+# with "past frequencies" for "shares of the past" (second pass); check() reads SKELETON's two ends of the phrase
+TWD_TEST = 0.10                                         # a 10% stronger Taiwan dollar (NUMBERS 8j)
 _TWDF = JOINT["scenarios"]["forwards"]
 CONTRIBUTION_FWD = _TWDF["gift_realised"]                # $115,000 at today's forwards (8i, 8j)
 TWD_NEED = TWD_TEST * CONTRIBUTION_FWD                   # $11,500 more in December 2032 (8j central case)
@@ -510,6 +540,35 @@ WAIT_FEE = FIGURE1_NOTE_FACTS["etf_fee"]                 # the short-term Treasu
 NOTICE_BY = "31 October"                                 # of the final year: the last day of the notice window
 # Tue 17 Nov (numbers owner; bond desk 4, M6): row 5's trade-day limit, checked against NUMBERS section 4
 TRADE_LIMIT = 0.005                                      # limit orders within 0.5% of net asset value, each fund leg
+# Wed 18 Nov evening, third pass (exhibits owner; NUMBERS 3, "An early end of the late-2032 fund after the move", the
+# dated line under section 0 and section 9's open item; bond desk 5, M2): the 0.5% margin pays a fund swap's trading
+# costs; it does not pay the interest a fund's holdings still had to pay when the fund ends early, merges or moves its
+# end. With cash waiting earning nothing an IBTM end in 2031 leaves the stated top and bottom short; at today's market
+# rates nothing is short. Row 4 says so in the numbers owner's words, fitted to the row's four lines; the figures go
+# to the 3e list, read from the numbers owner's results file and checked against section 3's text
+FUND_EXIT = _load("results_fund_exit_2026-11-18.json")
+assert FUND_EXIT["register_results"] == REGISTER_DATE and FUND_EXIT["curve"] == "11/06/2026", \
+    (FUND_EXIT["register_results"], FUND_EXIT["curve"])
+_FXS = FUND_EXIT["range_summary"]
+EXIT_TOP_SHORT = _FXS["largest_short_zero"]              # $4,589: both lots short of the top, an exit on 2 Jan 2031
+EXIT_TOP_COVERED = _date(*map(int, _FXS["covered_from"].split("-")))            # 1 Jan 2032
+EXIT_BOTTOM_SHORT = _FXS["largest_floor_short_of_bottom_zero"]                  # $2,887: the floor lot, the bottom
+EXIT_BOTTOM_LAST = _date(*map(int, _FXS["last_exit_floor_short_of_bottom"].split("-")))   # 1 Oct 2031
+EXIT_FWD_ROOM = _FXS["smallest_room_forwards"]           # $7,295: the least over the top at today's market rates
+EXIT_TEN_SHORT = next(m["standard_short"] for m in FUND_EXIT["payments_ibtm_exit"]["monthly"]
+                      if m["exit"] == "2031-01-01")      # $1,827: the ten, an IBTM end on 1 Jan 2031
+# Third pass (bond desk 5, M6 (b)): row 7's $11,500 is the currency alone. In the two-year spans since 1991 with a
+# Taiwan dollar 10% or more stronger, the building's US-dollar cost rose a median 22.3% (NUMBERS 8q, block "Added Wed
+# 18 Nov evening (card Q131)"). No room in the table or its note (measured), so the 3e list carries it
+STRONG = _load("results_strong_twd_windows_2026-11-18.json")
+_SW, _SWP = STRONG["strong_windows"], STRONG["keel_arithmetic_on_8q_central_pots"]
+STRONG_N, STRONG_OF = _SW["count"], STRONG["definition"]["windows"]                # 30 of 406
+STRONG_MEDIAN, STRONG_MIN, STRONG_MAX = _SW["usd_cost_median"], _SW["usd_cost_min"], _SW["usd_cost_max"]
+STRONG_NEED_TOP = _SWP["median"]["need_top"]             # $25,607, printed "about $25,600" (8q; card Q131 row 40)
+STRONG_LEFT_TOP = _SWP["median"]["left_top_flex_plus_excess"]   # $3,075 left of the $28,682
+# Third pass (bond desk 5, M6 (a)): row 7's band is read against the five-year rate (8d: 3.19% a year to October
+# 2026, inside it), never the latest year (+7.18%, outside it; costs rise in bursts, card Q10c)
+CCI_1Y_OCT = 0.0718                                      # building costs, the year to October 2026 (8d; card Q103)
 
 
 def _d(d, weekday=True):
@@ -604,7 +663,15 @@ TABLE3_ROWS = [
         # more than the zero-interest numbers carry ($1,177 spare, NUMBERS 2), and "for the range its 0.5% margin" read
         # as if the payments had none since the re-size: the cell names the one margin both carry; what it covers and
         # what a larger gap draws on are in the 3e list (no new reason to change the plan: IPS l.17's two stand)
-        _changes("the fund; a gap met from the 0.5% margin the payments and the range each carry",
+        # Wed 18 Nov evening, third pass (the lead's call: the numbers owner's wording, NUMBERS 3 "An early end of the
+        # late-2032 fund after the move", section 0's dated line and section 9; bond desk 5, M2): the margin pays the
+        # swap's trading costs, never the interest an early end, merger or moved end loses, which is met from what the
+        # fund's cash earns while it waits (at today's market rates in full; with cash waiting earning nothing an IBTM
+        # end in 2031 leaves the top and the bottom short, the figures in the 3e list). Fitted to the row's four lines
+        # (measured): the owner's "its trading costs ... what waiting cash earns" took a fifth line ("shares." alone),
+        # and so did "trading costs ... what waiting cash earns" and "... what cash waiting earns"; "what its cash
+        # earns" keeps the four and says whose cash waits (the fund's payout, in the short-term Treasury ETF)
+        _changes("the fund; trading costs from the 0.5% margin, lost interest from what its cash earns",
                  "a sale of shares")]),
     ("closer", [
         "Trades in 2027, 2028, 2031",
@@ -615,7 +682,11 @@ TABLE3_ROWS = [
         # covers the fund legs (NUMBERS 4: a bond has none and keeps 8m's 25-basis-point curve test, in the 3e list;
         # "fund prices" cost a line); the condition is the price ("limit orders", the means, to the 3e list), and "a
         # trading halt" is the date that cannot be kept
-        f"First trading day, prices within {100 * TRADE_LIMIT:.1f}% of net asset value",
+        # Wed 18 Nov evening, third pass (bond desk 5, M5 (a)): "funds" for "prices", so the cell says the 0.5% is the
+        # fund legs' test (NUMBERS 4: "Table 3 row 5's 'of net asset value' covers the fund legs"); the bonds' 25-basis-
+        # point curve test stays in the 3e list (a fourth line would take the table off its page, measured; "fund
+        # prices" and "fund legs" each took one)
+        f"First trading day, funds within {100 * TRADE_LIMIT:.1f}% of net asset value",
         "A trading halt, or prices further off: wait day by day",
         _changes("the date, never past the 2031 meetings", "the step or its order")]),
     # Sat 14 Nov (bond reader 2): an open date for the 2031 move is a timing option, and waiting after a fall is the
@@ -644,15 +715,27 @@ TABLE3_ROWS = [
         # rise in bursts); the five-year rate, 3.27% (8d), goes to 3e's prose
         # Tue 17 Nov (lay reader 3: 9.1% and 10% printed for the same move): the cells say the move once, in plain words,
         # "the Taiwan dollar 10% stronger"; the NT$-per-US$ quote's 9.1% and 29.79 stay in the 3e list for a bond reader
-        f"Taiwan dollar under {100 * TWD_TEST:.0f}% stronger; building-cost trend {100 * CCI_BAND[0]:.1f}% to "
+        # Wed 18 Nov evening, third pass (bond desk 5, M6 (a)): "trend" named no window, and the latest year (+7.18% to
+        # October 2026, 8d) is outside the band while the five-year rate (3.19%) is inside it, so the cell names the
+        # window; the two readings go to the 3e list (four lines kept, measured; "five-year building-cost rise ... a
+        # year" took a fifth)
+        f"Taiwan dollar under {100 * TWD_TEST:.0f}% stronger; five-year building costs {100 * CCI_BAND[0]:.1f}% to "
         f"{100 * CCI_BAND[1]:.1f}% a year",
         # Mon 16 Nov night (bond desk 4, M7): one reading of "10% stronger", 8j's: 10% more US dollars for the same NT$
         # budget (never NT$ per US$ down 10%, 29.49, which gives $12,778); its building-cost trigger declined
         # (SKELETON's Sat 14 Nov decision, CANON A34). Tue 17 Nov: "$11,500 more on $115,000" (10% of it) says which
         # reading without a second percentage
-        f"Taiwan dollar {100 * TWD_TEST:.0f}% stronger than in 2031: {dollars(TWD_NEED)} more on "
-        f"{dollars(CONTRIBUTION_FWD)}",
-        _changes(f"a call on her flexibility ({hundreds(FLEX_FWD)} in 2033 with anything above the top)",
+        # Wed 18 Nov evening, third pass (bond desk 5, H2 and M6 (b)): the $115,000 is her part of the building budget,
+        # not the building's whole budget, and the $11,500 counts the currency alone ("alone,"; "(the currency alone)"
+        # took a fifth line, measured); the joint move, a median 22.3% in past strong-Taiwan-dollar spans (8q), is in
+        # the 3e list
+        f"Taiwan dollar {100 * TWD_TEST:.0f}% stronger than in 2031: alone, {dollars(TWD_NEED)} more on her "
+        f"{dollars(CONTRIBUTION_FWD)} part",
+        # Third pass (bond desk 5, H2): the $28,700 rests on shares earning J.P. Morgan's 7.5% a year (Table 2's note):
+        # said in the cell, "shares at 7.5%". "a call on her flexibility" became "her flexibility" (what changes) to
+        # keep four lines (measured: "a call on ...; shares 7.5%" and "shares 7.5% a year" each took a fifth)
+        _changes(f"her flexibility ({hundreds(FLEX_FWD)} in 2033 with anything above the top, shares at "
+                 f"{100 * SHARE_RETURN:.1f}%)",
                  "the range")]),
 ]
 
@@ -682,9 +765,22 @@ TABLE3_FOR_3E = [
     "Row 4, one action per event (bond desk 4, M4): an early end's cash waits in the short-term Treasury ETF to "
     "1 January; a merged or moved fund is sold for an earlier iBond fund or the short-term Treasury ETF, never a "
     "Treasury due by 15 December, which WInS does not list for 2033 or 2035 (WN l.20, l.22; coherence reader 6, L17); "
-    "a dearer waiting ETF is swapped for a cheaper one; a payment's gap comes from the 0.5% margin the extra "
-    "Treasuries carry for the ten and the ten are re-tested with cash waiting earning nothing; the floor's gap comes "
-    "from the range's 0.5% cut; never VT",
+    "a dearer waiting ETF is swapped for a cheaper one; a swap's trading costs come from the 0.5% margin (for a "
+    "payment, the margin the extra Treasuries carry for the ten, which are re-tested with cash waiting earning "
+    "nothing; for the range, its 0.5% cut), and the interest an early end, merger or moved end loses comes from what "
+    "the fund's cash earns while it waits (third pass, Wed 18 Nov evening: NUMBERS 0's dated line and 3, bond desk 5, "
+    "M2); never VT",
+    # Wed 18 Nov evening, third pass (NUMBERS 3, "An early end of the late-2032 fund after the move"; section 9; bond
+    # desk 5, M2): what the margin cannot do, with its size, for 3e's fund events (named once, as covered at today's
+    # market rates, never with a probability: a board's call, card Q36)
+    f"Row 4, an early end of the late-2032 fund (IBTM, which carries the 2033 payment, the bottom and the top, so one "
+    f"notice touches all three): the 0.5% pays costs, not the interest its holdings still had to pay; with cash "
+    f"waiting earning nothing an early end, merger or moved end in 2031 leaves the stated top up to "
+    f"{dollars(EXIT_TOP_SHORT)} short (covered from {EXIT_TOP_COVERED.strftime('%B')} {EXIT_TOP_COVERED.year}), the "
+    f"bottom up to {dollars(EXIT_BOTTOM_SHORT)} short (for an end to {EXIT_BOTTOM_LAST.strftime('%B')} "
+    f"{EXIT_BOTTOM_LAST.year}) and the ten {dollars(EXIT_TEN_SHORT)} short for an end on 1 Jan 2031; at today's "
+    f"market rates nothing is short (the top at least {dollars(EXIT_FWD_ROOM)} over); none of the five ended iBonds "
+    "Treasury funds ended a year early (NUMBERS 3, 8h; bond desk 5, M2)",
     # Tue 17 Nov evening (coherence reader 8, M1; the lead's call): what the margin covers, from NUMBERS 2, and what a
     # larger gap draws on, with no new reason to change the plan
     f"Row 4, the margin: with cash waiting earning nothing the extra Treasuries leave "
@@ -693,7 +789,8 @@ TABLE3_FOR_3E = [
     "cash earns, never from shares, and is not a reason to change the plan (IPS l.17's two reasons stand)",
     f"Row 5: each fund leg goes in as a limit order within {100 * TRADE_LIMIT:.1f}% of net asset value, the worst "
     "median gap of March 2020 for government bond and equity ETFs (NUMBERS 4, \"A trade-day limit for Table 3 row "
-    "5\"; bond desk 4, M6); the bond legs have no net asset value and keep the 25-basis-point curve test (8m); this "
+    "5\"; bond desk 4, M6), so the cell says \"funds\" (bond desk 5, M5); the bond legs have no net asset value and keep "
+    "the 25-basis-point curve test (8m); this "
     "limit and row 4's 0.5% cut are the same size with separate jobs (NUMBERS 4); a trading halt is the case where a "
     "date cannot be kept",
     # Tue 17 Nov evening (evening lay reader, stumble 3; the lead's call): why a lower bottom can appear at all
@@ -706,6 +803,21 @@ TABLE3_FOR_3E = [
     f"cost, which moves NT$ per US$ {100 * TWD_BAND:.1f}% below its level when the range is stated; for scale only, "
     f"{100 * TWD_BAND:.1f}% below 6 Nov 2026's {TWD_PER_USD:.3f} NT$ per US$ is "
     f"{TWD_STRONG:.2f}, {100 * TWD_TEST:.0f}% more US dollars (8j; never 29.49, NT$ per US$ down 10%)",
+    # Wed 18 Nov evening, third pass (bond desk 5, M6 and H2): the two readings of the building-cost index, the joint
+    # move when the trigger fires, and what the $28,700 rests on
+    f"Row 7, the building costs: the band is read against the five-year rate, {100 * CCI_5Y_OCT:.2f}% a year to "
+    f"October 2026, inside it; the latest year, +{100 * CCI_1Y_OCT:.2f}%, is outside it, and costs rise in bursts "
+    "(8d; card Q10c; bond desk 5, M6)",
+    f"Row 7, the joint move: {dollars(TWD_NEED)} is the currency alone; in the {STRONG_N} of {STRONG_OF} two-year "
+    # (words_check bars "median N%", the published forecasts' guard, so the span's median is said the other way)
+    f"spans since 1991 with a Taiwan dollar 10% or more stronger, the building's US-dollar cost rose "
+    f"{100 * STRONG_MIN:.1f}% to {100 * STRONG_MAX:.1f}%, and {100 * STRONG_MEDIAN:.1f}% in the middle span, about "
+    f"{hundreds(STRONG_NEED_TOP)} on her {dollars(CONTRIBUTION_FWD)} part, inside the row's {hundreds(FLEX_FWD)} "
+    f"with about {hundreds(STRONG_LEFT_TOP)} to spare: when the trigger fires, history puts the cost near what her "
+    f"flexibility covers, not near {dollars(TWD_NEED)} (8q, card Q131; bond desk 5, M6)",
+    f"Row 7, the {hundreds(FLEX_FWD)}: her flexibility with anything above the top in January 2033 if shares earn "
+    f"J.P. Morgan's {100 * SHARE_RETURN:.1f}% a year (Table 2's note), so the cover it gives moves with the share "
+    "forecast, not with interest rates alone (bond desk 5, H2)",
 ]
 
 
@@ -1176,6 +1288,68 @@ def check(verbose=True):
     m = re.search(r"About \$([\d,]+) short for each 0\.1% above", s3n)
     cmp("Table 2", "Note: short of the top for each 0.1% past the margin (a ceiling; printed about $120)",
         SHORT_PER_TENTH, float(m.group(1).replace(",", "")) if m else None, "3 (bond desk 4, H1)", tol=0.5)
+    # Wed 18 Nov evening: the morning's hand edits to Table 2's note, each figure against the register
+    m = re.search(r"VT median growth ([\d.]+)% a year", s0n)
+    cmp("Table 2", "Note: shares a year in rows 1 and 3, J.P. Morgan's 2027 assumption (%)", 100 * SHARE_RETURN,
+        float(m.group(1)) if m else None, "0", tol=0.0001)
+    with open(os.path.join(FR, "CANON.md")) as fh:
+        b15 = [ln for ln in fh if ln.startswith("| B15 |")]
+    ok = bool(b15) and "7.5%" in b15[0] and "J.P. Morgan" in b15[0] and "AC World Equity 7.50" in b15[0]
+    note("Table 2", "Note: the 7.5% is J.P. Morgan's 2027 world-share assumption", "J.P. Morgan's 2027, 7.5%",
+         "CANON B15 row found and matching" if ok else "not found", "CANON B15", "PASS" if ok else "FAIL")
+    s8v = re.sub(r"\s+", " ", _section(md, "### 8v.", "\n## 9."))
+    # Second pass (the lead's call, Wed 18 Nov evening; card Q146): the phrase is printed with no median and no count,
+    # so the check reads every median 8v names (15, 16 or 17 houses; never printed) and asserts 7.5% is above each
+    meds = [float(x) for x in re.findall(r"median about ([\d.]+)%", s8v)]
+    meds += [float(x) for x in re.findall(r"about ([\d.]+)% of (?:sixteen|seventeen|twenty)", s8v)]
+    meds += [float(x) for x in re.findall(r"\| ([\d.]+)% \(the median of fifteen houses' forecasts", s8v)]
+    ok = bool(meds) and all(100 * SHARE_RETURN > v for v in meds) and any(abs(v - 6.9) < 1e-9 for v in meds)
+    note("Table 2", "Note: 'above the middle of published forecasts' holds on every count 8v names (not printed)",
+         f"{100 * SHARE_RETURN:.1f}% > each of {sorted(set(meds))}", "8v (cards Q6b, Q117, Q146)", "8v",
+         "PASS" if ok else "FAIL")
+    ok = SHARE_RETURN_STANDING in s8v and "the report gives no median figure" in s8v
+    note("Table 2", "Note: the 7.5%'s standing in 8v's words, and 8v says the report gives no median figure",
+         SHARE_RETURN_STANDING, "found" if ok else "not found", "8v", "PASS" if ok else "FAIL")
+    with open(os.path.join(FR, "..", "pm", "ASK_HUMANS.md")) as fh:
+        ask = [ln for ln in fh if "Q146" in ln and "no median figure" in ln]
+    ok = bool(ask) and f'"{SHARE_RETURN_STANDING}" with no median figure' in ask[0] and "Table 2's note" in ask[0]
+    note("Table 2", "Note: the lead's call, no median figure in Table 2's note (ASK_HUMANS, Wed 18 Nov evening)",
+         "no median figure", "ASK_HUMANS row found and matching" if ok else "not found", "ASK_HUMANS (card Q146)",
+         "PASS" if ok else "FAIL")
+    s8u = re.sub(r"\s+", " ", _section(md, "### 8u.", "\n### 8v."))
+    m = re.search(r"cover under the top\*\*: centrally ([\d.]+)% at zero interest", s8u)
+    cmp("Table 2", "Note: the room under the top, centrally, cash waiting earning nothing (%)",
+        round(100 * ROOM_UNDER_TOP, 2), float(m.group(1)) if m else None, "8u", tol=0.005)
+    m = re.search(r"\*\*About (\d+)%\*\*: on today's figures those costs would have to pass ([\d.]+)%", s8u)
+    ok = bool(m) and int(m.group(1)) == round(100 * ROOM_UNDER_TOP) and abs(float(m.group(2)) - 100 * ROOM_UNDER_TOP) < 0.005
+    note("Table 2", "Note: printed as 'about 2%' (8u's one figure for the top)", f"about {round(100 * ROOM_UNDER_TOP)}%",
+         m.group(0) if m else None, "8u", "PASS" if ok else "FAIL")
+    m = re.search(r"about \$([\d,]+) short for each further 0\.1% centrally", s8u)
+    cmp("Table 2", "Note: short of the top for each further 0.1% past the room under the top (8u's reading)",
+        SHORT_PER_TENTH, float(m.group(1).replace(",", "")) if m else None, "8u", tol=0.5)
+    with open(WORDS_MD) as fh:
+        wl = [ln for ln in fh if "| the room under the top" in ln]
+    # Wed 18 Nov evening, third pass (bond desk 5, H1): the two purchases behind the top are one fund, the late-2032
+    # Treasury fund, bought twice. WORDS is another owner's file, edited tonight: the check reads its row either way
+    # and flags (never fails) a row that still says "the two Treasury funds behind the top"; the note says "the fund"
+    ok = bool(wl) and "the 0.5% margin plus the rounding down" in wl[0] and \
+        f"about {round(100 * ROOM_UNDER_TOP)}% of what" in wl[0] and "centrally" in wl[0]
+    two = bool(wl) and "two Treasury funds behind the top" in wl[0]
+    note("Table 2", "Note: 'the room under the top' is WORDS's name (the 0.5% margin plus the rounding down, about 2%)",
+         "the room under the top", "WORDS row found and matching" if ok else "not found", "WORDS", "PASS" if ok else "FAIL")
+    note("Table 2", "Note: one fund behind the top, bought twice (bond desk 5, H1); WORDS's row on it",
+         "the late-2032 Treasury fund", "WORDS still says 'the two Treasury funds behind the top' (its owner's fix)"
+         if two else "one fund", "WORDS; bond desk 5, H1", "WATCH" if two else "PASS")
+    with open(SKELETON_MD) as fh:
+        sk = fh.read()
+    # Second pass: "past frequencies" stands in for SKELETON's "shares of the past" (the note's "shares" are stocks);
+    # the phrase's two ends, the parts the coordinator asked to keep, are SKELETON's own
+    ok = '"overlapping starting months, shares of the past, never probabilities"' in sk and \
+        "3e no longer carries the method" in sk and TABLE2_STARTS_METHOD.startswith("overlapping starting months, ") \
+        and TABLE2_STARTS_METHOD.endswith(", never probabilities")
+    note("Table 2", "Note: the starting months' method, SKELETON's hand-off wording with 'past frequencies' in the middle",
+         TABLE2_STARTS_METHOD, "SKELETON row 3e and Exhibits item 3" if ok else "not found", "SKELETON 3e",
+         "PASS" if ok else "FAIL")
     # Tue 17 Nov evening (re-size): the inflation world's top stepped down to $115,000 and 8i keeps the old figure in brackets
     m = re.search(r"It is \$[\d,]+ \(was[^)]*\), worth \$([\d,]+)(?: \(\$[\d,]+\))? in 1 Jan 2027 dollars", s8i)
     infl = JOINT["scenarios"]["inflation"]["gift_in_2027_us_dollars"]
@@ -1335,8 +1509,8 @@ def check(verbose=True):
     # $115,000) showing 8j's reading; the quote's 9.1% and 29.79 are in the 3e list only
     note("Table 3", "Row 7: one reading of \"10% stronger\", 8j's (never NT$ per US$ down 10%, 29.49)",
          f"{TWD_STRONG:.2f}", "29.79 (8j)", "8j", "PASS" if f"is {TWD_STRONG:.2f}, {100 * TWD_TEST:.0f}% more US dollars"
-         in for3e and f"Taiwan dollar {100 * TWD_TEST:.0f}% stronger than in 2031: "
-         f"{dollars(TWD_NEED)} more on {dollars(CONTRIBUTION_FWD)}" in printed
+         in for3e and f"Taiwan dollar {100 * TWD_TEST:.0f}% stronger than in 2031: alone, "
+         f"{dollars(TWD_NEED)} more on her {dollars(CONTRIBUTION_FWD)} part" in printed
          and abs(TWD_NEED - TWD_TEST * CONTRIBUTION_FWD) < 0.5
          and f"{TWD_PER_USD * (1 - TWD_TEST):.2f}" not in printed else "FAIL")
     note("Table 3", "Row 7: one percentage for one move in the table (9.1% and 32.768 in the 3e list only)",
@@ -1348,8 +1522,71 @@ def check(verbose=True):
     found3e = set(re.findall(r"(?<![A-Z])\$[\d,]+", for3e))
     # Tue 17 Nov evening (coherence reader 8, M1): the margin's $1,177 is Figure 1's checked note figure (8h)
     allowed3e = allowed | {"$50,000", dollars(FIGURE1_NOTE_FACTS["left_after_2042_with_fee"])}
+    # Wed 18 Nov evening, third pass: row 4's early end (NUMBERS 3) and row 7's joint move (8q), each checked below
+    allowed3e |= {dollars(EXIT_TOP_SHORT), dollars(EXIT_BOTTOM_SHORT), dollars(EXIT_TEN_SHORT), dollars(EXIT_FWD_ROOM),
+                  hundreds(STRONG_NEED_TOP), hundreds(STRONG_LEFT_TOP)}
     note("Table 3", "3e list: every dollar figure is checked", ", ".join(sorted(found3e)) or "none",
          ", ".join(sorted(allowed3e)), "this check", "PASS" if found3e <= allowed3e else "FAIL")
+    # Third pass (NUMBERS 3, "An early end of the late-2032 fund after the move"; bond desk 5, M2): the 3e list's figures
+    s3x = re.sub(r"\s+", " ", _section(md, "### An early end of the late-2032 fund after the move", "\n## 4."))
+    for what, mine, pat in (
+            ("the stated top short, both lots, cash waiting earning nothing (largest, 2 Jan 2031)", EXIT_TOP_SHORT,
+             r"\| 2 Jan 2031 \| \$[\d,]+ \| \*\*\$([\d,]+) short\*\*"),
+            ("the stated bottom short, the floor lot (largest)", EXIT_BOTTOM_SHORT,
+             r"\| 2 Jan 2031 \| \$[\d,]+ \| \*\*\$[\d,]+ short\*\* \| \$([\d,]+) short"),
+            ("the ten short, an IBTM end on 1 Jan 2031", EXIT_TEN_SHORT, r"\$([\d,]+) for an exit on 1 Jan 2031"),
+            ("the least over the top at today's market rates", EXIT_FWD_ROOM, r"at least \$([\d,]+) more than the top")):
+        m = re.search(pat, s3x)
+        cmp("Table 3", f"3e list, row 4 (NUMBERS 3, early end): {what}", round(mine),
+            float(m.group(1).replace(",", "")) if m else None, "3 (early end)")
+    ok = "Covered from 1 Jan 2032 (top)" in s3x and "short of the stated bottom for exits to 1 Oct 2031" in s3x and \
+        EXIT_TOP_COVERED == _date(2032, 1, 1) and EXIT_BOTTOM_LAST == _date(2031, 10, 1) and \
+        "At today's market rates nothing is short" in s3x and "none ended a year early" in s3x
+    note("Table 3", "3e list, row 4: covered from January 2032 (top), short to October 2031 (bottom), none at today's "
+         "market rates, no fund ended a year early", "Jan 2032; Oct 2031", "found" if ok else None, "3 (early end); 8h",
+         "PASS" if ok else "FAIL")
+    # The lead's call (NUMBERS 9, the numbers owner's suggested cell) and its fit to the row: both parts kept, the old
+    # promise gone, and the 3e list splits the same way (section 9: "Table 3's note list ... needs the same split")
+    s9 = re.sub(r"\s+", " ", _section(md, "## 9.", "\n## 10."))
+    ok = "*Changes:* the fund; its trading costs from the 0.5% margin, lost interest from what waiting cash earns." \
+        in s9 and "Changes: the fund; trading costs from the 0.5% margin, lost interest from what its cash earns." \
+        in printed and "a gap met from the 0.5% margin" not in printed and \
+        "a swap's trading costs come from the 0.5% margin" in for3e and "a payment's gap comes from" not in for3e
+    note("Table 3", "Row 4: the numbers owner's wording (NUMBERS 9), fitted to four lines; the 3e list split the same way",
+         "trading costs: the 0.5% margin; lost interest: what its cash earns", "NUMBERS 9 found" if ok else None,
+         "9; 0's dated line; bond desk 5, M2", "PASS" if ok else "FAIL")
+    # Third pass (bond desk 5, M6 (b)): the joint move in strong-Taiwan-dollar spans (8q, card Q131)
+    s8q = re.sub(r"\s+", " ", _section(md, "### 8q.", "\n### 8r."))
+    ok = f"**{STRONG_N} of the {STRONG_OF} windows (7.4%) are strong.**" in s8q and \
+        f"**median {100 * STRONG_MEDIAN:.1f}%**" in s8q and f"**lowest was {100 * STRONG_MIN:.1f}%**" in s8q and \
+        f"**highest {100 * STRONG_MAX:.1f}%**" in s8q
+    note("Table 3", "3e list, row 7: strong-Taiwan-dollar spans, count and median (low, high) rise (8q, card Q131)",
+         f"{STRONG_N} of {STRONG_OF}; {100 * STRONG_MEDIAN:.1f}% ({100 * STRONG_MIN:.1f}% to {100 * STRONG_MAX:.1f}%)",
+         "found" if ok else None, "8q (card Q131)", "PASS" if ok else "FAIL")
+    m = re.search(r"\*\*Median strong window, \+[\d.]+%\*\* \| \*\*\$([\d,]+)\*\* \| \*\*\$([\d,]+) left\*\*", s8q)
+    cmp("Table 3", "3e list, row 7: need on the $115,000 top at the median strong span", round(STRONG_NEED_TOP),
+        float(m.group(1).replace(",", "")) if m else None, "8q")
+    cmp("Table 3", "3e list, row 7: left of her flexibility with anything above the top", round(STRONG_LEFT_TOP),
+        float(m.group(2).replace(",", "")) if m else None, "8q")
+    ok = "about $25,600" in s8q and hundreds(STRONG_NEED_TOP) == "$25,600" and \
+        abs(_SWP["pots"]["half_kept_plus_excess"] - FLEX_FWD) < 0.5
+    note("Table 3", "3e list, row 7: 'about $25,600' (8q's own rounding) on the same $28,682 as row 7", "$25,600",
+         "found" if ok else None, "8q", "PASS" if ok else "FAIL")
+    # Third pass (bond desk 5, M6 (a)): the band against the five-year rate, not the latest year (8d)
+    ok = f"+{100 * CCI_1Y_OCT:.2f}% on a year, {100 * CCI_5Y_OCT:.2f}% a year over the five years to October 2026" \
+        in s8d1 and CCI_BAND[0] < CCI_5Y_OCT < CCI_BAND[1] < CCI_1Y_OCT and \
+        f"five-year building costs {100 * CCI_BAND[0]:.1f}% to {100 * CCI_BAND[1]:.1f}% a year" in printed and \
+        "building-cost trend" not in printed
+    note("Table 3", "Row 7: the band names its window, five years (3.19% inside it; the latest year, +7.18%, outside)",
+         f"{100 * CCI_5Y_OCT:.2f}%; +{100 * CCI_1Y_OCT:.2f}%", "8d" if ok else None, "8d; bond desk 5, M6",
+         "PASS" if ok else "FAIL")
+    # Third pass (bond desk 5, H2): her part of the building budget, and the $28,700's share forecast, said in row 7
+    ok = f"more on her {dollars(CONTRIBUTION_FWD)} part" in printed and \
+        f"with anything above the top, shares at {100 * SHARE_RETURN:.1f}%)" in printed and \
+        f"if shares earn J.P. Morgan's {100 * SHARE_RETURN:.1f}% a year" in for3e
+    note("Table 3", "Row 7: her $115,000 part, and $28,700 at shares of 7.5% a year (bond desk 5, H2)",
+         f"{dollars(CONTRIBUTION_FWD)} part; {100 * SHARE_RETURN:.1f}%", "found" if ok else None, "0; bond desk 5, H2",
+         "PASS" if ok else "FAIL")
     # Tue 17 Nov evening (evening lay reader, stumbles 2 and 3; coherence reader 8, M1; the lead's calls)
     m1 = re.search(r"leave(?:s)? \$([\d,]+) spare", re.sub(r"\s+", " ", for3e))
     ok = "Never: a bond or fund sold early." in printed and "until the deposit fills them" in printed \
@@ -1365,7 +1602,8 @@ def check(verbose=True):
     m = re.search(r"A trade-day limit for Table 3 row 5: limit orders within ([\d.]+)% of net asset value", s4)
     cmp("Table 3", "Row 5: the trade-day limit, % of net asset value for each fund leg", 100 * TRADE_LIMIT,
         float(m.group(1)) if m else None, "4", tol=0.0001)
-    lim_ok = f"prices within {100 * TRADE_LIMIT:.1f}% of net asset value" in printed and "[x]" not in printed \
+    # Wed 18 Nov evening, third pass (bond desk 5, M5 (a)): the cell says "funds", the legs the limit is for
+    lim_ok = f"funds within {100 * TRADE_LIMIT:.1f}% of net asset value" in printed and "[x]" not in printed \
         and "[x]" not in for3e and "25-basis-point curve test" in for3e and "25 basis points" in md
     note("Table 3", "Row 5: the limit printed for fund legs only (bonds keep 8m's 25-basis-point curve test)",
          f"{100 * TRADE_LIMIT:.1f}%", "NUMBERS 4; 8m" if lim_ok else None, "4; 8m", "PASS" if lim_ok else "FAIL")
@@ -1374,10 +1612,16 @@ def check(verbose=True):
              "9", "6", "2036", IBTA_SLACK,
              f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}", f"{TWD_PER_USD:.3f}", "10%", "2026", f"{100 * CCI_5Y:.2f}%", "0.5%",
              f"{100 * TWD_BAND:.1f}%", f"{TWD_STRONG:.2f}", f"{100 * FUND_FEE:.2f}%"}   # Mon 16 Nov night: row 7, row 4
+    # Wed 18 Nov evening, third pass (bond desk 5, H2): row 7's shares at J.P. Morgan's 7.5% (checked in Table 2 against
+    # NUMBERS 0 and CANON B15)
+    known |= {f"{100 * SHARE_RETURN:.1f}%"}
     # row 4: the floor's swap from the range rule's 0.5% cut; Tue 17 Nov (coherence reader 7, M3): the 0.5% in this cell
     # is tied to the range only; since Tue 17 Nov evening's re-size the payments' own 0.5% sits in the extra Treasuries
     # Tue 17 Nov evening (coherence reader 8, M1): one margin named for both, the payments' and the range's
-    ok = "less 0.5%" in md and "the 0.5% margin the payments and the range each carry" in printed and \
+    # Wed 18 Nov evening, third pass (the lead's call; NUMBERS 3, 9; bond desk 5, M2): the cell names what the margin
+    # pays (trading costs), and the 3e list says which margin for a payment and which for the range
+    ok = "less 0.5%" in md and "trading costs from the 0.5% margin" in printed and \
+        "the margin the extra Treasuries carry for the ten" in for3e and "for the range, its 0.5% cut" in for3e and \
         "range's from its 0.5%" not in printed and "payment from its 0.5%" not in printed
     note("Table 3", "Row 4: the floor's 0.5% margin is the range rule's cut (NUMBERS 4: each end less 0.5%)",
          "0.5% margin", "less 0.5%" if "less 0.5%" in md else None, "4", "PASS" if ok else "FAIL")
@@ -1411,7 +1655,7 @@ def check(verbose=True):
     wn_ok = "no individual Treasury maturing in 2033" in wn and "no individual Treasury maturing in 2035" in wn
     # Tue 17 Nov: the table prints "Changes: the fund"; the class and one action per event are in the 3e list
     swap_ok = "Treasury due by" not in printed and \
-        "Changes: the fund; a gap met from the 0.5% margin the payments and the range each carry" in printed \
+        "Changes: the fund; trading costs from the 0.5% margin, lost interest from what its cash earns" in printed \
         and "sold for an earlier iBond fund or the short-term Treasury ETF" in for3e and \
         "early end's cash waits in the short-term Treasury ETF" in for3e and "a dearer waiting ETF" in for3e
     note("Table 3", "Row 4: a fund's swap names the class, never an individual Treasury (WInS lists none for 2033, "

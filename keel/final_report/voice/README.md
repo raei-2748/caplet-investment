@@ -132,6 +132,11 @@ of them, reading a round's passages blind.
   of 6 ("the first plan's payments were in pencil", best in its own sentence after the decision); Laura's notes 11 of 12
   and understood 12 of 12, but ranked lowest for fundraising terms ("draw", "close date", "custodian") and clipped spoken
   fragments; the lighter reflection's mean rank 4.7, the best whole reflection yet.
+- Round 9 (Wed 18 Nov evening, `ROUND9.md`): writers Q and R on writer J's diet, 3e failure first (plain and with one
+  turn, "rub out every pencil line") and Laura's words with round 8's fixes (written and spoken). Caplet 9 of 9; 3e plain
+  4 of 6 (R1 3 of 3, one risk per sentence and the short closing line, mean rank 6.0); one turn 2 of 6 (understood, no
+  voice); Laura's words 11 of 12, no fundraising term heard, spoken above written; every check answer right (3e's two
+  figures 12 of 12), one gap: "mine still comes first" left open whether she pays anyway ("either way" fixes it).
 
 ## Files
 

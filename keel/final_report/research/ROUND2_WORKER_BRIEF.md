@@ -45,7 +45,7 @@ level for co-sponsors. No report prose is written before Fri 27 Nov: workers wri
   (a statute's name may be quoted as a name); TIPS or STRIPS as anything Laura could hold (banned by Wharton this year);
   "Taiwan's government cut arts money in a recession" (it rose 29.1% in 2009); VT as a Taiwan-dollar hedge;
   "fail-safe" for the whole plan; an iBond fund's payout as fixed; J.P. Morgan's 7.5% as "the top" or "the consensus"
-  (it is above the middle of published forecasts, median about 6.5% of fifteen houses, with Goldman Sachs's 7.7% above it; Tue 17 Nov evening, card Q117 row 8); "the largest share" for the founder (in Taiwan the founder pays
+  (it is above the middle of published forecasts, with no median figure in the report: about 6.5% of fifteen houses, 6.9% of seventeen with Goldman Sachs's 7.7% and Fidelity International's 7.6%; Tue 17 Nov evening, card Q117 row 8; Wed 18 Nov evening, card Q146); "the largest share" for the founder (in Taiwan the founder pays
   first); "cash cannot go below zero"; "ended on schedule" for the iBond funds (IBTA ended 15 days early); a stated
   contribution above the stated top.
 - Flag any clash with the IPS or the TNA in the clash column (for example: paying a payment from shares; selling the

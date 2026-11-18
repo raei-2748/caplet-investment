@@ -53,7 +53,7 @@ one "to place" row (DAILY_RUN, Book 19) and marks it here with the date.
 | 24 | Breaking a promise costs trust, beating it buys nothing (Gneezy and Epley 2014) | 3b or 3c | Why the contribution equals the top | Card Q25; Q43; C #20 | To place |
 | 25 | The client is a statistics graduate, so her confidence is ownership and the model only says where inside | 3c | Client Knowledge | Case l.16; B #31 | To place |
 | 26 | Willingness against ability: her caution is forced by arithmetic (the payments take the whole first deposit) | 2.3 | Client Knowledge | B #5 | To place |
-| 27 | A calendar of promises, not a glide path | 3.0 or 3b | Finance's own words for the conceit's dates | B #2 | To place |
+| 27 | A calendar of promises, not a glide path | 2.2 | Finance's own words for the conceit's dates; Wharton's "how will the portfolio's asset allocation and composition change" (WHARTON_WORD l.60) against the default every judge knows | B #2 | Placed Wed 18 Nov evening (SKELETON 2.2: one clause, no figure; three dated steps, January 2027, 2028 and 2031, each buying a promise before it is stated; never "glide path" for her plan) |
 | 28 | She starts where pensions end: hibernation on day one | 3a | The practitioner's surprise | B #22 | To place |
 | 29 | Dedication against immunisation, with her reason: no forced sale in a bad January (Redington) | 2.2 | Why one bond per payment | B #17; A #30 | To place |
 | 30 | The bought deal, not best efforts (Shiller, ECON 252) | 3c | The range as an underwriting rule | A #43; B #23 | To place |

@@ -1,25 +1,25 @@
 {
- "built": "2026-11-18T07:27+11:00",
+ "built": "2026-11-18T20:24+11:00",
  "today": "2026-11-18",
- "store_ideas": 7307,
- "store_judged": 6473,
+ "store_ideas": 7841,
+ "store_judged": 7007,
  "totals": {
-  "workers": 233,
-  "cards": 166,
-  "rows": 6047,
-  "sources": 6297,
-  "passages": 99,
-  "readings": 48
+  "workers": 278,
+  "cards": 180,
+  "rows": 6581,
+  "sources": 6838,
+  "passages": 112,
+  "readings": 52
  },
  "days": [
   {
    "day": "2026-11-18",
-   "workers": 41,
-   "cards": 14,
-   "rows": 587,
-   "sources": 538,
-   "passages": 13,
-   "readings": 4
+   "workers": 86,
+   "cards": 28,
+   "rows": 1121,
+   "sources": 1079,
+   "passages": 26,
+   "readings": 7
   },
   {
    "day": "2026-11-17",
@@ -46,7 +46,7 @@
    "rows": 361,
    "sources": 547,
    "passages": 21,
-   "readings": 8
+   "readings": 9
   },
   {
    "day": "2026-11-14",
@@ -152,6 +152,14 @@
    "analysis_workers": "19",
    "readers": "8",
    "notes": "Fourteen research workers one level deeper on Q1-Q14 and the thinnest tags: cards Q122-Q135 (merger exit clauses and the two reasons; fractional Kelly and the half kept; world shares from their building blocks; UK pension yield triggers that never fired; prepaid tuition plans; the advance against royalties; certainty words in Chinese for Taiwan; founders' own commitment letters and the Giving Pledge; failure-first forms from accident reports for 3e; Taiwan's building materials, wages and the NT dollar with monthly data since 1991; gift annuity and pre-need reserves; who holds and releases a reserve; can a creator sell her career; months of running money in arts groups), 587 rows from about 520 sources read at source (many in part, each card's Gaps says which); fourteen raters judged every row the same morning (store 7,307 ideas); five analysis workers (numbers: what it takes to break each promise, NUMBERS 8u, and 3e recast failure first; the share forecast from its building blocks on the engine, NUMBERS 8v; the aha test 6 pack and its results; landing Q122-Q135 in SKELETON, GOLDMINE, GEM_LEDGER section 13, REFERENCES and CONCEIT) and two fresh voice writers; eight readers: voice round 8 (three), cold aha test 6 (three, one item per file, one reader from outside fixed income), coherence reader 9 and a lay reader"
+  },
+  {
+   "date": "2026-11-18",
+   "run": "evening (overdrive)",
+   "research_workers": "14",
+   "analysis_workers": "22",
+   "readers": "9",
+   "notes": "Fourteen research workers: cards Q136-Q149 (illustrators and image models; the IPS as precommitment in its builders' words; what a late Treasury payment looks like; pledges that go unpaid; why residencies close; binding records in ink far from comics; Taiwan funders' budget calendars; near misses and learning; bill ETFs for waiting money; Taiwan's own arts-building overruns; data freshness, which found Fidelity International's 7.6% and moved the median of published forecasts; how gift offices count a figure; artists' receipts in official data; disagreement in small teams), 534 rows (each card's Gaps says what was read only in part); fourteen raters judged every row the same evening (store 7,841 ideas); eight analysis workers (numbers owner twice: four register slips fixed, the 13 Nov curve range and an early end of the late-2032 fund, NUMBERS sections 3 and 4; exhibits second and third passes; the aha test 7 pack and its results; landing Q136-Q149 in SKELETON, CONCEIT, GEM_LEDGER section 14, REFERENCES 2j and CANON B12-B14; the readers' fixes) and two fresh voice writers; nine readers: voice round 9 (three), cold aha test 7 (three), coherence reader 10, a lay reader and bond desk 5"
   }
  ],
  "cards": [

@@ -1965,43 +1965,43 @@
  "keel_arithmetic_central_register_figures": {
   "currency_10pct_8j_on_contribution": {
    "need": 11500.0,
-   "left_kept_half": 9847.0,
-   "left_kept_plus_excess": 18323.0
+   "left_kept_half": 9679.0,
+   "left_kept_plus_excess": 17182.0
   },
   "currency_10pct_8j_on_stated_bottom": {
    "need": 9500.0,
-   "left_kept_half": 11847.0,
-   "left_kept_plus_excess": 20323.0
+   "left_kept_half": 11679.0,
+   "left_kept_plus_excess": 19182.0
   },
   "joint_18m_1in20_on_contribution": {
    "need": 28275.75592207843,
-   "left_kept_half": -6928.7559220784315,
-   "left_kept_plus_excess": 1547.2440779215685
+   "left_kept_half": -7096.7559220784315,
+   "left_kept_plus_excess": 406.24407792156853
   },
   "joint_18m_1in20_on_stated_bottom": {
    "need": 23358.233153021316,
-   "left_kept_half": -2011.233153021316,
-   "left_kept_plus_excess": 6464.766846978684
+   "left_kept_half": -2179.233153021316,
+   "left_kept_plus_excess": 5323.766846978684
   },
   "joint_24m_1in20_on_contribution": {
    "need": 32191.230672598966,
-   "left_kept_half": -10844.230672598966,
-   "left_kept_plus_excess": -2368.2306725989656
+   "left_kept_half": -11012.230672598966,
+   "left_kept_plus_excess": -3509.2306725989656
   },
   "joint_24m_1in20_on_stated_bottom": {
    "need": 26592.755773016535,
-   "left_kept_half": -5245.755773016535,
-   "left_kept_plus_excess": 3230.2442269834646
+   "left_kept_half": -5413.755773016535,
+   "left_kept_plus_excess": 2089.2442269834646
   },
   "joint_24m_worst_jul2006_jul2008_on_contribution": {
    "need": 44755.90282860281,
-   "left_kept_half": -23408.90282860281,
-   "left_kept_plus_excess": -14932.902828602811
+   "left_kept_half": -23576.90282860281,
+   "left_kept_plus_excess": -16073.902828602811
   },
   "joint_24m_worst_jul2006_jul2008_on_stated_bottom": {
    "need": 36972.2675540632,
-   "left_kept_half": -15625.267554063197,
-   "left_kept_plus_excess": -7149.267554063197
+   "left_kept_half": -15793.267554063197,
+   "left_kept_plus_excess": -8290.267554063197
   }
  }
 }
