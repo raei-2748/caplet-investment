@@ -1,23 +1,23 @@
 {
- "built": "2026-11-19T18:57+11:00",
+ "built": "2026-11-19T19:37+11:00",
  "today": "2026-11-19",
- "store_ideas": 8742,
- "store_judged": 7908,
+ "store_ideas": 9110,
+ "store_judged": 8276,
  "totals": {
-  "workers": 360,
-  "cards": 205,
-  "rows": 7482,
-  "sources": 7631,
+  "workers": 379,
+  "cards": 218,
+  "rows": 7850,
+  "sources": 7892,
   "passages": 125,
   "readings": 56
  },
  "days": [
   {
    "day": "2026-11-19",
-   "workers": 82,
-   "cards": 25,
-   "rows": 901,
-   "sources": 793,
+   "workers": 101,
+   "cards": 38,
+   "rows": 1269,
+   "sources": 1054,
    "passages": 13,
    "readings": 3
   },
@@ -185,6 +185,14 @@
    "analysis_workers": "8",
    "readers": "16",
    "notes": "Book 21 and Book 22. Twelve research workers on big ideas from far fields (cards Q163-Q174: literature of bonds and promises; the philosophy of promising; precommitment; the history of reserves; the gift; what certain means; Damodaran and Shiller read whole; the economics of artists; why buildings overrun; defeasance and the ledger; pencil and ink facts), 388 rows; a thirteenth on the copout (card Q175, from theory and wide reading); two on the prior art of sentences that make sense and of erudite but clear prose; six raters judged every row the same evening (239 keep, 69 adapt, 76 merged, 4 refuse; store 8,742 ideas); analysis: the writers' fact sheet rebuilt as facts only (version 2) and Keel's analysis of why version 61 could not be followed (voice/WHY_V61_FAILED.md); sixteen blind readers in comprehension study 1 (563 sentences, calibrated against Caplet's list); the overdrive plan to 27 Nov (OVERDRIVE_PLAN.md)"
+  },
+  {
+   "date": "2026-11-19",
+   "run": "late evening (overdrive, one level deeper)",
+   "research_workers": "12",
+   "analysis_workers": "7",
+   "readers": "0",
+   "notes": "Twelve research workers took tonight's strongest rows one level deeper, each reading its source whole (cards Q176-Q187: the law of lateness behind Antonio; the Opera House Act's cost clause; Osaka's rice bills and their court; Franklin's and Carnegie's bequests; Pliny's letters on Bithynia's cities; the patent rule that each part does its own duty; Savage's small worlds; the Fixed-term Parliaments Act bypassed; Athens's reserve; Lejeune's pact; when accounting counts a debt settled; Hirschman's Hiding Hand), 334 rows; six raters judged every row of Q175-Q187 the same night (deeper rows: 196 keep, 36 adapt, 102 merged); 25 parent rows corrected at source (Carnegie in Boston and the Osaka guarantee overturned, the Opera House narrowed, five of six aha test 9 candidates changed; GEM_LEDGER 16a); one landing worker (SKELETON notes per part, GEM_LEDGER 16, AHA_REGISTER, REFERENCES); store 9,110 ideas"
   }
  ],
  "cards": [

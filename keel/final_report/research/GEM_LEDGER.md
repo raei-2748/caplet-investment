@@ -951,3 +951,25 @@ Rows that land nowhere, one line per card: the other rows of each card (all scor
 among them have table A's lines) stay ranked in the store with their raters' notes: Q163, 19 rows; Q164, 18; Q165, 22; Q166, 12; Q167, 23;
 Q168, 26; Q169, 34 (its best three in table A); Q170, 25; Q171, 21; Q172, 23; Q173, 27; Q174, 19, including its four
 refusals (rows 18, 21, 25 and 29). Sources behind no landed row stay with their cards (REFERENCES_APA 2l, "not added").
+
+### 16a. Deeper-wave corrections (Thu 19 Nov 2026, late evening)
+
+Twelve follow-up cards (Q176-Q187, `DEEPER_BRIEF.md`) read the sources behind tonight's strongest rows whole. Five
+of the six aha test 9 candidates changed at source. Each parent row below now carries an override in
+`store/ratings.csv`, and its line in table 16 above stands only as corrected here. Rewrite each candidate against its
+deeper card before test 9 (`goldmine/AHA_REGISTER.md`).
+
+| Parent rows | Deeper card | What changed |
+|---|---|---|
+| Q167-008, Q167-009 (with -001) | Q179 | Overturned for Boston: Carnegie did not pay the school's running money; his US Steel bonds were called in 1929, gave about a ninth of its income in 1921-22, and the school borrowed for payroll in 1956. SKELETON 3.0's second challenger keeps only the Ohio half (27 of 82 towns had failed to make good by October 1916, most paid after warnings); never Carnegie paying Boston's running money |
+| Q167-007, Q166-028 | Q179 | Franklin's projection rested on every repaid pound being lent again at 5%, and fell short when borrowers dried up; re-base on Q179 |
+| Q170-013 (with -010, -011) | Q178 | Overturned as worded: the 1773 guarantee was a declaration only, no public money spent, dropped in 1782; what lasted was the magistrate's court testing each bill on its delivery date. Candidate 2 rests on the court and the 1749 ratio, never the guarantee |
+| Q172-001, Q172-014 | Q177, Q187 | Narrowed: "under any circumstances" was standard NSW public-works wording from 1923, passed unamended in the government's own bill; the cap was re-sized in 1963, 1966 and 1969. Never "Parliament promised specially" or "amended four times". Hirschman's rescue came in about 5 of 18 buildings, and the plan hides nothing, so it is not a Hiding Hand |
+| Q163-004, Q163-005 | Q176 | Weakened: the law forgave Antonio's kind of lateness (late but whole); the first plan's danger was a shortfall fixed on one date. Never "a month short in time" as the whole point; the five-business-day line is Table 3's (CANON A34) |
+| Q166-007, Q166-008, Q166-001 | Q184 | Strengthened: the war was to be paid "from the other money", the allies'; the rule was lifted by open vote after Chios revolted in 412, the year before its own danger. The fourth lever, more money from others, holds |
+| Q174-001, Q174-002 | Q181 | Narrowed: the plan's parts share two holdings (the late-2032 fund carries three promises, the extra Treasuries stand behind all ten), and courts dropped "aggregation" as a test; the parallel rests on KSR's "predictable results"; never "each part does one job and nothing else" |
+| Q168-022, Q168-023 | Q182 | Corrected: Savage gives both proverbs to every step, and his section 5.5 does give a test (trust a small world unless you hold tickets in the lottery), which IPS l.9 makes Laura fail; never "he could not say where one ends" |
+| Q165-023, Q165-024, Q7b-039 | Q183 | Corrected: the 2019 election came from a separate Act passed 438 to 20; a missed deposit is Laura's own act; 31 March 2028 is Table 3's reading of IPS l.17, never the IPS's own date |
+| Q174-012, Q174-013 | Q185 | A memoir is both signed and sworn, so never "an oath, not a signature"; Lejeune's field with nothing promised outside it maps her flexibility |
+| Q167-023, Q167-025 | Q180 | Nicaea spent first and lost; Laura matches only by going first with money she owns. Say "more than three million sesterces" (editions differ) |
+| Q173-012, Q173-013 | Q186 | Corrected: of IPS l.17's two reasons only a Treasury default is one accounting names; FASB's 1996 test is control. Say "already owned", never "already met" |
