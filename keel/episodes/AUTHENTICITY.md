@@ -170,7 +170,13 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   rater's brief written in office words and passive enough to read as Keel wronged, cut), then 11 (one serious: the
   2% line nobody could say out loud; Jun's wrong fix named only by implication, now said plainly), then three small ones
   (the 2% line still packed, an unexplained label for the bond reader, the narrator claiming the readers); each was cut
-  or put in plain words, and the third read's fixes went in without a fourth read.
+  or put in plain words, and the third read's fixes went in without a fourth read. Ep 53 (Thu 19 Nov) failed three fresh
+  reads: 12 lines (four serious: the evening research's one idea as a slogan, a closing rule built like a kicker, the
+  narrator summing up Caplet's notes, and Laura, the building and the range never introduced for a new reader), then
+  12 (four serious: the same idea back as a catchphrase, the Opera House's cost as a punchline, a rule built to be
+  remembered, Caplet's notes still summarised), then 10 (two serious: an entry ending on the practice writing's result,
+  Rome's soldiers' payments closing a paragraph on the report's theme, cut); each was cut or put in plain words, and the
+  third read's fixes went in without a fourth read.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
