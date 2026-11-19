@@ -921,3 +921,25 @@ Data: FRED (Treasury yields, real yields, breakevens), the Treasury yield curve,
    Keel file never outranks a book: before Keel writes a new guard, it checks the guard against `keel/EXPECTATIONS.md`,
    and a guard that contradicts a book is void the moment it is found.
 5. "Is that clear?" Yes. Answered in the thread the same night.
+
+## Book 21: Make every sentence make sense; voice study in two categories (Caplet, Thu 19 Nov 2026, 17:47 Sydney)
+
+> Caplet's own words, verbatim, sent at 17:47 Sydney (06:47 UTC) on Thu 19 Nov and passed to this thread by the project
+> chat. The message as received ends mid-sentence ("So anyway: that"); the list of version 63 lines it mentions and the
+> attached essay did not arrive with it, and Caplet has been asked to resend both. Registered as I119 in
+> `keel/INSTRUCTIONS.md`; carried into `keel/EXPECTATIONS.md` as standing order 25.
+
+> I want you to put significantly more effort into voice studies. To help you, I've created a list of the lines in your final version of the IPS (v63) which didn't make any sense to us – see below. Please analyse these and how they compare to the lines in the rest of the IPS. This may be instructive. I've also got another material for you to use in your voice study – see attached. Again: it's not gospel, and you can't replicate its every structural or stylistic feature, because it was written for an English analytical essay, which is of course very different to an investing competition. But it'll give you a great idea of a distinctive voice and style and tone which is vastly different from the kind of generic AI voice you spit out every time you write. Overall, I suppose I want you to split your task into 2 categories henceforth. The first, and vastly more urgent, is to actually make your writing comprehensible to humans. This is absolutely imperative. I must be able to understand what you're saying without having to read over the sentence 3 times or figure out the logical chain you're trying to posit. But that's not even the primary problem; the primary problem is that, even after reading it 3 times and understanding the logical chain, the sentence simply does not make any sense. I genuinely don't know how to explain this to you. I'm hoping you'll be able to figure it out through osmosis, because that seems to be the only way. To be clear, we need to demonstrate erudition in our Final Report. I don't want you to restrict yourself to accessing a less-than-expansive vocabulary, or a simple syntactical style, or anything of that sort. The essay attached shows you that the style I like to employ, and I have no problem with sounding formal or intellectual or elevated in register – so long as it's comprehensible to an intelligent reader, which it most certainly is. So anyway: that
+
+**Keel's reading of Book 21.**
+1. Voice study now has two categories. The first, far more urgent, is that every sentence is understood by an
+   intelligent reader on one reading AND makes sense once understood. The second is a distinctive voice, style and
+   tone, learnt from Caplet's essay (pending) and Caplet's own writing, never copied feature by feature.
+2. Two faults, not one. A sentence can fail by being hard to follow (the reader must reread it or rebuild the chain),
+   and, worse, by making no sense even once followed. Caplet names the second as the primary problem.
+3. Erudition is wanted. Wide vocabulary, complex syntax, a formal or elevated register are all welcome, provided an
+   intelligent reader understands them. Short words are not the cure (Book 13 said the same).
+4. "Version 63" is Keel's last IPS draft, `/mnt/project-files/ips/FINAL/ips.txt` (6 Nov 07:30), built on the 244 words
+   Caplet wrote by hand that morning; version 62 (`ips_V62.txt`) is Keel's last draft before it.
+5. Until the list arrives, Keel finds the failing lines itself, writes its prediction down before any reader sees the
+   text, and scores the prediction against Caplet's list when it comes: `keel/final_report/voice/COMPREHENSION.md`.

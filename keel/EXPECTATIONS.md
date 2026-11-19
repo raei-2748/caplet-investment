@@ -22,7 +22,7 @@ independent line-by-line checks against every book and every register row. Writt
 >   found (standing order 24). This is how Keel forgot the over-claiming instruction twice, and why Book 19 had to say it
 >   a third time.
 
-**What these notes cover.** Every book of the Bible (Books 1-20; Books 19 and 20 of Sun 15 Nov night in standing orders 23 and 24 and the frame above; Book 17 of Sat 14 Nov is carried in standing orders 11-19, and Caplet's conceit decision of the same evening in standing order 20; Caplet's rule on reflection moments (Sun 15 Nov) in standing order 21, amended the same night by Book 18 in standing order 22; the cover note of 26 Oct, the preface on where the
+**What these notes cover.** Every book of the Bible (Books 1-21; Book 21 of Thu 19 Nov in standing order 25; Books 19 and 20 of Sun 15 Nov night in standing orders 23 and 24 and the frame above; Book 17 of Sat 14 Nov is carried in standing orders 11-19, and Caplet's conceit decision of the same evening in standing order 20; Caplet's rule on reflection moments (Sun 15 Nov) in standing order 21, amended the same night by Book 18 in standing order 22; the cover note of 26 Oct, the preface on where the
 Bible sits, the list of what it overruled on 26 Oct), Ray's points of 5 Nov that Book 12 says to keep in mind, the Ten
 Commandments Keel drew from Books 1-10, every row of the instruction register (`INSTRUCTIONS.md`, B and I01-I93), and
 Keel's earlier rubric of Caplet's expectations for the IPS (`ips_rewrite/final_night/other_thread/harvest/05_EXPECTATIONS.md`).
@@ -207,6 +207,25 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
    - Before Keel writes a guard, a ban or a test into any working file, it checks it against these notes; a guard that
      contradicts a book is void and is removed the day it is found, in every file that carries it.
    - "Is that clear?" Yes; answered in the thread on Sun 15 Nov.
+
+### Book 21 (Thu 19 Nov, 17:47 Sydney; INSTRUCTIONS I119): standing order 25
+
+25. **Every sentence makes sense to an intelligent reader on one reading; voice study in two categories (I119, Book 21).**
+   "The first, and vastly more urgent, is to actually make your writing comprehensible to humans. This is absolutely
+   imperative. I must be able to understand what you're saying without having to read over the sentence 3 times or
+   figure out the logical chain you're trying to posit. But that's not even the primary problem; the primary problem is
+   that, even after reading it 3 times and understanding the logical chain, the sentence simply does not make any sense."
+   - Two tests for every sentence of the Final Report: an intelligent reader follows it the first time, and what it says,
+     once followed, is true, follows from what came before and means something in the world (not only in Keel's model).
+   - Erudition stays: "I don't want you to restrict yourself to accessing a less-than-expansive vocabulary, or a simple
+     syntactical style ... I have no problem with sounding formal or intellectual or elevated in register – so long as
+     it's comprehensible to an intelligent reader." Short words are not the cure (3.1, Book 13).
+   - The second category, a distinctive voice, is learnt from Caplet's essay (pending; "not gospel", written for an
+     English analytical essay, never copied feature by feature) and Caplet's own writing.
+   - Caplet's list of the version 63 lines that made no sense is the ground truth; Keel's own prediction is written first
+     and scored against it. Readers Keel builds are AI and may follow AI prose (Book 10), so their verdicts are checked
+     against Caplet's list before they are trusted. Study: `final_report/voice/COMPREHENSION.md`.
+   - **Weight:** "vastly more urgent", "absolutely imperative".
 
 ### Caplet's conceit decision (Sat 14 Nov, 17:19 Sydney; INSTRUCTIONS I114): standing order 20
 
@@ -1063,6 +1082,7 @@ the report (4.5).
 | Book 18, 15 Nov | A purpose for everything; moments by human plausibility, few and impressive; the world-fund case | Standing order 22 |
 | Book 19, 15 Nov | Doc drafts are other AIs' (inspiration only); intricate conceit; many aha moments; the goldmine; no over-claiming guards (third time); far more voice study | Standing order 23, 3.4, 3.6, Part 6 |
 | Book 20, 15 Nov | Every instruction equal and always fresh; frame at the top (Wharton as God, Canon, Expectations) | The frame, standing order 24 |
+| Book 21, 19 Nov | Every sentence understood on one reading and making sense once understood (vastly more urgent); erudition welcome if comprehensible; a distinctive voice from Caplet's essay | Standing order 25, 3.1, 3.3 |
 | Ten Commandments (Books 1-10) | I-X, each with a test | Part 9 maps each |
 | What the Bible overruled, 26 Oct | Removed IPS-era checks; kept: strategies named for what they are, stocks never called sure; "exact sums on exact dates" allowed for iBonds held to liquidation and T-bonds held to maturity | 2.2, 3.4, Part 9 |
 | Keel's 5 Nov rubric (`05_EXPECTATIONS.md`) | Earlier list of Caplet's expectations for the IPS, incl. Ray's 23 Oct "don't soften" and 5 Nov Stop Slop lines | 3.4, Part 7, Part 9 |
