@@ -66,16 +66,19 @@ rehearsal, two blind judging panels, two cold "aha" tests, and every source the 
 
 ## Day by day
 
-| Day | Morning run | Evening run | Analysis | Voice and readers |
-|---|---|---|---|---|
-| Fri 20 | The investing ideas underneath the plan | The 2031 range and how to state confidence | A picture of where the money goes, tested against Caplet's version 61 questions; the fact sheet's second version checked | Round 11 (understood first time); round 12 ("we" and the why) |
-| Sat 21 | Co-sponsors, gifts and campaigns | The residency, its building and its running money | The page budget proven: every exhibit and budgeted word count laid out in 12-point Times, double-spaced | Round 13 (dry wit); round 14 (the essay's way of arguing) |
-| Sun 22 | Laura's own world: graphic memoir, Taiwan, the Taiwan dollar | Combining: the week's strongest ideas a level deeper, and syntheses | Every figure the report plan uses re-derived a second way | Round 15 (neither trap); round 16 (the conceit in the new voice); cold aha test 9 |
-| Mon 23 | Assumptions and what to watch, after judging panel 5 | The Team Reflection's three moments | Tables 2 and 3 redesigned for one reading | Rounds 17-18: the contribution and the range, whole |
-| Tue 24 | Section 2, how the plan was implemented | The conceit, with true facts that map real decisions | References: the APA list complete for every source in the plan | Rounds 19-20: words for co-sponsors and the reflection, whole |
-| Wed 25 | The week's eight best ideas a level deeper; second readings at source | Combining: one page per part for the writers; cold aha test 10 | Numbers frozen; the fact sheet's third version; the order in which every name is first set up | Rounds 21-22: Section 2, the commitment, the reserve and the assumptions, whole |
-| Thu 26 | Research on whatever judging panel 6 finds weakest | Every outside fact the report will use read again at its source | Final layouts; the writing day's files ready | Rehearsal: the 27 November loop run once on two parts, timed |
-| Fri 27 | Writing session (24 hours, at least twelve rounds) | | | A sense check after every draft |
+Morning runs start at 06:30 Sydney with the day's own job, scheduled since 8 November; the research, analysis and
+voice in this plan run beside it, never instead of it. Evening runs start at 19:13.
+
+| Day | The day's own job | Morning research | Evening research | Analysis | Voice and readers |
+|---|---|---|---|---|---|
+| Fri 20 | Attack day: four judges who have never seen the work (a fixed-income portfolio manager, a finance professor, a capital-campaign director, a plain reader) attack the plan, its best ideas and its syntheses; every attack is answered or the idea is demoted | The investing ideas underneath the plan | The 2031 range and how to state confidence | A picture of where the money goes, tested against Caplet's version 61 questions; the fact sheet's second version checked | Round 11 (understood first time); round 12 ("we" and the why) |
+| Sat 21 | The argument tree: the report's one governing thought, its branches with the strongest evidence and figure under each, where each "aha" falls, and what the report opens on | Co-sponsors, gifts and campaigns | The residency, its building and its running money | The page budget proven: every exhibit and budgeted word count laid out in 12-point Times, double-spaced | Round 13 (dry wit); round 14 (the essay's way of arguing) |
+| Sun 22 | The report's shape sent to Caplet on one plain page in the thread, so you can steer the structure before Wednesday | Laura's own world: graphic memoir, Taiwan, the Taiwan dollar | Combining: the week's strongest ideas a level deeper, and syntheses | Every figure the report plan uses re-derived a second way | Round 15 (neither trap); round 16 (the conceit in the new voice); cold aha test 9 |
+| Mon 23 | Sources and exhibits: every source behind the best ideas checked at the source, the reference list built in APA, the exhibits finished and tried on fresh readers; judging panel 5 | Assumptions and what to watch | The Team Reflection's three moments | Tables 2 and 3 redesigned for one reading | Rounds 17-18: the contribution and the range, whole |
+| Tue 24 | Words for co-sponsors settled in notes and tried on readers playing a co-sponsor, a foundation programme officer and a Taiwan arts official | Section 2, how the plan was implemented | The conceit, with true facts that map real decisions | The reference list checked entry by entry | Rounds 19-20: words for co-sponsors and the reflection, whole |
+| Wed 25 | A last judgement on every idea in the store; section notes, one per part of the report; the review loop rehearsed on the submitted IPS with five planted faults | The week's eight best ideas a level deeper; second readings at source | Combining: the section notes finished; cold aha test 10 | Numbers frozen; the fact sheet's third version; the order in which every name is first set up | Rounds 21-22: Section 2, the commitment, the reserve and the assumptions, whole |
+| Thu 26 | Every file the writers need checked against every other; a pre-mortem on the writing day; the writing session's plan written | Research on whatever judging panel 6 finds weakest | Every outside fact the report will use read again at its source | Final layouts; the writing day's files ready | Rehearsal: the 27 November loop run once on two parts, timed |
+| Fri 27 | Writing session (24 hours, at least twelve rounds) | | | | A sense check after every draft |
 
 ## The questions for each run
 
@@ -301,12 +304,12 @@ Eight new, and four a level deeper. Every fact must map a relation in the plan; 
 7. Printers' proofs and "stet": the marks that decide what is final in a book, which is Laura's own trade. (the conceit)
 8. Banknote signatures: whose ink makes a dollar a promise. (the conceit; the ten payments)
 
-### Wednesday 25: the best ideas deeper, then the part pages
+### Wednesday 25: the best ideas deeper, then the section notes
 
 Morning: eight researchers take the week's eight best ideas a level deeper, and four read at the source, a second time,
-the sources the report plan now leans on most. Evening: the combining run writes one page per part of the report for
-the writers: the decision the part explains, the one idea that explains it, where that idea breaks, its one figure,
-and the order of its steps. These pages carry facts and ideas only, never checks. Cold "aha" test 10 reads the final
+the sources the report plan now leans on most. Evening: the combining run finishes the section notes, one per part of
+the report, for the writers: the decision the part explains, the one idea that explains it, where that idea breaks,
+its one figure, and the order of its steps. The notes carry facts and ideas only, never checks. Cold "aha" test 10 reads the final
 candidates.
 
 ### Thursday 26: the last gaps, then a second reading of everything
@@ -353,7 +356,7 @@ fresh.
 ## Friday 27 November: the writing session
 
 One 24-hour session of at least twelve rounds. In each round fresh writers write each part from Caplet's writing, the
-fact sheet and the part's page; the main session checks every draft against Wharton's instructions, the submitted IPS
+fact sheet and the part's section notes; the main session checks every draft against Wharton's instructions, the submitted IPS
 and Trading Notes, and the numbers; a literal reader and a logician then go sentence by sentence, and any sentence they
 had to reread, or whose "because" does not produce its claim, is rewritten whole rather than squeezed. Blind readers,
 with Caplet's real passages mixed in, judge the voice. The final draft goes to Caplet on Saturday 28 November.
