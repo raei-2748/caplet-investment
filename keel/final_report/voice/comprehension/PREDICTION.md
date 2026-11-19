@@ -1,4 +1,4 @@
-# Keel's prediction, written before any reader saw the texts (Thu 19 Nov 2026, 18:05 Sydney)
+# Keel's prediction, written before any reader saw the texts (Thu 19 Nov 2026, 17:54 Sydney)
 
 Book 21 (Caplet, 17:47 Sydney): Caplet has a list of the lines in version 63 "which didn't make any sense to us". The
 list did not arrive with the message. Before it does, and before any reader in this study sees the texts, this page

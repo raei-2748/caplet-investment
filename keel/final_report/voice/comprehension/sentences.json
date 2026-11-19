@@ -1,0 +1,2817 @@
+{
+ "K1": {
+  "text": "Caplet XR is named after extended-release caplets labelled ‘do not crush’.",
+  "source": "V63",
+  "part": "pitch"
+ },
+ "K2": {
+  "text": "Laura’s $300,000 buys ten Treasury holdings, one maturing before each $50,000 operating payment, and we never sell them early; the 2028 deposit fills any gap.",
+  "source": "V63",
+  "part": "pitch"
+ },
+ "K3": {
+  "text": "Everything else goes into one world index fund for her facility contribution.",
+  "source": "V63",
+  "part": "pitch"
+ },
+ "K4": {
+  "text": "We call our plan Caplet XR.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K5": {
+  "text": "It’s named after extended-release caplets, which release their dose on schedule and come labelled ‘do not crush’.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K6": {
+  "text": "Our ‘dose’ is Treasuries – Laura will, under our strategy, own the exact T-Bonds, T-Notes and Term Treasury ETFs she’ll need to fund her operating commitment.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K7": {
+  "text": "We chose Treasuries because her $50,000 payments are fixed and must be met with a high degree of certainty, and Treasuries pay fixed amounts on fixed dates, backed by the US government.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K8": {
+  "text": "At current Treasury prices her 10 operating payments would cost about $300,000 – which would generate roughly $200,000 in interest, therefore covering the $500,000 required in total – and whilst yields could of course look different by January 2027, we use these numbers as a guideline (and our plan is not dependent on them).",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K9": {
+  "text": "In January 2027 we will use her $300,000 deposit to buy a ladder of 10 Treasury holdings (one maturing before each January from 2033 to 2042), and the 2028 deposit will fund any which the 2027 one couldn’t, if necessary.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K10": {
+  "text": "Each holding is bought so that what it repays, with its interest, meets that year’s $50,000.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K11": {
+  "text": "X is the Roman numeral for 10, and our XR (10 Rungs) will not be crushed: we won’t sell them before they mature.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K12": {
+  "text": "Bond prices will rise and fall before then, but a holding kept to maturity still pays what it was bought to pay, so those swings don’t affect the payments.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K13": {
+  "text": "The ladder is also her operating reserve.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K14": {
+  "text": "It is complete by January 2028 at the latest, five years before the first payment, so in 2033 there is nothing left to set aside or rearrange.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K15": {
+  "text": "From then on it releases its dose on schedule, like the caplet: one rung matures just before each January and pays that year’s $50,000, until the tenth pays the last one in 2042.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K16": {
+  "text": "Any funds from the 2027 and/or 2028 deposits not needed by the ladder will go into a world index fund (VT, Vanguard Total World Stock ETF).",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K17": {
+  "text": "This is the money for her facility contribution in 2033 and for the flexibility she wants as the project develops.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K18": {
+  "text": "Because no operating payment depends on it, this money can take the risk of shares, which over long periods have grown faster than bonds.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K19": {
+  "text": "That suits Laura, who has taken thoughtful risks throughout her career.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K20": {
+  "text": "One fund holding thousands of companies across the world spreads that risk widely, costs little, and can be sold on any trading day when the money is needed.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K21": {
+  "text": "Shares can fall, and the fund could be worth less in 2033 than it cost, but a fall would reduce only what she can contribute.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K22": {
+  "text": "Our plan’s biggest strength, and our interpretation of ‘high degree of certainty’, is that – barring a US default – no operating payment is ever at risk, and they certainly never depend on a share price.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "K23": {
+  "text": "Like the caplet it is named after, the plan works as long as nobody crushes it.",
+  "source": "V63",
+  "part": "policy"
+ },
+ "R1": {
+  "text": "Before anyone relies on a sum Laura names, Caplet XR buys Treasuries to repay it.",
+  "source": "V62",
+  "part": "pitch"
+ },
+ "R2": {
+  "text": "Her $300,000, and the 2028 deposit if needed, buy ten holdings for her operating payments.",
+  "source": "V62",
+  "part": "pitch"
+ },
+ "R3": {
+  "text": "The rest buys the bottom of her 2031 range and shares that pay for its top before she names it.",
+  "source": "V62",
+  "part": "pitch"
+ },
+ "R4": {
+  "text": "We call the plan Caplet XR, after extended-release caplets, which release their dose on schedule and come labelled \"do not crush\".",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R5": {
+  "text": "Our dose is Treasuries: before anyone relies on a sum Laura commits to, she owns the ones that will repay it.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R6": {
+  "text": "At current Treasury prices her ten operating payments cost about two thirds of her $450,000, and they are fixed, so in a balanced mix every gain or loss would fall on the last third.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R7": {
+  "text": "That third would swing like the shares of a heavily borrowed company.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R8": {
+  "text": "In January 2027 her $300,000 buys a ladder of ten Treasury holdings, one repaying before each January from 2033 to 2042, and the 2028 deposit buys any it can't afford.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R9": {
+  "text": "Those ten rungs are the first meaning of XR, and crushing the caplet would mean selling one before it repays.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R10": {
+  "text": "In 2028, what the ladder doesn't need buys more of the fund behind the 2033 payment, enough to return about all of it by December 2032, which sets the bottom of her range.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R11": {
+  "text": "Because it costs less than it returns, the difference, roughly its interest, goes into one world index fund, so the shares risk only that interest.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R12": {
+  "text": "It is bought in 2028, not 2031, because the creative residency in Taiwan can't depend on shares: its co-sponsors, grants and fees can shrink in the same recessions that hit shares, and her facility contribution, resting on the US government instead, must hold when they do.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R13": {
+  "text": "The ladder also carries reinvestment risk: interest arrives years before the payment it serves, so money waits, earning less if rates fall and stay low.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R14": {
+  "text": "So in 2031, before she names a range, she sells up to half her shares for XR's second meaning, an extra reserve of Treasuries, enough to meet every payment even if waiting money earned nothing.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R15": {
+  "text": "If that half falls short, the 2028 holding's payout makes up the rest.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R16": {
+  "text": "The bottom is what that holding will pay after this, less a margin because a fund's payout isn't fixed.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R17": {
+  "text": "Then she sells the other half for Treasury funds repaying before 2033; the top is the bottom plus what that half raised.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R18": {
+  "text": "Both ends are owned before anyone hears them, and in 2033 she gives what those Treasuries pay, up to the top.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R19": {
+  "text": "Whatever of the first half isn't sold, and anything paid beyond the top, stays hers, liquid and promised to no one, so she keeps room as the project develops.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R20": {
+  "text": "In 2033 her operating reserve is already in place: the ladder, the extra reserve and the money waiting for them.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R21": {
+  "text": "The plan's biggest strength, and what we mean by a high degree of certainty, is that, barring a US default, no payment, and no figure once named, depends on a share price.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "R22": {
+  "text": "Like the caplet it is named after, the plan works as long as nobody crushes it, and the tenth rung, with what was set aside for it, meets the last $50,000 in 2042.",
+  "source": "V62",
+  "part": "policy"
+ },
+ "H1": {
+  "text": "Laura's ten $50,000 operating payments are fixed, so we pay for them up front: her first $300,000 buys Treasuries that mature one before each January from 2033.",
+  "source": "V57",
+  "part": "pitch"
+ },
+ "H2": {
+  "text": "Her 2028 deposit buys Treasuries that set her minimum facility contribution, and only the interest those would earn goes into world shares.",
+  "source": "V57",
+  "part": "pitch"
+ },
+ "H3": {
+  "text": "From 2033, Laura's portfolio must pay $50,000 each January for ten years towards running her Taiwan residency, with a high degree of certainty.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H4": {
+  "text": "Part of what's left can help build the facility.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H5": {
+  "text": "We call the plan Caplet XR, after extended-release tablets, which release their dose on schedule and come labelled \"do not crush\".",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H6": {
+  "text": "Ours is ten Treasury holdings, one redeemed before each January: X for ten, R for redemption.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H7": {
+  "text": "Crushing one means selling it before it matures, even for the building.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H8": {
+  "text": "Pension funds cover fixed payments either by matching their bonds' average timing to the payments' and rebalancing as rates move, or by buying one bond per payment and holding it.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H9": {
+  "text": "We do the second, which never needs rebalancing.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H10": {
+  "text": "In January 2027, her first $300,000 buys a ladder of Treasury bonds and funds with fixed end dates, each maturing before a payment.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H11": {
+  "text": "A Treasury bond held to maturity pays exactly what it promised, whatever markets do.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H12": {
+  "text": "So, to us, high certainty means no payment depends on shares.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H13": {
+  "text": "Shares are called safe over ten years, but time makes a loss rarer, not smaller, and a fixed payment can't wait for a recovery.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H14": {
+  "text": "Her 2028 deposit comes from book advances, speaking fees and licensing, which can dry up in the same downturns that hit share prices, so her portfolio shouldn't bet on shares twice.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H15": {
+  "text": "The 2028 deposit first completes the ladder, if needed.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H16": {
+  "text": "Most of the rest buys a Treasury fund maturing in late 2032, which sets her minimum facility contribution.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H17": {
+  "text": "What remains, roughly the interest that fund will earn, goes into one world index fund holding thousands of companies.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H18": {
+  "text": "Banks sell this as a capital-protected note, but they spend the interest on an option that can expire worthless.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H19": {
+  "text": "We would rather she owned the shares.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H20": {
+  "text": "Nor do we copy portfolio insurance, which sells shares as they fall and helped deepen the 1987 crash.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H21": {
+  "text": "Our plan changes only on fixed dates, never on a market move.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H22": {
+  "text": "In 2031, Laura gives co-sponsors a credible range.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H23": {
+  "text": "The bottom is that fund's payout, rounded down: money she already owns.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H24": {
+  "text": "The top adds half her shares, which move into Treasuries before she names it, because a number said aloud can't quietly be halved after a bad year.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H25": {
+  "text": "The other half stays hers and liquid, as a cushion if the building costs more in Taiwan dollars.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H26": {
+  "text": "The ladder's main weakness is that it counts on reinvesting its bonds' interest; if rates fall and stay low, it can fall short.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H27": {
+  "text": "Before Laura names her range, we price that shortfall as if every dollar waiting for a payment earned nothing, and move that much from her kept shares into Treasuries.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H28": {
+  "text": "Her spare money shrinks first, and if it can't cover the gap, she names a lower range.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H29": {
+  "text": "From 2033, the ladder and the money set aside become her operating reserve, paying each January's $50,000 until 2042.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "H30": {
+  "text": "Like the tablet it is named after, the plan works as long as nobody crushes it.",
+  "source": "V57",
+  "part": "policy"
+ },
+ "M1": {
+  "text": "Laura’s career is already a giant stock she can’t sell.",
+  "source": "CAPLET",
+  "part": "pitch"
+ },
+ "M2": {
+  "text": "So we hedge it!",
+  "source": "CAPLET",
+  "part": "pitch"
+ },
+ "M3": {
+  "text": "We’ll fund the 10 operating commitments with a Treasury ladder, immune to markets.",
+  "source": "CAPLET",
+  "part": "pitch"
+ },
+ "M4": {
+  "text": "Yet another Treasury fund will decide the floor of her facility contribution, and a world stock ETF will determine the ceiling.",
+  "source": "CAPLET",
+  "part": "pitch"
+ },
+ "M5": {
+  "text": "Dear Laura,",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M6": {
+  "text": "You’d think that someone with your taste for thoughtful risk and 6 years to wait would usually own shares.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M7": {
+  "text": "So, naturally, that was our plan – until we stopped and considered the actual nature of a writer’s income.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M8": {
+  "text": "In good years the advances come, and the speaking fees, and the licences.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M9": {
+  "text": "In a recession they come later and smaller, and during that same period, shares fall and co-sponsors cut their budgets.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M10": {
+  "text": "In effect your career is a large holding of shares, and one you cannot sell.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M11": {
+  "text": "And so, we believe, your portfolio should be a counterbalance to that – definitely not a contributor.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M12": {
+  "text": "You asked that the payments be met with a ‘high degree of certainty’, so we decided to take that one step further – barring a US default, none of your 10 operating payments will depend on a share price, or on anybody else’s money, when they fall due.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M13": {
+  "text": "The money for the operating commitment will go straight into Treasuries, because it’s fixed and non-negotiable, and only money you haven’t promised yet goes into shares, where it can grow.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M14": {
+  "text": "In January 2027 we’ll use your first deposit to buy 10 Treasuries (T-Bonds or iShares iBonds Term Treasury ETFs, whichever works best for each year), each maturing just before it’s needed.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M15": {
+  "text": "Held to the end, these pay what they say – no price fluctuations for us to fear.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M16": {
+  "text": "At current yields, this would cost roughly $300,000 – in other words, your entire first deposit.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M17": {
+  "text": "But worry not – our plan isn’t dependent on yields staying put!",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M18": {
+  "text": "Even if yields fall and the total cost of the ladder ends up being above $300,000, we’ll simply complete it with the 2028 deposit.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M19": {
+  "text": "The building is a different matter.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M20": {
+  "text": "Most of the 2028 deposit will fund a Treasury fund maturing in late 2032, whose payout is the bare minimum you’ll be able to promise your co-sponsors without doubt.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M21": {
+  "text": "The rest will go into a world share fund of thousands of companies – VT, Vanguard Total World Stock ETF – and its returns will help determine your maximum facility contribution.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M22": {
+  "text": "That means markets will be able to increase or decrease the top of your planned band as we get closer to 2031, but the bottom will remain constant, built on the ever-reliable Treasuries.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M23": {
+  "text": "Importantly for you, half of the value of the shares will be promised to no one.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M24": {
+  "text": "That is your flexibility – for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M25": {
+  "text": "Before you meet co-sponsors in 2031, the other half will move into Treasuries, so whatever figure you choose is money you already own.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M26": {
+  "text": "From 2033 the Treasuries are the operating reserve.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M27": {
+  "text": "There are only 2 possible reasons we would change our plan – a missed deposit or a Treasury default.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M28": {
+  "text": "A fall in the market is not one of them.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M29": {
+  "text": "You take risks on the page.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M30": {
+  "text": "Fair enough; that’s your job.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M31": {
+  "text": "With these promises, ours is to take none.",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "M32": {
+  "text": "Yours, Caplet",
+  "source": "CAPLET",
+  "part": "policy"
+ },
+ "P101.1": {
+  "text": "Our recommendation is about $115,000 on market rates of 6 November 2026, or about NT$3.77 million at that day's exchange rate – a size, not a promise.",
+  "source": "round10:T4",
+  "part": "passage"
+ },
+ "P101.2": {
+  "text": "It rests on a single Treasury fund paying out in late 2032, which Laura buys in January 2028 with part of her second deposit and again in January 2031 with half her shares, before any co-sponsor meeting.",
+  "source": "round10:T4",
+  "part": "passage"
+ },
+ "P101.3": {
+  "text": "It is meaningful because it is hers and comes first: $115,000 of the $450,000 she puts in, owned before she asks anyone.",
+  "source": "round10:T4",
+  "part": "passage"
+ },
+ "P101.4": {
+  "text": "Practice judges a founder's gift by its size against her means and its coming first, not its share of a campaign's goal (BoardSource; Kresge Foundation), and in a laboratory a leader's example raised others' giving only when they could see the leader's means (Levati et al., 2007).",
+  "source": "round10:T4",
+  "part": "passage"
+ },
+ "P101.5": {
+  "text": "It is responsible because nothing is stated before it is owned, so a fall in shares before the move lowers what she can state, never what she has stated.",
+  "source": "round10:T4",
+  "part": "passage"
+ },
+ "P101.6": {
+  "text": "Ink only goes one way – more can always go onto the page later, but a stated figure never comes off it – which is why the figure is rounded down, anything the fund pays above it goes to her flexibility, and half her shares stay pencil on purpose.",
+  "source": "round10:T4",
+  "part": "passage"
+ },
+ "P101.7": {
+  "text": "That half, about $21,200, waits for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short.",
+  "source": "round10:T4",
+  "part": "passage"
+ },
+ "P101.8": {
+  "text": "Funders expect that: they cap their grants and leave overruns to the owner, as Taiwan's programme for venues does.",
+  "source": "round10:T4",
+  "part": "passage"
+ },
+ "P102.1": {
+  "text": "The ten payments, all owned in Treasuries from January 2028, fail only if one is short, or late, on its 1 January.",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P102.2": {
+  "text": "A US default could do that – the IPS's own condition.",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P102.3": {
+  "text": "So could a 2028 deposit that never comes, or comes far smaller (Section 2).",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P102.4": {
+  "text": "We name that deposit because it's paid from advances, speaking fees and licences on contract dates – the money a downturn delays first.",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P102.5": {
+  "text": "No fall in share prices can.",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P102.6": {
+  "text": "A figure Laura has stated fails if the Treasuries behind it pay less, or late, and then it's her word that breaks.",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P102.7": {
+  "text": "Fund costs beyond the fees could, but only by eating through the room under it – about 2% of what the late-2032 fund pays, even with cash waiting earning nothing.",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P102.8": {
+  "text": "Her flexibility is a limit, not a promise: it can run out without breaking anything she has stated.",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P102.9": {
+  "text": "What would really stretch it is a share slump before the meetings, then a jump in costs.",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P102.10": {
+  "text": "If shares earn the return assumed, her flexibility and what the fund pays above the top cover a rise of about 25% in the US-dollar cost of her share of the building; the worst two-year spans since 1991 rose by more.",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P102.11": {
+  "text": "The case's fifth area, inflation, decides only what the fixed payments buy, never whether they're paid.",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P102.12": {
+  "text": "The IPS's two reasons to change the plan – a missed deposit, a Treasury default – are exits for when the plan can't be carried out, not ways a promise fails.",
+  "source": "round10:S1",
+  "part": "passage"
+ },
+ "P103.1": {
+  "text": "VT is where we allow ourselves to be wrong – because it's the only investment not standing between Laura and a payment deadline.",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "P103.2": {
+  "text": "This ETF owns thousands of companies, diversified across countries and sectors, which means we can avoid paying the price for the vain illusion that we can pick winners, instead buying the entire market's growth premium at an expense ratio of just 0.06%, for a forecast return of about 7.5% a year (as per JPMorgan).",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "P103.3": {
+  "text": "The T-Bonds and iBonds already cover the operating commitments, so VT answers a different question – how generous can the facility contribution be?",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "P104.1": {
+  "text": "For the ten payments, failing means one arriving short, or late, on its 1 January.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.2": {
+  "text": "A US default would do it.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.3": {
+  "text": "So would a 2028 deposit that never arrives, or arrives far smaller (Section 2).",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.4": {
+  "text": "That deposit comes from advances, speaking fees and licences paid on contract dates – the income a downturn delays first.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.5": {
+  "text": "No fall in share prices can.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.6": {
+  "text": "Put the shares at zero, rubbing out every pencil line, and the page still reads, all ten payments made, because from January 2028 the shares are the only pencil left.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.7": {
+  "text": "For a stated figure, failing means her word to co-sponsors breaks: the Treasuries behind it pay less, or late.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.8": {
+  "text": "The same default could.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.9": {
+  "text": "Fund costs beyond the fees could too, though only past about 2% of what the late-2032 fund behind the top pays out.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.10": {
+  "text": "Her flexibility is a limit, not a promise, so using it up breaks nothing.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.11": {
+  "text": "If shares earn the return assumed, it and whatever the fund pays above the top would meet a rise of about 25% in the US-dollar cost of what her contribution builds, though the worst two-year spans since 1991 went further.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.12": {
+  "text": "Two of the case's five areas need a word: the return assumed for shares barely moves the top she states, and inflation decides what the payments buy, never whether they're paid.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P104.13": {
+  "text": "The IPS's two reasons to change the plan belong on a different list – exits for when it can't be carried out, not ways a promise fails.",
+  "source": "round10:T2",
+  "part": "passage"
+ },
+ "P105.1": {
+  "text": "We know Treasury bonds (including this one – maturing 2037) won't create wealth, but they will remove uncertainty, through duration-matching.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P105.2": {
+  "text": "In other words, we take Laura's requested 'high degree of certainty' to mean a near-ironclad guarantee, and we provide exactly that.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P105.3": {
+  "text": "Every year the bonds sit untouched is a good year – one less year of Laura's money being exposed to anything the restless markets might decide to do.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P105.4": {
+  "text": "Notably – Laura's payments are fixed in nominal dollars, so a nominal Treasury matches the liability perfectly, meaning we don't need TIPS, which would hedge against a nonexistent inflation risk.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P106.1": {
+  "text": "Laura's ten payments fail if one arrives short, or late, on 1 January.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.2": {
+  "text": "A US default could break them; the IPS says as much.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.3": {
+  "text": "So could a 2028 deposit that never arrives, or arrives far smaller (Section 2).",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.4": {
+  "text": "It's the risk we'd point to first: advances, speaking fees and licences are paid on contract dates, and a recession pushes those back.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.5": {
+  "text": "No fall in share prices can.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.6": {
+  "text": "Put the shares at zero – rub out every pencil line, since from January 2028 they're the only pencil left – and the page still reads, all ten payments made.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.7": {
+  "text": "A stated figure fails if the Treasuries she owns for it pay less, or late, and it's her word that breaks.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.8": {
+  "text": "Fund costs beyond the fees could do it, but only past the room under the figure – about 2% of what the late-2032 fund pays, even if cash waiting earns nothing.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.9": {
+  "text": "Her flexibility is a limit, so running dry breaks nothing promised.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.10": {
+  "text": "Its weak spot is a share slump before the meetings followed by a cost jump.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.11": {
+  "text": "At the assumed return, her flexibility plus what the fund pays above the top would cover a rise of about 25% in the US-dollar cost of her share of the building, though the worst two-year spans since 1991 rose further.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.12": {
+  "text": "The case's fifth area, inflation, changes what the fixed payments buy, not whether they arrive.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P106.13": {
+  "text": "The IPS's two reasons to change course, a missed deposit and a Treasury default, are exits for when the plan can't go on, not ways a promise fails.",
+  "source": "round10:S2",
+  "part": "passage"
+ },
+ "P107.1": {
+  "text": "We'd recommend about $115,000 for the building, sized on the market of 6 November 2026, the day trading froze.",
+  "source": "round10:S4",
+  "part": "passage"
+ },
+ "P107.2": {
+  "text": "A single Treasury fund maturing in late 2032 pays it: Laura buys it in January 2028 with part of her second deposit, and again in January 2031 with half her shares, before any co-sponsor hears a figure.",
+  "source": "round10:S4",
+  "part": "passage"
+ },
+ "P107.3": {
+  "text": "What makes it meaningful is whose money it is and when it shows up – $115,000 of the $450,000 she puts in, hers before she asks anyone, and named first.",
+  "source": "round10:S4",
+  "part": "passage"
+ },
+ "P107.4": {
+  "text": "That's the test practice sets for a founder's gift, its size against her own means and its coming first rather than its share of a campaign's goal (BoardSource; Kresge Foundation), and in the laboratory a leader's example lifted others' giving only when they could see what the leader had (Levati et al., 2007).",
+  "source": "round10:S4",
+  "part": "passage"
+ },
+ "P107.5": {
+  "text": "It's responsible because she promises nothing she doesn't own yet: the ten payments never rest on it, and falling shares before the move lower what she's able to state, never what she's stated.",
+  "source": "round10:S4",
+  "part": "passage"
+ },
+ "P107.6": {
+  "text": "The other half of the shares, about $21,200 on those rates, is her flexibility, for overrunning building costs, a stronger Taiwan dollar or a co-sponsor falling short.",
+  "source": "round10:S4",
+  "part": "passage"
+ },
+ "P107.7": {
+  "text": "Ink only goes one way – she can always state more later, never take a stated figure back – so her figure is rounded down, whatever the fund pays above it joins her flexibility, and half the shares stay pencil on purpose.",
+  "source": "round10:S4",
+  "part": "passage"
+ },
+ "P107.8": {
+  "text": "Co-sponsors work the same way: funders cap their grants and owners pay the overruns, as in Taiwan's own programme for venues.",
+  "source": "round10:S4",
+  "part": "passage"
+ },
+ "P108.1": {
+  "text": "The ten payments fail only if one is short, or late, on its 1 January.",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P108.2": {
+  "text": "A US default could do that.",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P108.3": {
+  "text": "So could a 2028 deposit that never comes, or comes far smaller (Section 2).",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P108.4": {
+  "text": "That deposit is built from advances, speaking fees and licences paid on contract dates, and those are what a downturn delays first.",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P108.5": {
+  "text": "No fall in share prices can.",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P108.6": {
+  "text": "A figure Laura has stated to co-sponsors fails if the Treasuries behind it pay less, or late – and then what breaks is her word.",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P108.7": {
+  "text": "The same default could do it.",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P108.8": {
+  "text": "So could fund costs beyond the fees, but only past about 2% of what the late-2032 fund behind the top pays out.",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P108.9": {
+  "text": "Her flexibility is a limit, not a promise, so running it dry breaks nothing.",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P108.10": {
+  "text": "If shares earn the return assumed, it and whatever the fund pays above the top would cover a rise of about 25% in the US-dollar cost of what her contribution builds; the worst two-year spans since 1991 rose by more.",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P108.11": {
+  "text": "Of the case's five areas, two need a line here: the return assumed for shares barely moves the top she states, and inflation decides what the payments buy, never whether they're paid.",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P108.12": {
+  "text": "The IPS's two reasons to change the plan are a separate list: exits for when it can't be carried out, not ways a promise fails.",
+  "source": "round10:T1",
+  "part": "passage"
+ },
+ "P109.1": {
+  "text": "Some years, WInS lists no Treasuries maturing – so we purchased iShares iBonds (like IBTM for 2032) instead.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P109.2": {
+  "text": "Defined-maturity, investment-grade, liquid, cheap and transparent about yields, these behave a lot like bonds when held to their end – so we'll simply ignore price noise in the interim.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P109.3": {
+  "text": "Together, our T-Bonds and iBonds ensure each of Laura's payments rests on a dedicated instrument (not merely a forecast).",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P109.4": {
+  "text": "The catch is, their terminal payout is a net asset value, as opposed to a promise of par – but in return we gain a level of liquidity which no odd-lot bond offers.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P110.1": {
+  "text": "We recommend a facility contribution of about $115,000, on market rates of 6 November 2026 – roughly NT$3.77 million at that day's exchange rate, a size, not a promise.",
+  "source": "round10:T3",
+  "part": "passage"
+ },
+ "P110.2": {
+  "text": "One Treasury fund paying out in late 2032 carries it: Laura buys it in January 2028 with part of her second deposit, and again in January 2031 with half her shares, before she meets a single co-sponsor.",
+  "source": "round10:T3",
+  "part": "passage"
+ },
+ "P110.3": {
+  "text": "It's meaningful because it is hers and comes first: $115,000 of the $450,000 she puts in, owned before she asks anyone.",
+  "source": "round10:T3",
+  "part": "passage"
+ },
+ "P110.4": {
+  "text": "Practice judges a founder's gift by its size against her own means and its coming first, not its share of a campaign's goal (BoardSource; Kresge Foundation), and in the laboratory a leader's example lifted others' giving only when they could see the leader's means (Levati et al., 2007).",
+  "source": "round10:T3",
+  "part": "passage"
+ },
+ "P110.5": {
+  "text": "It's responsible because nothing is promised before it is owned, so a fall in shares before the move lowers what she can state, never what she has stated.",
+  "source": "round10:T3",
+  "part": "passage"
+ },
+ "P110.6": {
+  "text": "The figure is rounded down, anything the fund pays above it goes to her flexibility, and half her shares stay unpromised on purpose – she can always add later if the building needs it, but never take a stated figure back.",
+  "source": "round10:T3",
+  "part": "passage"
+ },
+ "P110.7": {
+  "text": "That half, about $21,200, is for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short.",
+  "source": "round10:T3",
+  "part": "passage"
+ },
+ "P110.8": {
+  "text": "Funders expect that: they cap their grants and leave overruns to the owner, as Taiwan's programme for venues does.",
+  "source": "round10:T3",
+  "part": "passage"
+ },
+ "P111.1": {
+  "text": "We recommend a facility contribution of about $115,000, on market rates of 6 November 2026, the day trading froze.",
+  "source": "round10:S3",
+  "part": "passage"
+ },
+ "P111.2": {
+  "text": "One Treasury fund maturing in late 2032 pays it.",
+  "source": "round10:S3",
+  "part": "passage"
+ },
+ "P111.3": {
+  "text": "Laura buys it in January 2028 with part of the 2028 deposit, then buys more of it in January 2031 with half her shares, before she meets a single co-sponsor.",
+  "source": "round10:S3",
+  "part": "passage"
+ },
+ "P111.4": {
+  "text": "It's meaningful because it's $115,000 of the $450,000 she puts in, owned before she asks anyone and announced first.",
+  "source": "round10:S3",
+  "part": "passage"
+ },
+ "P111.5": {
+  "text": "Practice judges a founder's gift exactly that way, by its size against her own means and its coming first, not its share of a campaign's goal (BoardSource; Kresge Foundation), and in a laboratory a leader's example raised others' giving only when they could see the leader's means (Levati et al., 2007).",
+  "source": "round10:S3",
+  "part": "passage"
+ },
+ "P111.6": {
+  "text": "It's responsible because nothing is promised before it's owned: the ten payments never lean on it, and falling shares before the move lower what she can state, never what she has stated.",
+  "source": "round10:S3",
+  "part": "passage"
+ },
+ "P111.7": {
+  "text": "Her flexibility is the other half of the shares, about $21,200 on those rates, kept for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short.",
+  "source": "round10:S3",
+  "part": "passage"
+ },
+ "P111.8": {
+  "text": "She can always state more later but never take a stated figure back, so her figure is rounded down, whatever the fund pays above it joins her flexibility, and that half stays unpromised.",
+  "source": "round10:S3",
+  "part": "passage"
+ },
+ "P111.9": {
+  "text": "Co-sponsors' own practice points the same way: funders cap their grants and owners pay the overruns, as in Taiwan's own programme for venues.",
+  "source": "round10:S3",
+  "part": "passage"
+ },
+ "P201.1": {
+  "text": "My ten payments for the running costs, $50,000 every January from 2033 to 2042, are already in place, each from a US Treasury that pays out just before it's due.",
+  "source": "round9:Q4",
+  "part": "passage"
+ },
+ "P201.2": {
+  "text": "I bought them in January 2027 and topped them up in January 2028, so I'm not asking anyone for those.",
+  "source": "round9:Q4",
+  "part": "passage"
+ },
+ "P201.3": {
+  "text": "I will give $115,000 towards the building, paid in December 2032, before building starts in 2033.",
+  "source": "round9:Q4",
+  "part": "passage"
+ },
+ "P201.4": {
+  "text": "$95,000 of it has been held for me in Treasuries since January 2028, and the rest since January 2031.",
+  "source": "round9:Q4",
+  "part": "passage"
+ },
+ "P201.5": {
+  "text": "It's fixed in US dollars, so it won't rise if the building costs more.",
+  "source": "round9:Q4",
+  "part": "passage"
+ },
+ "P201.6": {
+  "text": "I'm asking for a pledge towards the building total in the residency's budget.",
+  "source": "round9:Q4",
+  "part": "passage"
+ },
+ "P201.7": {
+  "text": "If the pledges haven't reached it by December 2032, none of the co-sponsors has to pay, though mine still comes first.",
+  "source": "round9:Q4",
+  "part": "passage"
+ },
+ "P201.8": {
+  "text": "I'd also ask for yearly money for the programme from 2033, one year at a time.",
+  "source": "round9:Q4",
+  "part": "passage"
+ },
+ "P201.9": {
+  "text": "It all goes to the residency, its own organisation in Taiwan.",
+  "source": "round9:Q4",
+  "part": "passage"
+ },
+ "P201.10": {
+  "text": "I won't ask you to match my figure, and nothing else of mine is on offer.",
+  "source": "round9:Q4",
+  "part": "passage"
+ },
+ "P201.11": {
+  "text": "My broker can send you a statement.",
+  "source": "round9:Q4",
+  "part": "passage"
+ },
+ "P202.1": {
+  "text": "Thank you for seeing me.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P202.2": {
+  "text": "My part of the residency’s running costs, $50,000 every January from 2033 to 2042, is already paid for.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P202.3": {
+  "text": "Each payment comes from a US Treasury held for me, and I’m not asking anyone for them.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P202.4": {
+  "text": "I will give $115,000 towards the building in December 2032, before building starts in 2033.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P202.5": {
+  "text": "$95,000 of it has been held for me in Treasuries since January 2028, and the rest since January 2031.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P202.6": {
+  "text": "It’s in US dollars, so it won’t go up if the building costs more.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P202.7": {
+  "text": "I’m asking for two things.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P202.8": {
+  "text": "The first is money for the building, pledged towards the total in the residency’s budget, and if those pledges aren’t all made by December 2032, none of the co-sponsors has to pay.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P202.9": {
+  "text": "My own $115,000 comes first either way.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P202.10": {
+  "text": "The second is yearly money for the programme from 2033, one year at a time.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P202.11": {
+  "text": "It all goes to the residency, which owns the site in Taiwan.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P202.12": {
+  "text": "I’m not asking you to match my figure, and the firm that holds my Treasuries can send you a statement.",
+  "source": "round9:R4",
+  "part": "passage"
+ },
+ "P203.1": {
+  "text": "My ten payments towards the residency's running costs are already bought: $50,000 every January from 2033 to 2042, each paid by a US Treasury held for me that pays out just before that January.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.2": {
+  "text": "I bought them in January 2027 and topped them up in January 2028.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.3": {
+  "text": "They are guaranteed, and I'm not asking anyone for them.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.4": {
+  "text": "I will give $115,000 towards the building, paid in December 2032, before building starts in 2033.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.5": {
+  "text": "Of that, $95,000 has been held for me in Treasuries since January 2028, and the rest since January 2031, when I moved shares into Treasuries.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.6": {
+  "text": "My contribution is fixed in US dollars, so it will not rise if the building costs more.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.7": {
+  "text": "I am asking for two things.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.8": {
+  "text": "The first is money for the building, pledged towards the one total the residency has set in its budget.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.9": {
+  "text": "If pledges don't reach that total by December 2032, none of the co-sponsors has to pay.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.10": {
+  "text": "My own $115,000 comes first and does not depend on anyone else.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.11": {
+  "text": "The second is yearly money for the residency's programme from 2033, one year at a time, which is how Taiwan's funders give.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.12": {
+  "text": "Everything goes to the residency itself, its own organisation in Taiwan, which owns the site and runs the building.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.13": {
+  "text": "I will not ask anyone to match my figure, and neither my ten payments nor the rest of my money is part of this offer.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P203.14": {
+  "text": "I'm happy to have the firm that holds my Treasuries send you a statement.",
+  "source": "round9:Q3",
+  "part": "passage"
+ },
+ "P204.1": {
+  "text": "Laura’s ten payments fail only if one is short, or late, on its 1 January.",
+  "source": "round9:R1",
+  "part": "passage"
+ },
+ "P204.2": {
+  "text": "A US default could do that.",
+  "source": "round9:R1",
+  "part": "passage"
+ },
+ "P204.3": {
+  "text": "So could a 2028 deposit that never comes, or comes far smaller (Section 2), or fund costs beyond the fee outgrowing the small margin we held back.",
+  "source": "round9:R1",
+  "part": "passage"
+ },
+ "P204.4": {
+  "text": "No fall in share prices can.",
+  "source": "round9:R1",
+  "part": "passage"
+ },
+ "P204.5": {
+  "text": "A figure she has stated fails if the Treasuries behind it pay less, or late – in other words, what breaks is her word to co-sponsors.",
+  "source": "round9:R1",
+  "part": "passage"
+ },
+ "P204.6": {
+  "text": "Short of a default, that would take fund costs beyond the fees passing about 2% of what the two Treasury funds behind the top pay; the margin is only part of that room, and rounding down made the rest.",
+  "source": "round9:R1",
+  "part": "passage"
+ },
+ "P204.7": {
+  "text": "Falling shares before the move only lower what she can state.",
+  "source": "round9:R1",
+  "part": "passage"
+ },
+ "P204.8": {
+  "text": "Nobody is promised her flexibility, so if it runs out, nothing breaks – it’s a limit.",
+  "source": "round9:R1",
+  "part": "passage"
+ },
+ "P204.9": {
+  "text": "On today’s rates, and counting whatever the funds pay above the top, it covers about a 25% rise in the US-dollar cost of the part of the building she pays for, though the worst two-year spans since 1991 rose by more.",
+  "source": "round9:R1",
+  "part": "passage"
+ },
+ "P204.10": {
+  "text": "The case’s five areas fold into these: our assumed return barely moves the top, timing is the 2028 deposit, no outside money sits under the payments, and inflation changes what they buy, not whether they’re paid.",
+  "source": "round9:R1",
+  "part": "passage"
+ },
+ "P204.11": {
+  "text": "The IPS’s two reasons to change the plan – a missed deposit, a Treasury default – are a separate list: exits for when it can’t be carried out.",
+  "source": "round9:R1",
+  "part": "passage"
+ },
+ "P205.1": {
+  "text": "We know Treasury bonds (including this one – maturing 2037) won't create wealth, but they will remove uncertainty, through duration-matching.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P205.2": {
+  "text": "In other words, we take Laura's requested 'high degree of certainty' to mean a near-ironclad guarantee, and we provide exactly that.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P205.3": {
+  "text": "Every year the bonds sit untouched is a good year – one less year of Laura's money being exposed to anything the restless markets might decide to do.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P205.4": {
+  "text": "Notably – Laura's payments are fixed in nominal dollars, so a nominal Treasury matches the liability perfectly, meaning we don't need TIPS, which would hedge against a nonexistent inflation risk.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P206.1": {
+  "text": "Laura's ten payments fail only if one comes up short, or late, on its 1 January.",
+  "source": "round9:Q2",
+  "part": "passage"
+ },
+ "P206.2": {
+  "text": "Rub out every pencil line – put her shares at zero – and the page still reads: all ten payments made, and the range down to one figure, the bottom, since both stand on Treasuries she already owns.",
+  "source": "round9:Q2",
+  "part": "passage"
+ },
+ "P206.3": {
+  "text": "What could hurt them is a US default, a missing or far smaller 2028 deposit (Section 2), because a downturn delays a writer's income first, or fund costs beyond the fee outrunning our margin while waiting cash earns too little.",
+  "source": "round9:Q2",
+  "part": "passage"
+ },
+ "P206.4": {
+  "text": "A figure she has stated fails if its Treasuries pay less, or later, and her word to co-sponsors with it.",
+  "source": "round9:Q2",
+  "part": "passage"
+ },
+ "P206.5": {
+  "text": "Leaving a default aside, costs beyond the funds' fees would need to pass about 2% of what the two Treasury funds behind the top pay, even with waiting cash earning nothing.",
+  "source": "round9:Q2",
+  "part": "passage"
+ },
+ "P206.6": {
+  "text": "A missed deposit means she states nothing at all.",
+  "source": "round9:Q2",
+  "part": "passage"
+ },
+ "P206.7": {
+  "text": "Her flexibility is a limit rather than a promise, so using it up breaks nothing.",
+  "source": "round9:Q2",
+  "part": "passage"
+ },
+ "P206.8": {
+  "text": "Along with anything the funds pay above the top, it covers about a 25% rise in the US-dollar cost of her share of the building at today's rates, and the worst two-year spans since 1991 rose further.",
+  "source": "round9:Q2",
+  "part": "passage"
+ },
+ "P206.9": {
+  "text": "On the case's five areas: the return assumed for shares hardly moves the top, timing is the 2028 deposit, outside money plays no part in the payments, and inflation sets what a payment buys, not whether it arrives.",
+  "source": "round9:Q2",
+  "part": "passage"
+ },
+ "P206.10": {
+  "text": "The IPS's two reasons to change the plan, a missed deposit and a Treasury default, are something else: exits for when it can't be carried out.",
+  "source": "round9:Q2",
+  "part": "passage"
+ },
+ "P207.1": {
+  "text": "Some years, WInS lists no Treasuries maturing – so we purchased iShares iBonds (like IBTM for 2032) instead.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P207.2": {
+  "text": "Defined-maturity, investment-grade, liquid, cheap and transparent about yields, these behave a lot like bonds when held to their end – so we'll simply ignore price noise in the interim.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P207.3": {
+  "text": "Together, our T-Bonds and iBonds ensure each of Laura's payments rests on a dedicated instrument (not merely a forecast).",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P207.4": {
+  "text": "The catch is, their terminal payout is a net asset value, as opposed to a promise of par – but in return we gain a level of liquidity which no odd-lot bond offers.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P208.1": {
+  "text": "Dear [name],",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.2": {
+  "text": "I’m opening an artists’ residency in Taiwan in 2033, and my part of its running costs is already paid for: $50,000 each January from 2033 to 2042, each from a US Treasury held for me that pays out just before that January.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.3": {
+  "text": "I bought them in January 2027 and completed them in January 2028.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.4": {
+  "text": "They’re guaranteed, and I’m not asking anyone for them.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.5": {
+  "text": "I will give $115,000 towards the building, paid in December 2032, before building starts in 2033.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.6": {
+  "text": "Of that, $95,000 has been held for me in Treasuries since January 2028, and the rest since January 2031, when my shares moved into Treasuries.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.7": {
+  "text": "It’s fixed in US dollars, so it won’t rise if the building costs more.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.8": {
+  "text": "I’m asking for two things.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.9": {
+  "text": "The first is money for the building, pledged towards the one total the residency has set in its budget.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.10": {
+  "text": "If pledges towards that total aren’t all made by December 2032, none of the co-sponsors has to pay; my own $115,000 comes first and doesn’t depend on anyone else.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.11": {
+  "text": "The second is yearly money for the residency’s programme from 2033, one year at a time, which is how Taiwan’s funders give.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.12": {
+  "text": "Both go to the residency, its own organisation in Taiwan, which owns the site and runs the building.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.13": {
+  "text": "I’m not asking anyone to match my figure, and neither the running-cost payments nor the rest of my money is part of the offer.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.14": {
+  "text": "The firm that holds my Treasuries will send a statement on request.",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P208.15": {
+  "text": "Warm regards, Laura",
+  "source": "round9:R3",
+  "part": "passage"
+ },
+ "P209.1": {
+  "text": "One of Laura’s payments fails if it arrives short, or late, on its 1 January.",
+  "source": "round9:R2",
+  "part": "passage"
+ },
+ "P209.2": {
+  "text": "Three things could do that: a US default, a 2028 deposit that doesn’t come or comes much smaller (Section 2), and fund costs beyond the fee eating through the small margin we kept back.",
+  "source": "round9:R2",
+  "part": "passage"
+ },
+ "P209.3": {
+  "text": "A stated figure fails if the Treasuries behind it pay less or late, and then what breaks is her word.",
+  "source": "round9:R2",
+  "part": "passage"
+ },
+ "P209.4": {
+  "text": "Besides a default, those extra costs would have to pass about 2% of what the two Treasury funds behind the top pay, because rounding down left room beyond the margin.",
+  "source": "round9:R2",
+  "part": "passage"
+ },
+ "P209.5": {
+  "text": "Erase every pencil line – put the shares at zero before the meetings – and the page still reads: all ten payments made, the range down to one figure, the bottom, because no promise rests on a share price.",
+  "source": "round9:R2",
+  "part": "passage"
+ },
+ "P209.6": {
+  "text": "Her flexibility is a limit: no one is promised it, so running out breaks nothing.",
+  "source": "round9:R2",
+  "part": "passage"
+ },
+ "P209.7": {
+  "text": "On today’s rates, counting anything the funds pay above the top, it covers about a 25% rise in the US-dollar cost of the part of the building she pays for, and the worst two-year spans since 1991 rose further.",
+  "source": "round9:R2",
+  "part": "passage"
+ },
+ "P209.8": {
+  "text": "Of the case’s five areas, the return we assumed for shares hardly moves the top, timing is the 2028 deposit, no outside money stands under the payments, and inflation changes what they buy, never whether they’re paid.",
+  "source": "round9:R2",
+  "part": "passage"
+ },
+ "P209.9": {
+  "text": "The IPS’s two reasons to change the plan, a missed deposit or a Treasury default, are a separate list: exits for when the plan can’t be carried out.",
+  "source": "round9:R2",
+  "part": "passage"
+ },
+ "P210.1": {
+  "text": "VT is where we allow ourselves to be wrong – because it's the only investment not standing between Laura and a payment deadline.",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "P210.2": {
+  "text": "This ETF owns thousands of companies, diversified across countries and sectors, which means we can avoid paying the price for the vain illusion that we can pick winners, instead buying the entire market's growth premium at an expense ratio of just 0.06%, for a forecast return of about 7.5% a year (as per JPMorgan).",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "P210.3": {
+  "text": "The T-Bonds and iBonds already cover the operating commitments, so VT answers a different question – how generous can the facility contribution be?",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "P211.1": {
+  "text": "The ten payments fail only if one is short, or late, on its 1 January.",
+  "source": "round9:Q1",
+  "part": "passage"
+ },
+ "P211.2": {
+  "text": "No fall in shares, however steep, can do that.",
+  "source": "round9:Q1",
+  "part": "passage"
+ },
+ "P211.3": {
+  "text": "A US default could, and so could a 2028 deposit that never comes or comes far smaller (Section 2), since a downturn delays a writer's income first, or fund costs beyond the fee outgrowing our margin while waiting cash earns too little.",
+  "source": "round9:Q1",
+  "part": "passage"
+ },
+ "P211.4": {
+  "text": "A figure Laura has stated fails if its Treasuries pay less, or late – in other words, it's her word to co-sponsors that breaks.",
+  "source": "round9:Q1",
+  "part": "passage"
+ },
+ "P211.5": {
+  "text": "Short of a default, the funds' other costs would have to pass about 2% of what the two Treasury funds behind the top pay, even if waiting cash earns nothing.",
+  "source": "round9:Q1",
+  "part": "passage"
+ },
+ "P211.6": {
+  "text": "A missed deposit just means nothing is stated, and falling shares shrink what she can state, never what she has.",
+  "source": "round9:Q1",
+  "part": "passage"
+ },
+ "P211.7": {
+  "text": "Her flexibility is a limit, not a promise.",
+  "source": "round9:Q1",
+  "part": "passage"
+ },
+ "P211.8": {
+  "text": "With anything the funds pay above the top, it covers about a 25% rise in the US-dollar cost of her share of the building at today's rates.",
+  "source": "round9:Q1",
+  "part": "passage"
+ },
+ "P211.9": {
+  "text": "The worst two-year spans since 1991 rose by more, and if it runs out, nothing promised breaks.",
+  "source": "round9:Q1",
+  "part": "passage"
+ },
+ "P211.10": {
+  "text": "Of the case's five areas, the return we assume for shares barely moves the top, timing is the 2028 deposit, outside money never touches the payments, and inflation changes what they buy, not whether they're paid.",
+  "source": "round9:Q1",
+  "part": "passage"
+ },
+ "P211.11": {
+  "text": "The IPS's two reasons to change the plan, a missed deposit and a Treasury default, are a separate list: exits for when it can't be carried out.",
+  "source": "round9:Q1",
+  "part": "passage"
+ },
+ "P301.1": {
+  "text": "Some years, WInS lists no Treasuries maturing – so we purchased iShares iBonds (like IBTM for 2032) instead.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P301.2": {
+  "text": "Defined-maturity, investment-grade, liquid, cheap and transparent about yields, these behave a lot like bonds when held to their end – so we'll simply ignore price noise in the interim.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P301.3": {
+  "text": "Together, our T-Bonds and iBonds ensure each of Laura's payments rests on a dedicated instrument (not merely a forecast).",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P301.4": {
+  "text": "The catch is, their terminal payout is a net asset value, as opposed to a promise of par – but in return we gain a level of liquidity which no odd-lot bond offers.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P302.1": {
+  "text": "Can I start with what's already done?",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P302.2": {
+  "text": "The residency's running costs – $50,000 every January, 2033 to 2042 – are paid for, each one by a US Treasury held for me that matures just before its January.",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P302.3": {
+  "text": "Bought in 2027, finished in 2028: I'm not asking anyone for that.",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P302.4": {
+  "text": "For the building, I'm giving $115,000, paid in December 2032.",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P302.5": {
+  "text": "$95,000 of it has been in Treasuries for me since 2028, the rest since my shares moved over in January.",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P302.6": {
+  "text": "It's in US dollars, so it won't rise with building costs.",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P302.7": {
+  "text": "My ask is two things.",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P302.8": {
+  "text": "Capital for the facility, conditional on the residency's budgeted total being reached by one close date, so every pledge releases together – mine goes in first, unconditionally.",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P302.9": {
+  "text": "Then yearly programme money from 2033, a year at a time.",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P302.10": {
+  "text": "It all goes to the residency, which owns the site and runs the building.",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P302.11": {
+  "text": "I won't ask you to match me, and the ten payments and the rest of my money aren't on the table.",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P302.12": {
+  "text": "The custodian can send you a statement.",
+  "source": "round8:O2",
+  "part": "passage"
+ },
+ "P303.1": {
+  "text": "Laura's case asks two things that pull against each other: she is \"willing to take thoughtful risks\", and her ten payments must be met \"with a high degree of certainty\".",
+  "source": "round8:P4",
+  "part": "passage"
+ },
+ "P303.2": {
+  "text": "On 27 September we answered the first, with a plan built mostly on shares, the usual answer to six years of waiting.",
+  "source": "round8:P4",
+  "part": "passage"
+ },
+ "P303.3": {
+  "text": "Then we thought about how a writer is paid.",
+  "source": "round8:P4",
+  "part": "passage"
+ },
+ "P303.4": {
+  "text": "Our notes that day call her income lumpy, and the lumps arrive later and smaller in the same recessions that pull shares down, so a plan built on shares would have put her savings on the same side as her work.",
+  "source": "round8:P4",
+  "part": "passage"
+ },
+ "P303.5": {
+  "text": "We dropped it before a single trade.",
+  "source": "round8:P4",
+  "part": "passage"
+ },
+ "P303.6": {
+  "text": "The first plan's payments were in pencil – no Treasury it owned would pay them, so its danger was never a crash but one date, 1 January 2033, when all ten would have been bought with whatever the shares had become.",
+  "source": "round8:P4",
+  "part": "passage"
+ },
+ "P303.7": {
+  "text": "The model we ran that day priced the change and nothing more.",
+  "source": "round8:P4",
+  "part": "passage"
+ },
+ "P303.8": {
+  "text": "The first plan missed at least one payment in about 1 in 31 runs; the Treasury plan misses none once the 2028 deposit's first dollars arrive.",
+  "source": "round8:P4",
+  "part": "passage"
+ },
+ "P303.9": {
+  "text": "Most people would have called 30 in 31 \"high\" certainty, and for most clients it would be.",
+  "source": "round8:P4",
+  "part": "passage"
+ },
+ "P303.10": {
+  "text": "We didn't keep it, because of how Laura is paid.",
+  "source": "round8:P4",
+  "part": "passage"
+ },
+ "P304.1": {
+  "text": "The case pulls Laura two ways.",
+  "source": "round8:O4",
+  "part": "passage"
+ },
+ "P304.2": {
+  "text": "She is \"willing to take thoughtful risks\", and her ten payments must be met \"with a high degree of certainty\".",
+  "source": "round8:O4",
+  "part": "passage"
+ },
+ "P304.3": {
+  "text": "On 27 September our first plan leaned on the first phrase – about three-quarters shares, with six years for them to grow.",
+  "source": "round8:O4",
+  "part": "passage"
+ },
+ "P304.4": {
+  "text": "We dropped it before a single trade, because of what a writer's income does in a bad year.",
+  "source": "round8:O4",
+  "part": "passage"
+ },
+ "P304.5": {
+  "text": "Our notes that day already called it \"lumpy\": advances, fees and licences arrive later and smaller in the same recessions that pull shares down, so a portfolio built on shares would have fallen with her career instead of balancing it.",
+  "source": "round8:O4",
+  "part": "passage"
+ },
+ "P304.6": {
+  "text": "Our first model just priced the change.",
+  "source": "round8:O4",
+  "part": "passage"
+ },
+ "P304.7": {
+  "text": "That plan's payments were in pencil, because it held no Treasury that would pay them – all ten would have been bought on 1 January 2033 with whatever the shares had become, so the danger was not a crash but share prices in the wrong place on that one date.",
+  "source": "round8:O4",
+  "part": "passage"
+ },
+ "P304.8": {
+  "text": "The first plan missed at least one payment in about 1 in 31 runs, while the Treasury plan misses none once the 2028 deposit's first dollars arrive.",
+  "source": "round8:O4",
+  "part": "passage"
+ },
+ "P304.9": {
+  "text": "Most people would have called 30 in 31 \"high\" certainty, and we still didn't keep it, because of how Laura is paid.",
+  "source": "round8:O4",
+  "part": "passage"
+ },
+ "P305.1": {
+  "text": "I'm opening a residency for artists, writers and designers in Taiwan in 2033, and before I ask for anything, here is where it stands.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.2": {
+  "text": "Its running costs, $50,000 every January from 2033 to 2042, are already paid for.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.3": {
+  "text": "Each payment comes from a US Treasury held for me that matures just before its January, bought in January 2027 and completed in January 2028.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.4": {
+  "text": "I'm not asking anyone for this money.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.5": {
+  "text": "I will give $115,000 to build the residency's facility, paid in December 2032, before the building's first draw in 2033.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.6": {
+  "text": "$95,000 of it has been held for me in Treasuries since January 2028, and the rest since my shares moved into Treasuries in January 2031.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.7": {
+  "text": "It is fixed in US dollars and won't rise if the building costs more.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.8": {
+  "text": "I'm asking for two things.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.9": {
+  "text": "First, capital for the facility, pledged on one condition: that the total set in the residency's budget is reached by a single close date, no later than December 2032, so every conditional pledge releases together.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.10": {
+  "text": "Mine comes first and carries no condition.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.11": {
+  "text": "Second, yearly programme money from 2033, one year at a time, the way Taiwan's funders give.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.12": {
+  "text": "Both go to the residency itself, its own body in Taiwan, which owns the site and runs the building.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.13": {
+  "text": "I won't ask you to match my figure, and neither the ten payments nor the rest of my money is part of this offer.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.14": {
+  "text": "The custodian holding the Treasuries can send you a statement on request.",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P305.15": {
+  "text": "Laura",
+  "source": "round8:O1",
+  "part": "passage"
+ },
+ "P306.1": {
+  "text": "I'm opening an artists' residency in Taiwan in 2033.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.2": {
+  "text": "Before I ask for anything, here is where my own money stands.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.3": {
+  "text": "Its running costs are already paid for: $50,000 each January from 2033 to 2042, each covered by a US Treasury held for me that matures just before its January.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.4": {
+  "text": "I bought them in January 2027 and completed the set in January 2028.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.5": {
+  "text": "They're guaranteed, and I'm not asking anyone for them.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.6": {
+  "text": "I will give $115,000 to the residency's building, paid in December 2032, before construction needs its first payment in 2033.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.7": {
+  "text": "Of that, $95,000 has been held for me in Treasuries since January 2028, and the rest since my shares moved into Treasuries in January 2031.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.8": {
+  "text": "It is fixed in US dollars and won't rise if the building costs more.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.9": {
+  "text": "I'm asking for two things.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.10": {
+  "text": "First, capital for the building, pledged on one condition: that the total in the residency's budget is reached by a single closing date.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.11": {
+  "text": "Every pledge closes on that date, no later than December 2032, so they all release together.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.12": {
+  "text": "My figure comes first, with no condition.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.13": {
+  "text": "Second, programme money from 2033, one year at a time.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.14": {
+  "text": "Everything goes to the residency, its own organisation in Taiwan, which owns the site and runs the building.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.15": {
+  "text": "The ten running payments aren't on the table, I won't ask anyone to match my figure, and the rest of my money isn't part of the offer.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.16": {
+  "text": "The firm holding my Treasuries can send your board a statement.",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P306.17": {
+  "text": "Laura",
+  "source": "round8:P1",
+  "part": "passage"
+ },
+ "P307.1": {
+  "text": "First, what I'm not asking for.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.2": {
+  "text": "The running costs – fifty thousand dollars every January, 2033 to 2042 – are already paid, each by a US Treasury held for me that matures just before it.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.3": {
+  "text": "Bought in 2027, finished in 2028.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.4": {
+  "text": "For the building, I'm giving a hundred and fifteen thousand dollars, paid in December 2032, before the builders need a cent.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.5": {
+  "text": "Ninety-five thousand has been in Treasuries since 2028, the rest since my shares moved over in January.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.6": {
+  "text": "It's in US dollars; if the building costs more, it doesn't move.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.7": {
+  "text": "Then two asks.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.8": {
+  "text": "Building capital, pledged on condition we reach the residency's budgeted total by one closing date – December 2032 at the latest – so every pledge releases together.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.9": {
+  "text": "Mine has no condition.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.10": {
+  "text": "And yearly programme money from 2033.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.11": {
+  "text": "It all goes to the residency, which owns the site.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.12": {
+  "text": "I won't ask anyone to match me, and the rest of my money isn't part of this.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P307.13": {
+  "text": "The firm holding my Treasuries will send your board a statement.",
+  "source": "round8:P2",
+  "part": "passage"
+ },
+ "P308.1": {
+  "text": "VT is where we allow ourselves to be wrong – because it's the only investment not standing between Laura and a payment deadline.",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "P308.2": {
+  "text": "This ETF owns thousands of companies, diversified across countries and sectors, which means we can avoid paying the price for the vain illusion that we can pick winners, instead buying the entire market's growth premium at an expense ratio of just 0.06%, for a forecast return of about 7.5% a year (as per JPMorgan).",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "P308.3": {
+  "text": "The T-Bonds and iBonds already cover the operating commitments, so VT answers a different question – how generous can the facility contribution be?",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "P309.1": {
+  "text": "We know Treasury bonds (including this one – maturing 2037) won't create wealth, but they will remove uncertainty, through duration-matching.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P309.2": {
+  "text": "In other words, we take Laura's requested 'high degree of certainty' to mean a near-ironclad guarantee, and we provide exactly that.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P309.3": {
+  "text": "Every year the bonds sit untouched is a good year – one less year of Laura's money being exposed to anything the restless markets might decide to do.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P309.4": {
+  "text": "Notably – Laura's payments are fixed in nominal dollars, so a nominal Treasury matches the liability perfectly, meaning we don't need TIPS, which would hedge against a nonexistent inflation risk.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P401.1": {
+  "text": "The big capital funders a building campaign needs most, public arts programmes and large foundations, write their rules so that they pay last, once every other dollar is confirmed.",
+  "source": "aha8:L",
+  "part": "passage"
+ },
+ "P401.2": {
+  "text": "Two funders that each insist on paying last can wait for each other indefinitely.",
+  "source": "aha8:L",
+  "part": "passage"
+ },
+ "P401.3": {
+  "text": "Field experiments say a lumpy project, one that is worth nothing until fully paid for, gets built far more often when someone goes first: seed money announced at two-thirds of the goal, against one-tenth, raised what others gave nearly sixfold (List and Lucking-Reiley, 2002).",
+  "source": "aha8:L",
+  "part": "passage"
+ },
+ "P401.4": {
+  "text": "So someone has to go first without conditions, and for most givers that is the over-promise the case warns about, a pledge from money not yet in hand.",
+  "source": "aha8:L",
+  "part": "passage"
+ },
+ "P401.5": {
+  "text": "Laura can go first without that risk, because by the 2031 meetings her $115,000 is already held for her in Treasuries that pay out in December 2032.",
+  "source": "aha8:L",
+  "part": "passage"
+ },
+ "P401.6": {
+  "text": "Her condition then lets every other pledge stay conditional without anyone waiting on anyone: if pledges to the building's total are not all made by December 2032, no co-sponsor has to pay.",
+  "source": "aha8:L",
+  "part": "passage"
+ },
+ "P402.1": {
+  "text": "Accountants book a likely loss as soon as it is likely, but a gain only once it is realised: 'Probability is not a factor in the recognition of gain contingencies' (KPMG's handbook on the US standard), and lenders, whose claims are capped, are the reason the rule exists (Watts, 2003).",
+  "source": "aha8:E",
+  "part": "passage"
+ },
+ "P402.2": {
+  "text": "Old bookkeeping manuals kept a matching habit: entries in ink, running totals in pencil until the account was closed, then 'write the footings in black ink'.",
+  "source": "aha8:E",
+  "part": "passage"
+ },
+ "P402.3": {
+  "text": "Laura's plan keeps the same books looking forward, in three places.",
+  "source": "aha8:E",
+  "part": "passage"
+ },
+ "P402.4": {
+  "text": "A likely cost is taken out before any figure is stated: a 0.5% margin for fund costs beyond their fee (the bond funds of this kind that have already ended cost about 0.27%).",
+  "source": "aha8:E",
+  "part": "passage"
+ },
+ "P402.5": {
+  "text": "A likely gain is counted as nothing: every payment is sized to be paid even if waiting cash earns no interest.",
+  "source": "aha8:E",
+  "part": "passage"
+ },
+ "P402.6": {
+  "text": "And the likeliest gain of all, her shares' growth, counts for nothing until January 2031, when half of them buy Treasuries before the meetings: a top stated even one month before that move would be more than the move buys in about 3 futures in 100.",
+  "source": "aha8:E",
+  "part": "passage"
+ },
+ "P403.1": {
+  "text": "Some years, WInS lists no Treasuries maturing – so we purchased iShares iBonds (like IBTM for 2032) instead.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P403.2": {
+  "text": "Defined-maturity, investment-grade, liquid, cheap and transparent about yields, these behave a lot like bonds when held to their end – so we'll simply ignore price noise in the interim.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P403.3": {
+  "text": "Together, our T-Bonds and iBonds ensure each of Laura's payments rests on a dedicated instrument (not merely a forecast).",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P403.4": {
+  "text": "The catch is, their terminal payout is a net asset value, as opposed to a promise of par – but in return we gain a level of liquidity which no odd-lot bond offers.",
+  "source": "control:C2",
+  "part": "passage"
+ },
+ "P404.1": {
+  "text": "Laura's ten payments are paid by ten Treasury holdings, one ending before each January, and the interest those holdings pay before 2033 has to wait, unspent, for years.",
+  "source": "aha8:G",
+  "part": "passage"
+ },
+ "P404.2": {
+  "text": "The plan sizes the ten so that every payment is made even if all that waiting money earns nothing, and in January 2028 it buys about $36,800 of extra Treasuries for that alone; without them, the ten as bought in January 2027 would be about $54,600 short on that test.",
+  "source": "aha8:G",
+  "part": "passage"
+ },
+ "P404.3": {
+  "text": "It looks like an amateur's caution.",
+  "source": "aha8:G",
+  "part": "passage"
+ },
+ "P404.4": {
+  "text": "It is the oldest test in the trade: Martin Leibowitz described a dedicated bond portfolio in 1986 as 'totally passive management' with 'no reinvestment'.",
+  "source": "aha8:G",
+  "part": "passage"
+ },
+ "P404.5": {
+  "text": "The trade's usual ways of passing it are closed to Laura.",
+  "source": "aha8:G",
+  "part": "passage"
+ },
+ "P404.6": {
+  "text": "Zero-coupon Treasuries, which pay nothing until their end, are banned in this competition.",
+  "source": "aha8:G",
+  "part": "passage"
+ },
+ "P404.7": {
+  "text": "Immunisation, the other classic method, needs trading whenever rates move, and the plan's policy allows no trade for a market move.",
+  "source": "aha8:G",
+  "part": "passage"
+ },
+ "P404.8": {
+  "text": "With zeros banned and trading ruled out, buying extra ordinary Treasuries is the only way left to pass the old test.",
+  "source": "aha8:G",
+  "part": "passage"
+ },
+ "P405.1": {
+  "text": "Illinois's prepaid tuition plan sold families a promise: pay now, and the state pays the child's university tuition later.",
+  "source": "aha8:K",
+  "part": "passage"
+ },
+ "P405.2": {
+  "text": "Its own disclosures named the three things the promise rested on: 'continued Contract sales within projections', 'a projected annual net return on Fund investments', and 'tuition/fee increases being within projected amounts'.",
+  "source": "aha8:K",
+  "part": "passage"
+ },
+ "P405.3": {
+  "text": "All three stayed open for as long as it kept selling contracts; in 2024 it moved most of its money into Treasuries matched to its payments.",
+  "source": "aha8:K",
+  "part": "passage"
+ },
+ "P405.4": {
+  "text": "Laura's plan carries the same three: new money is her 2028 deposit, from her career; returns are her shares; the bill is what the ten Treasuries cost before they are all bought, plus building costs.",
+  "source": "aha8:K",
+  "part": "passage"
+ },
+ "P405.5": {
+  "text": "But they land differently.",
+  "source": "aha8:K",
+  "part": "passage"
+ },
+ "P405.6": {
+  "text": "Returns never reach a promise she has made: no fall in share prices can break a payment or a figure she has stated.",
+  "source": "aha8:K",
+  "part": "passage"
+ },
+ "P405.7": {
+  "text": "New money and the price of the ten both close for good in January 2028, when the last Treasuries behind the ten are bought.",
+  "source": "aha8:K",
+  "part": "passage"
+ },
+ "P405.8": {
+  "text": "Building costs reach only the money she keeps unpromised.",
+  "source": "aha8:K",
+  "part": "passage"
+ },
+ "P405.9": {
+  "text": "What remains is what Illinois never listed: a US default, and the funds' running costs beyond the small margin held for them.",
+  "source": "aha8:K",
+  "part": "passage"
+ },
+ "P406.1": {
+  "text": "Laura keeps half her shares promised to no one, for the three uses her investment policy names: building costs that overrun, a stronger Taiwan dollar, and a co-sponsor falling short.",
+  "source": "aha8:M",
+  "part": "passage"
+ },
+ "P406.2": {
+  "text": "A reader may take this for a building's contingency fund, which the case tells teams not to size.",
+  "source": "aha8:M",
+  "part": "passage"
+ },
+ "P406.3": {
+  "text": "The cost engineers' own definition says it is something else.",
+  "source": "aha8:M",
+  "part": "passage"
+ },
+ "P406.4": {
+  "text": "AACE International's standard says a project's contingency 'usually excludes' escalation and currency effects, which are priced apart.",
+  "source": "aha8:M",
+  "part": "passage"
+ },
+ "P406.5": {
+  "text": "Taiwan's culture ministry tells a grantee whose costs rise to raise the shortfall itself, and that it 'may not ask for more'; in England's arts lottery building programme about two-thirds of overruns fell on the organisations.",
+  "source": "aha8:M",
+  "part": "passage"
+ },
+ "P406.6": {
+  "text": "So what Laura holds back is money no building budget's contingency and no grant was going to carry: the owner's share that the profession leaves outside contingency by definition, not a second contingency.",
+  "source": "aha8:M",
+  "part": "passage"
+ },
+ "P407.1": {
+  "text": "We know Treasury bonds (including this one – maturing 2037) won't create wealth, but they will remove uncertainty, through duration-matching.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P407.2": {
+  "text": "In other words, we take Laura's requested 'high degree of certainty' to mean a near-ironclad guarantee, and we provide exactly that.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P407.3": {
+  "text": "Every year the bonds sit untouched is a good year – one less year of Laura's money being exposed to anything the restless markets might decide to do.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P407.4": {
+  "text": "Notably – Laura's payments are fixed in nominal dollars, so a nominal Treasury matches the liability perfectly, meaning we don't need TIPS, which would hedge against a nonexistent inflation risk.",
+  "source": "control:C1",
+  "part": "passage"
+ },
+ "P408.1": {
+  "text": "Britain's pension regulator lets a pension scheme take more investment risk when its payments are far off, but only as far as the employer behind it, its 'sponsor', can be relied on to pay in more if things go wrong.",
+  "source": "aha8:D",
+  "part": "passage"
+ },
+ "P408.2": {
+  "text": "Its own warning example is a house builder whose scheme holds property: the sponsor and the investments share 'common drivers', so one slump hits both.",
+  "source": "aha8:D",
+  "part": "passage"
+ },
+ "P408.3": {
+  "text": "Laura's plan has a sponsor too, her own writing income, which pays the $150,000 deposit of January 2028.",
+  "source": "aha8:D",
+  "part": "passage"
+ },
+ "P408.4": {
+  "text": "The team's policy says a writer's income comes 'later and smaller' in the same recession in which shares fall: the regulator's house builder, in Laura's world.",
+  "source": "aha8:D",
+  "part": "passage"
+ },
+ "P408.5": {
+  "text": "And she has only one call on that sponsor, in January 2028, and none after it.",
+  "source": "aha8:D",
+  "part": "passage"
+ },
+ "P408.6": {
+  "text": "By the regulator's logic she should stop leaning on her sponsor as soon as its money is in, and the plan does: the first money of that deposit completes the ten Treasuries behind her payments, and from then on they need nothing more from her.",
+  "source": "aha8:D",
+  "part": "passage"
+ },
+ "P408.7": {
+  "text": "The UK code asks for less risk in such a case; the plan takes none, which is the team's own step, not the code's.",
+  "source": "aha8:D",
+  "part": "passage"
+ },
+ "P409.1": {
+  "text": "When Laura tells co-sponsors in 2031 that she will give $115,000 towards the residency's building, each of them hears something else: what is left to raise, the building's total less her figure.",
+  "source": "aha8:A",
+  "part": "passage"
+ },
+ "P409.2": {
+  "text": "That remainder is their target.",
+  "source": "aha8:A",
+  "part": "passage"
+ },
+ "P409.3": {
+  "text": "In a laboratory study of groups that had to reach a threshold together to avoid a loss (Barrett and Dannenberg, 2012), groups that knew the threshold exactly avoided the loss in 18 of 20 cases; when the threshold was uncertain, the loss came in 16 of 20, while uncertainty about the size of the loss did no such harm.",
+  "source": "aha8:A",
+  "part": "passage"
+ },
+ "P409.4": {
+  "text": "Fundraising's own counting rules already refuse to count a pledge whose conditions may fail.",
+  "source": "aha8:A",
+  "part": "passage"
+ },
+ "P409.5": {
+  "text": "So a figure Laura stated while her shares could still fall would be a target moving under every co-sponsor.",
+  "source": "aha8:A",
+  "part": "passage"
+ },
+ "P409.6": {
+  "text": "She states her range only once both ends are Treasuries she owns, and names the top as her figure, so every co-sponsor's target is exact: the residency's total less $115,000.",
+  "source": "aha8:A",
+  "part": "passage"
+ },
+ "P410.1": {
+  "text": "An investment bank that offers a company a fixed sum for its new shares in a 'bought deal' takes the shares onto its own books and carries their price risk until it resells them.",
+  "source": "aha8:H",
+  "part": "passage"
+ },
+ "P410.2": {
+  "text": "A university's gift office does the same from the other side: shares given to it count at what they fetch when sold, and many offices sell them the day they arrive.",
+  "source": "aha8:H",
+  "part": "passage"
+ },
+ "P410.3": {
+  "text": "The two rules agree: a share counts only once it has been turned into something whose value is fixed, and the one exception is whoever chooses to keep the price risk.",
+  "source": "aha8:H",
+  "part": "passage"
+ },
+ "P410.4": {
+  "text": "Laura's plan cuts her world shares along exactly that line.",
+  "source": "aha8:H",
+  "part": "passage"
+ },
+ "P410.5": {
+  "text": "In January 2031, before any co-sponsor hears a figure, half of them move into the Treasury fund that pays out in late 2032, the fund that already holds the bottom of her range.",
+  "source": "aha8:H",
+  "part": "passage"
+ },
+ "P410.6": {
+  "text": "That half is the bought deal, and the gift office's sale done before the gift.",
+  "source": "aha8:H",
+  "part": "passage"
+ },
+ "P410.7": {
+  "text": "The other half stays in shares, promised to no one: the exception both rules name, money whose owner carries the price risk, which is why it never counts in her range.",
+  "source": "aha8:H",
+  "part": "passage"
+ },
+ "P410.8": {
+  "text": "After the move a 40% fall in world shares changes neither end of the range; only that kept half falls.",
+  "source": "aha8:H",
+  "part": "passage"
+ },
+ "P411.1": {
+  "text": "On the plan's own measure (the ten payments valued on each day's Treasury rates, always the same distance ahead), $300,000 bought all ten on 10.9% of days since 2000, and on exactly one day from June 2007, the last run of such days before 2026, to August 2026: Thursday 19 October 2023.",
+  "source": "aha8:B",
+  "part": "passage"
+ },
+ "P411.2": {
+  "text": "On 4 August 2020 the same ten would have cost $470,217, more than both of Laura's deposits together.",
+  "source": "aha8:B",
+  "part": "passage"
+ },
+ "P411.3": {
+  "text": "Monday 5 October 2026, two trading days before the team's orders filled, was the cheapest day for the ten since May 2002.",
+  "source": "aha8:B",
+  "part": "passage"
+ },
+ "P411.4": {
+  "text": "Commissions came to $200, against a $37,625 swing in what the ten cost within 2026 ($325,563 on 27 February, $287,938 on 5 October).",
+  "source": "aha8:B",
+  "part": "passage"
+ },
+ "P411.5": {
+  "text": "So the case is set in a rare year, and the plan is built to need the year, not the day: whatever the ten cost in January 2027, the first part of the 2028 deposit completes them and buys the extra Treasuries, and that keeps all ten paid even if cash waiting earns nothing unless yields fall about 3.6 points before January 2027.",
+  "source": "aha8:B",
+  "part": "passage"
+ },
+ "P412.1": {
+  "text": "VT is where we allow ourselves to be wrong – because it's the only investment not standing between Laura and a payment deadline.",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "P412.2": {
+  "text": "This ETF owns thousands of companies, diversified across countries and sectors, which means we can avoid paying the price for the vain illusion that we can pick winners, instead buying the entire market's growth premium at an expense ratio of just 0.06%, for a forecast return of about 7.5% a year (as per JPMorgan).",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "P412.3": {
+  "text": "The T-Bonds and iBonds already cover the operating commitments, so VT answers a different question – how generous can the facility contribution be?",
+  "source": "control:C3",
+  "part": "passage"
+ },
+ "F1": {
+  "text": "This page exists so that someone practising Caplet's voice can write about the plan without opening Keel's working files, whose shorthand is part of what goes wrong when Keel writes.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F2": {
+  "text": "Every figure is a model result from the number register (`../NUMBERS.md` as re-sized Tue 17 Nov evening, Treasury curve of Fri 6 Nov 2026; re-dated that evening, coherence reader 8, L14), not a forecast or a promise.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F3": {
+  "text": "These are facts to write from, not sentences to copy.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F4": {
+  "text": "Laura Gao, a Wharton graduate who left tech to write and illustrate books (*The Wuhan I Know*, the graphic memoir *Messy Roots*).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F5": {
+  "text": "She is planning a creative residency in Taiwan for artists, writers and designers, opening in 2033.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F6": {
+  "text": "Money in: $300,000 at the start of 2027 and $150,000 at the start of 2028 (from book advances, speaking and licensing, so it depends on her career going well).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F7": {
+  "text": "Nothing else comes in or goes out before 2033.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F8": {
+  "text": "Money out: ten payments of $50,000, one at the start of each year from 2033 to 2042, to run the residency.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F9": {
+  "text": "These must be met \"with a high degree of certainty\", from the portfolio alone.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F10": {
+  "text": "After that she wants to give as much as she responsibly can towards the building (the \"facility contribution\"), while keeping flexibility.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F11": {
+  "text": "In 2031 she tells co-sponsors (other funders) a range in dollars and how confident she is.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F12": {
+  "text": "Overpromising would damage her credibility.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F13": {
+  "text": "Caplet's plan (the IPS, frozen): the ten payments are bought with Treasuries in January 2027; the 2028 deposit first finishes that job, then most of it buys a Treasury fund that matures in late 2032 (the bottom of her range), and the rest buys VT, a world share fund (which sets the top).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F14": {
+  "text": "Half the shares are promised to no one; the other half moves into Treasuries before the 2031 meetings.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F15": {
+  "text": "The IPS names only two reasons to change the plan (l.17): a missed deposit or a Treasury default; \"A fall in the market is not one of them.\"",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F16": {
+  "text": "(Struck Wed 18 Nov evening, coherence reader 10, L1 and H2: \"Only two things would change the plan:\"; the two reasons are not the only ways a promise can fail, card Q109, NUMBERS 8u.)",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F17": {
+  "text": "At the close on 6 Nov 2026, buying the ten payments cost about $301,500 priced on the Treasury curve, roughly the whole first deposit; on the instruments the plan holds, the gap the 2028 deposit fills is the $2,388 top-up below (two bases, each named when used: coherence reader 8, L14).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F18": {
+  "text": "If yields fell 1 point before January 2027, the same ten would cost about $334,000; the 2028 deposit covers the difference.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F19": {
+  "text": "The first $39,162 of the 2028 deposit goes to the payments: $2,388 completes the ten (the top-up the IPS promised if yields fell), and $36,774 buys extra Treasuries so that the ten are paid even if the cash waiting between a bond's maturity and each 1 January earns nothing at all.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F20": {
+  "text": "The extra Treasuries are the part of the operating reserve, beyond the ten, that the case asks the team to recommend; never say they \"complete\" or \"finish\" the ten (coherence reader 6, Mon 16 Nov, H1).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F21": {
+  "text": "Why that matters: the bonds pay interest along the way, and one bond (February 2037) matures ten and a half months before the payment it funds (1 January 2038).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F22": {
+  "text": "That interest and that gap are where a \"certain\" plan could quietly depend on future interest rates.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F23": {
+  "text": "The extra Treasuries remove that dependence.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F24": {
+  "text": "Some years have no Treasury bond on WInS, so iShares iBonds funds (IBTM to IBTR) do the job.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F25": {
+  "text": "Held to the end they pay out what their bonds are worth, which is close to, but not exactly, a promised amount.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F26": {
+  "text": "At today's rates the operating reserve on 1 January 2033 is about $445,700: printed once, in Figure 1's note item 4, never in prose and never as a percentage (coherence reader 8, M8).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F27": {
+  "text": "(Re-sized Tue 17 Nov evening: the extra Treasuries now also hold back 0.5% for fund costs beyond the fee, the same margin the range carries, so the ten payments carry the 0.5% margin; the first part of the 2028 deposit was $38,282 and the reserve about $444,500 before.)",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F28": {
+  "text": "The team dropped its first plan (mostly shares; struck Wed 18 Nov evening: \"about three-quarters shares\", 2.3's phrase) for how a writer is paid (IPS l.9).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F29": {
+  "text": "A check run that day measured what the change bought (struck Wed 18 Nov evening, coherence reader 10, M8: \"priced the change\"): the first plan missed at least one payment in about 1 in 31 model runs (3.2%), against none for the Treasury plan from January 2028, which meets each payment even if cash waiting earns nothing once the 2028 deposit's first dollars arrive (NUMBERS 2).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F30": {
+  "text": "The 3.2% against none is what the IPS's \"one step further\" (l.11) bought (struck Wed 18 Nov evening, M8: \"is the price of\"; \"price\" is kept for a dollar cost, its model named), never the reason and never a test of \"high\": 96.8 in 100 would pass the usual reading of \"high\" (card Q120).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F31": {
+  "text": "(Corrected Mon 16 Nov from NUMBERS 8s: the first model's \"never missed one\" was written into its code, not found by it.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F32": {
+  "text": "Reordered Tue 17 Nov evening, coherence reader 8, M6.)",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F33": {
+  "text": "Never set against \"none\": the first plan's 13.7% if the 2028 deposit was only $75,000 and 40.8% if it never came.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F34": {
+  "text": "With no deposit the Treasury plan is short too ($57,455 for the ten if cash waiting earns nothing), and a missed deposit is one of the IPS's two reasons to change the plan (IPS l.17).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F35": {
+  "text": "The late-2032 Treasury fund (the floor) pays about $102,000 in mid-December 2032 at today's rates.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F36": {
+  "text": "The bottom of the range is lower, $95,000, because it counts that payout as if no more interest were earned, less 0.5%, rounded down: the fund's payout is not fixed (Trading Note 2).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F37": {
+  "text": "VT, half of which moves into Treasuries before the 2031 meetings, decides how far above the bottom the range reaches (coherence reader 6, Mon 16 Nov, M5).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F38": {
+  "text": "On today's figures, the range she would state in 2031 is $95,000 to $115,000 (she states it in $5,000 steps, each end rounded down).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F39": {
+  "text": "The bottom is set when the floor is bought in January 2028 and stays put after that (\"the bottom will remain constant\", IPS l.15); before then the rate on the day decides it.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F40": {
+  "text": "The top, $115,000, is her facility contribution and the figure co-sponsors count; the bottom is the part held since January 2028.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F41": {
+  "text": "Once both ends are owned, the range she states is certain; never put \"certain\" in the same sentence as the figures, and never \"secured\" for either end (funder test, Mon 16 Nov evening; coherence reader 6 and bond desk 4, M1).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F42": {
+  "text": "Her flexibility (the half of the shares promised to no one) is about $21,200 in January 2033, centrally; about $28,700 if you add whatever the funds pay above the top of the range.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F43": {
+  "text": "In a bad 1-in-20 future it is about $9,600.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F44": {
+  "text": "It is meant for three things the IPS names: building costs that overrun, a stronger Taiwan dollar, or a co-sponsor falling short.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F45": {
+  "text": "A Taiwan dollar 10% stronger than in 2031 would need about $11,500 more; her flexibility covers that in about 93 of 100 model futures, and in about 98 of 100 two-year stretches of the real Taiwan dollar since 1983.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F46": {
+  "text": "Keep 30% of the shares back instead, and she could promise about $5,000 more (one $5,000 step; $10,000 before the Tue 17 Nov evening re-size), but her flexibility would cover a 10% stronger Taiwan dollar in only about half the futures.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F47": {
+  "text": "Keep 70% back, and she would promise about $10,000 less, with more flexibility and a narrower range.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F48": {
+  "text": "Each $5,000 more of promised top costs her about $5,300 of what she keeps.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F49": {
+  "text": "The total she ends up with barely changes (within about $1,100 either way at the median).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F50": {
+  "text": "So the split decides what is promised and what stays hers, not how much there is.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F51": {
+  "text": "Half is the middle of that trade, chosen by the team; it is not \"optimal\" and no model chose it.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F52": {
+  "text": "Building costs rise about four years in five whatever shares do, so her flexibility is not a \"natural hedge\".",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F53": {
+  "text": "But a share slump followed by a cost burst can catch her: world shares bought at the start of 2000 were down about 41% at the 2003 meetings, and Taiwan's building costs then rose about 18% in Taiwan dollars before the contribution (cards Q66, Q85; NUMBERS 8q; coherence reader 6, Mon 16 Nov, L10; never \"cushion\").",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F54": {
+  "text": "27 Sep: the team dropped its first plan (mostly shares; struck Wed 18 Nov evening: \"about three-quarters shares\") for the reason the IPS gives: \"the actual nature of a writer's income\" (IPS l.9), which comes later and smaller in the same recessions that hit shares.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F55": {
+  "text": "The first model that day only priced the change (the missed-payment numbers above); it was the check, never the reason (corrected Tue 17 Nov evening, coherence reader 7, H1).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F56": {
+  "text": "29 Sep: WInS listed no Treasury bonds maturing between February 2031 and February 2036, so iBonds funds were used.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F57": {
+  "text": "29-30 Sep: two WInS bond prices were stale, about 1 percentage point of yield off the real Treasury curve.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F58": {
+  "text": "New rule: check every bond's yield against the curve (within 0.25 points) before ordering.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F59": {
+  "text": "5 Oct: Darren argued the world fund was a \"copout\" and proposed picking stocks and ETFs; a Taiwan fund (EWT) and gold (GLD) were raised.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F60": {
+  "text": "The team kept the one world fund (VT).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F61": {
+  "text": "7 Oct: the market opened at 00:30 Sydney time; Eric fell asleep before it.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F62": {
+  "text": "A mis-click that day led to the rule that only Ray places or cancels orders.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F63": {
+  "text": "All eleven orders filled on 7-8 Oct.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F64": {
+  "text": "16 Oct: rates fell and the room under $300,000 for the ten payments shrank to about $1,900.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F65": {
+  "text": "6 Nov: the team set aside the AI-drafted IPS (\"reads as AI and corny\") and wrote its own, the one submitted.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F66": {
+  "text": "Laura is a graphic novelist and illustrator.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F67": {
+  "text": "Comic pages are drawn in pencil first, which can be rubbed out, then inked; only the ink is printed.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F68": {
+  "text": "In the report, ink is a dollar figure Laura already owns in Treasuries that will pay it on its date, and pencil is a figure no Treasury she owns will pay yet (her future income, the 2028 deposit before it arrives, the value of her shares before half of them move, interest on cash waiting, every forecast).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F69": {
+  "text": "She owns the shares; no Treasury pays their value.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F70": {
+  "text": "Laura only states a figure once it's inked.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F71": {
+  "text": "That is the IPS's own rule: \"whatever figure you choose is money you already own\".",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F72": {
+  "text": "Say \"owned\" when you define it: most readers hear \"inked\" as \"signed\".",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F73": {
+  "text": "Caplet's own words about the conceit: \"It is intricate.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F74": {
+  "text": "It involves strikingly dissimilar parallels.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F75": {
+  "text": "It offers a startling new perspective.\"",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F76": {
+  "text": "So it is not a word dropped in now and then: it is worked through, each turn showing something new.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F77": {
+  "text": "The turns you can use (all checked): - **One eraser, three lines.** A recession can shrink three pencil lines in the same downturn (never \"rub out\": IPS l.9 says \"later and smaller\"): her book advances, share prices, and co-sponsors' budgets (not always in the same months, and never every co-sponsor).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F78": {
+  "text": "That's why the promised money can't sit in pencil (coherence reader 6, Mon 16 Nov, M4). - **Finished before it's offered.** Comic publishers want several issues finished before a series is offered to shops (\"three completed issues\", Image, 2015).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F79": {
+  "text": "Laura's ten payments are bought in January 2027, six years before the first one goes out. - **The one line that waited.** From January 2027 to January 2028 the interest cash earns while it waits was the one pencil line in the payments; the extra Treasuries in January 2028 ink it.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F80": {
+  "text": "What comes back from them is worth about $46,600 in 2033 money if rates hold, all of it hers by 2042; if cash waiting earns nothing, none beyond the 0.5% margin for fund costs (never \"most comes back\"; coherence reader 8, M8).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F81": {
+  "text": "Publishers do something similar: they hold back part of an author's royalties against returns and release it once the risk passes. - **Ink only goes one way.** You can always add ink, but you can't take it off cleanly (a mistake is painted over and the original keeps the record).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F82": {
+  "text": "So every end of the range is rounded down, anything above the top goes to her flexibility, and half the shares stay pencil on purpose: co-sponsors never see them.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F83": {
+  "text": "Each $5,000 more she states costs her about $5,300 of what she keeps. - **Trim, bleed and safe area.** Printers run the art past the line where the page is cut, because the blade wanders, and keep the words well inside it.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F84": {
+  "text": "The stated top is the cut line; the 0.5% held back and the rounding down are the bleed; the bottom sits safely inside. - **Non-photo blue.** Artists drew construction lines in a light blue that the printing camera couldn't see.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F85": {
+  "text": "The report's models, the 7.5% and every median are like that: the judges see them, the co-sponsors in 2031 never will. - **The printed page.** Laura's words to co-sponsors have no comics words in them at all, because the printed page only shows ink. - **Erase every pencil line and the page still reads.** From January 2028, when the only pencil left is the shares (dated Wed 18 Nov evening, coherence reader 10, M4: the 2028 deposit is pencil until it arrives), if the shares went to zero, the ten payments wouldn't change and the range would be one figure, the bottom (no payout figure here, as in SKELETON and CONCEIT since Tue 17 Nov). - **Dot gain.** A press always prints a little darker than the file, so printers lighten the file first and the print lands where they want it.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F86": {
+  "text": "The funds' fee, the 0.5% held back and the rounding down are taken out before the range is stated, so the money comes out lighter than the figure she names only if the funds' other costs pass the room held back under the top (the 0.5% margin plus the rounding down, about 2% of what the fund pays, in all, never a year, on today's figures (Wed 18 Nov evening, bond desk 5, M1); never \"the margin\" for the whole room; \"about 3%\" before the Tue 17 Nov evening re-size, coherence reader 8, M2) (coherence reader 6, M1; bond desk 4, H1, Mon 16 Nov). - (Retired Tue 17 Nov after voice round 6: \"let the ink dry\" and the key plate needed decoding; do not use them.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F87": {
+  "text": "The plain fact stays: the top is stated only once the shares have moved, and a top stated a year early would be more than the move could buy in about 11 of 100 model futures.) - **Registration marks.** Printers put marks outside the page, check them on every pass, and cut them off.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F88": {
+  "text": "The things the team watches (the deposit, late payments, a fund closing early, the Taiwan dollar) are like that: checked, never in Laura's words. - (Struck Tue 17 Nov evening, history only, never offered to writers: the seal, which makes ink heard as signed; knockout and overprint, and pencils printed beside the inks, which call the first plan pencil; the key plate, retired by voice round 6.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F89": {
+  "text": "Coherence reader 8, M7.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F90": {
+  "text": "The plain facts stay: the first plan's danger was one date, 1 January 2033, when all ten payments had to be bought with whatever the shares had become, not a crash; it was dropped before a single trade for how a writer is paid, IPS l.9, and the 3.2% only priced the change.) - **In a market, a click is ink** (Section 2, how the plan was bought, not the Team Reflection): on 7 October a click landed on the wrong row as the page scrolled, and the order was gone with no step to confirm it.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F91": {
+  "text": "The dates: most of each payment is inked in January 2027, when the ten Treasuries are bought (\"held to the end, these pay what they say\", IPS l.13).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F92": {
+  "text": "The rest is inked in January 2028 by the first $39,162 of the 2028 deposit (the top-up, then the extra Treasuries).",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F93": {
+  "text": "The floor is bought in January 2028, which sets the bottom of the range, and it stays put after that.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F94": {
+  "text": "Half the shares move into Treasuries before the 2031 meetings, which sets the top.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F95": {
+  "text": "The other half is never inked: it is her flexibility.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F96": {
+  "text": "Never call the January 2027 purchase pencil, and never call the IPS or the Trading Notes pencil.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F97": {
+  "text": "Treasuries are guaranteed, locked, set in stone: say so if it helps, plainly (Caplet, Sun 15 Nov: \"You needn't preface this every single time with 'barring a US default'\").",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F98": {
+  "text": "Never in tables; never in Laura's words to co-sponsors; no puns.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ },
+ "F99": {
+  "text": "Laura herself has said: \"As an author and illustrator, I don't know how my book will do until the day it hits the shelves\" (Climbing, 4 Mar 2025); nothing else goes in her mouth.",
+  "source": "FACTS_PLAIN",
+  "part": "facts"
+ }
+}

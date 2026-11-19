@@ -943,3 +943,23 @@ Data: FRED (Treasury yields, real yields, breakevens), the Treasury yield curve,
    Caplet wrote by hand that morning; version 62 (`ips_V62.txt`) is Keel's last draft before it.
 5. Until the list arrives, Keel finds the failing lines itself, writes its prediction down before any reader sees the
    text, and scores the prediction against Caplet's list when it comes: `keel/final_report/voice/COMPREHENSION.md`.
+
+### Book 21, continued (Caplet, Thu 19 Nov 2026, 17:58 Sydney)
+
+> The rest of the message, sent at 17:58 Sydney (06:58 UTC) with the essay attached (kept private in the project folder,
+> `/mnt/project-files/voice/caplet_extension_essay_2026-11-19.pdf`, never copied into the repo). Registered as I120;
+> carried into standing order 25.
+
+> 's the first task. The second task is to create a distinctive and unique and original and engaging voice and style and tone which is deeply human. The generic AI prose which you use is problematic, in my opinion, EVEN IF it's comprehensible to readers. Firstly, because judges are smart, and they can tell when work is AI-generated. Secondly, because even if they don't figure it out, it's just not very effective or unique or capable of standing out from the crowd of AI-generated work. By the way: another good insight into our voice and style and tone is the IPS and Trading Notes Analyses we wrote. Anyway: voice studies are crucial. Yes, perhaps not as much as research and analysis, but still. On that front, by the way, I am deeply unimpressed. You seem to be falling into the same trap as you did in preparing the IPS: you're hunting for little tiny minor irrelevant fixes, which is of course useful, but not particularly meaningful in making our entire Final Report genuinely impressive and extraordinary and unexpected and unique and thoughtful and insightful and erudite and so forth. I've given you, a ridiculous number of times, a very clear explanation of exactly what I want you to do, and how I want you to carry out research and analysis, and what you're looking for, and so on. I don't know whether you've done this or not, but I don't get the impression that you have, and that's really frustrating me. Please show me what you're capable of, because right now, you're letting me down. By the way, v63 was basically just our own writing (slightly modified by you), so it's understandable. I want you to give me word-for-word the final version of the IPS you produced without us having provided any wording for you to go off. I'm imagining that would've been whatever came before v62, but thought I'd check. I also really can't be bothered to find it, so I'd much prefer if you could just give it to me, so I can directly hunt for incomprehensible lines. Also: I've attached the essay I mentioned earlier to this message. Apologies for its having been cut off.
+
+**Keel's reading of the second half.**
+1. The second task is a distinctive, original, engaging, deeply human voice. Generic AI prose fails "EVEN IF it's
+   comprehensible", because judges can tell and because it cannot stand out. Caplet's IPS and Trading Notes Analyses are
+   voice models beside the essay.
+2. Research and analysis still rank above voice ("perhaps not as much as research and analysis, but still").
+3. The research has drifted into "little tiny minor irrelevant fixes", the IPS's trap again (EXPECTATIONS 2.10, Book
+   9). Caplet's repeated instructions on how to research (Part 2 of the notes: read wider than anyone, apply, critique,
+   synthesise, find the connection nobody else would make, every part rests on research, the big picture) are to be
+   followed and seen to be followed: "Please show me what you're capable of".
+4. Version 63 was mostly Caplet's own writing. The last IPS Keel wrote with no wording from Caplet is version 62 (6 Nov
+   07:30; version 61 is the same text without the caplet sentences); sent word for word in the thread that evening.

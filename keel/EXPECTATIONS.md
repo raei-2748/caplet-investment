@@ -226,6 +226,14 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
      and scored against it. Readers Keel builds are AI and may follow AI prose (Book 10), so their verdicts are checked
      against Caplet's list before they are trusted. Study: `final_report/voice/COMPREHENSION.md`.
    - **Weight:** "vastly more urgent", "absolutely imperative".
+   - **The second half (17:58, I120).** The second task: "a distinctive and unique and original and engaging voice and
+     style and tone which is deeply human. The generic AI prose which you use is problematic, in my opinion, EVEN IF
+     it's comprehensible to readers." Caplet's IPS and Trading Notes Analyses are voice models beside the essay
+     (`final_report/voice/ESSAY_STUDY.md`). Research and analysis still come first. And the research itself: "you're
+     hunting for little tiny minor irrelevant fixes ... not particularly meaningful in making our entire Final Report
+     genuinely impressive and extraordinary and unexpected and unique and thoughtful and insightful and erudite"; Part 2
+     of these notes is how Caplet asked for research to be done, and it is to be visibly followed (2.1-2.10). Keel's
+     reading: a run that ends with more guards and caveats than ideas has failed, however many cards it wrote.
 
 ### Caplet's conceit decision (Sat 14 Nov, 17:19 Sydney; INSTRUCTIONS I114): standing order 20
 
