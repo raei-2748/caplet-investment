@@ -22,7 +22,7 @@ independent line-by-line checks against every book and every register row. Writt
 >   found (standing order 24). This is how Keel forgot the over-claiming instruction twice, and why Book 19 had to say it
 >   a third time.
 
-**What these notes cover.** Every book of the Bible (Books 1-21; Book 21 of Thu 19 Nov in standing order 25; Books 19 and 20 of Sun 15 Nov night in standing orders 23 and 24 and the frame above; Book 17 of Sat 14 Nov is carried in standing orders 11-19, and Caplet's conceit decision of the same evening in standing order 20; Caplet's rule on reflection moments (Sun 15 Nov) in standing order 21, amended the same night by Book 18 in standing order 22; the cover note of 26 Oct, the preface on where the
+**What these notes cover.** Every book of the Bible (Books 1-22; Book 22 of Thu 19 Nov evening in standing order 26; Book 21 of Thu 19 Nov in standing order 25; Books 19 and 20 of Sun 15 Nov night in standing orders 23 and 24 and the frame above; Book 17 of Sat 14 Nov is carried in standing orders 11-19, and Caplet's conceit decision of the same evening in standing order 20; Caplet's rule on reflection moments (Sun 15 Nov) in standing order 21, amended the same night by Book 18 in standing order 22; the cover note of 26 Oct, the preface on where the
 Bible sits, the list of what it overruled on 26 Oct), Ray's points of 5 Nov that Book 12 says to keep in mind, the Ten
 Commandments Keel drew from Books 1-10, every row of the instruction register (`INSTRUCTIONS.md`, B and I01-I93), and
 Keel's earlier rubric of Caplet's expectations for the IPS (`ips_rewrite/final_night/other_thread/harvest/05_EXPECTATIONS.md`).
@@ -234,6 +234,41 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
      genuinely impressive and extraordinary and unexpected and unique and thoughtful and insightful and erudite"; Part 2
      of these notes is how Caplet asked for research to be done, and it is to be visibly followed (2.1-2.10). Keel's
      reading: a run that ends with more guards and caveats than ideas has failed, however many cards it wrote.
+
+### Book 22 (Thu 19 Nov, 18:24 Sydney; INSTRUCTIONS I121): standing order 26
+
+26. **Write so a reader never has to ask "what do you mean?"; keep "we"; explain the why; neither plain nor obviously
+   Claude (I121, Book 22).** Caplet's list of the version 61 lines it could not follow is the ground truth for Book 21
+   ("You must analyse all of these weird quirks about your writing which mean that it's difficult for me to understand.
+   I want you to analyse this entirely on your own."). Three notes beside it:
+   - **"We" stays.** "You constantly seek to take the 'we/us' out of the text. You say 'the 2028 deposit buys', not 'we
+     use the 2028 deposit to buy' ... don't use 'we/us' excessively to an unnatural extent; just learn from the way we
+     write in our own IPS and Trading Notes Analyses." People decide and act; money is what they act with.
+   - **Explain well, with the why.** "you seem to place a ridiculous premium on concision and explaining things in a
+     single sentence as briefly and parsimoniously as possible over simply explaining things well ... I just have to read
+     over them multiple times to understand what exactly they're trying to say and WHY". A step of the plan comes with
+     its reason; a term comes with what it is; a risk comes with how it happens.
+   - **Neither trap.** "this really weird 'plain' writing style ... plain boring and generic and ordinary ... Claude
+     usually does have a distinctive way of writing, it's just that that distinctive way of writing is so OBVIOUSLY
+     Claude that it's worse than plain writing ... You must not fall into either trap. This is a serious issue."
+   - **Go deep (18:31, I122).** "ensure that you don't just do a quick, superficial, surface-level analysis. You need to
+     go deep. Understand the stylistic and structural features which create problems. Think hard." Research and
+     analysis still rank above voice; Caplet wants "an absolute maximum-productivity overdrive plan" for every day to
+     Fri 27 Nov (`final_report/OVERDRIVE_PLAN.md`).
+   - **Wit (18:35, I123).** "you can use that sort of dry humour and wit and cleverness ... The judges will appreciate
+     it, it's fun, it conveys personality, and it provides a distinctive voice." Taken from the many kinds in Caplet's
+     essay, IPS and Trading Notes Analyses; never Caplet's own Adam Smith reference.
+   - **Notes, not answers (18:35, I123).** "I don't want you to answer my questions or explain things to me ... Unless
+     it's genuinely me being confused about our actual plan and/or strategy ... make your own notes on my notes, so you
+     know what NOT to do in the Final Report." The notes are of version 61.
+   - **Monday's questions answered (18:38, I124).** Who answered Darren's "copout" and how it was settled do not
+     matter: "Come up with your best ideas for this ... demonstrate maximum erudition." Darren, Eric and Ray have
+     confirmed they are happy to be named. "your job is to be creating the best Final Report, not checking permissions."
+   - **No Artifacts (18:39, I125).** "I can't access your Claude Artifacts on my computer ... stop using artifacts."
+     Deliverables go on the portal or in the thread.
+   - Keel's analysis and its thirteen things not to do: `final_report/voice/WHY_V61_FAILED.md`. Its tests go into every
+     writer's brief and the 27 Nov sense pass.
+   - **Weight:** "This is a serious issue."
 
 ### Caplet's conceit decision (Sat 14 Nov, 17:19 Sydney; INSTRUCTIONS I114): standing order 20
 
@@ -1091,6 +1126,7 @@ the report (4.5).
 | Book 19, 15 Nov | Doc drafts are other AIs' (inspiration only); intricate conceit; many aha moments; the goldmine; no over-claiming guards (third time); far more voice study | Standing order 23, 3.4, 3.6, Part 6 |
 | Book 20, 15 Nov | Every instruction equal and always fresh; frame at the top (Wharton as God, Canon, Expectations) | The frame, standing order 24 |
 | Book 21, 19 Nov | Every sentence understood on one reading and making sense once understood (vastly more urgent); erudition welcome if comprehensible; a distinctive voice from Caplet's essay | Standing order 25, 3.1, 3.3 |
+| Book 22, 19 Nov | Caplet's list of the version 61 lines it could not follow, analysed deep by Keel on its own (notes on the notes, not answers); keep "we"; explain the why rather than compress; neither plain-generic nor obviously Claude; dry wit welcome; a daily overdrive plan to 27 Nov, research first | Standing order 26, 3.1, 3.3 |
 | Ten Commandments (Books 1-10) | I-X, each with a test | Part 9 maps each |
 | What the Bible overruled, 26 Oct | Removed IPS-era checks; kept: strategies named for what they are, stocks never called sure; "exact sums on exact dates" allowed for iBonds held to liquidation and T-bonds held to maturity | 2.2, 3.4, Part 9 |
 | Keel's 5 Nov rubric (`05_EXPECTATIONS.md`) | Earlier list of Caplet's expectations for the IPS, incl. Ray's 23 Oct "don't soften" and 5 Nov Stop Slop lines | 3.4, Part 7, Part 9 |

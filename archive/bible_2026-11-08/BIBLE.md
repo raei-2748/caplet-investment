@@ -963,3 +963,65 @@ Data: FRED (Treasury yields, real yields, breakevens), the Treasury yield curve,
    followed and seen to be followed: "Please show me what you're capable of".
 4. Version 63 was mostly Caplet's own writing. The last IPS Keel wrote with no wording from Caplet is version 62 (6 Nov
    07:30; version 61 is the same text without the caplet sentences); sent word for word in the thread that evening.
+
+## Book 22: Caplet's list of the lines it could not follow in version 61, and three notes on how Keel writes (Caplet, Thu 19 Nov 2026, 18:24 Sydney)
+
+> Sent at 18:24 Sydney (07:24 UTC) through the coordinator, which added: work out entirely on your own why these
+> sentences fail, treating the questions as examples, not the whole list of causes; carry the lessons into the Final
+> Report. The quotations come from version 61 (`/mnt/project-files/ips/FINAL/ips_V61.txt`, "Five are funds ...") and
+> version 62 (`ips_V62.txt`), which share their body text. Registered as I121; carried into standing order 26. The
+> message breaks off mid-question ("anyone hears them") and resumes ("Anyway"); it is filed as it arrived.
+
+> What do you mean by 'a balanced mix'? What does that even mean? What do you mean by 'in a balanced mix every gain or loss would fall on the last third'? What gains or losses? How is the last third even being used? None of this is made clear. What on Earth do you mean by 'That third would swing like the shares of a heavily borrowed company'? What do you mean by 'swing'? You haven't even explained how it's going to be invested. And where did the 'heavily borrowed company' idea come from? What do you mean by 'Five are funds of Treasuries that all mature in one year'? That's just not true; they mature all in different years. What does 'what they hold' mean in 'paying out what they hold'? You haven't established this. What do you mean by 'the fund behind the 2033 payment'? What is this fund? You never said this. What does 'it costs less than it returns' mean? What does 'the difference, roughly its interest' mean? What interest? What difference? What do you mean by 'the shares only risk that interest'? Since when was VT only being funded by whatever 'interest' you're talking about? You say 'it is bought in 2028, not 2031', but where did the idea of buying it in 2031 come from in the first place? No one suggested it, and you make no explanation of why you randomly insert the year 2031 into this. What does 'it is bought in 2028, not 2031' have to do with 'the creative residency in Taiwan can't depend on shares'? The first is about time, and the second is about how the money is allocated and invested and any associated risk. In 'interest arrives years before the payment it serves' – again, what is the interest, and what do you mean by it 'serving' payments? What payments? What do you mean by 'money waits'? There's no reinvestment risk in our plan, as far as I'm aware; what do you mean? If you're wrong, don't say it; if you're right, actually explain it properly. What do you mean by 'up to half of shares'? Why 'up to'? If we don't have a single concrete number, why might it vary? What does the actual number depend on, given that we've got a cap rather than a number? What does 'if that half falls short' mean? What might it fall short of? What are you trying to say there? What do you mean by the '2028 holding', and since when did it have a 'payout'? What does 'the rest' mean? What do you mean by 'the bottom'? Where did that come from? The holding will pay 'after this' – after WHAT, exactly? What the hell does 'a fund's payout isn't fixed' have to do with a margin? If you've already sold half of VT for Treasuries, why are you going to sell the second half as well? What on Earth could possibly be the logic behind that? What is 'the top'? If we know how much Treasury funds will repay (yes, sure, they pay out NAV or whatever, but as we already discussed near the beginning of our entire conversation a couple months ago, this is pretty predictable, and the majority of the time it will be what you would expect), why do we still need to have a bottom and a top, given that we already know how much money we will have? What do you mean by 'both ends are owned before anyone hears them' – what does 'both ends' mean, and what does 'anyone hears themAnyway. I think you get the gist. You must analyse all of these weird quirks about your writing which mean that it's difficult for me to understand. I want you to analyse this entirely on your own. I also wanted to make 3 entirely separate observations, which are not related to any of those quotes specifically, should not affect how you analyse those quotes, and most certainly should not limit your interpretation of why we can't understand you; they're simply some further notes I would make in terms of the IPS in general, which are annoying. First of all, you constantly seek to take the 'we/us' out of the text. You say 'the 2028 deposit buys', not 'we use the 2028 deposit to buy'; 'what the ladder doesn't need buys more of the fund' rather than 'we use whatever the ladder doesn't need to buy more of the fund'; 'it is bought in 2028', not 'we buy it in 2028'; ; and so on. You seem to have an obsession with keeping us detached, and it's really annoying. Of course, don't use 'we/us' excessively to an unnatural extent; just learn from the way we write in our own IPS and Trading Notes Analyses. In addition, you seem to place a ridiculous premium on concision and explaining things in a single sentence as briefly and parsimoniously as possible over simply explaining things well, and it's really annoying. It also means that, even though some sentences are perfectly understandable, I just have to read over them multiple times to understand what exactly they're trying to say and WHY (i.e. the logic behind whatever they're saying.) Thirdly, you seem to have this really weird 'plain' writing style. It's not particularly obviously AI, so much as just being plain boring and generic and ordinary. There's no distinctiveness whatsoever. Claude usually does have a distinctive way of writing, it's just that that distinctive way of writing is so OBVIOUSLY Claude that it's worse than plain writing, because anyone would catch it. You must not fall into either trap. This is a serious issue.
+
+**Keel's reading.**
+1. This is the ground truth Book 21 promised. Caplet could not follow eleven of the first thirteen body sentences of
+   version 61 it reached before stopping (the notes are of version 61, Caplet's 18:35 message), and named for each what it could not find: a term never set up, a
+   pointer with nothing behind it, a contrast with an option nobody raised, a "because" joining two different
+   questions, an image whose source was never given, a false sentence ("Five are funds ... that all mature in one
+   year"), a risk asserted and never explained (reinvestment), and steps of the plan with no visible reason ("why sell
+   the second half as well?", "why do we still need to have a bottom and a top?").
+2. Keel analyses the causes on its own, beyond the questions: `keel/final_report/voice/WHY_V61_FAILED.md`.
+3. Where a quoted sentence was wrong, it is corrected; where it was right but unexplained (reinvestment, the margin, the
+   range once both ends are owned), it is explained properly, in the new way, in the same reply.
+4. Three standing notes, separate from the list: (a) keep "we" and "us" in the text, at the rate Caplet's IPS and
+   Trading Notes Analyses use them, never removed to sound detached and never overused; (b) explain things well, with
+   the reasoning (the why), rather than squeeze each idea into one parsimonious sentence; (c) neither the plain,
+   generic, ordinary style nor the obviously-Claude style: "You must not fall into either trap. This is a serious issue."
+
+### Book 22, continued (Caplet, Thu 19 Nov 2026, 18:28 Sydney)
+
+> The rest of the list, sent at 18:28 Sydney (07:28 UTC) through the coordinator: version 61/62 from "anyone hears
+> them" to the end. Part of I121 and standing order 26.
+
+> ' mean? What do you mean by 'up to the top'? What do you mean by 'whatever of the first half isn't sold' – the first half of what? Why wouldn't it all be sold? What do you mean by 'anything paid beyond the top' – what does 'paid' mean? To whom? For what? Why are your sentences so damn unclear? What's 'the extra reserve' and what's 'the money waiting for them'? Why are you so incapable of explaining things? What do you mean by 'she keeps room as the project develops'? This sounds like legalistic, jargonistic corporatespeak. What does she need to 'keep room' for, and what could 'the project developing' actually MEAN or LOOK LIKE or whatever? Why do you feel the need to explicitly signpost 'the plan's biggest strength' rather than just allowing that point's strength to carry itself? What is 'the tenth rung'? You haven't mentioned any 'rungs' up until now. What do you mean by 'what was set aside for it'? This could mean anything. From where?
+
+**Keel's reading.** With this half, Caplet could not follow 17 of version 61's 21 body sentences; only the first, the
+ladder's purchase, the name's letters and the inflation sentence passed. New kinds of fault in this half: the case's own
+abstract phrase repeated instead of translated into events ("keeps room as the project develops"); a sentence that
+grades its own point ("the plan's biggest strength") instead of letting it carry itself; and catch-all phrases for an
+accounting step never described ("what was set aside for it", "anything paid beyond the top", "the money waiting for
+them").
+
+### Book 22, continued (Caplet, Thu 19 Nov 2026, 18:31 and 18:35 Sydney)
+
+> Two further messages through the coordinator (07:31 and 07:35 UTC). Part of I121; I122 and I123; standing order 26.
+
+> Sorry – that cut off from somewhere in the middle of the first message. My bad. Keep everything I've said across both of these messages in mind. That's crucial. When you're evaluating voice and style and tone, and/or trying to decipher the nature and causes (get the reference?) of your own incomprehensibility, ensure that you don't just do a quick, superficial, surface-level analysis. You need to go deep. Understand the stylistic and structural features which create problems. Think hard. Really apply yourself. Voice studies are crucial. (However, keep in mind that research and analysis is still even more important. Please don't forget about them! I want to see that you have an absolute maximum-productivity overdrive plan for the next week and a bit in the lead-up to your first intensive report-writing session.)
+
+> Impressive in catching my reference. By the way – you can use that sort of dry humour and wit and cleverness like I just did. The judges will appreciate it, it's fun, it conveys personality, and it provides a distinctive voice. Just an idea. (Don't take this as a request to use my specific Adam Smith example. It just came to my mind that, in general, that type of wit and humour and cleverness is something judges would like.) There are many, many others you can take from the essay I wrote and the IPS and Trading Notes Analyses we wrote. Also: my critical notes on the IPS were of v61, not v62. And finally, note that I don't want you to answer my questions or explain things to me. I don't need that. Unless it's genuinely me being confused about our actual plan and/or strategy, which is only the case for a couple of the notes I made. Mostly, I just want you to make your own notes on my notes, so you know what NOT to do in the Final Report.
+
+**Keel's reading.**
+1. Both halves of the list count together. The analysis goes deep, to the stylistic and structural causes, never the
+   surface ("Think hard. Really apply yourself.").
+2. Research and analysis still rank above voice. Caplet wants to see "an absolute maximum-productivity overdrive plan"
+   for every day to the first writing session (Fri 27 Nov): `keel/final_report/OVERDRIVE_PLAN.md`, in the thread and
+   on the portal.
+3. Dry wit, humour and cleverness are welcome in the Final Report ("The judges will appreciate it, it's fun, it conveys
+   personality"), drawn from the many kinds in Caplet's essay, IPS and Trading Notes Analyses; never Caplet's Adam
+   Smith reference itself ("the nature and causes").
+4. The critical notes are of version 61, not 62.
+5. Do not answer Caplet's questions or explain the IPS back; make Keel's own notes on Caplet's notes, "so you know what
+   NOT to do in the Final Report". Explain only where Caplet is genuinely unsure about the plan (here: reinvestment
+   risk, and why two figures once both ends are owned).
+

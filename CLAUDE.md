@@ -8,7 +8,7 @@ decision, deadline or open item changes, and commit it with the related change. 
   `keel/final_report/WHARTON_NORTH_STAR.md`), the past deliverables as Canon (`keel/final_report/CANON.md`, the IPS as
   submitted) and `keel/EXPECTATIONS.md`. Under the frame every instruction is equal and always fresh: "we shouldn't need
   to repeat ourselves because EVERYTHING should ALWAYS be fresh in your memory." No Keel file outranks a book.
-- **Caplet's expectations live in `keel/EXPECTATIONS.md` (8 Nov, Book 14).** Notes on all twenty-one Bible books, checked
+- **Caplet's expectations live in `keel/EXPECTATIONS.md` (8 Nov, Book 14).** Notes on all twenty-two Bible books, checked
   twice against them; read them in full. The books themselves are archived verbatim in `archive/bible_2026-11-08/BIBLE.md`
   (`keel/BIBLE.md` is a pointer); a new book is appended there, registered in `keel/INSTRUCTIONS.md` and carried into the notes the same day.
 - **Ray's standing orders (8 Nov evening, INSTRUCTIONS I94-I100):** Wharton's criteria and weekly-email tips are
