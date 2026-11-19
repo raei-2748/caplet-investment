@@ -15,7 +15,7 @@ Antonio expected his ships home a month before his bond fell due, carrying nine 
 but only after the bond was forfeit. In 5 CE Rome voted its soldiers fixed discharge payments a year before it set up a
 treasury to pay them, and when the money ran short it kept the sums and moved the date. In 1960 the New South Wales
 Parliament wrote into law that the Opera House's estimated cost "shall not, under any circumstances, be exceeded by
-more than ten per centum"; it cost about nine and a half times that limit. In Osaka the lords sold rice bills that by 1749
+more than ten per centum"; it cost about nine and a half times that first limit. In Osaka the lords sold rice bills that by 1749
 claimed almost four times the rice in the warehouses. Carnegie's libraries were built on towns' promises of running
 money that a third of Ohio's towns had broken by 1916.
 
