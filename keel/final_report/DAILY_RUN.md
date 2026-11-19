@@ -4,6 +4,8 @@ Every scheduled run of the Final Report thread follows this page. It turns Ray's
 `../EXPECTATIONS.md`, INSTRUCTIONS I94-I100) and Caplet's of 9 Nov (I101-I102) into steps, and borrows from the methods in
 `research/meta/HOW_STRATEGISTS_PLAN.md`. It never overrides the day's own instructions or Caplet's word.
 
+**From Fri 20 to Thu 26 Nov every run follows `OVERDRIVE_PLAN.md`** (Caplet, Thu 19 Nov 18:31, INSTRUCTIONS I122): each run's twelve questions, the analysis and the voice round are named there; the steps below still say how a run works. Writers never see checks or guards, only the facts and Caplet's own writing (`voice/WHY_V61_FAILED.md`).
+
 ## How hard (Caplet, Mon 9 Nov, INSTRUCTIONS I102)
 "I am expecting you to have burned through almost every last one of your tokens by the end of each and every week ...
 that doesn't mean wasting tokens. You must be efficient. And EVEN THEN, you should burn through all of them. Quality AND
