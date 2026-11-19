@@ -1,0 +1,3745 @@
+{
+ "K1": {
+  "readers": 6,
+  "reread": 1,
+  "nonsense": 1,
+  "faults": [
+   "A6: answers a question nobody asked"
+  ]
+ },
+ "K2": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K3": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K4": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K5": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K6": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K7": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K8": {
+  "readers": 6,
+  "reread": 5,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K9": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K10": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K11": {
+  "readers": 6,
+  "reread": 3,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K12": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 1,
+  "faults": [
+   "A2: overstated for the funds"
+  ]
+ },
+ "K13": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K14": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K15": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K16": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K17": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K18": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K19": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K20": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K21": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K22": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "K23": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M1": {
+  "readers": 6,
+  "reread": 5,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M2": {
+  "readers": 6,
+  "reread": 3,
+  "nonsense": 2,
+  "faults": [
+   "A2: doesn't follow",
+   "A5: doesn't follow; overclaims"
+  ]
+ },
+ "M3": {
+  "readers": 6,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M4": {
+  "readers": 6,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M5": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M6": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M7": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M8": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M9": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M10": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M11": {
+  "readers": 6,
+  "reread": 1,
+  "nonsense": 1,
+  "faults": [
+   "A4: overstated, contradicted later"
+  ]
+ },
+ "M12": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M13": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M14": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M15": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 1,
+  "faults": [
+   "A2: overstated for the funds"
+  ]
+ },
+ "M16": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M17": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M18": {
+  "readers": 6,
+  "reread": 1,
+  "nonsense": 1,
+  "faults": [
+   "A5: doesn't follow (clashes with M9-M10)"
+  ]
+ },
+ "M19": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M20": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M21": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M22": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M23": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M24": {
+  "readers": 6,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M25": {
+  "readers": 6,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "A3: overstated",
+   "A4: overstated; a figure isn't money"
+  ]
+ },
+ "M26": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 2,
+  "faults": [
+   "A3: points at nothing",
+   "A4: points at too much"
+  ]
+ },
+ "M27": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M28": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M29": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M30": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M31": {
+  "readers": 6,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "M32": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R1": {
+  "readers": 6,
+  "reread": 5,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R2": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R3": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 3,
+  "faults": [
+   "A3: wrong kind of thing",
+   "A4: wrong kind of thing",
+   "A5: wrong kind of thing; too compressed to follow"
+  ]
+ },
+ "R4": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R5": {
+  "readers": 6,
+  "reread": 3,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R6": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R7": {
+  "readers": 6,
+  "reread": 4,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R8": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R9": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 6,
+  "faults": [
+   "A1: unexplained",
+   "A2: unexplained term",
+   "A3: unexplained term",
+   "A4: unexplained term",
+   "A5: unexplained term",
+   "A6: unexplained term"
+  ]
+ },
+ "R10": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 6,
+  "faults": [
+   "A1: points at nothing",
+   "A2: points at nothing",
+   "A3: points at nothing",
+   "A4: points at nothing clear",
+   "A5: points at nothing; unexplained term",
+   "A6: points at nothing"
+  ]
+ },
+ "R11": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 1,
+  "faults": [
+   "A4: impossible as stated"
+  ]
+ },
+ "R12": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 6,
+  "faults": [
+   "A1: points at nothing; doesn't follow",
+   "A2: points at nothing; doesn't follow",
+   "A3: points at nothing",
+   "A4: points at nothing; answers a question nobody asked",
+   "A5: points at nothing; the reason only half fits",
+   "A6: points at nothing"
+  ]
+ },
+ "R13": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R14": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 1,
+  "faults": [
+   "A4: wrong kind of thing; overstated"
+  ]
+ },
+ "R15": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R16": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R17": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R18": {
+  "readers": 6,
+  "reread": 4,
+  "nonsense": 1,
+  "faults": [
+   "A4: wrong kind of thing"
+  ]
+ },
+ "R19": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R20": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 3,
+  "faults": [
+   "A1: points at nothing",
+   "A4: points at nothing",
+   "A6: points at nothing"
+  ]
+ },
+ "R21": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "R22": {
+  "readers": 6,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H1": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H2": {
+  "readers": 6,
+  "reread": 6,
+  "nonsense": 2,
+  "faults": [
+   "A4: impossible as stated",
+   "A6: misleading: future interest spoken of as invested now"
+  ]
+ },
+ "H3": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H4": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H5": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H6": {
+  "readers": 6,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H7": {
+  "readers": 6,
+  "reread": 3,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H8": {
+  "readers": 6,
+  "reread": 4,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H9": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H10": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H11": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H12": {
+  "readers": 6,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H13": {
+  "readers": 6,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H14": {
+  "readers": 6,
+  "reread": 5,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H15": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H16": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H17": {
+  "readers": 6,
+  "reread": 4,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H18": {
+  "readers": 6,
+  "reread": 5,
+  "nonsense": 1,
+  "faults": [
+   "A3: unexplained term"
+  ]
+ },
+ "H19": {
+  "readers": 6,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H20": {
+  "readers": 6,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H21": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H22": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H23": {
+  "readers": 6,
+  "reread": 4,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H24": {
+  "readers": 6,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H25": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H26": {
+  "readers": 6,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H27": {
+  "readers": 6,
+  "reread": 5,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H28": {
+  "readers": 6,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H29": {
+  "readers": 6,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "H30": {
+  "readers": 6,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P101.1": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P101.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P101.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P101.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P101.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B1b: circular or empty (second half)"
+  ]
+ },
+ "P101.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P101.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P101.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P102.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P102.2": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B1b: points at nothing"
+  ]
+ },
+ "P102.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P102.4": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P102.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P102.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P102.7": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B1a: unexplained terms; \"the room under it\" points at nothing",
+   "B1b: unexplained terms"
+  ]
+ },
+ "P102.8": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P102.9": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P102.10": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P102.11": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P102.12": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B1a: contradicts sentences 2-3",
+   "B1b: contradicts sentences 2-3"
+  ]
+ },
+ "P103.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P103.2": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P103.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P104.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P104.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P104.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P104.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P104.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P104.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B1b: image in place of reason"
+  ]
+ },
+ "P104.7": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P104.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P104.9": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B1a: unexplained term"
+  ]
+ },
+ "P104.10": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B1b: conclusion wider than its reason"
+  ]
+ },
+ "P104.11": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P104.12": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P104.13": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B1a: points at nothing",
+   "B1b: points at nothing"
+  ]
+ },
+ "P105.1": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B1a: points at nothing; unexplained term",
+   "B1b: points at nothing; claims too much"
+  ]
+ },
+ "P105.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 2,
+  "faults": [
+   "B1a: doesn't follow (not a rewording)",
+   "B1b: connector mislabels a new claim"
+  ]
+ },
+ "P105.3": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 2,
+  "faults": [
+   "B1a: muddled",
+   "B1b: doesn't follow; near-empty"
+  ]
+ },
+ "P105.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P106.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P106.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P106.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P106.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P106.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P106.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B1b: image in place of reason"
+  ]
+ },
+ "P106.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P106.8": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B1a: unexplained terms",
+   "B1b: unexplained terms"
+  ]
+ },
+ "P106.9": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B1a: doesn't follow",
+   "B1b: doesn't follow; wrong kind of thing"
+  ]
+ },
+ "P106.10": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P106.11": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P106.12": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P106.13": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B1a: contradicts sentences 2-3",
+   "B1b: contradicts sentences 2-3"
+  ]
+ },
+ "P107.1": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P107.2": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P107.3": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P107.4": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P107.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B1b: two reasons under one colon; second half empty"
+  ]
+ },
+ "P107.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P107.7": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P107.8": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B1a: points at nothing (\"the same way\" as what?)",
+   "B1b: points at nothing"
+  ]
+ },
+ "P108.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P108.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P108.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P108.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P108.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P108.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P108.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P108.8": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B1a: unexplained term"
+  ]
+ },
+ "P108.9": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B1b: conclusion wider than its reason"
+  ]
+ },
+ "P108.10": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P108.11": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P108.12": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B1a: points at nothing",
+   "B1b: points at nothing"
+  ]
+ },
+ "P109.1": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P109.2": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P109.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P109.4": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B1a: unexplained terms; undercuts sentence 3",
+   "B1b: answers a question nobody asked"
+  ]
+ },
+ "P110.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P110.2": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P110.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P110.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P110.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B1b: circular or empty (second half)"
+  ]
+ },
+ "P110.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P110.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P110.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P111.1": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P111.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P111.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P111.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P111.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P111.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B1b: two reasons under one colon; second half empty"
+  ]
+ },
+ "P111.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P111.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P111.9": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P201.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P201.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P201.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P201.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P201.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P201.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P201.7": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: vague: \"comes first\" when nobody else pays",
+   "B2b: unclear term (\"comes first\")"
+  ]
+ },
+ "P201.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P201.9": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P201.10": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P201.11": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P202.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P202.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P202.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P202.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P202.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P202.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 2,
+  "faults": [
+   "B2a: doesn't quite follow",
+   "B2b: doesn't follow"
+  ]
+ },
+ "P202.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P202.8": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P202.9": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P202.10": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P202.11": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P202.12": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.9": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.10": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.11": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.12": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.13": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P203.14": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P204.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P204.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P204.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B2a: unexplained term"
+  ]
+ },
+ "P204.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P204.5": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P204.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: points at nothing; unexplained terms",
+   "B2b: points at nothing; unexplained terms"
+  ]
+ },
+ "P204.7": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: points at nothing",
+   "B2b: points at nothing (\"the move\")"
+  ]
+ },
+ "P204.8": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P204.9": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B2a: wrong kind of thing"
+  ]
+ },
+ "P204.10": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: count doesn't match; unexplained",
+   "B2b: count doesn't match; label in place of a reason; unexplained term"
+  ]
+ },
+ "P204.11": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: answers a question nobody asked",
+   "B2b: answers a question nobody asked"
+  ]
+ },
+ "P205.1": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: unexplained term; points at nothing",
+   "B2b: name in place of a reason; overstated"
+  ]
+ },
+ "P205.2": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 1,
+  "faults": [
+   "B2b: doesn't follow"
+  ]
+ },
+ "P205.3": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 2,
+  "faults": [
+   "B2a: doesn't follow",
+   "B2b: circular or empty; image in place of a reason; clashes with P205.1"
+  ]
+ },
+ "P205.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 1,
+  "faults": [
+   "B2a: unexplained term; overstated"
+  ]
+ },
+ "P206.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P206.2": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P206.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: doesn't follow (because-clause splits the list); unexplained term",
+   "B2b: reason attached to the wrong place; points at nothing"
+  ]
+ },
+ "P206.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P206.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B2a: unexplained term"
+  ]
+ },
+ "P206.6": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P206.7": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P206.8": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B2a: wrong kind of thing; ambiguous"
+  ]
+ },
+ "P206.9": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: count doesn't match; unexplained",
+   "B2b: count doesn't match; label in place of a reason"
+  ]
+ },
+ "P206.10": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: points at nothing",
+   "B2b: answers a question nobody asked"
+  ]
+ },
+ "P207.1": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P207.2": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P207.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P207.4": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B2a: unexplained term; doesn't follow"
+  ]
+ },
+ "P208.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.9": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.10": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.11": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.12": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.13": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.14": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P208.15": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P209.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P209.2": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B2a: unexplained term"
+  ]
+ },
+ "P209.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P209.4": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: points at nothing; doesn't follow",
+   "B2b: doesn't follow (partial reason); unexplained term"
+  ]
+ },
+ "P209.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P209.6": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P209.7": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B2a: wrong kind of thing"
+  ]
+ },
+ "P209.8": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: count doesn't match; unexplained",
+   "B2b: count doesn't match; label in place of a reason"
+  ]
+ },
+ "P209.9": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: answers a question nobody asked",
+   "B2b: answers a question nobody asked"
+  ]
+ },
+ "P210.1": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P210.2": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P210.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P211.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P211.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P211.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: doesn't follow (since-clause splits the list); unexplained term",
+   "B2b: reason runs into the next item; points at nothing"
+  ]
+ },
+ "P211.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P211.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B2a: unexplained term"
+  ]
+ },
+ "P211.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: impossible as stated",
+   "B2b: ellipsis makes it false as written"
+  ]
+ },
+ "P211.7": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P211.8": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P211.9": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B2a: wrong kind of thing; points at nothing"
+  ]
+ },
+ "P211.10": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: count doesn't match; unexplained",
+   "B2b: count doesn't match; label in place of a reason"
+  ]
+ },
+ "P211.11": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B2a: answers a question nobody asked",
+   "B2b: answers a question nobody asked"
+  ]
+ },
+ "P301.1": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P301.2": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P301.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P301.4": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B3a: unexplained terms; \"their\" unclear; clashes with P301.2",
+   "B3b: points at nothing; benefit sits oddly with the plan"
+  ]
+ },
+ "P302.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P302.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P302.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P302.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P302.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P302.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 1,
+  "faults": [
+   "B3b: doesn't follow"
+  ]
+ },
+ "P302.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P302.8": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B3a: contradicts itself; unexplained term",
+   "B3b: contradicts itself; unexplained term"
+  ]
+ },
+ "P302.9": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P302.10": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P302.11": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P302.12": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P303.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P303.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P303.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P303.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P303.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P303.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B3a: false contrast; a date is the wrong kind of thing to be a danger",
+   "B3b: wrong kind of thing; false contrast"
+  ]
+ },
+ "P303.7": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B3a: unexplained; answers a question nobody asked",
+   "B3b: unexplained term; answers a question nobody asked"
+  ]
+ },
+ "P303.8": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P303.9": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P303.10": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P304.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P304.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P304.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P304.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P304.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P304.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B3a: unexplained; answers a question nobody asked",
+   "B3b: unexplained term; out of order"
+  ]
+ },
+ "P304.7": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P304.8": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P304.9": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.9": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.10": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.11": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.12": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.13": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.14": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P305.15": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.5": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.9": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.10": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.11": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B3b: scope too wide"
+  ]
+ },
+ "P306.12": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 1,
+  "faults": [
+   "B3a: contradicts the sentence before"
+  ]
+ },
+ "P306.13": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.14": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.15": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.16": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P306.17": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.2": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 1,
+  "faults": [
+   "B3b: impossible as stated; points at nothing"
+  ]
+ },
+ "P307.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.9": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.10": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.11": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.12": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P307.13": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P308.1": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P308.2": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P308.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P309.1": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B3a: points at nothing; unexplained term",
+   "B3b: points at nothing; overstated; unexplained term"
+  ]
+ },
+ "P309.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 1,
+  "faults": [
+   "B3b: doesn't follow (wrong connector)"
+  ]
+ },
+ "P309.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B3a: contradicts the passage; empty",
+   "B3b: doesn't follow; contradicts sentence 1"
+  ]
+ },
+ "P309.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P401.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P401.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P401.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: doesn't follow: the evidence compares a big first gift with a small one, and measures giving, not building",
+   "B4b: doesn't follow"
+  ]
+ },
+ "P401.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P401.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P401.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: points at nothing (\"her condition\"); contradicts .4",
+   "B4b: points at nothing; contradicts 4-5"
+  ]
+ },
+ "P402.1": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P402.2": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B4b: parallel only half fits"
+  ]
+ },
+ "P402.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P402.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P402.5": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P402.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P403.1": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P403.2": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P403.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P403.4": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: unexplained terms; \"their\" ambiguous",
+   "B4b: points at nothing; unexplained term"
+  ]
+ },
+ "P404.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P404.2": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P404.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P404.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 2,
+  "faults": [
+   "B4a: doesn't follow: a 1986 quote doesn't show \"oldest\"",
+   "B4b: doesn't follow"
+  ]
+ },
+ "P404.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P404.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P404.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P404.8": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: doesn't follow: only the \"usual\" ways were ruled out",
+   "B4b: doesn't follow"
+  ]
+ },
+ "P405.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P405.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P405.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B4b: doesn't connect; unexplained term"
+  ]
+ },
+ "P405.4": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P405.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P405.6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P405.7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P405.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P405.9": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: points at nothing (\"the small margin\")",
+   "B4b: points at nothing"
+  ]
+ },
+ "P406.1": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P406.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P406.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P406.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P406.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P406.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: doesn't follow: the evidence covers currency and escalation, not overruns or a co-sponsor falling short",
+   "B4b: doesn't follow; overstated"
+  ]
+ },
+ "P407.1": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "B4b: points at nothing; overstated"
+  ]
+ },
+ "P407.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 1,
+  "faults": [
+   "B4b: doesn't follow"
+  ]
+ },
+ "P407.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: contradicts .1",
+   "B4b: circular or empty; contradicts 1"
+  ]
+ },
+ "P407.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P408.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P408.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P408.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P408.4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P408.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P408.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P408.7": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P409.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P409.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P409.3": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P409.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P409.5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P409.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: wrong kind of thing (\"ends are Treasuries\"); overclaim (\"exact\")",
+   "B4b: doesn't follow; contradiction"
+  ]
+ },
+ "P410.1": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P410.2": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: doesn't follow: \"the same\" is not the same",
+   "B4b: doesn't follow"
+  ]
+ },
+ "P410.3": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: wrong kind of thing (the exception is a person); unclear",
+   "B4b: wrong kind of thing; unclear"
+  ]
+ },
+ "P410.4": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P410.5": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P410.6": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: doesn't follow: mixed roles",
+   "B4b: label in place of a reason"
+  ]
+ },
+ "P410.7": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: contradicts .3",
+   "B4b: contradicts 3; points at nothing"
+  ]
+ },
+ "P410.8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P411.1": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P411.2": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P411.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P411.4": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P411.5": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "B4a: contradicts itself (\"whatever ... unless\")",
+   "B4b: contradiction; slogan for a reason"
+  ]
+ },
+ "P412.1": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P412.2": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "P412.3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F1": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "C2: unexplained term"
+  ]
+ },
+ "F2": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: false as stated; points at nothing",
+   "C2: overclaims; filing code"
+  ]
+ },
+ "F3": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F4": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F5": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F6": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F7": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F8": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F9": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F10": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F11": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F12": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F13": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "C1: wrong kind of thing"
+  ]
+ },
+ "F14": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F15": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F16": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: points at nothing; editing note",
+   "C2: edit log; unexplained terms"
+  ]
+ },
+ "F17": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: two figures for one gap, unreconciled",
+   "C2: two figures, no reason given"
+  ]
+ },
+ "F18": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F19": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F20": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: contradicts its own definitions",
+   "C2: contradicts F19; muddled"
+  ]
+ },
+ "F21": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F22": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F23": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F24": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F25": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F26": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: points at nothing",
+   "C2: points at nothing; a rule mixed into a fact"
+  ]
+ },
+ "F27": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: wrong kind of thing; points at nothing",
+   "C2: edit log; terms used before they are defined"
+  ]
+ },
+ "F28": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: ambiguous (\"dropped ... for\"); points at nothing",
+   "C2: reason not given; edit noise"
+  ]
+ },
+ "F29": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: points at nothing; undercut by F31",
+   "C2: \"that day\" points at nothing; an edit note interrupts"
+  ]
+ },
+ "F30": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: wrong kind of thing; unexplained term; points at nothing",
+   "C2: unexplained term; an edit note interrupts"
+  ]
+ },
+ "F31": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: points at nothing",
+   "C2: undercuts F29; unexplained reference"
+  ]
+ },
+ "F32": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: empty; points at nothing",
+   "C2: empty; points at nothing"
+  ]
+ },
+ "F33": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F34": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F35": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F36": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F37": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F38": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F39": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F40": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: doesn't follow",
+   "C2: makes the range pointless; \"the part\" is vague"
+  ]
+ },
+ "F41": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: wrong kind of thing; unexplained",
+   "C2: wrong kind of thing; the rule fights the claim"
+  ]
+ },
+ "F42": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F43": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F44": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F45": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "C1: \"that\" changes meaning"
+  ]
+ },
+ "F46": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F47": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F48": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F49": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "C1: wrong word; contradicts F48 as written"
+  ]
+ },
+ "F50": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F51": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F52": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "C2: unexplained term; the \"so\" depends on it"
+  ]
+ },
+ "F53": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: points at nothing",
+   "C2: points at nothing; the \"But\" doesn't contrast"
+  ]
+ },
+ "F54": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F55": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "C1: contradicts the page; wrong kind of thing"
+  ]
+ },
+ "F56": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F57": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F58": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F59": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F60": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F61": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F62": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F63": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F64": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F65": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F66": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F67": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F68": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "C1: wrong kind of thing"
+  ]
+ },
+ "F69": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F70": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F71": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 2,
+  "faults": [
+   "C1: doesn't follow",
+   "C2: doesn't follow from F69"
+  ]
+ },
+ "F72": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F73": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F74": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F75": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F76": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F77": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: contradicts itself; unclear rule",
+   "C2: the image fights the fact"
+  ]
+ },
+ "F78": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F79": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: contradicts F17 and F92; impossible as stated",
+   "C2: overclaims \"the one\"; two items merged"
+  ]
+ },
+ "F80": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F81": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F82": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F83": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F84": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F85": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: points at nothing; doesn't follow",
+   "C2: points at nothing; the \"because\" doesn't follow; four items merged"
+  ]
+ },
+ "F86": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: direction muddled; points at nothing",
+   "C2: the image runs backwards; nested notes"
+  ]
+ },
+ "F87": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F88": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: self-defeating; points at nothing",
+   "C2: contradicts itself; unexplained terms"
+  ]
+ },
+ "F89": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: empty; points at nothing",
+   "C2: empty"
+  ]
+ },
+ "F90": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 2,
+  "faults": [
+   "C1: wrong kind of thing; contradicts the page",
+   "C2: \"not a crash\" doesn't follow; \"gone\" is ambiguous; two items merged"
+  ]
+ },
+ "F91": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 2,
+  "faults": [
+   "C1: contradicts F24-F25",
+   "C2: contradicts F24-F25"
+  ]
+ },
+ "F92": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 2,
+  "faults": [
+   "C1: contradicts F20",
+   "C2: contradicts F20"
+  ]
+ },
+ "F93": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F94": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F95": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F96": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F97": {
+  "readers": 2,
+  "reread": 0,
+  "nonsense": 0,
+  "faults": []
+ },
+ "F98": {
+  "readers": 2,
+  "reread": 2,
+  "nonsense": 1,
+  "faults": [
+   "C2: points at nothing"
+  ]
+ },
+ "F99": {
+  "readers": 2,
+  "reread": 1,
+  "nonsense": 2,
+  "faults": [
+   "C1: contradicts F85, F88 and F98",
+   "C2: clashes with F85, F88 and F98"
+  ]
+ }
+}

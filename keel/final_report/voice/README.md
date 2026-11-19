@@ -8,6 +8,10 @@ rules."
 This folder is how Keel learns to do that before Fri 27 Nov, when the report is written. Content still comes first;
 this runs beside it, in every run, as a real share of the work.
 
+## From Fri 20 Nov: understood first, then ours (Caplet, Thu 19 Nov, Books 21 and 22)
+
+Two tests, in this order. First, and far more urgent: every sentence is understood by an intelligent reader on one reading and makes sense once understood. Second: a distinctive voice from Caplet's essay, IPS and Trading Notes reflections, keeping "we" at the rate Caplet's own writing uses it, explaining the why rather than compressing, with some dry wit, and neither plain-generic nor mannered. Rounds 11-22 and the Thu 26 rehearsal are listed in `../OVERDRIVE_PLAN.md`. Why version 61 failed, and the thirteen don'ts the checkers and readers use (writers never see them): `WHY_V61_FAILED.md`. Reader rules from now: Keel predicts which sentences fail before anyone reads; readers are calibrated on Caplet's seventeen version 61 lines (a reader who follows them all is not used); readers use only what the page says, paraphrase each sentence, and a reread counts as a failure. The writers' facts are `FACTS_PLAIN.md`, facts only.
+
 ## What changed, and what is retired
 
 The first study (`STUDY1_two_voices.md`, 8 Nov) set Keel's sentences against Caplet's, looked at word changes, and

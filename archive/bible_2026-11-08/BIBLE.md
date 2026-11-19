@@ -921,3 +921,107 @@ Data: FRED (Treasury yields, real yields, breakevens), the Treasury yield curve,
    Keel file never outranks a book: before Keel writes a new guard, it checks the guard against `keel/EXPECTATIONS.md`,
    and a guard that contradicts a book is void the moment it is found.
 5. "Is that clear?" Yes. Answered in the thread the same night.
+
+## Book 21: Make every sentence make sense; voice study in two categories (Caplet, Thu 19 Nov 2026, 17:47 Sydney)
+
+> Caplet's own words, verbatim, sent at 17:47 Sydney (06:47 UTC) on Thu 19 Nov and passed to this thread by the project
+> chat. The message as received ends mid-sentence ("So anyway: that"); the list of version 63 lines it mentions and the
+> attached essay did not arrive with it, and Caplet has been asked to resend both. Registered as I119 in
+> `keel/INSTRUCTIONS.md`; carried into `keel/EXPECTATIONS.md` as standing order 25.
+
+> I want you to put significantly more effort into voice studies. To help you, I've created a list of the lines in your final version of the IPS (v63) which didn't make any sense to us – see below. Please analyse these and how they compare to the lines in the rest of the IPS. This may be instructive. I've also got another material for you to use in your voice study – see attached. Again: it's not gospel, and you can't replicate its every structural or stylistic feature, because it was written for an English analytical essay, which is of course very different to an investing competition. But it'll give you a great idea of a distinctive voice and style and tone which is vastly different from the kind of generic AI voice you spit out every time you write. Overall, I suppose I want you to split your task into 2 categories henceforth. The first, and vastly more urgent, is to actually make your writing comprehensible to humans. This is absolutely imperative. I must be able to understand what you're saying without having to read over the sentence 3 times or figure out the logical chain you're trying to posit. But that's not even the primary problem; the primary problem is that, even after reading it 3 times and understanding the logical chain, the sentence simply does not make any sense. I genuinely don't know how to explain this to you. I'm hoping you'll be able to figure it out through osmosis, because that seems to be the only way. To be clear, we need to demonstrate erudition in our Final Report. I don't want you to restrict yourself to accessing a less-than-expansive vocabulary, or a simple syntactical style, or anything of that sort. The essay attached shows you that the style I like to employ, and I have no problem with sounding formal or intellectual or elevated in register – so long as it's comprehensible to an intelligent reader, which it most certainly is. So anyway: that
+
+**Keel's reading of Book 21.**
+1. Voice study now has two categories. The first, far more urgent, is that every sentence is understood by an
+   intelligent reader on one reading AND makes sense once understood. The second is a distinctive voice, style and
+   tone, learnt from Caplet's essay (pending) and Caplet's own writing, never copied feature by feature.
+2. Two faults, not one. A sentence can fail by being hard to follow (the reader must reread it or rebuild the chain),
+   and, worse, by making no sense even once followed. Caplet names the second as the primary problem.
+3. Erudition is wanted. Wide vocabulary, complex syntax, a formal or elevated register are all welcome, provided an
+   intelligent reader understands them. Short words are not the cure (Book 13 said the same).
+4. "Version 63" is Keel's last IPS draft, `/mnt/project-files/ips/FINAL/ips.txt` (6 Nov 07:30), built on the 244 words
+   Caplet wrote by hand that morning; version 62 (`ips_V62.txt`) is Keel's last draft before it.
+5. Until the list arrives, Keel finds the failing lines itself, writes its prediction down before any reader sees the
+   text, and scores the prediction against Caplet's list when it comes: `keel/final_report/voice/COMPREHENSION.md`.
+
+### Book 21, continued (Caplet, Thu 19 Nov 2026, 17:58 Sydney)
+
+> The rest of the message, sent at 17:58 Sydney (06:58 UTC) with the essay attached (kept private in the project folder,
+> `/mnt/project-files/voice/caplet_extension_essay_2026-11-19.pdf`, never copied into the repo). Registered as I120;
+> carried into standing order 25.
+
+> 's the first task. The second task is to create a distinctive and unique and original and engaging voice and style and tone which is deeply human. The generic AI prose which you use is problematic, in my opinion, EVEN IF it's comprehensible to readers. Firstly, because judges are smart, and they can tell when work is AI-generated. Secondly, because even if they don't figure it out, it's just not very effective or unique or capable of standing out from the crowd of AI-generated work. By the way: another good insight into our voice and style and tone is the IPS and Trading Notes Analyses we wrote. Anyway: voice studies are crucial. Yes, perhaps not as much as research and analysis, but still. On that front, by the way, I am deeply unimpressed. You seem to be falling into the same trap as you did in preparing the IPS: you're hunting for little tiny minor irrelevant fixes, which is of course useful, but not particularly meaningful in making our entire Final Report genuinely impressive and extraordinary and unexpected and unique and thoughtful and insightful and erudite and so forth. I've given you, a ridiculous number of times, a very clear explanation of exactly what I want you to do, and how I want you to carry out research and analysis, and what you're looking for, and so on. I don't know whether you've done this or not, but I don't get the impression that you have, and that's really frustrating me. Please show me what you're capable of, because right now, you're letting me down. By the way, v63 was basically just our own writing (slightly modified by you), so it's understandable. I want you to give me word-for-word the final version of the IPS you produced without us having provided any wording for you to go off. I'm imagining that would've been whatever came before v62, but thought I'd check. I also really can't be bothered to find it, so I'd much prefer if you could just give it to me, so I can directly hunt for incomprehensible lines. Also: I've attached the essay I mentioned earlier to this message. Apologies for its having been cut off.
+
+**Keel's reading of the second half.**
+1. The second task is a distinctive, original, engaging, deeply human voice. Generic AI prose fails "EVEN IF it's
+   comprehensible", because judges can tell and because it cannot stand out. Caplet's IPS and Trading Notes Analyses are
+   voice models beside the essay.
+2. Research and analysis still rank above voice ("perhaps not as much as research and analysis, but still").
+3. The research has drifted into "little tiny minor irrelevant fixes", the IPS's trap again (EXPECTATIONS 2.10, Book
+   9). Caplet's repeated instructions on how to research (Part 2 of the notes: read wider than anyone, apply, critique,
+   synthesise, find the connection nobody else would make, every part rests on research, the big picture) are to be
+   followed and seen to be followed: "Please show me what you're capable of".
+4. Version 63 was mostly Caplet's own writing. The last IPS Keel wrote with no wording from Caplet is version 62 (6 Nov
+   07:30; version 61 is the same text without the caplet sentences); sent word for word in the thread that evening.
+
+## Book 22: Caplet's list of the lines it could not follow in version 61, and three notes on how Keel writes (Caplet, Thu 19 Nov 2026, 18:24 Sydney)
+
+> Sent at 18:24 Sydney (07:24 UTC) through the coordinator, which added: work out entirely on your own why these
+> sentences fail, treating the questions as examples, not the whole list of causes; carry the lessons into the Final
+> Report. The quotations come from version 61 (`/mnt/project-files/ips/FINAL/ips_V61.txt`, "Five are funds ...") and
+> version 62 (`ips_V62.txt`), which share their body text. Registered as I121; carried into standing order 26. The
+> message breaks off mid-question ("anyone hears them") and resumes ("Anyway"); it is filed as it arrived.
+
+> What do you mean by 'a balanced mix'? What does that even mean? What do you mean by 'in a balanced mix every gain or loss would fall on the last third'? What gains or losses? How is the last third even being used? None of this is made clear. What on Earth do you mean by 'That third would swing like the shares of a heavily borrowed company'? What do you mean by 'swing'? You haven't even explained how it's going to be invested. And where did the 'heavily borrowed company' idea come from? What do you mean by 'Five are funds of Treasuries that all mature in one year'? That's just not true; they mature all in different years. What does 'what they hold' mean in 'paying out what they hold'? You haven't established this. What do you mean by 'the fund behind the 2033 payment'? What is this fund? You never said this. What does 'it costs less than it returns' mean? What does 'the difference, roughly its interest' mean? What interest? What difference? What do you mean by 'the shares only risk that interest'? Since when was VT only being funded by whatever 'interest' you're talking about? You say 'it is bought in 2028, not 2031', but where did the idea of buying it in 2031 come from in the first place? No one suggested it, and you make no explanation of why you randomly insert the year 2031 into this. What does 'it is bought in 2028, not 2031' have to do with 'the creative residency in Taiwan can't depend on shares'? The first is about time, and the second is about how the money is allocated and invested and any associated risk. In 'interest arrives years before the payment it serves' – again, what is the interest, and what do you mean by it 'serving' payments? What payments? What do you mean by 'money waits'? There's no reinvestment risk in our plan, as far as I'm aware; what do you mean? If you're wrong, don't say it; if you're right, actually explain it properly. What do you mean by 'up to half of shares'? Why 'up to'? If we don't have a single concrete number, why might it vary? What does the actual number depend on, given that we've got a cap rather than a number? What does 'if that half falls short' mean? What might it fall short of? What are you trying to say there? What do you mean by the '2028 holding', and since when did it have a 'payout'? What does 'the rest' mean? What do you mean by 'the bottom'? Where did that come from? The holding will pay 'after this' – after WHAT, exactly? What the hell does 'a fund's payout isn't fixed' have to do with a margin? If you've already sold half of VT for Treasuries, why are you going to sell the second half as well? What on Earth could possibly be the logic behind that? What is 'the top'? If we know how much Treasury funds will repay (yes, sure, they pay out NAV or whatever, but as we already discussed near the beginning of our entire conversation a couple months ago, this is pretty predictable, and the majority of the time it will be what you would expect), why do we still need to have a bottom and a top, given that we already know how much money we will have? What do you mean by 'both ends are owned before anyone hears them' – what does 'both ends' mean, and what does 'anyone hears themAnyway. I think you get the gist. You must analyse all of these weird quirks about your writing which mean that it's difficult for me to understand. I want you to analyse this entirely on your own. I also wanted to make 3 entirely separate observations, which are not related to any of those quotes specifically, should not affect how you analyse those quotes, and most certainly should not limit your interpretation of why we can't understand you; they're simply some further notes I would make in terms of the IPS in general, which are annoying. First of all, you constantly seek to take the 'we/us' out of the text. You say 'the 2028 deposit buys', not 'we use the 2028 deposit to buy'; 'what the ladder doesn't need buys more of the fund' rather than 'we use whatever the ladder doesn't need to buy more of the fund'; 'it is bought in 2028', not 'we buy it in 2028'; ; and so on. You seem to have an obsession with keeping us detached, and it's really annoying. Of course, don't use 'we/us' excessively to an unnatural extent; just learn from the way we write in our own IPS and Trading Notes Analyses. In addition, you seem to place a ridiculous premium on concision and explaining things in a single sentence as briefly and parsimoniously as possible over simply explaining things well, and it's really annoying. It also means that, even though some sentences are perfectly understandable, I just have to read over them multiple times to understand what exactly they're trying to say and WHY (i.e. the logic behind whatever they're saying.) Thirdly, you seem to have this really weird 'plain' writing style. It's not particularly obviously AI, so much as just being plain boring and generic and ordinary. There's no distinctiveness whatsoever. Claude usually does have a distinctive way of writing, it's just that that distinctive way of writing is so OBVIOUSLY Claude that it's worse than plain writing, because anyone would catch it. You must not fall into either trap. This is a serious issue.
+
+**Keel's reading.**
+1. This is the ground truth Book 21 promised. Caplet could not follow eleven of the first thirteen body sentences of
+   version 61 it reached before stopping (the notes are of version 61, Caplet's 18:35 message), and named for each what it could not find: a term never set up, a
+   pointer with nothing behind it, a contrast with an option nobody raised, a "because" joining two different
+   questions, an image whose source was never given, a false sentence ("Five are funds ... that all mature in one
+   year"), a risk asserted and never explained (reinvestment), and steps of the plan with no visible reason ("why sell
+   the second half as well?", "why do we still need to have a bottom and a top?").
+2. Keel analyses the causes on its own, beyond the questions: `keel/final_report/voice/WHY_V61_FAILED.md`.
+3. Where a quoted sentence was wrong, it is corrected; where it was right but unexplained (reinvestment, the margin, the
+   range once both ends are owned), it is explained properly, in the new way, in the same reply.
+4. Three standing notes, separate from the list: (a) keep "we" and "us" in the text, at the rate Caplet's IPS and
+   Trading Notes Analyses use them, never removed to sound detached and never overused; (b) explain things well, with
+   the reasoning (the why), rather than squeeze each idea into one parsimonious sentence; (c) neither the plain,
+   generic, ordinary style nor the obviously-Claude style: "You must not fall into either trap. This is a serious issue."
+
+### Book 22, continued (Caplet, Thu 19 Nov 2026, 18:28 Sydney)
+
+> The rest of the list, sent at 18:28 Sydney (07:28 UTC) through the coordinator: version 61/62 from "anyone hears
+> them" to the end. Part of I121 and standing order 26.
+
+> ' mean? What do you mean by 'up to the top'? What do you mean by 'whatever of the first half isn't sold' – the first half of what? Why wouldn't it all be sold? What do you mean by 'anything paid beyond the top' – what does 'paid' mean? To whom? For what? Why are your sentences so damn unclear? What's 'the extra reserve' and what's 'the money waiting for them'? Why are you so incapable of explaining things? What do you mean by 'she keeps room as the project develops'? This sounds like legalistic, jargonistic corporatespeak. What does she need to 'keep room' for, and what could 'the project developing' actually MEAN or LOOK LIKE or whatever? Why do you feel the need to explicitly signpost 'the plan's biggest strength' rather than just allowing that point's strength to carry itself? What is 'the tenth rung'? You haven't mentioned any 'rungs' up until now. What do you mean by 'what was set aside for it'? This could mean anything. From where?
+
+**Keel's reading.** With this half, Caplet could not follow 17 of version 61's 21 body sentences; only the first, the
+ladder's purchase, the name's letters and the inflation sentence passed. New kinds of fault in this half: the case's own
+abstract phrase repeated instead of translated into events ("keeps room as the project develops"); a sentence that
+grades its own point ("the plan's biggest strength") instead of letting it carry itself; and catch-all phrases for an
+accounting step never described ("what was set aside for it", "anything paid beyond the top", "the money waiting for
+them").
+
+### Book 22, continued (Caplet, Thu 19 Nov 2026, 18:31 and 18:35 Sydney)
+
+> Two further messages through the coordinator (07:31 and 07:35 UTC). Part of I121; I122 and I123; standing order 26.
+
+> Sorry – that cut off from somewhere in the middle of the first message. My bad. Keep everything I've said across both of these messages in mind. That's crucial. When you're evaluating voice and style and tone, and/or trying to decipher the nature and causes (get the reference?) of your own incomprehensibility, ensure that you don't just do a quick, superficial, surface-level analysis. You need to go deep. Understand the stylistic and structural features which create problems. Think hard. Really apply yourself. Voice studies are crucial. (However, keep in mind that research and analysis is still even more important. Please don't forget about them! I want to see that you have an absolute maximum-productivity overdrive plan for the next week and a bit in the lead-up to your first intensive report-writing session.)
+
+> Impressive in catching my reference. By the way – you can use that sort of dry humour and wit and cleverness like I just did. The judges will appreciate it, it's fun, it conveys personality, and it provides a distinctive voice. Just an idea. (Don't take this as a request to use my specific Adam Smith example. It just came to my mind that, in general, that type of wit and humour and cleverness is something judges would like.) There are many, many others you can take from the essay I wrote and the IPS and Trading Notes Analyses we wrote. Also: my critical notes on the IPS were of v61, not v62. And finally, note that I don't want you to answer my questions or explain things to me. I don't need that. Unless it's genuinely me being confused about our actual plan and/or strategy, which is only the case for a couple of the notes I made. Mostly, I just want you to make your own notes on my notes, so you know what NOT to do in the Final Report.
+
+**Keel's reading.**
+1. Both halves of the list count together. The analysis goes deep, to the stylistic and structural causes, never the
+   surface ("Think hard. Really apply yourself.").
+2. Research and analysis still rank above voice. Caplet wants to see "an absolute maximum-productivity overdrive plan"
+   for every day to the first writing session (Fri 27 Nov): `keel/final_report/OVERDRIVE_PLAN.md`, in the thread and
+   on the portal.
+3. Dry wit, humour and cleverness are welcome in the Final Report ("The judges will appreciate it, it's fun, it conveys
+   personality"), drawn from the many kinds in Caplet's essay, IPS and Trading Notes Analyses; never Caplet's Adam
+   Smith reference itself ("the nature and causes").
+4. The critical notes are of version 61, not 62.
+5. Do not answer Caplet's questions or explain the IPS back; make Keel's own notes on Caplet's notes, "so you know what
+   NOT to do in the Final Report". Explain only where Caplet is genuinely unsure about the plan (here: reinvestment
+   risk, and why two figures once both ends are owned).
+

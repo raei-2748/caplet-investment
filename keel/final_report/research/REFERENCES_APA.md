@@ -1186,6 +1186,116 @@ Velthuis and Gera (2025), row 117; Ellis and Davidi (2005), row 173; Gneezy and 
   rest of cards Q151-Q162's Sources: behind rows of 18 or less, store-only rows or judges' questions, so they stay with
   their cards.
 
+### 2l. Entries added 19 Nov 2026 (Thu evening): sources behind the landed rows of cards Q163-Q174
+
+Added by the big-ideas landing run of Thu 19 Nov evening: the sources behind the rows of cards Q163-Q174 that GEM_LEDGER
+section 16 lands in SKELETON as a ranked candidate or a plain line, in the aha register (test 9's six candidates and
+their four reserves) or in CONCEIT. As in sections 2g-2k, each entry is copied from its card's Sources section, the
+card's retrieval date moved to the Accessed column and its reading note to Status. Status "FROM CARD" until a
+references run re-checks it. Alphabetised, nothing from Wharton; the one Chinese-language entry (row 993) and the two
+German ones take a bracketed English title, as rows 437 and 445-449 do; the statutes and court cases (rows
+944, 945, 952, 954, 976 and 985) follow the cards' forms, and the owner places
+them under the legal-reference rule (section 5).
+
+| # | APA 7 entry | Card and row | Status | Accessed |
+|---|---|---|---|---|
+| 930 | Appian. (1913). *The civil wars* (H. White, Trans.; Loeb Classical Library), Book 2. LacusCurtius. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/2*.html | Q166 r9 (GEM_LEDGER 16: 3.0, first; aha reserve) | FROM CARD (2.41 read at source) | 19 Nov 2026 |
+| 931 | Association of British Orchestras & Music Publishers Association. (n.d.). *Guidelines for practice in music hire for youth orchestras*. https://files.abo.org.uk/production/files/Publications/Education/Guidelines-for-Practice-in-Music-Hire-for-Youth-Orchestras.pdf | Q174 r24 (2.0, plain fact behind "owned") | FROM CARD (read at source) | 19 Nov 2026 |
+| 932 | Audit Scotland. (2004). *Management of the Holyrood building project*. Auditor General for Scotland. https://audit.scot/uploads/docs/report/2004/nr_040629_holyrood_project.pdf | Q172 r22, r19 (3b, second; aha reserve) | FROM CARD (paras 2.6 and 9 read; first 100,000 characters) | 19 Nov 2026 |
+| 933 | Austen, J. (n.d.). *Sense and sensibility*, chapter II. Lit2Go, University of South Florida. https://etc.usf.edu/lit2go/167/sense-and-sensibility/2947/chapter-ii (Original work published 1811) | Q163 r9-10 (3b, fourth) | FROM CARD (read at source) | 19 Nov 2026 |
+| 934 | Austin, J. L. (1962). *How to do things with words* (J. O. Urmson, Ed.). Clarendon Press. | Q164 r25 (3c, plain, first) | FROM CARD (pp. 50-51 read in a course copy) | 19 Nov 2026 |
+| 935 | Balzac, H. de. (n.d.). *Rise and fall of César Birotteau* (K. P. Wormeley, Trans.). Project Gutenberg #1942 (mirror). https://ftp.mirrorservice.org/sites/gutenberg.org/1/9/4/1942/1942-0.txt (Original work published 1837) | Q163 r34 (3e, plain) | FROM CARD (read at source) | 19 Nov 2026 |
+| 936 | Baranska, A., ... Malissen, B. (2018). Unveiling skin macrophage dynamics explains both tattoo persistence and strenuous removal. *Journal of Experimental Medicine, 215*(4), 1115-1133. https://rupress.org/jem/article/215/4/1115/42419 | Q174 r22 (3e, plain, the custody line) | FROM CARD (read at source); ELEMENTS MISSING: full author list (copy from the article before use) | 19 Nov 2026 |
+| 937 | Baumol, W. J., & Bowen, W. G. (1966). *Performing arts: The economic dilemma*. Twentieth Century Fund. | Q171 r11, r19, r21 (2.3, second; 3a, plain, first) | FROM CARD (read in a copy of the 1978 reprint); the actors' line's page checked in a library copy before citing | 19 Nov 2026 |
+| 938 | Beckenhorst Press. (n.d.). *Creation: Score and parts rental*. https://beckenhorstpress.com/creation-score-parts-rental | Q174 r24 (2.0, with the ABO guidelines) | FROM CARD (read at source) | 19 Nov 2026 |
+| 939 | Blambot. (n.d.). *What happened to hand lettering?* https://blambot.com/pages/what-happened-to-hand-lettering | Q174 r4 (2.2, plain, first) | FROM CARD (read at source) | 19 Nov 2026 |
+| 940 | Bruni, L. (2021). *The market of donated women: Somewhere between inheritance and social cost*. Economia di Comunione. https://www.edc-online.org/en/publications/articles-by/luigino-bruni-s-articles/avvenire-editorial/other-series/the-market-and-the-temple/16742-the-market-of-donated-women-somewhere-between-inheritance-and-social-cost.html | Q166 r15 (3d, plain) | FROM CARD (the 1447 Strozzi letter read in Bruni's English; the Italian original unseen) | 19 Nov 2026 |
+| 941 | Cassius Dio. (1917). *Roman history* (E. Cary, Trans.; Loeb Classical Library), Book 55. LacusCurtius. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/55*.html | Q166 r2 (3c, third) | FROM CARD (55.23.1 and 55.25 read at source) | 19 Nov 2026 |
+| 942 | Chekhov, A. (1917). *The cherry orchard* (J. West, Trans.). In *Plays, second series*. Scribner's. https://www.ibiblio.org/eldritch/ac/chorch.htm (Original work published 1904) | Q163 r27 (2.2, third) | FROM CARD (Acts I-III read) | 19 Nov 2026 |
+| 943 | Cumbria County History Trust. (n.d.). *Seathwaite plumbago mine: Background*. https://www.cumbriacountyhistory.org.uk/seathwaite-plumbago-mine-background-above-derwent | Q174 r8 (2.0, plain fact behind "ink") | FROM CARD (read at source) | 19 Nov 2026 |
+| 944 | Dissolution and Calling of Parliament Act 2022, c. 11. https://www.legislation.gov.uk/ukpga/2022/11/pdfs/ukpga_20220011_en.pdf | Q165 r25 (3e, first; aha test 9) | FROM CARD (read at source); a statute, placed under the legal-reference rule (section 5) | 19 Nov 2026 |
+| 945 | Early Parliamentary General Election Act 2019, c. 29. http://www.legislation.gov.uk/ukpga/2019/29/contents | Q165 r24 (3e, first; aha test 9) | FROM CARD (read at source); a statute, as above | 19 Nov 2026 |
+| 946 | Eliot, G. (n.d.). *Middlemarch*, chapters XXIII-XXIV. Oratlas. https://www.oratlas.com/library/book/middlemarch/george-eliot/book-iii/chapter-xxiii (Original work published 1871-1872) | Q163 r29 (2.2, second), r31 (3d, plain) | FROM CARD (read at source; chapter XXIV at the same site) | 19 Nov 2026 |
+| 947 | Elster, J. (1995). Forces and mechanisms in the constitution-making process. *Duke Law Journal, 45*(2), 364-396. https://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=3297&context=dlj | Q165 r26 (3e, with the Fixed-term Parliaments Act) | FROM CARD (n. 42 read; about Poland's court, not the Act) | 19 Nov 2026 |
+| 948 | Erzbistum Köln. (2018, February 28). *Vor 150 Jahren verschwand ein Kölner Wahrzeichen: der Baukran auf dem Dom* [A Cologne landmark disappeared 150 years ago: the crane on the cathedral]. https://www.erzbistum-koeln.de/news/Vor-150-Jahren-verschwand-ein-Koelner-Wahrzeichen-der-Baukran-auf-dem-Dom | Q166 r22 (3b, third) | FROM CARD (read at source; the 1322 choir date is from a secondary source, to be read at source) | 19 Nov 2026 |
+| 949 | Evanier, M. (n.d.). *POV column 116*. News From ME. https://www.newsfromme.com/pov/col116 | Q174 r4 (2.2, with Blambot) | FROM CARD (read at source) | 19 Nov 2026 |
+| 950 | Financial Accounting Standards Board. (1983). *Extinguishment of debt* (Statement of Financial Accounting Standards No. 76). https://www.fasb.org/page/PageContent?bcpath=tff&pageId=%2Freference-library%2Fsuperseded-standards%2Fsummary-of-statement-no-76.html | Q173 r3 (2.0, second), r1 (3a, wording) | FROM CARD (paras 3(c), 4 and 24-25 read in the full text reproduced in the AICPA's Financial Report Survey 32, https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=1192&context=aicpa_news; superseded in 1996) | 19 Nov 2026 |
+| 951 | Financial Accounting Standards Board. (1996). *Accounting for transfers and servicing of financial assets and extinguishments of liabilities* (Statement of Financial Accounting Standards No. 125). https://www.fasb.org/page/PageContent?bcpath=tff&pageId=%2Freference-library%2Fsuperseded-standards%2Fsummary-of-statement-no-125.html | Q173 r11 (3a, wording) | FROM CARD (summary and para 16 read; superseded by No. 140) | 19 Nov 2026 |
+| 952 | Fixed-term Parliaments Act 2011, c. 14, s. 2 (as enacted). https://www.legislation.gov.uk/ukpga/2011/14/section/2/enacted | Q165 r23 (3e, first; aha test 9) | FROM CARD (ss. 1-2 read at source); a statute, as above | 19 Nov 2026 |
+| 953 | Flyvbjerg, B. (2021). The fallacy of beneficial ignorance: A test of Hirschman's Hiding Hand. *World Development*. https://ora.ox.ac.uk/objects/uuid:248c82ce-09f2-4a4f-957b-1177a859cda2/files/m0a8cca721e0df79d8e0667b5488b8cec | Q172 r14-15, r19 (3c, fourth; 3b's Transbay fact) | FROM CARD (accepted manuscript, version 5.2, Table 1 read); ELEMENTS MISSING: volume and article number | 19 Nov 2026 |
+| 954 | Franklin Foundation v. Boston, 336 Mass. 39 (1957). https://www.courtlistener.com/opinion/2049793/franklin-foundation-v-city-of-boston | Q167 r9 (3.0, second) | FROM CARD (read at source); a court case, placed under the legal-reference rule (section 5) | 19 Nov 2026 |
+| 955 | Heaton-Jones, P. (2024, June 7). *Early election? More like a return to normal*. The Constitution Society. https://consoc.org.uk/early-election-return-to-normal/ | Q165 r24-25 (3e, first) | FROM CARD (read at source) | 19 Nov 2026 |
+| 956 | Hirschman, A. O. (1967). The principle of the hiding hand. *The Public Interest*. https://iwpbooks.me/wp-content/uploads/2023/04/hiding.pdf | Q172 r13-14 (3c, fourth) | FROM CARD (excerpt read; the mechanism as quoted in Flyvbjerg, 2021); ELEMENTS MISSING: issue and pages | 19 Nov 2026 |
+| 957 | Hobbes, T. (1651). *Leviathan* (Chapter 14). Standard Ebooks. https://standardebooks.org/ebooks/thomas-hobbes/leviathan/text/chapter-14 | Q164 r17 (3d, plain); r16 (CONCEIT, for its owner) | FROM CARD (read at source; modernised spelling) | 19 Nov 2026 |
+| 958 | Homer. (1919). *The Odyssey* (A. T. Murray, Trans.; Book 12). Harvard University Press. https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136:book=12 | Q165 r2-4 (2.0, plain), r6 (3e, plain) | FROM CARD (read at source; also Theoi Classical Texts Library); the picture set aside on card Q7b row 42, so the lines go in plain words | 19 Nov 2026 |
+| 959 | House of Commons Library. (2020, January 14). *The Fixed-term Parliaments Act*. https://commonslibrary.parliament.uk/the-fixed-term-parliaments-act/ | Q165 r24 (3e, first) | FROM CARD (read at source) | 19 Nov 2026 |
+| 960 | Hume, D. (1739-40). *A treatise of human nature* (Book 3, Part 2, Section 5: Of the obligation of promises). davidhume.org. https://davidhume.org/texts/t/3/2/5 | Q164 r9 (3d, plain) | FROM CARD (T 3.2.5.8 read at source) | 19 Nov 2026 |
+| 961 | Institute for Government. (2017, April 21). *Election 2017: Putting the Fixed-term Parliaments Act into practice*. https://www.instituteforgovernment.org.uk/article/comment/election-2017-putting-fixed-term-parliaments-act-practice | Q165 r24-25 (3e, first) | FROM CARD (read at source) | 19 Nov 2026 |
+| 962 | Keynes, J. M. (1937). The general theory of employment. *The Quarterly Journal of Economics, 51*(2), 209-223. https://doi.org/10.2307/1882087 | Q168 r3 (3a, third; aha reserve) | FROM CARD (pp. 213-214 read) | 19 Nov 2026 |
+| 963 | Kirshner, J., & Molho, A. (1978). The dowry fund and the marriage market in early Quattrocento Florence. *The Journal of Modern History, 50*(3), 403-438. | Q166 r1 (3e, plain), r13 (the H4-035 store correction) | FROM CARD (p. 438 and n. 65 read in an academia.edu copy) | 19 Nov 2026 |
+| 964 | Klein, T. (n.d.). *Balloon placement*. Kleinletters. https://kleinletters.com/BalloonPlacement.html | Q174 r5 (3f, fact-only note) | FROM CARD (read at source) | 19 Nov 2026 |
+| 965 | Knight, F. H. (1921). *Risk, uncertainty and profit*. Houghton Mifflin. https://www.econlib.org/library/Knight/knRUP8.html | Q168 r13-14 (2.3, fourth) | FROM CARD (Part III, ch. IX read at econlib.org) | 19 Nov 2026 |
+| 966 | Kölner Dombauhütte. (n.d.). *Geschichte* [History]. https://www.koelner-dombauhuette.de/wissenswertes/geschichte | Q166 r22 (3b, third) | FROM CARD (read at source) | 19 Nov 2026 |
+| 967 | Lejeune, P. (1989). *On autobiography* (P. J. Eakin, Ed.; K. Leary, Trans.). University of Minnesota Press. | Q174 r13-14 (3d, second) | FROM CARD (pp. 22-23 read in a university course copy; French original, *Le pacte autobiographique*, Seuil, 1975, also read) | 19 Nov 2026 |
+| 968 | Menger, P.-M. (1999). Artistic labor markets and careers. *Annual Review of Sociology, 25*, 541-574. https://www.college-de-france.fr/media/sociologie-travail-createur/UPL2430709424450709910_Artistic_labor_1999.pdf | Q171 r1 (3e, Table 3's yields row; Throsby's model as Menger states it) | FROM CARD (p. 562 read) | 19 Nov 2026 |
+| 969 | Mueller, R. C. (n.d.). [Venetian public debt and the Monte Vecchio]. Royal Netherlands Academy of Arts and Sciences (KNAW) Digital Library. https://dwc.knaw.nl/DL/publications/PU00010583.pdf | Q166 r17 (2.2, first) | FROM CARD (read at source); ELEMENTS MISSING: title and date (the card gives a description in brackets) | 19 Nov 2026 |
+| 970 | Muhlen-Schulte, M. (2024, August 19). 9. The house the lotteries built. In *Walking a tightrope: NSW Treasury bicentenary*. NSW Government. https://www.nsw.gov.au/departments-and-agencies/nsw-treasury/about-us/nsw-treasury-bicentenary/walking-a-tightrope/moments/house-lotteries-built | Q172 r4, r19 (3b, second; aha reserve) | FROM CARD (read at source) | 19 Nov 2026 |
+| 971 | Munro, J. H. (n.d.). *Usury, medieval public finance and the Italian public debt* [Lecture slides]. University of Toronto. https://www.economics.utoronto.ca/munro5/UsuryMedPublicFinance2.pdf | Q166 r17 (2.2, first) | FROM CARD (read at source) | 19 Nov 2026 |
+| 972 | Nietzsche, F. (1913). *The genealogy of morals* (H. B. Samuel, Trans.). Standard Ebooks. https://standardebooks.org/ebooks/friedrich-nietzsche/the-genealogy-of-morals/horace-b-samuel/text/chapter-2 (Original work published 1887) | Q164 r1-3 (3.0, fourth; 3d, plain) | FROM CARD (Second Essay, ss. 1-2 read) | 19 Nov 2026 |
+| 973 | Parliament of Tasmania. (1886). [Report on friendly societies] (Parliamentary Paper 61). https://www.parliament.tas.gov.au/__data/assets/pdf_file/0018/21195/1886pp61.pdf | Q166 r29, r31 (3e, third; 3a, fourth) | FROM CARD (read at source); ELEMENTS MISSING: title (the card gives a description in brackets) | 19 Nov 2026 |
+| 974 | Pliny the Younger. (n.d.). *Letters* 10.39-10.40 [Latin text with notes]. Dickinson College Commentaries. https://dcc.dickinson.edu/pliny-letters/10-39 | Q167 r23-24 (3d, first, as SD-3's evidence; aha reserve) | FROM CARD (Latin read with notes; English at Roman Letters, http://romanletters.org/letters/pliny_younger/10039) | 19 Nov 2026 |
+| 975 | Promethean Editions. (n.d.). *Music hire*. https://www.prometheaneditions.com/pages/music-hire | Q174 r24 (2.0, with the ABO guidelines) | FROM CARD (read at source) | 19 Nov 2026 |
+| 976 | Reckendorfer v. Faber, 92 U.S. 347 (1876). https://www.law.cornell.edu/supremecourt/text/92/347 | Q174 r1-2 (2.3, first; aha test 9) | FROM CARD (read at the Legal Information Institute and in the US Reports scan); a court case, placed under the legal-reference rule (section 5) | 19 Nov 2026 |
+| 977 | Rengers, M. (2002). *Economic lives of artists: Studies into careers and the labour market in the cultural sector* [Doctoral dissertation, Utrecht University]. https://dspace.library.uu.nl/bitstream/handle/1874/815/full.pdf | Q171 r1 (3e, Table 3's yields row; Throsby's model as Rengers states it) | FROM CARD (ch. 2 read) | 19 Nov 2026 |
+| 978 | Rosen, S. (1981). The economics of superstars. *American Economic Review, 71*(5), 845-858. | Q171 r11 (2.3, second; Rosen's point said plainly) | FROM CARD (read in full) | 19 Nov 2026 |
+| 979 | Savage, L. J. (1972). *The foundations of statistics* (2nd rev. ed.). Dover. (Original work published 1954) | Q168 r22 (3.0, plain), r23 (CONCEIT, for its owner) | FROM CARD (pp. 16-17 read) | 19 Nov 2026 |
+| 980 | Schaede, U. (1989). Forwards and futures in Tokugawa-period Japan: A new perspective on the Dōjima rice market. *Journal of Banking & Finance, 13*, 487-513. https://www.sfu.ca/~poitras/JBF_Tokugawa-Japan_89.pdf | Q170 r10-11, r13 (2.0, first, or 3d; aha test 9) | FROM CARD (pp. 492-494 and 507 read) | 19 Nov 2026 |
+| 981 | Searle, J. R. (1965). What is a speech act? In M. Black (Ed.), *Philosophy in America* (pp. 221-239). Allen and Unwin. | Q164 r25 (3c, plain, first) | FROM CARD (read in a reprint) | 19 Nov 2026 |
+| 982 | Seneca, L. A. (1935). *Moral essays III: De beneficiis* (J. W. Basore, Trans.). Harvard University Press. | Q167 r12 (3c, second); Q164 r27 (3d, plain) | FROM CARD (4.34-4.39 read in Latin and in English; card Q164 read Book IV in the 1887 English text on Wikisource) | 19 Nov 2026 |
+| 983 | Shakespeare, W. (n.d.). *The merchant of Venice*. Project Gutenberg #1515. https://www.gutenberg.org/cache/epub/1515/pg1515.txt (Original work published 1600) | Q163 r4-5 (3a, first challenger; aha test 9) | FROM CARD (1.3 and 5.1 read) | 19 Nov 2026 |
+| 984 | Shiller, R. J. (2003). *The new financial order: Risk in the 21st century*. Princeton University Press. | Q170 r1-2 (2.3, third) | FROM CARD (introduction and ch. 8, p. 109, read) | 19 Nov 2026 |
+| 985 | Sydney Opera House Act 1960 No 29 (NSW). https://legislation.nsw.gov.au/view/pdf/asmade/act-1960-29 | Q172 r1-3 (3c, first; aha test 9) | FROM CARD (as made, assented 19 April 1960, ss 2(4) and 4 read; the consolidated version with its amendment history also read); a statute, placed under the legal-reference rule (section 5) | 19 Nov 2026 |
+| 986 | Tacitus. (n.d.). *The annals*, Book 1 (A. J. Church & W. J. Brodribb, Trans.). MIT Internet Classics Archive. https://classics.mit.edu/Tacitus/annals.1.i.html | Q166 r4-5 (3c, third), r1 (3e, plain) | FROM CARD (1.17, 1.36 and 1.78 read) | 19 Nov 2026 |
+| 987 | Takatsuki, Y. (2012). *The formation of an efficient market in Tokugawa Japan* (Discussion Paper DP2012-21). Research Institute for Economics and Business Administration, Kobe University. https://www.rieb.kobe-u.ac.jp/academic/ra/dp/English/DP2012-21.pdf | Q170 r14 (3d, third) | FROM CARD (p. 5 read) | 19 Nov 2026 |
+| 988 | Tansey, E. (2016). *Branches from the baron: Cincinnati's Carnegie libraries*. University of Cincinnati. https://scholar.uc.edu/downloads/wp988k08d | Q167 r1, r9 (3.0, second) | FROM CARD (read; it quotes Bertram to Porter, 6 June 1916, and the Cincinnati Enquirer, 4 October 1916) | 19 Nov 2026 |
+| 989 | Te Ara. (1966). Freemasonry and friendly societies. In A. H. McLintock (Ed.), *An encyclopaedia of New Zealand*. https://teara.govt.nz/en/1966/freemasonry-and-friendly-societies/page-3 | Q166 r29 (3e, third) | FROM CARD (read at source) | 19 Nov 2026 |
+| 990 | Throsby, D. (1994). A work-preference model of artist behaviour. In A. Peacock & I. Rizzo (Eds.), *Cultural economics and cultural policies* (pp. 69-80). Springer. https://link.springer.com/chapter/10.1007/978-94-011-1140-9_6 | Q171 r1-2 (3e, Table 3's yields row) | FROM CARD (chapter abstract only; the model read as Rengers and Menger state it) | 19 Nov 2026 |
+| 991 | Thucydides. (1874). *History of the Peloponnesian War* (R. Crawley, Trans.), 2.24 and 8.15. Perseus Digital Library. https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0200%3Abook%3D2%3Achapter%3D24 | Q166 r7-8 (3b, first, or 3e; aha test 9) | FROM CARD (read at source; 8.15 at https://pages.pomona.edu/~cmc24747/sources/thucydides/thuc_8.htm) | 19 Nov 2026 |
+| 992 | Trollope, A. (n.d.). *The way we live now*, chapter 73, "Marie's fortune". HackerNoon (Project Gutenberg text). https://hackernoon.com/maries-fortune (Original work published 1875) | Q163 r23 (3e, plain) | FROM CARD (read at source) | 19 Nov 2026 |
+| 993 | 教育部 [Ministry of Education]. (2020). 破釜沉舟 [Break the cauldrons and sink the boats]. In *成語典* [Dictionary of Chinese idioms]. https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1880&la=0&webMd=2 | Q165 r35 (3.0, third) | FROM CARD (the card's entry 1718/1880 read, with its opposite, 急流勇退; the Shiji passage in the Tianmu translation) | 19 Nov 2026 |
+
+**Behind tonight's landed rows, already in the list** (cited by row, not re-added): Ashraf, Karlan and Yin (2006), row 3
+(Q165 r29, 3e beside the Fixed-term Parliaments Act); Governmental Accounting Standards Board (2017), Statement No. 86,
+row 181 (Q173 r19 and r22, 3a, second).
+
+**Behind tonight's rows but not added** (each with its reason):
+- Chekhov in Garnett's translation (Q163 r25): 3d's plain line names no play; West's translation carries Q163 r27.
+- Dickens, Ibsen, Gogol and Wharton (Q163 r1 and the card's other rows): behind 2.2's plain line only, which names no
+  work, or behind rows of 18 or less.
+- Kant (1785) and Arendt (1958, a French excerpt only) behind Q164 r30's plain line and Q164's gaps; Seneca in the 1887
+  English text (Q164 r27): the same Book IV as the Loeb entry above.
+- Strotz (1955-56), Thaler and Shefrin (1978; published 1981), Elster (2000, row 48), Kydland and Prescott (1977, row
+  84) and the rest of card Q165's Sources: behind 3c's store line (Q165 r11) or rows of 18 or less.
+- Plebani (2023), Hansard (9 March 1888) and the other sources of Q166 r1's synthesis; the Strozzi letter's Italian
+  original (unseen); Franklin's codicil and the Philanthropy Roundtable (Q166 r27-28), the Opera della Metropolitana and
+  Sienanews (Q166 r24), the Catholic Encyclopedia (Q166 r20), Augustus, Luther and the Cologne society's sources (Q166
+  r3, r23, r26): behind store lines.
+- Franklin Foundation v. Attorney General (1960) and the Appalachian State page (Q167 r7), Mauss (1925; Q167 r26), the
+  City of Boston (1922) and the National Park Service nominations (Q167 r8): behind store lines or rows of 18 or less.
+- Keynes (1921), Bernoulli (2006), Hubert (2023), Peters (2019), Gigerenzer (2021) and the 1919 Victory Bond sources
+  (card Q168): behind 3a's store lines or merged rows.
+- Damodaran's papers and pages (card Q169): no row of 19 or more; rows 30-31 drove the H6 store correction (GEM_LEDGER
+  16), which cites the card.
+- Shiller (2008, 2011, 2012), Abramowicz (2020) and West (2000) (card Q170): behind store lines (tenure, Q170 r5; the
+  merged no-precedent row); West (2000) also sits behind Q170 r10, whose figures are Schaede's.
+- Noonan and Woronkowicz (2026; Q171 r6), Menger (2006) and the Taiwan Ministry of Labor tables (Q171 r11's one figure,
+  added if a writer keeps it): behind store lines or a figure the density cut keeps out of prose.
+- The Opera House's other pages, Akst (2023), Flyvbjerg and Sunstein (2016), Kahneman (2011) and Zimina et al. (2012)
+  (card Q172): behind store lines or rows of 18 or less.
+- FASB No. 140, ASC 405-20 as read in Deloitte and PwC, and the other sources of card Q173: behind store lines.
+- Lejeune's French original, Inserm (2018) and the rest of card Q174's Sources: behind the entries above or rows of 18
+  or less; the four refused rows (r18, r21, r25, r29) carry none.
+
 ## 3. Retractions
 
 Method: every journal article above that has a DOI was run through Crossref's update filter
