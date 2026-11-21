@@ -1,0 +1,125 @@
+{
+ "v61_followed_by_caplet": [
+  1,
+  5,
+  6,
+  8
+ ],
+ "v61_unflagged_r11": [
+  12,
+  13,
+  16,
+  20,
+  21
+ ],
+ "readers": {
+  "1": {
+   "role": "You read as a finance professor judging this competition, wh",
+   "order": [
+    "W4",
+    "W3",
+    "K2",
+    "W1",
+    "X3",
+    "V4",
+    "X4",
+    "X1",
+    "C3",
+    "C4"
+   ],
+   "labels": {
+    "P101": "W4",
+    "P102": "W3",
+    "P103": "K2",
+    "P104": "W1",
+    "P105": "X3",
+    "P106": "V4",
+    "P107": "X4",
+    "P108": "X1",
+    "P109": "C3",
+    "P110": "C4"
+   }
+  },
+  "2": {
+   "role": "You read as a strictly literal reader. You take every word a",
+   "order": [
+    "C4",
+    "X3",
+    "C3",
+    "W3",
+    "V4",
+    "X4",
+    "X1",
+    "K2",
+    "W4",
+    "W1"
+   ],
+   "labels": {
+    "P201": "C4",
+    "P202": "X3",
+    "P203": "C3",
+    "P204": "W3",
+    "P205": "V4",
+    "P206": "X4",
+    "P207": "X1",
+    "P208": "K2",
+    "P209": "W4",
+    "P210": "W1"
+   }
+  },
+  "3": {
+   "role": "You read as a logician checking an argument. For every sente",
+   "order": [
+    "W1",
+    "W4",
+    "W3",
+    "X1",
+    "V4",
+    "C3",
+    "X4",
+    "C4",
+    "K2",
+    "X3"
+   ],
+   "labels": {
+    "P301": "W1",
+    "P302": "W4",
+    "P303": "W3",
+    "P304": "X1",
+    "P305": "V4",
+    "P306": "C3",
+    "P307": "X4",
+    "P308": "C4",
+    "P309": "K2",
+    "P310": "X3"
+   }
+  },
+  "4": {
+   "role": "You read as the client in the case: a writer and illustrator",
+   "order": [
+    "W1",
+    "C3",
+    "C4",
+    "W3",
+    "X1",
+    "V4",
+    "X3",
+    "X4",
+    "K2",
+    "W4"
+   ],
+   "labels": {
+    "P401": "W1",
+    "P402": "C3",
+    "P403": "C4",
+    "P404": "W3",
+    "P405": "X1",
+    "P406": "V4",
+    "P407": "X3",
+    "P408": "X4",
+    "P409": "K2",
+    "P410": "W4"
+   }
+  }
+ }
+}

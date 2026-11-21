@@ -63,8 +63,8 @@ confidence) words it.
 **D2. A fund is not a bond: say what she holds** (bond 1, 2, 24; plain 4, 36). Five payments and both ends of the range
 rest on iBonds funds, which pay out their net asset value; IBTM's prospectus: the fund "does not seek to return any
 predetermined amount at maturity", and the team's own Trading Note said "the final payout is not fixed". So: at first
-mention in each part, "a Treasury fund that holds only Treasuries maturing in 2032 and pays out what they are worth in
-mid-December 2032"; the strong words (guaranteed, risk-free, set in stone) go on the Treasuries and on the five bonds held
+mention in each part, "a Treasury fund that holds Treasuries maturing in 2032 and, about 15 December 2032, pays its
+holders everything it then has" (corrected Sun 22 Nov, card Q208: never "only", which the prospectus does not say); the strong words (guaranteed, risk-free, set in stone) go on the Treasuries and on the five bonds held
 to maturity, never on a fund's payout; the 0.5% margin is shown as the answer to the prospectus line, which the report
 quotes. Ink is redefined: a dollar figure that the Treasuries and Treasury funds she owns will pay at their end, counted
 as if their cash earned nothing more, after the margin. "In every model future the fund pays at least the top" is never
@@ -90,8 +90,8 @@ printed, the seam is shown, and nothing is said to have changed. Lands: SKELETON
 **D4. The career thesis: what the evidence supports** (bond 15; professor 4; plain 2). The store's own rows show
 Laura's career moving apart from shares in 2020 and 2023, and Taiwan's arts budget rising in 2009. The report evaluates
 IPS l.9 by its own words, "later and smaller": the risk the plan acts on is the timing and size of one dated cash flow,
-the January 2028 deposit (advances paid in instalments and stretched in 2020; sole proprietors' receipts down 11.6% in
-2009), and the finance name for volatile income that need not move with shares is background risk (Kimball 1993; Heaton
+the January 2028 deposit (advances paid in instalments and stretched in 2020; one-person artists' and writers' receipts down 7.8% in
+2009, Census; corrected Sun 22 Nov, card Q206: the 11.6% was the whole arts, entertainment and recreation sector, gyms included), and the finance name for volatile income that need not move with shares is background risk (Kimball 1993; Heaton
 and Lucas 2000), which also argues for caution. "The same downturn" is said as "can", never as a measured link; the
 report never narrows whom IPS l.9 meant by co-sponsors (campaign 28). Dropped from the career argument: the -22.4% of
 2023 (adult graphic novels, led by manga; *Messy Roots* is a young-readers memoir) and the top 0.1% of earners. Lands:
@@ -139,7 +139,7 @@ currency her Treasuries pay, with its NT$ value on a named day; her flexibility 
 value whole if the Taiwan dollar strengthens, which is IPS l.15's second use. Cover is said in dollars first (about
 $21,200 in the central case, about $28,700 with anything above the top, about $9,600 at 1 in 20) and as "a rise of about
 a quarter in the cost of her share", never "a building-cost rise of 25%"; the gentle test (the currency alone, 93 in 100)
-and the hard one (costs and currency together, 1 in 20, about $32,200, more than all she keeps) are given together with
+and the hard one (costs and currency together, about $32,200, more than all her flexibility; four dated episodes since 1991, never "1 in 20", corrected Sun 22 Nov, card Q210) are given together with
 who carries the rest. One clause in 3e: the ten payments are fixed in US dollars by the case, so their NT$ value moves.
 Lands: SKELETON 3b, 3d, 3e; FACTS_PLAIN v3. Card Q203 (second wave).
 
@@ -175,7 +175,7 @@ sentence (about $36,800 of the 2028 deposit, most of it back by 2042 if rates co
 prices). Forward rates are "the rates implied by today's prices", never "what the market expects" (they carry a term
 premium); "the same as a flat 5.12% a year on every waiting dollar", never "every coupon". The textbook case for the
 standard is the forward-rate bias (Fama and Bliss 1987; Campbell and Shiller 1991), stated before the 585-month replay,
-whose method (rate levels, not errors against each start's forwards) is named. The test runs the ten bond by bond and pools
+whose method is named: history's moves in the one-year yield, applied in proportion to today's forward rates, so it assumes no term premium (corrected Sun 22 Nov, card Q205; never "rate levels"). The test runs the ten bond by bond and pools
 only the extra Treasuries (bond 9; see "Answers that came back"). Lands: WORDS.md, FACTS_PLAIN v3,
 SKELETON 3a. Cards Q195 (this morning) and Q205 (second wave); `NUMBERS_ANSWERS.md`.
 
@@ -187,9 +187,9 @@ against none" is never said without "once the 2028 deposit is in" (plain 8).
 
 **D16. 3f: no outside anchor, one figure, the deposit at the centre** (professor 8; plain 18, 19; bond 18). The SEC's
 90% (proved oil and gas reserves) and the judges' 90% leave 3f: the team's own reason (how a writer is paid, IPS l.9)
-needs no outside threshold, and the nearest real standard (an insurer's 99.5% a year, about 97% over six years) sits just
+needs no outside threshold (card Q209, Sun 22 Nov: the 27 Sep model gave the first plan the full 2028 deposit whatever shares did, the very assumption IPS l.9 rejects; after a year of falling shares, half a deposit made it miss about 1 time in 4), and the nearest real standard (an insurer's 99.5% a year, about 97% over six years) sits just
 above 96.8%, so any anchor reads as chosen. One figure in 3f (1 in 31); the deposit case at its centre (about 1 in 7 with
-half a deposit, against none). No event told as blame (who fell asleep); the mis-click only as the reason for the
+half a deposit, against none at today's rates; card Q209). No event told as blame (who fell asleep); the mis-click only as the reason for the
 one-trader rule; the price check stays in 2.5. Lands: SKELETON 3f, AHA_REGISTER row 10.
 
 **D17. Hidden rules shown once** (bond 26; professor 14). The floor's split rule is stated once in a note: what is left

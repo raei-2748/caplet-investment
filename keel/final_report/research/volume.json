@@ -1,25 +1,25 @@
 {
- "built": "2026-11-22T09:07+11:00",
+ "built": "2026-11-22T09:49+11:00",
  "today": "2026-11-22",
- "store_ideas": 9603,
- "store_judged": 8659,
+ "store_ideas": 9820,
+ "store_judged": 8990,
  "totals": {
-  "workers": 420,
-  "cards": 234,
-  "rows": 8343,
-  "sources": 8197,
-  "passages": 139,
-  "readings": 62
+  "workers": 444,
+  "cards": 241,
+  "rows": 8560,
+  "sources": 8333,
+  "passages": 149,
+  "readings": 72
  },
  "days": [
   {
    "day": "2026-11-22",
-   "workers": 0,
-   "cards": 16,
-   "rows": 493,
-   "sources": 305,
-   "passages": 14,
-   "readings": 6
+   "workers": 24,
+   "cards": 23,
+   "rows": 710,
+   "sources": 441,
+   "passages": 24,
+   "readings": 16
   },
   {
    "day": "2026-11-20",
@@ -219,6 +219,14 @@
    "analysis_workers": "15",
    "readers": "10",
    "notes": "Attack day. Four judges who had never seen the work (a fixed-income portfolio manager, a finance professor, a capital-campaign director, a plain reader), each scored only on Wharton's guide, made 144 attacks on the plan, the store's top 50, the aha register and the syntheses; every attack has Keel's answer and 22 decisions in `research/ATTACKS.md`, and 50 store rows were demoted or reworded. Twelve research workers on the investing ideas under the plan (cards Q188-Q199: Tobin, Roy, volatility drag, Black and Tepper, barbell and ladder, margin of safety, Hamilton, preferred habitat, safe assets, deep risk, survivorship, ergodicity), 378 rows, every row rated the same morning by nine raters; four second-wave workers on the attacks (Q200 pledges that count, Q201 who pays overruns, Q202 what funders check, Q207 the 2022 gilt crisis and SVB at source), 114 rows; seven more second-wave cards (Q203-Q206, Q208-Q210) stopped at the weekly limit and resume. Analysis: NUMBERS section 9's open items, the bond judge's arithmetic (the test keeps each payment's own coupons; the WInS book reconciled), a picture of where the money goes (12 of version 61's 26 questions answered alone), the fact sheet checked (33 problems) and rebuilt as version 3. Voice round 11: six blind readers, three writers; store 9,603 ideas"
+  },
+  {
+   "date": "2026-11-22",
+   "run": "days 14-15 (paced, about half volume)",
+   "research_workers": "7",
+   "analysis_workers": "7",
+   "readers": "10",
+   "notes": "Days 14 and 15 together, paced at about half last week's volume while the pacing decision waits (the weekly limit resets Sun 29 Nov 09:00). Structure from the material: the argument tree (ARGUMENT_TREE.md: governing thought, seven branches, ten ahas re-slotted, one outside parallel per part, forty goldmine nuggets placed), the lead decided (the deletion test), SKELETON and CASE_MAP section D refined, Caplet's one-page shape (caplet/FR_SHAPE_2026-11-22.md). Third research round aimed at the attacks: seven second-wave cards (Q203-Q206, Q208-Q210), every row rated the same day by three raters (DV, DW, DX; 331 rows). Voice round 13 (two long pieces, six blind readers, per paragraph and from memory) and round 12 (two writers, four blind readers, the Why column); fact sheet versions 4 and 5. Store 9,820."
   }
  ],
  "cards": [

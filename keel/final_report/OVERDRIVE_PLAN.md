@@ -80,6 +80,13 @@ voice in this plan run beside it, never instead of it. Evening runs start at 19:
 | Thu 26 | Every file the writers need checked against every other; a pre-mortem on the writing day; the writing session's plan written | Research on whatever judging panel 6 finds weakest | Every outside fact the report will use read again at its source | Final layouts; the writing day's files ready | Rehearsal: the 27 November loop run once on two parts, timed |
 | Fri 27 | Writing session (24 hours, at least twelve rounds) | | | | A sense check after every draft |
 
+**As run, Sun 22 Nov (days 14 and 15 together, at about half volume while the pacing decision waits).** The argument
+tree and the shape for Caplet were done; the third research round was the second-wave attack cards (Q203-Q206,
+Q208-Q210), not Sat 21's two research themes, which wait. Voice: round 12 ("we" and the why) ran; round 13 became the
+long-form round the Day 15 schedule asked for (set-up and payoff over 2,400 words); dry wit and the essay's way of
+arguing move to rounds 14-15 with round 12's cold retelling test. Not yet done from Sat 21's row: the page budget laid
+out in 12-point Times, double-spaced; it goes to Mon 23's analysis.
+
 ## The questions for each run
 
 The part of the report each question serves is in brackets. Every researcher is briefed to find the relation that does
