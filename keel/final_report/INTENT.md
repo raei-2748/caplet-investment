@@ -1,5 +1,7 @@
 # Intent: what the Final Report must leave in a judge's head (version 2, Tue 10 Nov 2026, amended Wed 11 Nov morning and evening, Thu 12 Nov morning and evening and Fri 13 Nov morning and evening; first version Mon 9 Nov night)
 
+**Attack day (Fri 20 Nov 2026; `research/ATTACKS.md`).** The governing thought takes a date: from January 2028 every dollar she has promised is held in Treasuries; in 2027 the gap is about $39,000, and the 2028 deposit fills it first (D20). Failure 7's "never print $75,001" is withdrawn: the split rule is stated once in a note (D17). The WInS book's difference from the plan is printed as a reconciliation under Table 1 with one reason (the book was built before the reserve was sized); "never 'after the freeze', 'a new standard' or 'we changed'" stands (D3). The range has one form everywhere (D1).
+
 Planning notes, not report text. No sentence here is meant to be pasted into the report. Every figure is from
 `NUMBERS.md`; every claim about what Caplet committed to is checked against `CANON.md`; every name for a thing is the one in `WORDS.md` (Wed 11 Nov evening). Re-scored by every run through
 `SCORECARD.md`; changed only with a line in `ARGUMENT_LOG.md`.

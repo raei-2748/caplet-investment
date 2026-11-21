@@ -39,6 +39,10 @@ Where the figures come from:
                             starts from the room under the top, 2.32% centrally, printed "about 2%"
                             (numbers/results_break_2026-11-18.json, NUMBERS 8u; WORDS); the starting months' method in
                             the note itself (SKELETON row 3e). Ten new checks.
+  Fri 20 Nov morning        check strings only, no figure or printed cell (NUMBERS 9): the WORDS row for "the room
+                            under the top" is read with ", in all, never a year," allowed after "about 2%" and with its
+                            struck quotations taken out, so the old FAIL (a check string) and WATCH (struck words) go;
+                            463 figures, 462 PASS, 0 FAIL, 1 flagged (Figure 1's $1 footing); was 460, 1, 2.
 
 Nothing is computed here except rounding, sums and the joining of two parts the register names (the flexibility is the
 half kept plus the excess, NUMBERS 8i column "Half kept plus excess"). Run this file to print every exhibit figure and
@@ -1332,14 +1336,23 @@ def check(verbose=True):
     # Wed 18 Nov evening, third pass (bond desk 5, H1): the two purchases behind the top are one fund, the late-2032
     # Treasury fund, bought twice. WORDS is another owner's file, edited tonight: the check reads its row either way
     # and flags (never fails) a row that still says "the two Treasury funds behind the top"; the note says "the fund"
-    ok = bool(wl) and "the 0.5% margin plus the rounding down" in wl[0] and \
-        f"about {round(100 * ROOM_UNDER_TOP)}% of what" in wl[0] and "centrally" in wl[0]
-    two = bool(wl) and "two Treasury funds behind the top" in wl[0]
+    # Fri 20 Nov morning (exhibits owner; NUMBERS 9): check strings only, no figure. Since Wed 18 Nov evening WORDS's row
+    # reads "about 2%, in all, never a year, of what the late-2032 Treasury fund pays" (bond desk 5, M1), so ", in all,
+    # never a year," is optional between "about 2%" and "of what" (was the bare "about 2% of what": 1 FAIL that was this
+    # string, not a figure). Both checks read the row's first cell (its definition) with its struck quotations taken
+    # out ("struck ...: "of what the two Treasury funds behind the top pay"" is the record, not the row: was 1 WATCH on
+    # the struck words), and the one-fund check also needs the row to name the late-2032 Treasury fund.
+    live = re.sub(r'struck [^"]*"[^"]*"', "", wl[0].split("|")[1]) if wl else ""
+    ok = bool(wl) and "the 0.5% margin plus the rounding down" in live and "centrally" in live and \
+        re.search(rf"about {round(100 * ROOM_UNDER_TOP)}%(?:, in all, never a year,)? of what", live) is not None
+    two = bool(wl) and "two Treasury funds behind the top" in live
+    one = bool(wl) and "of what the late-2032 Treasury fund pays" in live
     note("Table 2", "Note: 'the room under the top' is WORDS's name (the 0.5% margin plus the rounding down, about 2%)",
          "the room under the top", "WORDS row found and matching" if ok else "not found", "WORDS", "PASS" if ok else "FAIL")
     note("Table 2", "Note: one fund behind the top, bought twice (bond desk 5, H1); WORDS's row on it",
          "the late-2032 Treasury fund", "WORDS still says 'the two Treasury funds behind the top' (its owner's fix)"
-         if two else "one fund", "WORDS; bond desk 5, H1", "WATCH" if two else "PASS")
+         if two else ("one fund" if one else "WORDS's row does not name the late-2032 Treasury fund"),
+         "WORDS; bond desk 5, H1", "PASS" if one and not two else "WATCH")
     with open(SKELETON_MD) as fh:
         sk = fh.read()
     # Second pass: "past frequencies" stands in for SKELETON's "shares of the past" (the note's "shares" are stocks);

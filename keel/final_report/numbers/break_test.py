@@ -32,6 +32,13 @@ only; every figure and every JSON key is unchanged, so a re-run rewrites the res
   * `4_flexibility.central` ($28,682) and `vt_worthless_at_the_move.her_flexibility` ($7,365) are her flexibility plus
     anything above the top (WORDS l.28: the half kept plus the excess); her flexibility alone is the half kept
     (`half_kept`, $21,179). The JSON key keeps its old name; the printed label says the pot.
+
+Label (Fri 20 Nov 2026 morning, numbers owner; NUMBERS 8u row 4, 8q, 9; bond desk 5, L5). Printed label only; every
+figure and JSON key is unchanged, so a re-run rewrites the results file byte for byte.
+  * `4_flexibility.rise_it_covers_on_the_bottom` (30.2%) is the pot over the stated bottom, $28,682 / $95,000, as if the
+    contribution were the bottom: the lower reading, never a cover and never in prose. The contribution equals the top
+    in every path, so a building budget set on the bottom has the pot plus the $20,000 between the ends behind it,
+    $48,682, 51.2% (`bottom_reading.py`, `results_bottom_reading_2026-11-20.json`).
 """
 import copy
 import json
@@ -299,7 +306,8 @@ print(f"   room under the top {100 * (1 - top / Tz):.2f}% of their zero-interest
 print("4. Her flexibility plus anything above the top (the half kept plus the excess)")
 print(f"   {k(kept + excess)} (half kept {k(kept)} + above the top {k(excess)}); covers a "
       f"{100 * flex['rise_in_usd_building_cost_it_covers_on_the_top']:.1f}% rise on the top, "
-      f"{100 * flex['rise_it_covers_on_the_bottom']:.1f}% on the bottom; 10% stronger NT$ {k(0.1 * top)}; VT worthless: "
+      f"{100 * flex['rise_it_covers_on_the_bottom']:.1f}% of the bottom (the pot over the bottom, as if the contribution "
+      f"were the bottom: the lower reading, never a cover; bottom_reading.py); 10% stronger NT$ {k(0.1 * top)}; VT worthless: "
       f"stated {flex['vt_worthless_at_the_move']['stated']}, her flexibility plus anything above the top "
       f"{k(flex['vt_worthless_at_the_move']['her_flexibility'])}")
 print("wrote", OUT.name)

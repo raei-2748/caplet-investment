@@ -147,6 +147,15 @@ of them, reading a round's passages blind.
   the best 3e yet); 3b plain 5 of 6, turn 3 of 6 (S4 5.3, T4 12.3); writer S 11 of 12, T 4 of 12: the writer mattered
   more than the turn; every check answer right (24 of 24); marked down: the plan's shorthand ("the room under the
   figure"), definition-led paragraphs, slogan pairs, stacked citations. 3e keeps its turn in today's place.
+- Round 11 (Fri 20 Nov morning, `ROUND11.md`), category one of Book 21: writers U and V from CORPUS and the fact sheet
+  only, Keel's main session as control, version 61's four hardest parts; six blind readers calibrated on version 61.
+  The readers flagged about half of the 17 sentences Caplet could not follow (each 6-11; as a panel 12 any, 9 by half):
+  they catch decoding failures and miss sentences that take a step without its reason. Rereads: version 61 49%, fresh
+  writers 24% and 32%, Keel's main session 23% (but 55% in its P4, where working names came back), Caplet's own
+  paragraphs 10%. Six kinds of failure: figures that do not reconcile on the page, a figure treated as money owned
+  (Caplet's "whatever figure you choose is money you already own" included), names before things, false "because",
+  the cautious count stacked in one clause, signposts. From round 12 every reader also answers "why is this done or
+  true, from the page alone?" per sentence, and a "no" is a failure.
 
 ## Files
 

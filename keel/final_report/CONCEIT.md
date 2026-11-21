@@ -1,5 +1,7 @@
 # The conceit: pencil and ink (Sat 14 Nov 2026, evening; version 2, Sun 15 Nov night)
 
+**Attack day and voice round 11 (Fri 20 Nov 2026; `research/ATTACKS.md` D2 and D22, `voice/ROUND11.md`).** The definition of ink changes its subject: a dollar figure is in ink once Treasuries held for Laura, directly or through the Treasury funds, will pay it on its date, counted as if their cash earned nothing more and after the 0.5% margin. Never "a figure owned": six blind readers stalled on every sentence that called a figure owned or bought, Caplet's own "whatever figure you choose is money you already own" included, and the bond judge's first attack was that fund shares are not Treasuries. "Non-photo blue" leaves the 3c turn (it read as hiding the uncertainty from co-sponsors). One turn per part stands.
+
 Caplet's decision, Sat 14 Nov, 17:19 Sydney: the Final Report runs one conceit, "pencil and ink". This page is how
 Keel will carry it: the rule the image stands for, the true dates on which each part of Laura's money is "inked", the
 AI draft's mapping checked line by line against the number register and the frozen IPS, the craft facts behind each
