@@ -112,6 +112,19 @@ work in the plan, not a surface likeness, and to say where it breaks (`research/
 12. Ergodicity and one life (Kelly, 1956; Peters, 2019): why the average outcome across many investors says little
     about one founder with ten dates. (the ten payments; the reflection)
 
+**Swapped at launch (Fri 20 Nov, 06:30 Sydney), by the gap check above.** Six of the twelve were already in the store,
+so each went one level deeper or to a hole: 3 (Samuelson; the store holds the fallacy in H3-H4 and time
+diversification across the Monday cards) became **volatility drag**, the arithmetic of why six years of waiting does not
+make shares promisable (card Q190); 4 (serial bonds; Q62, Q150 and 27 sinking-fund rows) became **barbell, bullet and
+ladder**, the bond desk's own vocabulary for why a ladder (card Q192); 5 (Perold; Q17, Q88) became **Black and Tepper on
+pension bonds, with Exley, Mehta and Smith and the Boots pension fund of 2000-01** (card Q191); 8 (Keynes; H1, H6, Q123,
+Q168, Q175, Q182) became **survivorship of world markets** (Jorion and Goetzmann; Dimson, Marsh and Staunton), what a
+founder can and cannot learn from a century of the markets that survived (card Q198); 10 (Solvency II's matching
+adjustment; H3, H4, Q15, Q2a, Q64) became **preferred habitat** (Modigliani and Sutch; Vayanos and Vila), why the market
+prices the dates Laura needs (card Q195); 11 (goals-based investing; H2-H4, H9, Q1, Q33) became **deep risk**
+(Bernstein's four deep risks against shallow risk) (card Q197). The other six ran as named: Q188 Tobin and Sharpe-Tint,
+Q189 Roy, Q193 margin of safety, Q194 Hamilton, Q196 safe assets, Q199 ergodicity.
+
 ### Friday 20, evening: the 2031 range and how to state confidence
 
 These are the two parts the last judging panel found hardest to follow, so they get a whole run.

@@ -1,0 +1,154 @@
+{
+ "v61_followed_by_caplet": [
+  1,
+  5,
+  6,
+  8
+ ],
+ "readers": {
+  "1": {
+   "pack": "A",
+   "role": "You read as a sharp final-year school student who writes top",
+   "order": [
+    "U3",
+    "U1",
+    "K4",
+    "V2",
+    "V4",
+    "C3",
+    "K1",
+    "C4"
+   ],
+   "labels": {
+    "P101": "U3",
+    "P102": "U1",
+    "P103": "K4",
+    "P104": "V2",
+    "P105": "V4",
+    "P106": "C3",
+    "P107": "K1",
+    "P108": "C4"
+   }
+  },
+  "2": {
+   "pack": "A",
+   "role": "You read as a finance professor judging this competition, wh",
+   "order": [
+    "C4",
+    "K1",
+    "K4",
+    "U3",
+    "C3",
+    "U1",
+    "V4",
+    "V2"
+   ],
+   "labels": {
+    "P201": "C4",
+    "P202": "K1",
+    "P203": "K4",
+    "P204": "U3",
+    "P205": "C3",
+    "P206": "U1",
+    "P207": "V4",
+    "P208": "V2"
+   }
+  },
+  "3": {
+   "pack": "A",
+   "role": "You read as a strictly literal reader. You take every word a",
+   "order": [
+    "U1",
+    "C3",
+    "K1",
+    "U3",
+    "K4",
+    "V2",
+    "C4",
+    "V4"
+   ],
+   "labels": {
+    "P301": "U1",
+    "P302": "C3",
+    "P303": "K1",
+    "P304": "U3",
+    "P305": "K4",
+    "P306": "V2",
+    "P307": "C4",
+    "P308": "V4"
+   }
+  },
+  "4": {
+   "pack": "B",
+   "role": "You read as a newspaper sub-editor whose whole job is making",
+   "order": [
+    "K2",
+    "C4",
+    "V3",
+    "C3",
+    "K3",
+    "U2",
+    "V1",
+    "U4"
+   ],
+   "labels": {
+    "P401": "K2",
+    "P402": "C4",
+    "P403": "V3",
+    "P404": "C3",
+    "P405": "K3",
+    "P406": "U2",
+    "P407": "V1",
+    "P408": "U4"
+   }
+  },
+  "5": {
+   "pack": "B",
+   "role": "You read as a logician checking an argument. For every sente",
+   "order": [
+    "U4",
+    "C4",
+    "U2",
+    "K2",
+    "C3",
+    "V3",
+    "V1",
+    "K3"
+   ],
+   "labels": {
+    "P501": "U4",
+    "P502": "C4",
+    "P503": "U2",
+    "P504": "K2",
+    "P505": "C3",
+    "P506": "V3",
+    "P507": "V1",
+    "P508": "K3"
+   }
+  },
+  "6": {
+   "pack": "B",
+   "role": "You read as the client in the case: a writer and illustrator",
+   "order": [
+    "K2",
+    "C3",
+    "V1",
+    "U2",
+    "C4",
+    "V3",
+    "U4",
+    "K3"
+   ],
+   "labels": {
+    "P601": "K2",
+    "P602": "C3",
+    "P603": "V1",
+    "P604": "U2",
+    "P605": "C4",
+    "P606": "V3",
+    "P607": "U4",
+    "P608": "K3"
+   }
+  }
+ }
+}

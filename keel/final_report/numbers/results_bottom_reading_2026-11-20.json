@@ -1,0 +1,107 @@
+{
+ "run": "Fri 20 Nov 2026 morning (Sydney), numbers owner",
+ "section": "NUMBERS 8u row 4 and 8q (the bottom's lower reading); bond desk 5, L5",
+ "rule": "Sun 15 Nov 2026 evening: fund fee charged from each trade day (price = gross holdings' value); distributions wait in the Treasury-bill ETF at its 0.15% fee; haircut 0.5%; rounded down to $5,000",
+ "design": "H_plain",
+ "curve": "11/06/2026",
+ "note": "MODEL and Keel arithmetic. The lower reading sets the pot against the bottom as if the contribution were the bottom; the contribution equals the top in every path, so the full reading adds the gap between the ends. Neither is for prose: co-sponsors count the top.",
+ "central": {
+  "stated_bottom": 95000.0,
+  "stated_top": 115000.0,
+  "contribution": 115000.0,
+  "half_kept": 21179.178869581778,
+  "above_the_top": 7503.134822558903,
+  "pot_her_flexibility_plus_anything_above_the_top": 28682.31369214068,
+  "pot_over_the_top_rise_covered": 0.24941142340991895,
+  "lower_reading_pot_over_the_bottom": 0.3019190914962177,
+  "gap_between_the_ends": 20000.0,
+  "full_reading_behind_a_budget_set_on_the_bottom": 48682.313692140684,
+  "full_reading_rise_covered_on_the_bottom": 0.5124454072856914,
+  "half_kept_alone_full_reading_on_the_bottom": 0.4334650407324398,
+  "rises": {
+   "currency_10pct_8j": {
+    "rise": 0.1,
+    "need_on_the_bottom": 9500.0,
+    "lower_reading_left_pot": 19182.31369214068,
+    "lower_reading_left_half_kept_alone": 11679.178869581778,
+    "full_reading_left_pot": 39182.313692140684,
+    "full_reading_left_half_kept_alone": 31679.17886958178
+   },
+   "joint_18m_1in20": {
+    "rise": 0.24587613845285594,
+    "need_on_the_bottom": 23358.233153021316,
+    "lower_reading_left_pot": 5324.080539119364,
+    "lower_reading_left_half_kept_alone": -2179.0542834395383,
+    "full_reading_left_pot": 25324.080539119368,
+    "full_reading_left_half_kept_alone": 17820.945716560465
+   },
+   "joint_24m_1in20": {
+    "rise": 0.2799237449791214,
+    "need_on_the_bottom": 26592.755773016535,
+    "lower_reading_left_pot": 2089.557919124145,
+    "lower_reading_left_half_kept_alone": -5413.576903434758,
+    "full_reading_left_pot": 22089.55791912415,
+    "full_reading_left_half_kept_alone": 14586.423096565246
+   },
+   "joint_24m_worst_jul2006_jul2008": {
+    "rise": 0.389181763726981,
+    "need_on_the_bottom": 36972.2675540632,
+    "lower_reading_left_pot": -8289.953861922517,
+    "lower_reading_left_half_kept_alone": -15793.08868448142,
+    "full_reading_left_pot": 11710.046138077487,
+    "full_reading_left_half_kept_alone": 4206.911315518584
+   }
+  }
+ },
+ "house": {
+  "paths": 200000,
+  "gap_between_the_ends_p5_p50_p95": [
+   10000.0,
+   20000.0,
+   35000.0
+  ],
+  "gap_between_the_ends_min_max": [
+   0.0,
+   80000.0
+  ],
+  "rises": {
+   "currency_10pct_8j": {
+    "rise": 0.1,
+    "lower_reading_covers_pot": 0.997995,
+    "lower_reading_covers_half_kept_alone": 0.958865,
+    "full_reading_covers_pot": 0.99923,
+    "full_reading_covers_half_kept_alone": 0.997815,
+    "on_the_contribution_covers_pot": 0.997365
+   },
+   "joint_18m_1in20": {
+    "rise": 0.24587613845285594,
+    "lower_reading_covers_pot": 0.73313,
+    "lower_reading_covers_half_kept_alone": 0.36583,
+    "full_reading_covers_pot": 0.98417,
+    "full_reading_covers_half_kept_alone": 0.915415,
+    "on_the_contribution_covers_pot": 0.51048
+   },
+   "joint_24m_1in20": {
+    "rise": 0.2799237449791214,
+    "lower_reading_covers_pot": 0.57686,
+    "lower_reading_covers_half_kept_alone": 0.255725,
+    "full_reading_covers_pot": 0.96684,
+    "full_reading_covers_half_kept_alone": 0.85524,
+    "on_the_contribution_covers_pot": 0.32533
+   },
+   "joint_24m_worst_jul2006_jul2008": {
+    "rise": 0.389181763726981,
+    "lower_reading_covers_pot": 0.1977,
+    "lower_reading_covers_half_kept_alone": 0.07146,
+    "full_reading_covers_pot": 0.793265,
+    "full_reading_covers_half_kept_alone": 0.570655,
+    "on_the_contribution_covers_pot": 0.05158
+   }
+  },
+  "rise_covered_19_in_20_on_the_bottom": {
+   "lower_reading_pot": 0.18010380105448032,
+   "full_reading_pot": 0.29938821730166437,
+   "paths_with_a_bottom": 200000
+  }
+ }
+}

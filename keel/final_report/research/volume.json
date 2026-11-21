@@ -1,17 +1,35 @@
 {
- "built": "2026-11-19T19:37+11:00",
- "today": "2026-11-19",
- "store_ideas": 9110,
- "store_judged": 8276,
+ "built": "2026-11-22T09:07+11:00",
+ "today": "2026-11-22",
+ "store_ideas": 9603,
+ "store_judged": 8659,
  "totals": {
-  "workers": 379,
-  "cards": 218,
-  "rows": 7850,
-  "sources": 7892,
-  "passages": 125,
-  "readings": 56
+  "workers": 420,
+  "cards": 234,
+  "rows": 8343,
+  "sources": 8197,
+  "passages": 139,
+  "readings": 62
  },
  "days": [
+  {
+   "day": "2026-11-22",
+   "workers": 0,
+   "cards": 16,
+   "rows": 493,
+   "sources": 305,
+   "passages": 14,
+   "readings": 6
+  },
+  {
+   "day": "2026-11-20",
+   "workers": 41,
+   "cards": 0,
+   "rows": 0,
+   "sources": 0,
+   "passages": 0,
+   "readings": 0
+  },
   {
    "day": "2026-11-19",
    "workers": 101,
@@ -193,6 +211,14 @@
    "analysis_workers": "7",
    "readers": "0",
    "notes": "Twelve research workers took tonight's strongest rows one level deeper, each reading its source whole (cards Q176-Q187: the law of lateness behind Antonio; the Opera House Act's cost clause; Osaka's rice bills and their court; Franklin's and Carnegie's bequests; Pliny's letters on Bithynia's cities; the patent rule that each part does its own duty; Savage's small worlds; the Fixed-term Parliaments Act bypassed; Athens's reserve; Lejeune's pact; when accounting counts a debt settled; Hirschman's Hiding Hand), 334 rows; six raters judged every row of Q175-Q187 the same night (deeper rows: 196 keep, 36 adapt, 102 merged); 25 parent rows corrected at source (Carnegie in Boston and the Osaka guarantee overturned, the Opera House narrowed, five of six aha test 9 candidates changed; GEM_LEDGER 16a); one landing worker (SKELETON notes per part, GEM_LEDGER 16, AHA_REGISTER, REFERENCES); store 9,110 ideas"
+  },
+  {
+   "date": "2026-11-20",
+   "run": "morning (overdrive, attack day; finished Sun 22 Nov after the weekly limit)",
+   "research_workers": "16",
+   "analysis_workers": "15",
+   "readers": "10",
+   "notes": "Attack day. Four judges who had never seen the work (a fixed-income portfolio manager, a finance professor, a capital-campaign director, a plain reader), each scored only on Wharton's guide, made 144 attacks on the plan, the store's top 50, the aha register and the syntheses; every attack has Keel's answer and 22 decisions in `research/ATTACKS.md`, and 50 store rows were demoted or reworded. Twelve research workers on the investing ideas under the plan (cards Q188-Q199: Tobin, Roy, volatility drag, Black and Tepper, barbell and ladder, margin of safety, Hamilton, preferred habitat, safe assets, deep risk, survivorship, ergodicity), 378 rows, every row rated the same morning by nine raters; four second-wave workers on the attacks (Q200 pledges that count, Q201 who pays overruns, Q202 what funders check, Q207 the 2022 gilt crisis and SVB at source), 114 rows; seven more second-wave cards (Q203-Q206, Q208-Q210) stopped at the weekly limit and resume. Analysis: NUMBERS section 9's open items, the bond judge's arithmetic (the test keeps each payment's own coupons; the WInS book reconciled), a picture of where the money goes (12 of version 61's 26 questions answered alone), the fact sheet checked (33 problems) and rebuilt as version 3. Voice round 11: six blind readers, three writers; store 9,603 ideas"
   }
  ],
  "cards": [

@@ -1,0 +1,2267 @@
+{
+ "V01": {
+  "source": "V61",
+  "text": "Under Caplet XR, before anyone relies on a sum Laura commits to, she owns the Treasuries that will repay it.",
+  "caplet_followed": true
+ },
+ "V02": {
+  "source": "V61",
+  "text": "A balanced mix would suit her record of thoughtful risks.",
+  "caplet_followed": false
+ },
+ "V03": {
+  "source": "V61",
+  "text": "But at current Treasury prices her ten operating payments cost about two thirds of her $450,000, and they are fixed, so in a balanced mix every gain or loss would fall on the last third.",
+  "caplet_followed": false
+ },
+ "V04": {
+  "source": "V61",
+  "text": "That third would swing like the shares of a heavily borrowed company.",
+  "caplet_followed": false
+ },
+ "V05": {
+  "source": "V61",
+  "text": "In January 2027 her $300,000 buys a ladder of ten Treasury holdings, one repaying before each January from 2033 to 2042, and the 2028 deposit buys any it can't afford.",
+  "caplet_followed": true
+ },
+ "V06": {
+  "source": "V61",
+  "text": "The X and R stand for those ten rungs, and none is sold before it repays.",
+  "caplet_followed": true
+ },
+ "V07": {
+  "source": "V61",
+  "text": "Five are funds of Treasuries that all mature in one year, sellable any day but paying out what they hold, not a fixed sum.",
+  "caplet_followed": false
+ },
+ "V08": {
+  "source": "V61",
+  "text": "The payments are fixed in dollars, so inflation affects only what the facility will cost.",
+  "caplet_followed": true
+ },
+ "V09": {
+  "source": "V61",
+  "text": "In 2028, what the ladder doesn't need buys more of the fund behind the 2033 payment, enough to return about all of it by December 2032, which sets the bottom of her range.",
+  "caplet_followed": false
+ },
+ "V10": {
+  "source": "V61",
+  "text": "Because it costs less than it returns, the difference, roughly its interest, goes into one world index fund, so the shares risk only that interest.",
+  "caplet_followed": false
+ },
+ "V11": {
+  "source": "V61",
+  "text": "It is bought in 2028, not 2031, because the creative residency in Taiwan can't depend on shares: its co-sponsors, grants and fees can shrink in the same recessions that hit shares, and her facility contribution, resting on the US government instead, must hold when they do.",
+  "caplet_followed": false
+ },
+ "V12": {
+  "source": "V61",
+  "text": "The ladder also carries reinvestment risk: interest arrives years before the payment it serves, so money waits, earning less if rates fall and stay low.",
+  "caplet_followed": false
+ },
+ "V13": {
+  "source": "V61",
+  "text": "So in 2031, before she names a range, she sells up to half her shares for an extra reserve of Treasuries, enough to meet every payment even if waiting money earned nothing.",
+  "caplet_followed": false
+ },
+ "V14": {
+  "source": "V61",
+  "text": "If that half falls short, the 2028 holding's payout makes up the rest.",
+  "caplet_followed": false
+ },
+ "V15": {
+  "source": "V61",
+  "text": "The bottom is what that holding will pay after this, less a margin because a fund's payout isn't fixed.",
+  "caplet_followed": false
+ },
+ "V16": {
+  "source": "V61",
+  "text": "Then she sells the other half for Treasury funds repaying before 2033; the top is the bottom plus what that half raised.",
+  "caplet_followed": false
+ },
+ "V17": {
+  "source": "V61",
+  "text": "Both ends are owned before anyone hears them, and in 2033 she gives what those Treasuries pay, up to the top.",
+  "caplet_followed": false
+ },
+ "V18": {
+  "source": "V61",
+  "text": "Whatever of the first half isn't sold, and anything paid beyond the top, stays hers, liquid and promised to no one, so she keeps room as the project develops.",
+  "caplet_followed": false
+ },
+ "V19": {
+  "source": "V61",
+  "text": "In 2033 her operating reserve is already in place: the ladder, the extra reserve and the money waiting for them.",
+  "caplet_followed": false
+ },
+ "V20": {
+  "source": "V61",
+  "text": "The plan's biggest strength, and what we mean by a high degree of certainty, is that, barring a US default, no payment, and no figure once named, depends on a share price.",
+  "caplet_followed": false
+ },
+ "V21": {
+  "source": "V61",
+  "text": "The tenth rung, with what was set aside for it, meets the last $50,000 in 2042.",
+  "caplet_followed": false
+ },
+ "P101.1": {
+  "source": "U3",
+  "text": "In 2031 Laura gives co-sponsors two figures, a bottom and a top, in $5,000 steps."
+ },
+ "P101.2": {
+  "source": "U3",
+  "text": "Both will be paid by IBTM, a Treasury fund that pays out in mid-December 2032."
+ },
+ "P101.3": {
+  "source": "U3",
+  "text": "The bottom is bought in January 2028, with most of what her $150,000 deposit has left once the ten payments take their share: enough of IBTM to pay about $102,000."
+ },
+ "P101.4": {
+  "source": "U3",
+  "text": "Counted cautiously (as if the interest it pays out from then on earns nothing), less 0.5% for costs and rounded down, that is $95,000 on Treasury rates of 6 November 2026."
+ },
+ "P101.5": {
+  "source": "U3",
+  "text": "It does not change after that."
+ },
+ "P101.6": {
+  "source": "U3",
+  "text": "The top waits for her shares."
+ },
+ "P101.7": {
+  "source": "U3",
+  "text": "The rest of that deposit buys VT, a world share fund."
+ },
+ "P101.8": {
+  "source": "U3",
+  "text": "In January 2031, before the meetings, half the value of her shares is sold and put into IBTM; the other half stays in shares, promised to no one."
+ },
+ "P101.9": {
+  "source": "U3",
+  "text": "The top is the same cautious count on both purchases together: $115,000 if world shares grow 7.5% a year, J.P."
+ },
+ "P101.10": {
+  "source": "U3",
+  "text": "Morgan's long-term forecast."
+ },
+ "P101.11": {
+  "source": "U3",
+  "text": "Laura names nothing before she owns it: a top named a year earlier would be more than the sale could buy in about 11 of 100 futures our model simulates."
+ },
+ "P101.12": {
+  "source": "U3",
+  "text": "When she speaks, Treasuries she owns will pay both figures: the range is certain, and her contribution is the top."
+ },
+ "P101.13": {
+  "source": "U3",
+  "text": "Why not just say $115,000?"
+ },
+ "P101.14": {
+  "source": "U3",
+  "text": "Because the two ends say different things."
+ },
+ "P101.15": {
+  "source": "U3",
+  "text": "The bottom has been held in Treasuries since January 2028, whatever shares did; the gap above it is what shares added by 2031."
+ },
+ "P101.16": {
+  "source": "U3",
+  "text": "Had shares fallen to nothing, the range would be one figure, $95,000."
+ },
+ "P102.1": {
+  "source": "U1",
+  "text": "In January 2027 Laura's first deposit buys ten Treasuries, one for each $50,000 payment, each maturing before the 1 January it pays."
+ },
+ "P102.2": {
+  "source": "U1",
+  "text": "The US government guarantees every Treasury, and a Treasury bond held to the end pays exactly its stated interest and face value."
+ },
+ "P102.3": {
+  "source": "U1",
+  "text": "Its price in between does not matter: we never sell."
+ },
+ "P102.4": {
+  "source": "U1",
+  "text": "Treasury bonds pay 2038 to 2042; for 2033 to 2037 we chose iShares iBonds funds."
+ },
+ "P102.5": {
+  "source": "U1",
+  "text": "Each holds Treasuries maturing in one year, then closes that December and pays out what its holdings are worth."
+ },
+ "P102.6": {
+  "source": "U1",
+  "text": "That sum is nearly fixed but not quite, because in its last months the fund holds cash, and what cash earns is not fixed."
+ },
+ "P102.7": {
+  "source": "U1",
+  "text": "At Treasury rates on 6 November 2026 the ten cost about $301,500, just over $300,000, so for a year there are two gaps."
+ },
+ "P102.8": {
+  "source": "U1",
+  "text": "One is the part her deposit cannot buy, which, with fees, will cost $2,388 in January 2028."
+ },
+ "P102.9": {
+  "source": "U1",
+  "text": "The other is interest: the ten reach $50,000 each only if the interest they pay along the way is reinvested at those rates."
+ },
+ "P102.10": {
+  "source": "U1",
+  "text": "The first $39,162 of the 2028 deposit closes both."
+ },
+ "P102.11": {
+  "source": "U1",
+  "text": "It buys the missing $2,388, then $36,774 more of the bonds and funds for later payments: enough to meet all ten even if every dollar paid out early earns nothing while it waits, and even if every fund pays out 0.5% less than its holdings are worth."
+ },
+ "P102.12": {
+  "source": "U1",
+  "text": "Until that deposit arrives, the ten lean partly on her career."
+ },
+ "P102.13": {
+  "source": "U1",
+  "text": "Once it is in, no payment depends on a share price, an interest rate or anyone else's money."
+ },
+ "P103.1": {
+  "source": "K4",
+  "text": "Half of Laura's shares are never promised to anyone; the IPS calls this her flexibility."
+ },
+ "P103.2": {
+  "source": "K4",
+  "text": "On today's figures it is worth about $21,200 at the start of 2033, and about $28,700 once we add whatever the December 2032 Treasury fund pays beyond the top figure she has stated."
+ },
+ "P103.3": {
+  "source": "K4",
+  "text": "It is there for the three things the IPS names, and each can be pictured."
+ },
+ "P103.4": {
+  "source": "K4",
+  "text": "A builder's tender could come in above the estimate."
+ },
+ "P103.5": {
+  "source": "K4",
+  "text": "Taiwan's construction costs rose about 7% in the year to October 2026, and across the places we checked they rise in about four years out of five, whether shares are rising or falling."
+ },
+ "P103.6": {
+  "source": "K4",
+  "text": "The Taiwan dollar could strengthen between the 2031 meetings and the day she pays, so the same building would cost more in US dollars: a Taiwan dollar 10% stronger would need about $11,500 more, which her flexibility covers in about 93 of 100 of our model futures."
+ },
+ "P103.7": {
+  "source": "K4",
+  "text": "Or a co-sponsor could give less than it said, perhaps in the same recession that cut the value of Laura's shares."
+ },
+ "P103.8": {
+  "source": "K4",
+  "text": "The honest limit is the order in which those things can come."
+ },
+ "P103.9": {
+  "source": "K4",
+  "text": "World shares bought at the start of 2000, as hers are bought at the start of 2028, were about 41% down three years later, the point that matches her meetings; Taiwan's building costs then rose about 18% before the point that matches her payment."
+ },
+ "P103.10": {
+  "source": "K4",
+  "text": "A slump followed by a building boom is the case her flexibility handles worst."
+ },
+ "P103.11": {
+  "source": "K4",
+  "text": "Even then, it runs out without breaking anything: the payments and the figure she stated are already owned in Treasuries."
+ },
+ "P104.1": {
+  "source": "V2",
+  "text": "In January 2027 Laura's first $300,000 buys ten Treasuries (guaranteed US government bonds), one maturing just before each $50,000 payment, and falls just short of buying all ten."
+ },
+ "P104.2": {
+  "source": "V2",
+  "text": "Her second deposit, $150,000 from her books, talks and licences, arrives in January 2028 and is spent that month, because nothing comes in after it."
+ },
+ "P104.3": {
+  "source": "V2",
+  "text": "It goes, in order, to the things that most need to be sure."
+ },
+ "P104.4": {
+  "source": "V2",
+  "text": "(Figures are at Treasury rates on 6 November 2026.)"
+ },
+ "P104.5": {
+  "source": "V2",
+  "text": "The first $2,388 completes the ten."
+ },
+ "P104.6": {
+  "source": "V2",
+  "text": "The next $36,774 buys more of the same Treasuries."
+ },
+ "P104.7": {
+  "source": "V2",
+  "text": "With them, all ten payments are made even if every dollar paid out early earns nothing while it waits for its 1 January, and even if each of the Treasury funds behind five of them pays out 0.5% less than its holdings are worth."
+ },
+ "P104.8": {
+  "source": "V2",
+  "text": "Anything the payments still lacked after January 2028 could only come from selling her shares."
+ },
+ "P104.9": {
+  "source": "V2",
+  "text": "Most of what is left buys IBTM, a Treasury fund that closes in mid-December 2032, just before the building money is needed."
+ },
+ "P104.10": {
+  "source": "V2",
+  "text": "This is the floor."
+ },
+ "P104.11": {
+  "source": "V2",
+  "text": "It will pay about $102,000, and that payout, counted with room to spare and rounded down, is the lowest figure Laura will give co-sponsors in 2031: $95,000."
+ },
+ "P104.12": {
+  "source": "V2",
+  "text": "Bought in January 2028, that figure is fixed three years before she says it."
+ },
+ "P104.13": {
+  "source": "V2",
+  "text": "The rest buys VT, one fund of shares in thousands of companies worldwide."
+ },
+ "P104.14": {
+  "source": "V2",
+  "text": "Shares come last because no promise depends on them yet, and they have three years to grow before 2031."
+ },
+ "P104.15": {
+  "source": "V2",
+  "text": "How they do decides how far above that lowest figure her top reaches."
+ },
+ "P105.1": {
+  "source": "V4",
+  "text": "In January 2031, before the co-sponsor meetings, Laura sells half of the world shares she bought in 2028 and buys Treasuries to pay her contribution."
+ },
+ "P105.2": {
+  "source": "V4",
+  "text": "The other half stays in shares, promised to no one: her flexibility."
+ },
+ "P105.3": {
+  "source": "V4",
+  "text": "At Treasury rates of 6 November 2026, and with world shares growing 7.5% a year, it is worth about $21,200 at the start of 2033."
+ },
+ "P105.4": {
+  "source": "V4",
+  "text": "In 1 simulated future in 20, her flexibility is $9,600 or less, and after 2031 a fall in shares shrinks this money and nothing else."
+ },
+ "P105.5": {
+  "source": "V4",
+  "text": "It is there for three things that could happen to a building in Taiwan."
+ },
+ "P105.6": {
+  "source": "V4",
+  "text": "The builder's price could rise between the 2031 meetings and the day she pays."
+ },
+ "P105.7": {
+  "source": "V4",
+  "text": "Building costs, in Taiwan and elsewhere, rise in about four years out of five whether world shares rise or fall, so her shares will not reliably be up when the price is."
+ },
+ "P105.8": {
+  "source": "V4",
+  "text": "World shares bought at the start of 2000, as hers are bought at the start of 2028, were about 41% down by January 2003, the point that matches her meetings; Taiwan's building costs then rose about 18% in Taiwan dollars before the point that matches her payment."
+ },
+ "P105.9": {
+  "source": "V4",
+  "text": "A run like that could leave her short."
+ },
+ "P105.10": {
+  "source": "V4",
+  "text": "The Taiwan dollar could strengthen, so the same building costs more US dollars."
+ },
+ "P105.11": {
+  "source": "V4",
+  "text": "A 10% rise would need about $11,500 more, which her flexibility alone covers in about 93 of 100 futures."
+ },
+ "P105.12": {
+  "source": "V4",
+  "text": "And a co-sponsor could fall short, most likely in a recession: the same downturn that tends to delay her own book income and cut share prices."
+ },
+ "P106.1": {
+  "source": "C3",
+  "text": "In January 2027 we\u2019ll use your first deposit to buy 10 Treasuries (T-Bonds or iShares iBonds Term Treasury ETFs, whichever works best for each year), each maturing just before it\u2019s needed."
+ },
+ "P106.2": {
+  "source": "C3",
+  "text": "Held to the end, these pay what they say \u2013 no price fluctuations for us to fear."
+ },
+ "P106.3": {
+  "source": "C3",
+  "text": "At current yields, this would cost roughly $300,000 \u2013 in other words, your entire first deposit."
+ },
+ "P106.4": {
+  "source": "C3",
+  "text": "But worry not \u2013 our plan isn\u2019t dependent on yields staying put!"
+ },
+ "P106.5": {
+  "source": "C3",
+  "text": "Even if yields fall and the total cost of the ladder ends up being above $300,000, we\u2019ll simply complete it with the 2028 deposit."
+ },
+ "P107.1": {
+  "source": "K1",
+  "text": "In January 2027 Laura's first deposit of $300,000 buys ten Treasuries, one for each payment, each maturing shortly before the 1 January it pays."
+ },
+ "P107.2": {
+  "source": "K1",
+  "text": "A Treasury held until it matures pays exactly the interest and the sum it promised, on the dates it promised, because the US government stands behind it; what its price does in between doesn't touch us, because we never sell one early."
+ },
+ "P107.3": {
+  "source": "K1",
+  "text": "For the payments of 2033 to 2037 we use iShares iBonds funds."
+ },
+ "P107.4": {
+  "source": "K1",
+  "text": "Each holds Treasuries that mature in one year of its own, closes in mid-December of that year and pays its holders what it then holds."
+ },
+ "P107.5": {
+  "source": "K1",
+  "text": "We used them because the competition's simulator listed no Treasury bond maturing in those years."
+ },
+ "P107.6": {
+  "source": "K1",
+  "text": "The payments of 2038 to 2042 come from Treasury bonds themselves."
+ },
+ "P107.7": {
+  "source": "K1",
+  "text": "There is one catch."
+ },
+ "P107.8": {
+  "source": "K1",
+  "text": "Treasuries pay interest along the way, often years before the payment it belongs to, and that interest has to earn something while it waits."
+ },
+ "P107.9": {
+  "source": "K1",
+  "text": "At the rates of 6 November 2026, the day trading froze, the ten cost about $301,500 on the assumption that it does."
+ },
+ "P107.10": {
+  "source": "K1",
+  "text": "That is slightly more than Laura has, so the last $2,388 is bought a year later from her second deposit, which also buys more of the same Treasuries: enough that every payment is met even if the interest waiting for it earns nothing at all."
+ },
+ "P107.11": {
+  "source": "K1",
+  "text": "From January 2028, then, no payment depends on a share price or on interest rates."
+ },
+ "P107.12": {
+  "source": "K1",
+  "text": "Only a US default, or no second deposit, could stop one."
+ },
+ "P108.1": {
+  "source": "C4",
+  "text": "The building is a different matter."
+ },
+ "P108.2": {
+  "source": "C4",
+  "text": "Most of the 2028 deposit will fund a Treasury fund maturing in late 2032, whose payout is the bare minimum you\u2019ll be able to promise your co-sponsors without doubt."
+ },
+ "P108.3": {
+  "source": "C4",
+  "text": "The rest will go into a world share fund of thousands of companies \u2013 VT, Vanguard Total World Stock ETF \u2013 and its returns will help determine your maximum facility contribution."
+ },
+ "P108.4": {
+  "source": "C4",
+  "text": "That means markets will be able to increase or decrease the top of your planned band as we get closer to 2031, but the bottom will remain constant, built on the ever-reliable Treasuries."
+ },
+ "P108.5": {
+  "source": "C4",
+  "text": "Importantly for you, half of the value of the shares will be promised to no one."
+ },
+ "P108.6": {
+  "source": "C4",
+  "text": "That is your flexibility \u2013 for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short."
+ },
+ "P108.7": {
+  "source": "C4",
+  "text": "Before you meet co-sponsors in 2031, the other half will move into Treasuries, so whatever figure you choose is money you already own."
+ },
+ "P201.1": {
+  "source": "C4",
+  "text": "The building is a different matter."
+ },
+ "P201.2": {
+  "source": "C4",
+  "text": "Most of the 2028 deposit will fund a Treasury fund maturing in late 2032, whose payout is the bare minimum you\u2019ll be able to promise your co-sponsors without doubt."
+ },
+ "P201.3": {
+  "source": "C4",
+  "text": "The rest will go into a world share fund of thousands of companies \u2013 VT, Vanguard Total World Stock ETF \u2013 and its returns will help determine your maximum facility contribution."
+ },
+ "P201.4": {
+  "source": "C4",
+  "text": "That means markets will be able to increase or decrease the top of your planned band as we get closer to 2031, but the bottom will remain constant, built on the ever-reliable Treasuries."
+ },
+ "P201.5": {
+  "source": "C4",
+  "text": "Importantly for you, half of the value of the shares will be promised to no one."
+ },
+ "P201.6": {
+  "source": "C4",
+  "text": "That is your flexibility \u2013 for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short."
+ },
+ "P201.7": {
+  "source": "C4",
+  "text": "Before you meet co-sponsors in 2031, the other half will move into Treasuries, so whatever figure you choose is money you already own."
+ },
+ "P202.1": {
+  "source": "K1",
+  "text": "In January 2027 Laura's first deposit of $300,000 buys ten Treasuries, one for each payment, each maturing shortly before the 1 January it pays."
+ },
+ "P202.2": {
+  "source": "K1",
+  "text": "A Treasury held until it matures pays exactly the interest and the sum it promised, on the dates it promised, because the US government stands behind it; what its price does in between doesn't touch us, because we never sell one early."
+ },
+ "P202.3": {
+  "source": "K1",
+  "text": "For the payments of 2033 to 2037 we use iShares iBonds funds."
+ },
+ "P202.4": {
+  "source": "K1",
+  "text": "Each holds Treasuries that mature in one year of its own, closes in mid-December of that year and pays its holders what it then holds."
+ },
+ "P202.5": {
+  "source": "K1",
+  "text": "We used them because the competition's simulator listed no Treasury bond maturing in those years."
+ },
+ "P202.6": {
+  "source": "K1",
+  "text": "The payments of 2038 to 2042 come from Treasury bonds themselves."
+ },
+ "P202.7": {
+  "source": "K1",
+  "text": "There is one catch."
+ },
+ "P202.8": {
+  "source": "K1",
+  "text": "Treasuries pay interest along the way, often years before the payment it belongs to, and that interest has to earn something while it waits."
+ },
+ "P202.9": {
+  "source": "K1",
+  "text": "At the rates of 6 November 2026, the day trading froze, the ten cost about $301,500 on the assumption that it does."
+ },
+ "P202.10": {
+  "source": "K1",
+  "text": "That is slightly more than Laura has, so the last $2,388 is bought a year later from her second deposit, which also buys more of the same Treasuries: enough that every payment is met even if the interest waiting for it earns nothing at all."
+ },
+ "P202.11": {
+  "source": "K1",
+  "text": "From January 2028, then, no payment depends on a share price or on interest rates."
+ },
+ "P202.12": {
+  "source": "K1",
+  "text": "Only a US default, or no second deposit, could stop one."
+ },
+ "P203.1": {
+  "source": "K4",
+  "text": "Half of Laura's shares are never promised to anyone; the IPS calls this her flexibility."
+ },
+ "P203.2": {
+  "source": "K4",
+  "text": "On today's figures it is worth about $21,200 at the start of 2033, and about $28,700 once we add whatever the December 2032 Treasury fund pays beyond the top figure she has stated."
+ },
+ "P203.3": {
+  "source": "K4",
+  "text": "It is there for the three things the IPS names, and each can be pictured."
+ },
+ "P203.4": {
+  "source": "K4",
+  "text": "A builder's tender could come in above the estimate."
+ },
+ "P203.5": {
+  "source": "K4",
+  "text": "Taiwan's construction costs rose about 7% in the year to October 2026, and across the places we checked they rise in about four years out of five, whether shares are rising or falling."
+ },
+ "P203.6": {
+  "source": "K4",
+  "text": "The Taiwan dollar could strengthen between the 2031 meetings and the day she pays, so the same building would cost more in US dollars: a Taiwan dollar 10% stronger would need about $11,500 more, which her flexibility covers in about 93 of 100 of our model futures."
+ },
+ "P203.7": {
+  "source": "K4",
+  "text": "Or a co-sponsor could give less than it said, perhaps in the same recession that cut the value of Laura's shares."
+ },
+ "P203.8": {
+  "source": "K4",
+  "text": "The honest limit is the order in which those things can come."
+ },
+ "P203.9": {
+  "source": "K4",
+  "text": "World shares bought at the start of 2000, as hers are bought at the start of 2028, were about 41% down three years later, the point that matches her meetings; Taiwan's building costs then rose about 18% before the point that matches her payment."
+ },
+ "P203.10": {
+  "source": "K4",
+  "text": "A slump followed by a building boom is the case her flexibility handles worst."
+ },
+ "P203.11": {
+  "source": "K4",
+  "text": "Even then, it runs out without breaking anything: the payments and the figure she stated are already owned in Treasuries."
+ },
+ "P204.1": {
+  "source": "U3",
+  "text": "In 2031 Laura gives co-sponsors two figures, a bottom and a top, in $5,000 steps."
+ },
+ "P204.2": {
+  "source": "U3",
+  "text": "Both will be paid by IBTM, a Treasury fund that pays out in mid-December 2032."
+ },
+ "P204.3": {
+  "source": "U3",
+  "text": "The bottom is bought in January 2028, with most of what her $150,000 deposit has left once the ten payments take their share: enough of IBTM to pay about $102,000."
+ },
+ "P204.4": {
+  "source": "U3",
+  "text": "Counted cautiously (as if the interest it pays out from then on earns nothing), less 0.5% for costs and rounded down, that is $95,000 on Treasury rates of 6 November 2026."
+ },
+ "P204.5": {
+  "source": "U3",
+  "text": "It does not change after that."
+ },
+ "P204.6": {
+  "source": "U3",
+  "text": "The top waits for her shares."
+ },
+ "P204.7": {
+  "source": "U3",
+  "text": "The rest of that deposit buys VT, a world share fund."
+ },
+ "P204.8": {
+  "source": "U3",
+  "text": "In January 2031, before the meetings, half the value of her shares is sold and put into IBTM; the other half stays in shares, promised to no one."
+ },
+ "P204.9": {
+  "source": "U3",
+  "text": "The top is the same cautious count on both purchases together: $115,000 if world shares grow 7.5% a year, J.P."
+ },
+ "P204.10": {
+  "source": "U3",
+  "text": "Morgan's long-term forecast."
+ },
+ "P204.11": {
+  "source": "U3",
+  "text": "Laura names nothing before she owns it: a top named a year earlier would be more than the sale could buy in about 11 of 100 futures our model simulates."
+ },
+ "P204.12": {
+  "source": "U3",
+  "text": "When she speaks, Treasuries she owns will pay both figures: the range is certain, and her contribution is the top."
+ },
+ "P204.13": {
+  "source": "U3",
+  "text": "Why not just say $115,000?"
+ },
+ "P204.14": {
+  "source": "U3",
+  "text": "Because the two ends say different things."
+ },
+ "P204.15": {
+  "source": "U3",
+  "text": "The bottom has been held in Treasuries since January 2028, whatever shares did; the gap above it is what shares added by 2031."
+ },
+ "P204.16": {
+  "source": "U3",
+  "text": "Had shares fallen to nothing, the range would be one figure, $95,000."
+ },
+ "P205.1": {
+  "source": "C3",
+  "text": "In January 2027 we\u2019ll use your first deposit to buy 10 Treasuries (T-Bonds or iShares iBonds Term Treasury ETFs, whichever works best for each year), each maturing just before it\u2019s needed."
+ },
+ "P205.2": {
+  "source": "C3",
+  "text": "Held to the end, these pay what they say \u2013 no price fluctuations for us to fear."
+ },
+ "P205.3": {
+  "source": "C3",
+  "text": "At current yields, this would cost roughly $300,000 \u2013 in other words, your entire first deposit."
+ },
+ "P205.4": {
+  "source": "C3",
+  "text": "But worry not \u2013 our plan isn\u2019t dependent on yields staying put!"
+ },
+ "P205.5": {
+  "source": "C3",
+  "text": "Even if yields fall and the total cost of the ladder ends up being above $300,000, we\u2019ll simply complete it with the 2028 deposit."
+ },
+ "P206.1": {
+  "source": "U1",
+  "text": "In January 2027 Laura's first deposit buys ten Treasuries, one for each $50,000 payment, each maturing before the 1 January it pays."
+ },
+ "P206.2": {
+  "source": "U1",
+  "text": "The US government guarantees every Treasury, and a Treasury bond held to the end pays exactly its stated interest and face value."
+ },
+ "P206.3": {
+  "source": "U1",
+  "text": "Its price in between does not matter: we never sell."
+ },
+ "P206.4": {
+  "source": "U1",
+  "text": "Treasury bonds pay 2038 to 2042; for 2033 to 2037 we chose iShares iBonds funds."
+ },
+ "P206.5": {
+  "source": "U1",
+  "text": "Each holds Treasuries maturing in one year, then closes that December and pays out what its holdings are worth."
+ },
+ "P206.6": {
+  "source": "U1",
+  "text": "That sum is nearly fixed but not quite, because in its last months the fund holds cash, and what cash earns is not fixed."
+ },
+ "P206.7": {
+  "source": "U1",
+  "text": "At Treasury rates on 6 November 2026 the ten cost about $301,500, just over $300,000, so for a year there are two gaps."
+ },
+ "P206.8": {
+  "source": "U1",
+  "text": "One is the part her deposit cannot buy, which, with fees, will cost $2,388 in January 2028."
+ },
+ "P206.9": {
+  "source": "U1",
+  "text": "The other is interest: the ten reach $50,000 each only if the interest they pay along the way is reinvested at those rates."
+ },
+ "P206.10": {
+  "source": "U1",
+  "text": "The first $39,162 of the 2028 deposit closes both."
+ },
+ "P206.11": {
+  "source": "U1",
+  "text": "It buys the missing $2,388, then $36,774 more of the bonds and funds for later payments: enough to meet all ten even if every dollar paid out early earns nothing while it waits, and even if every fund pays out 0.5% less than its holdings are worth."
+ },
+ "P206.12": {
+  "source": "U1",
+  "text": "Until that deposit arrives, the ten lean partly on her career."
+ },
+ "P206.13": {
+  "source": "U1",
+  "text": "Once it is in, no payment depends on a share price, an interest rate or anyone else's money."
+ },
+ "P207.1": {
+  "source": "V4",
+  "text": "In January 2031, before the co-sponsor meetings, Laura sells half of the world shares she bought in 2028 and buys Treasuries to pay her contribution."
+ },
+ "P207.2": {
+  "source": "V4",
+  "text": "The other half stays in shares, promised to no one: her flexibility."
+ },
+ "P207.3": {
+  "source": "V4",
+  "text": "At Treasury rates of 6 November 2026, and with world shares growing 7.5% a year, it is worth about $21,200 at the start of 2033."
+ },
+ "P207.4": {
+  "source": "V4",
+  "text": "In 1 simulated future in 20, her flexibility is $9,600 or less, and after 2031 a fall in shares shrinks this money and nothing else."
+ },
+ "P207.5": {
+  "source": "V4",
+  "text": "It is there for three things that could happen to a building in Taiwan."
+ },
+ "P207.6": {
+  "source": "V4",
+  "text": "The builder's price could rise between the 2031 meetings and the day she pays."
+ },
+ "P207.7": {
+  "source": "V4",
+  "text": "Building costs, in Taiwan and elsewhere, rise in about four years out of five whether world shares rise or fall, so her shares will not reliably be up when the price is."
+ },
+ "P207.8": {
+  "source": "V4",
+  "text": "World shares bought at the start of 2000, as hers are bought at the start of 2028, were about 41% down by January 2003, the point that matches her meetings; Taiwan's building costs then rose about 18% in Taiwan dollars before the point that matches her payment."
+ },
+ "P207.9": {
+  "source": "V4",
+  "text": "A run like that could leave her short."
+ },
+ "P207.10": {
+  "source": "V4",
+  "text": "The Taiwan dollar could strengthen, so the same building costs more US dollars."
+ },
+ "P207.11": {
+  "source": "V4",
+  "text": "A 10% rise would need about $11,500 more, which her flexibility alone covers in about 93 of 100 futures."
+ },
+ "P207.12": {
+  "source": "V4",
+  "text": "And a co-sponsor could fall short, most likely in a recession: the same downturn that tends to delay her own book income and cut share prices."
+ },
+ "P208.1": {
+  "source": "V2",
+  "text": "In January 2027 Laura's first $300,000 buys ten Treasuries (guaranteed US government bonds), one maturing just before each $50,000 payment, and falls just short of buying all ten."
+ },
+ "P208.2": {
+  "source": "V2",
+  "text": "Her second deposit, $150,000 from her books, talks and licences, arrives in January 2028 and is spent that month, because nothing comes in after it."
+ },
+ "P208.3": {
+  "source": "V2",
+  "text": "It goes, in order, to the things that most need to be sure."
+ },
+ "P208.4": {
+  "source": "V2",
+  "text": "(Figures are at Treasury rates on 6 November 2026.)"
+ },
+ "P208.5": {
+  "source": "V2",
+  "text": "The first $2,388 completes the ten."
+ },
+ "P208.6": {
+  "source": "V2",
+  "text": "The next $36,774 buys more of the same Treasuries."
+ },
+ "P208.7": {
+  "source": "V2",
+  "text": "With them, all ten payments are made even if every dollar paid out early earns nothing while it waits for its 1 January, and even if each of the Treasury funds behind five of them pays out 0.5% less than its holdings are worth."
+ },
+ "P208.8": {
+  "source": "V2",
+  "text": "Anything the payments still lacked after January 2028 could only come from selling her shares."
+ },
+ "P208.9": {
+  "source": "V2",
+  "text": "Most of what is left buys IBTM, a Treasury fund that closes in mid-December 2032, just before the building money is needed."
+ },
+ "P208.10": {
+  "source": "V2",
+  "text": "This is the floor."
+ },
+ "P208.11": {
+  "source": "V2",
+  "text": "It will pay about $102,000, and that payout, counted with room to spare and rounded down, is the lowest figure Laura will give co-sponsors in 2031: $95,000."
+ },
+ "P208.12": {
+  "source": "V2",
+  "text": "Bought in January 2028, that figure is fixed three years before she says it."
+ },
+ "P208.13": {
+  "source": "V2",
+  "text": "The rest buys VT, one fund of shares in thousands of companies worldwide."
+ },
+ "P208.14": {
+  "source": "V2",
+  "text": "Shares come last because no promise depends on them yet, and they have three years to grow before 2031."
+ },
+ "P208.15": {
+  "source": "V2",
+  "text": "How they do decides how far above that lowest figure her top reaches."
+ },
+ "P301.1": {
+  "source": "U1",
+  "text": "In January 2027 Laura's first deposit buys ten Treasuries, one for each $50,000 payment, each maturing before the 1 January it pays."
+ },
+ "P301.2": {
+  "source": "U1",
+  "text": "The US government guarantees every Treasury, and a Treasury bond held to the end pays exactly its stated interest and face value."
+ },
+ "P301.3": {
+  "source": "U1",
+  "text": "Its price in between does not matter: we never sell."
+ },
+ "P301.4": {
+  "source": "U1",
+  "text": "Treasury bonds pay 2038 to 2042; for 2033 to 2037 we chose iShares iBonds funds."
+ },
+ "P301.5": {
+  "source": "U1",
+  "text": "Each holds Treasuries maturing in one year, then closes that December and pays out what its holdings are worth."
+ },
+ "P301.6": {
+  "source": "U1",
+  "text": "That sum is nearly fixed but not quite, because in its last months the fund holds cash, and what cash earns is not fixed."
+ },
+ "P301.7": {
+  "source": "U1",
+  "text": "At Treasury rates on 6 November 2026 the ten cost about $301,500, just over $300,000, so for a year there are two gaps."
+ },
+ "P301.8": {
+  "source": "U1",
+  "text": "One is the part her deposit cannot buy, which, with fees, will cost $2,388 in January 2028."
+ },
+ "P301.9": {
+  "source": "U1",
+  "text": "The other is interest: the ten reach $50,000 each only if the interest they pay along the way is reinvested at those rates."
+ },
+ "P301.10": {
+  "source": "U1",
+  "text": "The first $39,162 of the 2028 deposit closes both."
+ },
+ "P301.11": {
+  "source": "U1",
+  "text": "It buys the missing $2,388, then $36,774 more of the bonds and funds for later payments: enough to meet all ten even if every dollar paid out early earns nothing while it waits, and even if every fund pays out 0.5% less than its holdings are worth."
+ },
+ "P301.12": {
+  "source": "U1",
+  "text": "Until that deposit arrives, the ten lean partly on her career."
+ },
+ "P301.13": {
+  "source": "U1",
+  "text": "Once it is in, no payment depends on a share price, an interest rate or anyone else's money."
+ },
+ "P302.1": {
+  "source": "C3",
+  "text": "In January 2027 we\u2019ll use your first deposit to buy 10 Treasuries (T-Bonds or iShares iBonds Term Treasury ETFs, whichever works best for each year), each maturing just before it\u2019s needed."
+ },
+ "P302.2": {
+  "source": "C3",
+  "text": "Held to the end, these pay what they say \u2013 no price fluctuations for us to fear."
+ },
+ "P302.3": {
+  "source": "C3",
+  "text": "At current yields, this would cost roughly $300,000 \u2013 in other words, your entire first deposit."
+ },
+ "P302.4": {
+  "source": "C3",
+  "text": "But worry not \u2013 our plan isn\u2019t dependent on yields staying put!"
+ },
+ "P302.5": {
+  "source": "C3",
+  "text": "Even if yields fall and the total cost of the ladder ends up being above $300,000, we\u2019ll simply complete it with the 2028 deposit."
+ },
+ "P303.1": {
+  "source": "K1",
+  "text": "In January 2027 Laura's first deposit of $300,000 buys ten Treasuries, one for each payment, each maturing shortly before the 1 January it pays."
+ },
+ "P303.2": {
+  "source": "K1",
+  "text": "A Treasury held until it matures pays exactly the interest and the sum it promised, on the dates it promised, because the US government stands behind it; what its price does in between doesn't touch us, because we never sell one early."
+ },
+ "P303.3": {
+  "source": "K1",
+  "text": "For the payments of 2033 to 2037 we use iShares iBonds funds."
+ },
+ "P303.4": {
+  "source": "K1",
+  "text": "Each holds Treasuries that mature in one year of its own, closes in mid-December of that year and pays its holders what it then holds."
+ },
+ "P303.5": {
+  "source": "K1",
+  "text": "We used them because the competition's simulator listed no Treasury bond maturing in those years."
+ },
+ "P303.6": {
+  "source": "K1",
+  "text": "The payments of 2038 to 2042 come from Treasury bonds themselves."
+ },
+ "P303.7": {
+  "source": "K1",
+  "text": "There is one catch."
+ },
+ "P303.8": {
+  "source": "K1",
+  "text": "Treasuries pay interest along the way, often years before the payment it belongs to, and that interest has to earn something while it waits."
+ },
+ "P303.9": {
+  "source": "K1",
+  "text": "At the rates of 6 November 2026, the day trading froze, the ten cost about $301,500 on the assumption that it does."
+ },
+ "P303.10": {
+  "source": "K1",
+  "text": "That is slightly more than Laura has, so the last $2,388 is bought a year later from her second deposit, which also buys more of the same Treasuries: enough that every payment is met even if the interest waiting for it earns nothing at all."
+ },
+ "P303.11": {
+  "source": "K1",
+  "text": "From January 2028, then, no payment depends on a share price or on interest rates."
+ },
+ "P303.12": {
+  "source": "K1",
+  "text": "Only a US default, or no second deposit, could stop one."
+ },
+ "P304.1": {
+  "source": "U3",
+  "text": "In 2031 Laura gives co-sponsors two figures, a bottom and a top, in $5,000 steps."
+ },
+ "P304.2": {
+  "source": "U3",
+  "text": "Both will be paid by IBTM, a Treasury fund that pays out in mid-December 2032."
+ },
+ "P304.3": {
+  "source": "U3",
+  "text": "The bottom is bought in January 2028, with most of what her $150,000 deposit has left once the ten payments take their share: enough of IBTM to pay about $102,000."
+ },
+ "P304.4": {
+  "source": "U3",
+  "text": "Counted cautiously (as if the interest it pays out from then on earns nothing), less 0.5% for costs and rounded down, that is $95,000 on Treasury rates of 6 November 2026."
+ },
+ "P304.5": {
+  "source": "U3",
+  "text": "It does not change after that."
+ },
+ "P304.6": {
+  "source": "U3",
+  "text": "The top waits for her shares."
+ },
+ "P304.7": {
+  "source": "U3",
+  "text": "The rest of that deposit buys VT, a world share fund."
+ },
+ "P304.8": {
+  "source": "U3",
+  "text": "In January 2031, before the meetings, half the value of her shares is sold and put into IBTM; the other half stays in shares, promised to no one."
+ },
+ "P304.9": {
+  "source": "U3",
+  "text": "The top is the same cautious count on both purchases together: $115,000 if world shares grow 7.5% a year, J.P."
+ },
+ "P304.10": {
+  "source": "U3",
+  "text": "Morgan's long-term forecast."
+ },
+ "P304.11": {
+  "source": "U3",
+  "text": "Laura names nothing before she owns it: a top named a year earlier would be more than the sale could buy in about 11 of 100 futures our model simulates."
+ },
+ "P304.12": {
+  "source": "U3",
+  "text": "When she speaks, Treasuries she owns will pay both figures: the range is certain, and her contribution is the top."
+ },
+ "P304.13": {
+  "source": "U3",
+  "text": "Why not just say $115,000?"
+ },
+ "P304.14": {
+  "source": "U3",
+  "text": "Because the two ends say different things."
+ },
+ "P304.15": {
+  "source": "U3",
+  "text": "The bottom has been held in Treasuries since January 2028, whatever shares did; the gap above it is what shares added by 2031."
+ },
+ "P304.16": {
+  "source": "U3",
+  "text": "Had shares fallen to nothing, the range would be one figure, $95,000."
+ },
+ "P305.1": {
+  "source": "K4",
+  "text": "Half of Laura's shares are never promised to anyone; the IPS calls this her flexibility."
+ },
+ "P305.2": {
+  "source": "K4",
+  "text": "On today's figures it is worth about $21,200 at the start of 2033, and about $28,700 once we add whatever the December 2032 Treasury fund pays beyond the top figure she has stated."
+ },
+ "P305.3": {
+  "source": "K4",
+  "text": "It is there for the three things the IPS names, and each can be pictured."
+ },
+ "P305.4": {
+  "source": "K4",
+  "text": "A builder's tender could come in above the estimate."
+ },
+ "P305.5": {
+  "source": "K4",
+  "text": "Taiwan's construction costs rose about 7% in the year to October 2026, and across the places we checked they rise in about four years out of five, whether shares are rising or falling."
+ },
+ "P305.6": {
+  "source": "K4",
+  "text": "The Taiwan dollar could strengthen between the 2031 meetings and the day she pays, so the same building would cost more in US dollars: a Taiwan dollar 10% stronger would need about $11,500 more, which her flexibility covers in about 93 of 100 of our model futures."
+ },
+ "P305.7": {
+  "source": "K4",
+  "text": "Or a co-sponsor could give less than it said, perhaps in the same recession that cut the value of Laura's shares."
+ },
+ "P305.8": {
+  "source": "K4",
+  "text": "The honest limit is the order in which those things can come."
+ },
+ "P305.9": {
+  "source": "K4",
+  "text": "World shares bought at the start of 2000, as hers are bought at the start of 2028, were about 41% down three years later, the point that matches her meetings; Taiwan's building costs then rose about 18% before the point that matches her payment."
+ },
+ "P305.10": {
+  "source": "K4",
+  "text": "A slump followed by a building boom is the case her flexibility handles worst."
+ },
+ "P305.11": {
+  "source": "K4",
+  "text": "Even then, it runs out without breaking anything: the payments and the figure she stated are already owned in Treasuries."
+ },
+ "P306.1": {
+  "source": "V2",
+  "text": "In January 2027 Laura's first $300,000 buys ten Treasuries (guaranteed US government bonds), one maturing just before each $50,000 payment, and falls just short of buying all ten."
+ },
+ "P306.2": {
+  "source": "V2",
+  "text": "Her second deposit, $150,000 from her books, talks and licences, arrives in January 2028 and is spent that month, because nothing comes in after it."
+ },
+ "P306.3": {
+  "source": "V2",
+  "text": "It goes, in order, to the things that most need to be sure."
+ },
+ "P306.4": {
+  "source": "V2",
+  "text": "(Figures are at Treasury rates on 6 November 2026.)"
+ },
+ "P306.5": {
+  "source": "V2",
+  "text": "The first $2,388 completes the ten."
+ },
+ "P306.6": {
+  "source": "V2",
+  "text": "The next $36,774 buys more of the same Treasuries."
+ },
+ "P306.7": {
+  "source": "V2",
+  "text": "With them, all ten payments are made even if every dollar paid out early earns nothing while it waits for its 1 January, and even if each of the Treasury funds behind five of them pays out 0.5% less than its holdings are worth."
+ },
+ "P306.8": {
+  "source": "V2",
+  "text": "Anything the payments still lacked after January 2028 could only come from selling her shares."
+ },
+ "P306.9": {
+  "source": "V2",
+  "text": "Most of what is left buys IBTM, a Treasury fund that closes in mid-December 2032, just before the building money is needed."
+ },
+ "P306.10": {
+  "source": "V2",
+  "text": "This is the floor."
+ },
+ "P306.11": {
+  "source": "V2",
+  "text": "It will pay about $102,000, and that payout, counted with room to spare and rounded down, is the lowest figure Laura will give co-sponsors in 2031: $95,000."
+ },
+ "P306.12": {
+  "source": "V2",
+  "text": "Bought in January 2028, that figure is fixed three years before she says it."
+ },
+ "P306.13": {
+  "source": "V2",
+  "text": "The rest buys VT, one fund of shares in thousands of companies worldwide."
+ },
+ "P306.14": {
+  "source": "V2",
+  "text": "Shares come last because no promise depends on them yet, and they have three years to grow before 2031."
+ },
+ "P306.15": {
+  "source": "V2",
+  "text": "How they do decides how far above that lowest figure her top reaches."
+ },
+ "P307.1": {
+  "source": "C4",
+  "text": "The building is a different matter."
+ },
+ "P307.2": {
+  "source": "C4",
+  "text": "Most of the 2028 deposit will fund a Treasury fund maturing in late 2032, whose payout is the bare minimum you\u2019ll be able to promise your co-sponsors without doubt."
+ },
+ "P307.3": {
+  "source": "C4",
+  "text": "The rest will go into a world share fund of thousands of companies \u2013 VT, Vanguard Total World Stock ETF \u2013 and its returns will help determine your maximum facility contribution."
+ },
+ "P307.4": {
+  "source": "C4",
+  "text": "That means markets will be able to increase or decrease the top of your planned band as we get closer to 2031, but the bottom will remain constant, built on the ever-reliable Treasuries."
+ },
+ "P307.5": {
+  "source": "C4",
+  "text": "Importantly for you, half of the value of the shares will be promised to no one."
+ },
+ "P307.6": {
+  "source": "C4",
+  "text": "That is your flexibility \u2013 for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short."
+ },
+ "P307.7": {
+  "source": "C4",
+  "text": "Before you meet co-sponsors in 2031, the other half will move into Treasuries, so whatever figure you choose is money you already own."
+ },
+ "P308.1": {
+  "source": "V4",
+  "text": "In January 2031, before the co-sponsor meetings, Laura sells half of the world shares she bought in 2028 and buys Treasuries to pay her contribution."
+ },
+ "P308.2": {
+  "source": "V4",
+  "text": "The other half stays in shares, promised to no one: her flexibility."
+ },
+ "P308.3": {
+  "source": "V4",
+  "text": "At Treasury rates of 6 November 2026, and with world shares growing 7.5% a year, it is worth about $21,200 at the start of 2033."
+ },
+ "P308.4": {
+  "source": "V4",
+  "text": "In 1 simulated future in 20, her flexibility is $9,600 or less, and after 2031 a fall in shares shrinks this money and nothing else."
+ },
+ "P308.5": {
+  "source": "V4",
+  "text": "It is there for three things that could happen to a building in Taiwan."
+ },
+ "P308.6": {
+  "source": "V4",
+  "text": "The builder's price could rise between the 2031 meetings and the day she pays."
+ },
+ "P308.7": {
+  "source": "V4",
+  "text": "Building costs, in Taiwan and elsewhere, rise in about four years out of five whether world shares rise or fall, so her shares will not reliably be up when the price is."
+ },
+ "P308.8": {
+  "source": "V4",
+  "text": "World shares bought at the start of 2000, as hers are bought at the start of 2028, were about 41% down by January 2003, the point that matches her meetings; Taiwan's building costs then rose about 18% in Taiwan dollars before the point that matches her payment."
+ },
+ "P308.9": {
+  "source": "V4",
+  "text": "A run like that could leave her short."
+ },
+ "P308.10": {
+  "source": "V4",
+  "text": "The Taiwan dollar could strengthen, so the same building costs more US dollars."
+ },
+ "P308.11": {
+  "source": "V4",
+  "text": "A 10% rise would need about $11,500 more, which her flexibility alone covers in about 93 of 100 futures."
+ },
+ "P308.12": {
+  "source": "V4",
+  "text": "And a co-sponsor could fall short, most likely in a recession: the same downturn that tends to delay her own book income and cut share prices."
+ },
+ "P401.1": {
+  "source": "K2",
+  "text": "Laura's second deposit, $150,000, arrives in January 2028 and is spent in a fixed order."
+ },
+ "P401.2": {
+  "source": "K2",
+  "text": "First, $2,388 finishes buying the ten payments, the small part her first deposit could not afford."
+ },
+ "P401.3": {
+  "source": "K2",
+  "text": "Second, $36,774 buys more of the same Treasuries."
+ },
+ "P401.4": {
+  "source": "K2",
+  "text": "The ten are only enough if the interest they pay along the way is reinvested at today's rates; this extra makes every payment safe even if that interest earns nothing at all while it waits."
+ },
+ "P401.5": {
+  "source": "K2",
+  "text": "Together these Treasuries are the operating reserve the case asks us to size."
+ },
+ "P401.6": {
+  "source": "K2",
+  "text": "Third, most of what is left, about $81,000, buys more of the iBonds Treasury fund that closes in December 2032, the same fund that already holds the money for the 2033 payment."
+ },
+ "P401.7": {
+  "source": "K2",
+  "text": "What this purchase pays out in December 2032, about $102,000 on today's figures, is the least Laura will be able to promise towards the building, so we call it the floor."
+ },
+ "P401.8": {
+  "source": "K2",
+  "text": "We buy it in January 2028 rather than later because the only other place for that money in the meantime is shares, and then the least she could promise would depend on what shares did."
+ },
+ "P401.9": {
+  "source": "K2",
+  "text": "Bought as Treasuries, it is fixed on the day it is bought."
+ },
+ "P401.10": {
+  "source": "K2",
+  "text": "Last, the remaining $29,600 or so buys VT, one fund holding shares in thousands of companies around the world."
+ },
+ "P401.11": {
+  "source": "K2",
+  "text": "It is the only money in the plan that can grow beyond what Treasuries pay, and the only money that can fall."
+ },
+ "P401.12": {
+  "source": "K2",
+  "text": "Nothing anyone is promised depends on it."
+ },
+ "P402.1": {
+  "source": "C4",
+  "text": "The building is a different matter."
+ },
+ "P402.2": {
+  "source": "C4",
+  "text": "Most of the 2028 deposit will fund a Treasury fund maturing in late 2032, whose payout is the bare minimum you\u2019ll be able to promise your co-sponsors without doubt."
+ },
+ "P402.3": {
+  "source": "C4",
+  "text": "The rest will go into a world share fund of thousands of companies \u2013 VT, Vanguard Total World Stock ETF \u2013 and its returns will help determine your maximum facility contribution."
+ },
+ "P402.4": {
+  "source": "C4",
+  "text": "That means markets will be able to increase or decrease the top of your planned band as we get closer to 2031, but the bottom will remain constant, built on the ever-reliable Treasuries."
+ },
+ "P402.5": {
+  "source": "C4",
+  "text": "Importantly for you, half of the value of the shares will be promised to no one."
+ },
+ "P402.6": {
+  "source": "C4",
+  "text": "That is your flexibility \u2013 for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short."
+ },
+ "P402.7": {
+  "source": "C4",
+  "text": "Before you meet co-sponsors in 2031, the other half will move into Treasuries, so whatever figure you choose is money you already own."
+ },
+ "P403.1": {
+  "source": "V3",
+  "text": "In 2031 Laura gives co-sponsors two figures, a bottom and a top."
+ },
+ "P403.2": {
+  "source": "V3",
+  "text": "Both are paid by one fund, IBTM, a fund of US Treasuries that pays out when it closes in mid-December 2032."
+ },
+ "P403.3": {
+  "source": "V3",
+  "text": "The bottom is fixed in January 2028, when most of her second deposit buys this fund."
+ },
+ "P403.4": {
+  "source": "V3",
+  "text": "On Treasury rates of 6 November 2026, that purchase will pay about $102,000."
+ },
+ "P403.5": {
+  "source": "V3",
+  "text": "We count it as if the interest the fund pays out along the way earns nothing once paid, take off 0.5% for its costs beyond its fee, and round down: $95,000."
+ },
+ "P403.6": {
+  "source": "V3",
+  "text": "The rest of that deposit buys world shares, whose price decides for three years how much more she can give."
+ },
+ "P403.7": {
+  "source": "V3",
+  "text": "In January 2031, before the meetings, half the shares are sold to buy more of the same fund, and the other half stays in shares, promised to no one."
+ },
+ "P403.8": {
+  "source": "V3",
+  "text": "The top is what the fund will pay on both purchases, counted the same way and rounded down once: $115,000 if world shares grow 7.5% a year, J.P."
+ },
+ "P403.9": {
+  "source": "V3",
+  "text": "Morgan's long-term forecast."
+ },
+ "P403.10": {
+  "source": "V3",
+  "text": "She names neither figure before that sale."
+ },
+ "P403.11": {
+  "source": "V3",
+  "text": "If she named a top a year early, the sale would buy less than it in about 11 of 100 futures we simulated."
+ },
+ "P403.12": {
+  "source": "V3",
+  "text": "Named after it, both figures are paid by Treasuries she already owns, so she can call them certain."
+ },
+ "P403.13": {
+  "source": "V3",
+  "text": "Why a range, then?"
+ },
+ "P403.14": {
+  "source": "V3",
+  "text": "Because its ends say different things."
+ },
+ "P403.15": {
+  "source": "V3",
+  "text": "The top is what she will give; co-sponsors plan around it."
+ },
+ "P403.16": {
+  "source": "V3",
+  "text": "The bottom is the part held since 2028, which would have stood even if her shares had fallen to nothing."
+ },
+ "P404.1": {
+  "source": "C3",
+  "text": "In January 2027 we\u2019ll use your first deposit to buy 10 Treasuries (T-Bonds or iShares iBonds Term Treasury ETFs, whichever works best for each year), each maturing just before it\u2019s needed."
+ },
+ "P404.2": {
+  "source": "C3",
+  "text": "Held to the end, these pay what they say \u2013 no price fluctuations for us to fear."
+ },
+ "P404.3": {
+  "source": "C3",
+  "text": "At current yields, this would cost roughly $300,000 \u2013 in other words, your entire first deposit."
+ },
+ "P404.4": {
+  "source": "C3",
+  "text": "But worry not \u2013 our plan isn\u2019t dependent on yields staying put!"
+ },
+ "P404.5": {
+  "source": "C3",
+  "text": "Even if yields fall and the total cost of the ladder ends up being above $300,000, we\u2019ll simply complete it with the 2028 deposit."
+ },
+ "P405.1": {
+  "source": "K3",
+  "text": "In January 2028 most of what is left of Laura's second deposit buys an iBonds Treasury fund that closes and pays out in December 2032, just before her building contribution falls due."
+ },
+ "P405.2": {
+  "source": "K3",
+  "text": "In 2031 she tells co-sponsors two figures for that contribution, and by the time she says them, both are owned in that fund."
+ },
+ "P405.3": {
+  "source": "K3",
+  "text": "The lower figure, the bottom, is what the 2028 purchase will pay out."
+ },
+ "P405.4": {
+  "source": "K3",
+  "text": "We count it cautiously, as if the interest the fund collects from then on earned nothing more, take off 0.5% for the fund's costs beyond its fee, and round down to a multiple of $5,000."
+ },
+ "P405.5": {
+  "source": "K3",
+  "text": "On today's figures that turns an expected $102,000 into $95,000, and once the fund is bought the bottom cannot move."
+ },
+ "P405.6": {
+  "source": "K3",
+  "text": "The upper figure, the top, takes one more step."
+ },
+ "P405.7": {
+  "source": "K3",
+  "text": "In January 2031, before the meetings, half the value of her shares is sold and the money buys more of the same fund."
+ },
+ "P405.8": {
+  "source": "K3",
+  "text": "Both purchases counted the same cautious way, and rounded down once, give the top: $115,000 on today's figures."
+ },
+ "P405.9": {
+  "source": "K3",
+  "text": "How far the top sits above the bottom depends on what shares did between 2028 and 2031."
+ },
+ "P405.10": {
+  "source": "K3",
+  "text": "Had they fallen to nothing, the range would be a single figure."
+ },
+ "P405.11": {
+  "source": "K3",
+  "text": "Why give a range at all, when both ends are owned?"
+ },
+ "P405.12": {
+  "source": "K3",
+  "text": "The case asks Laura for one, and the two ends tell co-sponsors different things."
+ },
+ "P405.13": {
+  "source": "K3",
+  "text": "The top is what she will give, and the figure they should plan around."
+ },
+ "P405.14": {
+  "source": "K3",
+  "text": "The bottom is how much of it has been held in Treasuries since January 2028."
+ },
+ "P406.1": {
+  "source": "U2",
+  "text": "Laura's $150,000 arrives in January 2028, the last money in before the residency opens."
+ },
+ "P406.2": {
+  "source": "U2",
+  "text": "We spend it in order: the payments, then the least she will give to the building, then shares."
+ },
+ "P406.3": {
+  "source": "U2",
+  "text": "The payments come first because they are already fixed."
+ },
+ "P406.4": {
+  "source": "U2",
+  "text": "In January 2027 her first deposit bought ten Treasuries, one for each $50,000 payment, but at Treasury rates on 6 November 2026 it could not pay for all ten in full; the missing part costs $2,388."
+ },
+ "P406.5": {
+  "source": "U2",
+  "text": "Then $36,774 buys more of the same Treasuries and Treasury funds, enough to meet every payment even if the money they pay out early earns nothing while it waits."
+ },
+ "P406.6": {
+  "source": "U2",
+  "text": "From then on, no payment rests on a future interest rate."
+ },
+ "P406.7": {
+  "source": "U2",
+  "text": "Most of what remains buys more of IBTM, the Treasury fund that already holds the money for the 2033 payment and pays out in mid-December 2032: about $102,000 from this purchase."
+ },
+ "P406.8": {
+  "source": "U2",
+  "text": "Counted as if the interest it pays out from then on earns nothing, cut 0.5% for costs and rounded down, that is $95,000, the lowest figure Laura can give co-sponsors in 2031."
+ },
+ "P406.9": {
+  "source": "U2",
+  "text": "Until the day it is bought, that figure moves with Treasury rates; from that day it is fixed, three years before she states it."
+ },
+ "P406.10": {
+  "source": "U2",
+  "text": "The rest buys VT, a fund of shares in thousands of companies worldwide."
+ },
+ "P406.11": {
+  "source": "U2",
+  "text": "Shares get only money no promise depends on, and get it now because they need time to grow."
+ },
+ "P406.12": {
+  "source": "U2",
+  "text": "In January 2031 half their value moves into IBTM to set the top of her 2031 range; the other half stays hers, promised to no one."
+ },
+ "P407.1": {
+  "source": "V1",
+  "text": "In January 2027 Laura's first deposit of $300,000 buys ten Treasuries, one for each payment, each maturing just before the 1 January it pays."
+ },
+ "P407.2": {
+  "source": "V1",
+  "text": "A Treasury is a loan to the US government, which guarantees it: held to the end, it pays exactly its stated interest and its face value on fixed dates."
+ },
+ "P407.3": {
+  "source": "V1",
+  "text": "The last five payments rest on Treasury bonds, the first five on iShares iBonds funds, because the plan could buy no Treasury bond maturing between February 2031 and February 2036."
+ },
+ "P407.4": {
+  "source": "V1",
+  "text": "Each fund holds Treasuries that all mature in the same year, closes in mid-December of that year and pays out what its holdings are then worth: close to a fixed sum, though not exactly one."
+ },
+ "P407.5": {
+  "source": "V1",
+  "text": "At Treasury rates on 6 November 2026, the ten cost slightly more than $300,000, and they reach $50,000 each only if the interest they pay along the way is reinvested at those rates."
+ },
+ "P407.6": {
+  "source": "V1",
+  "text": "So in January 2027 two parts of the ten are not yet owned: the slice the deposit could not buy, and the interest that reinvested cash has still to earn."
+ },
+ "P407.7": {
+  "source": "V1",
+  "text": "The 2028 deposit takes care of both first: $2,388 buys the missing slice, and $36,774 buys more of the same Treasuries, enough for all ten payments to be made even if every dollar waiting for its 1 January earns nothing (one bond pays out in February 2037 for the payment of January 2038)."
+ },
+ "P407.8": {
+  "source": "V1",
+  "text": "From then on each $50,000 is already owned, and no share price stands between Laura and any of the ten."
+ },
+ "P407.9": {
+  "source": "V1",
+  "text": "Until then, they depend on the 2028 deposit arriving."
+ },
+ "P408.1": {
+  "source": "U4",
+  "text": "Laura's plan makes two promises: ten payments of $50,000, and the building contribution she names in 2031."
+ },
+ "P408.2": {
+  "source": "U4",
+  "text": "Her flexibility is what it promises to no one."
+ },
+ "P408.3": {
+  "source": "U4",
+  "text": "Part of her 2028 deposit buys VT, a world share fund; in January 2031 half of it is sold for Treasuries that will pay the contribution, and the other half stays in shares."
+ },
+ "P408.4": {
+  "source": "U4",
+  "text": "If world shares grow 7.5% a year, that half is worth about $21,200 on 1 January 2033, and with what her Treasuries pay above the contribution she keeps about $28,700."
+ },
+ "P408.5": {
+  "source": "U4",
+  "text": "In 1 of 20 futures our model simulates, her flexibility is about $9,600 or less."
+ },
+ "P408.6": {
+  "source": "U4",
+  "text": "It is there for three things."
+ },
+ "P408.7": {
+  "source": "U4",
+  "text": "The builder's price can rise: in Taiwan and the other places we checked, building costs rise in about four years out of five, whether shares rise or fall."
+ },
+ "P408.8": {
+  "source": "U4",
+  "text": "The Taiwan dollar can strengthen: the building is paid for in Taiwan dollars, so a Taiwan dollar 10% stronger when she pays than at the 2031 meetings makes the same building about $11,500 dearer."
+ },
+ "P408.9": {
+  "source": "U4",
+  "text": "Her flexibility alone covers that in about 93 of 100 model futures."
+ },
+ "P408.10": {
+  "source": "U4",
+  "text": "And a co-sponsor can fall short, its budget cut in a recession that also cuts share prices."
+ },
+ "P408.11": {
+  "source": "U4",
+  "text": "The hard case is two at once."
+ },
+ "P408.12": {
+  "source": "U4",
+  "text": "World shares bought at the start of 2000, as hers are in 2028, had lost about 41% by January 2003, the point that matches her 2031 meetings."
+ },
+ "P408.13": {
+  "source": "U4",
+  "text": "Taiwan's building costs then rose about 18% by the point that matches her contribution."
+ },
+ "P408.14": {
+  "source": "U4",
+  "text": "A slump then a cost burst like that could leave her flexibility short."
+ },
+ "P501.1": {
+  "source": "U4",
+  "text": "Laura's plan makes two promises: ten payments of $50,000, and the building contribution she names in 2031."
+ },
+ "P501.2": {
+  "source": "U4",
+  "text": "Her flexibility is what it promises to no one."
+ },
+ "P501.3": {
+  "source": "U4",
+  "text": "Part of her 2028 deposit buys VT, a world share fund; in January 2031 half of it is sold for Treasuries that will pay the contribution, and the other half stays in shares."
+ },
+ "P501.4": {
+  "source": "U4",
+  "text": "If world shares grow 7.5% a year, that half is worth about $21,200 on 1 January 2033, and with what her Treasuries pay above the contribution she keeps about $28,700."
+ },
+ "P501.5": {
+  "source": "U4",
+  "text": "In 1 of 20 futures our model simulates, her flexibility is about $9,600 or less."
+ },
+ "P501.6": {
+  "source": "U4",
+  "text": "It is there for three things."
+ },
+ "P501.7": {
+  "source": "U4",
+  "text": "The builder's price can rise: in Taiwan and the other places we checked, building costs rise in about four years out of five, whether shares rise or fall."
+ },
+ "P501.8": {
+  "source": "U4",
+  "text": "The Taiwan dollar can strengthen: the building is paid for in Taiwan dollars, so a Taiwan dollar 10% stronger when she pays than at the 2031 meetings makes the same building about $11,500 dearer."
+ },
+ "P501.9": {
+  "source": "U4",
+  "text": "Her flexibility alone covers that in about 93 of 100 model futures."
+ },
+ "P501.10": {
+  "source": "U4",
+  "text": "And a co-sponsor can fall short, its budget cut in a recession that also cuts share prices."
+ },
+ "P501.11": {
+  "source": "U4",
+  "text": "The hard case is two at once."
+ },
+ "P501.12": {
+  "source": "U4",
+  "text": "World shares bought at the start of 2000, as hers are in 2028, had lost about 41% by January 2003, the point that matches her 2031 meetings."
+ },
+ "P501.13": {
+  "source": "U4",
+  "text": "Taiwan's building costs then rose about 18% by the point that matches her contribution."
+ },
+ "P501.14": {
+  "source": "U4",
+  "text": "A slump then a cost burst like that could leave her flexibility short."
+ },
+ "P502.1": {
+  "source": "C4",
+  "text": "The building is a different matter."
+ },
+ "P502.2": {
+  "source": "C4",
+  "text": "Most of the 2028 deposit will fund a Treasury fund maturing in late 2032, whose payout is the bare minimum you\u2019ll be able to promise your co-sponsors without doubt."
+ },
+ "P502.3": {
+  "source": "C4",
+  "text": "The rest will go into a world share fund of thousands of companies \u2013 VT, Vanguard Total World Stock ETF \u2013 and its returns will help determine your maximum facility contribution."
+ },
+ "P502.4": {
+  "source": "C4",
+  "text": "That means markets will be able to increase or decrease the top of your planned band as we get closer to 2031, but the bottom will remain constant, built on the ever-reliable Treasuries."
+ },
+ "P502.5": {
+  "source": "C4",
+  "text": "Importantly for you, half of the value of the shares will be promised to no one."
+ },
+ "P502.6": {
+  "source": "C4",
+  "text": "That is your flexibility \u2013 for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short."
+ },
+ "P502.7": {
+  "source": "C4",
+  "text": "Before you meet co-sponsors in 2031, the other half will move into Treasuries, so whatever figure you choose is money you already own."
+ },
+ "P503.1": {
+  "source": "U2",
+  "text": "Laura's $150,000 arrives in January 2028, the last money in before the residency opens."
+ },
+ "P503.2": {
+  "source": "U2",
+  "text": "We spend it in order: the payments, then the least she will give to the building, then shares."
+ },
+ "P503.3": {
+  "source": "U2",
+  "text": "The payments come first because they are already fixed."
+ },
+ "P503.4": {
+  "source": "U2",
+  "text": "In January 2027 her first deposit bought ten Treasuries, one for each $50,000 payment, but at Treasury rates on 6 November 2026 it could not pay for all ten in full; the missing part costs $2,388."
+ },
+ "P503.5": {
+  "source": "U2",
+  "text": "Then $36,774 buys more of the same Treasuries and Treasury funds, enough to meet every payment even if the money they pay out early earns nothing while it waits."
+ },
+ "P503.6": {
+  "source": "U2",
+  "text": "From then on, no payment rests on a future interest rate."
+ },
+ "P503.7": {
+  "source": "U2",
+  "text": "Most of what remains buys more of IBTM, the Treasury fund that already holds the money for the 2033 payment and pays out in mid-December 2032: about $102,000 from this purchase."
+ },
+ "P503.8": {
+  "source": "U2",
+  "text": "Counted as if the interest it pays out from then on earns nothing, cut 0.5% for costs and rounded down, that is $95,000, the lowest figure Laura can give co-sponsors in 2031."
+ },
+ "P503.9": {
+  "source": "U2",
+  "text": "Until the day it is bought, that figure moves with Treasury rates; from that day it is fixed, three years before she states it."
+ },
+ "P503.10": {
+  "source": "U2",
+  "text": "The rest buys VT, a fund of shares in thousands of companies worldwide."
+ },
+ "P503.11": {
+  "source": "U2",
+  "text": "Shares get only money no promise depends on, and get it now because they need time to grow."
+ },
+ "P503.12": {
+  "source": "U2",
+  "text": "In January 2031 half their value moves into IBTM to set the top of her 2031 range; the other half stays hers, promised to no one."
+ },
+ "P504.1": {
+  "source": "K2",
+  "text": "Laura's second deposit, $150,000, arrives in January 2028 and is spent in a fixed order."
+ },
+ "P504.2": {
+  "source": "K2",
+  "text": "First, $2,388 finishes buying the ten payments, the small part her first deposit could not afford."
+ },
+ "P504.3": {
+  "source": "K2",
+  "text": "Second, $36,774 buys more of the same Treasuries."
+ },
+ "P504.4": {
+  "source": "K2",
+  "text": "The ten are only enough if the interest they pay along the way is reinvested at today's rates; this extra makes every payment safe even if that interest earns nothing at all while it waits."
+ },
+ "P504.5": {
+  "source": "K2",
+  "text": "Together these Treasuries are the operating reserve the case asks us to size."
+ },
+ "P504.6": {
+  "source": "K2",
+  "text": "Third, most of what is left, about $81,000, buys more of the iBonds Treasury fund that closes in December 2032, the same fund that already holds the money for the 2033 payment."
+ },
+ "P504.7": {
+  "source": "K2",
+  "text": "What this purchase pays out in December 2032, about $102,000 on today's figures, is the least Laura will be able to promise towards the building, so we call it the floor."
+ },
+ "P504.8": {
+  "source": "K2",
+  "text": "We buy it in January 2028 rather than later because the only other place for that money in the meantime is shares, and then the least she could promise would depend on what shares did."
+ },
+ "P504.9": {
+  "source": "K2",
+  "text": "Bought as Treasuries, it is fixed on the day it is bought."
+ },
+ "P504.10": {
+  "source": "K2",
+  "text": "Last, the remaining $29,600 or so buys VT, one fund holding shares in thousands of companies around the world."
+ },
+ "P504.11": {
+  "source": "K2",
+  "text": "It is the only money in the plan that can grow beyond what Treasuries pay, and the only money that can fall."
+ },
+ "P504.12": {
+  "source": "K2",
+  "text": "Nothing anyone is promised depends on it."
+ },
+ "P505.1": {
+  "source": "C3",
+  "text": "In January 2027 we\u2019ll use your first deposit to buy 10 Treasuries (T-Bonds or iShares iBonds Term Treasury ETFs, whichever works best for each year), each maturing just before it\u2019s needed."
+ },
+ "P505.2": {
+  "source": "C3",
+  "text": "Held to the end, these pay what they say \u2013 no price fluctuations for us to fear."
+ },
+ "P505.3": {
+  "source": "C3",
+  "text": "At current yields, this would cost roughly $300,000 \u2013 in other words, your entire first deposit."
+ },
+ "P505.4": {
+  "source": "C3",
+  "text": "But worry not \u2013 our plan isn\u2019t dependent on yields staying put!"
+ },
+ "P505.5": {
+  "source": "C3",
+  "text": "Even if yields fall and the total cost of the ladder ends up being above $300,000, we\u2019ll simply complete it with the 2028 deposit."
+ },
+ "P506.1": {
+  "source": "V3",
+  "text": "In 2031 Laura gives co-sponsors two figures, a bottom and a top."
+ },
+ "P506.2": {
+  "source": "V3",
+  "text": "Both are paid by one fund, IBTM, a fund of US Treasuries that pays out when it closes in mid-December 2032."
+ },
+ "P506.3": {
+  "source": "V3",
+  "text": "The bottom is fixed in January 2028, when most of her second deposit buys this fund."
+ },
+ "P506.4": {
+  "source": "V3",
+  "text": "On Treasury rates of 6 November 2026, that purchase will pay about $102,000."
+ },
+ "P506.5": {
+  "source": "V3",
+  "text": "We count it as if the interest the fund pays out along the way earns nothing once paid, take off 0.5% for its costs beyond its fee, and round down: $95,000."
+ },
+ "P506.6": {
+  "source": "V3",
+  "text": "The rest of that deposit buys world shares, whose price decides for three years how much more she can give."
+ },
+ "P506.7": {
+  "source": "V3",
+  "text": "In January 2031, before the meetings, half the shares are sold to buy more of the same fund, and the other half stays in shares, promised to no one."
+ },
+ "P506.8": {
+  "source": "V3",
+  "text": "The top is what the fund will pay on both purchases, counted the same way and rounded down once: $115,000 if world shares grow 7.5% a year, J.P."
+ },
+ "P506.9": {
+  "source": "V3",
+  "text": "Morgan's long-term forecast."
+ },
+ "P506.10": {
+  "source": "V3",
+  "text": "She names neither figure before that sale."
+ },
+ "P506.11": {
+  "source": "V3",
+  "text": "If she named a top a year early, the sale would buy less than it in about 11 of 100 futures we simulated."
+ },
+ "P506.12": {
+  "source": "V3",
+  "text": "Named after it, both figures are paid by Treasuries she already owns, so she can call them certain."
+ },
+ "P506.13": {
+  "source": "V3",
+  "text": "Why a range, then?"
+ },
+ "P506.14": {
+  "source": "V3",
+  "text": "Because its ends say different things."
+ },
+ "P506.15": {
+  "source": "V3",
+  "text": "The top is what she will give; co-sponsors plan around it."
+ },
+ "P506.16": {
+  "source": "V3",
+  "text": "The bottom is the part held since 2028, which would have stood even if her shares had fallen to nothing."
+ },
+ "P507.1": {
+  "source": "V1",
+  "text": "In January 2027 Laura's first deposit of $300,000 buys ten Treasuries, one for each payment, each maturing just before the 1 January it pays."
+ },
+ "P507.2": {
+  "source": "V1",
+  "text": "A Treasury is a loan to the US government, which guarantees it: held to the end, it pays exactly its stated interest and its face value on fixed dates."
+ },
+ "P507.3": {
+  "source": "V1",
+  "text": "The last five payments rest on Treasury bonds, the first five on iShares iBonds funds, because the plan could buy no Treasury bond maturing between February 2031 and February 2036."
+ },
+ "P507.4": {
+  "source": "V1",
+  "text": "Each fund holds Treasuries that all mature in the same year, closes in mid-December of that year and pays out what its holdings are then worth: close to a fixed sum, though not exactly one."
+ },
+ "P507.5": {
+  "source": "V1",
+  "text": "At Treasury rates on 6 November 2026, the ten cost slightly more than $300,000, and they reach $50,000 each only if the interest they pay along the way is reinvested at those rates."
+ },
+ "P507.6": {
+  "source": "V1",
+  "text": "So in January 2027 two parts of the ten are not yet owned: the slice the deposit could not buy, and the interest that reinvested cash has still to earn."
+ },
+ "P507.7": {
+  "source": "V1",
+  "text": "The 2028 deposit takes care of both first: $2,388 buys the missing slice, and $36,774 buys more of the same Treasuries, enough for all ten payments to be made even if every dollar waiting for its 1 January earns nothing (one bond pays out in February 2037 for the payment of January 2038)."
+ },
+ "P507.8": {
+  "source": "V1",
+  "text": "From then on each $50,000 is already owned, and no share price stands between Laura and any of the ten."
+ },
+ "P507.9": {
+  "source": "V1",
+  "text": "Until then, they depend on the 2028 deposit arriving."
+ },
+ "P508.1": {
+  "source": "K3",
+  "text": "In January 2028 most of what is left of Laura's second deposit buys an iBonds Treasury fund that closes and pays out in December 2032, just before her building contribution falls due."
+ },
+ "P508.2": {
+  "source": "K3",
+  "text": "In 2031 she tells co-sponsors two figures for that contribution, and by the time she says them, both are owned in that fund."
+ },
+ "P508.3": {
+  "source": "K3",
+  "text": "The lower figure, the bottom, is what the 2028 purchase will pay out."
+ },
+ "P508.4": {
+  "source": "K3",
+  "text": "We count it cautiously, as if the interest the fund collects from then on earned nothing more, take off 0.5% for the fund's costs beyond its fee, and round down to a multiple of $5,000."
+ },
+ "P508.5": {
+  "source": "K3",
+  "text": "On today's figures that turns an expected $102,000 into $95,000, and once the fund is bought the bottom cannot move."
+ },
+ "P508.6": {
+  "source": "K3",
+  "text": "The upper figure, the top, takes one more step."
+ },
+ "P508.7": {
+  "source": "K3",
+  "text": "In January 2031, before the meetings, half the value of her shares is sold and the money buys more of the same fund."
+ },
+ "P508.8": {
+  "source": "K3",
+  "text": "Both purchases counted the same cautious way, and rounded down once, give the top: $115,000 on today's figures."
+ },
+ "P508.9": {
+  "source": "K3",
+  "text": "How far the top sits above the bottom depends on what shares did between 2028 and 2031."
+ },
+ "P508.10": {
+  "source": "K3",
+  "text": "Had they fallen to nothing, the range would be a single figure."
+ },
+ "P508.11": {
+  "source": "K3",
+  "text": "Why give a range at all, when both ends are owned?"
+ },
+ "P508.12": {
+  "source": "K3",
+  "text": "The case asks Laura for one, and the two ends tell co-sponsors different things."
+ },
+ "P508.13": {
+  "source": "K3",
+  "text": "The top is what she will give, and the figure they should plan around."
+ },
+ "P508.14": {
+  "source": "K3",
+  "text": "The bottom is how much of it has been held in Treasuries since January 2028."
+ },
+ "P601.1": {
+  "source": "K2",
+  "text": "Laura's second deposit, $150,000, arrives in January 2028 and is spent in a fixed order."
+ },
+ "P601.2": {
+  "source": "K2",
+  "text": "First, $2,388 finishes buying the ten payments, the small part her first deposit could not afford."
+ },
+ "P601.3": {
+  "source": "K2",
+  "text": "Second, $36,774 buys more of the same Treasuries."
+ },
+ "P601.4": {
+  "source": "K2",
+  "text": "The ten are only enough if the interest they pay along the way is reinvested at today's rates; this extra makes every payment safe even if that interest earns nothing at all while it waits."
+ },
+ "P601.5": {
+  "source": "K2",
+  "text": "Together these Treasuries are the operating reserve the case asks us to size."
+ },
+ "P601.6": {
+  "source": "K2",
+  "text": "Third, most of what is left, about $81,000, buys more of the iBonds Treasury fund that closes in December 2032, the same fund that already holds the money for the 2033 payment."
+ },
+ "P601.7": {
+  "source": "K2",
+  "text": "What this purchase pays out in December 2032, about $102,000 on today's figures, is the least Laura will be able to promise towards the building, so we call it the floor."
+ },
+ "P601.8": {
+  "source": "K2",
+  "text": "We buy it in January 2028 rather than later because the only other place for that money in the meantime is shares, and then the least she could promise would depend on what shares did."
+ },
+ "P601.9": {
+  "source": "K2",
+  "text": "Bought as Treasuries, it is fixed on the day it is bought."
+ },
+ "P601.10": {
+  "source": "K2",
+  "text": "Last, the remaining $29,600 or so buys VT, one fund holding shares in thousands of companies around the world."
+ },
+ "P601.11": {
+  "source": "K2",
+  "text": "It is the only money in the plan that can grow beyond what Treasuries pay, and the only money that can fall."
+ },
+ "P601.12": {
+  "source": "K2",
+  "text": "Nothing anyone is promised depends on it."
+ },
+ "P602.1": {
+  "source": "C3",
+  "text": "In January 2027 we\u2019ll use your first deposit to buy 10 Treasuries (T-Bonds or iShares iBonds Term Treasury ETFs, whichever works best for each year), each maturing just before it\u2019s needed."
+ },
+ "P602.2": {
+  "source": "C3",
+  "text": "Held to the end, these pay what they say \u2013 no price fluctuations for us to fear."
+ },
+ "P602.3": {
+  "source": "C3",
+  "text": "At current yields, this would cost roughly $300,000 \u2013 in other words, your entire first deposit."
+ },
+ "P602.4": {
+  "source": "C3",
+  "text": "But worry not \u2013 our plan isn\u2019t dependent on yields staying put!"
+ },
+ "P602.5": {
+  "source": "C3",
+  "text": "Even if yields fall and the total cost of the ladder ends up being above $300,000, we\u2019ll simply complete it with the 2028 deposit."
+ },
+ "P603.1": {
+  "source": "V1",
+  "text": "In January 2027 Laura's first deposit of $300,000 buys ten Treasuries, one for each payment, each maturing just before the 1 January it pays."
+ },
+ "P603.2": {
+  "source": "V1",
+  "text": "A Treasury is a loan to the US government, which guarantees it: held to the end, it pays exactly its stated interest and its face value on fixed dates."
+ },
+ "P603.3": {
+  "source": "V1",
+  "text": "The last five payments rest on Treasury bonds, the first five on iShares iBonds funds, because the plan could buy no Treasury bond maturing between February 2031 and February 2036."
+ },
+ "P603.4": {
+  "source": "V1",
+  "text": "Each fund holds Treasuries that all mature in the same year, closes in mid-December of that year and pays out what its holdings are then worth: close to a fixed sum, though not exactly one."
+ },
+ "P603.5": {
+  "source": "V1",
+  "text": "At Treasury rates on 6 November 2026, the ten cost slightly more than $300,000, and they reach $50,000 each only if the interest they pay along the way is reinvested at those rates."
+ },
+ "P603.6": {
+  "source": "V1",
+  "text": "So in January 2027 two parts of the ten are not yet owned: the slice the deposit could not buy, and the interest that reinvested cash has still to earn."
+ },
+ "P603.7": {
+  "source": "V1",
+  "text": "The 2028 deposit takes care of both first: $2,388 buys the missing slice, and $36,774 buys more of the same Treasuries, enough for all ten payments to be made even if every dollar waiting for its 1 January earns nothing (one bond pays out in February 2037 for the payment of January 2038)."
+ },
+ "P603.8": {
+  "source": "V1",
+  "text": "From then on each $50,000 is already owned, and no share price stands between Laura and any of the ten."
+ },
+ "P603.9": {
+  "source": "V1",
+  "text": "Until then, they depend on the 2028 deposit arriving."
+ },
+ "P604.1": {
+  "source": "U2",
+  "text": "Laura's $150,000 arrives in January 2028, the last money in before the residency opens."
+ },
+ "P604.2": {
+  "source": "U2",
+  "text": "We spend it in order: the payments, then the least she will give to the building, then shares."
+ },
+ "P604.3": {
+  "source": "U2",
+  "text": "The payments come first because they are already fixed."
+ },
+ "P604.4": {
+  "source": "U2",
+  "text": "In January 2027 her first deposit bought ten Treasuries, one for each $50,000 payment, but at Treasury rates on 6 November 2026 it could not pay for all ten in full; the missing part costs $2,388."
+ },
+ "P604.5": {
+  "source": "U2",
+  "text": "Then $36,774 buys more of the same Treasuries and Treasury funds, enough to meet every payment even if the money they pay out early earns nothing while it waits."
+ },
+ "P604.6": {
+  "source": "U2",
+  "text": "From then on, no payment rests on a future interest rate."
+ },
+ "P604.7": {
+  "source": "U2",
+  "text": "Most of what remains buys more of IBTM, the Treasury fund that already holds the money for the 2033 payment and pays out in mid-December 2032: about $102,000 from this purchase."
+ },
+ "P604.8": {
+  "source": "U2",
+  "text": "Counted as if the interest it pays out from then on earns nothing, cut 0.5% for costs and rounded down, that is $95,000, the lowest figure Laura can give co-sponsors in 2031."
+ },
+ "P604.9": {
+  "source": "U2",
+  "text": "Until the day it is bought, that figure moves with Treasury rates; from that day it is fixed, three years before she states it."
+ },
+ "P604.10": {
+  "source": "U2",
+  "text": "The rest buys VT, a fund of shares in thousands of companies worldwide."
+ },
+ "P604.11": {
+  "source": "U2",
+  "text": "Shares get only money no promise depends on, and get it now because they need time to grow."
+ },
+ "P604.12": {
+  "source": "U2",
+  "text": "In January 2031 half their value moves into IBTM to set the top of her 2031 range; the other half stays hers, promised to no one."
+ },
+ "P605.1": {
+  "source": "C4",
+  "text": "The building is a different matter."
+ },
+ "P605.2": {
+  "source": "C4",
+  "text": "Most of the 2028 deposit will fund a Treasury fund maturing in late 2032, whose payout is the bare minimum you\u2019ll be able to promise your co-sponsors without doubt."
+ },
+ "P605.3": {
+  "source": "C4",
+  "text": "The rest will go into a world share fund of thousands of companies \u2013 VT, Vanguard Total World Stock ETF \u2013 and its returns will help determine your maximum facility contribution."
+ },
+ "P605.4": {
+  "source": "C4",
+  "text": "That means markets will be able to increase or decrease the top of your planned band as we get closer to 2031, but the bottom will remain constant, built on the ever-reliable Treasuries."
+ },
+ "P605.5": {
+  "source": "C4",
+  "text": "Importantly for you, half of the value of the shares will be promised to no one."
+ },
+ "P605.6": {
+  "source": "C4",
+  "text": "That is your flexibility \u2013 for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short."
+ },
+ "P605.7": {
+  "source": "C4",
+  "text": "Before you meet co-sponsors in 2031, the other half will move into Treasuries, so whatever figure you choose is money you already own."
+ },
+ "P606.1": {
+  "source": "V3",
+  "text": "In 2031 Laura gives co-sponsors two figures, a bottom and a top."
+ },
+ "P606.2": {
+  "source": "V3",
+  "text": "Both are paid by one fund, IBTM, a fund of US Treasuries that pays out when it closes in mid-December 2032."
+ },
+ "P606.3": {
+  "source": "V3",
+  "text": "The bottom is fixed in January 2028, when most of her second deposit buys this fund."
+ },
+ "P606.4": {
+  "source": "V3",
+  "text": "On Treasury rates of 6 November 2026, that purchase will pay about $102,000."
+ },
+ "P606.5": {
+  "source": "V3",
+  "text": "We count it as if the interest the fund pays out along the way earns nothing once paid, take off 0.5% for its costs beyond its fee, and round down: $95,000."
+ },
+ "P606.6": {
+  "source": "V3",
+  "text": "The rest of that deposit buys world shares, whose price decides for three years how much more she can give."
+ },
+ "P606.7": {
+  "source": "V3",
+  "text": "In January 2031, before the meetings, half the shares are sold to buy more of the same fund, and the other half stays in shares, promised to no one."
+ },
+ "P606.8": {
+  "source": "V3",
+  "text": "The top is what the fund will pay on both purchases, counted the same way and rounded down once: $115,000 if world shares grow 7.5% a year, J.P."
+ },
+ "P606.9": {
+  "source": "V3",
+  "text": "Morgan's long-term forecast."
+ },
+ "P606.10": {
+  "source": "V3",
+  "text": "She names neither figure before that sale."
+ },
+ "P606.11": {
+  "source": "V3",
+  "text": "If she named a top a year early, the sale would buy less than it in about 11 of 100 futures we simulated."
+ },
+ "P606.12": {
+  "source": "V3",
+  "text": "Named after it, both figures are paid by Treasuries she already owns, so she can call them certain."
+ },
+ "P606.13": {
+  "source": "V3",
+  "text": "Why a range, then?"
+ },
+ "P606.14": {
+  "source": "V3",
+  "text": "Because its ends say different things."
+ },
+ "P606.15": {
+  "source": "V3",
+  "text": "The top is what she will give; co-sponsors plan around it."
+ },
+ "P606.16": {
+  "source": "V3",
+  "text": "The bottom is the part held since 2028, which would have stood even if her shares had fallen to nothing."
+ },
+ "P607.1": {
+  "source": "U4",
+  "text": "Laura's plan makes two promises: ten payments of $50,000, and the building contribution she names in 2031."
+ },
+ "P607.2": {
+  "source": "U4",
+  "text": "Her flexibility is what it promises to no one."
+ },
+ "P607.3": {
+  "source": "U4",
+  "text": "Part of her 2028 deposit buys VT, a world share fund; in January 2031 half of it is sold for Treasuries that will pay the contribution, and the other half stays in shares."
+ },
+ "P607.4": {
+  "source": "U4",
+  "text": "If world shares grow 7.5% a year, that half is worth about $21,200 on 1 January 2033, and with what her Treasuries pay above the contribution she keeps about $28,700."
+ },
+ "P607.5": {
+  "source": "U4",
+  "text": "In 1 of 20 futures our model simulates, her flexibility is about $9,600 or less."
+ },
+ "P607.6": {
+  "source": "U4",
+  "text": "It is there for three things."
+ },
+ "P607.7": {
+  "source": "U4",
+  "text": "The builder's price can rise: in Taiwan and the other places we checked, building costs rise in about four years out of five, whether shares rise or fall."
+ },
+ "P607.8": {
+  "source": "U4",
+  "text": "The Taiwan dollar can strengthen: the building is paid for in Taiwan dollars, so a Taiwan dollar 10% stronger when she pays than at the 2031 meetings makes the same building about $11,500 dearer."
+ },
+ "P607.9": {
+  "source": "U4",
+  "text": "Her flexibility alone covers that in about 93 of 100 model futures."
+ },
+ "P607.10": {
+  "source": "U4",
+  "text": "And a co-sponsor can fall short, its budget cut in a recession that also cuts share prices."
+ },
+ "P607.11": {
+  "source": "U4",
+  "text": "The hard case is two at once."
+ },
+ "P607.12": {
+  "source": "U4",
+  "text": "World shares bought at the start of 2000, as hers are in 2028, had lost about 41% by January 2003, the point that matches her 2031 meetings."
+ },
+ "P607.13": {
+  "source": "U4",
+  "text": "Taiwan's building costs then rose about 18% by the point that matches her contribution."
+ },
+ "P607.14": {
+  "source": "U4",
+  "text": "A slump then a cost burst like that could leave her flexibility short."
+ },
+ "P608.1": {
+  "source": "K3",
+  "text": "In January 2028 most of what is left of Laura's second deposit buys an iBonds Treasury fund that closes and pays out in December 2032, just before her building contribution falls due."
+ },
+ "P608.2": {
+  "source": "K3",
+  "text": "In 2031 she tells co-sponsors two figures for that contribution, and by the time she says them, both are owned in that fund."
+ },
+ "P608.3": {
+  "source": "K3",
+  "text": "The lower figure, the bottom, is what the 2028 purchase will pay out."
+ },
+ "P608.4": {
+  "source": "K3",
+  "text": "We count it cautiously, as if the interest the fund collects from then on earned nothing more, take off 0.5% for the fund's costs beyond its fee, and round down to a multiple of $5,000."
+ },
+ "P608.5": {
+  "source": "K3",
+  "text": "On today's figures that turns an expected $102,000 into $95,000, and once the fund is bought the bottom cannot move."
+ },
+ "P608.6": {
+  "source": "K3",
+  "text": "The upper figure, the top, takes one more step."
+ },
+ "P608.7": {
+  "source": "K3",
+  "text": "In January 2031, before the meetings, half the value of her shares is sold and the money buys more of the same fund."
+ },
+ "P608.8": {
+  "source": "K3",
+  "text": "Both purchases counted the same cautious way, and rounded down once, give the top: $115,000 on today's figures."
+ },
+ "P608.9": {
+  "source": "K3",
+  "text": "How far the top sits above the bottom depends on what shares did between 2028 and 2031."
+ },
+ "P608.10": {
+  "source": "K3",
+  "text": "Had they fallen to nothing, the range would be a single figure."
+ },
+ "P608.11": {
+  "source": "K3",
+  "text": "Why give a range at all, when both ends are owned?"
+ },
+ "P608.12": {
+  "source": "K3",
+  "text": "The case asks Laura for one, and the two ends tell co-sponsors different things."
+ },
+ "P608.13": {
+  "source": "K3",
+  "text": "The top is what she will give, and the figure they should plan around."
+ },
+ "P608.14": {
+  "source": "K3",
+  "text": "The bottom is how much of it has been held in Treasuries since January 2028."
+ }
+}
