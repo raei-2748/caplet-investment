@@ -81,11 +81,27 @@ checked word for word against `FINAL_IPS_as_submitted.txt` on 8 Nov.
 10. **Writers' income in recessions:** the career argument opens the IPS and has almost no sources in the store
    (Q1, Q12).
 
-## D. Coverage today (from the store's first pass)
+## D. Coverage today (rebuilt Sun 22 Nov 2026, after cards Q1-Q210 and the attack day; store 9,603 ideas before today's rows)
 
-Thin: Taiwan and the Taiwan dollar, the residency itself, the fundraising text, Laura's working life, how the team
-learned, how the report presents itself (Q8-Q14 start from little). Dense: certainty, the ladder, co-sponsors and the
-shares.
+Each Wharton requirement (section E) with the material behind it and what is still thin. The first pass (9 Nov) found
+Taiwan, the residency, the fundraising text, Laura's working life, how the team learned and presentation thin; all six
+now have cards. Where each lands is `ARGUMENT_TREE.md`.
+
+| Requirement | Material (cards, register) | Still thin, and the answer |
+|---|---|---|
+| Holdings table at cost | NUMBERS 8g; Table 1 by CUSIP (Q38); reconciliation with the plan (ATTACKS D3) | Nothing; the per-payment table and DV01 (D21) are built in NUMBERS_ANSWERS |
+| Construction and allocation | Q29, Q93, dedication and LDI (Q16, Q188, D13), three dated steps (GOLDMINE 27) | Nothing |
+| Diversification and risk | D5 (dates, not issuers; GIW), the remaining layers (NUMBERS 8w), fund shares (Q196, Q208) | Nothing; "only Treasuries" corrected (Q208) |
+| Roles of holdings; alignment with the IPS | CANON; coherence readers 1-10; Q46 (VT) | Nothing |
+| Ten-year commitment and operating reserve | NUMBERS 1-3; Q20, Q104, Q195, Q205 (forward-rate bias, the lock only a borrower has), D14, D18 (schedule, release rule) | Nothing |
+| Facility contribution and flexibility | NUMBERS 4, 8o, 8u; Q5b-Q5e, Q201 (who pays overruns), Q203 (currency of the pledge) | Nothing |
+| 2031 range and confidence | NUMBERS 4, 8p, 8v; Q19, Q71, Q74, Q209 (no outside threshold), Q210 (what overlapping windows can say); D1's one form | The wording of D1's two layers is tested in voice round 12 |
+| Words for co-sponsors | Q4c, Q11c-d, Q22, Q99, Q147, Q200 (signed pledge), Q202 (funders' checks), Q204 (case for support, her whole commitment) | The two sentences of purpose rest on the case's own words only; a cold funder read of the full 3d notes is due beside panel 5 (Mon 23 Nov) |
+| Assumptions and limits | NUMBERS 8u; Q109, Q196, Q206 (background risk), Q207 (2022 gilts and SVB at source), Q210 | Nothing |
+| Monitoring to 2031 and 2033 | Table 3 (Q36, Q151), D19's three lists | Nothing |
+| Team Reflection | EXPERIENCE_RECORD; PEOPLE_IN_THE_ROOM (16 Nov); RANKING_5; Q46; Q209 (why 96.8 could not stand) | Nothing new from Caplet about its own experience since 19 Nov; the record after 8 Oct is the IPS itself |
+| Presentation (Creativity and Presentation) | voice rounds 1-11; FACTS_PLAIN v3; charts/DESIGNS; the money picture (Mon 23 Nov read) | How a reader is held across 2,000+ words: today's long-form round |
+| References (APA) | REFERENCES_APA.md | To prune to the one-parallel budget (D6) on Wed 25 Nov |
 
 ## E. What Wharton's Final Report instructions require (filed Mon 9 Nov; verbatim in `WHARTON_NORTH_STAR.md` section 0)
 

@@ -156,6 +156,19 @@ of them, reading a round's passages blind.
   (Caplet's "whatever figure you choose is money you already own" included), names before things, false "because",
   the cautious count stacked in one clause, signposts. From round 12 every reader also answers "why is this done or
   true, from the page alone?" per sentence, and a "no" is a failure.
+- Round 12 (Sun 22 Nov, `ROUND12.md`): writers W and X from CORPUS, the IPS and the fact sheet (version 3), the ten
+  payments, the range and her flexibility; four blind readers with a per-sentence Why column. The Why column caught none
+  of the five version 61 sentences Caplet failed and every reader had passed, so it is no test of empty reasons; round
+  14 adds a cold retelling of each step's reason. It does find missing reasons in new text (why shares at all, why
+  half, why the ten need reinvested interest, why money already held could not close a 2033 gap, why the building
+  waits), now in the fact sheet's version 5. Rereads X 24%, W 32%, Caplet 8%; "we" 0.7 per 100 words against Caplet's
+  2.4, because money does the steps; round 14's writers continue from the IPS's last line.
+- Round 13 (Sun 22 Nov, `ROUND13.md`): the first long-form test, two pieces of about 2,400 words (writer L after
+  studying McKenzie, McPhee and Graham for structure; writer M without), six blind readers scoring each paragraph and
+  then recalling from memory. Both pieces held every reader (no paragraph lost, the argument right 6 of 6, pencil and
+  ink remembered first or second by all six). A question the facts raise, planted at the start, gave the strongest
+  payoff; a plant that announces was heard as a signpost; every reader would have stopped once the main question was
+  answered, so 3e's risks are written as the limit of 3c's certainty, one risk per sentence with who covers it.
 
 ## Files
 
