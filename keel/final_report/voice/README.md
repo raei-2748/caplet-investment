@@ -169,6 +169,16 @@ of them, reading a round's passages blind.
   ink remembered first or second by all six). A question the facts raise, planted at the start, gave the strongest
   payoff; a plant that announces was heard as a signpost; every reader would have stopped once the main question was
   answered, so 3e's risks are written as the limit of 3c's certainty, one risk per sentence with who covers it.
+- Round 14 (Sun 22 Nov evening, `ROUND14.md`): two fresh writers (Y plain, Z with one line on the team's dry wit)
+  first carried Caplet's letter on for about 200 words from its last line, then wrote the 2031 range and the half
+  moved and the half kept; four blind readers read once, retold each step and its reason cold, then marked each
+  sentence; two blind scorers marked every retold reason. The continuing exercise restored "we" (1.6-2.9 per 100
+  words, against 0.7 in round 12 and Caplet's 2.4) and Z's half-moved passage was clearest for 3 of 4 readers. The
+  cold retelling is no proxy for Caplet's ear either (2 of 5 of Caplet's failed lines caught, 3 of 4 passed lines
+  flagged), but it finds steps without reasons: why half, what the counting rule is for, why the 2028 split is that
+  size, and pointers such as "a year earlier" with nothing to point at. Fact sheet version 6; every 27 Nov writer
+  continues Caplet's letter first; round 15 tests depth with a concrete question each passage should let a reader
+  answer.
 
 ## Files
 

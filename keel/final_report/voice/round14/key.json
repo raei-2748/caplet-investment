@@ -1,0 +1,139 @@
+{
+ "v61_followed_by_caplet": [
+  1,
+  5,
+  6,
+  8
+ ],
+ "v61_unflagged": [
+  12,
+  13,
+  16,
+  20,
+  21
+ ],
+ "readers": {
+  "1": {
+   "role": "You read as a finance professor judging this competition, wh",
+   "order": [
+    "Y3",
+    "C4",
+    "C3",
+    "Z3",
+    "Y5",
+    "X3",
+    "Z5"
+   ],
+   "labels": {
+    "P101": "Y3",
+    "P102": "C4",
+    "P103": "C3",
+    "P104": "Z3",
+    "P105": "Y5",
+    "P106": "X3",
+    "P107": "Z5"
+   }
+  },
+  "2": {
+   "role": "You read as a strictly literal reader. You take every word a",
+   "order": [
+    "C3",
+    "Y5",
+    "Y3",
+    "X3",
+    "C4",
+    "Z5",
+    "Z3"
+   ],
+   "labels": {
+    "P201": "C3",
+    "P202": "Y5",
+    "P203": "Y3",
+    "P204": "X3",
+    "P205": "C4",
+    "P206": "Z5",
+    "P207": "Z3"
+   }
+  },
+  "3": {
+   "role": "You read as a logician checking an argument: for every step,",
+   "order": [
+    "C3",
+    "C4",
+    "Z3",
+    "X3",
+    "Y5",
+    "Z5",
+    "Y3"
+   ],
+   "labels": {
+    "P301": "C3",
+    "P302": "C4",
+    "P303": "Z3",
+    "P304": "X3",
+    "P305": "Y5",
+    "P306": "Z5",
+    "P307": "Y3"
+   }
+  },
+  "4": {
+   "role": "You read as the client in the case: a writer and illustrator",
+   "order": [
+    "Y5",
+    "X3",
+    "Z3",
+    "C4",
+    "Y3",
+    "Z5",
+    "C3"
+   ],
+   "labels": {
+    "P401": "Y5",
+    "P402": "X3",
+    "P403": "Z3",
+    "P404": "C4",
+    "P405": "Y3",
+    "P406": "Z5",
+    "P407": "C3"
+   }
+  }
+ },
+ "we_per_100_words": {
+  "Y3": [
+   2.59,
+   270
+  ],
+  "Y5": [
+   2.9,
+   276
+  ],
+  "Z3": [
+   1.55,
+   258
+  ],
+  "Z5": [
+   2.58,
+   271
+  ],
+  "X3": [
+   0.75,
+   266
+  ],
+  "C3": [
+   4.3,
+   93
+  ],
+  "C4": [
+   0.65,
+   154
+  ],
+  "cont_Y": [
+   1.42,
+   211
+  ],
+  "cont_Z": [
+   3.27,
+   214
+  ]
+ }
+}

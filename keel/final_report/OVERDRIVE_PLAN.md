@@ -87,6 +87,12 @@ long-form round the Day 15 schedule asked for (set-up and payoff over 2,400 word
 arguing move to rounds 14-15 with round 12's cold retelling test. Not yet done from Sat 21's row: the page budget laid
 out in 12-point Times, double-spaced; it goes to Mon 23's analysis.
 
+**As run, Sun 22 Nov evening.** Cold aha test 9 ran a day early (3d's slot settled: owned against signed, card Q200);
+Sat 21's two research themes were partly covered by cards Q215 (graphic memoirists' income), Q216 (what residencies
+do) and Q217 (the Taiwan dollar 1985-1992), beside four cards reading the placed parallels at source (Q211-Q214) and
+the syntheses card Q218. Voice round 14 tested the cold retelling and the continuing exercise (`voice/ROUND14.md`);
+round 15 is depth questions, not another proxy for Caplet's ear. Volume about half a full run.
+
 ## The questions for each run
 
 The part of the report each question serves is in brackets. Every researcher is briefed to find the relation that does
