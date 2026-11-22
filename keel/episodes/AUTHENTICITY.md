@@ -176,7 +176,14 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   12 (four serious: the same idea back as a catchphrase, the Opera House's cost as a punchline, a rule built to be
   remembered, Caplet's notes still summarised), then 10 (two serious: an entry ending on the practice writing's result,
   Rome's soldiers' payments closing a paragraph on the report's theme, cut); each was cut or put in plain words, and the
-  third read's fixes went in without a fourth read.
+  third read's fixes went in without a fourth read. Ep 54 (Fri 20 to Sun 22 Nov) failed two fresh
+  reads (about 10 lines, then 3), fixed each time, and the second read's fixes went in without a third read, to save
+  the week's budget for the 27 Nov writing day. Ep 55 (Sun 22 Nov) failed two fresh reads: 20 lines (five serious: two
+  lines giving Caplet a reaction ("couldn't follow"), two finance-office sentences in Jun's paragraph, and 57 plus 4 not
+  adding up to 66), then 19, mostly small (terms a new reader can't follow: the range, the fund, "run", "2027 money"; one
+  serious, the June 2007 sentence; an entry ending on the fix; a closing "All four were corrected"); each was cut or put
+  in plain words, Caplet's list named as a list, and the second read's fixes went in without a third read, for the same
+  reason as Ep 54.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
