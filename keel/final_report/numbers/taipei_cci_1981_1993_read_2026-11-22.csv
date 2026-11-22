@@ -1,0 +1,20 @@
+# Taipei City construction cost general index (臺北市營造工程物價總指數), base 2011 = 100, monthly, 1981-1993, read at
+# source Sun 22 Nov 2026 (Sydney) through the Parallel web_fetch tool: Taipei City Government, Appendix 5 "Chronology of
+# Construction Cost General Index with Annual Change Rates in Taipei" (附錄5), http://www-ws.gov.taipei/001/Upload/389/Attachment/5769321/appendix5.pdf
+# (pages 54-55; the table runs 1981 to Jun 2017). Copied as printed; "year_avg" is the table's own yearly index, used by
+# numbers/twd_whole_series.py only to check the transcription. A CITY index (Taipei Municipal DBAS, compiled from 1981),
+# not the national DGBAS index that NUMBERS 8q uses (trial from Jan 1991, published Jul 1991, DGBAS method note).
+year,jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec,year_avg
+1981,38.99,39.83,40.13,40.18,39.82,39.24,39.26,39.38,39.32,39.26,39.21,39.20,39.48
+1982,39.78,39.72,39.57,39.41,39.29,39.22,38.66,38.58,39.07,39.13,38.96,38.35,39.14
+1983,38.23,38.63,38.98,39.13,39.22,39.25,39.77,39.75,39.57,39.77,39.77,39.88,39.33
+1984,39.87,40.08,39.79,39.93,40.03,40.03,40.05,40.23,40.18,40.18,40.21,40.33,40.08
+1985,40.33,40.33,40.30,40.30,39.99,39.67,39.53,39.47,39.37,39.36,39.44,39.64,39.81
+1986,39.69,39.69,39.67,40.08,40.18,40.20,40.18,39.97,40.08,40.38,40.54,40.54,40.11
+1987,40.32,40.38,40.60,40.60,40.57,40.39,41.78,41.94,41.70,43.17,43.14,42.94,41.46
+1988,42.49,42.66,43.32,42.55,42.61,42.70,43.20,43.53,43.52,45.20,46.10,45.96,43.65
+1989,45.88,46.14,47.50,48.05,48.63,48.43,49.30,50.33,50.85,50.91,51.13,51.74,49.07
+1990,51.76,51.74,51.79,52.07,52.01,52.06,51.69,55.16,55.46,55.81,55.93,55.87,53.44
+1991,56.00,56.21,56.04,56.07,55.96,55.64,55.82,55.63,55.66,55.71,55.98,55.86,55.88
+1992,55.87,56.33,58.73,59.35,59.40,59.63,61.33,61.18,61.68,61.80,61.91,63.81,60.08
+1993,64.31,63.94,64.18,64.82,64.78,64.90,64.38,64.48,64.48,64.38,64.28,64.07,64.42

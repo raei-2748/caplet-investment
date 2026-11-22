@@ -179,6 +179,7 @@ of them, reading a round's passages blind.
   size, and pointers such as "a year earlier" with nothing to point at. Fact sheet version 6; every 27 Nov writer
   continues Caplet's letter first; round 15 tests depth with a concrete question each passage should let a reader
   answer.
+- Round 15 (Mon 23 Nov morning, `ROUND15.md`): depth. Two fresh writers (W plain, V asked to give the working for "what happens if" questions) carried the letter on, then wrote the facility contribution and the 2031 range whole; three blind readers answered nine "what happens if" questions after each piece and after the IPS's own paragraph; a blind scorer marked 81 answers. W 27 of 27 right or partly right, V 24, the IPS paragraph 18: depth came from the fact sheet, and the instruction added nothing (writer variance again). Two answers were on no page because the fact sheet lacked them (why a range; the 25% cover), and one overclaim ("nothing about it is uncertain") came from the fact sheet itself; all three fixed in version 7. W's piece held all three readers and is a passage the 27 Nov writers may read beside the facts, never a template.
 
 ## Files
 

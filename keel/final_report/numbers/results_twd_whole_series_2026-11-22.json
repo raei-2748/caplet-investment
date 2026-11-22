@@ -1,0 +1,291 @@
+{
+ "stamp": {
+  "run": "Sun 22 Nov 2026 evening (Sydney)",
+  "status": "Keel arithmetic on data read at source; part C's world shares are MODEL (8q's three worlds, unchanged)",
+  "numbers_section": "8x",
+  "card": "research/cards/Q217_taiwan_dollar_1985_1992.md"
+ },
+ "A_fred_against_mirror": {
+  "fred_months": 517,
+  "mirror_months": 516,
+  "mismatches": 0,
+  "fred_last_updated": "2026-11-02 3:51 PM CST",
+  "oct_2026": 32.2695
+ },
+ "B_currency_windows": {
+  "windows_whole_series": 493,
+  "first_start": "1983-10",
+  "last_start": "2024-10",
+  "largest": [
+   0.3830088235910549,
+   "1986-01",
+   "1988-01"
+  ],
+  "largest_daily_q10b_not_rerun": "+39.7% Dec 1985 to Dec 1987 (card Q10b, H.10 daily)",
+  "five_largest": [
+   [
+    0.3830088235910549,
+    "1986-01",
+    "1988-01"
+   ],
+   [
+    0.3780362310332681,
+    "1985-12",
+    "1987-12"
+   ],
+   [
+    0.36887493458922016,
+    "1986-02",
+    "1988-02"
+   ],
+   [
+    0.36045121326310436,
+    "1986-03",
+    "1988-03"
+   ],
+   [
+    0.34827760450244827,
+    "1986-04",
+    "1988-04"
+   ]
+  ],
+  "largest_on_8j_windows": [
+   0.2935108271210507,
+   "1986-11",
+   "1988-11"
+  ],
+  "windows_8j": 417,
+  "largest_since_1991": [
+   0.16944521294218506,
+   "2009-02",
+   "2011-02"
+  ],
+  "windows_since_1991": 406,
+  "ratio_1986_88_to_largest_since_1991": 2.2603696908317974,
+  "strong_10pct_since_1991": 30,
+  "starts_oct1983_to_dec1990": {
+   "windows": 87,
+   "at_10pct_or_more": 37,
+   "at_20pct_or_more": 26,
+   "at_29pct_or_more": 14,
+   "note": "overlapping windows of one episode: never odds (card Q210)"
+  },
+  "peak_to_low_1983_1993": [
+   "1985-08",
+   40.5006,
+   "1992-06",
+   24.7695,
+   0.6350996184824076
+  ],
+  "watch_10pct_from_aug1985_fires": [
+   "1986-10",
+   0.10513950474111455
+  ],
+  "move_from_aug1985_after_2y_3y": [
+   0.337072679552995,
+   0.411490407235088
+  ]
+ },
+ "C_row7_1986_88_on_her_top": {
+  "rise_currency_alone": 0.3830088235910549,
+  "need_on_115000": 44046.014712971315,
+  "pot_half_kept_plus_excess": 28682.31369214068,
+  "left_half_kept_plus_excess": -15363.701020830635,
+  "pot_half_kept": 21179.178869581778,
+  "left_half_kept": -22866.835843389537,
+  "need_over_pot": 1.5356506865427835,
+  "on_95000_bottom_lower_reading": {
+   "need": 36385.83824115022,
+   "left_pot_alone": -7703.524549009537,
+   "left_with_20000_gap_between_ends": 12296.475450990467
+  },
+  "three_worlds_contribution": {
+   "house": {
+    "covers_kept_half_plus_excess": 0.058045,
+    "covers_kept_half": 0.01681,
+    "gap_when_fails_p50_max": [
+     15974.729683557838,
+     38618.2679224885
+    ],
+    "for_comparison_38_9pct_covers": 0.05158
+   },
+   "history": {
+    "covers_kept_half_plus_excess": 0.06666666666666667,
+    "covers_kept_half": 0.015254237288135594,
+    "gap_when_fails_p50_max": [
+     13836.064234033736,
+     33567.23454250507
+    ],
+    "for_comparison_38_9pct_covers": 0.0576271186440678
+   },
+   "joint": {
+    "covers_kept_half_plus_excess": 0.07521367521367521,
+    "covers_kept_half": 0.008547008547008548,
+    "gap_when_fails_p50_max": [
+     12477.678569247408,
+     34128.65838444663
+    ],
+    "for_comparison_38_9pct_covers": 0.06837606837606838
+   }
+  },
+  "method": "8q's central column and fixed-stress test (taiwan_joint.test), the rise = the currency alone"
+ },
+ "D_building_costs_1986_88": {
+  "national_index": "none before Jan 1991: DGBAS's 'Construction Cost Indices in Taiwan Area' compiled on trial from Jan 1991, formally published Jul 1991 (DGBAS method note, read 22 Nov 2026); 8q's joint figure cannot be computed for 1986-88",
+  "other_series": "Taipei City's and Taiwan Province's construction cost indices (from 1981, local DBAS offices); the wholesale price index's construction input prices (from 1975, materials only). Only Taipei's was read",
+  "taipei_jan1986_jan1988": {
+   "cost_ntd": 0.0705467372134041,
+   "currency": 0.3830088235910549,
+   "joint_usd": 0.4805755836327519,
+   "need_on_115000": 55266.19211776646,
+   "left_half_kept_plus_excess": -26583.878425625782
+  },
+  "taipei_largest_joint_starts_oct1983_dec1990": [
+   0.5038383684721426,
+   "1987-05",
+   "1989-05",
+   0.19866896721715555,
+   0.25459022432479594
+  ],
+  "taipei_strong_currency_windows": {
+   "count": 37,
+   "median_joint": 0.4221324473934207
+  }
+ },
+ "E_joint_since_1991": {
+  "windows": 406,
+  "first_start": "1991-01",
+  "last_start": "2024-10",
+  "largest_joint": [
+   0.389181763726981,
+   "2006-07",
+   "2008-07"
+  ],
+  "highest_strong_twd_window": [
+   0.29031650884294025,
+   "2003-03",
+   "2005-03"
+  ],
+  "windows_with_a_larger_joint_rise": 10,
+  "rank_of_29pct_among_406": 11,
+  "p95_on_8q_405": 0.27992374497912165,
+  "windows_above_p95_on_405": 21,
+  "windows_at_28pct_or_more": 20,
+  "runs_of_start_months": [
+   [
+    "1991-01",
+    "1991-01",
+    1
+   ],
+   [
+    "1991-03",
+    "1991-05",
+    3
+   ],
+   [
+    "2002-03",
+    "2002-03",
+    1
+   ],
+   [
+    "2002-12",
+    "2002-12",
+    1
+   ],
+   [
+    "2003-02",
+    "2003-05",
+    4
+   ],
+   [
+    "2006-02",
+    "2006-08",
+    7
+   ],
+   [
+    "2019-06",
+    "2019-06",
+    1
+   ],
+   [
+    "2019-08",
+    "2019-09",
+    2
+   ]
+  ],
+  "separate_two_year_spans": [
+   16,
+   17
+  ],
+  "currency_1986_88_against_largest_joint": {
+   "currency_1986_88": 0.3830088235910549,
+   "largest_joint_since_1991": 0.389181763726981,
+   "points_below": 0.6172940135926064,
+   "need_1986_88": 44046.014712971315,
+   "need_2006_08": 44755.90282860281
+  }
+ },
+ "F1_book_x15": {
+  "book_at_cost": {
+   "payment_treasuries": 195886.53,
+   "floor_standin": 72765.65,
+   "vt": 26524.61,
+   "cash_and_costs": 4823.21
+  },
+  "book_x15": {
+   "payment_treasuries": 293829.795,
+   "floor": 109148.47499999999,
+   "vt": 39786.915,
+   "cash_and_costs": 7234.8150000000005
+  },
+  "plan_jan2028_at_cost": {
+   "payment_treasuries": 339161.9680698433,
+   "floor": 81244.27740480486,
+   "vt": 29593.754525351833
+  },
+  "plan_pct_of_450000": [
+   75.36932623774295,
+   18.054283867734412,
+   6.576389894522629
+  ],
+  "book_pct_of_300000": [
+   65.29551,
+   24.255216666666666,
+   8.841536666666666
+  ],
+  "floor_share_of_what_is_left": {
+   "book": 0.7328578855569519,
+   "plan": 0.733
+  },
+  "basis": "money put in: the book's at 6-7 Oct ET fills; the plan's $300,000 in Jan 2027 plus Jan 2028's $39,162"
+ },
+ "F2_reserve_at_zero": {
+  "own_rungs_pay": 445404.6865063207,
+  "extra_treasuries_pay": 57199.60506475475,
+  "total_no_fee": 502604.29157107545,
+  "owed": 500000.0,
+  "left_no_fee": 2604.291571075504,
+  "left_with_bill_fee": 1176.6596204203015
+ },
+ "F3_dv01": {
+  "payments_full": 299.6794497477531,
+  "payments_scaled_two_thirds": 199.7862998318354,
+  "plan_ten_plain": 233.94734641266405,
+  "plan_ten_plus_extra": 266.8104086931562,
+  "wins_book_ten_rungs": 159.02260182188184,
+  "wins_book_floor_standin": 38.39029400352592,
+  "book_over_scaled_payments": 0.7959634967749776,
+  "approximation": "funds at card Q17's 67.6-67.7% of a full rung (23 Oct curve), each fund's payout as one amount on 15 Dec; the second-way bootstrap gets about $155"
+ },
+ "F4_replay_2000_2003": {
+  "world_shares_jan2000_to_jan2003_start_of_month": -0.42143640185490994,
+  "world_shares_end_of_month": -0.40562731714263034,
+  "building_ntd_jan2003_to_dec2004": 0.18401453224341524,
+  "building_usd_jan2003_to_dec2004": 0.27238602064637285
+ },
+ "F6_writers_2009": {
+  "receipts_2008_usd_thousand": 12811801.0,
+  "receipts_2009_usd_thousand": 11808168.0,
+  "change": -0.07833660544680643
+ }
+}

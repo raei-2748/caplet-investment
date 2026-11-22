@@ -1,5 +1,7 @@
 # References plan
 
+**Mon 23 Nov 2026: sources day.** Every work section 4 names, its second rank and every outside work the argument tree cites were opened at source and written in APA 7 (`sources_check/S1.md` to `S4.md`); the merged list is `WORKS_CITED_DRAFT.md` (173 ready to cite, 3 not yet verified, 6 dropped), which wins over `REFERENCES_APA.md` for every work it holds. The 27 Nov References page is drawn from it.
+
 Sat 14 Nov 2026 (Sydney). The Final Report's reference list must show wide reading in investing ideas, and judges will
 read it. This file classifies every source the research has used. It lists the investing research that was read but is
 not yet in `REFERENCES_APA.md`, which is the list most at risk of being lost. It checks what Wharton and APA 7 allow,

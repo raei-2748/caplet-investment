@@ -1,0 +1,5 @@
+# Text K
+
+The building is a different matter. Most of the 2028 deposit will fund a Treasury fund maturing in late 2032, whose payout is the bare minimum you’ll be able to promise your co-sponsors without doubt. The rest will go into a world share fund of thousands of companies – VT, Vanguard Total World Stock ETF – and its returns will help determine your maximum facility contribution. That means markets will be able to increase or decrease the top of your planned band as we get closer to 2031, but the bottom will remain constant, built on the ever-reliable Treasuries. Importantly for you, half of the value of the shares will be promised to no one. That is your flexibility – for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short. Before you meet co-sponsors in 2031, the other half will move into Treasuries, so whatever figure you choose is money you already own.
+
+From 2033 the Treasuries are the operating reserve. There are only 2 possible reasons we would change our plan – a missed deposit or a Treasury default. A fall in the market is not one of them.

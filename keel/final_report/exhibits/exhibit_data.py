@@ -403,13 +403,23 @@ assert _J["share_with_payment_shortfall"] == 0.0 and _J["windows"] == 585
 assert _JR["share_contribution_equals_stated_top"] == 1.0   # so the contribution's spread is the stated top's
 # Mon 16 Nov night (coherence reader 6, L2): WORDS's name, "every starting month since 1962" (was "All 585 history
 # replays")
-TABLE2_SPREAD_LABEL = f"Every starting month since 1962 ({_J['windows']}, 1962-2010 starts)"
+# Mon 23 Nov (card Q210 rows 27-30; ATTACKS D7): history from overlapping windows is never "1 in 20". The rows are
+# past frequencies of 585 overlapping starting months (about four independent rate eras, NUMBERS 7), so they are named
+# as percentiles of starting months, the reference class in the label, and the overlap is said in the note
+TABLE2_SPREAD_LABEL = f"Every starting month since 1962 ({_J['windows']} overlapping, 1962-2010 starts)"
+TABLE2_SPREAD_NAMES = ["5th percentile", "Median", "95th percentile"]   # checked against 8i, never printed
+# Mon 23 Nov, the lead's decision 3 (card Q210 rule (c): no tail rarer than about one in the number of separate spans;
+# the 585 months hold about four rate eras): no 5th or 95th percentile is printed. The lowest and highest observed
+# starting months would be printed with their dates only if NUMBERS registered both: 8i registers the lowest stated
+# ends (Jan 2008, $75,000 to $90,000) but no highest starting month and no flexibility for either, so the median alone
+TABLE2_HISTORY = [("Median", None)]
 TABLE2_SPREAD = [
     (label, {"payments": "All paid", "bottom": _J["bottom_stated_p5_p50_p95"][i], "top": _J["top_stated_p5_p50_p95"][i],
              "contribution": _JR["contribution_p5_p50_p95"][i],
              "flexibility": _JR["kept_half_plus_excess"]["pot_p5_p50_p95"][i]})
-    for i, label in enumerate(["1-in-20 low", "Median", "1-in-20 high"])
+    for i, label in enumerate(TABLE2_SPREAD_NAMES)
 ]
+TABLE2_HISTORY = [("Median", TABLE2_SPREAD[1][1])]
 # The contribution is not a column: it equals the stated top in every world and every window (8i, 8j; checked below).
 # It is the confidence answer, so it is a row of the table, the last one (fresh reader and coordinator, Wed 11 Nov),
 # not a clause of the note.
@@ -580,16 +590,44 @@ def _d(d, weekday=True):
     return f"{d.strftime('%a')} {d.day} {d.strftime('%b')} {d.year}" if weekday else f"{d.day} {d.strftime('%B')} {d.year}"
 
 
+# Mon 23 Nov (ATTACKS D3, D17; ARGUMENT_TREE branch 1, "The reconciliation (note under Table 1, D3)"; NUMBERS 8 (e),
+# "The WInS book x 1.5 under Table 1"): the book at cost scaled by 1.5 beside the plan in January 2028 at cost, both
+# money put in. The floor stand-in is 3,361 IBTM shares at the fill price (NUMBERS 0); the book's payment Treasuries are
+# the ten holdings less that lot; the plan's are January 2027's $300,000 plus January 2028's first $39,162
+RECON_FLOOR_UNITS = 3361
+_ibtm = HOLDINGS[0]
+RECON_IBTM_PRICE = round(_ibtm[3] / 4503, 2)                                 # $21.65 (8g: 4,503 units, $97,489.95)
+_book_floor = round(RECON_FLOOR_UNITS * RECON_IBTM_PRICE, 2)                  # $72,765.65
+_book_pay = round(sum(h[3] for h in HOLDINGS[:N_TREASURIES]) - _book_floor, 2)  # $195,886.53
+_book_vt = HOLDINGS[N_TREASURIES][3]                                          # $26,524.61
+RECON = {
+    "book_x15": (1.5 * _book_pay, 1.5 * _book_floor, 1.5 * _book_vt),         # $293,830, $109,148, $39,787
+    "plan_jan2028": (300000.0 + TOPUP, MAIN["plan"]["H_plain"]["floor_money_jan2028"],
+                     MAIN["plan"]["H_plain"]["central"]["vt28"]),             # $339,162, $81,244, $29,594
+    "book_floor_share": _book_floor / (_book_floor + _book_vt),               # 73.29%
+}
+RECON["plan_floor_share"] = RECON["plan_jan2028"][1] / (RECON["plan_jan2028"][1] + RECON["plan_jan2028"][2])   # 73.30%
+RECON["plan_floor_of_deposit"] = RECON["plan_jan2028"][1] / DEPOSIT_2028     # 54.2%: over half, IPS l.15's "most"
+
+
 _NUM = {5: "five"}
 # Cells. Words are WORDS.md's: "the top-up", "her flexibility", "facility contribution", "simulated futures", "the
 # floor", "the world share fund (VT)", "her team" (Wharton: "Laura or her asset management team"). The last column is
 # a list of runs: (text, italic); "\n" breaks the line inside the cell.
-TABLE3_HEADER = ["Signal", "Who", "Carry on while", "Look closer or act when",
-                 "What it changes; what it never changes"]
+# Mon 23 Nov (D19): the "look closer" level is gone, so the trigger column is "Act when"; both heads fit one line,
+# which pays for the co-sponsors' row (measured: the two-line head cost one body line)
+TABLE3_HEADER = ["Signal", "Who", "Carry on while", "Act when", "Changes; never changes"]
+# Mon 23 Nov (ATTACKS D19; ARGUMENT_TREE branch 6, "Watching, in three lists"): three lists, not three levels of
+# alarm: what changes the plan (the IPS's two reasons; after a default, hold and wait), what changes only the figures
+# she can state, and what tests her flexibility. The old "look closer" rows (fund notices, trade days) change a figure
+# or a date, so they join the second list; the debt-limit deadline is the Treasury payments' early warning, so it joins
+# their row (one row saved, spent on the co-sponsors' row that carries the tree's statement line)
 TABLE3_LEVELS = {
-    "reason": "The two reasons to change the plan",
-    "closer": "Look closer: a date or an instrument may change, never the plan",
-    "watch": "Watch: the plan carries on",
+    "reason": "What changes the plan: the IPS's two reasons",
+    # an early end of the late-2032 fund with cash waiting earning nothing can leave the ten $1,827 short under the
+    # standard (NUMBERS 3), so the list never says "never the payments"; "never the plan" is the IPS's sense (l.17)
+    "figures": "What changes a figure she can state, a fund or a date, never the plan",
+    "flex": "What tests her flexibility, never the stated range",
 }
 
 
@@ -627,27 +665,45 @@ TABLE3_ROWS = [
         # the deposit, when paid, fills the ten first (card Q34: a late deposit runs the same order, NUMBERS 5's order),
         # and what is never done is selling a bond or fund the ten hold before its end (IPS l.13: held to the end; the
         # words of 3a's liquidity clause, coherence reader 8, M4). Measured: 21.9 lines with the 44-word note, one page
-        _changes(f"no range until paid; the ten short {dollars(MISSED_SHORT_2033)} at today's rates, "
-                 f"{dollars(MISSED_SHORT_ZERO)} if cash waiting earns nothing, until the deposit fills them",
-                 "a bond or fund sold early")]),
+        # Mon 23 Nov: "no range yet" for "no range until paid" ("until the deposit fills them" says when), measured
+        # to keep the cell at five lines with "Never: an early sale."
+        # Mon 23 Nov (card Q222 row 38: a list ticked is not a list acted on): the cell names the acts, state no range
+        # and fill the ten first, with the shortfall on both bases (NUMBERS 5)
+        _changes(f"state no range; fill the ten first (short {dollars(MISSED_SHORT_2033)} at today's rates, "
+                 f"{dollars(MISSED_SHORT_ZERO)} if cash waiting earns nothing)",
+                 "an early sale")]),
+    # Mon 23 Nov (D19): the debt-limit deadline (row 3 until today) is the Treasury payments' early warning, so it is
+    # one row with them; "hold and wait" is what "change" means after a default (D19; ARGUMENT_TREE branch 6). The
+    # cells say "debt-limit deadline" in plain words; the note defines it once and keeps "the X-date" for a bond reader
     ("reason", [
-        "Treasury payments",
+        "Treasury payments; debt-limit deadline",
         "Team",
-        "Paid when due, or the next business day",   # 31 CFR 356.30(a): weekends and holidays alike (bond reader 2)
-        f"A Treasury default: a payment over {_NUM[DEFAULT_DAYS]} business days late",
-        # Mon 16 Nov night (bond desk 4, L6): Laura's payments are fixed at $50,000 and never restated. Tue 17 Nov: "each
-        # payment's" and "both ends" to the 3e list (two lines saved); the cover and the range still named
-        _changes("cover re-checked and the range restated on what was paid",
+        # 31 CFR 356.30(a): weekends and holidays alike (bond reader 2)
+        "Paid when due, or the next business day",
+        # measured Mon 23 Nov: the two triggers in four lines (the carry cell's deadline clause took a fifth)
+        f"Over {_NUM[DEFAULT_DAYS]} business days late (a default); a deadline within a month of a cash date",
+        # Mon 16 Nov night (bond desk 4, L6): Laura's payments are fixed at $50,000 and never restated
+        _changes("hold and wait; re-check the cover and restate the range on what was paid",
                  "a forced sale")]),
-    # Tue 17 Nov (lay reader 3: "X-date" was explained only in the note): the cells say "debt-limit deadline" in plain
-    # words; the note defines it once and keeps the term of art ("the X-date") for a bond reader
-    ("closer", [
-        "Debt-limit deadline",
+    # Sat 14 Nov (bond reader 2): an open date for the 2031 move is a timing option, and waiting after a fall is the
+    # market call IPS l.17 rules out, so the day is fixed now (the first trading day, as modelled; Keel's call,
+    # ASK_HUMANS); coherence reader 4: the 2031 date stays before the meetings (IPS l.15).
+    ("figures", [
+        "Treasury yields and share prices",
         "Team",
-        "No deadline within a month of a cash date",
-        "A deadline within a month of a cash date",
-        _changes("nothing before it", "a sale ahead of it")]),
-    ("closer", [
+        "Any level",   # Sat 14 Nov (coherence reader 4): the l.17 echo dropped, as SKELETON said
+        # Tue 17 Nov evening (evening lay reader, stumble 3: the $85,000 read against IPS l.15's "the bottom will remain
+        # constant"; "Why 4 Jan 2027?"; the lead's call): the bottom is set in January 2028 and stays put after it; the
+        # first trade day and the rest are in the 3e list
+        # (measured: "gives an $85,000 bottom, set Jan 2028" took a fifth line and two pages; this wording keeps four)
+        f"None (for scale: 1 point lower by Jan 2027 sets an {dollars(BOTTOM_AFTER_1PT_FALL)} bottom in Jan 2028)",
+        # Mon 16 Nov night (coherence reader 6, L2): never "the 2031 move" alone. Tue 17 Nov: "the top to Jan 2031", the
+        # move's trade day (row 5: the first trading day of 2031, before the meetings), dated like "the bottom to Jan
+        # 2028", so the cell takes four lines and Table 3 stays on one page with its note
+        # Mon 23 Nov (card Q222 row 38): the act is setting each end on its trade day
+        _changes("set the bottom in Jan 2028 and the top in Jan 2031; after that, only her flexibility moves",
+                 "the payments")]),
+    ("figures", [
         # Mon 16 Nov night (coherence reader 6, L1; bond desk 4, M4, M5; coherence reader 6, L17), cut Tue 17 Nov from
         # ten lines to four (DESIGNS "Next": the signal and action, the window and the earlier-fund class out): the
         # watched events stay (an early end, a merger, an end moved past a payment, a fee rise, no notice by 31
@@ -675,9 +731,11 @@ TABLE3_ROWS = [
         # (measured): the owner's "its trading costs ... what waiting cash earns" took a fifth line ("shares." alone),
         # and so did "trading costs ... what waiting cash earns" and "... what cash waiting earns"; "what its cash
         # earns" keeps the four and says whose cash waits (the fund's payout, in the short-term Treasury ETF)
-        _changes("the fund; trading costs from the 0.5% margin, lost interest from what its cash earns",
+        # Mon 23 Nov (card Q222 row 38): "swap funds", the act; the rest is NUMBERS 9's wording
+        # (measured: "swap the fund;" took a fifth line, "swap funds;" keeps four)
+        _changes("swap funds; trading costs from the 0.5% margin, lost interest from what its cash earns",
                  "a sale of shares")]),
-    ("closer", [
+    ("figures", [
         "Trades in 2027, 2028, 2031",
         "Team",
         # Mon 16 Nov night (bond desk 4, M6): a stressed trade day is a watch item (NUMBERS 0, l.82), so the row has a
@@ -692,26 +750,26 @@ TABLE3_ROWS = [
         # prices" and "fund legs" each took one)
         f"First trading day, funds within {100 * TRADE_LIMIT:.1f}% of net asset value",
         "A trading halt, or prices further off: wait day by day",
-        _changes("the date, never past the 2031 meetings", "the step or its order")]),
-    # Sat 14 Nov (bond reader 2): an open date for the 2031 move is a timing option, and waiting after a fall is the
-    # market call IPS l.17 rules out, so the day is fixed now (the first trading day, as modelled; Keel's call,
-    # ASK_HUMANS); coherence reader 4: the 2031 date stays before the meetings (IPS l.15).
-    ("watch", [
-        "Treasury yields and share prices",
-        "Team",
-        "Any level",   # Sat 14 Nov (coherence reader 4): the l.17 echo dropped, as SKELETON said
-        # Tue 17 Nov evening (evening lay reader, stumble 3: the $85,000 read against IPS l.15's "the bottom will remain
-        # constant"; "Why 4 Jan 2027?"; the lead's call): the bottom is set in January 2028 and stays put after it; the
-        # first trade day and the rest are in the 3e list
-        # (measured: "gives an $85,000 bottom, set Jan 2028" took a fifth line and two pages; this wording keeps four)
-        f"None (for scale: 1 point lower by Jan 2027 sets an {dollars(BOTTOM_AFTER_1PT_FALL)} bottom in Jan 2028)",
-        # Mon 16 Nov night (coherence reader 6, L2): never "the 2031 move" alone. Tue 17 Nov: "the top to Jan 2031", the
-        # move's trade day (row 5: the first trading day of 2031, before the meetings), dated like "the bottom to Jan
-        # 2028", so the cell takes four lines and Table 3 stays on one page with its note
-        _changes("the bottom to Jan 2028, the top to Jan 2031, then her flexibility",
-                 "the payments")]),
-    ("watch", [
-        "Her flexibility's three uses",
+        # Mon 23 Nov (the lead's decision 4: IPS l.15, "Before you meet co-sponsors in 2031"; NUMBERS 8r; card Q220
+        # row 34): the outer limit is the first 2031 meeting; "wait", the act (card Q222 row 38; the trigger cell's
+        # "wait day by day"), measured at three lines
+        _changes("wait, never past the first 2031 meeting", "the step or its order")]),
+    # Mon 23 Nov (D19's third list; D10; ARGUMENT_TREE branch 5, "How co-sponsors keep checking", test 9): co-sponsors
+    # see a statement of the late-2032 Treasury fund at the 2031 meetings and again before the December 2032 payout
+    # ("a Table 3 line"); a pledge short or a date slipping is met from her flexibility, then by co-sponsors, phasing
+    # or the building's date (D10: a larger overrun or a lost co-sponsor is not hers to cover), never her stated figure
+    ("flex", [
+        # measured Mon 23 Nov: "Co-sponsors' pledges; the building's timetable" and "... in 2031 and before its Dec
+        # 2032 payout" took five and six lines; the late-2032 fund's payout is December 2032 by its name
+        "Pledges and building dates",
+        "Laura",
+        "Signed; each sees the late-2032 fund's statement in 2031 and before it pays",
+        "A pledge short or late, or the building's date slipping",
+        _changes("use her flexibility first, then co-sponsors, phasing or a later building date",
+                 "her stated figure")]),
+    ("flex", [
+        # Mon 23 Nov (D19): the list's heading says what it tests, so the signal names the two Taiwan readings
+        "Building costs and the Taiwan dollar",
         "Laura",
         # Mon 16 Nov night (bond desk 4, M7): "carry on while" is a condition, measured from the rate when the range is
         # stated (8j; card Q10b). Tue 17 Nov: that base is printed once, in the trigger beside it; 6 Nov 2026's rate,
@@ -738,8 +796,9 @@ TABLE3_ROWS = [
         # Third pass (bond desk 5, H2): the $28,700 rests on shares earning J.P. Morgan's 7.5% a year (Table 2's note):
         # said in the cell, "shares at 7.5%". "a call on her flexibility" became "her flexibility" (what changes) to
         # keep four lines (measured: "a call on ...; shares 7.5%" and "shares 7.5% a year" each took a fifth)
-        _changes(f"her flexibility ({hundreds(FLEX_FWD)} in 2033 with anything above the top, shares at "
-                 f"{100 * SHARE_RETURN:.1f}%)",
+        # Mon 23 Nov (card Q222 row 38): "use", the act ("pay the gap from" took a fifth line, measured)
+        _changes(f"use her flexibility ({hundreds(FLEX_FWD)} in 2033 with anything above the top, "
+                 f"shares at {100 * SHARE_RETURN:.1f}%)",
                  "the range")]),
 ]
 
@@ -750,10 +809,20 @@ TABLE3_NOTE_TODAY = "at today's rates (the Treasury curve of 6 Nov 2026)"
 
 # Tue 17 Nov: what left Table 3's cells to fit one page, for 3e's prose and the store, never lost. Printed in tables.md
 # under the table, headed for 3e's notes (not report text); each figure is built from the constants above and checked
-# in check(). Rows are the table's rows, 1 to 7.
+# in check(). Rows are the table's rows, 1 to 7 (renumbered Mon 23 Nov for D19's three lists: yields and shares
+# are row 3 (row 6 until today), the fund notices 4 and the trade days 5 as before, the co-sponsors 6, Taiwan
+# 7 as before; the debt-limit deadline, row 3 until today, is in row 2).
 TABLE3_FOR_3E = [
+    "Row 1: \"Never: an early sale\" means no bond or fund the ten hold is sold before its end (IPS l.13: held to the "
+    "end; 3a's liquidity clause; Mon 23 Nov, the cell cut to five lines from \"a bond or fund sold early\")",
+    "Row 2 and the note, the debt-limit deadline: the Treasury's own estimate of the X-date, else the Congressional "
+    "Budget Office's (moved from the note Mon 23 Nov, the note's budget)",
     "Row 2: a Treasury default re-checks each payment's cover and both ends of the range on what was actually paid, "
-    "and the range is restated; the $50,000 payments are never restated (bond desk 4, L6)",
+    "and the range is restated; the $50,000 payments are never restated (bond desk 4, L6); \"hold and wait\" is what "
+    "change means after a default: no sale, the next payments held to their dates (ATTACKS D19)",
+    "Row 6 (Mon 23 Nov, D19 and D10): her flexibility closes a small gap in a pledge or a date; a larger overrun or a "
+    "lost co-sponsor is met by co-sponsors, phasing or redesign, and by not building before the money is in hand; "
+    "Taiwan's Ministry of Culture shares a building's cost with its owner only on the way down (card Q201)",
     "Row 4, the funds: the five iBond funds and the short-term Treasury ETF, where waiting cash sits (the frozen name, "
     "TNA l.5, WN l.17; never \"bill fund\"); VT is not a Treasury fund, so its notices are not this row's",
     "Row 4, the filings: every fund filing is read as it comes, in any year, since a fund's board can end it early, "
@@ -780,7 +849,8 @@ TABLE3_FOR_3E = [
     f"Row 4, an early end of the late-2032 fund (IBTM, which carries the 2033 payment, the bottom and the top, so one "
     f"notice touches all three): the 0.5% pays costs, not the interest its holdings still had to pay; with cash "
     f"waiting earning nothing an early end, merger or moved end in 2031 leaves the stated top up to "
-    f"{dollars(EXIT_TOP_SHORT)} short (covered from {EXIT_TOP_COVERED.strftime('%B')} {EXIT_TOP_COVERED.year}), the "
+    f"{dollars(EXIT_TOP_SHORT)} short, met from her flexibility (covered from {EXIT_TOP_COVERED.strftime('%B')} "
+    f"{EXIT_TOP_COVERED.year}; ARGUMENT_TREE 3d, 3e), the "
     f"bottom up to {dollars(EXIT_BOTTOM_SHORT)} short (for an end to {EXIT_BOTTOM_LAST.strftime('%B')} "
     f"{EXIT_BOTTOM_LAST.year}) and the ten {dollars(EXIT_TEN_SHORT)} short for an end on 1 Jan 2031; at today's "
     f"market rates nothing is short (the top at least {dollars(EXIT_FWD_ROOM)} over); none of the five ended iBonds "
@@ -798,7 +868,7 @@ TABLE3_FOR_3E = [
     "limit and row 4's 0.5% cut are the same size with separate jobs (NUMBERS 4); a trading halt is the case where a "
     "date cannot be kept",
     # Tue 17 Nov evening (evening lay reader, stumble 3; the lead's call): why a lower bottom can appear at all
-    f"Row 6: the bottom is set when the floor is bought in January 2028 and stays put after it (IPS l.15: \"the "
+    f"Row 3: the bottom is set when the floor is bought in January 2028 and stays put after it (IPS l.15: \"the "
     f"bottom will remain constant\"); before then the rate on the day decides it. {_d(TRADE_DAYS[0])} is the first "
     f"trade day, when the ten are bought; a 1-point fall in yields by then leaves the 2028 deposit less for the "
     f"floor, so the bottom set in January 2028 would be {dollars(BOTTOM_AFTER_1PT_FALL)} (NUMBERS 5)",
@@ -1562,7 +1632,7 @@ def check(verbose=True):
     # promise gone, and the 3e list splits the same way (section 9: "Table 3's note list ... needs the same split")
     s9 = re.sub(r"\s+", " ", _section(md, "## 9.", "\n## 10."))
     ok = "*Changes:* the fund; its trading costs from the 0.5% margin, lost interest from what waiting cash earns." \
-        in s9 and "Changes: the fund; trading costs from the 0.5% margin, lost interest from what its cash earns." \
+        in s9 and "Changes: swap funds; trading costs from the 0.5% margin, lost interest from what its cash earns." \
         in printed and "a gap met from the 0.5% margin" not in printed and \
         "a swap's trading costs come from the 0.5% margin" in for3e and "a payment's gap comes from" not in for3e
     note("Table 3", "Row 4: the numbers owner's wording (NUMBERS 9), fitted to four lines; the 3e list split the same way",
@@ -1570,7 +1640,9 @@ def check(verbose=True):
          "9; 0's dated line; bond desk 5, M2", "PASS" if ok else "FAIL")
     # Third pass (bond desk 5, M6 (b)): the joint move in strong-Taiwan-dollar spans (8q, card Q131)
     s8q = re.sub(r"\s+", " ", _section(md, "### 8q.", "\n### 8r."))
-    ok = f"**{STRONG_N} of the {STRONG_OF} windows (7.4%) are strong.**" in s8q and \
+    # Mon 23 Nov: NUMBERS 8q now dates the count "since 1991" (card Q217, Sun 22 Nov evening); either form passes
+    ok = (f"**{STRONG_N} of the {STRONG_OF} windows (7.4%) are strong.**" in s8q or
+          f"**{STRONG_N} of the {STRONG_OF} windows since 1991 (7.4%) are strong.**" in s8q) and \
         f"**median {100 * STRONG_MEDIAN:.1f}%**" in s8q and f"**lowest was {100 * STRONG_MIN:.1f}%**" in s8q and \
         f"**highest {100 * STRONG_MAX:.1f}%**" in s8q
     note("Table 3", "3e list, row 7: strong-Taiwan-dollar spans, count and median (low, high) rise (8q, card Q131)",
@@ -1602,7 +1674,8 @@ def check(verbose=True):
          "PASS" if ok else "FAIL")
     # Tue 17 Nov evening (evening lay reader, stumbles 2 and 3; coherence reader 8, M1; the lead's calls)
     m1 = re.search(r"leave(?:s)? \$([\d,]+) spare", re.sub(r"\s+", " ", for3e))
-    ok = "Never: a bond or fund sold early." in printed and "until the deposit fills them" in printed \
+    # Mon 23 Nov: "Never: an early sale." (row 1 measured at five lines; the 3e list says what it means)
+    ok = "Never: an early sale." in printed and "fill the ten first (short" in printed \
         and f"sets an {dollars(BOTTOM_AFTER_1PT_FALL)} bottom in Jan 2028" in printed \
         and "stays put after it" in for3e and "is not a reason to change the plan" in for3e \
         and "Treasury curve of 6 Nov 2026" in TABLE3_NOTE_TODAY and "6 Nov 2026 curve" in md \
@@ -1668,7 +1741,7 @@ def check(verbose=True):
     wn_ok = "no individual Treasury maturing in 2033" in wn and "no individual Treasury maturing in 2035" in wn
     # Tue 17 Nov: the table prints "Changes: the fund"; the class and one action per event are in the 3e list
     swap_ok = "Treasury due by" not in printed and \
-        "Changes: the fund; trading costs from the 0.5% margin, lost interest from what its cash earns" in printed \
+        "Changes: swap funds; trading costs from the 0.5% margin, lost interest from what its cash earns" in printed \
         and "sold for an earlier iBond fund or the short-term Treasury ETF" in for3e and \
         "early end's cash waits in the short-term Treasury ETF" in for3e and "a dearer waiting ETF" in for3e
     note("Table 3", "Row 4: a fund's swap names the class, never an individual Treasury (WInS lists none for 2033, "
@@ -1689,6 +1762,9 @@ def check(verbose=True):
          "PASS" if sep_ok and NOTICE_BY == "31 October" and f"Notice by {NOTICE_BY} of a fund's final year" in printed
          and "no notice by then" in printed else "FAIL")
     known |= {"0.15%", "15"}
+    # Mon 23 Nov (D19; ARGUMENT_TREE branch 5): row 6's statement before the December 2032 payout (the late-2032 fund's
+    # end, about 15 December 2032, NUMBERS 0)
+    known |= {"2032"}
     note("Table 3", "Every other number printed is a checked date or figure", ", ".join(sorted(nums - known)) or "none",
          "dates and figures above", "this check", "PASS" if nums <= known else "FAIL")
 
@@ -1698,6 +1774,38 @@ def check(verbose=True):
     printed3 = " ".join([printed, for3e] + TABLE3_HEADER + list(TABLE3_LEVELS.values())).lower()   # Tue 17 Nov: + list
     note("Table 3", "No word WORDS.md bans", ", ".join(b for b in banned3 if b in printed3) or "none", "none",
          "WORDS.md", "PASS" if not any(b in printed3 for b in banned3) else "FAIL")
+
+    # ---- Table 1's note, Mon 23 Nov: the reconciliation (ATTACKS D3, D17; NUMBERS 8 (e)) ----
+    s8e = re.sub(r"\s+", " ", md[md.index("The WInS book x 1.5 under Table 1"):][:1600])
+    want = re.search(r"x 1\.5: \$([\d,]+), \$([\d,]+), \$([\d,]+)", s8e)
+    plan = re.search(r"The plan in January 2028 at cost: \$([\d,]+), \$([\d,]+), \$([\d,]+)", s8e)
+    for k, what in enumerate(("payment Treasuries", "floor", "VT")):
+        cmp("Table 1", f"Note: the book x 1.5, {what}", round(RECON["book_x15"][k]),
+            float(want.group(k + 1).replace(",", "")) if want else None, "8 (e)")
+        cmp("Table 1", f"Note: the plan in January 2028 at cost, {what}", round(RECON["plan_jan2028"][k]),
+            float(plan.group(k + 1).replace(",", "")) if plan else None, "8 (e)")
+    m = re.search(r"73\.29% to the floor in the book and 73\.30% in the plan", s8e)
+    note("Table 1", "Note: what is left splits about 73% to the floor, 27% to VT, in both",
+         f"{100 * RECON['book_floor_share']:.2f}% / {100 * RECON['plan_floor_share']:.2f}%",
+         m.group(0) if m else None, "8 (e)", "PASS" if m and round(100 * RECON["book_floor_share"], 2) == 73.29
+         and round(100 * RECON["plan_floor_share"], 2) == 73.30 else "FAIL")
+    note("Table 1", "Note: the floor takes over half the deposit (IPS l.15's \"most\")",
+         f"{100 * RECON['plan_floor_of_deposit']:.1f}%", "54.2% (section 4)", "4",
+         "PASS" if "$81,244 / 54.2%" in md and RECON["plan_floor_of_deposit"] > 0.5 else "FAIL")
+    m = re.search(r"\*\*\$502,604\*\*: the ten rungs pay \$445,405 and the extra Treasuries \$57,200", md)
+    note("Figure 1", "Note: the reserve pays about $502,600 at zero interest before the waiting fund's fee",
+         "about $502,600", m.group(0)[:40] if m else None, "8 (e)", "PASS" if m else "FAIL")
+    m = re.search(r"3% of the 2033 payment, about 15% of the 2041 and 2042 payments", md)
+    note("Figure 1", "Note: interest on interest, 3% of the 2033 payment, about 15% of the last two", "3%; about 15%",
+         m.group(0) if m else None, "8a", "PASS" if m else "FAIL")
+    m = re.search(r"\*\*The book's DV01, about \$159, against the payments' about \$200\*\*", md)
+    note("Table 1", "Note (if room): the book's rate sensitivity, about $160 against about $200", "about four-fifths",
+         "registered" if m else None, "8 (e)", "PASS" if m else "FAIL")
+    m = re.search(r"VT growth from 4% to 10% a year", md) and all(
+        f"| Stated top = contribution | $115,000 | $115,000 | $115,000 | $115,000 | $115,000 |" in md for _ in [0])
+    m2 = re.search(r"\(\$110,000 at 3\.1%\)", md) and re.search(r"a sum near 5% a year", md)
+    note("Table 2", "Note: the robustness check, $115,000 for 4% to 10% a year; about 5% too; $110,000 at 3.1%",
+         "$115,000; $110,000", "4; 8v", "4; 8v", "PASS" if m and m2 else "FAIL")
 
     fails = [x for x in res if x[5] == "FAIL"]
     if verbose:

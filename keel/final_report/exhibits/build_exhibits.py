@@ -45,6 +45,7 @@ from datetime import date
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
+from matplotlib.transforms import blended_transform_factory  # noqa: E402
 from matplotlib import font_manager  # noqa: E402
 from matplotlib.patches import Rectangle  # noqa: E402
 
@@ -244,6 +245,73 @@ def _svg_font_fallback(path):
 
 
 # =================================================================================================================
+# Figure 2 (Mon 23 Nov, the lead's decision 2): Table 2 drawn as ranges and dots (card c4), in place of Table 2 in the
+# report. Both fresh readers got its point faster (charts/fresh_read_2026-11-23/). What the table carried and the picture
+# cannot: "All paid" is the APA title; the bottom and top are printed at each end of each range; the contribution =
+# top line and the held-the-same line go to the note. History is the median starting month alone (decision 3).
+# Position on a common scale (Cleveland and McGill's first task) for the ends and the dots; two panels side by side,
+# each with its own dollar axis, never a dual axis; today's row in black, the others dark grey, identity in the labels.
+# =================================================================================================================
+F2_W, F2_H = 6.5, 2.30
+
+
+def _k(v):
+    return f"${v / 1000:,.0f}k" if v % 1000 == 0 else f"${v / 1000:,.1f}k"
+
+
+def figure2(outputs):
+    rows = [(name, v) for _, name, v in D.TABLE2_WORLDS]
+    hist = D.TABLE2_HISTORY
+    assert len(rows) == 5 and len(hist) == 1, (len(rows), len(hist))
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(F2_W, F2_H), sharey=True, gridspec_kw={"width_ratios": [1.55, 1]})
+    fig.subplots_adjust(left=0.335, right=0.985, top=0.80, bottom=0.12, wspace=0.08)
+    ys = [7.0, 6.0, 5.0, 4.0, 3.0]
+    y_hist = 0.9
+    lab = []
+    for y, (name, v) in zip(ys + [y_hist], rows + [(n, v) for n, v in hist]):
+        col = INK if name == rows[0][0] else BOND
+        lo, hi, fx = v["bottom"] / 1000, v["top"] / 1000, v["flexibility"]
+        a1.plot([lo, hi], [y, y], color=col, lw=2.0, solid_capstyle="butt")
+        a1.plot([lo, hi], [y, y], "|", color=col, ms=7, mew=1.0)
+        a1.text(lo - 1.6, y, _k(v["bottom"]), fontsize=10, va="center", ha="right")
+        a1.text(hi + 1.6, y, _k(v["top"]), fontsize=10, va="center", ha="left")
+        fx_r = round(fx, -2)
+        a2.plot([fx_r / 1000], [y], "o", ms=4.5, color=col)
+        a2.text(fx_r / 1000 + 1.4, y, f"${fx_r:,.0f}", fontsize=10, va="center", ha="left")
+        lab.append(name)
+    for a in (a1, a2):
+        a.axhline(2.05, color=RULE, lw=0.5)
+        for side in ("top", "right", "left"):
+            a.spines[side].set_visible(False)
+        a.spines["bottom"].set_linewidth(0.6)
+        a.tick_params(axis="y", length=0)
+        a.tick_params(axis="x", length=3, width=0.6, labelsize=10)
+        a.set_ylim(0.3, 7.6)
+    # Mon 23 Nov (render check): from a1's left edge the label ran past a1 into a2 and was clipped; anchored at the
+    # figure's left edge (x in figure fraction, y in data), it spans the label column and the empty band of a1
+    a1.text(0.005, 1.55, "Every starting month since 1962 (585, overlapping):", fontsize=10, style="italic",
+            va="center", ha="left", transform=blended_transform_factory(fig.transFigure, a1.transData), clip_on=False)
+    a1.set_yticks(ys + [y_hist])
+    a1.set_yticklabels(lab[:5] + ["Median starting month"], fontsize=10)
+    a1.set_xlim(57, 133)
+    a1.set_xticks([75, 100, 125])
+    a1.set_xticklabels(["$75k", "$100k", "$125k"])
+    a2.set_xlim(0, 45)
+    a2.set_xticks([0, 20, 40])
+    a2.set_xticklabels(["$0", "$20k", "$40k"])
+    a1.set_title("Bottom and top she could state in 2031", fontsize=10, loc="left", pad=6)
+    a2.set_title("Her flexibility and anything\nabove the top, Jan 2033", fontsize=10, loc="left", pad=6)
+    for path, dpi in outputs:
+        if path.endswith(".svg"):
+            fig.savefig(path, facecolor="white")
+            _svg_font_fallback(path)
+        else:
+            fig.savefig(path, dpi=dpi, facecolor="white")
+    plt.close(fig)
+    return [p for p, _ in outputs]
+
+
+# =================================================================================================================
 # Labels and note items (working labels; the notes are written on 27 Nov from these items, not here)
 # =================================================================================================================
 EXHIBITS = {
@@ -259,21 +327,40 @@ EXHIBITS = {
            # here (bonds within 25 basis points; cash never below $1,000). The costs label now says what the row is,
            # so its item shrinks to the coupon clause; "the full-size plan is Figure 1 and Table 2" goes (the title
            # carries the scale; 2.0 and 2.1 name the plan).
-           "section": "Section 2 (2-3 pages)", "note_budget_words": 75,
+           # Mon 23 Nov (ATTACKS D3, D17; ARGUMENT_TREE branch 1): the reconciliation with the plan is printed once,
+           # here, with its one reason (about 50 words in a terse note); the 25-basis-point and cash targets go to
+           # 2.5's prose, where the tree puts the price rule ("met at the 5 October check and at every fill"), and the
+           # identifiers item drops "VT bought last" (the units cell says it); a source line closes the note (APA). So
+           # 110 words (was 75): +50 reconciliation, +12 source, -17 targets, -10 identifiers (counted terse)
+           "section": "Section 2 (2-3 pages)", "note_budget_words": 110,
            "note_items": [
                "amounts at cost: units held x price paid on 6-7 Oct 2026 (U.S. Eastern), on the original $300,000 (8g)",
                "units bought / target: targets set before the first trade (Portfolio tab, 2 Oct prices); a bond "
                "unit is $1,000 of face value (8m)",
-               "the other two targets, met: every bond bought within 25 basis points of the Treasury curve; cash "
-               "never below $1,000 (8m; 2.5)",
+               # D3's one reason, D17's split rule once; never "after the freeze", "a new standard", "we changed"
+               f"reconciled with the plan, both at cost: scaled by 1.5 to $450,000 the portfolio holds "
+               f"{D.dollars(D.RECON['book_x15'][0])} of payment Treasuries, {D.dollars(D.RECON['book_x15'][1])} of "
+               f"floor and {D.dollars(D.RECON['book_x15'][2])} of VT; the plan in January 2028 holds "
+               f"{D.dollars(D.RECON['plan_jan2028'][0])}, {D.dollars(D.RECON['plan_jan2028'][1])} and "
+               f"{D.dollars(D.RECON['plan_jan2028'][2])}, because the portfolio was built before the operating "
+               f"reserve was sized (the extra Treasuries, {D.dollars(D.TOPUP_NO_INTEREST)}); in both, what is left "
+               f"goes about {round(100 * D.RECON['plan_floor_share'])}% to the floor and "
+               f"{100 - round(100 * D.RECON['plan_floor_share'])}% to VT, the floor always over half the deposit "
+               "(NUMBERS 8 (e), 4; ATTACKS D3, D17)",
                # Mon 16 Nov night (coherence reader 6, L3): the floor is the fund, the bottom is the figure (WORDS)
                "Pays for: each holding's payment (1 January; 23 Oct snapshot); the floor: the late-2032 Treasury fund "
                "whose payout sets the least Laura can promise in 2031 (TNA l.13), here IBTM's floor lot (CANON A24, "
                "8g) (coherence reader 6, Mon 16 Nov, L3: the floor is the fund, the bottom is the figure, WORDS)",
                "costs row: $200 of fees and $1,109.42 of accrued bond interest, repaid with each bond's next coupon "
                "(8g v2)",
-               "identifiers: tickers for funds, CUSIPs for bonds (8g, card Q38); VT bought last, with the cash left "
-               "(8m)"]},
+               "identifiers: tickers for funds, CUSIPs for bonds (8g, card Q38)",
+               # APA 7: the source closes the general note
+               "source line: \"Data from the team's WInS trade record, 6-7 Oct 2026; team calculations.\"",
+               # registered Sun 22 Nov (NUMBERS 8 (e)); the tree allows it only here and only with its reason
+               "if room (not in the budget): rate sensitivity, about $160 per 0.01 point against about $200 for the "
+               "payments at the same scale, about four-fifths: matched by date, not duration; the holdings' interest "
+               "arrives before the payments, a wait the zero-interest test covers (NUMBERS 8 (e); ARGUMENT_TREE "
+               "branch 1)"]},
     "f1": {"label": "Figure 1",
            # Fri 13 Nov evening: WORDS.md's names ("the extra Treasuries", "cash waiting earns nothing"; the top-up is
            # the $2,388 that completes the ten, IPS l.13). Mon 16 Nov evening (card Q73-016, -037): the condition first,
@@ -286,7 +373,10 @@ EXHIBITS = {
            # terse note items 1-5 run 17 words longer than Fri 13 Nov's items 1-4 (114 against 97, counted), so the
            # budget is 77 (was 60); item 6 only if room, else 3a's prose (the bars show the cash dates)
            # Tue 17 Nov (coherence reader 7, M1): the reserve's size joins item 4, about 7 words in a terse note, so 84
-           "section": "Section 3, part 3a", "note_budget_words": 84,
+           # Mon 23 Nov (ARGUMENT_TREE section 6, nugget 16, "Figure 1's note: placed"; APA source line): +16 words
+           # for interest on interest, +9 for the source, so 109 (was 84). The $502,605 and the release rule are 3a's
+           # prose (D18: "Section 3a states ... and one release rule"); the note keeps the market value (item 4)
+           "section": "Section 3, part 3a", "note_budget_words": 109,
            "note_items": [
                # Mon 16 Nov night (coherence reader 6, M9; WORDS "The standard the payments meet"): the funds' basis
                "1. \"if cash waiting earns nothing\" (the title's condition), defined once: money already received "
@@ -317,10 +407,16 @@ EXHIBITS = {
                f"{D.hundreds(D.FIGURE1_NOTE_FACTS['reserve_1jan2033'])} at today's rates (8h; re-sized Tue 17 Nov "
                "evening; coherence reader 7, M1, M2: never beside the total row, a ten-year sum of payouts)",
                "5. Treasury par curve of 6 Nov 2026; each payment in its own year's dollars (8h)",
-               "6. if room: bars end when the cash reaches Laura (a fund a few days after its 15 December end, a bond "
-               "on its maturity date or the next business day; 8h cash table); paid in every historical rate stretch "
-               "tested (585 starts, 1962-2010; NUMBERS 2); the top-up, $2,388, completes the ten, in \"Its own "
-               "Treasury\"; the floor's IBTM shares are a separate lot from the 2033 payment's"]},
+               # Mon 23 Nov: GOLDMINE 16, placed here by the tree (NUMBERS 8a's sentence)
+               "6. why the extra Treasuries rise with the years: interest earned on interest is 3% of the 2033 "
+               "payment and about 15% of the 2041 and 2042 payments (8a)",
+               "7. source line: \"Data from U.S. Department of the Treasury (n.d.); team calculations.\"",
+               # Mon 23 Nov (ARGUMENT_TREE branch 2: the replay's method named, never "rate levels" or a bare 55.6%)
+               "8. if room (not in the budget): rows end when the cash reaches Laura (a fund a few days after its 15 "
+               "December end, a bond on its maturity date or the next business day; 8h cash table); at zero interest "
+               "and before the waiting fund's fee the Treasuries pay about $502,600 against $500,000 owed (NUMBERS 8 "
+               "(e), no-fee basis named; 3a's prose); the top-up, $2,388, completes the ten, in \"Its own Treasury\"; "
+               "the floor's IBTM shares are a separate lot from the 2033 payment's"]},
     "t2": {"label": "Table 2",
            "title": "Laura's Plan for Both Deposits ($450,000) in Five Markets and in History Since 1962, Modelled",
            # Sun 15 Nov evening (bond desk 3c check, research/panel/2026-11-15_bond_desk_3c_precision.md): M2, the
@@ -358,7 +454,13 @@ EXHIBITS = {
            # assumption, not a market figure)" (-4), "above the top" for "above the stated top" (-1), and the dates item
            # said once ("to the floor's trade day, Mon 3 Jan 2028" for "to January 2028 (traded Mon 3 Jan 2028)", -4);
            # no fact cut. Still 139-156 words, so 21.2 lines (measured)
-           "section": "Section 3, parts 3b and 3c", "note_budget_words": 154,
+           # Mon 23 Nov (ATTACKS D7, D20, D22 row 7; card Q210 row 30; ARGUMENT_TREE branch 4 and section 6, nugget 9):
+           # the forecast's small effect as a robustness check (+24 words), the assumptions table completed (growth
+           # "compounded", the 200,000 simulated futures: +4), the history rows' overlap said where they are named
+           # (+14, the old spread item's 6 folded in), and an APA source line (+20); "checked against history" (22
+           # words) leaves for 3c's prose (EXHIBITS["t2"]["for_prose"]). Counted terse: 154 + 34 = 188, which takes
+           # the table off its page (measured); with the overlap said in 8 words and a 16-word source line, 172
+           "section": "Section 3, parts 3b and 3c", "note_budget_words": 172,
            "note_items": [
                # Wed 18 Nov evening, third pass (bond desk 5, H3): the range Table 2 states is dated to the curve of the
                # day trading froze, and never re-sized (on 13 Nov 2026's curve the same rule states $105,000 to $125,000:
@@ -384,10 +486,10 @@ EXHIBITS = {
                # middle" holds on every count (check() asserts it, unprinted); J.P. Morgan named once, for the 7.5% and
                # the 17.88% ("its"). Never "the top", "the consensus", "upper third" or a median (words_check). The
                # reviewer's mark follows the source, so the Letter PDF's placeholder note leaves it out (_unmarked)
-               f"shares {100 * D.SHARE_RETURN:.1f}% a year in rows 1 and 3 (J.P. Morgan's 2027 assumption, "
+               f"shares grow {100 * D.SHARE_RETURN:.1f}% a year, compounded, in rows 1 and 3 (J.P. Morgan Asset Management's (2026) 2027 assumption, "
                f"{D.SHARE_RETURN_STANDING}, CANON B15; coherence reader 9, H6, and the lead's calls of Wed 18 Nov "
                "morning and evening (no median figure, card Q146, ASK_HUMANS): 3e names the assumption in words and "
-               f"points here) and, in 3b's simulated futures, its {100 * D.SHARE_VOL:.2f}% volatility; yields there "
+               f"points here) and, in 3b's 200,000 simulated futures, its {100 * D.SHARE_VOL:.2f}% volatility; yields there "
                f"move about {D.YIELD_SD_POINTS:.1f} points a year, independent of shares (our own assumption; "
                "NUMBERS 0)",
                # Tue 17 Nov (lay reader 3: "$120 for each further 0.1%" was one figure too many in 3c's prose): the
@@ -411,23 +513,71 @@ EXHIBITS = {
                # carries the method, so "(method in 3e)" goes and the note says it. Second pass: "past frequencies" for
                # SKELETON's "shares of the past", which the note's "shares" (stocks) could make a reader misread
                # (D.TABLE2_STARTS_METHOD, checked against SKELETON's two ends of the phrase)
-               f"starting months: U.S. yields and stocks from the start month ({D.TABLE2_STARTS_METHOD})",
+               f"starting months: U.S. yields and stocks from the start month ({D.TABLE2_STARTS_METHOD}); 585 "
+               "overlapping months, about four independent rate eras, so only the median is shown (NUMBERS 7; card "
+               "Q210 rule (c); the lead's decision 3, Mon 23 Nov)",
+               # Mon 23 Nov (D22 row 7; nugget 9, "Placed as a robustness check"; D20's last clause; NUMBERS 4's
+               # return table and 8v)
+               "robustness: the top states $115,000 for any share growth from 4% to 10% a year, and near 5%, the "
+               "team's own build from yield, growth and valuation; at 3.1% it is $110,000 (NUMBERS 4, 8v)",
                "inflation row: prices up 5% a year",
                "flexibility: the half of VT promised to no one plus whatever the fund pays above the top, to the "
                "nearest $100 (8i; bond desk 5, H1: one fund)",
-               "spread rows: each column's own percentile",
                # Third pass: the same three dates said once each (the trade days are the dates the markets run to)
                "each column's own date: the bottom turns on markets to the floor's trade day, Mon 3 Jan 2028; the top "
                "to the move's, Thu 2 Jan 2031, before the 2031 meetings; her flexibility to January 2033 (NUMBERS 4; "
                "IPS l.15)",
+               "source line: \"Data from U.S. Department of the Treasury (n.d.), Board of Governors of the Federal "
+               "Reserve System (n.d.-a) and Shiller (n.d.); team calculations.\""],
+           # Mon 23 Nov: out of the note for its budget, for 3c's prose (printed in tables.md under the table)
+           "for_prose": [
                f"checked against history: each named world's flexibility ({D.hundreds(D.TABLE2_FLEX_WORLDS[0])} to "
                f"{D.hundreds(D.TABLE2_FLEX_WORLDS[1])}) is below the median starting month's "
                f"({D.hundreds(D.TABLE2_FLEX_MEDIAN)}) (8i, 8j)"]},
+    # Mon 23 Nov (the lead's decision 2): Figure 2 replaces Table 2 in the report; Table 2 stays in tables.md as its
+    # data and the store's record. The note carries Table 2's items, its two in-table lines (what is held the same;
+    # the contribution equals the top) and the history's overlap clause; the panel titles carry two of the three dates.
+    # Budget: Table 2's 172 + 26 for the two lines + 4 for the longer source line - 8 for the dates = 194
+    "f2": {"label": "Figure 2",
+           "title": "In Every Market Tested, All Ten Payments Are Paid in Full",
+           "section": "Section 3, parts 3b and 3c", "note_budget_words": 194,
+           "note_items": [
+               "MODEL, not forecasts: Laura's plan for both deposits ($450,000); Treasury curve of 6 Nov 2026, the day "
+               "trading froze (bond desk 5, H3: never re-sized to a later curve, NUMBERS 4)",
+               D.TABLE2_HELD_SAME,
+               D.TABLE2_RESULT_ROW,
+               "each end (the range rule): units of the late-2032 Treasury fund held x its remaining coupons and "
+               "principal per unit, from its published holdings on the trade day, undiscounted, less the fees to 15 "
+               "Dec 2032 and 0.5%; the bottom rounded down to $5,000; the top = the unrounded bottom plus that of the "
+               "shares moved into Treasuries, rounded down once (NUMBERS 0, 3)",
+               f"shares grow {100 * D.SHARE_RETURN:.1f}% a year, compounded, in the first and third worlds "
+               f"(J.P. Morgan Asset Management's (2026) 2027 assumption, {D.SHARE_RETURN_STANDING}, CANON B15) and, in "
+               f"3b's 200,000 simulated futures, its {100 * D.SHARE_VOL:.2f}% volatility; yields there move about "
+               f"{D.YIELD_SD_POINTS:.1f} points a year, independent of shares (our own assumption; NUMBERS 0)",
+               f"if the fund's costs beyond the fees used up the room under the top (about "
+               f"{round(100 * D.ROOM_UNDER_TOP)}% of what it pays, centrally, NUMBERS 8u: its two parts, the 0.5% and "
+               "the rounding down, are the range-rule item's) and cash waiting earned nothing, the contribution would "
+               f"fall short of the top by about ${round(D.SHORT_PER_TENTH, -1):,.0f} for each further 0.1% (NUMBERS "
+               "3, 8u)",
+               f"starting months: U.S. yields and stocks from the start month ({D.TABLE2_STARTS_METHOD}); 585 "
+               "overlapping months, about four independent rate eras, so only the median is shown (NUMBERS 7; card "
+               "Q210 rule (c))",
+               "robustness: the top states $115,000 for any share growth from 4% to 10% a year, and near 5%, the "
+               "team's own build from yield, growth and valuation; at 3.1% it is $110,000 (NUMBERS 4, 8v)",
+               "inflation world: prices up 5% a year",
+               "flexibility: the half of VT promised to no one plus whatever the fund pays above the top, to the "
+               "nearest $100 (8i; bond desk 5, H1: one fund)",
+               "dates: the bottom turns on markets to the floor's trade day, Mon 3 Jan 2028; the top to the move's, "
+               "Thu 2 Jan 2031, before the first 2031 meeting (NUMBERS 4, 8r; IPS l.15)",
+               "source line: \"Data from U.S. Department of the Treasury (n.d.), Board of Governors of the Federal "
+               "Reserve System (n.d.-a) and Shiller (n.d.); team calculations.\""]},
     "t3": {"label": "Table 3",
            # Thu 12 Nov (SKELETON Exhibits item 4): seven rows in three levels, five columns, one trigger per cell.
            # Fri 13 Nov evening: rows rewritten for three readers and card Q36, refitted to one page (18.4 lines without
            # the note, 21.4 with 40 words; was 18.9 and 21.9 with 35). Mon 16 Nov night: 27.9 lines after that night's
            # hand edits, off the page. Tue 17 Nov: cut back to 21.4 and 18.4, the cut details in D.TABLE3_FOR_3E
+           # Mon 23 Nov (ATTACKS D19): seven signals in three lists (the plan; a figure, a fund or a date; her
+           # flexibility); the count and the two reasons are unchanged, so the title stands
            "title": "Seven Signals to Watch as 2031 and 2033 Approach; Two Can Change Laura's $450,000 Plan",
            # Tue 17 Nov (coherence reader 7, M13): the building-cost band's source and date join the note; the X-date
            # item is reworded in plain words (lay reader 3). Measured that evening: the table holds one page with a
@@ -442,8 +592,9 @@ EXHIBITS = {
                f"and the extra Treasuries ({D.dollars(D.TOPUP_NO_INTEREST)})",
                # Tue 17 Nov (lay reader 3): the cells say "debt-limit deadline"; the note defines it and keeps the
                # term of art once
-               "debt-limit deadline: the day the debt limit would stop the Treasury paying every bill, the \"X-date\" "
-               "(its estimate, else the Congressional Budget Office's)",
+               # Mon 23 Nov: "(its estimate, else the Congressional Budget Office's)" to the 3e list (7 words for the
+               # source line)
+               "debt-limit deadline: the day the debt limit would stop the Treasury paying every bill, the \"X-date\"",
                "cash dates: fund payouts, maturities, trade days",
                # Mon 16 Nov night (bond desk 4, L10): the 3.57 points (3.60 before Tue 17 Nov evening's re-size) are the standard's, with cash waiting earning
                # nothing (NUMBERS 5; the ladder alone holds to 3.89 points)
@@ -452,7 +603,10 @@ EXHIBITS = {
                # Tue 17 Nov (coherence reader 7, M13; case l.146-147): the building-cost band's source and date
                # Wed 18 Nov evening, third pass (bond desk 5, M6 (a)): the cell says "five-year building costs", so the
                # item's name follows it (the same two words)
-               f"building costs: {D.CCI_SOURCE} (8d)"]},
+               # Mon 23 Nov: the building-cost band's source moves into the APA source line (+6 words, paid by the
+               # X-date's estimator moving to the 3e list, -7), so 44 as before
+               f"source line: \"Data from Directorate-General of Budget, Accounting and Statistics (n.d.), "
+               f"construction cost index to October 2026; team calculations.\" ({D.CCI_SOURCE}, 8d)"]},
 }
 
 
@@ -632,6 +786,11 @@ def add_figure1(BT, rep, note_text, top=False):
                width_in=W, note=note_text, top=top)
 
 
+def add_figure2(BT, rep, note_text, top=False):
+    rep.figure(EXHIBITS["f2"]["label"], EXHIBITS["f2"]["title"], os.path.join(HERE, "exhibit3_markets.png"),
+               width_in=F2_W, note=note_text, top=top)
+
+
 def add_table2(BT, rep, note_text, top=False):
     widths = [2.50, 0.95, 0.95, 0.95, 1.15]
     aligns = [BT.L, BT.L, BT.R, BT.R, BT.R]
@@ -639,7 +798,7 @@ def add_table2(BT, rep, note_text, top=False):
     rows = [("held", [D.TABLE2_HELD_SAME])]
     rows += [("row", [name] + D.table2_cells(v)) for _, name, v in D.TABLE2_WORLDS]
     rows.append(("spanner", [D.TABLE2_SPREAD_LABEL]))
-    rows += [("indent", [label] + D.table2_cells(v)) for label, v in D.TABLE2_SPREAD]
+    rows += [("indent", [label] + D.table2_cells(v)) for label, v in D.TABLE2_HISTORY]
     rows.append(("result", [D.TABLE2_RESULT_ROW]))        # the confidence answer, inside the table
     return apa_table(BT, rep, "t2", D.TABLE2_HEAD_ROW, rows, widths, aligns, note_text, top,
                      spanners=[(2, 3, D.TABLE2_SPANNER)])
@@ -666,7 +825,12 @@ NEVER_WORDS = (r"\bpencil", r"\bink(ed|s)?\b", r"\bendowment", r"\boptimal", r"\
                r"(?<!\bnot a )\bfixed\b", r"\b89%", r"\bupper third", r"\bconsensus",
                r"\btop of (?:the )?(?:published )?(?:forecasts|estimates)",
                # second pass (the lead's call, card Q146): no median figure for the published forecasts anywhere
-               r"\bmedian (?:about |of )?[\d.]+%")
+               r"\bmedian (?:about |of )?[\d.]+%",
+               # Mon 23 Nov (ATTACKS D3, D20; ARGUMENT_TREE branches 1-6 "Left out"): the reconciliation's banned
+               # framings, the book's scale words, a bare "1 in 20" from history, and the plan's other banned names
+               r"\bafter the freeze", r"\bnew standard", r"\bwe changed", r"\bin miniature", r"\btwo-thirds scale",
+               r"\bscale model", r"\bglide path", r"\bsecured\b", r"\bportfolio insurance", r"\baverages 7\.5%",
+               r"\bduration match", r"\b1[- ]in[- ]20\b(?! (?:simulated )?futures?)", r"\bcushion")
 
 # Wed 18 Nov evening: what Table 2's note must carry since the morning's hand edits (the build stops if one is
 # missing), and the stale pointers it must not (3e's recast no longer carries the starting months' method; the
@@ -676,7 +840,7 @@ NEVER_WORDS = (r"\bpencil", r"\bink(ed|s)?\b", r"\bendowment", r"\boptimal", r"\
 # a count of houses, "shares of the past" (the note's shares are stocks), and J.P. Morgan named once
 # Third pass (bond desk 5, H1 and H3): one fund behind the top, named, "the fund's costs" and "what it pays"; the
 # curve dated to the day trading froze; never "the funds' costs", "the funds pay" or "two Treasury funds"
-T2_NOTE_MUST = (f"J.P. Morgan's 2027 assumption, {D.SHARE_RETURN_STANDING}",
+T2_NOTE_MUST = (f"J.P. Morgan Asset Management's (2026) 2027 assumption, {D.SHARE_RETURN_STANDING}",
                 f"the room under the top (about {round(100 * D.ROOM_UNDER_TOP)}% of what it pays, centrally",
                 D.TABLE2_STARTS_METHOD,
                 "less the fees to 15 Dec 2032 and 0.5%", "the bottom rounded down to $5,000", "rounded down once",
@@ -689,14 +853,16 @@ T2_NOTE_NEVER = ("method in 3e", "passed the range's 0.5%", "median about", "fif
 def carry_check(verbose=True):
     """Fails if Table 2's note items lack one of the Wed 18 Nov morning edits, or keep a pointer they replaced, in the
     items themselves or in the Letter PDF's placeholder note (which leaves the reviewers' marks out)."""
-    items = "; ".join(EXHIBITS["t2"]["note_items"])
-    placeholder = items_note("t2")
+    # Mon 23 Nov: Figure 2 carries Table 2's note in the report; both are checked
+    items = "; ".join(EXHIBITS["t2"]["note_items"] + EXHIBITS["f2"]["note_items"])
+    placeholder = items_note("t2") + " " + items_note("f2")
     fails = [("must", s, where) for s in T2_NOTE_MUST for where, t in (("items", items), ("placeholder", placeholder))
              if s not in t]
     fails += [("never", s, "items") for s in T2_NOTE_NEVER if s in items]
     fails += [("never", s, "placeholder") for s in T2_NOTE_NEVER if s in placeholder]
     # second pass: J.P. Morgan named once in the note (it covers the 7.5% and the 17.88%)
-    fails += [("once", "J.P. Morgan", where) for where, t in (("items", items), ("placeholder", placeholder))
+    fails += [("once", "J.P. Morgan", f"{ex} {where}") for ex in ("t2", "f2")
+              for where, t in (("items", "; ".join(EXHIBITS[ex]["note_items"])), ("placeholder", items_note(ex)))
               if t.count("J.P. Morgan") != 1]
     n = 2 * len(T2_NOTE_MUST) + 2 * len(T2_NOTE_NEVER) + 2
     if verbose:
@@ -721,6 +887,11 @@ def exhibit_texts():
     out += [("t2 head", h) for h in D.TABLE2_HEAD_ROW + [D.TABLE2_SPANNER, D.TABLE2_SPREAD_LABEL]]
     out += [("t2 line", D.TABLE2_HELD_SAME), ("t2 line", D.TABLE2_RESULT_ROW)]
     out += [("t2 world", name) for _, name, _ in D.TABLE2_WORLDS]
+    out += [("f2 label", t) for t in ("Every starting month since 1962 (585, overlapping):", "Median starting month",
+                                      "Bottom and top she could state in 2031",
+                                      "Her flexibility and anything above the top, Jan 2033")]
+    out += [(f"{ex} note item", t) for ex in ("t2",) for t in EXHIBITS[ex]["note_items"]]
+    out += [("t2 title", EXHIBITS["t2"]["title"])]
     out += [("t3 head", h) for h in D.TABLE3_HEADER + list(D.TABLE3_LEVELS.values())]
     out += [("t3 cell", D.cell_text(c)) for _, cells in D.TABLE3_ROWS for c in cells]
     out += [("t3 for 3e", t) for t in D.TABLE3_FOR_3E]     # Tue 17 Nov: the cut details, read like the cells
@@ -739,8 +910,9 @@ def words_check(verbose=True):
     return len(texts) * len(NEVER_WORDS), fails
 
 
-ADDERS = {"t1": add_table1, "f1": add_figure1, "t2": add_table2, "t3": add_table3}
-ORDER = ("t1", "f1", "t2", "t3")
+ADDERS = {"t1": add_table1, "f1": add_figure1, "t2": add_table2, "f2": add_figure2, "t3": add_table3}
+# Mon 23 Nov (the lead's decision 2): Figure 2 in the report, Table 2 in tables.md only
+ORDER = ("t1", "f1", "f2", "t3")
 
 
 # Mon 16 Nov night: a note item may carry its reviewer's mark, as tables.md records it ("(coherence reader 6, Mon 16
@@ -774,8 +946,7 @@ def crop_previews(BT, pdf):
     pages = BT.pdf_pages_text(pdf)
     out = {}
     with pdfplumber.open(pdf) as doc:
-        for ex, name in (("t1", "table1_holdings_2x.png"), ("t2", "table2_markets_2x.png"),
-                         ("t3", "table3_monitoring_2x.png")):
+        for ex, name in (("t1", "table1_holdings_2x.png"), ("t3", "table3_monitoring_2x.png")):
             pi, ln = BT.find_line(pages, EXHIBITS[ex]["label"])
             pj, below = BT.find_line(pages, "Below the exhibit.", start_page=pi)
             top = ln["top"] - 6
@@ -824,7 +995,7 @@ def crop_previews(BT, pdf):
 # Where each exhibit's filler note starts in the filler text: where it started on Wed 11 Nov (one shared filler, notes
 # of 50, 60, 45 and 35 words in turn). Fixed since Thu 12 Nov evening, so that a longer Table 1 note does not change the
 # words, and so the line breaks, of the notes measured after it (Figure 1 measured a line taller when it moved).
-FILLER_START = {"t1": 0, "f1": 50, "t2": 110, "t3": 155}
+FILLER_START = {"t1": 0, "f1": 50, "t2": 110, "f2": 110, "t3": 155}
 
 
 def measure(BT, workdir):
@@ -980,12 +1151,39 @@ def _md_table(header, rows, right):
 
 def tables_md(measures):
     L = []
-    L.append("# The Final Report's exhibits as text (built Wed 18 Nov 2026 evening, Sydney)\n")
+    L.append("# The Final Report's exhibits as text (built Mon 23 Nov 2026, Sydney)\n")
     L.append(f"Generated by `build_exhibits.py` from `exhibit_data.py`, which reads `../numbers/results_*_{D.REGISTER_DATE}.json` "
              "(and, for Table 2's note, `results_break_2026-11-18.json`, NUMBERS 8u) "
              "and checks every figure against `../NUMBERS.md` (sections named under each exhibit). Notes for the "
              "store, not report prose: titles are working labels and each note lists the items it must carry; both "
              "are written on 27 Nov. Square brackets mark placeholders. MODEL = Keel's calculation, not a forecast.\n")
+    # Mon 23 Nov: the attack decisions and the argument tree, carried into the scripts (charts/FINAL_2026-11-23.md)
+    t1m, t3m3 = (measures.get(f"{k}_note_budget", {}) for k in ("t1", "t3"))
+    L.append("**Mon 23 Nov (ATTACKS D3, D7, D17, D19, D20, D22; `../ARGUMENT_TREE.md`; card Q210; "
+             "`../charts/FINAL_2026-11-23.md`):** Table 1's note reconciles the book (x 1.5) with the plan in January "
+             "2028 and states the floor's split once (NUMBERS 8 (e)), and its 25-basis-point and cash targets go to "
+             "2.5's prose; Figure 1's note gains interest on interest (8a); Table 2's history rows are the 5th and "
+             "95th percentiles of overlapping starting months, never \"1 in 20\", and its note gains the robustness "
+             "check, the overlap clause and the 200,000 simulated futures, while the check against history goes to "
+             "3c's prose; Table 3 is three lists (the plan, a figure, a fund or a date, her flexibility), the "
+             "debt-limit deadline joins row 2 with \"hold and wait\", the yields row moves to row 3, and a new row 6 "
+             "carries co-sponsors' pledges with the statement of the late-2032 fund they see in 2031 and before its "
+             "December 2032 payout (rows 1, 2, 4, 5 and 7 keep their numbers); every note ends with an APA source "
+             "line; more banned words are checked. Measured: Table 1 22.9 lines with a 110-word note; Table 2 23.2 with "
+             "172; Table 3 22.4 with 44.**\n")
+    # Mon 23 Nov, later: the lead's decisions after the fresh read (charts/fresh_read_2026-11-23/), live measures
+    f1m, f2m = measures.get("f1_note_budget", {}), measures.get("f2_note_budget", {})
+    L.append("**Mon 23 Nov, later: the lead's decisions after two fresh readers (`../charts/fresh_read_2026-11-23/`; "
+             "`../charts/FINAL_2026-11-23.md`, \"Decisions applied\"):** Figure 1 stays the reserve schedule and the "
+             "money picture stays a candidate; Figure 2, Table 2 drawn as ranges and dots, replaces Table 2 in the "
+             "report, its APA title saying that all ten payments are paid in every market tested, the bottom and top "
+             "printed at each end of each range; Table 2 stays below as Figure 2's data and the store's record; history "
+             "is the median starting month alone (card Q210 rule (c); NUMBERS registers no highest starting month); "
+             "Table 3 row 5's limit is the first 2031 meeting and every \"Changes\" cell names an act (card Q222 row "
+             "38); every source line takes the works-cited draft's author and date form. Measured: Table 1 "
+             + str(t1m.get("lines")) + " lines; Figure 1 " + str(f1m.get("lines")) + "; Figure 2 "
+             + str(f2m.get("lines")) + " with a " + str(EXHIBITS["f2"]["note_budget_words"]) + "-word note; Table 3 "
+             + str(t3m3.get("lines")) + ".**\n")
     # Mon 16 Nov night: the hand edits of that night (coherence reader 6; bond desk 4), carried into the scripts
     L.append("**Hand edits, Mon 16 Nov night (coherence reader 6; bond desk 4), each marked in place below: carried into "
              "`exhibit_data.py` and `build_exhibits.py` the same night, so a rebuild keeps them; Table 3's page fit is "
@@ -1047,9 +1245,8 @@ def tables_md(measures):
              "what it pays\"), and dates its curve to the day trading froze; row 7 says \"her $115,000 part\", "
              "\"shares at 7.5%\" for the $28,700, \"alone\" for the currency's $11,500 and \"five-year\" for the "
              "building-cost band, the joint move (22.3% in the middle span) and the two index readings in the 3e list; row 5 "
-             "says \"funds\". Table 2 measures " + str(t2m.get("lines")) + " lines with a "
-             + str(EXHIBITS["t2"]["note_budget_words"]) + "-word note" + t2_where + "; Table 3 " + str(t3m.get("lines"))
-             + " lines with its " + str(EXHIBITS["t3"]["note_budget_words"]) + "-word note, one Letter page.\n")
+             "says \"funds\". Table 2 measured 21.2 lines with a 154-word note, between two prose lines on one Letter page; "
+             "Table 3 21.9 lines with its 44-word note, one Letter page.\n")
 
     def cost(ex):
         m = measures.get(f"{ex}_note_budget", {})
@@ -1139,13 +1336,24 @@ def tables_md(measures):
     L.append("Note items: " + "; ".join(EXHIBITS["f1"]["note_items"]) + ".\n")
     L.append(cost("f1") + "\n")
 
+    # Figure 2 (Mon 23 Nov, the lead's decision 2)
+    L.append(f"## {EXHIBITS['f2']['label']}. {EXHIBITS['f2']['title']} (the lead's title, Mon 23 Nov)\n")
+    L.append(f"{EXHIBITS['f2']['section']}. In the report in place of Table 2: `figure2_markets.svg`, "
+             "`figure2_markets_2x.png`, `exhibit3_markets.png` (300 dpi, the Letter build's). Data: Table 2 below "
+             "(NUMBERS 8i, 8j). Left panel: the bottom and top she could state in each world, each printed at its end; "
+             "right panel: her flexibility and anything above the top, January 2033, to the nearest $100; the history "
+             "row is the median starting month alone (card Q210 rule (c)).\n")
+    L.append("Note items: " + "; ".join(EXHIBITS["f2"]["note_items"]) + ".\n")
+    L.append(cost("f2") + "\n")
+
     # Table 2
-    L.append(f"## {EXHIBITS['t2']['label']}. {EXHIBITS['t2']['title']} (working title)\n")
+    L.append(f"## {EXHIBITS['t2']['label']}. {EXHIBITS['t2']['title']} (Figure 2's data and the store's record; not in "
+             "the report since Mon 23 Nov)\n")
     L.append(f"{EXHIBITS['t2']['section']}. Source: NUMBERS 8i (MODEL; the spread of the flexibility from 8j's joint "
              f"replay column), `results_joint_stress_{D.REGISTER_DATE}.json`.\n")
     rows = [[name] + D.table2_cells(v) for _, name, v in D.TABLE2_WORLDS]
     rows.append([f"*{D.TABLE2_SPREAD_LABEL}*", "", "", "", ""])
-    rows += [[f"&nbsp;&nbsp;{label}"] + D.table2_cells(v) for label, v in D.TABLE2_SPREAD]
+    rows += [[f"&nbsp;&nbsp;{label}"] + D.table2_cells(v) for label, v in D.TABLE2_HISTORY]
     L.append(f"First line of the table, full width under the heads, a thin rule below (Mon 16 Nov evening, card Q14b "
              f"row 20): \"{D.TABLE2_HELD_SAME}\" (checked: one design, one range-rule stamp and the $150,000 2028 "
              "deposit in every world of the results file; 8i, NUMBERS 0).\n")
@@ -1154,7 +1362,10 @@ def tables_md(measures):
              "Nov, L2 and M6, also the header, the first row and the history label above: WORDS's names) (checked: all "
              "five worlds and 100% of the 585 replays, 8i and 8j).\n")
     L.append("Note items: " + "; ".join(EXHIBITS["t2"]["note_items"]) + ".\n")
-    L.append(cost("t2") + "\n")
+    L.append("For 3c's prose, not the note (Mon 23 Nov, the note's budget): " + "; ".join(EXHIBITS["t2"]["for_prose"])
+             + ".\n")
+    L.append("Page cost: not in the report since Mon 23 Nov (Figure 2 is); last measured 23.2 lines with a 172-word "
+             "note.\n")
 
     # Table 3
     L.append(f"## {EXHIBITS['t3']['label']}. {EXHIBITS['t3']['title']} (working title)\n")
@@ -1212,6 +1423,9 @@ def main(argv):
     print(figure1([(os.path.join(HERE, "figure1_reserve.svg"), None),
                    (os.path.join(HERE, "figure1_reserve_2x.png"), PREVIEW_DPI),
                    (os.path.join(HERE, "exhibit2_reserve.png"), PRINT_DPI)]))
+    print(figure2([(os.path.join(HERE, "figure2_markets.svg"), None),
+                   (os.path.join(HERE, "figure2_markets_2x.png"), PREVIEW_DPI),
+                   (os.path.join(HERE, "exhibit3_markets.png"), PRINT_DPI)]))
     if argv[1:2] == ["figure"]:
         return
     BT = _template()
@@ -1225,7 +1439,8 @@ def main(argv):
     m["_method"] = ("Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced "
                     "text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a "
                     "blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)")
-    m["_built"] = (f"Wed 18 Nov 2026 evening (Sydney), register of {D.REGISTER_DATE} (results_*_{D.REGISTER_DATE}.json; "
+    m["_built"] = (f"Mon 23 Nov 2026 (Sydney): ATTACKS D3, D7, D17, D19, D20, D22 and the argument tree carried; "
+                   f"register of {D.REGISTER_DATE} (results_*_{D.REGISTER_DATE}.json; NUMBERS 8 (e) for Table 1's note; "
                    "Table 3 row 5's limit from NUMBERS 4, Tue 17 Nov; Table 2's note from NUMBERS 8u and 8v, second pass, "
                    "results_break_2026-11-18.json, Wed 18 Nov; third pass: Table 3 row 4 and the 3e list from NUMBERS 3's "
                    "early end, results_fund_exit_2026-11-18.json, and 8q's strong-Taiwan-dollar spans, "

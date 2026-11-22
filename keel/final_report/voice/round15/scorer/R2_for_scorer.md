@@ -1,0 +1,50 @@
+# Reader R2
+
+## Text 2
+
+Rereads: 2 (paragraph 4, "The floor comes second": I read it twice to follow how a purchase that "pays about $102,000" becomes a bottom of $95,000. Three adjustments come in one sentence (interest earning nothing, less 0.5%, rounded down to $5,000), and "the way a co-sponsor about to plan a building would want it counted" sits in front of them, so I lost the thread the first time. "Our IPS" is never explained either. Paragraph 5, "The shares come last", last two sentences: I had to go back to see what "30% back" meant and what the "half of simulated futures, against 93 in 100" was compared with.)
+
+1. If shares halve before January 2031, the half moved into Treasuries is worth half as much, so the part of the top above the $95,000 bottom roughly halves (by my arithmetic the range would be about $95,000 to $105,000). The bottom stays where it is. The ten payments don't change, because they are paid by Treasuries bought from the first deposit plus about $39,000 of the second, and no promise rests on the shares.
+2. After the move, a fall in shares shrinks only her flexibility, the half still in VT. The range she states and the payments are already held in Treasuries and don't change.
+3. The half left in shares is her flexibility for a building that costs more than planned, a stronger Taiwan dollar, or a co-sponsor who falls short. Half was their choice: keeping only 30% back would let her state about $5,000 more, but her flexibility would then cover a 10% stronger Taiwan dollar in only about half of simulated futures instead of 93 in 100. The text did not say what moving all of it would do, but by that logic she would have no flexibility left.
+4. In January 2028, $81,244 buys IBTM, a fund of Treasuries maturing in 2032 that closes in December 2032 and pays out what they're worth (about $102,000 on today's figures). They count it cautiously, as if none of its interest earns anything more, less 0.5% for extra costs, rounded down, which gives $95,000. It is worked out once when bought, so later falls in rates (even to zero) or in shares can't move it.
+5. The top can't be known today because it depends on how the shares do until January 2031: in their model the top is at least $100,000 in about 91 of 100 futures and at least $115,000 in about 57. The text did not say why she gives a range rather than one figure; it says she states $95,000 to $115,000 but gives co-sponsors the top to plan around.
+6. The text says nothing can: once the shares are moved, "nothing about it is uncertain", because the Treasuries that will pay it are already held. It did not name any remaining risk.
+7. Her flexibility pays first, about $21,200 at the start of 2033 if shares earn 7.5%. A 28% rise is about $32,200 on her $115,000, more than all her flexibility, so a 25% rise (about $28,750 by my arithmetic) would also go beyond it; the rest falls to the other funders, a smaller design or a later start, which is why the building waits until the money is there.
+8. They move in January 2031, before the first meeting, so that whatever top she names is already paid for by Treasuries held for her. The text did not say why not a year earlier.
+9. The payments are still met: the extra Treasuries were bought so all ten are paid even if interest earns nothing, and from January 2028 no fall in rates can pull the building's money into the payments. The bottom stays at $95,000, because it was counted as if interest earned nothing. The text did not say what low rates would do to the top.
+
+## Text 3
+
+Rereads: 0 (none needed, though the first line, "The building is a different matter", refers back to something I wasn't shown, and in the last sentence of paragraph 1 I briefly wondered which half "the other half" was.)
+
+1. The text says markets can raise or lower the top of her band up to 2031 while the bottom stays constant, so the top would fall and the bottom would not. It gave no figure. On the payments, it said only that a market fall is not a reason to change the plan; it did not say how the payments are paid.
+2. The text did not say directly. It implies the stated figure is safe because it is already in Treasuries ("money you already own"), so only the unpromised half of the shares, her flexibility, would be hit.
+3. The half left in shares is promised to no one: it's her flexibility for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short. The text did not weigh that against promising more.
+4. Most of the 2028 deposit goes into a Treasury fund maturing in late 2032, and its payout is the "bare minimum" she can promise "without doubt", resting on Treasuries. The text did not explain how that minimum is worked out or why it is certain from 2028.
+5. The top depends on share returns until 2031, so it can move up or down while the bottom stays fixed. The text did not say why she gives a range rather than one figure, and it gave no numbers for the range.
+6. The text says the figure is money she already owns in Treasuries, and the only two reasons the plan would change are a missed deposit or a Treasury default; a market fall is not one of them. So only a Treasury default, by this text.
+7. Her flexibility (the unpromised half of the shares) is meant for overrunning building costs. The text did not say how much it covers or who pays anything beyond it.
+8. The text said only "before you meet co-sponsors in 2031", so that whatever figure she names is money she already owns. It did not say January, or why not a year earlier.
+9. The text did not say.
+
+## Text 1
+
+Rereads: 2 (paragraph 15, "From today ... is a forecast", last sentence: I reread "a top named a year sooner would be more than the move could buy in about 11 of 100 futures" to work out that it meant naming a figure in 2030 that the 2031 move might not be able to buy. Paragraph 17, "Once we've moved the shares", first long sentence: the 0.5%, the rounding, "about 2%", "waiting interest", an early end and $4,600 all arrive in one sentence, and I had to go through it twice to see which was the cushion and which was the risk.)
+
+1. The top falls: the shares decide how far above $95,000 the top reaches, and if VT were worth nothing the range would shrink to $95,000 alone. The text gave no figure for a halving (I'd guess roughly halfway between, but that's my guess). The bottom and the ten payments wouldn't move.
+2. Nothing she has stated changes: once the shares are moved, no market can change the figure, because the Treasuries that will pay it are already held. The payments don't change either. The text implies only the half left in VT, her flexibility, falls.
+3. The half kept in VT is her flexibility for overrunning building costs, a stronger Taiwan dollar (the bills come in Taiwan dollars) or a co-sponsor falling short. Keeping only 30% back would let her state about $5,000 more, but her flexibility would then cover a 10% stronger Taiwan dollar in about half of simulated futures instead of 93 in 100. The split changes what is promised versus kept, not how much money there is.
+4. In January 2028 they buy $81,244 of IBTM, a fund of Treasuries maturing during 2032 that pays out in mid-December 2032 (about $102,000 at today's rates). It is counted cautiously (no further interest earned after January 2028, less 0.5% for costs, rounded down to $5,000), giving $95,000, and once it's bought no market can touch it. Before January 2028 even the bottom moves with Treasury yields.
+5. From today the range is a forecast: the bottom moves with yields until January 2028 and the top with share prices until January 2031, so the top is at least $100,000 in about 91 of 100 futures and at least $115,000 in about 57. On the range itself, the text actually recommends she give co-sponsors one figure, $115,000, to plan around, naming $95,000 once as the part held since 2028. It did not say why a range is stated at all.
+6. Only the fund itself: costs above the roughly 2% cushion left by the 0.5% and the rounding, or the fund ending early, which at worst leaves the top about $4,600 short, and her flexibility would cover that. No market move can.
+7. Her flexibility is there for building costs that overrun. The text did not say how much it covers or who pays the extra beyond it.
+8. They move the shares before the meetings so that every figure she states is "in ink", already payable by Treasuries held for her; she states nothing still in "pencil". Naming a top a year sooner would promise more than the move could buy in about 11 of 100 futures. The text did not directly say why the move itself isn't done a year earlier, beyond the shares deciding the top "over the three years to 2031".
+9. The ten payments are still met, because the extra Treasuries cover them even if interest earns nothing more. The bottom stays at $95,000, because it was counted as if interest after January 2028 earned nothing. The text did not say what low rates would do to the top bought in 2031.
+
+## Last
+
+Easiest to follow: Text 3 (short and few numbers, though it answered the fewest questions); of the two that answered most, Text 1 was easier than Text 2.
+- Text 2, hardest sentence: "We count it the way a co-sponsor about to plan a building would want it counted: as if none of the interest it pays out earns anything more, less 0.5% for running costs beyond the fund's fee, rounded down to a whole $5,000."
+- Text 3, hardest sentence: "Before you meet co-sponsors in 2031, the other half will move into Treasuries, so whatever figure you choose is money you already own."
+- Text 1, hardest sentence: "The 0.5% and the rounding leave the top about 2% below what IBTM will pay, even if its waiting interest earns nothing; what's left to watch is the fund itself – costs above that 2%, or an early end, which at worst leaves the top about $4,600 short, covered by her flexibility."
