@@ -322,6 +322,10 @@ for i in range(len(boxes)):
 
 fig.savefig(HERE / "c5_where_the_money_goes.png", dpi=DPI)
 fig.savefig(HERE / "c5_where_the_money_goes.svg")
+# Mon 23 Nov (Wharton: Times New Roman): the SVG names Times New Roman first, Liberation Serif (same metrics) after
+_svg = HERE / "c5_where_the_money_goes.svg"
+_svg.write_text(_svg.read_text().replace("font-family: 'Liberation Serif'",
+                                         "font-family: 'Times New Roman', 'Liberation Serif', serif"))
 plt.close(fig)
 
 # page cost in Wharton's format (../exhibits/specs.md section 0: a double-spaced line is 27.6 pt; a Letter page of text

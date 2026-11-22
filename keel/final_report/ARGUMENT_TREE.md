@@ -33,7 +33,8 @@ growth, half of which is never promised to anyone.
 
 **Decision: Section 2 opens on the deletion test, then gives its reason.** If every share in Laura's plan were worth
 nothing, all ten payments would still be paid on their dates and the building would still receive the bottom of her
-range, $95,000; only the top and her flexibility would go (NUMBERS 4). The next sentences say why: the order in which the
+range, $95,000 on the Treasury curve of 6 November 2026 (dated in the sentence itself: panel 5, Mon 23 Nov, since Table 2
+shows lower bottoms when rates fall before January 2028); only the top and her flexibility would go (NUMBERS 4). The next sentences say why: the order in which the
 money is spent puts every promise into Treasuries before any money goes into shares, which is the rule her plan was
 written on, applied to each thing Wharton asks Caplet to recommend. Then, in one sentence each: finance's name for the
 family (liability-driven investing; dedication, Leibowitz 1986, "a leading writer on dedication") and the one thing the
@@ -76,7 +77,9 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
 - **Why it is built that way (2.1-2.2).** Promised money needs the asset of the same date, so each payment gets the
   latest Treasury before it: iBond Treasury funds for 2033-2037 (forced for 2033-2036, since WInS listed no bond
   maturing Feb 2031 to Feb 2036; a choice of wrapper for 2037), bonds held to maturity for 2038-2042 (no iBond fund ends
-  2037-2043). Matched payment by payment, so duration matches too, bond by bond, and nothing needs rebalancing (D13).
+  2037-2043). Matched payment by payment, so nothing needs rebalancing (D13). Never "duration matches too" (panel 5's bond
+  judge, Mon 23 Nov: the WInS book's DV01, about $160 (NUMBERS 8x), is about four-fifths of the liability's, about $200, and two
+  bonds pay 7.5 and 10.5 months early; the early bonds' wait is what the zero-interest test covers).
   The mix changes only on three dated steps, January 2027, January 2028 and January 2031, each buying a promise before
   it is stated (GOLDMINE 27; never "glide path" for her plan).
 - **Diversification (2.3).** Across dates, not issuers: the risky money is spread across VT's thousands of companies;
@@ -98,8 +101,10 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
 - **How well it was done (2.5).** The 25-basis-point price rule of 29-30 September, met at the 5 October check and at every
   fill (every bond's yield within 0.25 points of the official curve; 8m; the bond judge called it an independent-price-verification control); Perold's
   implementation shortfall in dollars (commissions, price drift from decision to fill, cancelled orders), with target
-  units one part of it (D21); a per-payment table and the book's DV01 (about $159) beside the liability's (about $200),
-  in Table 1's companion or its note. The mis-click only as the reason for the one-trader rule.
+  units one part of it (D21); the book's DV01 (about $160) beside the liability's (about $200) only in Table 1's note (both
+  registered Mon 23 Nov, NUMBERS 8x), and only with the sentence that explains the gap; otherwise left out
+  (panel 5, Mon 23 Nov: Section 2 keeps either the implementation detail or the background-risk citations in prose,
+  not both, so the DV01 and the per-payment table go to the note or out). The mis-click only as the reason for the one-trader rule.
 - **Headline number.** $302,287: what the ten cost on the plan's instruments at the 6 Nov close, $2,287 above the first
   deposit, which IPS l.13's completion clause covers ($2,388 in January 2028 money). Said in 2.1, beside the table.
 - **Ahas.** 2.3: the order of purchase (row 2 now, section 4). 2.5: the rare year (row 3).
@@ -127,7 +132,7 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   What comes back if later rates turn out as today's prices imply: about $46,600 in 1 January 2033 money, all of it hers
   by 2042; if cash waiting earns nothing, none beyond the 0.5% margin.
 - **The reserve as a schedule (D18).** Year, instrument, payout counted at zero further interest, the extra Treasuries'
-  face; it pays $502,605 at zero interest against $500,000 owed; market value (about $445,700, 111.7% of the $399,089
+  face; it pays about $502,600 at zero interest (NUMBERS 8x: $502,604) against $500,000 owed; market value (about $445,700, 111.7% of the $399,089
   owed at that date) a by-product in Figure 1's note. One release rule: each 1 January, once that year's payment is
   made, anything above what the remaining payments need at zero interest is hers.
 - **Why the two pots are separate.** Funders' own warning: even well-planned organisations "often find it difficult to
@@ -135,7 +140,7 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   Q202). The plan meets it by construction: the payments' Treasuries are not the building's money.
 - **Headline number.** $39,162, about a quarter of the 2028 deposit, as the price of the standard.
 - **Aha.** Row 5: each payment rests on its own instrument, and the one forecast the trade notes left (the rate on
-  reinvested interest, "reinvested coupons fund the rest") is taken out by the extra Treasuries.
+  reinvested interest, "reinvested coupons fund the rest", the WInS trade note on the Nov-2039 bond, CANON A17, never the TNA; sources check S3, Mon 23 Nov) is taken out by the extra Treasuries.
 - **Conceit.** The one line that waited in pencil, the interest on cash waiting, inked in January 2028 by the extra
   Treasuries.
 - **Outside parallel (one).** The California State Lottery's rule, in the Lottery Commission's investment policy (not
@@ -154,9 +159,14 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
 - **Claim.** Her contribution is what the late-2032 Treasury fund pays (the bottom) plus the half of the shares moved
   into it before the 2031 meetings, never more than the top she states; the other half of the shares is her flexibility.
 - **Why half, and why shares at all.** The split is tested from both sides: like for like, an all-Treasury plan holding
-  back the same flexibility would state $110,000, fixed in January 2028, against the plan's $115,000, fixed at the move,
-  because money moved into Treasuries later loses less if cash waiting earns nothing (row 6; NUMBERS 4, C8). Each $5,000
-  more of stated top gives up about $300 of expected return for each $5,000 made certain (D15; never "costs her $5,300
+  back the same flexibility would state $110,000, fixed in January 2028, against the plan's $115,000 in the central case
+  (shares earning the 7.5% assumed), fixed at the move (row 6; NUMBERS 4, C8). The reason in plain words (panel 5,
+  Mon 23 Nov: the campaign judge could not see it): the cautious count (waiting interest earning nothing, less
+  0.5%) cuts a Treasury fund bought in January 2028 by about 4.7% and one bought in January 2031 by about 3% (NUMBERS 4,
+  C8: 4.65% and 2.98%), because the later purchase has fewer years of interest to count as earning nothing. Said as
+  the central case, with Table 2's bad world beside it (a 40% fall before the move gives about $95,000-$105,000), never
+  as a fixed figure against a fixed figure. Each $5,000
+  more of stated top gives up about $270 of expected return for each $5,000 made certain (D15, in the register's form, NUMBERS 8o's $267, Mon 23 Nov; never "costs her $5,300
   of what she keeps"). Half is Caplet's choice in the IPS's order of cause, never "optimal".
 - **What her flexibility is for, in the IPS's own order.** Overruns, a stronger Taiwan dollar, a co-sponsor falling
   short (no ranking of ours). About $21,200 in the central case; about $28,700 with anything above the top; about $9,600
@@ -181,10 +191,13 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
 
 ### Branch 4 (3c). The range: uncertain from today, held once the shares are moved
 
-- **Claim, in one form (D1).** Two layers in two dated sentences. Seen from today, which figure she will be able to
-  state is uncertain: a top of at least $100,000 in about 91 of 100 simulated futures, $115,000 in about 57. Once the
-  2031 move is made, what she states is already held: about $95,000 to $115,000 on the 6 November 2026 curve, the bottom
-  held since January 2028 and the top from the move. The case asks for a range "rather than promising one exact amount"
+- **Claim, in one form (D1).** Two layers in two dated sentences, the held one first (panel 5, Mon 23 Nov: the
+  teacher wanted the plain sentence first, the campaign judge found three things called "the range"). By the 2031
+  meetings, what she states is already held: the range, about $95,000 to $115,000 on the 6 November 2026 curve, the
+  bottom held since January 2028 and the top from the move. Seen from today, which top she will reach is uncertain: a
+  top of at least $100,000 in about 91 of 100 simulated futures, $115,000 in about 57. "The range" names only the band
+  she states; the odds are "which top she will reach", and Table 2's other bottoms are "the bottom she could state" in
+  that world, never "the range". The case asks for a range "rather than promising one exact amount"
   because her portfolio's 2033 value "remains uncertain"; the plan settles that uncertainty before she speaks.
 - **Why a range at all, then.** The bottom tells the residency's planners what markets could not move after January
   2028; the top is what co-sponsors plan around. One sentence quotes the IPS's bridge, "whatever figure you choose is
@@ -214,7 +227,11 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
 ### Branch 5 (3d). Laura's words: one figure, signed, with her whole commitment
 
 - **Claim.** A passage in her voice that a funder reads in thirty seconds: two sentences of purpose from the case's own
-  material (who the residency serves, why Taiwan, why her); her whole commitment, ten payments of $50,000 held in
+  material (who the residency serves, why Taiwan, why her); the range in her words with its two dates and how sure she
+  is (panel 5, Mon 23 Nov, the bond and campaign judges: the case asks for a range "rather than promising one exact
+  amount" and for how confident she is, so her words say both ends, "$95,000 held for me since January 2028, and up to
+  $115,000 held since I moved my shares", one plain sentence of confidence, the Treasuries as its subject, and then
+  why she signs for the top: IPS l.15, "whatever figure you choose is money you already own"); her whole commitment, ten payments of $50,000 held in
   Treasuries from January 2028 and $115,000 for the building, about $615,000; the figure's date and form, a signed
   pledge letter (amount, purpose, date), the form a gift office counts; what she asks of them; what is never asked.
 - **Why signed as well as held (cards Q200, Q213).** Owning shows the money exists; a signature says it will be given. A gift
@@ -232,7 +249,8 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   year for 2033-2042 and the building figure, then "about $615,000" once; never "lead gift".
 - **To the residency's own planners.** "At least $95,000" from January 2028, since it is held from then (D12); the
   range for co-sponsors comes after the 2031 move.
-- **Headline number.** $115,000 (the one figure co-sponsors count; funder test, Mon 16 Nov).
+- **Headline number.** $115,000, signed (the figure co-sponsors count; funder test, Mon 16 Nov), said inside the range
+  her words state (panel 5, Mon 23 Nov).
 - **Aha (row 8, the slot reopened by D22; kept by cold aha test 9, Sun 22 Nov evening).** Owned answers whether she
   can pay; signed answers whether she will, and lets a funder count it; in every failed pledge read, the money was
   expected later or existed only on a statement (card Q213 row 25: Madoff's statements named Treasuries never bought;
@@ -249,8 +267,10 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   fund end while cash earns nothing (at most about $4,600, from her flexibility), her death or a dispute remain, so
   the letter carries a seventh part for the writers to weigh, "this promise binds my estate" (Q213; the pledge's own
   law stays outside the case's scope). Never "escrow" (card Q54).
-- **Conceit.** None in her words: the printed page shows only ink, which is the turn, said by the team before her
-  words, never inside them.
+- **Conceit.** None in 3d (panel 5, Mon 23 Nov: the bond judge found that ink, learned as "held", meets literal ink,
+  a signature, in this part's aha, so "the printed page shows only ink" lands on the wrong meaning). The turn goes to
+  CONCEIT's store; "a signature is the other kind of ink" is a candidate for voice round 16, used only if readers
+  follow it on one reading.
 - **Outside parallel (one).** Spelman and Lehman (the team's sentence before her words).
 - **Left out.** The comfort letter (the case the lender lost; readers remembered its £12.26m); "100% owned against
   60-80% raised" (compares two things); Gneezy, Keenan and Gneezy (a mailing to individuals, D11); "lead gift";
@@ -264,7 +284,7 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   2028) or a Treasury default (a payment more than five business days late). Everything else changes a figure not yet
   stated, or tests her flexibility (D19).
 - **How each promise breaks, one figure each (NUMBERS 8u).** The ten payments: a deposit about three-quarters smaller
-  at today's rates. A stated top: fund costs beyond about 2% of what its fund pays, the fund's own swaps of its Treasuries for others
+  at today's rates. A stated top: IBTM's costs beyond its fee taking more than about 2% of what it pays (never "its fund": panel 5), the fund's own swaps of its Treasuries for others
   maturing the same year (unsized; card Q208), an early end or merger (nothing
   short at today's market rates, at most about $4,600 if cash waiting earned nothing, met from her flexibility) or a
   broker failure (a delay), in one sentence, with the model containing no fund events said once (D2). Her flexibility:
@@ -273,12 +293,15 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   flexibility), with who carries the rest; never "1 in 20" from overlapping windows (card Q210: about 17 separate
   two-year spans in four episodes).
   The ten payments are fixed US dollars by the case, so their NT$ value moves (one clause).
-- **Before 1991 (card Q217, Sun 22 Nov evening; waits for a NUMBERS entry before any use).** Every "30 of 406" and
-  "9.3% to 29.0%" figure is "since 1991", the year the national building-cost index starts. The currency alone rose
-  38.3% from January 1986 to January 1988 (FRED EXTAUS, Keel arithmetic), 2.3 times the largest currency-only move since
-  1991; on her $115,000 that is about $44,000 of need against about $28,700 of her flexibility plus anything above the
-  top. If the numbers owner registers it, the hard case is the four dated episodes "and, before them, 1986-88", said as
-  a limit on the building's Taiwan-dollar budget, never on the ten payments or the stated range. The cause was US
+- **Before 1991 (card Q217; registered Mon 23 Nov, NUMBERS 8x).** Every "30 of 406" and "9.3% to 29.0%" figure is
+  "since 1991", the year the national building-cost index starts; 29.0% tops only the 30 strong windows, and the
+  largest joint rise since 1991 is 38.9% (2006-08). From the currency alone, the Taiwan dollar rose 38.3% from January
+  1986 to January 1988 (FRED EXTAUS read at source), 2.3 times the largest currency-only move since 1991 (16.9%), never
+  said as larger than 2006-08's joint 38.9%; on her $115,000 that is about $44,000 of need against about $28,700 of her
+  flexibility plus anything above the top. No national building-cost index exists before 1991, so no joint figure for
+  1986-88 (Taipei City's index, a city figure only, is not used). The hard case is the four dated episodes "and,
+  before them, 1986-88, from the currency alone", said as a limit on the building's Taiwan-dollar budget, never on the
+  ten payments or the stated range. The cause was US
   Treasury pressure under the 1988 Act, not the 1986 Section 301 cases (market access). Table 3's 10% watch would have
   fired in October 1986: a trigger, never a size.
 - **Watching, in three lists (Table 3).** What changes the plan (the two reasons, and what "change" means after a
@@ -291,7 +314,7 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   dashes as rubbing out every pencil line, dated from January 2028 (voice round 10).
 - **Aha.** Row 9: a share slump followed by a cost burst can catch her flexibility (the 2000-2003 replay with the
   mapping said outright: world shares bought at the start of 2000 were about 42% down three years later (-42.1% on the same start-of-month
-  calendar as the cost figures; -40.6% month-end to month-end; second-way check, Sun 22 Nov), as 2031 is for her, and
+  calendar as the cost figures; -40.6% month-end to month-end; second-way check, Sun 22 Nov; MSCI's own price levels give -42.7%, so the series is to be named, NUMBERS 9, Mon 23 Nov: say "about 42%" only), as 2031 is for her, and
   building costs then rose about 18% in NT$, 27% in US$).
 - **Outside parallel (one).** The 2022 gilt crisis, in the words card Q214 read at source (Sun 22 Nov evening): the
   funds forced to sell were those that had borrowed against their gilts, pooled funds above all, when lenders called
@@ -301,6 +324,17 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   promise broke" (a minority of schemes ended worse funded), "nobody can make the plan sell" (a fund's early end can),
   "LDI funds collapsed" or "every member was paid". March 2020 belongs in Table 3 row 5's 0.5% basis, not as a second
   parallel.
+- **What Monday's research added (cards Q219-Q223, Mon 23 Nov; evidence and method, never a second parallel).** The
+  reason l.17 is short: its real work is the exclusion. Most exit rules are written against staying too long; l.17 is
+  written against leaving a sound plan in a crash, and its "only" shuts out a rise as firmly as a fall (Q223-033,
+  Q219-006; an aha candidate for test 10). Both reasons are money failing to arrive, never a reading of how the plan
+  is doing (Q219-020). Table 3's first rows watch the symptom, a payment late or a deposit not received, not the
+  causes (a debt-limit standoff, her income), as Google's own monitoring rule says (Q222-027), and its look-closer rows
+  are the plan's list of what its model leaves out (Q221-032: "the model contains no fund events"). Each "Changes"
+  cell names an act, since a list ticked is not a list acted on (Q222-038: Ontario's compulsory surgical checklist,
+  98% use, no significant change). Even agreed stopping rules are broken about half the time (Q223-016), which is why
+  the ten payments need no one to keep a rule: the money is already in Treasuries. Never call the 2031 move
+  "automatic" or a "stop-loss" (Q220-025); it is a dated trade the plan has already decided.
 - **Left out.** Grossman and Van Huyck (D6); "only two things can break the plan" (two lists, card Q109); "cannot" for
   the two reasons (say "are not market prices"); the TNA's "nonexistent inflation risk"; Orange County; "her shares do
   not tend to rise when costs do" (say the two-year link is weak and unstable).
@@ -318,6 +352,10 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   at the centre. The reason the first plan's 96.8 in 100 could not stand is said without a figure: the model that gave
   it assumed the full 2028 deposit whatever shares did, which is exactly what a writer's income cannot promise (card
   Q209; the 1-in-4 it found stays in the store, since 3f carries one figure).
+- **Length and how it is told (panel 5, Mon 23 Nov: all three judges put Articulation at 3 to 3.5).** About 400
+  words, not about 300, taken from 3e's prose (Table 3 carries its lists) and Section 2's citations. One moment, the
+  copout, told as it happened: who argued what, what the team weighed, what it decided and why, and what it learned;
+  the criterion names collaboration, communication and growth, so the reflection shows each once.
 - **People.** Darren, Eric and Ray where Caplet's own record names them; "we" for analysis and decisions. No blame
   (nobody asleep); the mis-click only as the reason for the one-trader rule (in 2.5).
 - **Conceit.** Told plain and whole.
@@ -341,7 +379,7 @@ judge (card Q107). At most two in a part; every one on its own NUMBERS figure, n
 | 3 | 2.5 | Buying the ten was routine | On only one day from August 2007 to August 2026 did $300,000 buy all ten (19 Oct 2023); the plan is built to need the year, not the day, and its limit (a fall in yields of about 3.6 points before January 2027) is in 3e |
 | 4 | 3.0 | Market risk threatens the promises | Certainty has dates: a fall can shrink the next figure she states, never one already stated (a 40% fall before the move gives about $95,000-$105,000, the bottom and every payment unchanged) |
 | 5 | 3a | Bonds held to maturity leave nothing to forecast | The rate on reinvested interest was the one forecast left, and the extra Treasuries take it out ($39,162 of the 2028 deposit) |
-| 6 | 3b | Fewer shares would give the building more | Like for like, an all-Treasury plan with the same flexibility states $110,000 against $115,000 |
+| 6 | 3b | Fewer shares would give the building more | In the central case, like for like, an all-Treasury plan with the same flexibility states $110,000 against $115,000, because the cautious count cuts a 2028 purchase by about 4.7% and a 2031 one by about 3% (NUMBERS 4, C8); Table 2's bad world beside it (panel 5, Mon 23 Nov) |
 | 7 | 3c | The share forecast drives the range | Speaking early does: a top named a year early would exceed what the move buys in about 11 of 100 futures |
 | 8 | 3d | Owning the money is enough for a funder | Owned answers whether she can pay; signed answers whether she will, and lets a funder count it (Lehman's $10 million to Spelman became $3 million); cold aha test 9 (Sun 22 Nov evening) kept it, 3.3 / 3.7, chosen for 3d by all three readers |
 | 9 | 3e | Her flexibility is safe because shares and costs rarely fall together | A slump followed by a cost burst can catch it (2000-2003: about -42%, then costs +27% in US$) |
@@ -425,13 +463,23 @@ reason (no gem lost, GEM_LEDGER).
 
 - **Caplet's steer on this shape** (posted in the thread today): unless Caplet says otherwise by Wed 25 Nov, the
   writers write to it.
-- **Section 3's first figure.** The picture of where the money goes (`charts/MONEY_PICTURE_2026-11-20.md`) becomes
-  Figure 1 only if it wins Mon 23 Nov's fresh read; otherwise the reserve schedule (D18) is Figure 1.
+- **Section 3's figures (decided Mon 23 Nov after two fresh readers, `charts/fresh_read_2026-11-23/`).** The money
+  picture (c5) did not win (one reader for it, one against it as too busy), so the reserve schedule (D18) is Figure 1.
+  Table 2 becomes Figure 2, the dots (c4): both readers got its point faster (it saves about one line, since its note carries Table 2's body); its title
+  carries what the dots would otherwise hide, "In every market tested, all ten payments are paid in full", and its
+  history rows show the median only (NUMBERS registers no dated highest start), never a 5th or 95th percentile (card Q210).
+  Wherever this tree says Table 2, read Figure 2 and its note; Table 2 stays in `exhibits/tables.md` as its data.
+  Renders and the one-sentence tests: `charts/final/`, `charts/FINAL_2026-11-23.md`.
 - **Aha 8 (3d).** Settled by cold aha test 9 on Sun 22 Nov evening (run a day early): card Q200's item kept the slot;
   SD-3 is a phrase inside it; Q203's maintenance of value went to the store (no reader remembered it, and an amount
   never signed is one a funder should not count).
 - **Cards still returning** (Q204 case for support, Q205 forward-rate bias, Q206 background risk, Q208 fund shares,
   Q209 anchors for high certainty, Q210 overlapping windows): each may sharpen a branch's evidence; none changes a
   branch, and any that would is logged in ARGUMENT_LOG with its reason.
-- **Budget.** Section 2: about 580 words and Table 1. Section 3: about 1,900 words, Figure 1, Tables 2 and 3. If a
+- **Budget.** Section 2: about 575 words and Table 1 (its note now carries the reconciliation). Section 3: about
+  1,650 words, Figures 1 and 2 and Table 3 (measured Mon 23 Nov after the rebuild: 63.7 lines of exhibits leave about
+  1,680 words by specs.md's ceiling, about 1,630 in real text; Figure 2 saved little because its 194-word note carries
+  what Table 2 printed in its body, so the exhibit notes are the first place to cut); within it 3f about 400 words,
+  taken from 3e's prose (panel 5, Mon 23 Nov), and about 200 for each other part. Each part: one claim, its reason, one headline
+  number, at most one aha in Section 2's parts and two in Section 3's, and the rest in a table's note or out. If a
   branch cannot fit, the writer says which plain sentence its aha replaces (SKELETON's rule).

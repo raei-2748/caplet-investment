@@ -69,9 +69,18 @@ def check(name, got, want, tol=0.5):
         raise SystemExit(f"FAIL {name}: got {got}, register says {want}")
 
 
+def tnr_svg(path):
+    """Mon 23 Nov (Wharton: 12-pt Times New Roman; exhibits/build_exhibits.py's _svg_font_fallback): the SVG names
+    Times New Roman first, with Liberation Serif (the same metrics, the build's stand-in) as its fallback."""
+    s = path.read_text()
+    s = re.sub(r"font-family: ?'Liberation Serif'", "font-family: 'Times New Roman', 'Liberation Serif', serif", s)
+    path.write_text(s)
+
+
 def save(fig, stem):
     fig.savefig(HERE / f"{stem}.png", dpi=DPI)
     fig.savefig(HERE / f"{stem}.svg")
+    tnr_svg(HERE / f"{stem}.svg")
     plt.close(fig)
 
 
@@ -145,7 +154,7 @@ ax.set_xticks([datetime(y, 1, 1) for y in (2000, 2005, 2010, 2015, 2020, 2025)])
 ax.set_xticklabels(["2000", "2005", "2010", "2015", "2020", "2025"])
 ax.annotate("4 Aug 2020: $470,217", xy=(datetime(2020, 8, 4), 470.2), xytext=(datetime(2010, 1, 1), 466),
             fontsize=10, va="center", arrowprops=dict(arrowstyle="-", lw=0.5, color=INK))
-ax.annotate("19 Oct 2023: the one day from June 2007\nto August 2026 when $300,000 was enough", xy=(datetime(2023, 10, 19), 299.3),
+ax.annotate("19 Oct 2023: the one day from August 2007\nto August 2026 when $300,000 was enough", xy=(datetime(2023, 10, 19), 299.3),
             xytext=(datetime(2005, 6, 1), 262), fontsize=10, va="center",
             arrowprops=dict(arrowstyle="-", lw=0.5, color=INK))
 ax.plot([datetime(2026, 10, 5)], [288.3], "o", ms=3, color=INK)
@@ -155,6 +164,8 @@ ax.text(1.02, (288.3 - 240) / 240 - 0.10, "5 Oct 2026: the\ncheapest since\nMay 
         fontsize=10, va="center", ha="left")
 save(fig, "c1a_cost_history_strip")
 
+# Mon 23 Nov (NUMBERS 8e, corrected Sun 22 Nov evening; card Q210 row 27; AHA_REGISTER row 3): "from August 2007",
+# never "June 2007" (the engine finds 13 more closes under $300,000 from 2 to 19 July 2007)
 # c1d: c1a drawn from a zero baseline (card Q14b row 4: the SEC handbook, p. 51, "avoid graphics that start at a
 # non-zero baseline"), to set beside c1a for the Mon 23 Nov fresh reader
 fig, ax = plt.subplots(figsize=(6.5, 2.6))
@@ -172,7 +183,7 @@ ax.set_xticks([datetime(y, 1, 1) for y in (2000, 2005, 2010, 2015, 2020, 2025)])
 ax.set_xticklabels(["2000", "2005", "2010", "2015", "2020", "2025"])
 ax.annotate("4 Aug 2020: $470,217", xy=(datetime(2020, 8, 4), 470.2), xytext=(datetime(2010, 1, 1), 480),
             fontsize=10, va="center", arrowprops=dict(arrowstyle="-", lw=0.5, color=INK))
-ax.annotate("19 Oct 2023: the one day from June 2007\nto August 2026 when $300,000 was enough",
+ax.annotate("19 Oct 2023: the one day from August 2007\nto August 2026 when $300,000 was enough",
             xy=(datetime(2023, 10, 19), 299.3), xytext=(datetime(2006, 1, 1), 150), fontsize=10, va="center",
             arrowprops=dict(arrowstyle="-", lw=0.5, color=INK))
 ax.plot([datetime(2026, 10, 5)], [288.3], "o", ms=3, color=INK)
@@ -324,21 +335,26 @@ check("share of the $500,000 owned from Jan 2027 (89%)", round(own0 / 500_000 * 
 save(fig, "c3_when_owned")
 
 # ================================================================================================= c4 Table 2 as dots
+# Mon 23 Nov (card Q210 row 30; ATTACKS D7): Table 2's history rows are the 5th and 95th percentiles of 585 overlapping
+# starting months, never "1-in-20", so the rows read here and printed below take Table 2's new names
 t2 = (FR / "exhibits/tables.md").read_text()
 worlds = []
 for line in t2.splitlines():
     m = re.match(r"\| (Today's market rates|Replay from 2006: shares fall|Rates 3 points lower from Jan 2027|"
-                 r"Replay from 2007: rates fall early|Inflation: rates 3 points higher|&nbsp;&nbsp;1-in-20 low|"
-                 r"&nbsp;&nbsp;Median|&nbsp;&nbsp;1-in-20 high) \| All paid \| \$([\d,]+) \| \$([\d,]+) \| "
+                 r"Replay from 2007: rates fall early|Inflation: rates 3 points higher|"
+                 r"&nbsp;&nbsp;Median) \| All paid \| \$([\d,]+) \| \$([\d,]+) \| "
                  r"\$([\d,]+) \|", line)
     if m:
         worlds.append((m.group(1).replace("&nbsp;", ""), *(int(g.replace(",", "")) for g in m.groups()[1:])))
-assert len(worlds) == 8, worlds
+# Mon 23 Nov, later (the lead's decisions 2 and 3): Table 2's history is the median alone, and the report's Figure 2
+# is drawn by exhibits/build_exhibits.py (figure2); c4 stays here as the candidate it was, on the same rows
+assert len(worlds) == 6, worlds
 check("8i today's range bottom", worlds[0][1], 95_000, 0)
 check("8i today's range top", worlds[0][2], 115_000, 0)
-fig, (a1, a2) = plt.subplots(1, 2, figsize=(6.5, 2.7), sharey=True, gridspec_kw={"width_ratios": [1.5, 1]})
-fig.subplots_adjust(left=0.33, right=0.97, top=0.84, bottom=0.12, wspace=0.10)
-ys = [8.4, 7.4, 6.4, 5.4, 4.4, 2.4, 1.5, 0.6]
+# Mon 23 Nov: one history row (the median), so the axis starts under it and the figure is 0.45 in shorter
+fig, (a1, a2) = plt.subplots(1, 2, figsize=(6.5, 2.25), sharey=True, gridspec_kw={"width_ratios": [1.5, 1]})
+fig.subplots_adjust(left=0.33, right=0.97, top=0.81, bottom=0.14, wspace=0.10)
+ys = [8.4, 7.4, 6.4, 5.4, 4.4, 2.4]
 for y, (w, lo, hi, flex) in zip(ys, worlds):
     col = INK if w == "Today's market rates" else DARK
     a1.plot([lo / 1000, hi / 1000], [y, y], color=col, lw=2.0, solid_capstyle="butt")
@@ -355,7 +371,7 @@ a1.set_yticks(ys)
 a1.set_yticklabels([w for w, *_ in worlds])
 for a in (a1, a2):
     clean(a)
-    a.set_ylim(0, 9)
+    a.set_ylim(1.7, 9)
 a1.set_xlim(50, 175)
 a1.set_xticks([50, 100, 150])
 a1.set_xticklabels(["$50k", "$100k", "$150k"])

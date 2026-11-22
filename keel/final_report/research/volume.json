@@ -1,17 +1,26 @@
 {
- "built": "2026-11-22T19:53+11:00",
- "today": "2026-11-22",
- "store_ideas": 10064,
- "store_judged": 8990,
+ "built": "2026-11-23T07:25+11:00",
+ "today": "2026-11-23",
+ "store_ideas": 10236,
+ "store_judged": 9408,
  "totals": {
-  "workers": 467,
-  "cards": 249,
-  "rows": 8804,
-  "sources": 8576,
+  "workers": 492,
+  "cards": 254,
+  "rows": 8976,
+  "sources": 8695,
   "passages": 156,
-  "readings": 76
+  "readings": 79
  },
  "days": [
+  {
+   "day": "2026-11-23",
+   "workers": 25,
+   "cards": 5,
+   "rows": 172,
+   "sources": 119,
+   "passages": 0,
+   "readings": 3
+  },
   {
    "day": "2026-11-22",
    "workers": 47,
@@ -142,14 +151,6 @@
  "runs": [
   {
    "date": "2026-11-16",
-   "run": "afternoon (overdrive)",
-   "research_workers": "34",
-   "analysis_workers": "28",
-   "readers": "3",
-   "notes": "Thirty-four research workers: cards Q48-Q76 on the digest's holes and today's cold-test questions in four waves, then Q77-Q81 (money if the facility is cancelled, waiting when a custodian fails, new conceit parallels, what makes a reflection convincing, months of zero interest); twenty-four raters judged every row of Q48-Q81 the same day; numbers 8q, 8r and 8s; exhibits rebuilt; an aha-candidate hunt; three cold readers on eight ahas"
-  },
-  {
-   "date": "2026-11-16",
    "run": "evening (overdrive)",
    "research_workers": "13",
    "analysis_workers": "20",
@@ -235,6 +236,14 @@
    "analysis_workers": "5",
    "readers": "11",
    "notes": "Paced at about half last week's volume while the pacing decision waits. Seven research workers, each reading primary sources whole: four read the report's placed outside parallels at source (cards Q211 the California State Lottery Commission's investment policy, Q212 the RBA's forward guidance, Q213 pledges counted and Lehman's pledge to Spelman, Q214 the 2022 gilt crisis) and three took Sat 21's themes (Q215 graphic memoirists' income, Q216 what residencies do, Q217 the Taiwan dollar 1985-1992); about 60 sources read in full and about 225 at source; 230 rows. Analysis: the syntheses card Q218 (20 built, 14 kept), the second-way check of 66 tree figures (four fixed), and three raters (DY, DZ, EA) rating every new row the same evening, with overrides on older rows the cards corrected. Readers: two fresh writers, four blind readers and two blind scorers for voice round 14 (the continuing exercise restored \"we\"; the cold retelling caught 2 of Caplet's 5 failed lines), and three cold readers for aha test 9 (owned against signed kept 3d's slot, 3.3 / 3.7). Claims kept 6, changed 7, killed 2. Store 10,064."
+  },
+  {
+   "date": "2026-11-23",
+   "run": "day 16 morning (paced, about half volume)",
+   "research_workers": "9",
+   "analysis_workers": "8",
+   "readers": "8",
+   "notes": "Sources and exhibits, with judging panel 5. Research: five cards on assumptions and watching (Q219 trial stopping rules, Q220 Everest's turnaround times, Q221 Citicorp, Q222 how many signals one watcher can follow, Q223 kill criteria and tripwires), 172 rows, every row rated the same morning by three raters (store 10,236), and four sources checkers who opened every work the report will cite at source (201 checks, 173 ready to cite in APA 7, research/WORKS_CITED_DRAFT.md). Analysis: the numbers owner (NUMBERS 8x: the Taiwan dollar 1986-88 from the currency alone, register lines for the second-way figures), the exhibits builder (seven exhibits rebuilt to the argument tree; the dots replace Table 2), three raters, a blind depth scorer and two voice writers. Readers: panel 5's three blind judges (top 50 likely, top 10 not yet; density, 3d's range and 3f's length fixed in the tree the same morning), three voice readers (round 15: depth came from the fact sheet, now version 7) and two fresh exhibit readers."
   }
  ],
  "cards": [

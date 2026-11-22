@@ -99,6 +99,16 @@ fails goes to its part's store. Figures are NUMBERS's or the card's verified sou
 | Keynes named "the price of copper and the rate of interest twenty years hence" as things "we simply do not know", and this plan meets the two in opposite ways: it buys the ten payments so that no later interest rate touches them, and it gives the building's cost, mostly materials, only room. | 3a or 3b | Card Q168 row 3 (20; Keynes 1937, pp. 213-214); NUMBERS 2; October's cost rise about 70% materials (card Q131). Breaks because the plan chose the day it met rates |
 | Sydney's Opera House, Scotland's parliament building and San Francisco's Transbay terminal all overran and were paid for by payers whose money kept coming (lotteries for 13 years after the opening, a parliament, a city's taxpayers), while this founder's portfolio gets its last deposit in January 2028, so she states only what she owns and keeps half her shares for an overrun. | 3b | Card Q172 rows 4, 19, 22 (19, 19 adapt, 20); her flexibility plus anything above the top covers a rise of about 25% if shares earn the 7.5% assumed (NUMBERS 8u). Breaks because the residency's other payers may be deep |
 
+## Candidates for cold aha test 10 (Wed 25 Nov), from cards Q219-Q223 (added Mon 23 Nov)
+
+| Candidate | Part | What the judge has backwards | The key | Source |
+|---|---|---|---|---|
+| Exit rules face the other way | 3e | A plan's two reasons to change are its stop-loss | Most exit rules (kill criteria, stopping rules) are written against staying too long; IPS l.17 is written against leaving a sound plan in a crash, and its "only" shuts out a rise as firmly as a fall | Q223-033 (score 20), Q219-006 |
+| Nobody has to keep the rule | 3e | A rule written in advance is what keeps a plan on course | Even executives who agreed a stopping rule broke it about half the time (8 of 17); the ten payments need no one to keep a rule, because the money is already in Treasuries | Q223-016 (score 20) |
+| Watch the symptom | Table 3 | The watch list should track what might cause trouble (a debt-limit standoff, her income) | Its two plan-changing rows fire on symptoms, a payment late or a deposit not received; causes are looked at, never acted on | Q222-027 (score 22) |
+
+Each goes to test 10 against 3e's spine row 9 (the slump then the cost burst); at most two ahas in 3e.
+
 ## Corrections made tonight
 
 - Sweep A's "every fixed promise that broke broke one of four ways, and this plan shuts all four" is not true as stated:

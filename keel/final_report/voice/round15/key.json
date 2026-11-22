@@ -1,0 +1,16 @@
+{
+ "R1:Text K": "W",
+ "R1:Text M": "V",
+ "R1:Text Q": "C",
+ "R2:Text K": "V",
+ "R2:Text M": "C",
+ "R2:Text Q": "W",
+ "R3:Text K": "C",
+ "R3:Text M": "W",
+ "R3:Text Q": "V",
+ "scorer": {
+  "W": "Text 1",
+  "V": "Text 2",
+  "C": "Text 3"
+ }
+}

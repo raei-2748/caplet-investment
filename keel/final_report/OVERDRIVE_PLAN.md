@@ -93,6 +93,16 @@ do) and Q217 (the Taiwan dollar 1985-1992), beside four cards reading the placed
 the syntheses card Q218. Voice round 14 tested the cold retelling and the continuing exercise (`voice/ROUND14.md`);
 round 15 is depth questions, not another proxy for Caplet's ear. Volume about half a full run.
 
+**As run, Mon 23 Nov morning (Day 16).** Sources and exhibits, with judging panel 5 (three blind judges on the argument
+tree: top 50 likely, top 10 not yet; fixes applied the same morning). Five of the eight morning questions ran as cards
+Q219-Q223 (trial stopping rules, Everest's turnaround times, Citicorp, how many signals one watcher can follow, kill
+criteria and tripwires); pilots' decision height, force majeure and sunset clauses wait, since the store already holds
+rows on each. Four sources checks opened every cited work at source (`research/WORKS_CITED_DRAFT.md`, 173 ready). The
+exhibits were rebuilt to the tree and read cold by two fresh readers: the money picture did not win, so the reserve
+schedule stays Figure 1, and the dots replace Table 2 as Figure 2. The page budget is measured (Section 2 about 575
+words, Section 3 about 1,650). Voice round 15 tested depth (`voice/ROUND15.md`); fact sheet version 7. Rounds 17-18
+(the contribution and the range, whole) were round 15's design, run a round early. Volume about half a full run.
+
 ## The questions for each run
 
 The part of the report each question serves is in brackets. Every researcher is briefed to find the relation that does

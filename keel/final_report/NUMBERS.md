@@ -3,6 +3,8 @@
 Every figure the Final Report may use comes from this page. It uses one curve, one engine and Caplet's design as
 submitted. These are research notes, not report text.
 
+**What changed on Sun 22 Nov, evening (numbers owner; card Q217's item in section 9; `numbers/twd_whole_series.py`).** No registered figure moves. One section is added, **8x**: FRED EXTAUS read at source again (517 months, the mirror's 516 identical); the series' largest two-year move, **+38.3% from Jan 1986 to Jan 1988, from the currency alone, needs $44,046 on $115,000, $15,364 more than her flexibility plus anything above the top** (card Q217 row 7, registered with $1 corrections); no national building-cost index exists before Jan 1991, so 8q's joint figure cannot be computed for 1986-88 (Taipei City's index gives +48.1%, a city figure only); the largest joint rise since 1991 stays **38.9%**, above the 1986-88 currency move, while 29.0% is the highest strong-Taiwan-dollar window only; and register lines for the tree's figures that had none (the book x 1.5, the reserve at zero interest, $502,604 not $502,605, the book's DV01, the 2000-2003 replay, the four episodes, -7.8%). **Labels:** 8j's "largest +29.4%" holds for its own windows only; every 8q window count and range says "since 1991".
+
 **What changed on Fri 20 Nov, morning (numbers owner; bond desk 5, L5 and M7; coherence reader 9, M7).** No existing figure moves. **The bottom's lower reading is relabelled:** 8u row 4's "30.2% on the bottom" and 8q's figures "on the stated bottom" set the pot alone against the bottom, as if the contribution were the bottom; the contribution equals the top in every path, so a budget set on the bottom has $48,682 behind it, 51.2% (8q's new "full reading" table; `numbers/bottom_reading.py`, MODEL and Keel arithmetic, every figure asserted); every bottom reading stays out of prose. **"Late" in 8u:** the stated bottom and top now break "or late" (a broker failure, row 1's (f), named once), and row 1's (f) reads "Late, and short only if the broker had lost customers' securities beyond what SIPC fills". `exhibits/exhibit_data.py`'s two WORDS check strings are fixed (463 figures, 462 PASS, 0 FAIL, 1 flagged; was 460, 1, 2). Section 9's Fri 20 Nov block lists what is closed and still open.
 
 **What changed on Thu 19 Nov, morning (numbers owner; bond desk 5 and coherence reader 10 of Wed 18 Nov evening).** No existing figure moves; labels are corrected where they stand, each marked "label corrected Thu 19 Nov" with the old words. **Labels:** $28,682 is "her flexibility plus anything above the top" (WORDS l.28), never "her flexibility" alone, in 8u row 4, 8q, 8r and section 4's later-curve row (coherence reader 10, M1); the top rests on one fund, the late-2032 fund bought twice (January 2028 and the move), so "the two funds" and "both funds'" become the fund's two purchases in section 3, section 4, 8l and 8u, and 8u's "about 2%" is "2.32%, in all, of what the late-2032 fund pays on its two purchases behind the top" ($117,731 if cash waiting earns nothing; bond desk 5, H1; coherence reader 10, M3 and M5). **Two blocks added, MODEL:** 8u, "The about 25% at other share returns" (`numbers/flex_cover.py`): her flexibility plus anything above the top covers a rise of **23.6% at 6.5%** and **21.7% at 5.0%** a year (bond desk 5's figures, reproduced) and **24.8% at 3.1%** of that world's $110,000 top, against 24.9% at 7.5%; 8b, "The team's 16 Oct figure" (`numbers/room_16oct.py`): the team's "about $1,900" is the 16 Oct check's $1,913 on its zero basis, $1,843 on the register's curve method, booked with that basis. Dated records left as written: the change logs below, `numbers/RUN_2026-11-18.md`, `research/goldmine/aha_test_2026-11-18/RESULTS.md`. Section 9 lists what is closed and open.
@@ -1367,13 +1369,17 @@ Added Tue 10 Nov evening. Design H_plain with the fee cushion, the range rule on
   strongest rate (27.52, 19.1% more US dollars) the need is $21,930: the half kept alone is $751 short (was $583), and with the
   excess it is covered with $6,752 to spare (was $7,893) (8d).
 - **On the real Taiwan dollar** (Fed G.5 monthly, FRED EXTAUS, Oct 1983 to Sep 2026, the repo mirror
-  `keel/models/data/twd_per_usd_monthly.csv`, VERIFIED against FRED EXTAUS, all 516 months, Wed 11 Nov, 8l; US stocks from the same months; rates at today's
-  forwards). 417 windows, VT bought Oct 1983 to Jun 2018. The move is measured from the meetings (36 months after VT is
+  `keel/models/data/twd_per_usd_monthly.csv`, VERIFIED against FRED EXTAUS, all 516 months, Wed 11 Nov, 8l; read again at source Sun 22 Nov evening, all 516 months the same and October 2026 at 32.2695, 8x; US stocks from the same months; rates at today's
+  forwards). 417 windows, VT bought Oct 1983 to Jun 2018, so every move measured here starts in Oct 1986 or later. The move is measured from the meetings (36 months after VT is
   bought; Jan 2031 in the plan) to the gift (60 months; Jan 2033), on each window's contribution after the cap ($105,000 /
   $120,000 / $130,000, 1-in-20 low / median / high; the low was $110,000 before Tue 17 Nov evening).
   - The two-year move, in US dollars needed: 1-in-20 -12.7% (Taiwan dollar weaker), median +0.1%, 1-in-20 +13.7%; the
-    largest +29.4% (VT bought Nov 1983: the 1986-1988 appreciation). It moved 10% or more against Laura in 11.0% of
-    windows, and against her at all in 51.1%.
+    largest on these 417 windows +29.4% (VT bought Nov 1983: Nov 1986 to Nov 1988, the later part of the 1985-1992
+    appreciation). **Label corrected Sun 22 Nov evening (numbers owner; card Q217 row 3; 8x; was "the 1986-1988
+    appreciation"):** "largest" holds only for these windows, whose moves start in Oct 1986 or later. On the whole FRED EXTAUS series (Oct 1983 to Oct 2026, 493
+    two-year windows) the largest move is **+38.3%, Jan 1986 to Jan 1988**, from the currency alone, outside every 8j
+    window; since 1991 the largest is +16.9% (Feb 2009 to Feb 2011). No figure here moves. It moved 10% or more against
+    Laura in 11.0% of windows, and against her at all in 51.1%.
   - **The half kept alone covered the actual move in 98.3% of windows** (fails in 7: VT bought Oct 1983 to Jan 1984, Mar 1984,
     and Feb and Mar 2006; Sun 15 Nov: 98.1%, 8, Feb 1984 among them, whose contribution has since stepped down $5,000). Median gap when it fails $2,868 ($1,833); largest $6,075 (Nov 1983; $5,844 on Sun 15 Nov, $7,312 before Sun 15 Nov, when that window's contribution was a step higher).
   - **With the excess: 100%** (Sun 15 Nov evening; before, 99.8% with Nov 1983 $1,755 short). The closest window, Jan 1984, has $3,224 to spare (Sun 15 Nov: Dec 1983, $1,570).
@@ -1390,8 +1396,11 @@ What it shows:
   before 2028, so "most" squeezes VT in 19.3% of its paths (was 16.9%).
 - **Counting the excess, it fails in about 1 house path in 380 (was 1 in 510) and in no history or joint window.** The excess is
   Treasury money, fixed once the half is moved in 2031, so the weaker part of the pot is always the half kept.
-- **On the real currency since 1983, 98 windows in 100 for the half kept alone, and every window with the excess**
-  (since Sun 15 Nov; the 1986-1988 appreciation, the largest two-year move in the series, now leaves $3,224 or more, was $1,570).
+- **On the real currency, VT bought from Oct 1983 (moves from Oct 1986), 98 windows in 100 for the half kept alone, and every window with the excess**
+  (since Sun 15 Nov; the Nov 1986 to Nov 1988 move, the largest on these windows, now leaves $3,224 or more, was $1,570).
+  (Label corrected Sun 22 Nov evening, card Q217: it was "since 1983" and "the 1986-1988 appreciation, the largest
+  two-year move in the series". The series' largest, +38.3% from Jan 1986 to Jan 1988, is in no 8j window; 8x
+  registers it and its size against her flexibility: $15,364 short.)
 - **The test is about one use of the pot only.** The IPS names three (l.15: overruns, a stronger Taiwan dollar, a
   co-sponsor falling short); the overrun rows show how fast the pot is used when they come together.
 
@@ -1907,9 +1916,14 @@ half; 70% and 30% only show the trade-off it chose. Nothing is re-sized by this 
   other script, reads no results file and writes no other file.
 - **The question.** 8j tests one of the three uses IPS l.15 names, a 10% stronger Taiwan dollar. Card Q10e put two of
   them on one series: the US-dollar cost of a fixed Taiwan building budget (DGBAS's construction cost index divided by
-  NT$ per US$, monthly since Jan 1991). Its two-year rise was **+28.0% at the 1-in-20 point** (405 windows) and **+38.9%
-  at worst** (Jul 2006 to Jul 2008: building costs +29.5%, the Taiwan dollar 7.2% stronger); over 18 months, +24.6% at
-  1 in 20. This section runs those rises against her flexibility exactly as 8j runs 10%.
+  NT$ per US$, monthly since Jan 1991). Its two-year rise since 1991 was **+28.0% at the 1-in-20 point** (405 windows
+  since 1991) and **+38.9% at worst since 1991** (Jul 2006 to Jul 2008: building costs +29.5%, the Taiwan dollar 7.2%
+  stronger); over 18 months, +24.6% at 1 in 20 since 1991. This section runs those rises against her flexibility
+  exactly as 8j runs 10%. **"Since 1991" (added Sun 22 Nov evening, numbers owner; card Q217):** every window count,
+  percentile and range in 8q starts in Jan 1991 because DGBAS's national construction cost index starts then (trial
+  from Jan 1991, published Jul 1991; DGBAS method note, read Sun 22 Nov). No national index exists for 1986-88, so 8q's
+  joint figure cannot be computed for the 1985-1992 rise; its currency part alone, +38.3% from Jan 1986 to Jan 1988, is
+  in 8x, and is below 8q's worst joint rise since 1991 (+38.9%), never above it.
 - **Definitions, as 8j.** The gift is the 2033 contribution after the cap. It equals the stated top in every path and
   window (100% in all three worlds), so a test "on the stated top" and a test "on the contribution she names" are one
   test. The stated bottom is shown beside it as the lower reading (a building budget set on the figure owned from
@@ -1928,7 +1942,7 @@ half; 70% and 30% only show the trade-off it chose. Nothing is re-sized by this 
   ccispl.xls and cciidx.xls), copied into the script; it was not re-read today (curl to ws.dgbas.gov.tw is refused,
   403). It agrees with the register's own read of 9 Nov (`numbers/inflation_inputs.json`, card Q10): September 2026 at
   120.26, and its 1-, 5-, 10-, 26- and 35-year rates. The Taiwan dollar is 8j's mirror of FRED EXTAUS, verified for all
-  516 months (8l). The script reproduces card Q10e's 405 and 411 windows, +28.0%, +24.6% and +38.9%, and 8j's 10% test
+  516 months (8l). The script reproduces card Q10e's 405 and 411 windows since 1991, +28.0%, +24.6% and +38.9%, and 8j's 10% test
   in all three worlds (92.9% and 99.74%; 96.9% and 100%; 99.1% and 100%; Mon 16 Nov: 93.3% and 99.80%; 97.1%; 99.3%). All are asserted.
 
 **Fixed rises on the contribution (= the stated top).** Each cell gives the share of paths her flexibility plus anything above the top covers, with
@@ -1936,15 +1950,15 @@ the half kept alone in brackets. Re-sized Tue 17 Nov evening; the Mon 16 Nov fig
 
 | Rise in the US-dollar cost of the building | Central (Keel arithmetic) | House model (200,000 paths, seed 2033) | US stock history (1,770 windows since 1871; rates at today's forwards) | Joint replay (585 windows, 1962-2010 starts) |
 |---|---|---|---|---|
-| +24.6% (18-month 1-in-20: meetings in mid-2031) | need $28,276; **$407 left** (was $1,547) (half kept alone $7,097 short, was $6,928) | 51.0% (18.9%) (was 51.4%, 19.2%) | 64.9% (25.2%) (was 63.1%, 25.3%) | 65.3% (28.9%) (was 65.1%) |
-| **+28.0% (24-month 1-in-20)** | need **$32,191**; **$3,509 short** (was $2,368) (half kept alone $11,012 short, was $10,844) | **32.5%** (10.7%) (was 32.9%, 10.9%) | **43.6%** (13.2%) (was 43.2%, 13.4%) | **49.2%** (13.8%) (was 49.9%) |
+| +24.6% (18-month 1-in-20 since 1991: meetings in mid-2031) | need $28,276; **$407 left** (was $1,547) (half kept alone $7,097 short, was $6,928) | 51.0% (18.9%) (was 51.4%, 19.2%) | 64.9% (25.2%) (was 63.1%, 25.3%) | 65.3% (28.9%) (was 65.1%) |
+| **+28.0% (24-month 1-in-20 since 1991)** | need **$32,191**; **$3,509 short** (was $2,368) (half kept alone $11,012 short, was $10,844) | **32.5%** (10.7%) (was 32.9%, 10.9%) | **43.6%** (13.2%) (was 43.2%, 13.4%) | **49.2%** (13.8%) (was 49.9%) |
 | At +28.0%: flexibility less the need, 1-in-20 low / median / 1-in-20 high | -$3,509 | -$13,117 / -$3,708 / +$13,801 (was -$13,107 / -$3,668 / +$14,006) | -$11,125 / -$1,253 / +$14,342 (was -$11,245 / -$1,306 / +$14,393) | -$12,543 / -$150 / +$15,717 (was -$12,508 / -$34 / +$16,035) |
 | At +28.0%: gap where it fails, median / largest | | $6,635 / $23,671 (was $6,644 / $22,714) | $5,382 / $20,682 (was $5,768 / $21,709) | $6,432 / $15,573 (was $6,079 / $16,739) |
-| **+38.9% (worst, Jul 2006 to Jul 2008)** | need **$44,756**; **$16,074 short** (was $14,933) (half kept alone $23,577 short, was $23,409) | **5.2%** (1.5%) (was 5.3%) | **5.8%** (1.4%) (was 6.0%, 1.3%) | **6.8%** (0.7%) (was 7.5%, 0.9%) |
+| **+38.9% (worst since 1991, Jul 2006 to Jul 2008)** | need **$44,756**; **$16,074 short** (was $14,933) (half kept alone $23,577 short, was $23,409) | **5.2%** (1.5%) (was 5.3%) | **5.8%** (1.4%) (was 6.0%, 1.3%) | **6.8%** (0.7%) (was 7.5%, 0.9%) |
 | At +38.9%: gap where it fails, median / largest | | $16,623 / $39,513 (was $16,679 / $38,556) | $14,478 / $34,339 (was $14,532 / $35,912) | $13,070 / $35,240 (was $13,273 / $35,313) |
 | The rise her flexibility plus anything above the top covers 19 times in 20 (half kept alone) | 24.9% (18.4%), centrally (was 25.9%, 18.6%) | 15.8% (9.3%), as 8j (was 16.0%, 9.4%) | 18.0% (11.8%) | 17.6% (11.6%) (was 17.7%) |
 
-**The same rises on the stated bottom** ($95,000 centrally; the lower reading, the pot alone as if the contribution were the bottom, kept out of prose; relabelled Fri 20 Nov morning, numbers owner, bond desk 5, L5; the full reading follows the table):
+**The same rises on the stated bottom** (the same rises since 1991; $95,000 centrally; the lower reading, the pot alone as if the contribution were the bottom, kept out of prose; relabelled Fri 20 Nov morning, numbers owner, bond desk 5, L5; the full reading follows the table):
 
 | Rise | Central (Keel arithmetic) | House model | US stock history | Joint replay |
 |---|---|---|---|---|
@@ -1969,13 +1983,13 @@ the gap. Not run in the history and joint worlds.
 **On Taiwan's own two-year moves, on the same months as the shares** (as 8j's real-currency test: the history model's
 pots and contribution, rates at today's forwards; the move measured from the meetings, 36 months after VT is bought,
 to the gift, 60 months; 366 windows, VT bought Jan 1988 to Jun 2018, so meetings Jan 1991 to Jun 2021):
-- The actual joint move: 1-in-20 low -12.8%, median +3.2%, 1-in-20 high +28.1%, largest +38.9% (VT bought Jul 2003);
+- The actual joint move (meetings since 1991): 1-in-20 low -12.8%, median +3.2%, 1-in-20 high +28.1%, largest +38.9% (VT bought Jul 2003);
   above 28% in 5.5% of windows. The contribution: $105,000 / $115,000 / $130,000 (median was $120,000).
 - **Her flexibility plus anything above the top covered the actual move in 91.5% of windows** (fails in 31; median gap $6,416, was $5,408; largest
   $15,334, was $14,629, VT bought Jul 2003, was Aug 2003). **The half kept alone: 82.0%** (fails in 66; was 82.5%, 64;
   largest gap $24,350, was $24,188, Jul 2003). On the stated bottom: 94.5% (was 95.1%) and 88.8% (the lower reading,
   the pot alone; Fri 20 Nov morning, numbers owner: not re-run with the gap between the ends, kept out of prose).
-- **Where it fails (with the excess), four episodes:** VT bought Jan 1988 (meetings 1991, the 1992 gravel crisis);
+- **Where it fails (with the excess), four episodes** (failing VT windows; not card Q210's four episodes of joint rises of 28% or more, which are in 8x; note added Sun 22 Nov evening, second-way check): VT bought Jan 1988 (meetings 1991, the 1992 gravel crisis);
   most months from Feb 1999 to Aug 2000 (meetings 2002-03: the 2002-04 cost burst came after the 2000-02 share fall, so the half kept
   bought near the peak was small); every month Feb to Sep 2003 (meetings 2006, the 2006-08 burst; was Mar to Oct); Mar, Apr and Jun to Aug 2006
   (meetings 2009, the Taiwan dollar's rebound after the crash; was Mar and May to Aug).
@@ -1991,21 +2005,21 @@ to the gift, 60 months; 366 windows, VT bought Jan 1988 to Jun 2018, so meetings
   kept alone 82.4%; was 90.7% and 82.6%); history pots 92.6% (85.2%); joint replay pots 93.0% (85.5%; was 93.1%, 85.6%).
 
 What it shows:
-- **The 1-in-20 joint rise is about all of her flexibility plus anything above the top.** (Label corrected Thu 19 Nov: was "her whole flexibility".) At the centre, 28% on $115,000 needs $32,191, $3,509 more
+- **The 1-in-20 joint rise since 1991 is about all of her flexibility plus anything above the top.** (Label corrected Thu 19 Nov: was "her whole flexibility".) At the centre, 28% on $115,000 needs $32,191, $3,509 more
   than $28,682 (was $2,368 more than $29,823; card Q10e's own figures, now on the register's paths). Across the house model that pot covers it
   in about 1 path in 3; history and the joint replay, about 2 in 5 and 1 in 2. The half kept alone covers it in about 1
   path in 9 (house) to 1 in 7 (history and the joint replay).
 - **That is a 1-in-20 rise put on every path, so it is harsher than any one history.** On Taiwan's own moves since
   1991, matched to the same months' shares, that pot covered the move in about 9 windows in 10 (91.5%), and in
   about 9 in 10 when house pots meet history's moves drawn apart (90.6%).
-- **The worst two years needed about one and a half times her central flexibility plus anything above the top** ($44,756 against $28,682). Replayed
+- **The worst two years since 1991 needed about one and a half times her central flexibility plus anything above the top** ($44,756 against $28,682). Replayed
   on its own months the plan would have been $15,334 short (was $14,187). It is covered in about 1 house path in 19.
 - **On the stated bottom** the 1-in-20 rise is covered centrally with $2,090 to spare (was $3,230), and in 57.7% of house paths.
   (Fri 20 Nov morning, numbers owner; bond desk 5, L5: that is the lower reading, the pot alone; with the $20,000
   between the ends, which a budget set on the bottom also has, $22,090 to spare and 96.7% of house paths. Neither is for
   prose: co-sponsors count the top.)
 - **18 months instead of 24** (meetings, and so the NT$ budget, in mid-2031): the 1-in-20 rise is +24.6% and her
-  central flexibility plus anything above the top covers it with $407 left (was $1,547); house 51.0%.
+  central flexibility plus anything above the top covers it with $407 left (was $1,547); house 51.0%. (The 18-month 1-in-20 is since 1991.)
 - **The link with shares runs the other way over five years.** On this history model (US stocks), the joint move rose
   with shares over the same two years since 2001 (+0.28; the Taiwan dollar part +0.40, close to card Q10e's +0.32 on US
   stocks and +0.42 on world shares). But the half kept is VT over five years, and against the five-year share return the
@@ -2046,13 +2060,17 @@ What it shows:
     bill needs at the end. "Strong" means 10% or more, 8j's test size.
   - The rise in the US-dollar cost of a fixed NT$ building budget = (index at the end / index at the start) x (NT$ per
     US$ at the start / at the end) - 1. This is 8q's joint move.
-  - **30 of the 406 windows (7.4%) are strong.** They are also the 30 largest Taiwan dollar moves: the closest to the
+  - **30 of the 406 windows since 1991 (7.4%) are strong.** They are also the 30 largest Taiwan dollar moves: the closest to the
     line, Jan 2019 to Jan 2021, is 10.00%, and the next below it is 9.95%.
   - They fall in 7 runs of start months (card Q131's 7 episodes), which make 5 periods that share no month: 1998-2000
     (5 windows), 2003-05 (5), 2008-11 (9), 2016-18 (4) and 2019-21 (7).
 - **Re-derived: the card's figures hold.**
-  - In the 30 windows the US-dollar cost rose a **median 22.3%** (22.27%). The **lowest was 9.3%** (Sep 1998 to Sep
-    2000) and the **highest 29.0%** (Mar 2003 to Mar 2005; Aug 2019 to Aug 2021 is also 29.03%).
+  - In the 30 windows since 1991 the US-dollar cost rose a **median 22.3%** (22.27%). The **lowest was 9.3%** (Sep 1998
+    to Sep 2000) and the **highest 29.0%** (Mar 2003 to Mar 2005; Aug 2019 to Aug 2021 is also 29.03%). **Label added
+    Sun 22 Nov evening (numbers owner; card Q217's rater; 8x):** 29.0% is the highest of the 30 strong-Taiwan-dollar
+    windows only. It is 11th of all 406 windows since 1991: 10 rose more, every one with the Taiwan dollar less than 10%
+    stronger, and **the largest joint rise since 1991 is 8q's +38.9%** (Jul 2006 to Jul 2008). Never "the highest joint
+    rise since 1991" for 29.0%; the range is "9.3% to 29.0% in the 30 strong windows since 1991".
   - It **beat the currency move in 25 of 30**. The five that did not are the 1998-2000 windows, where the index fell
     0.7% to 1.6% in NT$.
   - The currency itself moved a median 11.7%, and the index in NT$ a median 7.2%, so the median US-dollar rise is 1.9
@@ -2061,11 +2079,11 @@ What it shows:
   the pot less the need, at face; the pots are 8q's central ones, $28,682 = the half kept $21,179 plus the $7,503 above
   the top, which WORDS calls "her flexibility plus anything above the top"):
 
-| Rise in the US-dollar cost of the building | Need on the $115,000 top | Left: half kept plus the excess ($28,682) | Left: half kept alone ($21,179) | On the $95,000 bottom, the lower reading (pot alone; Fri 20 Nov: add $20,000 for the gap between the ends; never in prose): need; left (half kept plus the excess) |
+| Rise in the US-dollar cost of the building (strong windows since 1991; 8q's 1-in-20 since 1991) | Need on the $115,000 top | Left: half kept plus the excess ($28,682) | Left: half kept alone ($21,179) | On the $95,000 bottom, the lower reading (pot alone; Fri 20 Nov: add $20,000 for the gap between the ends; never in prose): need; left (half kept plus the excess) |
 |---|---|---|---|---|
 | Lowest strong window, +9.3% | $10,701 | $17,981 | $10,478 | $8,840; $19,842 |
 | **Median strong window, +22.3%** | **$25,607** | **$3,075 left** | $4,428 short | $21,154; $7,528 (half kept alone: $25 left) |
-| 8q's 1-in-20 of all two-year spans, +28.0% (for comparison) | $32,191 | $3,509 short | $11,012 short | $26,593; $2,090 |
+| 8q's 1-in-20 of all two-year spans since 1991, +28.0% (for comparison) | $32,191 | $3,509 short | $11,012 short | $26,593; $2,090 |
 | **Highest strong window, +29.0%** | **$33,386** | **$4,704 short** | $12,207 short | $27,580; $1,102 |
 
   - **Card Q131 row 40 reproduces.** Its "about $25,600" and "about $33,400" are right to the nearest $100. Its "near
@@ -2074,7 +2092,7 @@ What it shows:
     windows pass it, all from two periods: all 5 of 2003-05 and 5 of the 7 of 2019-21. The highest in 2008-11 is 24.6%,
     just inside.
   - **Against 8q's 1-in-20 (28.0%).** 7 of the 30 pass it (4 from 2003-05, 3 from 2019-21). Read the other way: of the
-    21 spans above 28.0% in 8q's 405, 7 are strong-Taiwan-dollar windows. The other 14 are building-cost bursts with the
+    21 spans above 28.0% in 8q's 405 since 1991, 7 are strong-Taiwan-dollar windows. The other 14 are building-cost bursts with the
     Taiwan dollar only 2.2% to 8.6% stronger (starts in 1991, 2002-03 and 2006; the worst, 38.9%, came with 7.2%). So a
     10% stronger Taiwan dollar does not mark the worst spans; it marks spans in which the same building cost about 22%
     more in US dollars.
@@ -2784,6 +2802,111 @@ today's; holders can leave as a fund nears its end (card Q151 row 13, citing car
 fund in 2032 may be larger than shown. The engine's IBTM bond stands in for the fund's holdings (section 0) and pays
 twice a year, not monthly.
 
+### 8x. The whole Taiwan-dollar series and 1986-88; "since 1991"; the tree's figures that had no register section (Sun 22 Nov 2026 evening, numbers owner; card Q217's item in section 9, parts 1-4; `numbers/SECOND_WAY_2026-11-22.md`; `numbers/twd_whole_series.py`, `numbers/results_twd_whole_series_2026-11-22.json`). Keel arithmetic on data read at source; the three-world shares in (b) and the DV01s in (e) are MODEL
+- **Script and rerun:** `python3 -I keel/final_report/numbers/twd_whole_series.py` from the repo root (about 11
+  seconds). For (b) it runs taiwan_joint.py's own code up to its fixed-stress loop, every statement that assigns to that
+  script's `out` skipped (the way taiwan_joint.py runs joint_stress.py), checks that 8q's +38.9% row comes back exactly,
+  then calls the same `test` with one more rise. It writes only its own results file; every results file that existed
+  before is byte for byte unchanged (73 hashed before and after). Every figure below is asserted or printed by it.
+- **Data, read at source Sun 22 Nov 2026 (Sydney):**
+  - **FRED EXTAUS** (Board of Governors, G.5, monthly averages of noon buying rates, "Last Updated 2026-11-02"),
+    https://fred.stlouisfed.org/data/EXTAUS.txt, through WebFetch and Parallel web_fetch (curl refused, 403); copied
+    as read into `numbers/extaus_fred_read_2026-11-22.txt`, 517 months, Oct 1983 to Oct 2026. All 516 months of the
+    repo mirror agree to the last digit (8l's check, done again); October 2026 is 32.2695, as card Q131 read it.
+  - **Taipei City's construction cost general index** (base 2011 = 100, monthly from 1981; Taipei City Government,
+    Appendix 5, http://www-ws.gov.taipei/001/Upload/389/Attachment/5769321/appendix5.pdf), 1981-1993 copied into
+    `numbers/taipei_cci_1981_1993_read_2026-11-22.csv`; each year's months average to the table's own yearly index
+    within 0.01 (asserted).
+  - **DGBAS's method note for the construction cost index** (編製方法說明, https://ws.dgbas.gov.tw/public/attachment/82615542ecwgcxej.pdf):
+    the national "Construction Cost Indices in Taiwan Area" were compiled on trial from January 1991 and formally
+    published in July 1991. Before them: the Taiwan Provincial and Taipei Municipal budget offices' own construction
+    cost indices from 1981, and from 1975 the wholesale price index's construction input prices, materials only.
+  - Card Q85's MSCI checkpoints, card Q131's monthly file (8q's DGBAS series and EXTAUS, equal in every month) and card
+    Q148's Census file, all in `research/cards/data/`, as their cards read them.
+
+**(a) The whole series (part 1).** Every two-year move on monthly averages, 8j's convention (NT$ per US$ at the start /
+at the end - 1, the % more US dollars a fixed NT$ bill needs):
+
+| Windows | Count | Largest two-year move |
+|---|---|---|
+| Whole FRED series, starts Oct 1983 to Oct 2024 | 493 | **+38.3%, Jan 1986 to Jan 1988** (39.5925 to 28.6278); next Dec 1985 to Dec 1987, +37.8% |
+| 8j's windows (VT bought Oct 1983 to Jun 2018; moves start Oct 1986 to Jun 2021) | 417 | +29.4% (29.35%), Nov 1986 to Nov 1988 |
+| Since 1991 (starts Jan 1991 to Oct 2024, card Q131's) | 406 | +16.9% (16.94%), Feb 2009 to Feb 2011 |
+
+- So "largest +29.4%" holds for 8j's windows only (label corrected in 8j), and the series' largest is 2.26 times the
+  largest since 1991 ("2.3 times", card Q217). On daily rates the same episode is +39.7% (Dec 1985 to Dec 1987, card
+  Q10b, H.10 daily; not re-run). Peak to low: Aug 1985 (40.5006) to Jun 1992 (24.7695), 63.5% more US dollars.
+- Table 3's 10% watch, measured from the Aug 1985 level, would have fired in **October 1986** (+10.5%); two years from
+  that start the move was 33.7%, three years 41.1% (41.15%; card Q217 row 8's "41.2%" rounds it up). A trigger, never
+  a size.
+- Starts Oct 1983 to Dec 1990: 37 of 87 windows at 10% or more, 26 at 20% or more, 14 at 29.0% or more. Overlapping
+  windows of one episode: never odds (card Q210).
+
+**(b) Card Q217 row 7, registered (part 2).** The 1986-88 rise on her figures, by 8q's method (need = the rise times the
+contribution, $115,000, in December 2032 money; left = the pot less the need, at face; 8q's central pots, unrounded):
+
+| Rise | Need on $115,000 | Her flexibility plus anything above the top ($28,682) | Half kept alone ($21,179) | Covered with the excess (half kept alone): house / history / joint replay |
+|---|---|---|---|---|
+| **+38.3%, currency alone, Jan 1986 to Jan 1988** | **$44,046** | **$15,364 short** (need 1.54 times the pot) | $22,867 short | 5.8% (1.7%) / 6.7% (1.5%) / 7.5% (0.9%) |
+| For comparison, 8q's worst joint rise since 1991, +38.9% | $44,756 | $16,074 short | $23,577 short | 5.2% (1.5%) / 5.8% (1.4%) / 6.8% (0.7%) |
+
+- **Card Q217's row 7 is $1 low on each figure** ($44,045, $15,363 and $22,866): it multiplied the rise rounded to
+  38.30%. The register's figures are above. On the stated bottom (the lower reading, record only, never in prose): need
+  $36,386; the pot alone $7,704 short; with the $20,000 between the ends, $12,296 left.
+- **What it is.** A currency-only rise, so the least the same Taiwan building cost more in US dollars over those two
+  years: Taipei's building costs also rose (c). It is **not** larger than 8q's worst joint rise since 1991: 38.3% against
+  38.9%, a need $710 smaller. "Larger than any since 1991" is true only of currency moves (2.3 times +16.9%) and of the
+  30 strong-Taiwan-dollar windows' joint rises (highest 29.0%, (d)); never against 8q's 38.9%.
+- **Words for 3e (the lead's and the writers' call; one form):** "The largest two-year rise in the Federal Reserve's
+  monthly Taiwan-dollar series, which begins in October 1983, came in 1986-88: the same Taiwan-dollar bill came to cost
+  38% more US dollars, from the currency alone. On her $115,000 that is about $44,000, more than her flexibility plus
+  anything above the top (about $28,700)." Who covers it is Table 3's "Never: the range": the building's Taiwan-dollar
+  budget, never the ten payments or the stated range. Never "the largest rise in building costs", never "larger than any
+  episode since 1991" without "from the currency alone", never "1 in 20".
+
+**(c) Building costs in 1986-88 (part 2).** No national index exists before January 1991 (DGBAS, above), so **8q's
+joint figure cannot be computed for 1986-88**. A city index exists. On Taipei City's index, Jan 1986 (39.69) to Jan 1988
+(42.49) the building rose 7.1% in NT$, so with the currency the same budget cost **+48.1%** more in US dollars: a need
+of $55,266 on $115,000, $26,584 beyond $28,682. The largest Taipei joint rise for starts Oct 1983 to Dec 1990 is +50.4%
+(May 1987 to May 1989: costs +19.9%, the currency +25.5%); the 37 windows with the currency 10% or more stronger have a
+median joint rise of 42.2%. Card Q217 rows 6 and 29 reproduce; its row 7's Taipei figures ($55,269, $26,587) are $3
+high (the rise rounded to 48.06%). **A city index, not 8q's national series:** record only, or a note labelled
+"Taipei City's index"; never set beside 8q's 38.9% as like for like, never the "joint rise" without its index named.
+
+**(d) 8q's joint series since 1991 (part 3).** 406 windows, starts Jan 1991 to Oct 2024 (8q's 405 to Sep 2026 plus
+October 2026, as card Q131):
+- **The largest joint rise since 1991 is +38.9%** (38.92%, Jul 2006 to Jul 2008), 8q's worst. **29.0% is the highest of
+  the 30 strong-Taiwan-dollar windows only** (29.03%, Mar 2003 to Mar 2005): 11th of 406, with 10 windows above it, each
+  with the Taiwan dollar less than 10% stronger. The rater's finding holds; 8q's Q131 block now says so.
+- 8q's 1-in-20 on its 405 windows since 1991 is 27.99% ("28.0%"), with 21 windows above it (the Q131 block's 21). **20
+  windows since 1991 rose 28% or more**, in eight runs of start months that make **four episodes**: starts Jan to May
+  1991, Mar 2002 to May 2003, Feb to Aug 2006 and Jun to Sep 2019, the windows ending by May 1993, May 2005, Aug 2008 and
+  Sep 2021. These are card Q210's "1991-93, 2002-05, 2006-08 and 2019-21", registered here; "four times since 1991" is
+  this count of episodes.
+- The 430 months since Jan 1991 hold **16 or 17 separate two-year spans** (by start month), card Q210's "about 17".
+  They cover the whole record; the four episodes hold the 20 windows at 28% or more. Never "17 spans in four
+  episodes".
+
+**(e) The tree's figures that had no register section (part 4; `numbers/SECOND_WAY_2026-11-22.md`, "Figures with no
+NUMBERS section").** Each re-derived here; source and method on each line.
+
+| Figure in the tree | Register figure | Source and method | Words |
+|---|---|---|---|
+| **The WInS book x 1.5 under Table 1** (Section 2.1's note) | Book at cost (8g): payment Treasuries $195,886.53 (the ten holdings less 3,361 IBTM shares at $21.65, the floor stand-in, $72,765.65), floor $72,765.65, VT $26,524.61, cash and costs $4,823.21. **x 1.5: $293,830, $109,148, $39,787** and $7,235. **The plan in January 2028 at cost: $339,162, $81,244, $29,594** (section 4). What is left goes 73.29% to the floor in the book and 73.30% in the plan | Keel arithmetic on 8g and section 4's central run (`plan.run`, re-run here); research/attacks_2026-11-20/NUMBERS_ANSWERS.md attack 3 reproduces to the dollar. Both sides are money put in; $339,162 adds January 2027's $300,000 to January 2028's $39,162 | "About 73% to the floor and 27% to VT" in both. "The book was built before the reserve was sized"; never "after the freeze". Shares if printed: 75.37% / 18.05% / 6.58% of $450,000 against 65.30% / 24.26% / 8.84% of $300,000 |
+| **$502,605: what the reserve pays at zero interest** (3a) | **$502,604**: the ten rungs pay $445,405 and the extra Treasuries $57,200 if nothing earns interest and waiting cash pays no fee, against $500,000 owed, so $2,604 is left (section 2's table). With the bill fund's 0.15% (the standard): $1,177 left. With that fee and every fund flow 0.5% smaller: nothing left | `completion.own_amounts`, `pool_buckets` and `ledger` on the zero-interest world (8a, 8h); NUMBERS_ANSWERS attack 28. **$502,605 is the sum of the two rounded parts; the unrounded total is $502,604.29** | "About $502,600 if nothing earns interest" (no-fee basis named), or the standard's own form: "all $500,000 paid, with $1,177 left after the bill fund's fee" |
+| **The book's DV01, about $159, against the payments' about $200** (2.5) | Per 1 basis point parallel move of the 6 Nov par curve, value on 1 Jan 2027, fixed flows: the payments $299.68 (section 1's $300), scaled by two-thirds **$199.79**; the WInS book's ten rungs **about $159**; its floor stand-in about $38 more, on no payment; the plan's ten at plain size $234 (section 1); with the extra Treasuries $267 | MODEL, NUMBERS_ANSWERS attack 12's method re-run. An approximation: the five funds at card Q17's 67.6-67.7% of a full rung on the 23 Oct curve, each fund's payout as one amount on 15 Dec. An independent bootstrap (second-way row 19) gives about $155, 3% lower | "About $160 against about $200" or "about four-fifths of the payments'"; never "$159" as exact |
+| **The 2000-2003 replay: world shares about 42% down, then costs about 18% (NT$) and 27% (US$)** (3e; aha 9) | World shares bought January 2000: **-42.1%** to the January 2003 meetings on start-of-month dates (Dec 1999 close to Dec 2002 close), -40.6% on end-of-month dates. The building, Jan 2003 to Dec 2004: **+18.4% in NT$, +27.2% in US dollars** | MSCI ACWI in US dollars, price index to Dec 2000 and gross after (card Q85's checkpoints, read at MSCI 16 Nov); 8q's DGBAS index and EXTAUS (card Q131's file, the same in every month) | "About 42%" beside the start-of-month cost figures (the tree's wording since the second-way check), "about 18%" and "about 27%" |
+| **The four Taiwan episodes (1991-93, 2002-05, 2006-08, 2019-21); about 17 separate spans** (3e) | (d) above: 20 windows at 28% or more since 1991, four episodes; 16 or 17 separate spans | Keel arithmetic on 8q's series | "Four times since 1991"; the spans cover the whole record |
+| **-7.8%: writers' 2009 receipts** (2.3) | Receipts of sole proprietors in NAICS 7115 (independent artists, writers and performers): $12,811,801 thousand in 2008, $11,808,168 thousand in 2009, **-7.83%** | Census Nonemployer Statistics 2008 and 2009, legal form S (nonemp08us.txt, nonemp09us.txt), card Q148 row 5, read at source 18 Nov; Keel arithmetic on the card's file | "-7.8%" for one-person artists' and writers' receipts in 2009; never -11.6% (the IRS's whole arts, entertainment and recreation sector, gyms included; card Q206 row 22) |
+
+- **The second-way file's other groups (not plan figures; their cards hold them, read at source there, and nothing in
+  the engine computes them, so a card citation suffices):** the two custodians (card Q78; 8t keeps one broker); no
+  WInS bond from Feb 2031 to Feb 2036 and no iBond fund ending 2037-2043 (CANON B21, B38); Lehman's $10 million to
+  Spelman becoming $3 million (card Q200); Artists Rep's "$500,000 operating seed funds" (card Q204). One is a plan
+  figure: "about $300 of expected return for each $5,000" (D15) restates 8o, where each $5,000 more of stated top costs
+  about $5,300 ($5,267) of what Laura keeps (at today's market rates), so the price of making $5,000 certain is
+  **$267, "about $270"**. "About $300" rounds it to the nearest $100, a tenth high; the register's form is "about $270".
+
 ## 9. Still to add (later days)
 - **Sun 15 Nov evening (numbers owner), open after the fee fix:**
   - The haircut's size is the lead's call; the code keeps 0.5% (`completion.HAIRCUT`). The w1 frictions add to about 0.27%, so the 0.5% now leaves about 0.23% of each end beyond them (section 0).
@@ -2906,6 +3029,45 @@ twice a year, not monthly.
     existed before is byte for byte unchanged (72 hashed before and after; one new file); `exhibit_data.py` as above.
 - **Sun 22 Nov evening (the lead): the four calls left open since Thu 19 Nov are made** (`../pm/ASK_HUMANS.md`, Sun 22 Nov evening). Section 0's haircut row now names a fund swap's trading costs only. 3f prints no figure from 8b: it carries one figure (1 in 31 against none, ARGUMENT_TREE D16), and "about $1,900" stays the team's booked figure for 16 Oct. 3e prints "a rise of about 25% in the cost of her share, if shares earn the 7.5% a year assumed" (D9's subject, her share, never "a building-cost rise of 25%"; WORDS l.69 keeps "about a quarter" for the 26.1% alone), one form; 8u keeps the 22% to 25% spread. 3e opens its fund events with 8w's words, and Table 3's note keeps "so one notice touches all three". No figure moves.
 - **Sun 22 Nov evening (card Q217; open for the numbers owner).** (1) 8j's "largest +29.4% (the 1986-1988 appreciation)" holds only for 8j's own windows, which start in October 1986; on the whole FRED EXTAUS series (from 1983) the currency alone rose 38.3% from January 1986 to January 1988 (card Q217 row 3, Keel arithmetic): reword 8j's label. (2) Register, or refuse with a reason, the card's row 7 (that rise needs about $44,045 on $115,000 against 8q's $28,682, about $15,363 short) before 3e uses it; ARGUMENT_TREE branch 6 holds it as waiting. (3) Every 8q window count (30 of 406; 9.3% to 29.0%; the joint +38.9%) is "since 1991", the national building-cost index's start, and says so. (4) The second-way check (`numbers/SECOND_WAY_2026-11-22.md`) lists figures the tree uses with no register section (the book x1.5 reconciliation, $502,605, the book's DV01, the 2000-2003 replay's -42%/+18%/+27%, the four Taiwan episodes, -7.8%); each gets a register line or a card citation before 27 Nov.
+- **Done Sun 22 Nov evening (numbers owner): card Q217's item, all four parts** (8x; `numbers/twd_whole_series.py`,
+  `results_twd_whole_series_2026-11-22.json`; FRED EXTAUS, Taipei City's index and DGBAS's method note read at source
+  today; every results file that existed before is byte for byte unchanged, 73 hashed).
+  - **(1) 8j's label.** "Largest +29.4%" now says it holds for 8j's 417 windows only, whose moves start in Oct 1986 or
+    later (Nov 1986 to Nov 1988, the later part of the 1985-1992 rise); 8j's "since 1983" and "the largest two-year
+    move in the series" are corrected the same way. On the whole series (Oct 1983 to Oct 2026, 493 windows) the largest
+    is +38.3%, Jan 1986 to Jan 1988; since 1991 +16.9%. No 8j figure moves.
+  - **(2) Card Q217 row 7: registered (8x (b)), with $1 corrections.** +38.3% from the currency alone needs **$44,046**
+    on $115,000: **$15,364 short** of $28,682 and $22,867 short of the half kept alone; covered with the excess in 5.8% /
+    6.7% / 7.5% of house / history / joint-replay paths. **No national building-cost index exists for 1986-88** (DGBAS's
+    starts on trial in Jan 1991), so 8q's joint figure cannot be computed for that episode; Taipei City's index (from
+    1981) gives +48.1% in US dollars, registered as a city figure only.
+  - **(3) "Since 1991"** is now printed with every 8q window count, percentile and range (the question paragraph, both
+    tables, the real-move paragraph, "What it shows", and the Q131 block's 30 of 406, 9.3% to 29.0% and 21 of 405).
+    **The largest joint rise since 1991 is 38.9%** (Jul 2006 to Jul 2008); 29.0% is the highest of the 30 strong-
+    Taiwan-dollar windows only, 11th of 406. The Q131 block's label now says so. The 1986-88 currency move (38.3%) is
+    below 38.9%, so "larger than any since 1991" holds only for currency moves and for the 30 strong windows.
+  - **(4) Register lines for the second-way file's figures** (8x (e)): the book x 1.5 ($293,830 / $109,148 / $39,787
+    against $339,162 / $81,244 / $29,594; 73.29% / 73.30%); the reserve at zero interest; the book's DV01 (about $159
+    against $199.79, MODEL, an approximation); the 2000-2003 replay (-42.1% start of month, +18.4% NT$, +27.2% US$); the
+    four episodes and 16 or 17 spans; writers' -7.83%. The non-plan groups (custodians, WInS listing, Lehman, Artists
+    Rep) stay with their cards; D15's "about $300" is 8o's $267.
+  - **Errors found (none in a registered figure; old, new, why):**
+    - **8j's labels** (above): "largest +29.4% (the 1986-1988 appreciation)" and "the largest two-year move in the
+      series" were wrong for the whole series, right for 8j's windows. Label only.
+    - **Card Q217 row 7 and this section's open item:** $44,045 / $15,363 / $22,866 are **$44,046 / $15,364 / $22,867**;
+      the card multiplied the rise rounded to 38.30% (39.5925 / 28.6278 - 1 = 38.3009%). Its Taipei figures $55,269 /
+      $26,587 are **$55,266 / $26,584** (the rise rounded to 48.06%). Card row 8's three-year move "41.2%" is **41.1%**
+      (41.15%). Card row 3's "the 29.0% highest joint rise since 1991" is wrong: **38.9% is the highest joint rise since
+      1991**; 29.0% tops only the strong windows. The card is not edited (its owner's).
+    - **ARGUMENT_TREE's $502,605 (3a)** is the sum of two rounded parts; the unrounded total is **$502,604** ($500,000 +
+      $2,604 left), on the no-fee basis. The tree is not edited (the lead's).
+  - **For the lead (ARGUMENT_TREE, not edited here):** branch 6's "Before 1991" bullet may now use 8x (b): 38.3% and
+    "about $44,000 against about $28,700", always "from the currency alone", and never as larger than 2006-08's joint
+    38.9% (a 1986-88 joint figure exists only on Taipei City's index, +48.1%, labelled). 3a's $502,605 becomes "about
+    $502,600 if nothing earns interest" (or the standard's form, $1,177 left after the bill fee). 2.5's "about $159"
+    becomes "about $160" (MODEL approximation; independent route $155). The four episodes and "about 17" spans are now
+    register figures (8x (d)); "four times since 1991" stays; "17 spans" covers the whole record, not the four
+    episodes. D15's "about $300" for 8o's $267: "about $270" is the register's form.
 - Later days add what the research rounds and the skeleton ask for.
 
 - **Added Mon 16 Nov evening (lead, from card Q88 and rater AL):** the WInS fills are dated 7-8 Oct in 8b and 6-7 Oct in 8g and 8m; both are right in their own zone (Sydney and ET), so every use names its zone, and 8b says so in its next edit. The price drift from the 2 Oct prices to the fills ($558.79 measured from 2 Oct, the iBond funds $507 under, three extra VT shares $476.49; card Q88) is not yet in 8m: re-derive it from the trade records before 2.5 quotes any of it. **Done Tue 17 Nov:** 8b names both zones on its fill row, its prose and its note, and 8e's fill row does the same; 8m's "(6 Oct)" is "(6 Oct ET)". 8m now carries the drift re-derived from portfolio.csv, book_l.csv, the 23 Oct snapshot and 8g (`numbers/book_drift.py`): $507.48, $476.49, $50.10 and $557.58 reproduce; $558.79 reproduces only against the sheet's displayed "$2,955" (its own prices give $2,955.29, so the gap is $558.50); Q88's $50.10 and $476.49 come from two different splits ($0.90 counted twice if added); new, the bonds came in $478.31 under the 5 Oct 01:18 ET check (the sheet's bond prices are Book L's clean + accrued, so Q88's open basis is settled), and the parts now net exactly. **Still open, for the card's owner:** card Q88 rows 9 and 13 and its Gaps bullet on the bond basis.
@@ -3040,3 +3202,10 @@ Not against SIPC, not changed: 8k's own "$589,655" ("Of all the money at the end
 - **Not edited, each owner replaces from this register:** `research/meta/BOLD_THESES.md`, `research/meta/EVALUATE_NOT_DESCRIBE.md` and `research/gem2/G2_3a_read.md`, `G4a_3c_read.md`, `G5_T3_3f_read.md` (working reads that quote $38,282, $35,894, $45,456 or "about $45,500"); `exhibits/specs.md` l.211-212 (Table 3's row 1, "$38,282", superseded by `tables.md`); `research/goldmine/AHA_REGISTER_candidates.md` and `aha_candidates_2026-11-16.md`.
 - **Dated records, left as they stand:** the cards (`research/cards/`, about 60 files, among them Q25, Q31, Q34, Q73, Q87, Q98, Q104, Q105 and Q110; cards are dated records), the store and its digests, `research/meta/DENSITY_CUT_2026-11-17.md`, the panels, the aha tests, the voice rounds, `research/experience/`, ARGUMENT_LOG, SCORECARD, LESSONS, `exhibits/REBUILD_*.md`, and `numbers/RUN_2026-11-1*.md`. Any new entry uses this register.
 - **Outside `keel/final_report/`:** CLAUDE.md's header still gives $35,894, $38,282, $444,545 and "14 of 15" style figures and says the ten carry no margin until Wed 18 Nov; the lead updates it with the commit.
+
+**Mon 23 Nov, morning: the 2000-2003 replay's series (sources check S4, row 50; open for the numbers owner).** MSCI's
+own ACWI price levels in USD (index code 892400, read at source Mon 23 Nov) give -42.7% from end-January 2000 to
+end-January 2003, -40.9% to end-December 2002 and -44.2% from end-December 1999 to end-December 2002. The register's
+-42.1% ("start-of-month calendar") and -40.6% ("month-end to month-end", 8x) come from neither on its own, and may
+splice in the gross series, which starts on 29 December 2000. Name the series behind each and re-run on one series
+read at source. The report's "about 42%" holds on either; no figure is used beyond it until this is closed.
