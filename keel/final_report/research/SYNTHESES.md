@@ -2377,3 +2377,530 @@ Verdict: **adapt**. From `synth/SYN_E_2026-11-19.md`.
 - **SD-8. One close date, not five years: the pledge that is kept** drop. It repeats the reserve "in Taiwan a promise to pay later fades" and rests on a second-hand figure.
 - **SE-7. A reflection that can be checked, like the plan's figures** drop. SE-3 carries the idea in a form 3f can use, and this version points 3f at its audience.
 
+## Sun 22 Nov 2026 (evening): syntheses from cards Q163-Q210
+
+Notes for the Final Report store, not report prose. OVERDRIVE_PLAN, "Sunday 22, evening: combining": Thursday
+morning's step run again on everything since, cards Q163 (the big-ideas round) to Q210 (the third research round).
+Store rows as card Q218 (`cards/Q218_syntheses_2026-11-22.md`, Q218-001 onward, in the order below).
+
+**Material.** 48 cards, 1,466 store rows. From each card the eight rows with the highest score (2F+R+S+C, the last
+rating row for an id winning), 384 rows, plus the 37 rows outside them whose rating note flags an aha: 421 rows read.
+**Method.** As Thursday's (`synth/SYNTH_BRIEF_2026-11-19.md`): two or more rows from different cards joined into one
+claim neither makes alone, tested against CANON, the FINAL IPS, the TNA and NUMBERS, then against what attack day
+(`ATTACKS.md` D1-D22) and the argument tree (`ARGUMENT_TREE.md` sections 3-6) put out. No new strategy, no new figure
+(every figure is NUMBERS', section given; Keel arithmetic on a source is labelled), no stacked parallels.
+
+**Count:** 20 built; 14 kept (4 aha candidates, 10 pedigree), 6 dropped (listed at the end with reasons).
+
+**Guards applied to every synthesis** (they bind wherever one is used): never "a figure owned" (a figure Treasuries held
+for her will pay); a fund at first mention is "a Treasury fund that holds Treasuries maturing in 2032", never "only"
+(card Q208); strong words on the Treasuries and the five bonds, never on a fund's payout (D2); forward rates are "the
+rates implied by today's prices", never "expected" (D14); no odds rarer than 1 in 100; no median for the 7.5%; at most
+one outside parallel per part of Section 3 and none in Laura's words (D6), so each entry says which name may be
+printed and which stays in References or the store; never "only two things can break the plan" (card Q109); the two
+reasons "are not market prices" (D20); "her flexibility", never "what she keeps", where a co-sponsor may read.
+
+### How the syntheses split by branch
+
+| ARGUMENT_TREE branch | Syntheses | Aha candidates | Pedigree |
+|---|---|---|---|
+| Section 2 (2.0-2.3) | SG-2, SG-3, SG-8 | SG-2, SG-3 | SG-8 |
+| 3a, the ten payments | SG-1, SG-4, SG-10 | SG-1 | SG-4, SG-10 |
+| 3b, the facility contribution | SG-9 | | SG-9 |
+| 3c, the range | SG-12 | | SG-12 |
+| 3d, Laura's words | SG-13, SG-14 | | SG-13, SG-14 |
+| 3e, assumptions, limits, watching | SG-5, SG-6, SG-7 | | SG-5, SG-6, SG-7 |
+| The close | SG-11 | SG-11 | |
+
+### The lead's read (what changes the plan for 27 Nov)
+
+1. **Strongest three.** SG-2 (2.3: the promise sets the book's size, her career its order, her taste two numbers),
+   SG-1 (3a: a chance below 100 is a standard only for someone who is refilled, and the case refills no one) and SG-3
+   (2.0 or 3c: the money fund's half percent turned the right way up). Each answers a question a finance judge asks
+   first (why 90% Treasuries for a client with a "taste for thoughtful risk"; why not 96.8 in 100; why only 0.5%), and
+   each rests on a NUMBERS figure.
+2. **For a cold aha test** (aha test 10, one item per file, with spine row 3 as the control again so the results
+   compare with test 8): SG-2 read against aha 2's sentence alone; SG-1 against Q209-026's plain sentence (the same
+   claim without Kelly); SG-3 against the RBA's slot in 3c; SG-11 against IPS l.19 repeated plain, for the close.
+   Thursday's lesson stands: bond readers will know SG-4, SG-5 and SG-8 (pedigree, one clause each, never ahas).
+3. **Two syntheses land on one price from two sides.** SG-1 (no one refills a miss) and card Q205's lock (no lender
+   can lock a forward rate) both end at the extra Treasuries, $36,774 (NUMBERS 2). The report says the price once,
+   with the forward-rate reason first (ARGUMENT_TREE Branch 2) and SG-1 at most as the next clause.
+4. **Repeats to merge, not stack.** SG-1 and SG-9 share a root (the case bars outside money from the payments, l.91-92):
+   say it once. SG-2 merges into aha 2 or GOLDMINE 26; it never sits beside both. SG-4 is one point with SB-1 (the
+   over-funding) and SE-2 (the ledger's rule), as test 8's readers asked. SG-6 and SG-5 are one paragraph of 3e at most.
+5. **Clashes found** (in files this step may not edit; listed for the lead):
+   - **"About a quarter" names three quantities.** WORDS l.69 reserves it for the first $39,162's share of the 2028
+     deposit (26.1%) "and nothing else", and NUMBERS 8u's words say "never 'about a quarter'" for the cover of 24.9%;
+     but ATTACKS D5 and ARGUMENT_TREE l.86 use it for IBTM's share of all she holds (24.3%), and D9 and ARGUMENT_TREE
+     l.158 and l.250 for her flexibility's cover ("a rise of about a quarter in the cost of her share"). One phrase,
+     one quantity: the lead picks the other two phrases.
+   - **"June 2007" survives in three places.** NUMBERS 8e's table (l.1033-1034) and prose (l.1047), AHA_REGISTER row
+     3's body (l.29) and ATTACKS D22 still say "between June 2007 and August 2026"; the AHA_REGISTER note of today, the
+     tree and CLAUDE.md say August 2007 (card Q210 row 27: the engine finds 30 cheap days from 7 June to 19 July 2007).
+   - **"The interest the market expects" survives in NUMBERS.** Section 3's bond desk 4 table (l.374, "Cover of the top
+     at the interest the market expects", 6.12%) and 8u's stated-top row keep the wording D14 bans; a writer copying
+     the 6.12% says "at the rates implied by today's prices".
+   - None of tonight's syntheses uses Q209-019's "70 of 200,000" (rarer than 1 in 100) or Q195-010's $19,000-$28,000
+     (Keel arithmetic outside NUMBERS); both stay flagged in the store.
+
+### SG-1. A chance below 100 is a standard only for someone who is refilled; the case refills no one
+
+Verdict: **keep; aha candidate (3a).** Cards Q199, Q209, Q207, Q166, Q194.
+
+- **Parts:**
+  1. **Q199-001.** Kelly's own exception: if the gambler's wife "allowed him to bet one dollar each week but not to
+     reinvest his winnings", "He should then maximize his expectation". Chasing the average is right when every stake
+     is refilled from outside. Source: Kelly (1956), *Bell System Technical Journal* 35(4), p. 926. Field: information
+     theory and finance.
+  2. **Q209-011.** Every standard that accepts a number below 100 names who absorbs the miss: an insurer's owners
+     (a recovery plan within two months, own funds restored within six), a bank's capital and then deposit insurance,
+     a UK scheme's employer, the PPF's levy payers. Field: insurance, banking and pension regulation.
+  3. **Q207-018 with Q207-028.** When the 2023 deposit promise was kept, the FDIC charged about $16.7bn of it to about
+     114 other banking organisations (quote with its date); the pension promises of 2022 held because an employer and
+     a central bank stood behind them. Field: bank resolution.
+  4. **Q166-031 and Q194-002.** Friendly societies that ran short kept going by levying members, a "self-rectifying
+     power"; and a promise no one could refill was priced as such: the Confederation's Congress could not tax, and its
+     debts were "valued at 15 to 25 cents on the dollar" in April 1789 (Sylla, Wilson & Wright 2009). Field: mutual
+     insurance history, public finance.
+  5. **Q199-003.** The case switches the refill off: "she will neither add to nor withdraw from the portfolio before
+     2033" (l.63-65), and no "co-sponsors, grants, program fees, or other outside funding" for the payments (l.91-92).
+
+- **The new thing:** Q209-011 found the pattern, each standard below 100 names a backer. Kelly's exception gives the
+  reason the pattern must hold: averaging is right exactly when stakes are refilled, so the professional standards are
+  Kelly's refilled bettor in institutional form. Q207-018 prices one refill (other banks' $16.7bn), Q194-002 prices its
+  absence (15 to 25 cents). Joined: a percentage below 100 is not a weaker kind of certainty but a different contract,
+  one that comes with a refiller. The case removes every refiller for the payments, so the standard that fits is a
+  refill-free one: paid even if cash waiting earns nothing (D14). IPS l.11's "or on anybody else's money" is the
+  condition, never a threshold (CANON A4).
+
+- **The aha:** What the judge had backwards: a plan that misses rarely already meets professional standards of
+  certainty. The key: every such standard comes with someone who pays a miss, and the case names no one for Laura, so
+  her payments are held to a standard that needs no refill, at a price of $36,774 of the 2028 deposit (NUMBERS 2).
+
+- **Why it fits Laura:** IPS l.11 ("none of your 10 operating payments will depend on a share price, or on anybody else's
+  money"); case l.63-65 and l.91-92; CANON A4 (the structural definition of high certainty); D14 (the zero-interest
+  standard as the report's measure of l.11).
+
+- **Against the frozen work:** none. Guards: never in 3f, never beside the SEC's or judges' 90% (D16), never the reason
+  the first plan was dropped (CANON A3: how a writer is paid). Never "the only standard": it is a refill-free one.
+
+- **Its weakness:** Laura has a refill outside the portfolio, her career (case l.61-63); the case bars it from the
+  payments and IPS l.9 says it comes later and smaller in a recession, so the report says "the case bars", never "she
+  has none". Kelly's rule is about growth, so it supplies the logic, not a ruling. SVB, the PPF and the Confederation
+  would be second parallels beside 3a's lottery rule (D6): unnamed or store. Kelly is finance literature (a clause,
+  References).
+
+- **Source chain:**
+  - Kelly (1956), princeton.edu PDF and vtda.org scan → card Q199 row 1 → Q199-001; case → Q199-003.
+  - EIOPA, Solvency II articles 138-139; PPF (2015); TPR → card Q209 rows 1, 8-10, 12 → Q209-011.
+  - fdic.gov (2023a, 2023b, 2024, 2026) → card Q207 row 18 → Q207-018; Q207 rows 2, 12, 16-18 → Q207-028.
+  - Tasmania parliamentary paper (1886) → card Q166 row 31 → Q166-031.
+  - Sylla, Wilson & Wright (2009), p. 195 → card Q194 row 2 → Q194-002.
+  - The combination is Keel's, in this file.
+
+- **Where it lands:** 3a (Investment Strategy; Client Knowledge), one sentence after the forward-rate reason in "why the
+  standard"; otherwise the answer to a judge's question.
+
+- **Figures:** $36,774, the extra Treasuries, inside the first $39,162 of the 2028 deposit (NUMBERS 2, 5). Source facts:
+  about $16.7bn on about 114 banks (dated); 15 to 25 cents (April 1789).
+
+- **Evidence gap:** read Kelly's page in the journal itself; re-date the FDIC figure before quoting; find one
+  regulator's sentence saying its percentage assumes a recapitalisation.
+
+- **Verdict:** keep; cold test against Q209-026's plain sentence.
+
+### SG-2. The promise sets the book's size, her career its order, her taste two numbers
+
+Verdict: **keep; aha candidate (2.3).** Cards Q188, Q206, Q189.
+
+- **Parts:**
+  1. **Q188-007.** "All risk-averters are diversifiers; plungers do not exist": for a smooth taste for risk, holding
+     only the safe asset is "entirely excluded" when the risky one pays more. Source: Tobin (1958), pp. 76, 78.
+  2. **Q206-008.** Households with above-average income uncertainty "invest a 2 percentage point lower share of their
+     wealth in stocks". Source: Fagereng, Guiso & Pistaferri (2018), *Review of Economic Studies* 85(1).
+  3. **Q206-001 and Q206-002.** Background risk: "risks should tend to crowd each other out" (Kimball 1991, 1993).
+  4. **Q189-001.** When a Treasury will just pay a promise, any slice moved into shares brings back the whole chance of a
+     miss; only none is zero. Source: Roy (1952), pp. 434-435; the card's figures are Keel arithmetic.
+  5. **Q188-013.** "The liability hedge is independent of preferences" (Rudolf & Ziemba 2004).
+  6. **Q206-029.** The order: no shares in 2027; in January 2028 the deposit buys the payments' $39,162 first, then the
+     floor, then VT: $29,594 at $150,000, $17,087 at $112,500, $0 at $75,000 (NUMBERS 5).
+  7. **Q188-027.** Of the IPS's numbers, two are choices about risk: "most" of what is left to the late-2032 fund and
+     "half" of the shares moved.
+
+- **The new thing:** each part answers a judge who asks why the book is 89.55% Treasuries (NUMBERS 8g), and each alone
+  answers wrongly. Taste predicts some shares (Tobin). Background risk predicts about 2 points fewer. Joined, three
+  causes set three features: the promise sets the size (ten fixed payments costing $302,287, about the whole first
+  deposit, NUMBERS 1; a hedge the same for a bold or a timid Laura; Roy's arithmetic leaves only none at zero); her
+  career sets the order (nothing in shares until the deposit is in, so a smaller deposit buys less VT first, D4's
+  "later and smaller"); her taste sets "most" and "half". A judge who wants to argue about risk argues with those two.
+
+- **The aha:** What the judge had backwards: a book this heavy in Treasuries is for a cautious client. The key: the IPS
+  says she has a taste for thoughtful risk, and no taste produces it; the promise does ($302,287 for ten fixed payments,
+  NUMBERS 1), her career decides only the order, and her taste two numbers.
+
+- **Why it fits Laura:** IPS l.9's first sentence ("someone with your taste for thoughtful risk and 6 years to wait would
+  usually own shares") is Tobin's 1958 result in plain words; l.11, l.13 ("roughly $300,000 – in other words, your
+  entire first deposit"), l.15 ("most", "half"). GOLDMINE 26 (her caution is forced by arithmetic) gets its finance
+  reason and its limit.
+
+- **Against the frozen work:** none, if IPS l.9 stays the reason the share-led first plan was dropped (CANON A3) and the
+  career's part inside the final plan is said as D4 says it (the deposit's timing and size). Never "optimal", never
+  "beta", never 1 - 0.99^10 (D5); the WInS book is the plan scaled (D3).
+
+- **Its weakness:** Fagereng et al. measured wage earners, not a sole trader paid in lumps, so the claim is only "small
+  beside 89.55%". Roy's figures are Keel arithmetic on a share forecast: words only. "Two numbers" are the IPS's two
+  choices; the zero-interest standard and the 0.5% margin are the report's. It must merge with aha 2, never stack.
+
+- **Source chain:** Tobin (1958) → card Q188 rows 7, 13, 27 → Q188-007, -013, -027; Fagereng, Guiso & Pistaferri
+  (2018) and Kimball (1991, 1993) → card Q206 rows 1, 2, 8, 29; Roy (1952) → card Q189 row 1; NUMBERS 1, 5, 8g.
+
+- **Where it lands:** 2.3 (Client Knowledge; Investment Strategy), as aha 2's second sentence or GOLDMINE 26's clause;
+  or 2.2 beside the three dated steps. Names: none needed in prose (Tobin or Kimball in References).
+
+- **Figures:** $302,287 (NUMBERS 1); 89.55% (8g); $29,594, $17,087, $0 (NUMBERS 5); about 73% of what is left to the
+  floor (D3, D17); about 2 points (source fact).
+
+- **Evidence gap:** a measure of background risk for self-employed or royalty-paid households (Heaton and Lucas 2000 for
+  business income is the nearest).
+
+- **Verdict:** keep; cold test against aha 2's sentence alone.
+
+### SG-3. The same half percent, turned the right way up
+
+Verdict: **keep; aha candidate (2.0 or 3c).** Cards Q196, Q193, Q208.
+
+- **Parts:**
+  1. **Q196-018.** A money fund's shares showed $1.00 for any value down to $0.995, "the lowest point at which they
+     could permissibly be rounded to $1.00"; its board had to consider action only past "one half of one percent". The
+     Reserve Primary Fund crossed $0.995 before 11 a.m. on 16 Sep 2008 and announced $0.97 at 4 p.m. Sources: SEC
+     (2009) complaint, paras 5, 119-121; SEC (1995) testimony on Rule 2a-7.
+  2. **Q193-013 and Q193-014.** "A true margin of safety is one that can be demonstrated by figures, by persuasive
+     reasoning, and by reference to a body of actual experience"; estimates "must err at least slightly on the side of
+     understatement". Source: Graham (1973), ch. 20.
+  3. **Q208-006 with Q26-014.** The six costs the adviser does not pay (management fees, interest, taxes, trading costs,
+     distribution fees, "litigation expenses and any extraordinary expenses"): the written list of costs beyond the fee.
+  4. **NUMBERS 0 (haircut row).** About 0.27% of costs beyond the fee for a January 2028 buy held to December 2032 (Keel
+     arithmetic); all five ended Treasury iBond funds paid within 0.066% of their last market price.
+
+- **The new thing:** Q196-018 saw the mirror; Q193-013 gives the test a margin must pass. Joined: the money fund's half
+  percent was a tolerance, a loss allowed to hide under the stated figure until it broke; Laura's 0.5% is cut before she
+  states and then rounded down, so only money sits under her figure, and unlike the tolerance it passes Graham's three
+  tests (figures about 0.27%; reasoning, the six named costs; experience, five ended funds within 0.066%). Same number,
+  opposite direction, and only one of the two can be demonstrated.
+
+- **The aha:** What the judge had backwards: a 0.5% margin is thin. The key: it is the half percent a money fund once
+  let a loss hide inside, used the other way: cut first and rounded down, it leaves about 2% in all under the top
+  (NUMBERS 3 and 8u: 2.32%, $2,731 on $117,731), money rather than hidden loss.
+
+- **Why it fits Laura:** D2 (the 0.5% margin shown as the answer to IBTM's "does not seek to return any predetermined
+  amount at maturity"); IPS l.15 ("whatever figure you choose is money you already own"); CANON C5-C6.
+
+- **Against the frozen work:** none. Guards: "the rule of 2008" (Rule 2a-7 rewritten in 2010, 2014 and 2023); strong
+  words never on a fund's payout (D2); never Graham's adjective for the range rule (WORDS); "the margin" is the 0.5%
+  alone and the 2.32% is "the room under the top" (WORDS).
+
+- **Its weakness:** a money fund promised a stable $1.00 to holders who could run; a Treasury fund that holds Treasuries
+  maturing in 2032 promises no amount, pays once, and no one can run on it. The parallel is the direction of rounding,
+  not the risk. Five ended funds is a thin record (no probability). It is an outside parallel: in 3c it displaces the
+  RBA, in 3e the gilt crisis.
+
+- **Source chain:** sec.gov complaint (2009) and testimony (1995) → card Q196 row 18; Graham (1973) → card Q193 rows 13,
+  14; iShares Trust (2026a) → card Q26 row 14, card Q208 row 6; NUMBERS 0, 3, 8u.
+
+- **Where it lands:** where the 0.5% margin is first defined (2.0's ink definition, or the note under Table 1 or Table
+  2), one clause; 3c's "rule behind each end" only if it beats the RBA in a cold read. Investment Strategy; Portfolio
+  Analysis.
+
+- **Figures:** 0.5%; about 0.27%; 0.066% (NUMBERS 0); about 2% in all, 2.32% (NUMBERS 3, 8u).
+
+- **Evidence gap:** read Rule 2a-7 as in force in 2008 for the half-percent clause itself, not through the complaint.
+
+- **Verdict:** keep; cold test against the RBA's slot.
+
+### SG-4. A safe lower bound needs no forecast and may leave nothing over
+
+Verdict: **keep; pedigree.** Cards Q196, Q193, Q189.
+
+- **Parts:** Q196-015 (Holmström 2015: the pawnbroker needs no exact price, "A safe lower bound is all that is needed");
+  Q193-002 (Graham 1973: the margin renders "unnecessary an accurate estimate of the future"); Q193-024 with Q193-022
+  (NASA-STD-5001B and NASA-HDBK-5026: factors first, then a margin of safety "as small as practicable, with zero as
+  acceptable"; Eurocode resistance factor 1.00 for steel, 1.5 for concrete); Q189-011 (at a chance of zero, shares give
+  $0 and the late-2032 fund what its holdings pay with no more interest); NUMBERS 2 (H_plain with the bill fund's fee
+  and every fund flow 0.5% smaller: "$0, nothing spare"; $1,177 left when costs stay inside the fee).
+- **The new thing:** Graham's margin removes the need to forecast by being large; the plan removes it by counting each
+  uncertain source at a safe lower bound (Treasury coupons and principal in full, fund flows less 0.5%, waiting cash and
+  shares at nothing). A bound that is safe may leave nothing over and still pass, as engineers accept a zero margin
+  after their factors. So "nothing spare" is the design, and the plan carries no buffer sized by judgment.
+- **Why it fits Laura:** D14; D2; NUMBERS 4's rule (each end is the zero-interest value, less 0.5%, rounded down).
+- **Against the frozen work:** none (CANON C5). "Nothing spare" only with the fee and the 0.5% fund costs.
+- **Its weakness:** NASA's limit load is the largest expected, Laura's $50,000 is exact (her load factor is 1.00);
+  engineering factors rest on tests, the 0.5% on five ended funds; engineering would be a second parallel in 3a
+  (unnamed). Bond readers know haircuts.
+- **Where it lands:** 3a beside the reserve schedule (D18), one clause; 3c's rule behind each end with Holmström in
+  References. One point with SB-1 and SE-2, made once.
+- **Verdict:** keep, pedigree.
+
+### SG-5. Matchers are hurt by rates only while they still trade; Laura's match is bought and then only waits
+
+Verdict: **keep; pedigree (3e).** Cards Q207, Q195, Q196.
+
+- **Parts:** Q207-001 (TPR, 10 Oct 2022: "primarily an issue about short term pressure on liquidity (rather than a
+  funding problem)"; liabilities "falling by up to 50%"); Q207-007 (sale proceeds "often three to four working days" to
+  settle); Q195-020 (Domanski, Shin & Sushko 2015: German insurers' demand for government bonds "became upward-sloping
+  in 2014" as yields fell); Q207-026 (NUMBERS 1 and 8u: $302,287 becomes $334,092 after a one-point fall before 1 Jan
+  2027; 3.57 points with the standard; after January 2028 no move in yields reaches a payment); Q196-004 (Gorton 2017:
+  safety at par on a date against "moneyness"); NUMBERS 8h and 8m (each holding pays out before its payment: the funds
+  about 17 days, the bonds 47 to 320 days).
+- **The new thing:** the two ways liability matchers have been hurt by rates both need the matcher to keep trading
+  after the match is set: buying more duration as yields fall (2014), meeting cash calls as yields rise (2022). Laura's
+  match is bought with cash on two dates and then only waits; it needs Gorton's first kind of safety, never the second,
+  and her slack exceeds the settlement time the regulator saw. Her one rate risk, a fall before she buys, ended in
+  January 2028; the other never starts.
+- **Why it fits Laura:** CANON A8-A10 (held to their dates; price noise ignored); TNA l.7; D20's gilt sentence.
+- **Against the frozen work:** none. Keep D20's words ("the portfolios that broke fastest were leveraged ones whose
+  funding could be called; no pension promise broke").
+- **Its weakness:** in 2027 the payments' money is about $39,000 short of the standard and waits for the deposit, so
+  "bought" holds from January 2028; German insurers' promises are longer and open, UK LDI was levered by design; the
+  three to four days is one regulator's figure for one week.
+- **Where it lands:** 3e (Portfolio Analysis), the frame around its one parallel, with the plan's own limit in the
+  same paragraph; German insurers unnamed.
+- **Verdict:** keep, pedigree.
+
+### SG-6. Every way a stated promise can fall short is an act of a named party; none is a market price
+
+Verdict: **keep; pedigree (3e's writers' frame).** Cards Q207, Q208, Q196, Q186, Q197.
+
+- **Parts:** Q207-027 (the one outside party who can turn a holding into cash early is a fund's sponsor: an IBTM end in
+  2031 with cash at zero leaves the top up to $4,589 short, NUMBERS 3; at today's market rates nothing); Q208-028 (a
+  fund pays less than its Treasuries only through costs beyond the fee, swapping its Treasuries for others of the same
+  year, a board's early end, merger or moved end, or lateness from a broker failure; a US default outside); Q196-010
+  (the three questions a fund holder has and a bond holder never does); Q186-013 (FAS 88's tests applied: irrevocable
+  no, responsibility moved no, risks eliminated yes from January 2028, so what is left is her own decision, which IPS
+  l.17 binds to two reasons); Q197-020 (of the deep risks, a default and a missed deposit still reach the payments);
+  NUMBERS 8u (about $118 short for each 0.1% of costs past the cover, centrally); card Q72 (SIPC's cap is on its top-up;
+  above it the risk is delay).
+- **The new thing:** 8u lists how promises break, Q208 how a fund falls short, Q186 what accounting leaves. Joined: from
+  January 2028 every way a stated promise can fall short is an act or failure of a party with a right over her holdings:
+  the US Treasury (a default: hold and wait), a fund's board and adviser (costs beyond the fee: the 0.5% margin; an
+  early end, merger or swap: her flexibility, at most about $4,600 if cash waiting earned nothing; swaps unsized), the
+  broker (a delay), and Laura herself (a sale: IPS l.17's two named reasons). No market price holds such a right. That
+  is voice round 13's form for 3e: one risk per sentence, who can act and who covers it.
+- **Against the frozen work:** none, if the two lists stay apart (CANON A34, card Q109). Guards: never "nobody can make
+  the plan sell" (a sponsor can end a fund early); swaps carry no figure until NUMBERS 3 sizes them; the missed deposit
+  belongs to 2027 and can be her own act (Q197-020's fix).
+- **Its weakness:** costs beyond the fee are contract terms, not an act; a broker failure is an event, not a right;
+  before January 2028 the deposit is a fifth input. The frame holds for stated figures after January 2028.
+- **Where it lands:** 3e (Portfolio Analysis; Creativity & Presentation), "how each promise breaks" (D2, D19).
+- **Figures:** $4,589 (NUMBERS 3); about $118 per 0.1% (8u); 2.32% (8u).
+- **Verdict:** keep, pedigree.
+
+### SG-7. In this plan history only sets limits; every promise rests on holdings
+
+Verdict: **keep; pedigree (Table 2's note), Wilks to the store.** Cards Q210, Q199, Q209.
+
+- **Parts:** Q210-002 (Hansen & Hodrick 1980: 198 overlapping observations hold "approximately 15" separate quarters,
+  worth "approximately 30"); Q210-010 (Wilks via Porter 2019: the worst of 59 independent runs bounds the 95th
+  percentile with 95% confidence; Taiwan's 17 separate spans give the worst about a 58% chance, Keel arithmetic);
+  Q210-008 and Q210-030 (NUMBERS 8q: 20 to 22 of 405 two-year windows above 28%, all from four episodes; the printing
+  rule); Q199-008 (NUMBERS 8s: the first plan fails in 25 of 1,758 US starting months, all bought October 1927 to
+  October 1929); Q209-016 (the first plan scores 96.8, 95.0, 95.9 and 98.6 by model and history).
+- **The new thing:** wherever the plan uses history (the 585-month replay, the rare year, Taiwan's four episodes, the
+  2000-03 replay, the first plan's US windows), history argues against relying on something: forward rates, a lucky
+  day, her flexibility in a cost burst, a share-led plan. It never props up a promise, because none of these histories
+  holds enough separate events to bound one. The plan's division (promises on holdings, limits on history) is also the
+  statistician's, and Table 2's note can say so in one line.
+- **Against the frozen work:** none; D7. Never "1 in 20" or "1 in 100" from overlapping windows; never a bare 55.6%.
+- **Its weakness:** the 585-month replay shapes the payments' sizing, by rejecting forwards rather than by bounding the
+  payments, so "never" must not read as history ignored; the house model, not history, is the base for odds.
+- **Where it lands:** Table 2's note; 3e, one line. Wilks is an outside parallel (store).
+- **Verdict:** keep, pedigree.
+
+### SG-8. Safe is a date, not an asset
+
+Verdict: **keep; pedigree (2.0).** Cards Q188, Q192, Q196.
+
+- **Parts:** Q188-001 and Q188-005 (Tobin 1958: his risky asset was a default-free government bond paying "stated cash
+  amounts at future dates"; "the relevant 'year' ahead ... is not the same for all investors"); Q192-008 (Campbell &
+  Viceira 2001: "long-term bonds, and not cash, are the riskless asset for long-term investors"; one-period bills are
+  "risky"); Q196-004 (Gorton 2017: safety at par on a date against moneyness); NUMBERS 2 (waiting cash counted at
+  nothing after the bill fund's fee).
+- **The new thing:** three sources from three decades make safety depend on the holder's date. Joined with ink, ink is
+  finance's riskless asset for a holder counted on ten Januaries, and the same Treasury is risky for Tobin's one-year
+  investor. The twist: in the payments the risky Treasury holding is the bill fund that holds waiting cash, which is why
+  the standard counts its return at nothing.
+- **Against the frozen work:** none (CANON A14, TNA l.7). Said of the five bonds and the Treasuries inside the funds,
+  never of a fund's payout (D2). Campbell and Viceira's riskless asset is inflation-indexed for real spending; Laura's
+  payments are fixed dollars, so nominal fits; never TIPS as an option.
+- **Its weakness:** Tobin's footnote is about transaction costs, not liabilities; finance readers know Campbell and
+  Viceira. A clause, never a turn.
+- **Where it lands:** 2.0, one clause after the ink definition, or 3a's why-zero sentence. D13 already names liability-
+  driven investing and Leibowitz in 2.0, so Campbell and Viceira (References) is the cheaper name.
+- **Verdict:** keep, pedigree.
+
+### SG-9. The "it doesn't matter" theorems stop at the case's rule
+
+Verdict: **keep; pedigree (3b or 2.3).** Cards Q169, Q191.
+
+- **Parts:** Q169-005 (Damodaran 2005: a Treasury bill is "a zero net present value investment"); Q169-007 (zero NPV
+  stops at Laura); Q191-005 (Black 1980: without tax "a firm's stockholders may not care" how the pension is split);
+  Q191-010 and Q191-013 (Tepper 1981: owners "can offset any corporate asset/liability decision on personal account";
+  shares in a pension fund "can only be rationalized by appealing to violations of the perfect markets assumptions");
+  NUMBERS 8o with D15 and WORDS ("gives up about $300 of expected return for each $5,000 made certain").
+- **The new thing:** Damodaran (value) and Black and Tepper (a pension's mix) say the safe choice costs nothing in value
+  to an owner who can undo it elsewhere. Joined, the condition fails for Laura at one place, the case's rule: no outside
+  money may meet the payments (l.91-92) and none is added after January 2028 (l.63-65); she has income (l.61-63), the
+  case bars it. So D15's price is fair at market and worth more than its price to her: "gives up", never "costs".
+- **Against the frozen work:** none (CANON A4-A5). Never "positive NPV"; never "she cannot borrow" as a fact of her life.
+- **Its weakness:** "worth more to her" is utility, not a NUMBERS figure; Black and Tepper speak of a firm and its
+  pensioners, two parties, and Laura is both; finance judges may call it human capital theory. Same root as SG-1, said
+  once.
+- **Where it lands:** 3b beside D15's sentence, or 2.3, one clause.
+- **Verdict:** keep, pedigree.
+
+### SG-10. A recession can reach the plan through two inputs it does not hold; order closes one, over-funding the other
+
+Verdict: **keep; pedigree (a set-up and payoff thread, 2.3 to 3a).** Cards Q206, Q205, Q168, Q193.
+
+- **Parts:** Q206-029 (NUMBERS 5 and 8u: the deposit pays the ten's $39,162 first, so it can arrive 73.9% smaller at
+  today's rates with all ten meeting the standard); Q206-021 (corrected per D4: one-person artists' and writers'
+  receipts -7.8% in 2009, after shares had fallen); Q205-001 and Q205-002 (Shiller, Campbell & Schoenholtz 1983: a
+  forward rate is locked only by someone who can borrow and lend at it; with coupon bonds and no borrowing, certainty is
+  bought by over-funding, the $36,774 of extra Treasuries); Q205-014, Q205-017, Q205-018 (forward rates missed most in
+  downturns, "hand in hand with ... declining stock prices", and the large surprises were cuts); Q168-003 (Keynes 1937:
+  "the rate of interest twenty years hence ... We simply do not know"); Q193-006 (Graham & Dodd 1940: safety "should be
+  measured under conditions of depression rather than prosperity").
+- **The new thing:** Q206 treats the deposit, Q205 the rate on waiting cash. Joined, they are the plan's only two inputs
+  not held when the ten are bought, and both fail in the same kind of downturn. The plan closes them with two tools: the
+  deposit by order, the rate by over-funding (counted at zero, Graham and Dodd's depression case). The report can plant
+  the first in 2.3 and pay off the second in 3a (ARGUMENT_TREE section 5).
+- **Against the frozen work:** none; supports aha 2, aha 5 and the trade note's "reinvested coupons fund the rest"
+  (CANON A17) as the forecast taken out. "Can", never "together" (CANON B4).
+- **Its weakness:** the same kind of downturn, not the same one: the deposit risk ends in January 2028, the rate risk
+  runs 2028-2042, when her career no longer reaches the plan. "About three-quarters" only "at today's rates".
+- **Where it lands:** the thread table; Keynes or Graham and Dodd at most one clause in 3a (3a's parallel stays the
+  lottery rule).
+- **Verdict:** keep, pedigree.
+
+### SG-11. Certainty underneath lets risk be taken on top, and the plan passes it on to the residents
+
+Verdict: **keep; aha candidate (the close).** Cards Q170, Q191, Q171.
+
+- **Parts:** Q170-005 (Shiller 2003, p. 110: tenure as risk management, guaranteeing a young achiever's income lets
+  universities "encourage them to take risks"); Q191-021 (Ralfe, Speed & Palin 2004, p. 17: Boots's matched pension:
+  "Reducing risk 'off balance sheet' in the pension fund allowed Boots to increase risk 'on balance sheet'"); Q171-006
+  (Noonan & Woronkowicz 2026: 2,400 New York artists paid $1,000 a month for 18 months worked 3.884 more hours a week on
+  art and 2.382 fewer on other jobs); Q171-021 with Q171-019 (Baumol & Bowen 1966: in the arts the last donor is the
+  artist, so a short year falls on residents); IPS l.19.
+- **The new thing:** three fields reached IPS l.19's division separately (a university, a FTSE company, an artists'
+  income study). The plan applies it twice: to Laura's money (none with the promises, VT with what is left) and through
+  the residency to its residents, because from January 2028 no year's operating money depends on a share price, so a
+  downturn does not make the residents the last donor of their own residency. The IPS's last line is then about the
+  residents' page as well as hers.
+- **The aha:** What the judge had backwards: a plan this careful takes no risks. The key: it takes none with the promises
+  so that risk is taken where the case wants it, in VT and on the residents' page; from January 2028 all ten are paid
+  even if cash waiting earns nothing (NUMBERS 2, 8u).
+- **Against the frozen work:** none; CANON A6's scope ("with these promises"); case l.85-86 (other operating support may
+  come from co-sponsors, grants, fees); D11 ("a base, not the residency's whole budget"). Never "no resident ever pays
+  for a market fall" (a fall before the move lowers the stated top and the building, Q171-021); never "proved" for the
+  study; never in Laura's words.
+- **Its weakness:** tenure guarantees a person, the ten an institution's base; residents' stipends depend on the whole
+  budget; the study paid individuals on need (matched comparison, part randomised, response 55.8% against 23.3%), a
+  residency chooses on merit; Boots chose its added risk, Laura did not choose her career's. Risk of sounding corny
+  (Ray, 3 Nov): one plain sentence or none.
+- **Where it lands:** the close (Articulation; Client Knowledge), in Caplet's register, no outside name; or 3a's "why one
+  step further".
+- **Verdict:** keep; cold test against IPS l.19 repeated plain.
+
+### SG-12. Only money promised to no one may wait for a recovery
+
+Verdict: **keep; pedigree (3c).** Cards Q198, Q197.
+
+- **Parts:** Q198-018 (Brown, Goetzmann & Ross 1995: a market studied because it survived shows mean reversion even if
+  prices wander at random); Q198-001 (Jorion & Goetzmann 1999: US real price gains 4.32% a year against a median of
+  0.75% of 39 markets); Q197-008 (NUMBERS 8u and 8p: the move on 1 January 2031 is the plan's one dated sale of shares;
+  $115,000 needs VT 10.6% above its January 2028 cost, $110,000 holds to a 21.2% fall, VT at zero leaves $95,000);
+  Q197-006 (Zweig on Bernstein: "Your own behavior can turn shallow risk into deep risk in a heartbeat"); NUMBERS 8r
+  (the move stays 1 January) and 8p (a 40% fall before the move gives about $95,000-$105,000, the bottom and every
+  payment unchanged).
+- **The new thing:** the evidence that share markets come back is partly painted by survival; the plan's one dated sale
+  is placed before anything is stated. Joined: a rule that waited for shares to recover before the move would bet
+  promised money on the one pattern survival manufactures; the plan moves on a date and lets only the half promised to
+  no one wait. Waiting is allowed exactly where a failed recovery lowers nothing anyone has been told.
+- **Against the frozen work:** none; IPS l.15 and l.17; CANON A32, A34 (it evaluates, adds no rule).
+- **Its weakness:** VT is a world fund, where survivorship bias is smaller; real mean reversion may exist; a dated move
+  can sell at a low (the price of stating only what is held: lowered, never broken); no one proposed a trigger, so it
+  answers a judge's question.
+- **Where it lands:** 3c, one clause on why the move has a date, or Table 3's note on row 5; the authors in References
+  (3c's parallel stays the RBA).
+- **Verdict:** keep, pedigree.
+
+### SG-13. Three professions count money only after an act
+
+Verdict: **keep; pedigree (3d, WORDS).** Cards Q186, Q200, Q173.
+
+- **Parts:** Q186-011 (FAS 88: bonds matched to a pension's dates "may avoid or minimize certain risks" but are no
+  settlement "because the investment decision can be reversed"); Q186-014 (ASC 715-30-55-140, -143: "The probability
+  of completion of the irrevocable action is not relevant"); Q200-001 (CASE, as quoted by Taylor 2021: a pledge is
+  recorded on "a signed document" "detailing at least the amount, purpose and payment period"); Q200-009 (UNC Chapel
+  Hill: "must collect 100% of the budgeted amount in cash before the construction project is awarded"); Q173-015 (FAS
+  140: restricted assets are disclosed because they show "what resources are unavailable to general creditors and for
+  general operations").
+- **The new thing:** ownership alone satisfies none of the three counts. An accountant would not call the ten settled
+  (she can sell), a gift office would not count her figure unsigned, a builder would not award a contract on a pledge.
+  Each wants an act: an irrevocable transfer, a signature, cash. The plan supplies the signature (3d's pledge letter)
+  and the cash (a Treasury fund that holds Treasuries maturing in 2032 pays its holders everything it then has about
+  15 December 2032, before the case's January 2033 contribution), and declines the irrevocable act for a reason in the
+  IPS: l.17 keeps two named reasons to change. So the report says "held for her", never "paid" or "settled"; and FAS
+  140's reason for disclosure is 3d's reason to tell co-sponsors what is spoken for.
+- **Against the frozen work:** none (IPS l.15, l.17; CANON A32, A34; D8, D12). Never an irrevocable trust as a
+  recommendation (frozen strategy; Taiwan law out of scope); never "secured"; never her flexibility sized or stated to
+  co-sponsors; Spelman stays 3d's one parallel.
+- **Its weakness:** UNC is a public university's rule; CASE read only as quoted; the ASC rules govern pension sponsors'
+  books, not a person; co-sponsors are not creditors.
+- **Where it lands:** 3d (Client Knowledge; the co-sponsor language), one clause behind "signed as well as held" (aha
+  8); WORDS.
+- **Verdict:** keep, pedigree.
+
+### SG-14. Funders name their gifts in their own money
+
+Verdict: **keep; pedigree (3d's currency clause).** Cards Q201, Q203.
+
+- **Parts:** Q201-026 (every capital-grant rule read names its sum in its own currency and none moves with an exchange
+  rate: Taiwan's Ministry of Culture, Arts Council England, Washington State Commerce 2022); Q203-001 (IDA's founding
+  rule: a member whose currency fell paid "an additional amount ... sufficient to maintain the value"); Q203-004 (IDA
+  Resolution 248, 2022, para 6(d): "maintenance of value will not be applicable"); Q203-021 (ink only in the currency
+  the promise is paid in; nothing she holds pays Taiwan dollars); Q203-022 and Q203-023 (NUMBERS 8j: $115,000 is NT$3.77m
+  at 32.768 on 6 Nov 2026; about $11,500 keeps her own contribution's NT$ value whole after a 10% stronger Taiwan
+  dollar; her flexibility alone covers that in about 93 of 100).
+- **The new thing:** Q201 and Q203 each settled half of D9. Joined: the funders' norm is a gift fixed in the giver's own
+  money, and the one institution found that wrote in a duty to make good a currency fall withdrew it. Laura's US-dollar
+  figure is the norm; her capped, voluntary Taiwan-dollar top-up is a courtesy beyond any capital funder read. That
+  answers a campaign judge who reads the US-dollar figure as a hole.
+- **Against the frozen work:** none (IPS l.15; D9; CANON A31). Never VT as a Taiwan-dollar hedge; never a NT$ figure
+  without its day; "the Treasury fund that pays it pays US dollars" (D2, Q203-029).
+- **Its weakness:** IDA's members were governments and IDA replaced the clause with its own hedges; "every rule read" is
+  three bodies, not a census; a residency in Taiwan could reasonably prefer NT$, and the plan's reason is what it holds.
+- **Where it lands:** 3d's currency clause and 3b, one clause, unnamed ("no capital-grant rule we read moves with an
+  exchange rate"); IDA in Table 3 row 7's note or the store.
+- **Verdict:** keep, pedigree.
+
+### Built, dropped (kept for the record)
+
+- **She holds the junior claim of her own plan (Q196-008 Gorton's tranching, Q191-001 Black, Q168-013 Knight, the
+  deletion test).** Dropped: it is liability-driven investing's hedging and performance portfolios under another name,
+  which D13 already names in 2.0, and the tranching word misleads (separate assets, not one pool's waterfall).
+- **Shares at zero has happened (Q197-024 Russia and China, Q198-010 FTSE's deletion of Russia at zero on 7 Mar 2022,
+  Q189-011).** Dropped: the deletion test leads already; the history would invite a co-sponsor to read VT as at risk of
+  total loss, which no world index has suffered. Store fact for a judge's question.
+- **Ten picks for dates, one refusal for prices, two countries (Q175-017, Q198-032, Q198-003).** Dropped: Q198-032 already
+  carries the join, and with Jorion and Goetzmann's figures it becomes Keel's defence of VT, which 3f tells in the team's
+  own words (card Q46's eight reasons).
+- **Each step is one she will want to take (Q165-011 Strotz, Q188-006, Q186-011).** Dropped: false for the ten; in a share
+  boom a sale would tempt, and IPS l.17 is what holds.
+- **The rate gap prices the Taiwan dollar near its strongest (Q169-018, Q203-022, Q210-029).** Dropped: a forward
+  exchange rate is implied by interest rates, not a forecast, and its figure (about 27.6 to the dollar for 2033) is
+  Keel arithmetic outside NUMBERS; to the numbers owner, store until then.
+- **Hamilton's means of extinguishment was a tax; Laura's must be held (Q194-001, Q194-002).** Folded into SG-1 (the
+  Confederation's 15 to 25 cents as the price of a promise no one could refill); Hamilton's own record (Q194-008: the old
+  domestic debt budgeted at 4%, not paid as written) makes him a poor patron for the rule.

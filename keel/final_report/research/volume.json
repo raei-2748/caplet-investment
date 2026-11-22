@@ -1,25 +1,25 @@
 {
- "built": "2026-11-22T09:49+11:00",
+ "built": "2026-11-22T19:53+11:00",
  "today": "2026-11-22",
- "store_ideas": 9820,
+ "store_ideas": 10064,
  "store_judged": 8990,
  "totals": {
-  "workers": 444,
-  "cards": 241,
-  "rows": 8560,
-  "sources": 8333,
-  "passages": 149,
-  "readings": 72
+  "workers": 467,
+  "cards": 249,
+  "rows": 8804,
+  "sources": 8576,
+  "passages": 156,
+  "readings": 76
  },
  "days": [
   {
    "day": "2026-11-22",
-   "workers": 24,
-   "cards": 23,
-   "rows": 710,
-   "sources": 441,
-   "passages": 24,
-   "readings": 16
+   "workers": 47,
+   "cards": 31,
+   "rows": 954,
+   "sources": 684,
+   "passages": 31,
+   "readings": 20
   },
   {
    "day": "2026-11-20",
@@ -227,6 +227,14 @@
    "analysis_workers": "7",
    "readers": "10",
    "notes": "Days 14 and 15 together, paced at about half last week's volume while the pacing decision waits (the weekly limit resets Sun 29 Nov 09:00). Structure from the material: the argument tree (ARGUMENT_TREE.md: governing thought, seven branches, ten ahas re-slotted, one outside parallel per part, forty goldmine nuggets placed), the lead decided (the deletion test), SKELETON and CASE_MAP section D refined, Caplet's one-page shape (caplet/FR_SHAPE_2026-11-22.md). Third research round aimed at the attacks: seven second-wave cards (Q203-Q206, Q208-Q210), every row rated the same day by three raters (DV, DW, DX; 331 rows). Voice round 13 (two long pieces, six blind readers, per paragraph and from memory) and round 12 (two writers, four blind readers, the Why column); fact sheet versions 4 and 5. Store 9,820."
+  },
+  {
+   "date": "2026-11-22",
+   "run": "evening (paced, about half volume)",
+   "research_workers": "7",
+   "analysis_workers": "5",
+   "readers": "11",
+   "notes": "Paced at about half last week's volume while the pacing decision waits. Seven research workers, each reading primary sources whole: four read the report's placed outside parallels at source (cards Q211 the California State Lottery Commission's investment policy, Q212 the RBA's forward guidance, Q213 pledges counted and Lehman's pledge to Spelman, Q214 the 2022 gilt crisis) and three took Sat 21's themes (Q215 graphic memoirists' income, Q216 what residencies do, Q217 the Taiwan dollar 1985-1992); about 60 sources read in full and about 225 at source; 230 rows. Analysis: the syntheses card Q218 (20 built, 14 kept), the second-way check of 66 tree figures (four fixed), and three raters (DY, DZ, EA) rating every new row the same evening, with overrides on older rows the cards corrected. Readers: two fresh writers, four blind readers and two blind scorers for voice round 14 (the continuing exercise restored \"we\"; the cold retelling caught 2 of Caplet's 5 failed lines), and three cold readers for aha test 9 (owned against signed kept 3d's slot, 3.3 / 3.7). Claims kept 6, changed 7, killed 2. Store 10,064."
   }
  ],
  "cards": [

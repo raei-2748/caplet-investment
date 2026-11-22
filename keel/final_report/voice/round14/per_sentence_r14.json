@@ -1,0 +1,3621 @@
+{
+ "L01": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "L02": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "L03": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "L04": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "L05": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R",
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "L06": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "?",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 3,
+   "sense": "?",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "?",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 3,
+   "sense": "?",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  }
+ ],
+ "L07": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "L08": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "L09": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 3,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 3,
+   "sense": "?",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "L10": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 3,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "L11": [
+  {
+   "reader": 1,
+   "follow": 3,
+   "sense": "?",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "N",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "?",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "L12": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "?"
+   ],
+   "caught": false
+  }
+ ],
+ "L13": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "L14": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "?",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "N",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  }
+ ],
+ "L15": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "L16": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "L17": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E",
+    "R"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "L18": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "L19": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "L20": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M",
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R",
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "L21": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "Y3.1": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "?"
+   ],
+   "caught": false
+  }
+ ],
+ "Y3.2": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  }
+ ],
+ "Y3.3": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y3.4": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  }
+ ],
+ "Y3.5": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "Y3.6": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "?"
+   ],
+   "caught": false
+  }
+ ],
+ "Y3.7": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "?"
+   ],
+   "caught": false
+  }
+ ],
+ "Y3.8": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y3.9": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y3.10": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y3.11": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y3.12": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y3.13": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "C4.1": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "?",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "?",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "?",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "?",
+   "marks": [],
+   "caught": true
+  }
+ ],
+ "C4.2": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "C4.3": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  }
+ ],
+ "C4.4": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "C4.5": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "C4.6": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "C4.7": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "?",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "C3.1": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "C3.2": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "N",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "?",
+   "marks": [
+    "E",
+    "R"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "C3.3": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "?"
+   ],
+   "caught": false
+  }
+ ],
+ "C3.4": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "C3.5": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "Z3.1": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.2": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E",
+    "?"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.3": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E",
+    "R"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.4": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.5": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.6": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.7": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  }
+ ],
+ "Z3.8": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.9": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.10": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.11": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  }
+ ],
+ "Z3.12": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.13": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.14": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z3.15": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y5.1": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "Y5.2": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "Y5.3": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y5.4": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E",
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E",
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E",
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E",
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y5.5": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y5.6": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "Y5.7": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "N",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "N",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y5.8": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y5.9": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Y5.10": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "X3.1": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "X3.2": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "X3.3": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "X3.4": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "X3.5": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "X3.6": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "X3.7": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "?"
+   ],
+   "caught": false
+  }
+ ],
+ "X3.8": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "X3.9": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "X3.10": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "X3.11": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  }
+ ],
+ "Z5.1": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "?"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.2": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "?"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.3": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "N",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.4": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "R"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "?",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "?"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.5": [
+  {
+   "reader": 1,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.6": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.7": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.8": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.9": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.10": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.11": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "M"
+   ],
+   "caught": true
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "?"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.12": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ],
+ "Z5.13": [
+  {
+   "reader": 1,
+   "follow": 1,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 2,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 3,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  },
+  {
+   "reader": 4,
+   "follow": 2,
+   "sense": "Y",
+   "marks": [
+    "E"
+   ],
+   "caught": false
+  }
+ ]
+}

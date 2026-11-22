@@ -108,7 +108,11 @@ exhibit's note).**
   Q12-001, Q12-004, Q12-008); this is why Table 3 row 1 asks for written confirmation by 1 December 2027. *(Density cut, Tue 17 Nov: the idea stays, in words; its figures live where `research/meta/DENSITY_CUT_2026-11-17.md` says.)* *(Wed 18 Nov morning: kept as note 1's one evidence clause, in words.)*
 - 3a: one public precedent beside the extra Treasuries: a state lottery that pays fixed prizes matures its holdings
   just before each payment and buys reserve bonds against reinvestment risk on purpose (Q16-018, Q16-020). Name the
-  practice, never the instrument it uses where that is a STRIPS.
+  practice, never the instrument it uses where that is a STRIPS. *(Sun 22 Nov evening, card Q211 read at source: the "reserve bonds against reinvestment
+  risk" half is wrong (its $2m of spare bonds cover credit risk, 0.27% of face value; its "reinvestment risk" is a bond
+  called early). The rule is the Lottery Commission's investment policy, quoted whole in ARGUMENT_TREE branch 2, and its
+  break is the point: the lottery holds zero-coupon Treasuries, which this year's rules do not let Laura hold, so her
+  extra Treasuries are what that rule costs her (GOLDMINE 41, placed here Sun 22 Nov evening). ARGUMENT_TREE wins.)*
 - 3a: one clause from the cultural field for "how your strategy supports the ten-year operating commitment": reserves
   come before buildings (Q9-009), and founder-led institutions close within about ten years, for money (Q9-016).
   Thesis 8 ("residencies run out of running money, not building money"). *(Density cut, Tue 17 Nov: the idea stays, in words; its figures live where `research/meta/DENSITY_CUT_2026-11-17.md` says.)*
