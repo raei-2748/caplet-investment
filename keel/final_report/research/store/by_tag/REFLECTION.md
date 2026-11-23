@@ -1,4 +1,4 @@
-# REFLECTION (REFLECTION): 12 ideas, ranked
+# REFLECTION (REFLECTION): 15 ideas, ranked
 
 Built by `../build_store.py`; do not edit by hand (change `../ratings.csv` instead). Full rows are in `../insights.jsonl` and in the harvest file named in each row.
 
@@ -15,4 +15,7 @@ Built by `../build_store.py`; do not edit by hand (change `../ratings.csv` inste
 | 9 | Q13-004 | 16 (3 3 3 4) | B | keep | A decision journal: "write down what you decided, why you decided as you did, what you expect to happen ... immunize yourself against hindsight bias"; Kahneman's advice, passed on by Mauboussin: "go down to a local drug… | Mauboussin, The Knowledge Project No. 4 (fs.blog); The Motley Fool (19 Sep 2012) | no |
 | 10 | Q13-015 | 16 (2 5 3 4) | B | keep | Superforecasters updated their forecasts more often: 2.77 times per question against 1.47 for other forecasters | Mellers et al. (2015), Perspectives on Psychological Science 10(3), 267-281 | no |
 | 11 | Q13-023 | 16 (3 3 3 4) | B | keep | Concrete ideas stick, and the "curse of knowledge" blocks them: in Newton's (1990) study, tappers expected listeners to name about half of 120 tapped songs, and listeners named 3 | Heath & Heath (2007), Made to Stick (Random House), via Castellion's (2008) review in the Journal of Product Innovation Management | no |
-| 12 | Q13-013 | 14 (2 3 3 4) | C | keep | Good forecasters improve by "working in teams, keeping score, and being willing to admit error and change course"; the book calls this "perpetual beta" | Tetlock & Gardner (2015), Superforecasting (Crown), chapters "Superteams" and "Perpetual Beta" | no |
+| 12 | Q228-023 | 16 (2 4 5 3) | B | keep | Experts who exaggerated their skill tended to "balk at acknowledging mistakes"; tournaments force losers to "acknowledge mistakes or trivialize them" | Tetlock et al. (2014), p. 290-291 | no |
+| 13 | Q13-013 | 14 (2 3 3 4) | C | keep | Good forecasters improve by "working in teams, keeping score, and being willing to admit error and change course"; the book calls this "perpetual beta" | Tetlock & Gardner (2015), Superforecasting (Crown), chapters "Superteams" and "Perpetual Beta" | no |
+| 14 | Q228-026 | 13 (2 3 4 2) | C | adapt | Decision quality has six requirements: an appropriate frame, creative alternatives, relevant and reliable information, clear values and tradeoffs, sound reasoning, and commitment to action; "A good decision requires qua… | Spetzler, Winter & Meyer (2016), Decision Quality, ch. 2 (opening only readable) | no |
+| 15 | Q228-014 | 12 (2 2 2 4) | C | adapt | "Decisions are bets on the future, and they aren't 'right' or 'wrong'"; "Redefining wrong allows us to let go of all the anguish that comes from getting a bad result" | Duke (2018), ch. 1 | no |
