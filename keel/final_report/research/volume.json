@@ -1,25 +1,25 @@
 {
- "built": "2026-11-23T07:25+11:00",
+ "built": "2026-11-23T19:35+11:00",
  "today": "2026-11-23",
- "store_ideas": 10236,
- "store_judged": 9408,
+ "store_ideas": 10425,
+ "store_judged": 9597,
  "totals": {
-  "workers": 492,
-  "cards": 254,
-  "rows": 8976,
-  "sources": 8695,
-  "passages": 156,
-  "readings": 79
+  "workers": 508,
+  "cards": 260,
+  "rows": 9165,
+  "sources": 8760,
+  "passages": 162,
+  "readings": 85
  },
  "days": [
   {
    "day": "2026-11-23",
-   "workers": 25,
-   "cards": 5,
-   "rows": 172,
-   "sources": 119,
-   "passages": 0,
-   "readings": 3
+   "workers": 41,
+   "cards": 11,
+   "rows": 361,
+   "sources": 184,
+   "passages": 6,
+   "readings": 9
   },
   {
    "day": "2026-11-22",
@@ -150,14 +150,6 @@
  ],
  "runs": [
   {
-   "date": "2026-11-16",
-   "run": "evening (overdrive)",
-   "research_workers": "13",
-   "analysis_workers": "20",
-   "readers": "15",
-   "notes": "Thirteen research workers: cards Q82-Q94 (proofs and trade customs; seals and pledges in Taiwan; forecast rules in Taiwan and Japan; building costs and world shares re-derived; giving against means; the price of certainty; implementation shortfall; one issuer; pledges at a discount; dissent in teams; Taiwan's political calendar; why no bond matures 2031-2036; guidance heard as a promise), 482 rows from about 490 sources read at source; thirteen raters judged every row the same evening; five analysis workers (custody balance and the waiting-cash replay, NUMBERS 8t; Figure 1 and Table 2 rebuilt; why a range once both ends are owned; people in the reflection; the coherence and bond readers' fixes) and two fresh voice writers; fifteen readers: panel 3 (three judges), bond desk 4, coherence reader 6, four funders (which figure is booked), three voice readers (round 5) and three cold aha readers"
-  },
-  {
    "date": "2026-11-17",
    "run": "morning (overdrive)",
    "research_workers": "14",
@@ -244,6 +236,14 @@
    "analysis_workers": "8",
    "readers": "8",
    "notes": "Sources and exhibits, with judging panel 5. Research: five cards on assumptions and watching (Q219 trial stopping rules, Q220 Everest's turnaround times, Q221 Citicorp, Q222 how many signals one watcher can follow, Q223 kill criteria and tripwires), 172 rows, every row rated the same morning by three raters (store 10,236), and four sources checkers who opened every work the report will cite at source (201 checks, 173 ready to cite in APA 7, research/WORKS_CITED_DRAFT.md). Analysis: the numbers owner (NUMBERS 8x: the Taiwan dollar 1986-88 from the currency alone, register lines for the second-way figures), the exhibits builder (seven exhibits rebuilt to the argument tree; the dots replace Table 2), three raters, a blind depth scorer and two voice writers. Readers: panel 5's three blind judges (top 50 likely, top 10 not yet; density, 3d's range and 3f's length fixed in the tree the same morning), three voice readers (round 15: depth came from the fact sheet, now version 7) and two fresh exhibit readers."
+  },
+  {
+   "date": "2026-11-23",
+   "run": "day 16 evening (paced, about half volume)",
+   "research_workers": "6",
+   "analysis_workers": "4",
+   "readers": "6",
+   "notes": "The Team Reflection's three moments. Six research workers, each reading primary sources at source (cards Q224 testing your own plan: Feynman, Popper, Mayo; Q225 order errors and the Swiss cheese model: Mizuho 2005, Knight 2012, Reason; Q226 how investors write about their mistakes; Q227 adversarial collaboration and the copout, a level deeper; Q228 judging by process: Duke, Tetlock, Baron and Hershey; Q229 satisficing and the half kept), about 60 sources, 189 rows, every row rated the same evening (store 10,425). Analysis: the numbers owner (NUMBERS 9: the 2000-03 share fall on MSCI's own price series, more than 40%), one voice writer and two raters (EE, EF). Readers: six blind readers for voice round 16 (the signature turn 0 of 3 first time; 3d plain, final). Claims kept 4, changed 15, killed 2."
   }
  ],
  "cards": [

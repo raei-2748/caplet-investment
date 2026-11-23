@@ -495,11 +495,11 @@ MSCI Inc. (2026a). *MSCI ACWI Index (USD), price, end-of-month levels* [Data set
 
 MSCI Inc. (2026b). *MSCI ACWI Index (USD), gross, end-of-month levels* [Data set; index code 892400]. Retrieved November 23, 2026, from https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph
 
-<sub>Supports: 3e (replay). Checked: S3 #49, verified.</sub>
+<sub>Supports: 3e (replay). Checked: S3 #49, verified. **Mon 23 Nov evening: not cited.** The report's 2000-03 fall ("more than 40%") rests on the price series alone (NUMBERS 9, the series item closed); the old figures spliced this gross series with the price series. Kept here only as the record of the check.</sub>
 
 MSCI Inc. (n.d.). [MSCI ACWI Index, USD, price, end-of-month levels, index code 892400] [Data set]. Retrieved November 23, 2026, from https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph?currency_symbol=USD&index_variant=STRD&start_date=19991201&end_date=20030228&data_frequency=END_OF_MONTH&index_codes=892400
 
-<sub>Supports: 3e (aha row 9). Checked: S4 #50, verified.</sub>
+<sub>Supports: 3e (aha row 9). Checked: S4 #50, verified. **Mon 23 Nov evening:** the same data set as MSCI Inc. (2026a); the report cites one of the two, 2026a, so this entry is not listed separately.</sub>
 
 Municipal Securities Rulemaking Board. (2013). *MSRB glossary of municipal securities terms* (3rd ed.). https://www.msrb.org/sites/default/files/2022-08/MSRB-Glossary-of-Municipal-Securities-Terms-Third_Edition-August-2013.pdf
 

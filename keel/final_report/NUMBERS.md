@@ -3209,3 +3209,39 @@ end-January 2003, -40.9% to end-December 2002 and -44.2% from end-December 1999 
 -42.1% ("start-of-month calendar") and -40.6% ("month-end to month-end", 8x) come from neither on its own, and may
 splice in the gross series, which starts on 29 December 2000. Name the series behind each and re-run on one series
 read at source. The report's "about 42%" holds on either; no figure is used beyond it until this is closed.
+
+**Mon 23 Nov, evening: closed (the 2000-2003 replay's series; sources check S4, row 50).** Code: `numbers/twd_whole_series.py`
+F4 (l.333-340), data `research/cards/data/Q85_msci_acwi_price_usd_checkpoints.csv` and `Q85_msci_acwi_gross_usd_checkpoints.csv`
+(card Q85's read of 16 Nov). **What produced the old figures:** a splice. Price index to the December 2000 close, then the
+GROSS-return index from 29 December 2000 (its first date), chained as price growth to Dec 2000 times gross growth after:
+-42.1% = (290.11/341.63) x (258.80/379.86) - 1 (Dec 1999 close to Dec 2002 close); -40.6% = (290.11/322.83) x
+(251.24/379.86) - 1 (Jan 2000 close to Jan 2003 close). Both are a price-then-gross hybrid, not one series, so neither is a
+figure MSCI publishes (re-run by `numbers/replay_2000_2003_series_2026-11-23.py`, which reproduces -42.14% and -40.56%).
+**Series now used:** MSCI ACWI Index, USD, PRICE (variant STRD, code 892400), end-of-month levels, read at source Mon 23 Nov 2026,
+https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph?currency_symbol=USD&index_variant=STRD&start_date=19991201&end_date=20030228&data_frequency=END_OF_MONTH&index_codes=892400
+(read through the WebFetch tool; curl was blocked in this session; gross and net were not re-read, since neither is served before 29 Dec 2000).
+Levels: 31 Dec 1999 341.626; 31 Jan 2000 322.834; 31 Dec 2002 190.797; 31 Jan 2003 185.033 (and 29 Dec 2000 290.113, 31 Dec 2004 284.521, card Q85).
+**Results (Keel arithmetic on those levels):** end-Jan 2000 to end-Jan 2003 **-42.68%**; end-Jan 2000 to end-Dec 2002 -40.90%;
+end-Dec 1999 to end-Dec 2002 -44.15%; end-Dec 1999 to end-Jan 2003 -45.84%. Price only, dividends not counted
+(they would make the fall a little smaller; no gross ACWI exists at MSCI before 29 Dec 2000, so no total-return figure is
+printed for these dates). Files: `numbers/results_replay_2000_2003_series_2026-11-23.json`.
+**The figure the register keeps:** the replay's fall is **-42.7%, MSCI ACWI price index in US dollars, end of January 2000 to
+end of January 2003** (the same month-labelled window as the building figures, which read the January 2003 index month onward).
+-42.1% and -40.6% are retired. **Wording:** prose says "more than 40%" or, if a number is wanted, "about 43%" (42.68 rounds to
+43; "about 42%" is 0.7 point off and is not supported by this series); with Laura's own calendar (start of January 2000 to start of
+January 2003 = Dec close to Dec close) it is "about 44%". "About 42%" cannot be defended on the price series on any of the three windows
+(-40.9, -42.7, -44.2), so the lead should change the words to "about 43%" or "more than 40%" (decision for the lead; the register's rule
+is never to print beyond the series).
+**Aha numbers:** the world-share fall belongs to aha 9 (3e's replay), not aha 3: AHA_REGISTER aha 3 is the rare year in the ten payments' cost
+($287,938 on 5 Oct 2026, window from August 2007) and quotes no share fall, so aha 3 is unaffected. (CLAUDE.md's "aha 3 ... about 42%" header text
+means the 2000-03 replay and should read aha 9.)
+**Does the replay's other output move?** No. The building's +18.4% (NT$) and +27.2% (US$), Jan 2003 to Dec 2004, come from DGBAS and
+EXTAUS (card Q131's file), not from the share series; no range end, payment or reserve figure uses the share fall (F4 feeds only the printed
+sentence). Nothing re-run beyond the fall. The same row's "rising 56-57%" afterwards (AHA_REGISTER aha 9 text, from the same splice) is NOT
+re-run here: price-only end-Jan 2003 to end-Dec 2004 is +53.8%; recompute the rise on the price series before printing it, or say "rose again".
+**Files quoting the old -42.1% / -40.6% (for the lead; dated records left):** `NUMBERS.md` l.2898 (8x row, now superseded by this entry),
+l.3051 and l.3209; `ARGUMENT_TREE.md` l.316-317 (aha 9 line, "-42.1% ... -40.6% ... say about 42%"); `numbers/SECOND_WAY_2026-11-22.md` l.51, l.175;
+`numbers/twd_whole_series.py` l.335-340 (assertion on the old values; left so the Nov 22 result still reproduces) and
+`numbers/results_twd_whole_series_2026-11-22.json`; `research/goldmine/AHA_REGISTER.md` row 9 ("41-42% down", "rising 56-57%");
+`research/sources_check/S3.md` and `S4.md` (row 49-50 entries, citation to carry the PRICE series, retrieved 23 Nov 2026); `CLAUDE.md` header ("about 42%").
+Dated records, left: cards (Q85, Q66, Q61, Q131 data), the store and ratings, panels, voice rounds.

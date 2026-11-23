@@ -1,0 +1,53 @@
+{
+ "added_sentence": "A signature is the other kind of ink: so far, ink has meant money that Treasuries held for Laura will pay, and her signature is her written promise to give it, the kind of ink a funder can count.",
+ "readers": {
+  "1": {
+   "arm": "T",
+   "role": "prof",
+   "added_index": 2
+  },
+  "2": {
+   "arm": "T",
+   "role": "literal",
+   "added_index": 2
+  },
+  "3": {
+   "arm": "T",
+   "role": "client",
+   "added_index": 2
+  },
+  "4": {
+   "arm": "P",
+   "role": "prof",
+   "added_index": null
+  },
+  "5": {
+   "arm": "P",
+   "role": "literal",
+   "added_index": null
+  },
+  "6": {
+   "arm": "P",
+   "role": "client",
+   "added_index": null
+  }
+ },
+ "we_per_100_words": {
+  "C": [
+   0.66,
+   151
+  ],
+  "D": [
+   1.01,
+   99
+  ],
+  "P": [
+   1.32,
+   228
+  ],
+  "T": [
+   1.12,
+   267
+  ]
+ }
+}

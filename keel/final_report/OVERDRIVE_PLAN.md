@@ -103,6 +103,18 @@ schedule stays Figure 1, and the dots replace Table 2 as Figure 2. The page budg
 words, Section 3 about 1,650). Voice round 15 tested depth (`voice/ROUND15.md`); fact sheet version 7. Rounds 17-18
 (the contribution and the range, whole) were round 15's design, run a round early. Volume about half a full run.
 
+**As run, Mon 23 Nov evening (Day 16, paced at about half volume).** The eight evening questions ran as six cards,
+Q224-Q229 (Feynman and Popper with Mayo's severe testing as one card; order errors with Reason's Swiss cheese; how
+investors write about mistakes; adversarial collaboration with the copout a level deeper; Duke's resulting with Tetlock;
+Simon's satisficing and the half kept), about 60 sources read at source, 189 rows, every row rated the same evening
+(store 10,425). Claims kept 4, changed 15, killed 2: 3f's borrowed words go ("severe", "until it breaks",
+"four-eyes", satisficing), each account gets its order and one thing now done differently (GOLDMINE 42), the copout
+its lesson in the team's words (GOLDMINE 43), half its reason for stopping. Voice round 16 tested panel 5's open
+question: the signature turn was followed first time by 0 of 3 readers, so 3d is plain, final; its readers also found
+four faults in Laura's words that came from the brief and the fact sheet, fixed in the tree and FACTS_PLAIN version 7.
+NUMBERS 9's 2000-03 share series closed ("more than 40%"). Of the four slots a level deeper, the copout card's
+best ideas ran inside Q227; the other three were not used at half volume.
+
 ## The questions for each run
 
 The part of the report each question serves is in brackets. Every researcher is briefed to find the relation that does

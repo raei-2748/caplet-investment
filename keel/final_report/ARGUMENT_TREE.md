@@ -105,6 +105,11 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   registered Mon 23 Nov, NUMBERS 8x), and only with the sentence that explains the gap; otherwise left out
   (panel 5, Mon 23 Nov: Section 2 keeps either the implementation detail or the background-risk citations in prose,
   not both, so the DV01 and the per-payment table go to the note or out). The mis-click only as the reason for the one-trader rule.
+  That rule is one person, never "four-eyes" (which is two, card Q225-027/028); the layer the click met was the lack of
+  an undo, not of a confirmation, so the rule covers "any action on an order", never "trades that cannot be undone";
+  and the honest account of the cost is the clock: the order was placed again about nine hours before New York opened,
+  before any fill was possible (Q225-026/030; the cancel's own time is only inferred from the record, so the report
+  says "before the market opened", never a figure). Never "a layer was in place".
 - **Headline number.** $302,287: what the ten cost on the plan's instruments at the 6 Nov close, $2,287 above the first
   deposit, which IPS l.13's completion clause covers ($2,388 in January 2028 money). Said in 2.1, beside the table.
 - **Ahas.** 2.3: the order of purchase (row 2 now, section 4). 2.5: the rare year (row 3).
@@ -167,7 +172,12 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   the central case, with Table 2's bad world beside it (a 40% fall before the move gives about $95,000-$105,000), never
   as a fixed figure against a fixed figure. Each $5,000
   more of stated top gives up about $270 of expected return for each $5,000 made certain (D15, in the register's form, NUMBERS 8o's $267, Mon 23 Nov; never "costs her $5,300
-  of what she keeps"). Half is Caplet's choice in the IPS's order of cause, never "optimal".
+  of what she keeps"). Half is Caplet's choice in the IPS's order of cause, never "optimal". Its reason for
+  stopping there (card Q229, Mon 23 Nov evening): half was set in the IPS, not found by a search, and it sits on a flat
+  stretch, since anything from 44.5% to 57.3% moved states the same $115,000 and what she has beyond the ten moves by a
+  median of about $365 between splits (NUMBERS 8o, l.1805-1809); so the report gives the reason it stopped, never a
+  claim that stopping beats searching, and 1/N (DeMiguel et al.) is pedigree at most, since it is about many assets and
+  shows nothing about this split.
 - **What her flexibility is for, in the IPS's own order.** Overruns, a stronger Taiwan dollar, a co-sponsor falling
   short (no ranking of ours). About $21,200 in the central case; about $28,700 with anything above the top; about $9,600
   in 1 future in 20. It covers a rise of about 25% in the cost of her share, if shares earn the 7.5% a year assumed (D9's subject; WORDS l.69 keeps "about a quarter" for 26.1%; never "a building-cost rise of
@@ -231,8 +241,13 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   is (panel 5, Mon 23 Nov, the bond and campaign judges: the case asks for a range "rather than promising one exact
   amount" and for how confident she is, so her words say both ends, "$95,000 held for me since January 2028, and up to
   $115,000 held since I moved my shares", one plain sentence of confidence, the Treasuries as its subject, and then
-  why she signs for the top: IPS l.15, "whatever figure you choose is money you already own"); her whole commitment, ten payments of $50,000 held in
-  Treasuries from January 2028 and $115,000 for the building, about $615,000; the figure's date and form, a signed
+  why she signs for the top: IPS l.15, "whatever figure you choose is money you already own", which says why she can
+  sign any figure, so her words add why the top rather than the bottom (voice round 16, four of six readers asked):
+  the half moved in January 2031 is the building's half from the start (IPS l.15: its returns "help determine your
+  maximum facility contribution"; the other half is "promised to no one"), and once moved it is held, so she gives the
+  top without touching her flexibility); her whole commitment, ten payments of $50,000, bought from January 2027 and
+  complete since January 2028 (round 16: "held since January 2028" read as wrong after the first purchase was told),
+  and $115,000 for the building, about $615,000; the figure's date and form, a signed
   pledge letter (amount, purpose, date), the form a gift office counts; what she asks of them; what is never asked.
 - **Why signed as well as held (cards Q200, Q213).** Owning shows the money exists; a signature says it will be given. A gift
   office counts a promise on verifiable paper (FAS 116 para 6, now ASC 958-605-25-8) and weighs whether the giver can
@@ -269,8 +284,10 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   law stays outside the case's scope). Never "escrow" (card Q54).
 - **Conceit.** None in 3d (panel 5, Mon 23 Nov: the bond judge found that ink, learned as "held", meets literal ink,
   a signature, in this part's aha, so "the printed page shows only ink" lands on the wrong meaning). The turn goes to
-  CONCEIT's store; "a signature is the other kind of ink" is a candidate for voice round 16, used only if readers
-  follow it on one reading.
+  CONCEIT's store; "a signature is the other kind of ink" was voice round 16's candidate, used only if readers
+  followed it on one reading. **Tested Mon 23 Nov evening (`voice/ROUND16.md`): 0 of 3 followed it first time, all
+  three named "ink" as a word that changed meaning (no reader of the plain version did), and it added nothing to the
+  owned-against-signed answers, which all six readers gave right. 3d is plain, final.**
 - **Outside parallel (one).** Spelman and Lehman (the team's sentence before her words).
 - **Left out.** The comfort letter (the case the lender lost; readers remembered its £12.26m); "100% owned against
   60-80% raised" (compares two things); Gneezy, Keenan and Gneezy (a mailing to individuals, D11); "lead gift";
@@ -313,8 +330,10 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
 - **Headline line.** The closing line of the assumptions: no fall in share prices can change the plan, glossed in
   dashes as rubbing out every pencil line, dated from January 2028 (voice round 10).
 - **Aha.** Row 9: a share slump followed by a cost burst can catch her flexibility (the 2000-2003 replay with the
-  mapping said outright: world shares bought at the start of 2000 were about 42% down three years later (-42.1% on the same start-of-month
-  calendar as the cost figures; -40.6% month-end to month-end; second-way check, Sun 22 Nov; MSCI's own price levels give -42.7%, so the series is to be named, NUMBERS 9, Mon 23 Nov: say "about 42%" only), as 2031 is for her, and
+  mapping said outright: world shares bought at the start of 2000 were more than 40% down three years later (MSCI's own ACWI price levels,
+  read at source Mon 23 Nov: -42.7% end-January 2000 to end-January 2003, -44.2% on Laura's start-of-year calendar; the
+  old -42.1% and -40.6% spliced the price and gross series and are retired, NUMBERS 9, Mon 23 Nov evening; say "more than
+  40%", never "about 42%"), as 2031 is for her, and
   building costs then rose about 18% in NT$, 27% in US$).
 - **Outside parallel (one).** The 2022 gilt crisis, in the words card Q214 read at source (Sun 22 Nov evening): the
   funds forced to sell were those that had borrowed against their gilts, pooled funds above all, when lenders called
@@ -359,6 +378,21 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
 - **People.** Darren, Eric and Ray where Caplet's own record names them; "we" for analysis and decisions. No blame
   (nobody asleep); the mis-click only as the reason for the one-trader rule (in 2.5).
 - **Conceit.** Told plain and whole.
+- **How each account is built (Mon 23 Nov evening, cards Q224-Q229; method for the writers, no source named in 3f's
+  prose).** (1) What marks a team testing its own plan is a bar written before the result, not a test run "until it
+  breaks": the record holds one, the 30 Sep bar for leaving the world fund, "written before any number was run", five
+  days before the copout objection (Q224-024, Q228-033; `archive/rab/decisions/D_fund_choice.md`, told without saying
+  whose work it was, standing order 22). (2) The 27 Sep check was hard on the first plan; it never tested the Treasury
+  plan, whose "never" was written into its code, so "none" rests on NUMBERS 2; never "a severe test", and a pass mark
+  passed is not proof (Q224 claims 2-3). (3) An account of a change of mind has five parts in the accounts read
+  (Buffett on Dexter, Marks): what was believed, what it cost, the reason, one concrete thing now done differently, and
+  what did not change; the fourth is the one usually missing (Q226-023, -025, -026; goldmine 42). (4) Judge by
+  process, said as "what we said we would do, and when, before the market moved"; IPS l.17's reasons are exits for a
+  plan that cannot be carried out, never tests of whether it was wise (Q228-031); knowing a bias is no defence against
+  it (Q228-005/006), so the reflection points to dates, never to the team's awareness. (5) The copout's lesson in the
+  team's own words: judgement pays where the world is regular and the answer comes back quickly, so the team picked
+  the ten Treasuries and let one world fund hold the shares (goldmine 43; Q227-007). (6) Half is a stopping point with
+  its reason given (2.2), never a maximum, and never "satisficing beats maximising" (Q229-014).
 - **Outside parallel.** None (D16; panel 4's finalist).
 - **Left out.** The SEC's and judges' 90% anchors (D16); "readers" and "a blind test"; any AI's share of the work as
   the point; the 3.2% as the reason; Trading Notes analysis repeated.
@@ -382,7 +416,7 @@ judge (card Q107). At most two in a part; every one on its own NUMBERS figure, n
 | 6 | 3b | Fewer shares would give the building more | In the central case, like for like, an all-Treasury plan with the same flexibility states $110,000 against $115,000, because the cautious count cuts a 2028 purchase by about 4.7% and a 2031 one by about 3% (NUMBERS 4, C8); Table 2's bad world beside it (panel 5, Mon 23 Nov) |
 | 7 | 3c | The share forecast drives the range | Speaking early does: a top named a year early would exceed what the move buys in about 11 of 100 futures |
 | 8 | 3d | Owning the money is enough for a funder | Owned answers whether she can pay; signed answers whether she will, and lets a funder count it (Lehman's $10 million to Spelman became $3 million); cold aha test 9 (Sun 22 Nov evening) kept it, 3.3 / 3.7, chosen for 3d by all three readers |
-| 9 | 3e | Her flexibility is safe because shares and costs rarely fall together | A slump followed by a cost burst can catch it (2000-2003: about -42%, then costs +27% in US$) |
+| 9 | 3e | Her flexibility is safe because shares and costs rarely fall together | A slump followed by a cost burst can catch it (2000-2003: shares down more than 40%, then costs +27% in US$) |
 | 10 | 3f | A plan that passes "high" needs no further step | One step further took a miss from about 1 in 31 to none once the deposit is in (about 1 in 7 against none with half a deposit) |
 
 The deletion test (shares at zero: payments unchanged, the range one figure, the bottom) is the report's lead and 3e's
@@ -458,6 +492,8 @@ reason (no gem lost, GEM_LEDGER).
 | 39 | The order of purchase is the hedge | 2.3 | Placed (aha 2) |
 | 40 | Implementation shortfall | 2.5 | Placed (D21) |
 | 41 | The lottery holds zeros; her extra Treasuries are what the rule against them costs | 3a | Placed Sun 22 Nov evening (card Q211): the break of 3a's one outside parallel, one clause |
+| 42 | An account of a change of mind in five parts, the fourth (one thing now done differently) the one usually missing | 3f | Placed Mon 23 Nov evening (cards Q226, Q224-030): the shape of the copout account and the closing paragraph, no source named in 3f |
+| 43 | Judgement pays only where the answer comes back quickly; the team picked the ten Treasuries and let one fund hold the shares | 3f | Placed Mon 23 Nov evening (card Q227): the copout's lesson in the team's words; Kahneman and Klein (2009) to References; aha test 10 candidate |
 
 ## 7. What stays open, and who decides
 
