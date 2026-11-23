@@ -219,6 +219,11 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   its holders everything it then has (never "only", card Q208); its prospectus says it "does not seek to return any predetermined amount at maturity",
   and the 0.5% margin is the answer (D2).
 - **Headline number.** About 91 in 100 for a top of at least $100,000; about 57 in 100 for $115,000.
+- **Client knowledge (GOLDMINE 25, placed Tue 24 Nov).** Laura graduated in 2018 "with a degree in Statistics &
+  Information Decisions Management" (case l.16), so row 1 is said in her own discipline, in one clause: after the move
+  her confidence is ownership, and the model only says, seen from today, where in the range the top will land. It is
+  why 3c gives her no "95%" for a figure already held: a statistician hears a probability as an estimate, and there is
+  nothing left to estimate.
 - **Ahas (two, the most a part may hold).** Row 1: by 2031 nothing is left to estimate; the odds belong to the years
   before (Neyman's 1934 term at most a clause). Row 7: speaking early is the risk: a top named a year early would exceed
   what the move buys in about 11 of 100 futures. The forecast's small effect (the top states $115,000 for any share
@@ -247,8 +252,20 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   maximum facility contribution"; the other half is "promised to no one"), and once moved it is held, so she gives the
   top without touching her flexibility); her whole commitment, ten payments of $50,000, bought from January 2027 and
   complete since January 2028 (round 16: "held since January 2028" read as wrong after the first purchase was told),
-  and $115,000 for the building, about $615,000; the figure's date and form, a signed
+  and $115,000 for the building, $615,000 in all (never "about": voice round 17, five of six); the figure's date and form, a signed
   pledge letter (amount, purpose, date), the form a gift office counts; what she asks of them; what is never asked.
+  **Voice round 17 (Tue 24 Nov morning, `voice/ROUND17.md`): the range stays first** (range first against the top first:
+  all six readers booked $115,000 either way, a tie on the rule set in advance). **One sentence added after the two
+  ends:** the bottom never depended on her shares (it would be there if every share had become worthless), and since
+  January 2031 neither end does, so no share price or interest rate can change either; all six readers asked why a
+  range is stated if the top is held and signed, and what could make it $95,000. **The letter fixes the sum:** if the
+  fund pays less than $115,000 she makes up the difference herself, from her flexibility (funders on the co-sponsor
+  notes, two of three; round 17, two of six asked what could make her pay less; the model never draws on it, NUMBERS 4;
+  her flexibility already covers an early fund end, NUMBERS 3). The letter is in US dollars and says the Taiwan-dollar
+  amount depends on the rate on the day it is paid. She gives "without waiting for anyone to match it" (she pays in
+  January 2033, which may be after other funders; "first" only of the commitment in writing). The team's lead-in says
+  she shows co-sponsors the Treasuries held for her and gives them a signed letter ("offer ... as well as the money"
+  was read as handing over the money, four of six). `research/COSPONSOR_NOTES.md` section 8.
 - **Why signed as well as held (cards Q200, Q213).** Owning shows the money exists; a signature says it will be given. A gift
   office counts a promise on verifiable paper (FAS 116 para 6, now ASC 958-605-25-8) and weighs whether the giver can
   pay only when it measures; Lehman Brothers' own five-year pledge of $10 million to Spelman College in 2007 became $3
@@ -261,9 +278,11 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
 - **Why her whole commitment, in two parts (card Q204).** Campaigns already count the first years' running money as
   part of a building's cost (Artists Rep's 2025 budget to finish its building includes "$500,000 operating seed funds
   for first two years once open"); Laura has bought that line for ten years. So her words show two parts, $50,000 a
-  year for 2033-2042 and the building figure, then "about $615,000" once; never "lead gift".
-- **To the residency's own planners.** "At least $95,000" from January 2028, since it is held from then (D12); the
-  range for co-sponsors comes after the 2031 move.
+  year for 2033-2042 and the building figure, then "$615,000 in all" once (a sum of promises at face, never set against
+  what comes back to her, NUMBERS 8k; never "about", WORDS' numbers rule); never "lead gift".
+- **To the residency's own planners.** "$95,000, held for me since January 2028" from January 2028, and any more named
+  in 2031 (D12; never "at least", Tue 24 Nov: a funder on the notes heard two figures about); the range for
+  co-sponsors comes after the 2031 move.
 - **Headline number.** $115,000, signed (the figure co-sponsors count; funder test, Mon 16 Nov), said inside the range
   her words state (panel 5, Mon 23 Nov).
 - **Aha (row 8, the slot reopened by D22; kept by cold aha test 9, Sun 22 Nov evening).** Owned answers whether she
@@ -282,6 +301,14 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   fund end while cash earns nothing (at most about $4,600, from her flexibility), her death or a dispute remain, so
   the letter carries a seventh part for the writers to weigh, "this promise binds my estate" (Q213; the pledge's own
   law stays outside the case's scope). Never "escrow" (card Q54).
+  **What the statement shows (Tue 24 Nov, NUMBERS 8y; COSPONSOR_NOTES C11).** The broker's own statement of the
+  building's money alone (its two IBTM lots and their paid distributions, in a second account at the same broker from
+  January 2028), never the single IBTM line (which also holds the 2033 payment's lot). At the move it shows about
+  $111,700, a little under $115,000, and passes it about late August 2031, so beside the day's value goes what its
+  Treasuries will pay by mid-December 2032 counted with no more interest (about $118,600 at the move, never under
+  $117,731) and one fact: a Treasury fund's value today is its remaining payments priced today, rising to its payout.
+  One clause in 3d and a Table 3 line; never a statement figure in Laura's words. The broker's own statement, because
+  the SEC's 2009 custody rule answered statements an adviser printed (card Q235 rows 22-23).
 - **Conceit.** None in 3d (panel 5, Mon 23 Nov: the bond judge found that ink, learned as "held", meets literal ink,
   a signature, in this part's aha, so "the printed page shows only ink" lands on the wrong meaning). The turn goes to
   CONCEIT's store; "a signature is the other kind of ink" was voice round 16's candidate, used only if readers
@@ -304,7 +331,9 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   at today's rates. A stated top: IBTM's costs beyond its fee taking more than about 2% of what it pays (never "its fund": panel 5), the fund's own swaps of its Treasuries for others
   maturing the same year (unsized; card Q208), an early end or merger (nothing
   short at today's market rates, at most about $4,600 if cash waiting earned nothing, met from her flexibility) or a
-  broker failure (a delay), in one sentence, with the model containing no fund events said once (D2). Her flexibility:
+  broker failure (a delay), in one sentence, with the model containing no fund events said once (D2). Since Tue 24 Nov (`research/COSPONSOR_NOTES.md` C3) the letter fixes
+  the sum, so past about 2% the shortfall falls on her flexibility, not on the co-sponsors: 3e says so in the same
+  sentence, and the top's promise breaks only if the fund falls short by more than her flexibility. Her flexibility:
   a rise of about 25% in the cost of her share, if shares earn the 7.5% a year assumed; the hard case, building costs and the Taiwan dollar together: four times since 1991 the same building
   became 28% or more dearer in US dollars within two years (about $32,200 on her $115,000, more than all her
   flexibility), with who carries the rest; never "1 in 20" from overlapping windows (card Q210: about 17 separate
@@ -437,7 +466,7 @@ on purpose:
 | 2.1 the ten cost $302,287, above the deposit | 3a the top-up and the extra Treasuries | The first deposit is not quite enough, and the second fills it first |
 | 2.3 the deposit may come later and smaller | 3e how each promise breaks (a deposit about three-quarters smaller) and 3f (half a deposit, about 1 in 7 against none) | Her income as the plan's one input not held |
 | 2.5 the one-trader rule after the mis-click | 3f (named once, as a reason, no blame) | How it was bought is part of the plan |
-| 3.0 certainty has dates | 3c the two layers; 3d "at least $95,000" from 2028, $115,000 after the move | What can be said, and when |
+| 3.0 certainty has dates | 3c the two layers; 3d "$95,000, held since January 2028" from 2028, $115,000 after the move | What can be said, and when |
 | 3a "one step further" measured by the zero-interest standard | 3f what that step bought | Why the team went past "high" |
 | 3b her flexibility promised to no one | 3e what tests it; 3d what is never asked of co-sponsors | The money that takes the risk |
 | 3c the sentence that first calls the range certain, with its limit in a clause | 3e how each promise could break, one risk per sentence with who covers it | Certainty earned where it is claimed (voice round 13: all six readers would have stopped once the main question was answered, and read the risks after it as an appendix) |

@@ -1,0 +1,69 @@
+{
+ "only_R": [
+  "For the building, my range is $95,000 to $115,000.",
+  "The bottom, $95,000, has been held for me in US Treasuries since January 2028.",
+  "The top, $115,000, has been held for me since January 2031, when I moved half of my shares into Treasuries."
+ ],
+ "only_F": [
+  "For the building, I am signing for $115,000, the one figure you can plan around.",
+  "Of that $115,000, $95,000 has been held for me in US Treasuries since January 2028.",
+  "The rest has been held since January 2031, when I moved half of my shares into Treasuries, so my range is $95,000 to $115,000."
+ ],
+ "n_common": 10,
+ "readers": {
+  "1": {
+   "arm": "R",
+   "role": "cosponsor",
+   "n_sentences_p2": 16,
+   "lead_in_sentences": 3
+  },
+  "2": {
+   "arm": "R",
+   "role": "officer",
+   "n_sentences_p2": 16,
+   "lead_in_sentences": 3
+  },
+  "3": {
+   "arm": "R",
+   "role": "official",
+   "n_sentences_p2": 16,
+   "lead_in_sentences": 3
+  },
+  "4": {
+   "arm": "F",
+   "role": "cosponsor",
+   "n_sentences_p2": 16,
+   "lead_in_sentences": 3
+  },
+  "5": {
+   "arm": "F",
+   "role": "officer",
+   "n_sentences_p2": 16,
+   "lead_in_sentences": 3
+  },
+  "6": {
+   "arm": "F",
+   "role": "official",
+   "n_sentences_p2": 16,
+   "lead_in_sentences": 3
+  }
+ },
+ "we_per_100_words": {
+  "C": [
+   1.38,
+   145
+  ],
+  "L": [
+   0.91,
+   110
+  ],
+  "R": [
+   1.08,
+   186
+  ],
+  "F": [
+   1.02,
+   196
+  ]
+ }
+}

@@ -119,6 +119,16 @@ its part's present row:
 
 Both are said in plain words; neither names a source in 3f's prose (D16).
 
+**Added Tue 24 Nov morning, from the co-sponsor notes test and voice round 17 (`research/COSPONSOR_NOTES.md` sections 7-8,
+`voice/ROUND17.md`).** One more for test 10, against 3d's spine row 8 (owned against signed):
+
+| Candidate | Part | What the judge has backwards | The key | Source |
+|---|---|---|---|---|
+| Funders ask what could lower it, never how likely | 3d (one clause after row 8) or 3c | A funder wants to hear how confident the giver is, so the range needs odds | Nine readers playing funders asked for a statement of the holding or for what could make her pay less; none asked for a probability, and one said a founder quoting "91 in 100" would make her think the money was not yet in hand. So the bottom says what it is (the part that never depended on her shares) and the letter fixes the sum: the answer to "how sure" is a document and a sentence, not a number | Round 17 (six of six booked $115,000, none asked for odds); notes test reader 3 |
+
+It rests on simulated readers, never people, so the report may use it only where real evidence carries it (a gift office
+books a signed document, ASC 958-605; card Q235 on how "certain" is heard) and never as a finding about funders.
+
 ## Corrections made tonight
 
 - Sweep A's "every fixed promise that broke broke one of four ways, and this plan shuts all four" is not true as stated:

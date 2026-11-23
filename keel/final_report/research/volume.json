@@ -1,17 +1,26 @@
 {
- "built": "2026-11-23T19:35+11:00",
- "today": "2026-11-23",
- "store_ideas": 10425,
- "store_judged": 9597,
+ "built": "2026-11-24T07:11+11:00",
+ "today": "2026-11-24",
+ "store_ideas": 10673,
+ "store_judged": 9845,
  "totals": {
-  "workers": 508,
-  "cards": 260,
-  "rows": 9165,
-  "sources": 8760,
-  "passages": 162,
-  "readings": 85
+  "workers": 526,
+  "cards": 266,
+  "rows": 9413,
+  "sources": 8975,
+  "passages": 168,
+  "readings": 91
  },
  "days": [
+  {
+   "day": "2026-11-24",
+   "workers": 18,
+   "cards": 6,
+   "rows": 248,
+   "sources": 215,
+   "passages": 6,
+   "readings": 6
+  },
   {
    "day": "2026-11-23",
    "workers": 41,
@@ -151,14 +160,6 @@
  "runs": [
   {
    "date": "2026-11-17",
-   "run": "morning (overdrive)",
-   "research_workers": "14",
-   "analysis_workers": "17",
-   "readers": "8",
-   "notes": "Fourteen research workers on the thinnest tags and short SKELETON parts: cards Q95-Q108 (authors' lumpy advances; a career as bond, stock and option; pension sponsors and recovery plans; the top-up before January 2027 with eight-week moves since 1962; comfort letters and pledges; Taiwan's artist-founded museums; artist-endowed foundations; what $50,000 buys in Taiwan; Taiwan's price adjustment and October's cost index read at source; coupon reinvestment history; fewer numbers, better understood; ink in the ledger; aha moments and memory; graphic novels through downturns), 567 rows from about 495 sources read at source; nine raters judged every row the same morning; six analysis workers (numbers owner: bond desk 4 reproduced and the payments' cost exposure sized; Table 3 cut to one page; the density cut of 3a, 3c and 3e; the aha test brief; landing Q82-Q108 in SKELETON, GEM_LEDGER and REFERENCES; coherence and lay fixes) and two fresh voice writers; eight readers: voice round 6 (three), cold aha test 4 (three), coherence reader 7 and a lay reader"
-  },
-  {
-   "date": "2026-11-17",
    "run": "evening (overdrive)",
    "research_workers": "13",
    "analysis_workers": "19",
@@ -244,6 +245,14 @@
    "analysis_workers": "4",
    "readers": "6",
    "notes": "The Team Reflection's three moments. Six research workers, each reading primary sources at source (cards Q224 testing your own plan: Feynman, Popper, Mayo; Q225 order errors and the Swiss cheese model: Mizuho 2005, Knight 2012, Reason; Q226 how investors write about their mistakes; Q227 adversarial collaboration and the copout, a level deeper; Q228 judging by process: Duke, Tetlock, Baron and Hershey; Q229 satisficing and the half kept), about 60 sources, 189 rows, every row rated the same evening (store 10,425). Analysis: the numbers owner (NUMBERS 9: the 2000-03 share fall on MSCI's own price series, more than 40%), one voice writer and two raters (EE, EF). Readers: six blind readers for voice round 16 (the signature turn 0 of 3 first time; 3d plain, final). Claims kept 4, changed 15, killed 2."
+  },
+  {
+   "date": "2026-11-24",
+   "run": "day 17 morning (paced, about half volume)",
+   "research_workers": "6",
+   "analysis_workers": "2",
+   "readers": "10",
+   "notes": "The co-sponsor part, settled in notes (research/COSPONSOR_NOTES.md). Six research workers, each reading primary sources at source (cards Q230 the paperwork crisis and book entry, Q231 VT's tracking difference, Q232 the 1994 bond fall, Q233 the 1991 Salomon squeeze, Q234 two centuries of rates, Q235 how \"certain\" is heard), about 210 sources, 248 rows, every row rated the same morning by raters EG and EH (store 10,673). Analysis: the numbers owner's worker (NUMBERS 8y, what a statement shows co-sponsors in 2031-32) and two raters. Readers: three playing funders on the notes and six blind readers for voice round 17 (range first against figure first: a tie; every reader asked what the bottom now is), plus one voice writer. Claims kept 7, changed 17, killed 3."
   }
  ],
  "cards": [

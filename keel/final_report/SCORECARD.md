@@ -207,7 +207,10 @@ Earlier list (Sat 14 Nov, evening):
 4. **3c precision (bond reader 2, 4):** the next bond reader checks "beyond their 0.07% yearly fee, which is already
    counted", the rounding's basis and the 0.5% for either end before the move.
 5. **3d, the third funder (Tue 24 Nov or sooner):** "would you pledge?" on the cut passage, now with card Q43's
-   builders' rules (binding pledges plus part cash; a building shrinks when money falls short) as its evidence.
+   builders' rules (binding pledges plus part cash; a building shrinks when money falls short) as its evidence. **Done Tue 24
+   Nov:** three readers playing funders on the co-sponsor notes (each would book $115,000 as committed once the letter
+   arrives; would it pass their committee: 3, 3, 3, for the letter's terms, the currency and a statement) and six on her
+   words (all six booked $115,000); `research/COSPONSOR_NOTES.md` sections 7-8.
 6. **The Team Reflection (3f):** blind re-rank on Mon 16 Nov, S-27 to S-30 added tonight; no image in 3f.
 7. **Citations:** REFERENCES_PLAN 2H and 2I (Martin verified; Watts 2003; GAO 2006; Morris et al. 2007); the references
    run resumes at Q16, Q4b, Q9 and Q15.
@@ -216,6 +219,7 @@ Earlier list (Sat 14 Nov, evening):
 
 | Date (Sydney) | Run | Cells changed | Why |
 |---|---|---|---|
+| Tue 24 Nov | Day 17 morning (co-sponsor notes, voice round 17) | None (mean 2.92) | No blind judge read the notes today. Round 17's six readers found one coherence fault in Laura's words (a range beside a held, signed top, with nothing saying what the bottom now is), the kind of fault behind 3d's coherence 3; it is repaired in the tree and the fact sheet but waits for a judge before the cell moves. |
 | Mon 23 Nov | Day 16 evening (paced) | None | Evidence touched 3d and 3f. 3d: voice round 16 retired the signature turn (0 of 3 followed it first time), which leaves 3d as panel 5's fix already had it, and its six readers repeated both ends with their dates (six of six), so the morning's range fix reads; its clarity is a reader's cell and these readers read practice text, not the plan, so it waits for the next panel. 3f: cards Q224-Q229 gave each account its order and the copout its lesson (GOLDMINE 42 and 43, SKELETON 3f) and removed four borrowed words that overclaimed ("severe", "until it breaks", "four-eyes", satisficing); that protects precision 4 rather than raising it, and its content waits for the 27 Nov text. Mean 2.92 unchanged; lowest cells 3e's two clarity cells, 2 |
 | Mon 23 Nov | Day 16, panel 5 | First page P 4 to 3; 2.1-2.4 P 4 to 3; 3b P 5 to 4, C 2 to 3; 3c C 2 to 3; 3e assumptions C 3 to 2; 3e monitoring C 3 to 2; 3f C 3 to 4 | Panel 5's three blind judges (`research/panel/2026-11-23_judge_*.md`); clarity cells take their median; mean 2.92 unchanged; lowest cells 3e's two clarity cells, 2 |
 | Sun 22 Nov, evening | Days 14-15 evening run, paced at about half volume: cards Q211-Q218 (four placed parallels read at source, three themes, syntheses), cold aha test 9, voice round 14, the second-way number check, four lead calls | none (mean 2.92; lowest cells 3b and 3c clarity 2) | No plan readers ran tonight, so no clarity cell (the readers' median) could move; panel 5 is Mon 23 Nov. The evidence touched 3a, 3c, 3d and 3e: their outside parallels were wrong in wording at source and are corrected in the tree (cards Q211, Q212, Q213, Q214), which protects precision cells already scored on the corrected facts rather than raising them; aha test 9 confirmed 3d's aha (3.3 / 3.7, chosen for 3d by all three readers), which is what 3d's content 4 already assumed; the second-way check fixed four tree figures (August 2007, about 42%, the 29-30 September rule, $37,499 in 2027 money) |
