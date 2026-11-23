@@ -183,7 +183,12 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   adding up to 66), then 19, mostly small (terms a new reader can't follow: the range, the fund, "run", "2027 money"; one
   serious, the June 2007 sentence; an entry ending on the fix; a closing "All four were corrected"); each was cut or put
   in plain words, Caplet's list named as a list, and the second read's fixes went in without a third read, for the same
-  reason as Ep 54.
+  reason as Ep 54. Ep 56 (Mon 23 Nov) failed two fresh reads: 22 lines (eight serious: entry endings that landed, among them
+  a closing strike-through; "the top", "the bond fund", ink and the late-September check never explained; the bonds'
+  four-fifths and the dated $95,000 unexplained; "four-eyes" and "satisficing" unglossed), then 14 (four serious: the
+  bonds' timing sentence, the one-point fall, "the Treasury plan" never set against the first plan, the 42% entry ending
+  as if 42% were right); each was cut or put in plain words, a times-tables scene that echoed the checking was swapped
+  for netball, and the second read's fixes went in without a third read, for the same reason as Ep 54.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
