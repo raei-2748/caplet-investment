@@ -115,6 +115,16 @@ four faults in Laura's words that came from the brief and the fact sheet, fixed 
 NUMBERS 9's 2000-03 share series closed ("more than 40%"). Of the four slots a level deeper, the copout card's
 best ideas ran inside Q227; the other three were not used at half volume.
 
+**As run, Tue 24 Nov morning (Day 17, paced at about half volume).** The day's task was the co-sponsor part, settled in
+notes (`research/COSPONSOR_NOTES.md`) and tested on three readers playing a Taiwanese company's head of giving, a US
+foundation programme officer and a Taiwan Ministry of Culture grants officer. Six research cards, Q230-Q235 (the
+paperwork crisis and book entry; VT's tracking; the 1994 bond fall; the 1991 Salomon squeeze; two centuries of rates;
+how "certain" is heard), about 210 sources, 248 rows, every row rated the same morning by raters EG and EH (store
+10,673). Claims kept 7, changed 17, killed 3. Voice round 17 (`voice/ROUND17.md`) set range first against figure first
+in Laura's words: a tie (all six readers booked $115,000), so the range stays first, but every reader asked what the
+bottom now is, so her words gain one sentence and the letter fixes the sum. The numbers owner's worker sized what a
+statement shows co-sponsors (NUMBERS 8y: about $111,700 at the move, a little under $115,000). Fact sheet version 8.
+
 ## The questions for each run
 
 The part of the report each question serves is in brackets. Every researcher is briefed to find the relation that does

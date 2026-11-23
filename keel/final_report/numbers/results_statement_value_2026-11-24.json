@@ -1,0 +1,798 @@
+{
+ "run": "Tue 24 Nov 2026 (Sydney), numbers owner's analysis worker",
+ "status": "MODEL; Keel arithmetic where marked",
+ "proposed_numbers_section": "8y",
+ "curve": "11/06/2026",
+ "design": "H_plain",
+ "rule": "Sun 15 Nov 2026 evening: fund fee charged from each trade day (price = gross holdings' value); distributions wait in the Treasury-bill ETF at its 0.15% fee; haircut 0.5%; rounded down to $5,000",
+ "world": "today's forwards on the 6 Nov 2026 curve; VT on plan.run's central 7.5% path; iBond funds at net asset value; waiting money in the short-term Treasury ETF at forwards (its 0.15% belongs to the design test, as 8t and 8w); the engine's IBTM stand-in bond (coupon 4.2513%, matures 4 Jul 2032, semiannual coupons; the real fund pays monthly)",
+ "register_asserted": {
+  "floor_money": 81244.27740480486,
+  "moved_money": 18349.04642600411,
+  "floor_payout": 102365.47319642748,
+  "moved_payout": 20137.661626131423,
+  "funds_pay": 122503.1348225589,
+  "floor_zero": 98095.55381427324,
+  "both_zero": 117731.10509147853,
+  "unrounded_bottom": 97605.07604520187,
+  "unrounded_top": 117142.44956602114,
+  "stated_bottom": 95000.0,
+  "stated_top": 115000.0
+ },
+ "statement_dates": [
+  {
+   "date": "2031-01-02",
+   "weekday": "Thu",
+   "building_ibtm_lots_market_value": 100413.20271220498,
+   "floor_lot": 82061.83849200273,
+   "moved_lot": 18351.364220202246,
+   "building_distributions_paid_waiting_in_bill_etf": 11237.375242610571,
+   "floor_lot_paid": 11237.375242610571,
+   "moved_lot_paid": 0,
+   "building_money_on_statement": 111650.57795481556,
+   "building_zero_count_from_this_date": 118644.4109071467,
+   "payment_2033_lot_market_value": 38278.20805124353,
+   "payment_2033_lot_paid_waiting": 7157.097915152266,
+   "single_ibtm_line_three_lots": 138691.4107634485,
+   "bill_etf_line_all_waiting_money": 78256.6347593571,
+   "building_share_of_bill_etf_line": 0.14359645386191264,
+   "building_ibtm_lots_vs_115000": -14586.797287795023,
+   "building_money_vs_115000": -3349.422045184445,
+   "single_ibtm_line_less_building_money": 27040.832808632957,
+   "building_zero_count_less_market_value": 6993.83295233114
+  },
+  {
+   "date": "2031-07-01",
+   "weekday": "Tue",
+   "building_ibtm_lots_market_value": 100570.60968205486,
+   "floor_lot": 82190.47800342593,
+   "moved_lot": 18380.131678628928,
+   "building_distributions_paid_waiting_in_bill_etf": 13656.83364926982,
+   "floor_lot_paid": 13262.695196820972,
+   "moved_lot_paid": 394.1384524488474,
+   "building_money_on_statement": 114227.44333132468,
+   "building_zero_count_from_this_date": 118965.1534090557,
+   "payment_2033_lot_market_value": 38338.21267790502,
+   "payment_2033_lot_paid_waiting": 8146.621482249102,
+   "single_ibtm_line_three_lots": 138908.8223599599,
+   "bill_etf_line_all_waiting_money": 89946.75060043792,
+   "building_share_of_bill_etf_line": 0.15183242927736545,
+   "building_ibtm_lots_vs_115000": -14429.390317945144,
+   "building_money_vs_115000": -772.5566686753154,
+   "single_ibtm_line_less_building_money": 24681.3790286352,
+   "building_zero_count_less_market_value": 4737.710077731012
+  },
+  {
+   "date": "2032-01-03",
+   "weekday": "Sat",
+   "building_ibtm_lots_market_value": 100847.52667289267,
+   "floor_lot": 82416.78606615105,
+   "moved_lot": 18430.740606741616,
+   "building_distributions_paid_waiting_in_bill_etf": 16150.435263969699,
+   "floor_lot_paid": 15352.209031002874,
+   "moved_lot_paid": 798.2262329668242,
+   "building_money_on_statement": 116997.96193686237,
+   "building_zero_count_from_this_date": 119363.0726320786,
+   "payment_2033_lot_market_value": 38443.77535195492,
+   "payment_2033_lot_paid_waiting": 9169.447012245226,
+   "single_ibtm_line_three_lots": 139291.3020248476,
+   "bill_etf_line_all_waiting_money": 102021.92027303312,
+   "building_share_of_bill_etf_line": 0.158303580453569,
+   "building_ibtm_lots_vs_115000": -14152.473327107335,
+   "building_money_vs_115000": 1997.961936862368,
+   "single_ibtm_line_less_building_money": 22293.340087985227,
+   "building_zero_count_less_market_value": 2365.110695216237
+  },
+  {
+   "date": "2032-07-01",
+   "weekday": "Thu",
+   "building_ibtm_lots_market_value": 101123.53703915418,
+   "floor_lot": 82642.35319762865,
+   "moved_lot": 18481.183841525533,
+   "building_distributions_paid_waiting_in_bill_etf": 18703.42413048144,
+   "floor_lot_paid": 17491.32907961834,
+   "moved_lot_paid": 1212.0950508631004,
+   "building_money_on_statement": 119826.96116963563,
+   "building_zero_count_from_this_date": 119822.84555071936,
+   "payment_2033_lot_market_value": 38548.9924144396,
+   "payment_2033_lot_paid_waiting": 10216.41187138156,
+   "single_ibtm_line_three_lots": 139672.52945359377,
+   "bill_etf_line_all_waiting_money": 114381.995765308,
+   "building_share_of_bill_etf_line": 0.16351720395627314,
+   "building_ibtm_lots_vs_115000": -13876.46296084582,
+   "building_money_vs_115000": 4826.96116963563,
+   "single_ibtm_line_less_building_money": 19845.568283958142,
+   "building_zero_count_less_market_value": -4.115618916272069
+  },
+  {
+   "date": "2032-12-01",
+   "weekday": "Wed",
+   "building_ibtm_lots_market_value": 103214.4945986174,
+   "floor_lot": 84351.1705334335,
+   "moved_lot": 18863.324065183897,
+   "building_distributions_paid_waiting_in_bill_etf": 19095.76014511958,
+   "floor_lot_paid": 17858.239346633978,
+   "moved_lot_paid": 1237.5207984856029,
+   "building_money_on_statement": 122310.254743737,
+   "building_zero_count_from_this_date": 122306.3865928974,
+   "payment_2033_lot_market_value": 39357.39648801842,
+   "payment_2033_lot_paid_waiting": 10430.718422393646,
+   "single_ibtm_line_three_lots": 142571.89108663582,
+   "bill_etf_line_all_waiting_money": 122797.40590323681,
+   "building_share_of_bill_etf_line": 0.15550621777928159,
+   "building_ibtm_lots_vs_115000": -11785.505401382601,
+   "building_money_vs_115000": 7310.254743736994,
+   "single_ibtm_line_less_building_money": 20261.636342898826,
+   "building_zero_count_less_market_value": -3.8681508395966375
+  }
+ ],
+ "at_fund_end_15dec2032": {
+  "date": "2032-12-15",
+  "weekday": "Wed",
+  "building_ibtm_lots_market_value": 103409.8606605592,
+  "floor_lot": 84510.83179100575,
+  "moved_lot": 18899.028869553462,
+  "building_distributions_paid_waiting_in_bill_etf": 19132.41842184297,
+  "floor_lot_paid": 17892.521945220593,
+  "moved_lot_paid": 1239.8964766223767,
+  "building_money_on_statement": 122542.27908240218,
+  "building_zero_count_from_this_date": 122542.27908240218,
+  "payment_2033_lot_market_value": 0.0,
+  "payment_2033_lot_paid_waiting": 49883.69353519849,
+  "single_ibtm_line_three_lots": 103409.8606605592,
+  "bill_etf_line_all_waiting_money": 163305.63034412957,
+  "building_share_of_bill_etf_line": 0.1171571266803584,
+  "building_ibtm_lots_vs_115000": -11590.139339440793,
+  "building_money_vs_115000": 7542.2790824021795
+ },
+ "monthly_central": [
+  {
+   "date": "2031-01-02",
+   "building_ibtm_lots": 100413.20271220498,
+   "building_money": 111650.57795481556,
+   "zero_count": 118644.4109071467
+  },
+  {
+   "date": "2031-02-01",
+   "building_ibtm_lots": 98679.09182358783,
+   "building_money": 112075.21672502423,
+   "zero_count": 118696.78305186852
+  },
+  {
+   "date": "2031-03-01",
+   "building_ibtm_lots": 99028.70300916623,
+   "building_money": 112473.01086152715,
+   "zero_count": 118746.37275823072
+  },
+  {
+   "date": "2031-04-01",
+   "building_ibtm_lots": 99417.21753672186,
+   "building_money": 112915.07297568097,
+   "zero_count": 118801.49040436566
+  },
+  {
+   "date": "2031-05-01",
+   "building_ibtm_lots": 99794.65055618936,
+   "building_money": 113344.52929841947,
+   "zero_count": 118855.04578152792
+  },
+  {
+   "date": "2031-06-01",
+   "building_ibtm_lots": 100187.99536753196,
+   "building_money": 113792.0900233543,
+   "zero_count": 118910.8574289722
+  },
+  {
+   "date": "2031-07-01",
+   "building_ibtm_lots": 100570.60968205486,
+   "building_money": 114227.44333132468,
+   "zero_count": 118965.1534090557
+  },
+  {
+   "date": "2031-08-01",
+   "building_ibtm_lots": 98852.87746300737,
+   "building_money": 114679.17185958491,
+   "zero_count": 119029.33666772454
+  },
+  {
+   "date": "2031-09-01",
+   "building_ibtm_lots": 99243.00166144241,
+   "building_money": 115132.69907085977,
+   "zero_count": 119094.62798416356
+  },
+  {
+   "date": "2031-10-01",
+   "building_ibtm_lots": 99622.00707933294,
+   "building_money": 115573.30407834143,
+   "zero_count": 119158.07011268393
+  },
+  {
+   "date": "2031-11-01",
+   "building_ibtm_lots": 100015.16665804986,
+   "building_money": 116030.36745305112,
+   "zero_count": 119223.8936144772
+  },
+  {
+   "date": "2031-12-01",
+   "building_ibtm_lots": 100409.31345415127,
+   "building_money": 116488.55284856207,
+   "zero_count": 119289.80228198462
+  },
+  {
+   "date": "2032-01-01",
+   "building_ibtm_lots": 100820.91393822465,
+   "building_money": 116967.02534119305,
+   "zero_count": 119358.62250087663
+  },
+  {
+   "date": "2032-02-01",
+   "building_ibtm_lots": 99120.02159033153,
+   "building_money": 117447.57668518,
+   "zero_count": 119435.8801802565
+  },
+  {
+   "date": "2032-03-01",
+   "building_ibtm_lots": 99500.07289061381,
+   "building_money": 117898.92338745928,
+   "zero_count": 119509.27104384692
+  },
+  {
+   "date": "2032-04-01",
+   "building_ibtm_lots": 99907.94619198653,
+   "building_money": 118383.3157366361,
+   "zero_count": 119588.04878828772
+  },
+  {
+   "date": "2032-05-01",
+   "building_ibtm_lots": 100304.25415328126,
+   "building_money": 118853.9773782616,
+   "zero_count": 119664.6068363178
+  },
+  {
+   "date": "2032-06-01",
+   "building_ibtm_lots": 100719.32905890551,
+   "building_money": 119346.9210246449,
+   "zero_count": 119744.77211041632
+  },
+  {
+   "date": "2032-07-01",
+   "building_ibtm_lots": 101123.53703915418,
+   "building_money": 119826.96116963563,
+   "zero_count": 119822.84555071936
+  },
+  {
+   "date": "2032-08-01",
+   "building_ibtm_lots": 101542.9228766344,
+   "building_money": 120325.03124196533,
+   "zero_count": 120288.07164997645
+  },
+  {
+   "date": "2032-09-01",
+   "building_ibtm_lots": 101964.0480172069,
+   "building_money": 120825.17163745993,
+   "zero_count": 120796.51670569493
+  },
+  {
+   "date": "2032-10-01",
+   "building_ibtm_lots": 102373.2513180243,
+   "building_money": 121311.15780082994,
+   "zero_count": 121290.60673287808
+  },
+  {
+   "date": "2032-11-01",
+   "building_ibtm_lots": 102797.82004847677,
+   "building_money": 121815.39721996782,
+   "zero_count": 121803.28991086937
+  },
+  {
+   "date": "2032-12-01",
+   "building_ibtm_lots": 103214.4945986174,
+   "building_money": 122310.254743737,
+   "zero_count": 122306.3865928974
+  }
+ ],
+ "first_reach_central": {
+  "115000": {
+   "building_ibtm_lots": null,
+   "building_money_on_statement": "2031-08-23",
+   "zero_count": "2031-01-02"
+  },
+  "peak_building_ibtm_lots": {
+   "date": "2032-12-15",
+   "value": 103409.8606605592
+  },
+  "min_zero_count_after_move": 118644.4109071467,
+  "building_money_on_15dec2032": 122542.27908240218,
+  "single_ibtm_line_min_before_end": 135815.06418842595,
+  "single_ibtm_line_first_at_or_above_115000": "2031-01-02"
+ },
+ "face_and_coupons": {
+  "engine_bond": {
+   "coupon": 0.042513262088140186,
+   "matures": "2032-07-04",
+   "floor_lot_face": 81210.50524641405,
+   "moved_lot_face": 18122.861802759606,
+   "building_face": 99333.36704917366,
+   "coupons_still_to_come_gross": {
+    "2031-01-02": 8445.970934917892,
+    "2031-07-01": 6334.478201188417,
+    "2032-01-03": 4222.985467458943,
+    "2032-07-01": 2111.49273372947,
+    "2032-12-01": 0.0
+   },
+   "coupons_still_to_come_after_fee": {
+    "2031-01-02": 8427.013552716544,
+    "2031-07-01": 6319.15638066453,
+    "2032-01-03": 4212.030523253401,
+    "2032-07-01": 2105.647841650415,
+    "2032-12-01": 0.0
+   },
+   "floor_lot_coupons_from_trade_day_gross": 17262.617469255416,
+   "moved_lot_coupons_from_trade_day_gross": 1540.923947215727
+  },
+  "coupon_3.50": {
+   "coupon": 0.035,
+   "floor_lot_face": 84056.8160561547,
+   "moved_lot_face": 18386.19603124384,
+   "building_face": 102443.01208739853,
+   "zero_count_both_lots": 118038.76558704313,
+   "coupons_still_to_come_gross": {
+    "2031-01-02": 7171.010846117906,
+    "2031-07-01": 5378.25813458843,
+    "2032-01-03": 3585.5054230589562,
+    "2032-07-01": 1792.7527115294818,
+    "2032-12-01": 0.0
+   },
+   "market_value": {
+    "2031-01-02": 102072.83673416037,
+    "2031-07-01": 102593.92847106667,
+    "2032-01-03": 103245.48503783724,
+    "2032-07-01": 103904.95363844757,
+    "2032-12-01": 106053.42326913174
+   }
+  }
+ },
+ "yield_worlds_jan2028": {
+  "yields_1in20_low_jan2028": {
+   "yield_move_points": -1.5899492286845704,
+   "floor_money": 75001.0,
+   "moved_money": 15603.734864333892,
+   "stated_bottom": 80000.0,
+   "stated_top": 100000.0,
+   "unrounded_top": 100699.82839601919,
+   "zero_count_both_lots": 101205.8576844414,
+   "funds_pay_plan_run": 103939.97382382274,
+   "building_money_15dec2032_this_method": 103971.97174978661,
+   "dates": [
+    {
+     "date": "2031-01-02",
+     "weekday": "Thu",
+     "building_ibtm_lots_market_value": 88263.95256417504,
+     "floor_lot": 72658.92599323814,
+     "moved_lot": 15605.0265709369,
+     "building_distributions_paid_waiting_in_bill_etf": 9453.741560973362,
+     "floor_lot_paid": 9453.741560973362,
+     "moved_lot_paid": 0,
+     "building_money_on_statement": 97717.6941251484,
+     "building_zero_count_from_this_date": 101726.43436240213,
+     "building_ibtm_lots_vs_115000": -26736.047435824963,
+     "building_money_vs_115000": -17282.305874851605
+    },
+    {
+     "date": "2031-07-01",
+     "weekday": "Tue",
+     "building_ibtm_lots_market_value": 87754.79502487452,
+     "floor_lot": 72239.78727474445,
+     "moved_lot": 15515.007750130066,
+     "building_distributions_paid_waiting_in_bill_etf": 11437.776598888508,
+     "floor_lot_paid": 11112.745417091775,
+     "moved_lot_paid": 325.03118179673294,
+     "building_money_on_statement": 99192.57162376303,
+     "building_zero_count_from_this_date": 101907.54654496699,
+     "building_ibtm_lots_vs_115000": -27245.20497512548,
+     "building_money_vs_115000": -15807.428376236974
+    },
+    {
+     "date": "2032-01-03",
+     "weekday": "Sat",
+     "building_ibtm_lots_market_value": 87315.43126982488,
+     "floor_lot": 71878.10283126736,
+     "moved_lot": 15437.328438557532,
+     "building_distributions_paid_waiting_in_bill_etf": 13463.550626208182,
+     "floor_lot_paid": 12808.039648734863,
+     "moved_lot_paid": 655.510977473319,
+     "building_money_on_statement": 100778.98189603306,
+     "building_zero_count_from_this_date": 102132.8859067464,
+     "building_ibtm_lots_vs_115000": -27684.568730175117,
+     "building_money_vs_115000": -14221.01810396694
+    },
+    {
+     "date": "2032-07-01",
+     "weekday": "Thu",
+     "building_ibtm_lots_market_value": 86885.37433934462,
+     "floor_lot": 71524.07977001905,
+     "moved_lot": 15361.294569325573,
+     "building_distributions_paid_waiting_in_bill_etf": 15524.689593405661,
+     "floor_lot_paid": 14533.199572779262,
+     "moved_lot_paid": 991.4900206263999,
+     "building_money_on_statement": 102410.06393275029,
+     "building_zero_count_from_this_date": 102395.55493508274,
+     "building_ibtm_lots_vs_115000": -28114.62566065538,
+     "building_money_vs_115000": -12589.936067249713
+    },
+    {
+     "date": "2032-12-01",
+     "weekday": "Wed",
+     "building_ibtm_lots_market_value": 88093.25268291897,
+     "floor_lot": 72518.40577316051,
+     "moved_lot": 15574.846909758464,
+     "building_distributions_paid_waiting_in_bill_etf": 15745.131234331075,
+     "floor_lot_paid": 14739.562627089912,
+     "moved_lot_paid": 1005.5686072411619,
+     "building_money_on_statement": 103838.38391725004,
+     "building_zero_count_from_this_date": 103835.1142585552,
+     "building_ibtm_lots_vs_115000": -26906.747317081026,
+     "building_money_vs_115000": -11161.616082749955
+    }
+   ],
+   "first_reach": {
+    "own_stated_top": {
+     "building_ibtm_lots": null,
+     "building_money_on_statement": "2031-10-06",
+     "zero_count": "2031-01-02"
+    },
+    "115000": {
+     "building_ibtm_lots": null,
+     "building_money_on_statement": null,
+     "zero_count": null
+    },
+    "peak_building_ibtm_lots": {
+     "date": "2031-01-03",
+     "value": 88271.25922064712
+    },
+    "min_zero_count_after_move": 101726.43436240213,
+    "building_money_on_15dec2032": 103971.97174978661
+   }
+  },
+  "yields_1in20_high_jan2028": {
+   "yield_move_points": 1.5899492286845704,
+   "floor_money": 88241.22356490136,
+   "moved_money": 19929.30898766325,
+   "stated_bottom": 110000.0,
+   "stated_top": 130000.0,
+   "unrounded_top": 134769.1077532174,
+   "zero_count_both_lots": 135446.33945046974,
+   "funds_pay_plan_run": 142858.20103408833,
+   "building_money_15dec2032_this_method": 142906.0926150151,
+   "dates": [
+    {
+     "date": "2031-01-02",
+     "weekday": "Thu",
+     "building_ibtm_lots_market_value": 112833.02301598722,
+     "floor_lot": 92900.32896029056,
+     "moved_lot": 19932.694055696666,
+     "building_distributions_paid_waiting_in_bill_etf": 13391.280413804605,
+     "floor_lot_paid": 13391.280413804605,
+     "moved_lot_paid": 0,
+     "building_money_on_statement": 126224.30342979182,
+     "building_zero_count_from_this_date": 136878.09214958778,
+     "building_ibtm_lots_vs_115000": -2166.9769840127847,
+     "building_money_vs_115000": 11224.30342979182
+    },
+    {
+     "date": "2031-07-01",
+     "weekday": "Tue",
+     "building_ibtm_lots_market_value": 113842.51298753868,
+     "floor_lot": 93731.48590293452,
+     "moved_lot": 20111.027084604153,
+     "building_distributions_paid_waiting_in_bill_etf": 16311.101071728483,
+     "floor_lot_paid": 15869.67412745956,
+     "moved_lot_paid": 441.4269442689221,
+     "building_money_on_statement": 130153.61405926716,
+     "building_zero_count_from_this_date": 137385.01937815442,
+     "building_ibtm_lots_vs_115000": -1157.4870124613226,
+     "building_money_vs_115000": 15153.614059267158
+    },
+    {
+     "date": "2032-01-03",
+     "weekday": "Sat",
+     "building_ibtm_lots_market_value": 115045.71870305066,
+     "floor_lot": 94722.13743198314,
+     "moved_lot": 20323.581271067524,
+     "building_distributions_paid_waiting_in_bill_etf": 19348.728471965067,
+     "floor_lot_paid": 18450.958626045925,
+     "moved_lot_paid": 897.7698459191404,
+     "building_money_on_statement": 134394.44717501572,
+     "building_zero_count_from_this_date": 138013.4171540836,
+     "building_ibtm_lots_vs_115000": 45.718703050661134,
+     "building_money_vs_115000": 19394.447175015724
+    },
+    {
+     "date": "2032-07-01",
+     "weekday": "Thu",
+     "building_ibtm_lots_market_value": 116248.73388697668,
+     "floor_lot": 95712.63208810093,
+     "moved_lot": 20536.10179887575,
+     "building_distributions_paid_waiting_in_bill_etf": 22478.386173837196,
+     "floor_lot_paid": 21109.745245896633,
+     "moved_lot_paid": 1368.6409279405639,
+     "building_money_on_statement": 138727.1200608139,
+     "building_zero_count_from_this_date": 138736.9020906105,
+     "building_ibtm_lots_vs_115000": 1248.7338869766827,
+     "building_money_vs_115000": 23727.120060813904
+    },
+    {
+     "date": "2032-12-01",
+     "weekday": "Wed",
+     "building_ibtm_lots_market_value": 119445.32034875259,
+     "floor_lot": 98344.52057173144,
+     "moved_lot": 21100.799777021148,
+     "building_distributions_paid_waiting_in_bill_etf": 23103.26854012353,
+     "floor_lot_paid": 21696.58041542098,
+     "moved_lot_paid": 1406.6881247025467,
+     "building_money_on_statement": 142548.5888888761,
+     "building_zero_count_from_this_date": 142544.05469857936,
+     "building_ibtm_lots_vs_115000": 4445.32034875259,
+     "building_money_vs_115000": 27548.58888887611
+    }
+   ],
+   "first_reach": {
+    "own_stated_top": {
+     "building_ibtm_lots": null,
+     "building_money_on_statement": "2031-06-25",
+     "zero_count": "2031-01-02"
+    },
+    "115000": {
+     "building_ibtm_lots": "2032-05-01",
+     "building_money_on_statement": "2031-01-02",
+     "zero_count": "2031-01-02"
+    },
+    "peak_building_ibtm_lots": {
+     "date": "2032-12-15",
+     "value": 119744.36148989112
+    },
+    "min_zero_count_after_move": 136878.09214958778,
+    "building_money_on_15dec2032": 142906.0926150151
+   }
+  }
+ },
+ "yield_rise_1pt_at_once": {
+  "+1%": [
+   {
+    "date": "2031-01-02",
+    "building_lots_change": -1436.3655007576308,
+    "building_lots_change_pct": -0.014304548226336417,
+    "payment_2033_lot_change": -706.0904218775831
+   },
+   {
+    "date": "2031-07-01",
+    "building_lots_change": -979.7483912713797,
+    "building_lots_change_pct": -0.00974189571256223,
+    "payment_2033_lot_change": -536.4784205137912
+   },
+   {
+    "date": "2032-01-03",
+    "building_lots_change": -493.5412685818301,
+    "building_lots_change_pct": -0.004893935278974884,
+    "payment_2033_lot_change": -355.93024034050904
+   },
+   {
+    "date": "2032-07-01",
+    "building_lots_change": -8.30549357169366,
+    "building_lots_change_pct": -8.213215058407068e-05,
+    "payment_2033_lot_change": -175.85179790969414
+   },
+   {
+    "date": "2032-12-01",
+    "building_lots_change": 0.0,
+    "building_lots_change_pct": 0.0,
+    "payment_2033_lot_change": -15.082764263861463
+   }
+  ],
+  "-1%": [
+   {
+    "date": "2031-01-02",
+    "building_lots_change": 1457.9110097266675,
+    "building_lots_change_pct": 0.014519116713219447,
+    "payment_2033_lot_change": 719.8772031933913
+   },
+   {
+    "date": "2031-07-01",
+    "building_lots_change": 989.6421647760726,
+    "building_lots_change_pct": 0.009840272102403867,
+    "payment_2033_lot_change": 544.3252522786133
+   },
+   {
+    "date": "2032-01-03",
+    "building_lots_change": 496.0199590254779,
+    "building_lots_change_pct": 0.004918513873268898,
+    "payment_2033_lot_change": 359.3276037120959
+   },
+   {
+    "date": "2032-07-01",
+    "building_lots_change": 8.306175775796873,
+    "building_lots_change_pct": 8.213889682854737e-05,
+    "payment_2033_lot_change": 176.65767030719144
+   },
+   {
+    "date": "2032-12-01",
+    "building_lots_change": 0.0,
+    "building_lots_change_pct": 0.0,
+    "payment_2033_lot_change": 15.088546582097479
+   }
+  ]
+ },
+ "yield_rise_1pt_held_for_good": {
+  "from_2jan2031": {
+   "from": "2031-01-02",
+   "dates": [
+    {
+     "date": "2031-01-02",
+     "weekday": "Thu",
+     "building_ibtm_lots_market_value": 98976.83721144735,
+     "floor_lot": 80887.98096575205,
+     "moved_lot": 18088.856245695297,
+     "building_distributions_paid_waiting_in_bill_etf": 11237.375242610571,
+     "floor_lot_paid": 11237.375242610571,
+     "moved_lot_paid": 0,
+     "building_money_on_statement": 110214.21245405791,
+     "building_zero_count_from_this_date": 118644.4109071467,
+     "building_ibtm_lots_vs_115000": -16023.162788552654,
+     "building_money_vs_115000": -4785.78754594209
+    },
+    {
+     "date": "2031-07-01",
+     "weekday": "Tue",
+     "building_ibtm_lots_market_value": 99590.86129078348,
+     "floor_lot": 81389.78693815091,
+     "moved_lot": 18201.074352632564,
+     "building_distributions_paid_waiting_in_bill_etf": 13724.183761613041,
+     "floor_lot_paid": 13328.119836956854,
+     "moved_lot_paid": 396.06392465618825,
+     "building_money_on_statement": 113315.04505239653,
+     "building_zero_count_from_this_date": 119032.35625918052,
+     "building_ibtm_lots_vs_115000": -15409.138709216524,
+     "building_money_vs_115000": -1684.9549476034736
+    },
+    {
+     "date": "2032-01-03",
+     "weekday": "Sat",
+     "building_ibtm_lots_market_value": 100353.98540431084,
+     "floor_lot": 82013.44364924218,
+     "moved_lot": 18340.54175506865,
+     "building_distributions_paid_waiting_in_bill_etf": 16302.068556690861,
+     "floor_lot_paid": 15497.816773800167,
+     "moved_lot_paid": 804.251782890695,
+     "building_money_on_statement": 116656.0539610017,
+     "building_zero_count_from_this_date": 119514.48999346676,
+     "building_ibtm_lots_vs_115000": -14646.014595689165,
+     "building_money_vs_115000": 1656.0539610017004
+    },
+    {
+     "date": "2032-07-01",
+     "weekday": "Thu",
+     "building_ibtm_lots_market_value": 101115.23154558249,
+     "floor_lot": 82635.5656034312,
+     "moved_lot": 18479.665942151285,
+     "building_distributions_paid_waiting_in_bill_etf": 18951.87765333732,
+     "floor_lot_paid": 17727.60180360892,
+     "moved_lot_paid": 1224.2758497284008,
+     "building_money_on_statement": 120067.1091989198,
+     "building_zero_count_from_this_date": 120071.12873471118,
+     "building_ibtm_lots_vs_115000": -13884.768454417514,
+     "building_money_vs_115000": 5067.109198919803
+    },
+    {
+     "date": "2032-12-01",
+     "weekday": "Wed",
+     "building_ibtm_lots_market_value": 103639.24500699498,
+     "floor_lot": 84698.29420313254,
+     "moved_lot": 18940.950803862448,
+     "building_distributions_paid_waiting_in_bill_etf": 19430.648435456063,
+     "floor_lot_paid": 18175.444383423637,
+     "moved_lot_paid": 1255.204052032426,
+     "building_money_on_statement": 123069.89344245104,
+     "building_zero_count_from_this_date": 123065.99463751804,
+     "building_ibtm_lots_vs_115000": -11360.754993005015,
+     "building_money_vs_115000": 8069.893442451037
+    }
+   ],
+   "first_reach": {
+    "115000": {
+     "building_ibtm_lots": null,
+     "building_money_on_statement": "2031-10-05",
+     "zero_count": "2031-01-02"
+    },
+    "peak_building_ibtm_lots": {
+     "date": "2032-12-15",
+     "value": 103875.22269419247
+    },
+    "min_zero_count_after_move": 118644.4109071467,
+    "building_money_on_15dec2032": 123350.63577202271
+   },
+   "building_money_15dec2032": 123350.63577202271
+  },
+  "from_1jul2031": {
+   "from": "2031-07-01",
+   "dates": [
+    {
+     "date": "2031-07-01",
+     "weekday": "Tue",
+     "building_ibtm_lots_market_value": 99590.86129078348,
+     "floor_lot": 81389.78693815091,
+     "moved_lot": 18201.074352632564,
+     "building_distributions_paid_waiting_in_bill_etf": 13656.83364926982,
+     "floor_lot_paid": 13262.695196820972,
+     "moved_lot_paid": 394.1384524488474,
+     "building_money_on_statement": 113247.6949400533,
+     "building_zero_count_from_this_date": 118965.1534090557,
+     "building_ibtm_lots_vs_115000": -15409.138709216524,
+     "building_money_vs_115000": -1752.305059946695
+    },
+    {
+     "date": "2032-01-03",
+     "weekday": "Sat",
+     "building_ibtm_lots_market_value": 100353.98540431084,
+     "floor_lot": 82013.44364924218,
+     "moved_lot": 18340.54175506865,
+     "building_distributions_paid_waiting_in_bill_etf": 16232.71139617056,
+     "floor_lot_paid": 15430.442464982938,
+     "moved_lot_paid": 802.268931187622,
+     "building_money_on_statement": 116586.6968004814,
+     "building_zero_count_from_this_date": 119445.23160006979,
+     "building_ibtm_lots_vs_115000": -14646.014595689165,
+     "building_money_vs_115000": 1586.696800481397
+    },
+    {
+     "date": "2032-07-01",
+     "weekday": "Thu",
+     "building_ibtm_lots_market_value": 101115.23154558249,
+     "floor_lot": 82635.5656034312,
+     "moved_lot": 18479.665942151285,
+     "building_distributions_paid_waiting_in_bill_etf": 18880.47171830262,
+     "floor_lot_paid": 17658.237292687187,
+     "moved_lot_paid": 1222.2344256154336,
+     "building_money_on_statement": 119995.70326388511,
+     "building_zero_count_from_this_date": 119999.77175533515,
+     "building_ibtm_lots_vs_115000": -13884.768454417514,
+     "building_money_vs_115000": 4995.703263885109
+    },
+    {
+     "date": "2032-12-01",
+     "weekday": "Wed",
+     "building_ibtm_lots_market_value": 103639.24500699498,
+     "floor_lot": 84698.29420313254,
+     "moved_lot": 18940.950803862448,
+     "building_distributions_paid_waiting_in_bill_etf": 19357.4386118574,
+     "floor_lot_paid": 18104.32755530396,
+     "moved_lot_paid": 1253.1110565534404,
+     "building_money_on_statement": 122996.68361885239,
+     "building_zero_count_from_this_date": 122992.78902298742,
+     "building_ibtm_lots_vs_115000": -11360.754993005015,
+     "building_money_vs_115000": 7996.6836188523885
+    }
+   ],
+   "first_reach": {
+    "115000": {
+     "building_ibtm_lots": null,
+     "building_money_on_statement": "2031-10-09",
+     "zero_count": "2031-01-02"
+    },
+    "peak_building_ibtm_lots": {
+     "date": "2032-12-15",
+     "value": 103875.22269419247
+    },
+    "min_zero_count_after_move": 118644.4109071467,
+    "building_money_on_15dec2032": 123277.25728644745
+   },
+   "building_money_15dec2032": 123277.25728644746
+  }
+ },
+ "keel_arithmetic": {
+  "gap_lots_to_115000_on_2jan2031": 14586.797287795023,
+  "gap_money_to_115000_on_2jan2031": 3349.422045184445,
+  "gap_lots_to_115000_on_1dec2032": 11785.505401382601,
+  "paid_out_by_1dec2032_share_of_building_money": 0.15612558558666068,
+  "end_pay_less_plan_run": 39.144259843276814
+ }
+}
