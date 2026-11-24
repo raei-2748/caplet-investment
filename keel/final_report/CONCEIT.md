@@ -79,7 +79,7 @@ Each part turns the conceit to show something new. The figures are NUMBERS figur
 
 | Part | The turn of the conceit | What the judge sees differently (the 'aha') | Number or rule it carries |
 |---|---|---|---|
-| Title page | The title may carry the conceit ("Pencil and Ink"); Caplet's call. Optional epigraph: 意在筆先, "the idea precedes the brush" (grind the ink before you write), in Chinese with the team's own gloss and "traditionally attributed to Wang Xizhi" (the attribution is doubted and no English wording is verified, card Q47 A18) | That the report has one idea running through it, and that it began before any figure | |
+| Title page | The title may carry the conceit ("Pencil and Ink"); Caplet's call. Optional epigraph, corrected Tue 24 Nov evening (card Q241): the classical text reads 意在筆前, not 意在筆先 (Taiwan's Ministry of Education dictionary gives 意在筆前 as the headword and 意在筆先 as a later form, best known from Zheng Banqiao); it comes from the afterword traditionally attributed to Wang Xizhi, 《題衛夫人〈筆陣圖〉後》 (in Zhang Yanyuan's 法書要錄), doubted since at least Sun Guoting in 687. Its 先乾研墨 is not "grind the ink before you write": the one English translation read at source renders it "concentrate and meditate quietly while pretending to grind the ink" (Shi 2017, after Gao Jianping), so the text asks for a settled idea, which in this conceit is still pencil. If Caplet keeps an epigraph: Chinese only, either 意在筆前 with "traditionally attributed to Wang Xizhi", or (Q241's preference) Sun Guoting's 意先筆後 from the 書譜 of 687, whose author is not doubted (the scroll is in the National Palace Museum, Taipei); any English is Shi's, with the translator named, never "grind the ink before you write" and never a gloss of our own presented as a translation. It maps only the order (prepare, then write), not the plan's substance (own, then state), so it is never a 3.0 clause | That the report has one idea running through it, and that it began before any figure | |
 | 2.0-2.1 | **The definition, at first use**, then Table 1 in its one description, the same everywhere (coherence reader 7, Tue 17 Nov, M7; the lead's call): our WInS portfolio, Laura's plan as it will stand after January 2028 with both deposits scaled to $300,000, without the top-up and the extra Treasuries (bought in 2028 at the day's rates) and before half the shares move into Treasuries ahead of the 2031 meetings; its dollar split is not Section 3's. Never "today", since IPS l.15 buys the floor with the 2028 deposit: every Treasury row is ink, VT the only pencil (coherence reader 4; coherence reader 6, Mon 16 Nov, M3). Said beside the table, never in it. ("The key plate" struck: it cost the voice in round 6 and stays out, coherence reader 7, Tue 17 Nov, M5; the buying order is said plainly if at all.) Optional, 2.2: **iron gall and carbon** (iron gall looks strongest on the day but its acid eats the paper over years; good carbon ink does not discolour, A14): permanence is judged on the payment date, which is why every instrument is dated (IPS l.13, "Held to the end, these pay what they say"); never map a named fund to iron gall | Section 2's rows sort themselves into ink and pencil: figures owned in Treasuries, and the one holding whose value no Treasury pays yet, in the order of claims (coherence reader 6, Mon 16 Nov, M3: never "what is owned and what is not", since she owns VT) | $300,000 of the plan's $450,000; VT 8.84% of the WInS portfolio (the ten's $302,287 moved to 3a, SKELETON l.37; coherence reader 6, Mon 16 Nov, L11) |
 | 2.3 | **One eraser, three lines.** Her advances, share prices and co-sponsors' budgets are three pencil lines that a single recession can shrink in the same downturn (IPS l.9's "later and smaller" and "during that same period", now drawn; coherence reader 7, Tue 17 Nov, LOW 4: never "rub out"; coherence reader 6, Mon 16 Nov, M4: never "together", card Q50): so the promised money cannot stay in pencil, and the portfolio diversifies Laura, not itself | Correlation becomes visible: diversification here means putting promised money where the eraser cannot reach | The career test, 2009 and 2020 (card Q12); Bodie, Merton and Samuelson 1992 |
 | 2.5 (how it was bought) | **In a market, a click is ink** (moved from 3f, coherence reader 7, Tue 17 Nov, LOW 11: 3f says buying it moves to 2.5, RANKING_5_RERANK): on 7 October a click landed on the wrong row as the page scrolled, and the order was gone with no step to confirm it. One clause beside the one-owner rule, the plain reason in the same sentence ("there's no rubbing it out"; round 6), a passing working word, never a second definition (Thu 19 Nov, card Q157 row 27: the click binds the trade and title passes at settlement, so the word means there is no rubbing it out, never "owned the moment it was clicked"; V2.1). **Inking is not tracing** (A2), moved with it: how a plan is bought is part of the plan (the bond prices checked against the curve, two about a point off, the 0.25-point rule; Perold's implementation shortfall) | How the plan was bought is part of the plan, and the one time the team learnt what ink means first-hand | RANKING_5_RERANK's buying it (the curve check, the click, one owner) |
@@ -122,7 +122,7 @@ register; knockout leaving white halos when the sheet slips and overprint not; d
 (prepressure.com); India ink permanent and graphite erasable; iron gall against carbon ink (British Library 2021);
 inkstone, ink stick and the seal stamped when the work is finished (Smithsonian; Asian Art Museum); a finished stroke
 cannot be touched up (Li 2009, p. 31); Yan Zhenqing's corrected draft and Fan Kuan's scroll in the National Palace
-Museum, Taipei; 意在筆先 as a concept. Not verified, so never used as fact: "K" meaning "key", the term "blueline", any
+Museum, Taipei; 意在筆先 as a concept (corrected Tue 24 Nov evening, card Q241: the classical form is 意在筆前; see V2.2's title page row). Not verified, so never used as fact: "K" meaning "key", the term "blueline", any
 English wording of 意在筆先 or its firm attribution, trapping beyond search excerpts, and anything about how Laura
 herself draws. Sources in APA at the end of the card.
 
@@ -170,6 +170,48 @@ same evening; each waits for a reader test before it joins V2.2, and none replac
 **Craft facts behind working words, card Q141 (Wed 18 Nov evening; read at source; each sits behind one word, never a new turn, and one turn per part stays the rule; rows 22, 27 and 15 are in V2.2's 3b and 3c rows).**
 - **2.0, only one source inks (card Q141 row 26, keep, 19).** "Only updates given in Section II of Weekly Editions of Admiralty Notices to Mariners should be used to correct any chart in ink. Updates to charts from information received from authorities other than the UKHO may be noted in pencil" (UKHO, NP100, 2.69; Bowditch, ch. 4, says the same of US charts). Behind the word "ink" only: ink comes from one source, a Treasury she owns paying on its date, and every other source (a forecast, a share price, the 2028 deposit before it arrives) may be noted in pencil. Never the reason for one issuer (round 5: an image standing as a reason failed; the reason is IPS l.11's matching rule), and never staged. Caveat: NP100 was read in a c. 2009 reproduction; read the current wording before 27 Nov.
 - **2.0 or 3d, the record is written after the work (card Q141 row 30, keep, 20).** A chart's correction note goes in its bottom-left corner: "Only do this once you have applied the correction and not before" (UKHO 2018, Keeping ADMIRALTY Leisure Charts up to date; NP100, 2.76). The shape of Laura's rule: she names a figure only once she owns it. One clause at most, never in her words (guard 4), and kept to the timing, since a record entry leans toward signing.
+
+**Facts behind working words, cards Q236-Q241 (Tue 24 Nov evening, the conceit's research run; read at source; rated
+by EI, EJ and EK the same evening; each sits behind one existing word, never a new turn, and one turn per part stays the
+rule).** The run's test was the plan's own: every fact must map a relation in the plan, and colour alone is refused.
+- **2.0 and 2.2, behind "held for her" (card Q239 row 13).** The law draws its own line between signed and owned: an
+  "indorsement" is "a signature" on a certificate, while an "entitlement order" is "a notification" to the broker who
+  holds the security (UCC 8-102). The strongest reason yet in law for WORDS' rule that ink means owned, never signed.
+- **3.0, behind "certainty has dates" (cards Q236 row 6, Q237 row 2).** "Indelible" has always meant dated: a Colorado
+  court in 1911 held that the ink rule's object "was to prevent erasure" and judged permanence "considering the short
+  time the ballots are to be preserved" (Baldwin v. Wade); election ink is made to last one poll and grow out. Ink is
+  judged on its date, as the plan judges each payment on its own. It also kills "ink is permanent" for good.
+- **The spine, behind "buys first and states second" (card Q237 row 4).** Election law puts the mark on before the act
+  it guards (India's Representation of the People Act 1951, s.61; the UK's polling rules): two unrelated systems close
+  the gap between act and record by putting the record first. One clause at most, never election ink as a turn (it
+  hides the amount, and India's mark comes with a signature).
+- **3c, behind "inked before the 2031 meetings" (card Q240 rows 2-3).** An inker's limit is the face: "Never touch the
+  faces!" (a penciller's rule, with an editor's list naming faces first). On Laura's page the faces are the ten payments
+  and the bottom, which the move cannot touch (NUMBERS 4, 8r); the move adds nothing of its own to what half the shares
+  buy that day. Never the IPS as "the pencils" (it is the editor's brief, card Q240 row 14).
+- **3d's lead-in, plain (cards Q236 row 21, Q239 rows 29-30, Q237 row 18; no conceit or trade word).** Germany's 1861
+  commercial code kept two books, one for what a merchant owned and one for the letters he sent: co-sponsors likewise
+  get a statement of what is held and a letter of what is promised. Taiwan's central bank states its US-dollar reserves
+  in NT$ at a named day's rate, line by line: the form C6 and C11 ask for. And the one fund that serves two jobs (the
+  2033 payment and the building's money, NUMBERS 8w) is the one place a statement could count a dollar twice, which is
+  why the building's lots sit in a second account (C11). Reasoning for the notes; 3d's one outside parallel stays
+  Lehman and Spelman.
+- **3e, reserves (card Q238 rows 7 and 29-30).** A publishing contract budgets for the author's own late changes (5-15%
+  of the typesetting cost) and absorbs the printer's errors; Laura's plan does the reverse, budgeting only for others'
+  slips (the 0.5% margin, the room under the top, the letter's fixed sum) and setting her own changes at zero (IPS
+  l.17). And when lettering went digital and corrections became cheap, late changes multiplied: her holdings cost little to sell (card Q45: the iBond funds about 0.04%-0.05% one way,
+  her five original 30-year bonds about 0.18%-0.40% round trip at institutional size in normal times; rater EJ), so a
+  written rule, not price, keeps the plan still. Never call the 0.5% margin "an allowance" (rater EJ). 3e's one outside
+  parallel stays the 2022 gilt crisis; these go to aha test 10 and the store.
+- **3f, plain (card Q240 row 20).** On a fixed date the last stage absorbs every earlier slip (a former Marvel editor,
+  2020): the first plan's one date, 1 January 2033, in terms any judge knows. No source named in 3f's prose (D16).
+- **Killed tonight (never use):** "stet" for holding (holding is the blank margin: "if nothing is marked in the margin
+  ... no change is needed", card Q238 row 18); "signing the final proof" for the 2031 move (it makes the range a draft);
+  election ink as a turn for ink; the inker's "original" for her Treasuries (it pushes "owned" toward "her own bonds",
+  UCC 8-503 comment 2); a copy-press copy as proof of the original ("merely secondary evidence"); "grind the ink before
+  you write" and 意在筆先 as the classical text (card Q241; title page row above); "grinding took time that could not
+  be skipped". The copying pencil's "looks like pencil, acts like ink" (card Q236 row 2) is true, but a third direction
+  of the image; it waits for a reader before any part uses it.
 
 **What Monday evening's readers said about the conceit (evidence, not a rule).** Voice round 5 (`voice/ROUND5.md`):
 with the definition given once beforehand, single turns were heard as Caplet's 8 times in 12 (2 in 24 before); the

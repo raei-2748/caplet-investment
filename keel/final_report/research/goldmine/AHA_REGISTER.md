@@ -129,6 +129,24 @@ Both are said in plain words; neither names a source in 3f's prose (D16).
 It rests on simulated readers, never people, so the report may use it only where real evidence carries it (a gift office
 books a signed document, ASC 958-605; card Q235 on how "certain" is heard) and never as a finding about funders.
 
+**Added Tue 24 Nov evening, from NUMBERS 8y and voice round 18 (`voice/ROUND18.md`).** One more for test 10, against 3c's
+spine row 1 (by 2031 nothing is left to estimate):
+
+| Candidate | Part | What the judge has backwards | The key | Source |
+|---|---|---|---|---|
+| Held at the top, worth less than the top | 3c (one clause after row 1) or 3d's lead-in | Money that will pay $115,000 should be worth at least $115,000 on the day it is held, so a statement showing less means the top is not yet covered | On the move day the building's Treasuries and the payouts they have made are worth about $111,700 on today's figures, $3,300 under the top, and pass it about late August 2031, because Treasuries are priced below what they pay until they pay it; what they will pay by December 2032 is never under about $117,700. A promise is counted by what it pays on its date, not by what it would sell for today: the dedication standard (2.0) seen on one statement | NUMBERS 8y; `numbers/STATEMENT_VALUE_2026-11-24.md`; COSPONSOR_NOTES C11, C16 |
+
+Plain words only (no conceit in 3d); if it lands in 3d it is the team's lead-in, never Laura's words, and it carries the
+statement's two figures side by side, never the market value alone.
+
+**Added Tue 24 Nov evening, from the conceit run (cards Q238 and Q239).** Two more for test 10, each against its part's
+present row; both are tested cold first, because round 16 showed a signature image drifts toward "signed":
+
+| Candidate | Part | What the judge has backwards | The key | Source |
+|---|---|---|---|---|
+| The dollar bill promises nothing; the Treasuries promise a date | 3c, against row 1 | What makes money certain is a signature and a promise printed on it | A dollar bill carries two printed signatures and has stated no promise on its face since 1963; the Treasuries behind the ten payments, held directly or through the funds that hold them, carry no signature at all, and each Treasury pays a dated sum by statute (31 U.S.C. 3123, 5103; 12 U.S.C. 411). Certain means owned and dated, never signed; the strong words go on the Treasuries, never on a fund's payout (rater EK on Q239-003: five payments rest on funds) | Card Q239 rows 1, 17, 18 |
+| Her plan budgets the other way round from her contracts | 3e, against row 9 | A careful plan keeps a reserve for its owner's change of mind | A publishing contract budgets for the author's own late changes (5-15% of the typesetting cost) and absorbs the printer's errors; Laura's plan budgets only for others' slips (the 0.5% margin, the room under the top, the letter's fixed sum) and sets her own changes at zero (IPS l.17); said plainly, never "an allowance" for the margin | Card Q238 row 7 (rater EJ: 19, adapt) |
+
 ## Corrections made tonight
 
 - Sweep A's "every fixed promise that broke broke one of four ways, and this plan shuts all four" is not true as stated:

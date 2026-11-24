@@ -3088,8 +3088,28 @@ money that is.
 - Every figure assumes the fund runs to its stated end. Section 3 and 8w part C cover an early end, a merger or a moved
   end.
 
+### 8z. The 1994 replay, with a script (Tue 24 Nov 2026 evening, numbers owner's analysis worker, merged by the lead the same evening; card Q232 rows 11-12; `numbers/REPLAY_1994_2026-11-24.md`, `numbers/replay_1994.py`, `numbers/results_replay_1994_2026-11-24.json`, data `numbers/data/fred_1994/` with `SOURCE.txt`). MODEL; Keel arithmetic; a history replay, never a plan figure
+
+- **Data and method.** FRED's daily constant-maturity par yields (H.15: DGS1, 2, 3, 5, 7, 10, 20, 30), read at source
+  through WebFetch on 24 Nov 2026 and identical to the repo's 27 Sep mirror; the register's curve method A
+  (`engine.Curve`); 500 trading days, 31 Dec 1993 to 29 Dec 1995; both ladders held unchanged and marked daily.
+- **B, a holding (lead with this one).** Ten $50,000-face Treasuries maturing 31 Dec 1999-2008, bought at par on 31 Dec
+  1993 (cost $500,000; duration 7.76 years, the same as Laura's own holdings, section 1): at most 9.15% below cost on 9
+  May 1994 (-9.11% on 4 Nov 1994), back to cost on 20 Apr 1995; end of 1994 -7.06%, end of 1995 +13.76%.
+- **A, the ten payments' value as zeros** (card Q232 row 11's method; duration 9.97 years against the payments' 9.94):
+  $272,118 on 31 Dec 1993, a high of $279,053 on 12 Jan 1994, a low of $237,959 on 4 Nov 1994 (12.6% below the start,
+  14.7% below the high), back to the start value on 4 May 1995 and to the high on 9 May 1995.
+- **What does not change:** $50,000 on each of the ten dates; each bond's coupons and face at maturity ($809,008 paid in
+  all by B; the card's $809,058 used an exact half-year coupon grid, a $50 difference that moves no fall or date).
+- **Wording.** Pair like with like: "12.6% ... back by 4 May 1995" or "14.7% ... back by 9 May 1995", never 14.7% with
+  4 May (the card's row 11 mixed two starting points). Never "a ladder like hers lost about 15%": A is the value of the
+  promises, which she cannot hold as zeros (STRIPS are banned). The sentence the register carries: "In 1994, ten
+  $50,000-face Treasuries bought at par on 31 Dec 1993, maturing six to fifteen years later with the same 7.76-year
+  duration as Laura's holdings, were worth at most 9.15% less (9 May 1994) and back to cost on 20 Apr 1995; not one
+  dollar they would pay on their dates moved."
+
 ## 9. Still to add (later days)
-- **Open Tue 24 Nov (card Q232 row 11, rater EH):** the card's 1994 replay of a ladder like Laura's (the ten payments' market value fell up to 14.7% by 4 Nov 1994 and was back by 4 May 1995) is Keel arithmetic with no script in the repo; it stays in the store, never a plan figure, until the numbers owner files a script and a register line.
+- **Done Tue 24 Nov evening (card Q232 row 11):** the 1994 replay now has a script and a register section (8z), reproduced within $0.41; the card's "14.7% ... back by 4 May 1995" mixed two starting points (say 12.6% with 4 May, or 14.7% with 9 May), and the holding's -9.15% leads. Was: **Open Tue 24 Nov (card Q232 row 11, rater EH):** the card's 1994 replay of a ladder like Laura's (the ten payments' market value fell up to 14.7% by 4 Nov 1994 and was back by 4 May 1995) is Keel arithmetic with no script in the repo; it stays in the store, never a plan figure, until the numbers owner files a script and a register line.
 - **Open Tue 24 Nov (card Q231 row 45, for the numbers owner):** whether J.P. Morgan's 7.5% for world shares is before or after foreign withholding tax on dividends was not found at source. If before, the models (VT at 7.5% less its 0.06% fee) leave out about 0.1% a year of foreign dividend tax that a US fund pays at treaty rates (VT's own index already deducts it). At about 0.1% a year the top is unchanged (the top states $115,000 for any share return from 4% to 10%, section 4); the register says so once the source is read.
 - **Done Tue 24 Nov (8y, numbers owner's analysis worker; the lead's merge):** what a statement shows co-sponsors in 2031 and 2032. On the move day the building's money (its two IBTM lots plus the distributions they have paid) is about $111,700, about $3,300 under $115,000, passing it about 23 August 2031; the lots alone never show $115,000; one IBTM line overstates the building's money by $20,000 to $27,000; the count is never under $117,731. The lead adopted the second account the same morning (`research/COSPONSOR_NOTES.md` C11; an execution choice the IPS does not touch; whether Section 2 names it is the writers' call). Open: and the engine's one-bond IBTM against the real fund's monthly payouts (8y, Limits), which leaves the building's money unchanged.
 - **Sun 15 Nov evening (numbers owner), open after the fee fix:**

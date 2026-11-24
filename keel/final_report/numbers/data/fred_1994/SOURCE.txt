@@ -1,0 +1,18 @@
+FRED daily Treasury constant-maturity yields (H.15, as FRED republishes them), 1 Dec 1993 to 31 Jan 1996.
+Read at source Tue 24 Nov 2026 (Sydney; Mon 23 Nov in US time) through the WebFetch tool, because curl to
+fred.stlouisfed.org is refused by the session's proxy (HTTP 403). One URL per series:
+
+  https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS1&cosd=1993-12-01&coed=1996-01-31
+  https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd=1993-12-01&coed=1996-01-31
+  https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS3&cosd=1993-12-01&coed=1996-01-31
+  https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS5&cosd=1993-12-01&coed=1996-01-31
+  https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS7&cosd=1993-12-01&coed=1996-01-31
+  https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=1993-12-01&coed=1996-01-31
+  https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS20&cosd=1993-12-01&coed=1996-01-31
+  https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS30&cosd=1993-12-01&coed=1996-01-31
+
+Each file here is the CSV text as returned (566 rows, 542 with a value; blank values are market holidays).
+Second way: every row of all eight files is identical to the repo's FRED mirror downloaded 27 Sep 2026
+(archive/rab/data/fred/DGS*.csv) over the same dates (checked Tue 24 Nov 2026; 0 differences in 4,528 rows).
+Units: percent, bond-equivalent (semiannual) par yields on the Treasury's constant-maturity curve.
+Used by keel/final_report/numbers/replay_1994.py.

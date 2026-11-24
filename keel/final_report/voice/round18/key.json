@@ -1,0 +1,36 @@
+{
+ "readers": {
+  "1": {
+   "arm": "N",
+   "role": "cosponsor",
+   "n_sentences_p2": 22,
+   "lead_in_sentences": 4
+  },
+  "2": {
+   "arm": "N",
+   "role": "officer",
+   "n_sentences_p2": 22,
+   "lead_in_sentences": 4
+  },
+  "3": {
+   "arm": "N",
+   "role": "official",
+   "n_sentences_p2": 22,
+   "lead_in_sentences": 4
+  }
+ },
+ "we_per_100_words": {
+  "C": [
+   1.57,
+   127
+  ],
+  "L": [
+   0.0,
+   118
+  ],
+  "N": [
+   1.19,
+   253
+  ]
+ }
+}
