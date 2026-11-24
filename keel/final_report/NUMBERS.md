@@ -3108,9 +3108,65 @@ money that is.
   duration as Laura's holdings, were worth at most 9.15% less (9 May 1994) and back to cost on 20 Apr 1995; not one
   dollar they would pay on their dates moved."
 
+### 8za. The freeze check and today's history figures (Wed 25 Nov 2026, numbers owner's analysis worker, merged by the lead the same morning; `numbers/FREEZE_2026-11-25.md`, scratch `numbers/scratch_freeze_2026-11-25/`; card Q246 and `research/cards/data/Q246_slump_then_cost_burst.py`). Keel arithmetic on series read at source; MODEL where marked
+
+The day before the inputs freeze (Thu 26 Nov), every figure in `ARGUMENT_TREE.md` and `voice/FACTS_PLAIN.md` (version
+10) was checked against this register: 136 rows, 60 match, 35 rounding, 6 both, 7 mismatch, 25 not registered, 1
+mixed, 2 not counted; all 27 scripts that assert their own figures pass, and the `numbers/` folder hashes as before.
+
+**(a) Registered today (were in the tree or the fact sheet with no line here).**
+- **$37,499**: the payments' money short of the first deposit in January 2027 money: $337,499 (section 2, the ten plus
+  the extra Treasuries under the standard, 1 Jan 2027) less $300,000. The same gap is $39,162 in January 2028 money.
+  Keel arithmetic. Print one of the two, with its date.
+- **$37,625**: the ten's cost during 2026 from the year's dearest close ($325,563, Fri 27 Feb) to its cheapest
+  ($287,938, Mon 5 Oct), 8b's two figures. Keel arithmetic; Section 2.5's note only, never beside the $200 of
+  commissions as a ratio.
+- **The 2000-04 replay, one calendar per sentence (card Q246, MSCI and DGBAS levels read at source a third time, FRED
+  EXTAUS).** On Laura's calendar (31 Dec closes): world shares bought at the start of 2000 were 44.15% down at the
+  start of 2003; building costs from January 2003 to December 2004 rose 18.40% in NT$ (DGBAS general index 55.05 to
+  65.18) and 27.24% in US$ (the Taiwan dollar 34.5714 to 32.1703 per US$). On end-January dates: -42.68% with January
+  2003 to January 2005, +17.9% NT$, +28.0% US$. Say "more than 40%"; "about 18%" and "about 27%" read the same on
+  either pair. Five years on, world shares were 16.7% below cost on the price series (31 Dec 1999 to 31 Dec 2004),
+  never "about 10%"; from the meetings they rose 53.8% (end-January 2003 to end-December 2004) or 49.1% on Laura's
+  calendar, never "56-57%".
+- **The burst's shape (card Q246):** 11.6% of the NT$ rise came in one quarter, December 2003 to March 2004, when
+  rebar rose 37.8%, from world steel prices; the index had been rising since January 2002, so the burst began before
+  the share low.
+- **Two slumps, two bursts (card Q246 row 36):** both world-share slumps of 30% or more since 2000 were followed by a
+  Taiwan building about a quarter dearer in US$: about 27% after 2000-03 (through steel) and about 24% after 2008-09
+  (through the Taiwan dollar), run medians, against a typical two-year rise of about 3.0%. Dated events, never a
+  frequency; the four episodes of 8x (d) are the largest rises since 1991 and only one of them followed a slump.
+- **Not printed, store only:** the 4.5% February 2036 bond (CANON B21, D13: the WInS listing, never a register
+  figure); "four years out of five" (card Q85); "about nine hours" before the open (card Q225); the stale prices'
+  "about 1 point" (the experience record); $75 (card Q6d). Each stays on its card; a writer who uses one cites the card
+  and the main session checks it there.
+
+**(b) The seven mismatches and what the files now say.**
+- Tree, "$399,089 owed": that is what the payments still owed are worth at today's forwards; $500,000 is owed. Say "the
+  $399,089 the remaining payments are worth" (fixed in the tree today).
+- Tree, "about 17 separate two-year spans in four episodes": 16 or 17 spans cover the whole record and the four
+  episodes hold the 20 windows at 28% or more; never "17 spans in four episodes" (fixed in the tree today).
+- Fact sheet, "since 1983" for the Taiwan-dollar windows: the series used starts in October 1986, so "since 1986";
+  the 98 of 100 stands (version 11).
+- Fact sheet, "about 0.27%" credited to the ended funds' payouts: 0.27% is Keel's stack of the worst frictions for a
+  fund held 2028-2032; the five ended funds paid within 0.066% of their last price (version 11).
+- Fact sheet, a waiting fund "which charges 0.15% a year": which fund is unverified; 0.15% is what the model charges
+  (version 11).
+- Fact sheet, "$1,900" on 16 Oct: "about $1,900 on the measure we used that day" (version 11).
+- Fact sheet, version 6's changelog line "about 42%": a changelog states what a version said; version 11 marks it
+  retired.
+
 ## 9. Still to add (later days)
+- **Done Wed 25 Nov (card Q231 row 45, the numbers owner's worker):** J.P. Morgan's 7.5% for AC World Equity forecasts
+  the MSCI ACWI Net Total Return USD Index (LTCMA Methodology Handbook, 2027 edition, Exhibit 4; read 25 Nov 2026 on a
+  mirror because J.P. Morgan's site refused the fetch, and the 2026 edition on its own site has the same row), so it is
+  after withholding tax on dividends at MSCI's non-treaty rates; the models leave out no foreign dividend tax, and
+  every figure stands. A US holder of VT gets treaty rates abroad, so if anything the 7.5% is slightly low for her
+  (Keel's reading, not sized).
+- **Done Wed 25 Nov (8za):** the freeze check before Thu 26 Nov; today's history figures registered; seven mismatches
+  fixed in the tree and fact sheet version 11.
 - **Done Tue 24 Nov evening (card Q232 row 11):** the 1994 replay now has a script and a register section (8z), reproduced within $0.41; the card's "14.7% ... back by 4 May 1995" mixed two starting points (say 12.6% with 4 May, or 14.7% with 9 May), and the holding's -9.15% leads. Was: **Open Tue 24 Nov (card Q232 row 11, rater EH):** the card's 1994 replay of a ladder like Laura's (the ten payments' market value fell up to 14.7% by 4 Nov 1994 and was back by 4 May 1995) is Keel arithmetic with no script in the repo; it stays in the store, never a plan figure, until the numbers owner files a script and a register line.
-- **Open Tue 24 Nov (card Q231 row 45, for the numbers owner):** whether J.P. Morgan's 7.5% for world shares is before or after foreign withholding tax on dividends was not found at source. If before, the models (VT at 7.5% less its 0.06% fee) leave out about 0.1% a year of foreign dividend tax that a US fund pays at treaty rates (VT's own index already deducts it). At about 0.1% a year the top is unchanged (the top states $115,000 for any share return from 4% to 10%, section 4); the register says so once the source is read.
+- **Closed Wed 25 Nov (see the line above), was open Tue 24 Nov (card Q231 row 45, for the numbers owner):** whether J.P. Morgan's 7.5% for world shares is before or after foreign withholding tax on dividends was not found at source. If before, the models (VT at 7.5% less its 0.06% fee) leave out about 0.1% a year of foreign dividend tax that a US fund pays at treaty rates (VT's own index already deducts it). At about 0.1% a year the top is unchanged (the top states $115,000 for any share return from 4% to 10%, section 4); the register says so once the source is read.
 - **Done Tue 24 Nov (8y, numbers owner's analysis worker; the lead's merge):** what a statement shows co-sponsors in 2031 and 2032. On the move day the building's money (its two IBTM lots plus the distributions they have paid) is about $111,700, about $3,300 under $115,000, passing it about 23 August 2031; the lots alone never show $115,000; one IBTM line overstates the building's money by $20,000 to $27,000; the count is never under $117,731. The lead adopted the second account the same morning (`research/COSPONSOR_NOTES.md` C11; an execution choice the IPS does not touch; whether Section 2 names it is the writers' call). Open: and the engine's one-bond IBTM against the real fund's monthly payouts (8y, Limits), which leaves the building's money unchanged.
 - **Sun 15 Nov evening (numbers owner), open after the fee fix:**
   - The haircut's size is the lead's call; the code keeps 0.5% (`completion.HAIRCUT`). The w1 frictions add to about 0.27%, so the 0.5% now leaves about 0.23% of each end beyond them (section 0).

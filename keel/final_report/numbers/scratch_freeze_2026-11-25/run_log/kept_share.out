@@ -1,0 +1,57 @@
+top-up and extra Treasuries returned (forwards, 1 Jan 2033 money): 46,566; carry 1.0023315528
+============================== move70 Move 70% of the shares into Treasuries before the 2031 meetings; keep 30%
+  central: stated 95,000 to 120,000 (raw 97,605 to 124,957); funds pay 130,558; contribution 120,000; excess 10,558; flexibility 12,708; +above 23,266; total 143,266; flex/top 10.6%; TWD x1.06 / x1.94; returns 8k 69,857
+  house   bottom [80000.0, 95000.0, 115000.0] top [100000.0, 125000.0, 155000.0] width [15000.0, 25000.0, 45000.0] one-figure 186 | contribution [100000.0, 125000.0, 155000.0] inside 100.0%
+          flex p1/p5/p50/p95 [3797, 5773, 12292, 24534] | +above [9128, 12209, 20690, 34195] | flex/top p50 10.0% (+above 16.8%) | TWD flex 49.8% (100488 fail) +above 98.3% (3368 fail); 13%/17% flex 23.0%/6.5%
+          vs plan: contribution diff [5000, 10000, 15000], flex diff [-16356, -8195, -3848], +above diff [-16560, -8175, -3068], total diff [-5112, -365, 2683], total above plan 42.1%
+  history bottom [95000.0, 95000.0, 95000.0] top [115000.0, 125000.0, 140000.0] width [20000.0, 30000.0, 45000.0] one-figure 0 | contribution [115000.0, 125000.0, 140000.0] inside 100.0%
+          flex p1/p5/p50/p95 [4940, 7880, 13978, 24173] | +above [12147, 15015, 22080, 32854] | flex/top p50 11.3% (+above 18.0%) | TWD flex 62.6% (662 fail) +above 99.4% (11 fail); 13%/17% flex 31.1%/7.1%
+          vs plan: contribution diff [5000, 10000, 15000], flex diff [-16115, -9319, -5254], +above diff [-16231, -9663, -3675], total diff [-4908, -870, 2733], total above plan 31.9%
+  joint   bottom [80000.0, 95000.0, 115000.0] top [100000.0, 125000.0, 155000.0] width [15000.0, 30000.0, 45000.0] one-figure 0 | contribution [100000.0, 125000.0, 155000.0] inside 100.0%
+          flex p1/p5/p50/p95 [7541, 8267, 13972, 25008] | +above [11855, 13626, 22883, 35223] | flex/top p50 11.5% (+above 18.3%) | TWD flex 63.8% (212 fail) +above 99.3% (4 fail); 13%/17% flex 39.1%/9.1%
+          vs plan: contribution diff [5000, 10000, 15000], flex diff [-16672, -9315, -5511], +above diff [-16459, -9412, -4180], total diff [-5011, -1087, 3313], total above plan 27.0%
+  real TWD since 1983 (417 windows): flex 91.8% (fails 34), +above 97.1% (fails 12)
+============================== plan The plan (IPS l.15): move half, keep half promised to no one
+  central: stated 95,000 to 115,000 (raw 97,605 to 117,142); funds pay 122,503; contribution 115,000; excess 7,503; flexibility 21,179; +above 28,682; total 143,682; flex/top 18.4%; TWD x1.84 / x2.49; returns 8k 75,266
+  house   bottom [80000.0, 95000.0, 115000.0] top [95000.0, 115000.0, 140000.0] width [10000.0, 20000.0, 35000.0] one-figure 305 | contribution [95000.0, 115000.0, 140000.0] inside 100.0%
+          flex p1/p5/p50/p95 [6329, 9621, 20486, 40890] | +above [11868, 16176, 28624, 49901] | flex/top p50 17.8% (+above 24.8%) | TWD flex 92.9% (14245 fail) +above 99.7% (527 fail); 13%/17% flex 79.3%/54.6%
+  history bottom [95000.0, 95000.0, 95000.0] top [110000.0, 115000.0, 125000.0] width [15000.0, 20000.0, 30000.0] one-figure 0 | contribution [110000.0, 115000.0, 125000.0] inside 100.0%
+          flex p1/p5/p50/p95 [8233, 13134, 23296, 40288] | +above [15182, 20387, 31308, 48616] | flex/top p50 20.1% (+above 26.9%) | TWD flex 96.9% (54 fail) +above 100.0% (0 fail); 13%/17% flex 90.2%/67.2%
+  joint   bottom [80000.0, 95000.0, 115000.0] top [95000.0, 115000.0, 140000.0] width [10000.0, 20000.0, 35000.0] one-figure 0 | contribution [95000.0, 115000.0, 140000.0] inside 100.0%
+          flex p1/p5/p50/p95 [12569, 13779, 23286, 41681] | +above [17425, 19412, 31845, 50243] | flex/top p50 20.7% (+above 27.8%) | TWD flex 99.1% (5 fail) +above 100.0% (0 fail); 13%/17% flex 87.5%/67.7%
+  real TWD since 1983 (417 windows): flex 98.3% (fails 7), +above 100.0% (fails 0)
+============================== move30 Move 30%; keep 70%
+  central: stated 95,000 to 105,000 (raw 97,605 to 109,328); funds pay 114,448; contribution 105,000; excess 9,448; flexibility 29,651; +above 39,099; total 144,099; flex/top 28.2%; TWD x2.82 / x3.72; returns 8k 85,687
+  house   bottom [80000.0, 95000.0, 115000.0] top [90000.0, 105000.0, 130000.0] width [5000.0, 10000.0, 20000.0] one-figure 1114 | contribution [90000.0, 105000.0, 130000.0] inside 100.0%
+          flex p1/p5/p50/p95 [8861, 13469, 28681, 57246] | +above [14468, 20034, 36545, 65812] | flex/top p50 26.6% (+above 33.9%) | TWD flex 98.8% (2411 fail) +above 99.9% (246 fail); 13%/17% flex 95.9%/87.0%
+          vs plan: contribution diff [-15000, -10000, -5000], flex diff [3848, 8195, 16356], +above diff [3075, 8146, 16552], total diff [-2683, 365, 5112], total above plan 57.8%
+  history bottom [95000.0, 95000.0, 95000.0] top [105000.0, 110000.0, 115000.0] width [10000.0, 15000.0, 20000.0] one-figure 2 | contribution [105000.0, 110000.0, 115000.0] inside 100.0%
+          flex p1/p5/p50/p95 [11526, 18388, 32615, 56403] | +above [18345, 25692, 39983, 63533] | flex/top p50 30.3% (+above 36.9%) | TWD flex 99.4% (11 fail) +above 100.0% (0 fail); 13%/17% flex 97.9%/95.5%
+          vs plan: contribution diff [-15000, -10000, -5000], flex diff [5254, 9319, 16115], +above diff [3769, 9228, 16207], total diff [-2733, 870, 4908], total above plan 68.1%
+  joint   bottom [80000.0, 95000.0, 115000.0] top [90000.0, 110000.0, 130000.0] width [5000.0, 15000.0, 20000.0] one-figure 0 | contribution [90000.0, 110000.0, 130000.0] inside 100.0%
+          flex p1/p5/p50/p95 [17596, 19290, 32601, 58353] | +above [22588, 25008, 40900, 67026] | flex/top p50 31.2% (+above 38.9%) | TWD flex 100.0% (0 fail) +above 100.0% (0 fail); 13%/17% flex 100.0%/96.4%
+          vs plan: contribution diff [-15000, -10000, -5000], flex diff [5511, 9315, 16672], +above diff [4299, 9268, 16108], total diff [-3313, 1087, 5011], total above plan 73.0%
+  real TWD since 1983 (417 windows): flex 100.0% (fails 0), +above 100.0% (fails 0)
+============================== central frontier step starts
+  top 100,000 from 6.1% moved: flexibility 39,762, excess 4,834, +above 44,596
+  top 105,000 from 18.9% moved: flexibility 34,342, excess 4,988, +above 39,330
+  top 110,000 from 31.7% moved: flexibility 28,922, excess 5,141, +above 34,063
+  top 115,000 from 44.5% moved: flexibility 23,502, excess 5,295, +above 28,797
+  top 120,000 from 57.3% moved: flexibility 18,081, excess 5,448, +above 23,530
+  top 125,000 from 70.1% moved: flexibility 12,661, excess 5,602, +above 18,263
+  top 130,000 from 82.9% moved: flexibility 7,241, excess 5,756, +above 12,997
+  top 135,000 from 95.7% moved: flexibility 1,821, excess 5,909, +above 7,730
+============================== checks
+  central_vs_NUMBERS_4 {"stated": [[95000.0, 115000.0], [95000.0, 115000.0]], "unrounded": [[97605.07604520187, 117142.44956602114], [97605.07604520187, 117142.44956602114]], "funds_pay": [122503.1348225589, 122503.1348225589], "contribution": [115000.0, 115000.0], "excess": [7503.134822558903, 7503.134822558903], "half_kept": [21179.178869581778, 21179.178869581778], "half_kept_plus_excess": [28682.31369214068, 28682.3
+  house_vs_NUMBERS_4_and_8f {"stated_bottom": [[80000.0, 95000.0, 115000.0], [80000.0, 95000.0, 115000.0]], "stated_top": [[95000.0, 115000.0, 140000.0], [95000.0, 115000.0, 140000.0]], "contribution": [[95000.0, 115000.0, 140000.0], [95000.0, 115000.0, 140000.0]], "excess": [[4648.9538888535035, 7974.821603130491, 11572.652111567912], [4648.9538888535035, 7974.821603130491, 11572.652111567912]], "half_kept_p1_p5_p50_p95": [
+  history_vs_NUMBERS_4_and_8f {"stated_top": [[110000.0, 115000.0, 125000.0], [110000.0, 115000.0, 125000.0]], "half_kept_p1_p5_p50_p95": [[8233.146532718383, 13134.002759391899, 23296.30747575304, 40287.671348189375], [8233.146532718383, 13134.002759391899, 23296.30747575304, 40287.671348189375]], "half_kept_plus_excess_p1_p5_p50_p95": [[15182.20979860427, 20386.99316632543, 31308.093258714496, 48615.84769288763], [15182.2097
+  joint_vs_NUMBERS_8i {"stated_bottom": [[80000.0, 95000.0, 115000.0], [80000.0, 95000.0, 115000.0]], "stated_top": [[95000.0, 115000.0, 140000.0], [95000.0, 115000.0, 140000.0]], "half_kept_p1_p5_p50_p95": [[12568.547713696144, 13778.749596600786, 23286.276351704884, 41680.68311491138], [12568.547713696144, 13778.749596600786, 23286.276351704884, 41680.68311491138]], "max_abs_diff_vs_joint_stress_J": {"bottom_stated":
+  twd_vs_NUMBERS_8j {"house": {"flexibility_covers_10pct": [0.928775, 0.928775], "flexibility_fails": [14245, 14245], "flexibility_covers_strict": [0.88735, 0.88735], "flexibility_19_in_20": [0.09262145922393127, 0.09262145922393127], "plus_above_top_covers_10pct": [0.997365, 0.997365], "plus_above_top_fails": [527, 527], "shares_of_contribution_flexibility": [{"0.10": 0.928775, "0.13": 0.793295, "0.17": 0.545825, "0
+  real_twd_vs_NUMBERS_8j {"flexibility": [0.9832134292565947, 0.9832134292565947], "flexibility_fails_starts": ["1983-10,1983-11,1983-12,1984-01,1984-03,2006-02,2006-03", "1983-10,1983-11,1983-12,1984-01,1984-03,2006-02,2006-03"], "flexibility_gap_p50_max": [[2867.6375597263104, 6075.428458355935], [2867.6375597263104, 6075.428458355935]], "plus_above_top": [1.0, 1.0], "windows": [417, 417]}
+  returns_vs_NUMBERS_8k {"central_total_jan2033": [75266.25611716292, 75266.25611716296], "carry_15dec_to_1jan": [1.0023315527892787, 1.0023315527892787], "topup_return": [46566.448470098374, 46566.448470098374], "joint_total_p5_p50_p95": [[40829.77707618644, 79535.65840878786, 121938.88041927577], [40829.77707618644, 79535.65840878786, 121938.88041927577]]}
+  vs_NUMBERS_8n_option_B {"house": {"stated_bottom": [[80000.0, 95000.0, 115000.0], [80000.0, 95000.0, 115000.0]], "stated_top": [[95000.0, 115000.0, 140000.0], [95000.0, 115000.0, 140000.0]], "contribution": [[95000.0, 115000.0, 140000.0], [95000.0, 115000.0, 140000.0]], "flexibility_plus_above_top": [[16176.365555886601, 28623.812442236784, 49900.64681570996], [16176.365555886601, 28623.812442236784, 49900.64681570996]]
+  same_floor_every_split_max_abs_diff 0.0
+  same_bottom_every_split_max_abs_diff 0.0
+  moved_plus_kept_value_on_move_day_equals_vt31 0.0
+  summary {"pairs_compared": 179, "largest_dollar_difference": 4.3655745685100555e-11, "largest_share_difference": 0.0, "joint_J_largest_difference": 0.0, "mismatches": [], "plan_reproduces_register": true}
+run time 9.1 s

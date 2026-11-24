@@ -1,0 +1,28 @@
+register asserted: floor money $81,244 moved $18,349 pays $122,503 zero $117,731 unrounded top $117,142 floor payout $102,365
+2031-01-02 Thu: building lots $100,413 (floor $82,062, moved $18,351) + paid out $11,237 = $111,651 | count $118,644 | own lot $38,278 (+$7,157 paid) | IBTM line $138,691 | bill ETF $78,257 (14.4% the building's)
+2031-07-01 Tue: building lots $100,571 (floor $82,190, moved $18,380) + paid out $13,657 = $114,227 | count $118,965 | own lot $38,338 (+$8,147 paid) | IBTM line $138,909 | bill ETF $89,947 (15.2% the building's)
+2032-01-03 Sat: building lots $100,848 (floor $82,417, moved $18,431) + paid out $16,150 = $116,998 | count $119,363 | own lot $38,444 (+$9,169 paid) | IBTM line $139,291 | bill ETF $102,022 (15.8% the building's)
+2032-07-01 Thu: building lots $101,124 (floor $82,642, moved $18,481) + paid out $18,703 = $119,827 | count $119,823 | own lot $38,549 (+$10,216 paid) | IBTM line $139,673 | bill ETF $114,382 (16.4% the building's)
+2032-12-01 Wed: building lots $103,214 (floor $84,351, moved $18,863) + paid out $19,096 = $122,310 | count $122,306 | own lot $39,357 (+$10,431 paid) | IBTM line $142,572 | bill ETF $122,797 (15.6% the building's)
+2032-12-15 Wed: building lots $103,410 (floor $84,511, moved $18,899) + paid out $19,132 = $122,542 | count $122,542 | own lot $0 (+$49,884 paid) | IBTM line $103,410 | bill ETF $163,306 (11.7% the building's)
+face: {'engine_bond': ('$99,333', '$81,211', '$18,123'), 'coupon_3.50': ('$102,443', '$84,057', '$18,386')}
+coupons still to come, gross: {'2031-01-02': '$8,446', '2031-07-01': '$6,334', '2032-01-03': '$4,223', '2032-07-01': '$2,111', '2032-12-01': '$0'}
+first reach, central: {'115000': {'building_ibtm_lots': None, 'building_money_on_statement': '2031-08-23', 'zero_count': '2031-01-02'}, 'peak_building_ibtm_lots': {'date': '2032-12-15', 'value': 103409.8606605592}, 'min_zero_count_after_move': 118644.4109071467, 'building_money_on_15dec2032': 122542.27908240218, 'single_ibtm_line_min_before_end': 135815.06418842595, 'single_ibtm_line_first_at_or_above_115000': '2031-01-02'}
+yields_1in20_low_jan2028 S -1.590 pt range $80,000 - $100,000 pays $103,940 | first {'own_stated_top': {'building_ibtm_lots': None, 'building_money_on_statement': '2031-10-06', 'zero_count': '2031-01-02'}, '115000': {'building_ibtm_lots': None, 'building_money_on_statement': None, 'zero_count': None}, 'peak_building_ibtm_lots': {'date': '2031-01-03', 'value': 88271.25922064712}, 'min_zero_count_after_move': 101726.43436240213, 'building_money_on_15dec2032': 103971.97174978661}
+    2031-01-02 lots $88,264 money $97,718 count $101,726
+    2031-07-01 lots $87,755 money $99,193 count $101,908
+    2032-01-03 lots $87,315 money $100,779 count $102,133
+    2032-07-01 lots $86,885 money $102,410 count $102,396
+    2032-12-01 lots $88,093 money $103,838 count $103,835
+yields_1in20_high_jan2028 S +1.590 pt range $110,000 - $130,000 pays $142,858 | first {'own_stated_top': {'building_ibtm_lots': None, 'building_money_on_statement': '2031-06-25', 'zero_count': '2031-01-02'}, '115000': {'building_ibtm_lots': '2032-05-01', 'building_money_on_statement': '2031-01-02', 'zero_count': '2031-01-02'}, 'peak_building_ibtm_lots': {'date': '2032-12-15', 'value': 119744.36148989112}, 'min_zero_count_after_move': 136878.09214958778, 'building_money_on_15dec2032': 142906.0926150151}
+    2031-01-02 lots $112,833 money $126,224 count $136,878
+    2031-07-01 lots $113,843 money $130,154 count $137,385
+    2032-01-03 lots $115,046 money $134,394 count $138,013
+    2032-07-01 lots $116,249 money $138,727 count $138,737
+    2032-12-01 lots $119,445 money $142,549 count $142,544
+at once +1% [('2031-01-02', '$-1,436', '-1.43%', '$-706'), ('2031-07-01', '$-980', '-0.97%', '$-536'), ('2032-01-03', '$-494', '-0.49%', '$-356'), ('2032-07-01', '$-8', '-0.01%', '$-176'), ('2032-12-01', '$0', '0.00%', '$-15')]
+at once -1% [('2031-01-02', '$1,458', '1.45%', '$720'), ('2031-07-01', '$990', '0.98%', '$544'), ('2032-01-03', '$496', '0.49%', '$359'), ('2032-07-01', '$8', '0.01%', '$177'), ('2032-12-01', '$0', '0.00%', '$15')]
+held for good from_2jan2031 end $123,351 {'115000': {'building_ibtm_lots': None, 'building_money_on_statement': '2031-10-05', 'zero_count': '2031-01-02'}, 'peak_building_ibtm_lots': {'date': '2032-12-15', 'value': 103875.22269419247}, 'min_zero_count_after_move': 118644.4109071467, 'building_money_on_15dec2032': 123350.63577202271} [('2031-01-02', '$98,977', '$110,214', '$118,644'), ('2031-07-01', '$99,591', '$113,315', '$119,032'), ('2032-01-03', '$100,354', '$116,656', '$119,514'), ('2032-07-01', '$101,115', '$120,067', '$120,071'), ('2032-12-01', '$103,639', '$123,070', '$123,066')]
+held for good from_1jul2031 end $123,277 {'115000': {'building_ibtm_lots': None, 'building_money_on_statement': '2031-10-09', 'zero_count': '2031-01-02'}, 'peak_building_ibtm_lots': {'date': '2032-12-15', 'value': 103875.22269419247}, 'min_zero_count_after_move': 118644.4109071467, 'building_money_on_15dec2032': 123277.25728644745} [('2031-07-01', '$99,591', '$113,248', '$118,965'), ('2032-01-03', '$100,354', '$116,587', '$119,445'), ('2032-07-01', '$101,115', '$119,996', '$120,000'), ('2032-12-01', '$103,639', '$122,997', '$122,993')]
+notes: {'gap_lots_to_115000_on_2jan2031': '$14,587', 'gap_money_to_115000_on_2jan2031': '$3,349', 'gap_lots_to_115000_on_1dec2032': '$11,786', 'paid_out_by_1dec2032_share_of_building_money': 0.1561, 'end_pay_less_plan_run': '$39'}
+wrote /home/user/caplet-investment/keel/final_report/numbers/results_statement_value_2026-11-24.json

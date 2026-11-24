@@ -1,0 +1,45 @@
+room under the top $2,731 no-exit forwards $122,459 plan.run $122,503
+2031-01-02 zero both $110,411 vs top $-4,589 | face $-4,238 | fwd $7,295 | floor vs bottom zero $-2,887 | rate needed 1.92% | loss $7,320
+2031-02-01 zero both $110,796 vs top $-4,204 | face $-3,865 | fwd $7,302 | floor vs bottom zero $-2,572 | rate needed 1.82% | loss $6,935
+2031-03-01 zero both $111,156 vs top $-3,844 | face $-3,515 | fwd $7,308 | floor vs bottom zero $-2,278 | rate needed 1.72% | loss $6,576
+2031-04-01 zero both $111,556 vs top $-3,444 | face $-3,126 | fwd $7,316 | floor vs bottom zero $-1,951 | rate needed 1.60% | loss $6,175
+2031-05-01 zero both $111,944 vs top $-3,056 | face $-2,749 | fwd $7,323 | floor vs bottom zero $-1,634 | rate needed 1.47% | loss $5,787
+2031-06-01 zero both $112,350 vs top $-2,650 | face $-2,356 | fwd $7,330 | floor vs bottom zero $-1,302 | rate needed 1.33% | loss $5,382
+2031-07-01 zero both $112,744 vs top $-2,256 | face $-1,973 | fwd $7,337 | floor vs bottom zero $-980 | rate needed 1.18% | loss $4,987
+2031-08-01 zero both $113,145 vs top $-1,855 | face $-1,584 | fwd $7,344 | floor vs bottom zero $-653 | rate needed 1.02% | loss $4,586
+2031-09-01 zero both $113,547 vs top $-1,453 | face $-1,194 | fwd $7,351 | floor vs bottom zero $-324 | rate needed 0.83% | loss $4,184
+2031-10-01 zero both $113,937 vs top $-1,063 | face $-815 | fwd $7,358 | floor vs bottom zero $-5 | rate needed 0.64% | loss $3,794
+2031-11-01 zero both $114,342 vs top $-658 | face $-421 | fwd $7,365 | floor vs bottom zero $326 | rate needed 0.42% | loss $3,389
+2031-12-01 zero both $114,748 vs top $-252 | face $-27 | fwd $7,372 | floor vs bottom zero $658 | rate needed 0.17% | loss $2,983
+2032-01-01 zero both $115,172 vs top $172 | face $384 | fwd $7,380 | floor vs bottom zero $1,004 | rate needed 0.00% | loss $2,559
+2032-02-01 zero both $115,590 vs top $590 | face $790 | fwd $7,387 | floor vs bottom zero $1,345 | rate needed 0.00% | loss $2,142
+2032-03-01 zero both $115,981 vs top $981 | face $1,170 | fwd $7,393 | floor vs bottom zero $1,665 | rate needed 0.00% | loss $1,750
+2032-04-01 zero both $116,401 vs top $1,401 | face $1,578 | fwd $7,400 | floor vs bottom zero $2,009 | rate needed 0.00% | loss $1,330
+2032-05-01 zero both $116,809 vs top $1,809 | face $1,974 | fwd $7,407 | floor vs bottom zero $2,342 | rate needed 0.00% | loss $922
+2032-06-01 zero both $117,237 vs top $2,237 | face $2,389 | fwd $7,414 | floor vs bottom zero $2,692 | rate needed 0.00% | loss $494
+2032-07-01 zero both $117,653 vs top $2,653 | face $2,793 | fwd $7,421 | floor vs bottom zero $3,032 | rate needed 0.00% | loss $78
+2032-08-01 zero both $117,701 vs top $2,701 | face $2,828 | fwd $7,428 | floor vs bottom zero $3,071 | rate needed 0.00% | loss $30
+2032-09-01 zero both $117,708 vs top $2,708 | face $2,822 | fwd $7,435 | floor vs bottom zero $3,077 | rate needed 0.00% | loss $23
+2032-10-01 zero both $117,714 vs top $2,714 | face $2,817 | fwd $7,442 | floor vs bottom zero $3,082 | rate needed 0.00% | loss $17
+2032-11-01 zero both $117,721 vs top $2,721 | face $2,811 | fwd $7,449 | floor vs bottom zero $3,088 | rate needed 0.00% | loss $10
+2032-12-01 zero both $117,728 vs top $2,728 | face $2,805 | fwd $7,455 | floor vs bottom zero $3,093 | rate needed 0.00% | loss $3
+covered from 2032-01-01 ; short exits 12
+pre-move floor lot: {'2029-01-01': '$84,443', '2030-01-01': '$88,283', '2031-01-01': '$92,102'}
+1 pt higher on 2 Jan 2031: $108,979 $-6,021
+payments, IBTM exit: worst 2027-02-01 $8,671 {'2033': 2770.6105126452458, '2034': 1675.929317322858, '2035': 2265.035882817625, '2036': 1959.709967466224} ; exits short 60 last 2032-01-01 ; with 0.5% cost: exits short 66 last 2032-07-01
+    2027-07-01 standard short $8,008 with 0.5% cost $8,908 left $243
+    2028-01-01 standard short $7,162 with 0.5% cost $8,066 left $243
+    2028-07-01 standard short $6,291 with 0.5% cost $7,199 left $243
+    2029-01-01 standard short $5,390 with 0.5% cost $6,302 left $243
+    2029-07-01 standard short $4,506 with 0.5% cost $5,423 left $243
+    2030-01-01 standard short $3,602 with 0.5% cost $4,523 left $243
+    2030-07-01 standard short $2,725 with 0.5% cost $3,650 left $243
+    2031-01-01 standard short $1,827 with 0.5% cost $2,756 left $243
+    2031-07-01 standard short $936 with 0.5% cost $1,869 left $243
+    2032-01-01 standard short $15 with 0.5% cost $953 left $243
+    2032-07-01 standard short $0 with 0.5% cost $16 left $1,161
+payments, IBTO worst 2027-02-01 $9,958 exits short 70 of 83 last 2032-11-01 at forwards short any: False
+payments, IBTP worst 2027-02-01 $11,184 exits short 83 of 95 last 2033-12-01 at forwards short any: False
+payments, IBTQ worst 2027-02-01 $12,637 exits short 95 of 107 last 2034-12-01 at forwards short any: False
+payments, IBTR worst 2027-02-01 $14,688 exits short 104 of 119 last 2035-09-01 at forwards short any: False
+wrote /home/user/caplet-investment/keel/final_report/numbers/results_fund_exit_2026-11-18.json

@@ -1,0 +1,16 @@
+A  FRED read 22 Nov: 517 months, mirror 516 months, mismatches 0
+B  largest two-year move +38.30% 1986-01 to 1988-01 | on 8j's windows +29.35% 1986-11 to 1988-11 | since 1991 +16.94% 2009-02 to 2011-02 | ratio 2.26
+   five largest: [(38.3, '1986-01'), (37.8, '1985-12'), (36.89, '1986-02'), (36.05, '1986-03'), (34.83, '1986-04')]
+   starts Oct 1983-Dec 1990: {'windows': 87, 'at_10pct_or_more': 37, 'at_20pct_or_more': 26, 'at_29pct_or_more': 14, 'note': 'overlapping windows of one episode: never odds (card Q210)'}
+   peak to low ['1985-08', 40.5006, '1992-06', 24.7695, 0.6350996184824076] | 10% watch from Aug 1985 fires ['1986-10', 0.10513950474111455] | after 2y, 3y [33.71, 41.15]
+C  need on $115,000 $44,046 | left with the excess $-15,364 | half kept alone $-22,867 | need / pot 1.536
+   three worlds (covers with the excess / half kept alone): {'house': (5.8, 1.68), 'history': (6.67, 1.53), 'joint': (7.52, 0.85)}
+   lower reading on $95,000: {'need': 36386, 'left_pot_alone': -7704, 'left_with_20000_gap_between_ends': 12296}
+D  Taipei Jan 1986-Jan 1988: cost +7.05% currency +38.30% joint +48.06% need $55,266 left $-26,584 | largest +50.38% 1987-05 1989-05 | strong: {'count': 37, 'median_joint': 0.4221324473934207}
+E  largest joint since 1991 +38.92% 2006-07 2008-07 | highest strong window +29.03% 2003-03 | windows with a larger joint rise 10 | p95 (405) +27.99% above it 21 | at 28%+ 20 runs [['1991-01', '1991-01', 1], ['1991-03', '1991-05', 3], ['2002-03', '2002-03', 1], ['2002-12', '2002-12', 1], ['2003-02', '2003-05', 4], ['2006-02', '2006-08', 7], ['2019-06', '2019-06', 1], ['2019-08', '2019-09', 2]] | spans [16, 17]
+F1 {'payment_treasuries': 293830, 'floor': 109148, 'vt': 39787, 'cash_and_costs': 7235} plan {'payment_treasuries': 339162, 'floor': 81244, 'vt': 29594} shares {'book': 0.7328578855569519, 'plan': 0.733}
+F2 {'own_rungs_pay': 445405, 'extra_treasuries_pay': 57200, 'total_no_fee': 502604, 'owed': 500000, 'left_no_fee': 2604, 'left_with_bill_fee': 1177}
+F3 {'payments_full': 299.7, 'payments_scaled_two_thirds': 199.8, 'plan_ten_plain': 233.9, 'plan_ten_plus_extra': 266.8, 'wins_book_ten_rungs': 159.0, 'wins_book_floor_standin': 38.4, 'book_over_scaled_payments': 0.8, 'approximation': "funds at card Q17's 67.6-67.7%"}
+F4 {'world_shares_jan2000_to_jan2003_start_of_month': -42.14, 'world_shares_end_of_month': -40.56, 'building_ntd_jan2003_to_dec2004': 18.4, 'building_usd_jan2003_to_dec2004': 27.24}
+F6 {'receipts_2008_usd_thousand': 12811801.0, 'receipts_2009_usd_thousand': 11808168.0, 'change': -0.07833660544680643}
+All asserts passed.

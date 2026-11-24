@@ -1,0 +1,134 @@
+checks pass: True
+  bottom_stated                            register    95,000.00  run    95,000.00  diff +0.00
+  bottom_unrounded                         register    97,605.08  run    97,605.08  diff -0.00
+  top_stated                               register   115,000.00  run   115,000.00  diff +0.00
+  top_unrounded                            register   117,142.45  run   117,142.45  diff -0.00
+  funds_pay                                register   122,503.13  run   122,503.13  diff +0.00
+  contribution                             register   115,000.00  run   115,000.00  diff +0.00
+  above_top_to_her_flexibility             register     7,503.13  run     7,503.13  diff +0.00
+  her_flexibility_jan2033                  register    21,179.18  run    21,179.18  diff -0.00
+  her_flexibility_plus_above_top           register    28,682.31  run    28,682.31  diff +0.00
+  completion_jan2028                       register    39,161.97  run    39,161.97  diff -0.00
+  payments_left_after_2042_nominal         register    75,934.02  run    75,934.02  diff +0.00
+  payments_left_after_2042_jan2033_money   register    46,566.45  run    46,566.45  diff -0.00
+  vt_bought_jan2028                        register    29,593.75  run    29,593.75  diff +0.00
+  floor_money_jan2028                      register    81,244.28  run    81,244.28  diff -0.00
+  vt_on_move_day                           register    36,698.09  run    36,698.09  diff +0.00
+  zero top_stated                          register    95,000.00  run    95,000.00  diff +0.00
+  zero contribution                        register    95,000.00  run    95,000.00  diff +0.00
+  zero funds_pay                           register   102,365.47  run   102,365.47  diff +0.00
+  zero above_top_to_her_flexibility        register     7,365.47  run     7,365.47  diff +0.00
+central bottom $95,000 ($97,605) top $115,000 ($117,142) pay $122,503 [model $122,503] contrib $115,000 above $7,503 flex $21,179 flex+ $28,682 total $143,682 ten paid True left $75,934/$46,566 VT31 $36,698
+a       bottom $95,000 ($97,605) top $105,000 ($107,041) pay $112,091 [model $112,091] contrib $105,000 above $7,091 flex $10,229 flex+ $17,321 total $122,321 ten paid True left $75,934/$46,566 VT31 $17,724
+a_flat  bottom $95,000 ($97,605) top $105,000 ($107,041) pay $112,091 [model $112,091] contrib $105,000 above $7,091 flex $8,852 flex+ $15,943 total $120,943 ten paid True left $75,934/$46,566 VT31 $17,724
+b0      bottom $95,000 ($97,605) top $110,000 ($113,332) pay $118,575 [model $118,575] contrib $110,000 above $8,575 flex $17,048 flex+ $25,624 total $135,624 ten paid True left $75,934/$46,566 VT31 $29,541
+b       bottom $95,000 ($97,605) top $110,000 ($113,332) pay $118,575 [model $118,575] contrib $110,000 above $8,575 flex $8,852 flex+ $17,427 total $127,427 ten paid True left $75,934/$46,566 VT31 $29,541
+c       bottom $95,000 ($97,605) top $105,000 ($107,041) pay $112,091 [model $112,091] contrib $105,000 above $7,091 flex $21,179 flex+ $28,271 total $133,271 ten paid True left $75,934/$46,566 VT31 $17,724
+d       bottom $95,000 ($97,605) top $105,000 ($106,772) pay $110,804 [model $111,719] contrib $105,000 above $5,804 flex $10,229 flex+ $16,033 total $121,033 ten paid True left $56,766/$41,677 VT31 $17,724
+d3      bottom $95,000 ($97,605) top $105,000 ($106,641) pay $110,170 [model $111,538] contrib $105,000 above $5,170 flex $10,229 flex+ $15,399 total $120,399 ten paid True left $48,533/$38,987 VT31 $17,724
+e       bottom $95,000 ($97,605) top $105,000 ($109,328) pay $114,448 [model $114,448] contrib $105,000 above $9,448 flex $12,708 flex+ $22,156 total $127,156 ten paid True left $75,934/$46,566 VT31 $22,019
+zero    bottom $95,000 ($97,605) top $95,000 ($97,605) pay $102,365 [model $102,365] contrib $95,000 above $7,365 flex $0 flex+ $7,365 total $102,365 ten paid True left $75,934/$46,566 VT31 $0
+steps: {'95000': -1.0, '100000': -0.8477, '105000': -0.5298, '110000': -0.2119, '115000': 0.1061, '120000': 0.424, '125000': 0.7419, '130000': 1.0599, '135000': 1.3778, '140000': 1.6957, '145000': 2.0136, '150000': 2.3316}
+house: {"futures": 200000, "check_unconditional": {"stated_bottom_p5_p50_p95": [80000.0, 95000.0, 115000.0], "stated_top_p5_p50_p95": [95000.0, 115000.0, 140000.0], "her_flexibility_p1_p5_p50_p95": [6329.093562217387, 9621.027714573438, 20486.495245937913, 40890.0605462364]}, "vt_40pct_or_more_below_cost_at_move": {"count": 1900, "share": 0.0095, "stated_bottom_p5_p50_p95": [80000.0, 95000.0, 115000.0], "stated_top_p5_p50_p95": [90000.0, 105000.0, 125000.0], "stated_top_min": 75000.0, "contribution_p5_p50_p95": [90000.0, 105000.0, 125000.0], "funds_pay_p5_p50_p95": [93898.80544598722, 110986.74399020098, 133611.97809773142], "her_flexibility_p5_p50_p95": [5020.164212752788, 9045.304105961482, 14892.736323080895], "her_flexibility_plus_above_top_p5_p50_p95": [10855.160901388881, 16768.850920620876, 24004.581963891076], "contribution_inside_range": 1.0}, "vt_30pct_or_more_below_cost_at_move": {"count": 6437, "share": 0.032185, "stated_bottom_p5_p50_p95": [80000.0, 95000.0, 115000.0], "stated_top_p5_p50_p95": [90000.0, 105000.0, 125000.0], "stated_top_min": 75000.0, "contribution_p5_p50_p95": [90000.0, 105000.0, 125000.0], "funds_pay_p5_p50_p95": [94468.63329656686, 112139.96963226407, 135008.9900270634], "her_flexibility_p5_p50_p95": [5619.386033434417, 10271.181009955964, 16822.6233157907], "her_flexibility_plus_above_top_p5_p50_p95": [11487.62944870616, 18071.017901813895, 25976.50754139558], "contribution_inside_range": 1.0}, "vt_20pct_or_more_below_cost_at_move": {"count": 15543, "share": 0.077715, "stated_bottom_p5_p50_p95": [80000.0, 95000.0, 115000.0], "stated_top_p5_p50_p95": [90000.0, 105000.0, 125000.0], "stated_top_min": 65000.0, "contribution_p5_p50_p95": [90000.0, 105000.0, 125000.0], "funds_pay_p5_p50_p95": [95596.0356226019, 113696.88334147717, 136653.62449797825], "her_flexibility_p5_p50_p95": [6285.829095061606, 11584.910046765048, 18820.71620752047], "her_flexibility_plus_above_top_p5_p50_p95": [12311.947302940385, 19445.042019530298, 27848.239253831707], "contribution_inside_range": 1.0}, "vt_below_cost_at_move": {"count": 48193, "share": 0.240965, "stated_bottom_p5_p50_p95": [80000.0, 95000.0, 115000.0], "stated_top_p5_p50_p95": [90000.0, 110000.0, 130000.0], "stated_top_min": 65000.0, "contribution_p5_p50_p95": [90000.0, 110000.0, 130000.0], "funds_pay_p5_p50_p95": [97168.23366031532, 115934.82670646688, 139594.92227665178], "her_flexibility_p5_p50_p95": [7416.866819365452, 13912.801844328873, 23047.82051625541], "her_flexibility_plus_above_top_p5_p50_p95": [13554.479720407622, 21834.651089120394, 32026.875401210687], "contribution_inside_range": 1.0}, "vt_falls_40pct_or_more_move_to_2033": {"count": 985, "share": 0.004925, "stated_bottom_p5_p50_p95": [80000.0, 95000.0, 115000.0], "stated_top_p5_p50_p95": [95000.0, 115000.0, 140000.0], "stated_top_min": 70000.0, "contribution_p5_p50_p95": [95000.0, 115000.0, 140000.0], "funds_pay_p5_p50_p95": [100162.60445239203, 122707.46691100816, 150295.0382656324], "her_flexibility_p5_p50_p95": [5
+hist: {"windows": 1770, "first": "1871-01", "last": "2018-06", "check_unconditional": {"stated_top_p5_p50_p95": [110000.0, 115000.0, 125000.0], "stated_top_min": 100000.0, "her_flexibility_p5_p50_p95": [13134.002759391899, 23296.30747575304, 40287.671348189375]}, "vt_40pct_or_more_below_cost_at_move": {"count": 20, "share": 0.011299435028248588, "stated_bottom_p5_p50_p95": [95000.0, 95000.0, 95000.0], "stated_top_p5_p50_p95": [100000.0, 100000.0, 105000.0], "stated_top_min": 100000.0, "contribution_p5_p50_p95": [100000.0, 100000.0, 105000.0], "funds_pay_p5_p50_p95": [105937.12307996086, 108227.3316679861, 110837.96097892636], "her_flexibility_p5_p50_p95": [6081.520211097962, 8377.05099286987, 9051.20975967927], "her_flexibility_plus_above_top_p5_p50_p95": [13318.120875657896, 15408.15464218592, 18190.67131110188], "contribution_inside_range": 1.0, "starts": ["1928-10", "1928-11", "1928-12", "1929-01", "1929-02", "1929-03", "1929-04", "1929-05", "1929-06", "1929-07", "1929-08", "1929-09", "1929-10", "1929-11", "1929-12", "1930-01", "1930-02", "1930-03", "1930-04", "1930-05"]}, "vt_30pct_or_more_below_cost_at_move": {"count": 40, "share": 0.022598870056497175, "stated_bottom_p5_p50_p95": [95000.0, 95000.0, 95000.0], "stated_top_p5_p50_p95": [100000.0, 105000.0, 105000.0], "stated_top_min": 100000.0, "contribution_p5_p50_p95": [100000.0, 105000.0, 105000.0], "funds_pay_p5_p50_p95": [106508.04544339875, 111715.47869435712, 113545.7100232973], "her_flexibility_p5_p50_p95": [6452.798285992209, 9321.44469811044, 16563.89143759901], "her_flexibility_plus_above_top_p5_p50_p95": [13429.402582345307, 18028.865343745612, 24089.08295293462], "contribution_inside_range": 1.0, "starts": ["1928-09", "1928-10", "1928-11", "1928-12", "1929-01", "1929-02", "1929-03", "1929-04", "1929-05", "1929-06", "1929-07", "1929-08", "1929-09", "1929-10", "1929-11", "1929-12", "1930-01", "1930-02", "1930-03", "1930-04", "1930-05", "1930-06", "1930-07", "1930-08", "1930-09", "1930-10", "1999-07", "1999-09", "1999-10", "1999-11", "1999-12", "2000-01", "2000-02", "2000-03", "2000-04", "2000-05", "2000-08", "2006-02", "2006-03", "2006-04"]}, "vt_20pct_or_more_below_cost_at_move": {"count": 71, "share": 0.04011299435028248, "stated_bottom_p5_p50_p95": [95000.0, 95000.0, 95000.0], "stated_top_p5_p50_p95": [100000.0, 105000.0, 110000.0], "stated_top_min": 100000.0, "contribution_p5_p50_p95": [100000.0, 105000.0, 110000.0], "funds_pay_p5_p50_p95": [107243.98386005923, 113458.52764334113, 115261.1356337358], "her_flexibility_p5_p50_p95": [6913.333646037576, 13146.495369997696, 18456.10061565487], "her_flexibility_plus_above_top_p5_p50_p95": [13758.453708120873, 20481.94370831406, 27970.10722839277], "contribution_inside_range": 1.0}, "vt_below_cost_at_move": {"count": 276, "share": 0.15593220338983052, "stated_bottom_p5_p50_p95": [95000.0, 95000.0, 95000.0], "stated_top_p5_p50_p95": [100000.0, 110000.0, 110000.0], "stated_top_min": 100000.0, "contribution_p5_p50_p95": [100000.0, 110000.0, 110
+US 40% episodes: [
+{
+"peak": "1929-09",
+"trough": "1932-06",
+"fall": -0.8170724797270104,
+"months_peak_to_trough": 33,
+"recovered": "1944-12",
+"months_trough_to_recovery": 150,
+"months_peak_to_recovery": 183
+},
+{
+"peak": "2000-08",
+"trough": "2003-02",
+"fall": -0.4155704326495535,
+"months_peak_to_trough": 30,
+"recovered": "2006-10",
+"months_trough_to_recovery": 44,
+"months_peak_to_recovery": 74
+},
+{
+"peak": "2007-10",
+"trough": "2009-03",
+"fall": -0.4903578293187463,
+"months_peak_to_trough": 17,
+"recovered": "2012-08",
+"months_trough_to_recovery": 41,
+"months_peak_to_recovery": 58
+}
+]
+US 30% episodes: 6 ['1876-03>1877-06', '1906-09>1907-11', '1929-09>1932-06', '1973-01>1974-12', '2000-08>2003-02', '2007-10>2009-03']
+US 3y: {'windows': 1794, 'total_return_p1_p5_p10_p25_p50_p75_p95': [-0.4825306219339155, -0.1653441621998993, -0.0894589740256631, 0.10019018199403174, 0.32620268335868585, 0.5678950017631319, 1.051373690241004], 'share_ending_40pct_or_more_down': 0.011148272017837236, 'share_ending_20pct_or_more_down': 0.039576365663322184, 'share_ending_below_start': 0.15384615384615385, 'share_with_a_40pct_fall_inside': 0.06744704570791528, 'share_with_a_20pct_fall_inside': 0.3272017837235229, 'starts_ending_40pct_or_more_down_first_last': ['1928-10', '1930-05', 20]}
+US 5y: {'windows': 1770, 'total_return_p1_p5_p10_p25_p50_p75_p95': [-0.44191667288779063, -0.10971243750689971, -0.006145708642112789, 0.20119444501548056, 0.5791387574398716, 1.0017439853062897, 1.7308973037526063], 'share_ending_40pct_or_more_down': 0.01638418079096045, 'share_ending_20pct_or_more_down': 0.03446327683615819, 'share_ending_below_start': 0.10508474576271186, 'share_with_a_40pct_fall_inside': 0.12259887005649718, 'share_with_a_20pct_fall_inside': 0.5090395480225989, 'starts_ending_40pct_or_more_down_first_last': ['1927-04', '1930-05', 29]}
+named: {
+"1929-09": {
+"vt3_index": 0.3244634544131315,
+"vt2_index": 1.1978998053250582,
+"stated_top": 100000.0,
+"top_unrounded": 102707.85286956171,
+"contribution": 100000.0,
+"her_flexibility_jan2033": 5733.939138266338,
+"her_flexibility_plus_above_top": 13358.972578711466
+},
+"1937-03": {
+"vt3_index": 0.7904761980536321,
+"vt2_index": 0.7719306530666924,
+"stated_top": 110000.0,
+"top_unrounded": 110036.74922371721,
+"contribution": 110000.0,
+"her_flexibility_jan2033": 9001.893724008798,
+"her_flexibility_plus_above_top": 14181.004723328515
+},
+"1973-01": {
+"vt3_index": 0.9196242053182687,
+"vt2_index": 1.0115517325961294,
+"stated_top": 110000.0,
+"top_unrounded": 112067.8360824028,
+"contribution": 110000.0,
+"her_flexibility_jan2033": 13723.512714315655,
+"her_flexibility_plus_above_top": 20996.1159555638
+},
+"2000-03": {
+"vt3_index": 0.6127416251950674,
+"vt2_index": 1.4584790360049151,
+"stated_top": 105000.0,
+"top_unrounded": 107241.55042109522,
+"contribution": 105000.0,
+"her_flexibility_jan2033": 13183.914324442148,
+"her_flexibility_plus_above_top": 20481.94370831406
+},
+"2000-08": {
+"vt3_index": 0.6969053366695207,
+"vt2_index": 1.278702180108035,
+"stated_top": 105000.0,
+"top_unrounded": 108565.17756776646,
+"contribution": 105000.0,
+"her_flexibility_jan2033": 13146.495369997696,
+"her_flexibility_plus_above_top": 21808.820500707
+},
+"2007-10": {
+"vt3_index": 0.8171802618595486,
+"vt2_index": 1.2762293951251416,
+"stated_top": 110000.0,
+"top_unrounded": 110456.71910338062,
+"contribution": 110000.0,
+"her_flexibility_jan2033": 15385.563553767248,
+"her_flexibility_plus_above_top": 20997.54805682671
+},
+"2008-01": {
+"vt3_index": 0.9988156684950636,
+"vt2_index": 1.2012274815143802,
+"stated_top": 110000.0,
+"top_unrounded": 113313.26559839128,
+"contribution": 110000.0,
+"her_flexibility_jan2033": 17700.16858748772,
+"her_flexibility_plus_above_top": 26256.46731346654
+}
+}
+monthly lognormal: {'paths': 100000, 'seed': 4040, 'share_40pct_fall_from_a_peak_inside_36_months': 0.04177, 'share_40pct_fall_from_a_peak_inside_60_months': 0.10497, 'share_ending_40pct_below_start_36_months': 0.00935, 'share_20pct_fall_from_a_peak_inside_36_months': 0.51172}
+world 3y: {'windows': 54, 'first_start': 1970, 'last_start': 2023, 'total_return_min_p5_p10_p25_p50': [-0.415100986336, -0.1649957388703501, -0.1167584474242, 0.21446231354149992, 0.38288817228000005], 'worst_start': 2000, 'share_40pct_or_more_down': 0.018518518518518517, 'starts_40pct_or_more_down': [2000], 'share_20pct_or_more_down': 0.05555555555555555, 'share_below_zero': 0.16666666666666666, 'starts_below_zero': [1972, 1973, 1990, 1999, 2000, 2001, 2006, 2007, 2008], 'compound_growth_whole_period': 0.10085810974282228}
+world 5y: {'windows': 52, 'first_start': 1970, 'last_start': 2021, 'total_return_min_p5_p10_p25_p50': [-0.09832903891979627, -0.07414175558354369, -0.017429767046115898, 0.26976958793155503, 0.7012032489748863], 'worst_start': 2000, 'share_40pct_or_more_down': 0.0, 'starts_40pct_or_more_down': [], 'share_20pct_or_more_down': 0.0, 'share_below_zero': 0.11538461538461539, 'starts_below_zero': [1970, 1998, 1999, 2000, 2007, 2008], 'compound_growth_whole_period': 0.10085810974282228}
+seconds 7.3

@@ -1,0 +1,22 @@
+top-up $39,162 = ten still lack $2,388 + for no interest $36,774 ($35,213 in 1 Jan 2027 money)
+  IBTQ                         face $1,023 cost27 $1,023 price28 $1,068 (104.43) flows $1,430 interest $407
+  IBTR                         face $4,342 cost27 $4,342 price28 $4,534 (104.43) flows $6,266 interest $1,924
+  4.750% T-bond 15 Feb 2037    face $5,603 cost27 $5,643 price28 $5,893 (105.18) flows $8,397 interest $2,794
+  4.500% T-bond 15 May 2038    face $6,003 cost27 $5,810 price28 $6,068 (101.08) flows $9,110 interest $3,107
+  4.375% T-bond 15 Nov 2039    face $6,152 cost27 $5,820 price28 $6,078 (98.80) flows $9,650 interest $3,499
+  4.250% T-bond 15 Nov 2040    face $7,284 cost27 $6,744 price28 $7,043 (96.69) flows $11,618 interest $4,334
+  3.125% T-bond 15 Nov 2041    face $7,304 cost27 $5,831 price28 $6,090 (83.37) flows $10,728 interest $3,424
+face and fund dollars $37,711 + interest $19,489 = $57,200 undiscounted
+zero: covers $54,595 + left $2,604 = $57,200
+fee: covers $55,920 left $1,177; fee on the top-up's waiting money $103; on the ten's own $1,324
+comes back at forwards {'nominal_by_1jan2042': '$75,934', 'value_1jan2033': '$46,566'}
+2033 {'ends': '2032-12-15', 'cash_first': '2032-12-20', 'cash_last': '2032-12-22', 'days_to_payment_from_last': 10, 'months_to_payment_from_last': 0.33, 'months_to_payment_model': 0.56}
+2034 {'ends': '2033-12-15', 'cash_first': '2033-12-19', 'cash_last': '2033-12-22', 'days_to_payment_from_last': 10, 'months_to_payment_from_last': 0.33, 'months_to_payment_model': 0.56}
+2035 {'ends': '2034-12-15', 'cash_first': '2034-12-18', 'cash_last': '2034-12-22', 'days_to_payment_from_last': 10, 'months_to_payment_from_last': 0.33, 'months_to_payment_model': 0.56}
+2036 {'ends': '2035-12-15', 'cash_first': '2035-12-20', 'cash_last': '2035-12-24', 'days_to_payment_from_last': 8, 'months_to_payment_from_last': 0.26, 'months_to_payment_model': 0.56}
+2037 {'ends': '2036-12-15', 'cash_first': '2036-12-18', 'cash_last': '2036-12-22', 'days_to_payment_from_last': 10, 'months_to_payment_from_last': 0.33, 'months_to_payment_model': 0.56}
+2038 {'ends': '2037-02-15', 'cash_first': '2037-02-17', 'cash_last': '2037-02-17', 'days_to_payment_from_last': 318, 'months_to_payment_from_last': 10.45, 'months_to_payment_model': 10.51}
+2039 {'ends': '2038-05-15', 'cash_first': '2038-05-17', 'cash_last': '2038-05-17', 'days_to_payment_from_last': 229, 'months_to_payment_from_last': 7.52, 'months_to_payment_model': 7.59}
+2040 {'ends': '2039-11-15', 'cash_first': '2039-11-15', 'cash_last': '2039-11-15', 'days_to_payment_from_last': 47, 'months_to_payment_from_last': 1.54, 'months_to_payment_model': 1.54}
+2041 {'ends': '2040-11-15', 'cash_first': '2040-11-15', 'cash_last': '2040-11-15', 'days_to_payment_from_last': 47, 'months_to_payment_from_last': 1.54, 'months_to_payment_model': 1.54}
+2042 {'ends': '2041-11-15', 'cash_first': '2041-11-15', 'cash_last': '2041-11-15', 'days_to_payment_from_last': 47, 'months_to_payment_from_last': 1.54, 'months_to_payment_model': 1.54}

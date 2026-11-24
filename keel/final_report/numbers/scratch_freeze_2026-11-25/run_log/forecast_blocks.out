@@ -1,0 +1,14 @@
+threshold: VT +10.61% at the move, 3.417% a year
+3.1%                           range $95,000-$110,000 (top $114,840, -160) pay $120,130 kept $17,185 kept+ $27,316 | house top<115k 49.1% (<110k 35.1%; lower than at 7.5% same path 46.9%) shares alone 51.2% top p5/50/95 [95000.0, 115000.0, 135000.0] kept p50 $16,623
+5.0%                           range $95,000-$115,000 (top $115,811, +811) pay $121,131 kept $18,828 kept+ $24,959 | house top<115k 46.4% (<110k 32.7%; lower than at 7.5% same path 27.1%) shares alone 44.2% top p5/50/95 [95000.0, 115000.0, 140000.0] kept p50 $18,213
+6.5%                           range $95,000-$115,000 (top $116,602, +1,602) pay $121,946 kept $20,212 kept+ $27,159 | house top<115k 44.2% (<110k 30.8%; lower than at 7.5% same path 10.9%) shares alone 38.8% top p5/50/95 [95000.0, 115000.0, 140000.0] kept p50 $19,551
+7.5%                           range $95,000-$115,000 (top $117,142, +2,142) pay $122,503 kept $21,179 kept+ $28,682 | house top<115k 42.8% (<110k 29.5%; lower than at 7.5% same path 0.0%) shares alone 35.4% top p5/50/95 [95000.0, 115000.0, 140000.0] kept p50 $20,486
+5.0% + P/E fall by the move    range $95,000-$110,000 (top $114,998, -2) pay $120,293 kept $18,224 kept+ $28,518 | house top<115k 48.7% (<110k 34.6%; lower than at 7.5% same path 43.6%) shares alone 50.0% top p5/50/95 [95000.0, 115000.0, 135000.0] kept p50 $17,628
+7.5% + P/E fall by the move    range $95,000-$115,000 (top $116,271, +1,271) pay $121,605 kept $20,500 kept+ $27,104 | house top<115k 45.2% (<110k 31.5%; lower than at 7.5% same path 17.7%) shares alone 41.0% top p5/50/95 [95000.0, 115000.0, 140000.0] kept p50 $19,829
+P/E exactly 19.5: $114,993 110000.0
+row 24 -2.0   sum 3.70%: P/E 20.65 (fall 0.8%; continuous 20.61; card 20.6) P/E 19.5 -> $110,000 ($114,031)
+row 24 -1.0   sum 4.70%: P/E 20.06 (fall 3.6%; continuous 20.00; card 20.0) P/E 19.5 -> $110,000 ($114,511)
+row 24 +0.2   sum 5.90%: P/E 19.39 (fall 6.9%; continuous 19.29; card 19.3) P/E 19.5 -> $115,000 ($115,099)
+row 24 +0.67  sum 6.37%: P/E 19.13 (fall 8.1%; continuous 19.02; card 19.0) P/E 19.5 -> $115,000 ($115,333)
+3.06%: $114,820 | 3.70%: $115,143
+all asserts pass; seconds 9.2

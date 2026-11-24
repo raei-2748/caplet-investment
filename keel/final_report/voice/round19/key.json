@@ -1,0 +1,36 @@
+{
+ "readers": {
+  "1": {
+   "arm": "AE",
+   "role": "professor",
+   "n_sentences_A": 9,
+   "n_sentences_E": 8
+  },
+  "2": {
+   "arm": "AE",
+   "role": "consultant",
+   "n_sentences_A": 9,
+   "n_sentences_E": 8
+  },
+  "3": {
+   "arm": "AE",
+   "role": "teacher",
+   "n_sentences_A": 9,
+   "n_sentences_E": 8
+  }
+ },
+ "we_per_100_words": {
+  "C": [
+   4.1,
+   122
+  ],
+  "A": [
+   0.88,
+   226
+  ],
+  "E": [
+   0.42,
+   240
+  ]
+ }
+}

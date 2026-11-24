@@ -37,7 +37,9 @@ range, $95,000 on the Treasury curve of 6 November 2026 (dated in the sentence i
 shows lower bottoms when rates fall before January 2028); only the top and her flexibility would go (NUMBERS 4). The next sentences say why: the order in which the
 money is spent puts every promise into Treasuries before any money goes into shares, which is the rule her plan was
 written on, applied to each thing Wharton asks Caplet to recommend. Then, in one sentence each: finance's name for the
-family (liability-driven investing; dedication, Leibowitz 1986, "a leading writer on dedication") and the one thing the
+family (dedication, of which matching each payment with the cash a Treasury pays before it is what Leibowitz (1986a)
+calls "the simplest form"; card Q242, Wed 25 Nov: never Leibowitz for "liability-driven investing", and "no
+reinvestment" is an aim he says holds "in many cases", never dedication's founding test) and the one thing the
 report claims as new, the same rule applied to a promise not yet made, on the date it is made (D13); then the
 definition of ink at first use (CONCEIT, attack-day form: a dollar figure is in ink once Treasuries held for her,
 directly or through Treasury funds, will pay it on its date, counted as if their cash earned nothing more and after
@@ -138,23 +140,28 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   by 2042; if cash waiting earns nothing, none beyond the 0.5% margin.
 - **The reserve as a schedule (D18).** Year, instrument, payout counted at zero further interest, the extra Treasuries'
   face; it pays about $502,600 at zero interest (NUMBERS 8x: $502,604) against $500,000 owed; market value (about $445,700, 111.7% of the $399,089
-  owed at that date) a by-product in Figure 1's note. One release rule: each 1 January, once that year's payment is
+  the remaining payments are worth at that date at today's forwards; $500,000 is owed, NUMBERS 8za) a by-product in Figure 1's note. One release rule: each 1 January, once that year's payment is
   made, anything above what the remaining payments need at zero interest is hers.
 - **Why the two pots are separate.** Funders' own warning: even well-planned organisations "often find it difficult to
-  protect these funds from covering cost overruns, fundraising shortfalls" (Oman, Grantmakers in the Arts, 2018; card
-  Q202). The plan meets it by construction: the payments' Treasuries are not the building's money.
+  protect these funds from covering cost overruns, fundraising shortfalls, and the desire to 'get it done' when all
+  eyes are focused on construction" (Oman, Grantmakers in the Arts, 2018; card Q202; card Q244, Wed 25 Nov: the
+  sentence runs on to that last cause, so quote it whole or end with an ellipsis). The plan meets it by construction: the payments' Treasuries are not the building's money.
 - **Headline number.** $39,162, about a quarter of the 2028 deposit, as the price of the standard.
 - **Aha.** Row 5: each payment rests on its own instrument, and the one forecast the trade notes left (the rate on
   reinvested interest, "reinvested coupons fund the rest", the WInS trade note on the Nov-2039 bond, CANON A17, never the TNA; sources check S3, Mon 23 Nov) is taken out by the extra Treasuries.
 - **Conceit.** The one line that waited in pencil, the interest on cash waiting, inked in January 2028 by the extra
   Treasuries.
 - **Outside parallel (one).** The California State Lottery's rule, in the Lottery Commission's investment policy (not
-  a statute; reaffirmed 25 September 2025, s.III): its investments must "mature in amounts sufficient to meet required
-  prize payouts on dates immediately prior, or as near prior as practicable, to prize payment dates" (card Q211, read
-  at source Sun 22 Nov; the old quotation cut five words without an ellipsis). Named by all four judges as surviving.
-  The break is the aha's other half: the lottery holds zero-coupon Treasuries, which pay nothing until they mature, so
-  it has no interest to reinvest; Laura may not hold them, so her extra Treasuries ($36,774) are what that ban costs
-  her. Never "extra bonds against reinvestment risk" for the lottery (its $2m of spare bonds cover credit risk, 0.27%
+  a statute; approved for 2025 on 25 September 2025, Resolution 2025-FIN-003, s.III, p.1): its investments must mature
+  in amounts "sufficient to meet required prize payouts on dates immediately prior, or as near prior as practicable, to
+  prize payment dates" (card Q211, read at source Sun 22 Nov; card Q242, Wed 25 Nov: a redline before the Commission on
+  19 Nov 2026 would change "mature in" to "mature into", adoption not posted, so the quotation starts at "sufficient",
+  words identical in both; never "the 2026 policy"). Named by all four judges as surviving. The break is the aha's
+  other half: the lottery's Treasuries are zero-coupon bonds, which pay nothing until they mature, so they leave it no
+  interest to reinvest (its municipal bonds do pay interest, and the policy never requires zeros: card Q242); Laura
+  may not hold zeros, so the rule makes her hold her extra Treasuries ($36,774). Voice round 19 (Wed 25 Nov): two of
+  three readers marked "what that ban costs her" as not making sense, since about $46,600 comes back; say what it makes
+  her hold. Never "extra bonds against reinvestment risk" for the lottery (its $2m of spare bonds cover credit risk, 0.27%
   of face value, and its "reinvestment risk" means a bond called early); never "California law" or "exactly".
 - **Left out.** "A forecast in disguise" for the ten (TNA l.15 says "not merely a forecast"); "what the market expects";
   structured settlements (26 U.S.C. 130(d)) and Florida's prepaid plan (store, behind the lottery); "covers the decade".
@@ -231,7 +238,9 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   return from 4% to 10%; at the team's own build of about 5% too) goes to Table 2's note as a robustness check.
 - **Conceit.** Two inkings, two dates, said as a verb: inked in January 2028, inked before the 2031 meetings.
 - **Outside parallel (one).** The Reserve Bank of Australia's forward guidance heard as a promise (all four judges
-  named it as surviving; card Q212 read it at source Sun 22 Nov). Name the review: in February 2021 the Bank said it did
+  named it as surviving; card Q212 read it at source Sun 22 Nov; card Q243 read both again Wed 25 Nov: Media Release
+  2021-01, 2 February 2021, never 2021-02, a payments-board update; the review's sentence at printed p.14, its "pledge"
+  endnote on p.18). Name the review: in February 2021 the Bank said it did
   not expect the conditions for raising rates to be met "until 2024 at the earliest"; when it raised them in May 2022,
   its review of forward guidance (15 November 2022) found that "many people interpreted the forward guidance as 'a
   promise'". Never "its 2022 review" alone (three reviews that year), never "the RBA promised" or "broke its promise"
@@ -277,9 +286,13 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   only what the fund itself might take, and the letter binds her estate (her flexibility is never sized for co-sponsors);
   and no "on today's figures" beside the letter's sum (said once, in 3c).
 - **Why signed as well as held (cards Q200, Q213).** Owning shows the money exists; a signature says it will be given. A gift
-  office counts a promise on verifiable paper (FAS 116 para 6, now ASC 958-605-25-8) and weighs whether the giver can
-  pay only when it measures; Lehman Brothers' own five-year pledge of $10 million to Spelman College in 2007 became $3
-  million when the bank failed (card Q213 rows 16-18: the bank's own pledge, never "a pledge from a fortune"). Laura's
+  office counts a promise on verifiable documentation (FAS 116 para 6 defines a promise to give; "unconditional" is a
+  separate test, now ASU 2018-08's; card Q244, Wed 25 Nov: never "verifiable paper", a taped promise can pass; CASE's
+  sentence asking for a signed document is a management guideline, "CASE's guidelines ask for", CASE 2021 p.58 as cited
+  in Taylor 2021) and weighs whether the giver can pay only when it measures; in October 2007 Lehman Brothers promised
+  Spelman College $10 million over five years, eleven months later the bank filed for bankruptcy, and Spelman received
+  $3 million (card Q213 rows 16-18; card Q244: "Lehman Brothers' own" pledge, never "Holdings itself", since no source
+  names the entity; "October 2007", never a day; never "a pledge from a fortune"). Laura's
   "can" is a fact a co-sponsor can check; the letter makes her figure countable. Card Q213's sentence for the team,
   before her words: "Treasuries held for her are why her $115,000 will be paid; a signed letter promising it, with the
   amount, the purpose and the date, is why a funder can count it." Its date: "committed in writing in 2031, paid in
@@ -346,8 +359,9 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   sentence, and the top's promise breaks only if the fund falls short by more than her flexibility. Her flexibility:
   a rise of about 25% in the cost of her share, if shares earn the 7.5% a year assumed; the hard case, building costs and the Taiwan dollar together: four times since 1991 the same building
   became 28% or more dearer in US dollars within two years (about $32,200 on her $115,000, more than all her
-  flexibility), with who carries the rest; never "1 in 20" from overlapping windows (card Q210: about 17 separate
-  two-year spans in four episodes).
+  flexibility), with who carries the rest; never "1 in 20" from overlapping windows (card Q210; NUMBERS 8x (d) and 8za:
+  16 or 17 separate two-year spans cover the whole record, and the four episodes hold the 20 windows at 28% or more,
+  so never "17 spans in four episodes"; card Q246: only one of the four followed a share slump).
   The ten payments are fixed US dollars by the case, so their NT$ value moves (one clause).
 - **Before 1991 (card Q217; registered Mon 23 Nov, NUMBERS 8x).** Every "30 of 406" and "9.3% to 29.0%" figure is
   "since 1991", the year the national building-cost index starts; 29.0% tops only the 30 strong windows, and the
@@ -373,10 +387,22 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   read at source Mon 23 Nov: -42.7% end-January 2000 to end-January 2003, -44.2% on Laura's start-of-year calendar; the
   old -42.1% and -40.6% spliced the price and gross series and are retired, NUMBERS 9, Mon 23 Nov evening; say "more than
   40%", never "about 42%"), as 2031 is for her, and
-  building costs then rose about 18% in NT$, 27% in US$).
-- **Outside parallel (one).** The 2022 gilt crisis, in the words card Q214 read at source (Sun 22 Nov evening): the
-  funds forced to sell were those that had borrowed against their gilts, pooled funds above all, when lenders called
-  for cash within days; no pension scheme became insolvent, and the pensions' insurer (the PPF) saw no claim from it.
+  building costs then rose about 18% in NT$, 27% in US$). Card Q246 (Wed 25 Nov, read a third time): one calendar per
+  sentence that prints figures (Laura's: -44.2% with January 2003 to December 2004, +18.4% NT$, +27.2% US$; end-January:
+  -42.7% with January 2003 to January 2005, +17.9%, +28.0%); the rise was a burst, most of it one quarter of world steel
+  prices (December 2003 to March 2004, +11.6%), and it began before the share low, so "then" means the money was
+  needed after the slump, not that the costs waited for it; both world-share slumps of 30% or more since 2000 were
+  followed by a Taiwan building about a quarter dearer in US$ (about 27% and 24%; once through steel, once through the
+  Taiwan dollar), which is the aha's count, told as dated events; the four episodes since 1991 are the largest rises,
+  only one of which followed a slump, so never "four times" as the aha's frequency.
+- **Outside parallel (one).** The 2022 gilt crisis, in the words card Q243 read at source again (Wed 25 Nov; card
+  Q214's wording retired): the funds forced to sell were those that had borrowed against their gilts or used
+  derivatives, pooled funds above all: long gilt yields jumped more than a percentage point in a few days, and the
+  banks on the other side asked for more collateral faster than the funds' pension-scheme investors could send cash.
+  In November 2022 the pensions' insurer told Parliament that the crisis "was one of short-term liquidity, not
+  fundamentally the solvency" of the schemes, and that it had seen no claims from it (PPF evidence LDI0031, published
+  1 December 2022; by July 2025 it called the effect on its claims "small", so "no claims" carries its date). Never
+  "no pension scheme became insolvent" as the report's own claim.
   Laura borrows nothing, so no fall in prices can make her sell; her one planned sale, the 2031 move, waits for a price
   near the funds' value (Table 3 row 5). Never "broke fastest" (in no source: no LDI fund wound up), "no pension
   promise broke" (a minority of schemes ended worse funded), "nobody can make the plan sell" (a fund's early end can),
@@ -429,8 +455,13 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   process, said as "what we said we would do, and when, before the market moved"; IPS l.17's reasons are exits for a
   plan that cannot be carried out, never tests of whether it was wise (Q228-031); knowing a bias is no defence against
   it (Q228-005/006), so the reflection points to dates, never to the team's awareness. (5) The copout's lesson in the
-  team's own words: judgement pays where the world is regular and the answer comes back quickly, so the team picked
-  the ten Treasuries and let one world fund hold the shares (goldmine 43; Q227-007). (6) Half is a stopping point with
+  team's own words: judgement pays where the world is regular and the answer can be checked, so the team matched the
+  ten Treasuries to printed dates and let one world fund hold the shares (goldmine 43; Q227-007; card Q247, Wed 25 Nov,
+  two words changed: the ten's answer comes back slowly too, 2033-2042, but the match needs no forecast and could be
+  checked the day it was bought, so both halves sit where Kahneman and Klein (2009, p.524) say a rule beats a person,
+  very low validity for shares and very high for a printed schedule; the quoted "sufficiently regular" and "prolonged
+  practice" words are Kahneman's 2011 book, ch. 22, not the 2009 paper, so no quotation in 3f and the paper to
+  References only). (6) Half is a stopping point with
   its reason given (2.2), never a maximum, and never "satisficing beats maximising" (Q229-014).
 - **Outside parallel.** None (D16; panel 4's finalist).
 - **Left out.** The SEC's and judges' 90% anchors (D16); "readers" and "a blind test"; any AI's share of the work as
@@ -448,7 +479,7 @@ judge (card Q107). At most two in a part; every one on its own NUMBERS figure, n
 | # | Part | What the judge had backwards | The key and its number |
 |---|---|---|---|
 | 1 | 3c | A range must carry odds when she states it | By 2031 nothing is left to estimate; the odds belong to the years before (91 and 57 in 100 from today) |
-| 2 | 2.3 | A writer's smaller deposit is the plan's weak point | The order of purchase: the deposit pays the ten first, so it can arrive about three-quarters smaller with every payment met even if cash waiting earns nothing; what shrinks is the building money (promoted from the reserves, conviction 4.7; the old row 2, 1 - 0.99^10, out) |
+| 2 | 2.3 | A writer's smaller deposit is the plan's weak point | The order of purchase: the deposit pays the ten first, so it can arrive about three-quarters smaller with every payment met even if cash waiting earns nothing; what shrinks is the building money (promoted from the reserves, conviction 4.7; the old row 2, 1 - 0.99^10, out; card Q245, Wed 25 Nov: no waterfall, revenue-bond or sinking-fund comparison, since those usually give the first slot to whatever keeps money coming and make up a shortfall from next month; the why is that nothing below the ten is promised to anyone while the deposit's size is unknown, and Laura has no next month) |
 | 3 | 2.5 | Buying the ten was routine | On only one day from August 2007 to August 2026 did $300,000 buy all ten (19 Oct 2023); the plan is built to need the year, not the day, and its limit (a fall in yields of about 3.6 points before January 2027) is in 3e |
 | 4 | 3.0 | Market risk threatens the promises | Certainty has dates: a fall can shrink the next figure she states, never one already stated (a 40% fall before the move gives about $95,000-$105,000, the bottom and every payment unchanged) |
 | 5 | 3a | Bonds held to maturity leave nothing to forecast | The rate on reinvested interest was the one forecast left, and the extra Treasuries take it out ($39,162 of the 2028 deposit) |
@@ -509,7 +540,7 @@ reason (no gem lost, GEM_LEDGER).
 | 17 | A pledge fails with whoever made it (Lehman's was the bank's own pledge, card Q213; never "from a fortune") | 3d | Placed (aha 8, with card Q200) |
 | 18 | Her career leads the market; the deposit carries the risk | 2.3 | Merged into aha 2 and D4's "later and smaller"; $3,016 never alone |
 | 19 | Ended iBond funds paid within 0.066%; IBTA 15 days early | 3e, Table 3 | Placed |
-| 20 | Sovereigns in their own currency do not repudiate | store | Out (D6: the plan's strong words on Treasuries need no outside proof, Book 19) |
+| 20 | Sovereigns in their own currency do not repudiate | merged into 5 | Merged Wed 25 Nov (final pass) into 5: the same point (never default risk); the strong words need no outside proof (D6); store only |
 | 21 | Nobody can run on the plan | 3e | Placed (3e's one parallel, the 2022 gilt crisis) |
 | 22 | A world fund adds about $75 against an $11,500 need | Table 3's note | Placed: the currency watch, never a hedge |
 | 23 | Her flexibility as a real option | 3b | Merged: D15's wording in prose; the option a note for judges only |
@@ -517,12 +548,12 @@ reason (no gem lost, GEM_LEDGER).
 | 25 | The client is a statistics graduate | 3c | Placed Tue 24 Nov, one clause (Branch 4, "Client knowledge"), on plain 20's condition: never "a statistics graduate, so"; the degree explains why 3c gives no "95%" for a figure already held, never why she is confident (reconciled Tue 24 Nov evening) |
 | 26 | Willingness against ability | 2.3 | Placed, one clause: her caution is forced by arithmetic, since the payments take the whole first deposit |
 | 27 | A calendar of promises | 2.2 | Placed |
-| 28 | She starts where pensions end | store | Reserve for 3a; out unless 3a's budget frees |
-| 29 | Dedication against immunisation | 2.0, 2.2 | Placed with D13 (Leibowitz; Redington's no forced sale) |
-| 30 | The bought deal | store | Out (D6) |
-| 31 | Lintner's dividends | store | Reserve: 3b's "ink only goes one way" carries its logic; 3c's budget holds two ahas already |
-| 32 | Overhead covered: 75% more given | store | Out (D11) |
-| 33 | "Fixed outcome, not fixed income" | store | Reserve for 3a; the lottery rule takes 3a's one outside voice |
+| 28 | She starts where pensions end | 3a, merged into 15 | Merged Wed 25 Nov (final pass): the pension regulator's question is the same why as 15's (the commitment comes first), and 3a's one outside voice is the lottery; store only |
+| 29 | Dedication against immunisation | 2.0, 2.2 | Placed with D13 (Leibowitz; Redington); card Q242, Wed 25 Nov: Redington (1952) named immunisation, which trades as rates and new business move, and called the no-trade case "absolute" matching; Laura's ten come as close as coupon bonds allow, and the extra Treasuries cover the early interest |
+| 30 | The bought deal | merged into 10 | Merged Wed 25 Nov (final pass) into 10: nothing stated before it is bought (D6); store only |
+| 31 | Lintner's dividends | 3b, merged into 24 | Merged Wed 25 Nov (final pass): "raised only to what can be kept" is 24's logic (breaking a promise costs trust, beating it buys nothing), carried by 3b's "ink only goes one way"; store only |
+| 32 | Overhead covered: 75% more given | merged into 37 | Merged Wed 25 Nov (final pass) into 37: the same family of fundraising experiments (D11); store only |
+| 33 | "Fixed outcome, not fixed income" | 3a, merged into 6 | Merged Wed 25 Nov (final pass): a practitioner's name for 6's standard; 3a's one outside voice is the lottery, so no second name; store only |
 | 34 | Portfolio insurance as the design not taken | 3b | Placed, one clause |
 | 35 | One took/refused clause per part | every part | Placed (the 27 Nov writers) |
 | 36 | "Until the day it hits the shelves" | 2.3 | Placed, once, cited |
@@ -530,9 +561,9 @@ reason (no gem lost, GEM_LEDGER).
 | 38 | Seed money: "first money in a field of last money" | 3d | Placed as one clause ("first to commit, in writing"); never "nearly sixfold" for Laura |
 | 39 | The order of purchase is the hedge | 2.3 | Placed (aha 2) |
 | 40 | Implementation shortfall | 2.5 | Placed (D21) |
-| 41 | The lottery holds zeros; her extra Treasuries are what the rule against them costs | 3a | Placed Sun 22 Nov evening (card Q211): the break of 3a's one outside parallel, one clause |
+| 41 | The lottery's Treasuries are zeros; the same rule makes Laura hold extra Treasuries | 3a | Placed Sun 22 Nov evening (card Q211): the break of 3a's one outside parallel, one clause; Wed 25 Nov: "makes her hold", never "costs her" (voice round 19), and "the lottery's Treasuries are zeros", never "the lottery holds zeros" (its municipal bonds pay interest, card Q242) |
 | 42 | An account of a change of mind in five parts, the fourth (one thing now done differently) the one usually missing | 3f | Placed Mon 23 Nov evening (cards Q226, Q224-030): the shape of the copout account and the closing paragraph, no source named in 3f |
-| 43 | Judgement pays only where the answer comes back quickly; the team picked the ten Treasuries and let one fund hold the shares | 3f | Placed Mon 23 Nov evening (card Q227): the copout's lesson in the team's words; Kahneman and Klein (2009) to References; aha test 10 candidate |
+| 43 | Judgement pays only where the answer can be checked; the team matched the ten Treasuries to printed dates and let one fund hold the shares (card Q247, Wed 25 Nov: two words changed) | 3f | Placed Mon 23 Nov evening (card Q227): the copout's lesson in the team's words; Kahneman and Klein (2009) to References; aha test 10 candidate |
 | 44 | Her name earns her living (sweep B #30) | 3d lead-in | Placed Tue 24 Nov evening, one clause in the judges' prose: the case's own reason (l.86, l.114) for the letter's fixed sum; the team's reading, never Laura's words |
 
 ## 7. What stays open, and who decides

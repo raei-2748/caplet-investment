@@ -1,0 +1,7 @@
+iBond funds against the 2 Oct closes: -507.48  {'IBTM': -180.12, 'IBTO': -61.44, 'IBTP': -74.16, 'IBTQ': -89.4, 'IBTR': -102.36}
+VT: sheet 164 x 159.13 = 26097.32; filled 167 x 158.83 = 26524.61; change +427.29 = three extra at fill 476.49 -49.20 drift on 164 (or three at sheet 477.39 -50.10 drift on 167)
+six funds on filled units: -557.58
+bonds (dirty, against the 5 Oct check): sheet 86389.06, fills 84801.33 + 1109.42 accrued = 85910.75; drift -478.31 (clean -500.33, accrued +22.02)
+cash: sheet shows 2955, its own prices give 2955.29; WInS 3513.79; gap 558.79 vs shown, 558.50 vs exact
+fills less sheet: -558.50 = funds -507.48 + VT +427.29 + bonds -478.31
+wrote results_book_drift_2026-11-17.json
