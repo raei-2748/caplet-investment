@@ -188,7 +188,13 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   four-fifths and the dated $95,000 unexplained; "four-eyes" and "satisficing" unglossed), then 14 (four serious: the
   bonds' timing sentence, the one-point fall, "the Treasury plan" never set against the first plan, the 42% entry ending
   as if 42% were right); each was cut or put in plain words, a times-tables scene that echoed the checking was swapped
-  for netball, and the second read's fixes went in without a third read, for the same reason as Ep 54.
+  for netball, and the second read's fixes went in without a third read, for the same reason as Ep 54. Ep 57 (Tue 24 Nov) failed two
+  fresh reads: 22 lines (14 serious: fundraising words such as "booked" and "committed", round numbers and "57 of 66
+  sentence readings", "put a 1994 figure on a script", pencil and ink and Caplet never introduced, two entry endings
+  that reassured, a three-sentence run with a "not X" slogan), then 17, two serious ("stet" as a word for holding
+  nobody could follow; the second account given without its reason) and the rest small (a "So" ending, office words,
+  the half of Amara's evening guess that was wrong left unsaid); each was cut or put in plain words, three entries at
+  one time merged into one, and the second read's fixes went in without a third read, for the same reason as Ep 54.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
