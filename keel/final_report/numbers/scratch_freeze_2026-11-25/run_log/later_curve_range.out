@@ -1,0 +1,14 @@
+6 Nov check: $39,162 $81,244 $97,605 $117,142 95000.0 115000.0
+13 Nov: ten $294,081 ten+extra $330,402 left over $6,203 extra 2028 $38,062 first $31,859 (21.2%) floor $86,597 VT $31,544
+   zF 1.223325 zM 1.074838 bottom raw $105,407 top raw $126,323 stated $105,000 to $125,000; funds pay $132,397 excess $7,397 kept $22,575 flex $29,972
+   variant holdings_recouponed_at_13nov_par $105,277 $126,189 $105,000 $125,000 first $31,859
+   variant holdings_coupon_3.50 $105,749 $126,676 $105,000 $125,000 first $31,859
+   variant holdings_coupon_4.00 $105,519 $126,439 $105,000 $125,000 first $31,859
+   variant curve_anchored_on_13nov $105,348 $126,253 $105,000 $125,000 first $31,921
+Q98 route: {'parallel_equivalent_shift_points': 0.2773, 'extra_treasuries_jan2027': 36524, 'extra_treasuries_jan2028': 38277, 'left_over_jan2028': 6203, 'first_slice_jan2028': 32074, 'floor_money': 86440, 'vt_bought': 31486, 'bottom_raw': 105215, 'top_raw': 126094, 'bottom': 105000, 'top': 125000}
+gap: {'first_slice_route_gap': 214.73, 'extra_treasuries_jan2027_exact_minus_grid': -203.93, 'from_the_extra_treasuries_jan2028': 213.7, 'from_the_carry_day_count': 1.02, 'extra_treasuries_exact_at_the_parallel_shift_jan2027': 36524.54, 'grid_interpolation_jan2027': -0.19, 'curve_shape_jan2027': 204.11}
+par moves: {'1 month': 0.08, '3 months': 0.13, '6 months': 0.19, '1 year': 0.32, '2 years': 0.37, '3 years': 0.33, '5 years': 0.34, '7 years': 0.31, '10 years': 0.29, '20 years': 0.23, '30 years': 0.21}
+forward moves: {'fwd_2027': 0.345, 'fwd_floor_jan2028_to_end': 0.312, 'fwd_moved_jan2031_to_end': 0.285}
+steps: {'bottom': {'rise_to_state_100000': 0.089, 'rise_to_state_105000': 0.276, 'rise_to_state_110000': 0.462, 'fall_to_state_under_95000': 0.097, 'fall_to_state_under_90000': 0.283}, 'top': {'rise_to_state_120000': 0.09, 'rise_to_state_125000': 0.248, 'rise_to_state_130000': 0.407, 'fall_to_state_under_115000': 0.068, 'fall_to_state_under_110000': 0.225}}
+13 Nov as a parallel rise: {'bottom': 0.291, 'top': 0.29, 'cost_of_the_ten': 0.277}
+wrote /home/user/caplet-investment/keel/final_report/numbers/results_later_curve_2026-11-18.json

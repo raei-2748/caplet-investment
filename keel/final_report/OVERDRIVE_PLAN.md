@@ -135,6 +135,19 @@ readers: the repairs held, and every reader asked what stands behind the make-up
 and fact sheet version 9. Analysis: the 1994 replay now has a script (NUMBERS 8z) and the reference list gained 8 works
 checked at source, none left unverified (`research/sources_check/S5.md`).
 
+**As run, Wed 25 Nov morning (Day 18, paced at about half volume).** The final ranking and the section notes. Six
+research workers took the facts the report leans on hardest to source a second time and the week's best ideas a level
+deeper (cards Q242-Q247: the lottery's rule, Leibowitz and Redington; the RBA and the 2022 gilt crisis; Lehman and
+Spelman, CASE, FAS 116, Oman and GIW; the order of purchase against waterfalls; a share slump then a cost burst; where
+judgement pays), about 120 sources, 227 rows, every row rated the same morning by raters EP, EQ and ER. Claims kept 13,
+changed 15, killed 3. The store's final judgement: four raters (EL-EO) judged the 828 rows never judged, so every one of
+11,103 ideas has a status and a reason (`research/store/FINAL_JUDGEMENT_2026-11-25.md`), and all 44 gold nuggets are
+placed or merged. `SECTION_NOTES.md` gives each part its notes for Fri 27 Nov. Voice round 19 (`voice/ROUND19.md`) read
+3a and 3e on three readers (3a followed 78% first time, 3e 54%; "what that ban costs her" becomes "makes her hold").
+The writing session's review loop was rehearsed on Caplet's submitted IPS with five planted faults and fixed in
+`WRITING_SESSION.md`. Analysis: the numbers freeze check (NUMBERS 8za: 136 figures, 7 mismatches fixed; the 7.5% is
+after withholding tax) and fact sheet version 11.
+
 ## The questions for each run
 
 The part of the report each question serves is in brackets. Every researcher is briefed to find the relation that does

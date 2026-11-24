@@ -1,0 +1,33 @@
+A. central: both lots' zero-interest value 117731.11, stated top 115000, haircut 588.66 + rounding 2142.45 = 2731.11
+   cover at zero interest 1 - 115000/117731.11 = 2.3198%; at the modelled payout 1 - 115000/122503.13 = 6.1249%
+   bottom: below it only at costs of 3.16% (floor alone, zero interest) / 19.31% (both lots, zero) / 22.45% (modelled)
+   house, cost 0.50%: zero interest top missed 0 (0.000%), below bottom 0; modelled payout top missed 0, below bottom 0
+   house, cost 0.75%: zero interest top missed 11677 (5.838%), below bottom 6; modelled payout top missed 0, below bottom 0
+   house, cost 1.00%: zero interest top missed 23607 (11.803%), below bottom 9; modelled payout top missed 0, below bottom 0
+   house, cost 2.00%: zero interest top missed 71512 (35.756%), below bottom 29; modelled payout top missed 7, below bottom 1
+   house, cost 3.00%: zero interest top missed 119058 (59.529%), below bottom 59; modelled payout top missed 435, below bottom 9
+   cover at zero interest: min 0.500% p5 0.714% median 2.599%; at the modelled payout: min 1.684% p5 4.196% median 6.467%
+   never printed: contribution in $95,000-$115,000 53.37%; range exactly that 5.42%; contribution >= $95,000 96.87%
+   floor's coupons paid before its end: 15446.08 (at face 15514.54), 9 coupons 2028-01-04 to 2032-01-04; final flow 82649.47; sum 98095.55 vs 98095.55
+   moved half's: 1152.78
+B. backstop: call_with_margin
+B. 0.1% off every fund flow: cost share x payout $238.35; zero interest: short $0.00, left $2365.94 (was $2604.29); zero + bill fee: short $0.00 {}, left $941.33 (was $1176.66); forwards: left $75553.38 (was $75934.02)
+B. 0.5% (the range's share): cost share x payout $1191.75; zero interest: short $0.00, left $1412.54 (was $2604.29); zero + bill fee: short $0.00 {}, left $0.00 (was $1176.66); forwards: left $74030.79 (was $75934.02)
+B. 0.03 points a year to each fund's end: cost share x payout $570.89; zero interest: short $0.00, left $2033.40 (was $2604.29); zero + bill fee: short $0.00 {}, left $612.84 (was $1176.66); forwards: left $75030.82 (was $75934.02)
+   largest cost off every fund flow covered at zero interest: 0.7368% (no bill fee), 0.5000% (bill fee); five funds pay $238349.86 at zero
+   0.1pct: all ten paid if waiting money earns at least -0.2509% a year net (-0.1009% before the bill fund's 0.15%)
+   0.5pct: all ten paid if waiting money earns at least -0.1500% a year net (-0.0000% before the bill fund's 0.15%)
+   0.03pt_a_year: all ten paid if waiting money earns at least -0.2157% a year net (-0.0657% before the bill fund's 0.15%)
+B. backstop: record_no_margin
+B. 0.1% off every fund flow: cost share x payout $237.16; zero interest: short $0.00, left $1177.11 (was $1414.27); zero + bill fee: short $236.20 {'2036': 187.54, '2037': 48.66}, left $0.00 (was $0.00); forwards: left $73743.73 (was $74122.57)
+B. 0.5% (the range's share): cost share x payout $1185.80; zero interest: short $593.51, left $821.98 (was $1414.27); zero + bill fee: short $1181.00 {'2036': 937.71, '2037': 243.29}, left $0.00 (was $0.00); forwards: left $72228.39 (was $74122.57)
+B. 0.03 points a year to each fund's end: cost share x payout $567.59; zero interest: short $0.00, left $846.68 (was $1414.27); zero + bill fee: short $565.41 {'2036': 420.1, '2037': 145.31}, left $0.00 (was $0.00); forwards: left $73224.39 (was $74122.57)
+   largest cost off every fund flow covered at zero interest: 0.2386% (no bill fee), 0.0000% (bill fee); five funds pay $237159.84 at zero
+   0.1pct: all ten paid if waiting money earns at least -0.0871% a year net (0.0629% before the bill fund's 0.15%)
+   0.5pct: all ten paid if waiting money earns at least 0.1641% a year net (0.3141% before the bill fund's 0.15%)
+   0.03pt_a_year: all ten paid if waiting money earns at least -0.0063% a year net (0.1437% before the bill fund's 0.15%)
+C. p 0.25%: extra top-up $468; central all legs: bottom raw -654 -> 96951 stated 95000; top raw -834 -> 116309 stated 115000; range legs only: bottom -243 top -341; house (range legs): bottom steps down 4.8%, top 6.8%, either 11.3%
+C. p 0.50%: extra top-up $935; central all legs: bottom raw -1305 -> 96300 stated 95000; top raw -1662 -> 115480 stated 115000; range legs only: bottom -486 top -680; house (range legs): bottom steps down 9.8%, top 13.7%, either 22.1%
+C. p 0.74%: extra top-up $1384; central all legs: bottom raw -1927 -> 95678 stated 95000; top raw -2454 -> 114688 stated 110000; range legs only: bottom -717 top -1004; house (range legs): bottom steps down 14.3%, top 20.4%, either 31.7%
+C. p 1.00%: extra top-up $1870; central all legs: bottom raw -2597 -> 95008 stated 95000; top raw -3307 -> 113836 stated 110000; range legs only: bottom -966 top -1353; house (range legs): bottom steps down 19.4%, top 27.4%, either 41.4%
+wrote results_cost_cover_2026-11-17.json

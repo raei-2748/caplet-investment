@@ -1,0 +1,16 @@
+base: start 31 Dec 1993 (card Q232's start), eight tenors 1-30 years read at source (500 days)
+  A: start 1993-12-31 $272,118; high 1994-01-12 $279,053; trough 1994-11-04 $237,959 (-12.55% from start, -14.73% from high); back to start 1995-05-04 (309 days below); back to high 1995-05-09; end 1994 -9.69%; end 1995 $316,665 (+16.37%); duration 9.97y; weekly trough 1994-11-04 -12.55%
+     unchanged curve on trough day: $288,189
+  B: start 1993-12-31 $500,000; high 1994-01-12 $510,110; trough 1994-05-09 $454,265 (-9.15% from start, -10.95% from high); back to start 1995-04-20 (301 days below); back to high 1995-05-05; end 1994 -7.06%; end 1995 $568,802 (+13.76%); duration 7.76y; weekly trough 1994-11-04 -9.11%
+     coupons 5.37%, 5.53%, 5.63%, 5.73%, 5.83%, 5.89%, 5.96%, 6.02%, 6.09%, 6.15% ; cost $500,000.00 ; pays {'principal': 500000, 'coupons': 309008, 'total': 809008}
+variant: start 31 Jan 1994 (late January, before the Fed's 4 Feb move), ladder set 6-15 years out (480 days)
+  A: start 1994-01-31 $276,353; high 1994-01-31 $276,353; trough 1994-11-04 $236,330 (-14.48% from start, -14.48% from high); back to start 1995-05-09 (316 days below); back to high 1995-05-09; end 1994 -11.64%; end 1995 $315,136 (+14.03%); duration 9.99y; weekly trough 1994-11-04 -14.48%
+     unchanged curve on trough day: $290,701
+  B: start 1994-01-31 $500,000; high 1994-01-31 $500,000; trough 1994-05-09 $445,697 (-10.86% from start, -10.86% from high); back to start 1995-05-05 (314 days below); back to high 1995-05-05; end 1994 -8.80%; end 1995 $559,647 (+11.93%); duration 7.83y; weekly trough 1994-11-04 -10.85%
+     coupons 5.18%, 5.34%, 5.46%, 5.58%, 5.70%, 5.76%, 5.82%, 5.88%, 5.93%, 5.99% ; cost $500,000.00 ; pays {'principal': 500000, 'coupons': 300930, 'total': 800930}
+sensitivity: base with DGS3MO and DGS6MO added from the 27 Sep 2026 mirror (500 days)
+  A: start 1993-12-31 $272,104; high 1994-01-12 $279,042; trough 1994-11-04 $237,934 (-12.56% from start, -14.73% from high); back to start 1995-05-04 (309 days below); back to high 1995-05-09; end 1994 -9.69%; end 1995 $316,664 (+16.38%); duration 9.98y; weekly trough 1994-11-04 -12.56%
+     unchanged curve on trough day: $288,175
+  B: start 1993-12-31 $500,000; high 1994-01-12 $510,110; trough 1994-05-09 $454,259 (-9.15% from start, -10.95% from high); back to start 1995-04-20 (301 days below); back to high 1995-05-05; end 1994 -7.06%; end 1995 $568,803 (+13.76%); duration 7.76y; weekly trough 1994-11-04 -9.11%
+     coupons 5.37%, 5.53%, 5.63%, 5.73%, 5.83%, 5.89%, 5.96%, 6.02%, 6.09%, 6.15% ; cost $500,000.00 ; pays {'principal': 500000, 'coupons': 309009, 'total': 809009}
+base minus card: {"row_11": {"start": 0.046424087311606854, "high": -0.19163239473709837, "trough": 0.22153960075229406, "unchanged_curve": 0.08254148770356551, "end_1995": -0.41221078095259145, "trough_day_same": true, "back_to_start_same": true, "days_below_same": true}, "row_12": {"trough_pct_diff": 0.0030024608607988057, "trough_day_same": true, "back_to_cost_same": true, "paid_total_diff": -49.70007066358812, "paid_total_on_half_year_grid": 809057.5, "why_paid_total_differs": "the card set coupons on an exact half-year grid; this script uses calendar days / 365.25 (longest coupon 6.155% against 6.154%); the falls and dates do not change"}}

@@ -1,0 +1,86 @@
+A0 register reproduced: backstop $35,213 (2027), $36,774 (Jan 2028); H_plain_0 $335,771 ; P100 $332,922 ; design B $319,687 buys 8 rungs: {2033: 0, 2034: 0, 2035: 34453, 2036: 37289, 2037: 39939, 2038: 41610, 2039: 43578, 2040: 44559, 2041: 46508, 2042: 48485}
+   design B at 0% against H_plain_0:  $16,084 less (the judge's 'about $16,000')
+
+A1 extra Treasuries under the call's standard (zero interest, bill fee 0.15%, fund flows 0.5% smaller)
+   variant | 1 Jan 2027 money | January 2028 money | less than the call (Jan 2028) | extra by holding
+   call (own-rung ten, pooled extra)      $35,213   $36,774       $0   {'IBTQ': 1023, 'IBTR': 4342, '4.750% T-bond 15 Feb 2037': 5603, '4.500% T-bond 15 May 2038': 6003, '4.375% T-bond 15 Nov 2039': 6152, '4.250% T-bond 15 Nov 2040': 7284, '3.125% T-bond 15 Nov 2041': 7304}
+   pooled from 2033 only                  $32,658   $34,106   $2,668   {'4.375% T-bond 15 Nov 2039': 9021, '4.250% T-bond 15 Nov 2040': 13734, '3.125% T-bond 15 Nov 2041': 14290}
+   all cash pooled                        $32,040   $33,460   $3,313   {'4.250% T-bond 15 Nov 2040': 17814, '3.125% T-bond 15 Nov 2041': 19474}
+   at exactly 0% (no fee, no margin): call $33,484 pooled $30,636 saving $2,849 (register: $2,849)
+
+A2 ledgers (short / left after 2042)
+   call               standard: short $0, left $0 | fee only: left $1,177 | 0%: left $2,604 | forwards: left $75,934 on 1 Jan 2042 = $46,566 in 1 Jan 2033 money
+   pooled from 2033   standard: short $0, left $0 | fee only: left $1,139 | 0%: left $2,450 | forwards: left $70,481 on 1 Jan 2042 = $43,222 in 1 Jan 2033 money
+   all pooled         standard: short $0, left $0 | fee only: left $1,139 | 0%: left $2,420 | forwards: left $69,147 on 1 Jan 2042 = $42,404 in 1 Jan 2033 money
+
+A3 timing, all cash pooled, under the standard: cash counted for each 1 January / payment / balance carried
+   2033: pooled cash in  $126,880, carried after   $76,880 | call: own rung + extra in   $56,621, carried after   $6,621
+   2034: pooled cash in   $48,191, carried after   $74,956 | call: own rung + extra in   $48,089, carried after   $4,701
+   2035: pooled cash in   $45,586, carried after   $70,430 | call: own rung + extra in   $47,503, carried after   $2,196
+   2036: pooled cash in   $42,366, carried after   $62,691 | call: own rung + extra in   $47,807, carried after       $0
+   2037: pooled cash in   $38,519, carried after   $51,115 | call: own rung + extra in   $50,000, carried after       $0
+   2038: pooled cash in   $35,463, carried after   $36,501 | call: own rung + extra in   $50,000, carried after       $0
+   2039: pooled cash in   $33,699, carried after   $20,146 | call: own rung + extra in   $50,000, carried after       $0
+   2040: pooled cash in   $32,134, carried after    $2,249 | call: own rung + extra in   $50,000, carried after       $0
+   2041: pooled cash in   $47,754, carried after        $0 | call: own rung + extra in   $50,000, carried after       $0
+   2042: pooled cash in   $50,000, carried after        $0 | call: own rung + extra in   $50,000, carried after       $0
+   the 2042 rung's own cash (3.125% Nov 2041, plain face $29,021), by the payment it is counted for:
+     own rule: {2042: 42624}
+     pooled:   {2033: 5441, 2034: 907, 2035: 907, 2036: 907, 2037: 907, 2038: 907, 2039: 907, 2040: 907, 2041: 907, 2042: 29928}
+   pooled: balance carried is nil after [2041, 2042] (the dates the extra is sized for)
+
+A4 central plan, call against pooled (MODEL, today's forwards, VT 7.5%, the same range rule)
+   call             first slice $39,162, left $110,838, floor money $81,244, VT $29,594, floor pays $102,365, bottom $97,605 -> $95,000, top $117,142 -> $115,000, excess $7,503, half kept $21,179, flexibility plus excess $28,682
+   pooled from 2033 first slice $36,494, left $113,506, floor money $83,200, VT $30,306, floor pays $104,829, bottom $99,954 -> $95,000, top $119,962 -> $115,000, excess $10,452, half kept $21,689, flexibility plus excess $32,141
+   all pooled       first slice $35,849, left $114,151, floor money $83,673, VT $30,478, floor pays $105,426, bottom $100,523 -> $100,000, top $120,644 -> $120,000, excess $6,165, half kept $21,812, flexibility plus excess $27,978
+
+A5 all pooled, at forwards: share of each payment from its own Treasury's cash of that year {2033: '100%', 2034: '76%', 2035: '73%', 2036: '70%', 2037: '65%', 2038: '62%', 2039: '60%', 2040: '58%', 2041: '93%', 2042: '100%'}
+   the 2038-2042 bonds' coupons counted for the 2033 payment when pooled, at forwards: $40,826
+A6 the ten as written at 0%, own-rung: short $54,595 {2033: 2587, 2034: 3180, 2035: 3756, 2036: 4451, 2037: 5371, 2038: 6640, 2039: 6777, 2040: 6803, 2041: 7653, 2042: 7376}
+A6 the ten as written at 0%, pooled: short $54,595 {2040: 13108, 2041: 21415, 2042: 20072}
+
+B  WInS book at cost x 1.5 against the plan in January 2028 at cost (money put in)
+   payment Treasuries                     book  $195,887 (65.30%) x1.5  $293,830 | plan  $339,162 (75.37%) | plan less book  $45,332 (+10.07 points)
+   floor (book: IBTM floor stand-in)      book   $72,766 (24.26%) x1.5  $109,148 | plan   $81,244 (18.05%) | plan less book $-27,904 (-6.20 points)
+   VT                                     book   $26,525 ( 8.84%) x1.5   $39,787 | plan   $29,594 ( 6.58%) | plan less book $-10,193 (-2.27 points)
+   cash and purchase costs (WInS only)    book    $4,823 ( 1.61%) x1.5    $7,235 | plan        $0 ( 0.00%) | plan less book  $-7,235 (-1.61 points)
+   left for floor and VT: book x1.5 $148,935, plan $110,838; floor's share of it: book 73.29%, plan 73.30%
+   payment Treasuries, plan less book x1.5 $45,332 = extra Treasuries $36,774 + the ten's price $8,558; the ten's price = 8b's rise from 7 Oct to 6 Nov $13,071 + the tail's year of carry $101 - the book above 8b's 7 Oct engine value $4,614
+
+D  per payment, WInS book (6 Nov curve unless marked; scaled payment $33,333)
+   2033 IBTM                       1,142 shares at $21.65 = $24,724 | par curve to the fund's average maturity on 7 Oct 5.07% (stand-in) | about 67.6-67.7% of a full rung (card Q17, 23 Oct curve) | about $33,800-$33,850 at forwards, about $32,051-$32,098 if cash waiting earns nothing | cash 10-12 d before 1 Jan
+   2034 IBTO                       1,024 shares at $22.86 = $23,409 | par curve to the fund's average maturity on 7 Oct 5.13% (stand-in) | about 67.6-67.7% of a full rung (card Q17, 23 Oct curve) | about $33,800-$33,850 at forwards, about $31,651-$31,697 if cash waiting earns nothing | cash 10-13 d before 1 Jan
+   2035 IBTP                       927 shares at $23.9 = $22,155 | par curve to the fund's average maturity on 7 Oct 5.18% (stand-in) | about 67.6-67.7% of a full rung (card Q17, 23 Oct curve) | about $33,800-$33,850 at forwards, about $31,261-$31,307 if cash waiting earns nothing | cash 10-14 d before 1 Jan
+   2036 IBTQ                       894 shares at $23.46 = $20,973 | par curve to the fund's average maturity on 7 Oct 5.23% (stand-in) | about 67.6-67.7% of a full rung (card Q17, 23 Oct curve) | about $33,800-$33,850 at forwards, about $30,791-$30,836 if cash waiting earns nothing | cash 8-12 d before 1 Jan
+   2037 IBTR                       853 shares at $23.24 = $19,824 | par curve to the fund's average maturity on 7 Oct 5.26% (stand-in) | about 67.6-67.7% of a full rung (card Q17, 23 Oct curve) | about $33,800-$33,850 at forwards, about $30,169-$30,214 if cash waiting earns nothing | cash 10-14 d before 1 Jan
+   2038 4.750% T-bond 15 Feb 2037  face $20,000 | fill 96.0190 clean, yield 5.25% | 69.13% of a full rung | pays $34,566 at forwards, $29,975 if cash waiting earns nothing | against $33,333: $1,232 / $-3,358 | cash 318 d (10.4 mo) before 1 Jan
+   2039 4.500% T-bond 15 May 2038  face $20,000 | fill 93.0763 clean, yield 5.31% | 70.22% of a full rung | pays $35,109 at forwards, $30,350 if cash waiting earns nothing | against $33,333: $1,775 / $-2,983 | cash 229 d (7.5 mo) before 1 Jan
+   2040 4.375% T-bond 15 Nov 2039  face $18,000 | fill 90.0053 clean, yield 5.45% | 65.37% of a full rung | pays $32,684 at forwards, $28,238 if cash waiting earns nothing | against $33,333: $-649 / $-5,096 | cash 47 d (1.5 mo) before 1 Jan
+   2041 4.250% T-bond 15 Nov 2040  face $18,000 | fill 87.7240 clean, yield 5.51% | 67.80% of a full rung | pays $33,899 at forwards, $28,710 if cash waiting earns nothing | against $33,333: $565 / $-4,623 | cash 47 d (1.5 mo) before 1 Jan
+   2042 3.125% T-bond 15 Nov 2041  face $20,000 | fill 74.9550 clean, yield 5.60% | 68.92% of a full rung | pays $34,458 at forwards, $29,375 if cash waiting earns nothing | against $33,333: $1,125 / $-3,958 | cash 47 d (1.5 mo) before 1 Jan
+   DV01 (1 Jan 2027 value per 1bp, 6 Nov curve): payments $300 (scaled x2/3: $200); the ten at plain size $234 (7.76 years); WInS ladder about $159 against $200 (80%); the plan's ten plus extra Treasuries $267 against $300 (89%)
+   the book's floor stand-in (3,361 IBTM shares) about $38 a bp more, on no liability
+
+E  a deposit between nothing and the first slice (today's yields; the ladder's tail first, then the extra Treasuries pro rata)
+   deposit       $0: extra Treasuries bought 0% | short at forwards $3,016 {2033: 3016} | cash waiting at zero $57,455 | with the bill fee $58,775 | the standard (fee, funds 0.5% smaller) $59,912 {2033: 5740, 2034: 3503, 2035: 4089, 2036: 4796, 2037: 5732, 2038: 6805, 2039: 6939, 2040: 6957, 2041: 7820, 2042: 7531}
+   deposit  $10,000: extra Treasuries bought 21% | short at forwards $0 {} | cash waiting at zero $42,756 | with the bill fee $44,095 | the standard (fee, funds 0.5% smaller) $45,253 {2033: 928, 2034: 3173, 2035: 3759, 2036: 4257, 2037: 4545, 2038: 5396, 2039: 5503, 2040: 5517, 2041: 6201, 2042: 5972}
+   deposit  $20,000: extra Treasuries bought 48% | short at forwards $0 {} | cash waiting at zero $27,201 | with the bill fee $28,562 | the standard (fee, funds 0.5% smaller) $29,731 {2034: 1082, 2035: 3326, 2036: 3549, 2037: 2987, 2038: 3546, 2039: 3616, 2040: 3625, 2041: 4075, 2042: 3924}
+   deposit  $30,000: extra Treasuries bought 75% | short at forwards $0 {} | cash waiting at zero $11,647 | with the bill fee $13,034 | the standard (fee, funds 0.5% smaller) $14,213 {2035: 961, 2036: 2842, 2037: 1428, 2038: 1695, 2039: 1729, 2040: 1733, 2041: 1948, 2042: 1876}
+   deposit  $39,162: extra Treasuries bought 100% | short at forwards $0 {} | cash waiting at zero $0 | with the bill fee $0 | the standard (fee, funds 0.5% smaller) $0 {}
+
+F  all-Treasury, same flexibility: floor money in January 2028 $94,579, held back $16,259 (grows to the FINAL's median half kept $20,486 at the floor's forwards); pays $119,166; zero-interest value less 0.5% $113,625 -> stated $110,000, known in January 2028; above the stated figure $9,166; flexibility in all $29,653 against the FINAL's central $28,682
+
+G  the reserve, payment by payment, if cash waiting earns nothing (own rung / extra Treasuries' cash counted for that payment / extra covers / carried after)
+   2033 IBTM                       own  $37,908 -> pays  $47,413 | extra      $0 (pays      $0 over its life) | extra cash for 2033  $9,570 | covers  $2,587 | carried  $6,982
+   2034 IBTO                       own  $36,065 -> pays  $46,820 | extra      $0 (pays      $0 over its life) | extra cash for 2034  $1,594 | covers  $3,180 | carried  $5,397
+   2035 IBTP                       own  $34,300 -> pays  $46,244 | extra      $0 (pays      $0 over its life) | extra cash for 2035  $1,594 | covers  $3,756 | carried  $3,235
+   2036 IBTQ                       own  $32,588 -> pays  $45,549 | extra  $1,023 (pays  $1,430 over its life) | extra cash for 2036  $2,611 | covers  $4,451 | carried  $1,395
+   2037 IBTR                       own  $30,922 -> pays  $44,629 | extra  $4,342 (pays  $6,266 over its life) | extra cash for 2037  $5,759 | covers  $5,371 | carried  $1,782
+   2038 4.750% T-bond 15 Feb 2037  own  $28,930 -> pays  $43,360 | extra  $5,603 (pays  $8,397 over its life) | extra cash for 2038  $6,813 | covers  $6,640 | carried  $1,955
+   2039 4.500% T-bond 15 May 2038  own  $28,483 -> pays  $43,223 | extra  $6,003 (pays  $9,110 over its life) | extra cash for 2039  $6,945 | covers  $6,777 | carried  $2,123
+   2040 4.375% T-bond 15 Nov 2039  own  $27,536 -> pays  $43,197 | extra  $6,152 (pays  $9,650 over its life) | extra cash for 2040  $6,959 | covers  $6,803 | carried  $2,279
+   2041 4.250% T-bond 15 Nov 2040  own  $26,550 -> pays  $42,347 | extra  $7,284 (pays $11,618 over its life) | extra cash for 2041  $7,822 | covers  $7,653 | carried  $2,448
+   2042 3.125% T-bond 15 Nov 2041  own  $29,021 -> pays  $42,624 | extra  $7,304 (pays $10,728 over its life) | extra cash for 2042  $7,532 | covers  $7,376 | carried  $2,604
+   totals: own $445,405, extra cash $57,200, left $2,604
+
+All asserts passed.

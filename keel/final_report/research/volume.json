@@ -1,17 +1,26 @@
 {
- "built": "2026-11-24T19:51+11:00",
- "today": "2026-11-24",
- "store_ideas": 10876,
- "store_judged": 10048,
+ "built": "2026-11-25T07:03+11:00",
+ "today": "2026-11-25",
+ "store_ideas": 11103,
+ "store_judged": 11103,
  "totals": {
-  "workers": 541,
-  "cards": 272,
-  "rows": 9616,
-  "sources": 9238,
-  "passages": 173,
-  "readings": 94
+  "workers": 570,
+  "cards": 278,
+  "rows": 9843,
+  "sources": 9340,
+  "passages": 178,
+  "readings": 97
  },
  "days": [
+  {
+   "day": "2026-11-25",
+   "workers": 29,
+   "cards": 6,
+   "rows": 227,
+   "sources": 102,
+   "passages": 5,
+   "readings": 3
+  },
   {
    "day": "2026-11-24",
    "workers": 33,
@@ -160,14 +169,6 @@
  "runs": [
   {
    "date": "2026-11-18",
-   "run": "morning (overdrive)",
-   "research_workers": "14",
-   "analysis_workers": "19",
-   "readers": "8",
-   "notes": "Fourteen research workers one level deeper on Q1-Q14 and the thinnest tags: cards Q122-Q135 (merger exit clauses and the two reasons; fractional Kelly and the half kept; world shares from their building blocks; UK pension yield triggers that never fired; prepaid tuition plans; the advance against royalties; certainty words in Chinese for Taiwan; founders' own commitment letters and the Giving Pledge; failure-first forms from accident reports for 3e; Taiwan's building materials, wages and the NT dollar with monthly data since 1991; gift annuity and pre-need reserves; who holds and releases a reserve; can a creator sell her career; months of running money in arts groups), 587 rows from about 520 sources read at source (many in part, each card's Gaps says which); fourteen raters judged every row the same morning (store 7,307 ideas); five analysis workers (numbers: what it takes to break each promise, NUMBERS 8u, and 3e recast failure first; the share forecast from its building blocks on the engine, NUMBERS 8v; the aha test 6 pack and its results; landing Q122-Q135 in SKELETON, GOLDMINE, GEM_LEDGER section 13, REFERENCES and CONCEIT) and two fresh voice writers; eight readers: voice round 8 (three), cold aha test 6 (three, one item per file, one reader from outside fixed income), coherence reader 9 and a lay reader"
-  },
-  {
-   "date": "2026-11-18",
    "run": "evening (overdrive)",
    "research_workers": "14",
    "analysis_workers": "22",
@@ -253,6 +254,14 @@
    "analysis_workers": "6",
    "readers": "3",
    "notes": "The conceit. Six research workers, each reading primary sources at source (cards Q236 copying pencils, Q237 election ink, Q238 printers' proofs and \"stet\", Q239 banknote signatures, Q240 what an inker may change, Q241 the ink stick and \"grind the ink first\"), about 200 sources, 203 rows, every row rated the same evening by raters EI, EJ and EK (store 10,876). Analysis: the numbers owner's worker (NUMBERS 8z, the 1994 replay with a script), the sources checker (works cited S5: 8 works added, none unverified), one voice writer and three raters. Readers: three blind readers for voice round 18 (the repaired words for co-sponsors: 86% followed, all booked $115,000, every reader asked what stands behind the make-up promise). Claims kept 12, changed 9, killed 4."
+  },
+  {
+   "date": "2026-11-25",
+   "run": "day 18 morning (paced, about half volume)",
+   "research_workers": "6",
+   "analysis_workers": "9",
+   "readers": "14",
+   "notes": "Final ranking and section notes. Six research workers, each reading primary sources at source: second readings of the outside facts the report leans on hardest (cards Q242 the lottery's rule, Leibowitz and Redington; Q243 the RBA and the 2022 gilt crisis; Q244 Lehman and Spelman, CASE, FAS 116, Oman, GIW) and the week's best ideas a level deeper (Q245 the order of purchase against waterfalls; Q246 a share slump then a cost burst; Q247 where judgement pays), about 120 sources, 227 rows, every row rated the same morning by raters EP, EQ and ER. The store's final judgement: four raters (EL-EO) judged the 828 rows never judged, so every one of 11,103 ideas has a status and a reason, and all 44 gold nuggets are placed or merged. Analysis: the numbers freeze (136 figures checked, 7 mismatches fixed, NUMBERS 8za; the 7.5% is after withholding tax), seven raters and one voice writer. Readers: three blind readers for voice round 19 (3a and 3e) and eleven reviewers rehearsing the writing session's review loop on the submitted IPS with five planted faults (every fault caught by at least four). Claims kept 13, changed 15, killed 3."
   }
  ],
  "cards": [

@@ -1,0 +1,26 @@
+checks: reserve 1 Jan 2033 $445,655 | floor $102,365 | moved $20,138 | half kept $21,179 | all money 1 Jan 2033 (reading B) $589,623 | 1 Jan 2028 after buying $462,496
+peak month-end, reading A: 2032-11-30 $587,008 ($87,008 over $500,000)
+    {'treasury_bonds': '$161,391', 'ibond_etfs': '$178,628', 'tbill_etf_waiting': '$103,687', 'floor_fund': '$102,158', 'moved_half_fund': '$20,097', 'facility_payout_waiting': '$0', 'vt': '$21,047'}
+peak month-end, reading B: 2032-12-31 $589,541 ($89,541 over $500,000)
+    {'treasury_bonds': '$162,078', 'ibond_etfs': '$139,027', 'tbill_etf_waiting': '$144,490', 'floor_fund': '$0', 'moved_half_fund': '$0', 'facility_payout_waiting': '$122,772', 'vt': '$21,175'}
+first month-end above $500,000: 2029-08-31 $501,210 | previous 2029-07-31 $499,132
+month-ends above $500,000 (A): 40 2029-08-31 to 2032-11-30
+15 Dec 2032 $588,231 | 21 Dec 2032 (A) $588,722 | 1 Jan 2033 before the payment: A $474,355 B $589,623
+cash: largest month's receipts 2032-12-31 $40,361 | before Dec 2032 2028-05-31 $3,645 | IBTM payout $39,433 | 31 Dec 2032 if December receipts wait as cash: A $47,880 B $163,133
+NAV basis: peak (A) 2032-11-30 $587,192 | first above $500,000 2029-08-31 $501,731
+30 Nov 2032: $587,008 {'-1%': '$600,005', '+1%': '$574,732', '+2%': '$563,130'} | rise to go under $500,000 8.68% | reserve securities $340,019 duration 3.71
+2028-06-30 A and B $473,537
+2028-12-31 A and B $485,280
+2029-06-30 A and B $497,062
+2029-07-31 A and B $499,132
+2029-08-31 A and B $501,210
+2029-12-31 A and B $509,392
+2030-06-30 A and B $521,644
+2030-12-31 A and B $534,475
+2031-06-30 A and B $547,239
+2031-12-31 A and B $560,728
+2032-06-30 A and B $574,793
+2032-12-31 A $474,289
+2032-12-31 B $589,541
+2033-01-01 A $474,355
+2033-01-01 B $589,623
