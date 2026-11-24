@@ -125,6 +125,16 @@ in Laura's words: a tie (all six readers booked $115,000), so the range stays fi
 bottom now is, so her words gain one sentence and the letter fixes the sum. The numbers owner's worker sized what a
 statement shows co-sponsors (NUMBERS 8y: about $111,700 at the move, a little under $115,000). Fact sheet version 8.
 
+**As run, Tue 24 Nov evening (Day 17, paced at about half volume).** The conceit, with six of the plan's eight questions
+(copying pencils, election ink, proofs and "stet", banknote signatures, what an inker may change, the ink stick and
+"grind the ink first"; iron gall and undoing a mark were left, both already in the store), cards Q236-Q241, about 200
+sources, 203 rows, every row rated the same evening by raters EI, EJ and EK (store 10,876). Claims kept 12, changed 9,
+killed 4; the finds go behind working words, not new turns (CONCEIT V2.3), and the title-page epigraph is corrected
+(the classical text is 意在筆前). Voice round 18 (`voice/ROUND18.md`) read the repaired words for co-sponsors on three
+readers: the repairs held, and every reader asked what stands behind the make-up promise, so five more changes (C13-C17)
+and fact sheet version 9. Analysis: the 1994 replay now has a script (NUMBERS 8z) and the reference list gained 8 works
+checked at source, none left unverified (`research/sources_check/S5.md`).
+
 ## The questions for each run
 
 The part of the report each question serves is in brackets. Every researcher is briefed to find the relation that does

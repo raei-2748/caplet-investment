@@ -1,0 +1,559 @@
+{
+ "label": "MODEL; Keel arithmetic on FRED H.15 par yields; a history replay, never a plan figure",
+ "run": "Tue 24 Nov 2026",
+ "script": "keel/final_report/numbers/replay_1994.py",
+ "data": "keel/final_report/numbers/data/fred_1994/ (read at source 24 Nov 2026; SOURCE.txt)",
+ "method": "engine.Curve method A on each day's eight par yields; time = days/365.25; daily marks on every day with all eight tenors; weekly (last trading day of each week) as a check",
+ "base": {
+  "label": "base: start 31 Dec 1993 (card Q232's start), eight tenors 1-30 years read at source",
+  "days": 500,
+  "A_payments_value": {
+   "label": "A: ten $50,000 payments valued as zeros (the payments' value)",
+   "start": {
+    "day": "1993-12-31",
+    "value": 272118.0464240873
+   },
+   "high_before_trough": {
+    "day": "1994-01-12",
+    "value": 279052.80836760526
+   },
+   "trough": {
+    "day": "1994-11-04",
+    "value": 237959.22153960075,
+    "fall_from_start_pct": -12.552943596857634,
+    "fall_from_high_pct": -14.726096851844117
+   },
+   "back_to_start": {
+    "day": "1995-05-04",
+    "first_day_below_start": "1994-01-03",
+    "trading_days_below_start": 309,
+    "trading_days_trough_to_back": 122
+   },
+   "back_to_high": {
+    "day": "1995-05-09"
+   },
+   "end_1994": {
+    "day": "1994-12-30",
+    "value": 245756.82799533478,
+    "vs_start_pct": -9.687420138122482
+   },
+   "end_1995": {
+    "day": "1995-12-29",
+    "value": 316664.58778921905,
+    "vs_start_pct": 16.37030029816815
+   },
+   "unchanged_curve_on_trough_day": 288189.0825414877,
+   "duration_on_start_day_years": 9.974712916428032,
+   "pays": {
+    "dates": [
+     "2000-01-01",
+     "2001-01-01",
+     "2002-01-01",
+     "2003-01-01",
+     "2004-01-01",
+     "2005-01-01",
+     "2006-01-01",
+     "2007-01-01",
+     "2008-01-01",
+     "2009-01-01"
+    ],
+    "total": 500000.0,
+    "note": "the dollars due do not move: $50,000 on each date, whatever the price did in between"
+   },
+   "weekly_trough": {
+    "day": "1994-11-04",
+    "fall_from_start_pct": -12.552943596857634
+   }
+  },
+  "B_coupon_ladder": {
+   "label": "B: ten $50,000-face Treasuries bought at par, value with coupons received held as cash",
+   "start": {
+    "day": "1993-12-31",
+    "value": 500000.0
+   },
+   "high_before_trough": {
+    "day": "1994-01-12",
+    "value": 510109.8379408109
+   },
+   "trough": {
+    "day": "1994-05-09",
+    "value": 454265.012304304,
+    "fall_from_start_pct": -9.146997539139202,
+    "fall_from_high_pct": -10.947608041032664,
+    "bonds_only": 454265.012304304,
+    "coupons_received": 0
+   },
+   "back_to_start": {
+    "day": "1995-04-20",
+    "first_day_below_start": "1994-01-03",
+    "trading_days_below_start": 301,
+    "trading_days_trough_to_back": 237
+   },
+   "back_to_high": {
+    "day": "1995-05-05"
+   },
+   "end_1994": {
+    "day": "1994-12-30",
+    "value": 464712.4033157206,
+    "vs_start_pct": -7.0575193368558775
+   },
+   "end_1995": {
+    "day": "1995-12-29",
+    "value": 568802.4009697682,
+    "vs_start_pct": 13.76048019395364
+   },
+   "unchanged_curve_on_trough_day": 511383.3103457711,
+   "on_A_trough_day": {
+    "day": "1994-11-04",
+    "value": 454464.66057734156,
+    "vs_start_pct": -9.107067884531684
+   },
+   "duration_on_start_day_years": 7.762830068903277,
+   "bonds": [
+    {
+     "maturity": "1999-12-31",
+     "coupon_pct": 5.368096362043728,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2000-12-31",
+     "coupon_pct": 5.529831383774112,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2001-12-31",
+     "coupon_pct": 5.629313190260124,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2002-12-31",
+     "coupon_pct": 5.7288883099854315,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2003-12-31",
+     "coupon_pct": 5.8285222591955845,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2004-12-31",
+     "coupon_pct": 5.894529401293392,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2005-12-31",
+     "coupon_pct": 5.959222496231115,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2006-12-31",
+     "coupon_pct": 6.023955241333266,
+     "cost": 49999.99999999999
+    },
+    {
+     "maturity": "2007-12-31",
+     "coupon_pct": 6.088716049802483,
+     "cost": 50000.00000000001
+    },
+    {
+     "maturity": "2008-12-31",
+     "coupon_pct": 6.154369526167871,
+     "cost": 49999.99999999999
+    }
+   ],
+   "pays": {
+    "principal": 500000.0,
+    "coupons": 309008.2999293364,
+    "total": 809008.2999293364,
+    "note": "fixed at purchase: each bond pays its stated coupons and $50,000 at maturity"
+   },
+   "weekly_trough": {
+    "day": "1994-11-04",
+    "fall_from_start_pct": -9.107067884531684
+   }
+  }
+ },
+ "late_january": {
+  "label": "variant: start 31 Jan 1994 (late January, before the Fed's 4 Feb move), ladder set 6-15 years out",
+  "days": 480,
+  "A_payments_value": {
+   "label": "A: ten $50,000 payments valued as zeros (the payments' value)",
+   "start": {
+    "day": "1994-01-31",
+    "value": 276353.0885785319
+   },
+   "high_before_trough": {
+    "day": "1994-01-31",
+    "value": 276353.0885785319
+   },
+   "trough": {
+    "day": "1994-11-04",
+    "value": 236329.9557108984,
+    "fall_from_start_pct": -14.482607403991455,
+    "fall_from_high_pct": -14.482607403991455
+   },
+   "back_to_start": {
+    "day": "1995-05-09",
+    "first_day_below_start": "1994-02-01",
+    "trading_days_below_start": 316,
+    "trading_days_trough_to_back": 125
+   },
+   "back_to_high": {
+    "day": "1995-05-09"
+   },
+   "end_1994": {
+    "day": "1994-12-30",
+    "value": 244176.4759613702,
+    "vs_start_pct": -11.64329763154358
+   },
+   "end_1995": {
+    "day": "1995-12-29",
+    "value": 315135.66028504627,
+    "vs_start_pct": 14.03370300871214
+   },
+   "unchanged_curve_on_trough_day": 290700.8247469338,
+   "duration_on_start_day_years": 9.992474727206401,
+   "pays": {
+    "dates": [
+     "2000-01-31",
+     "2001-01-31",
+     "2002-01-31",
+     "2003-01-31",
+     "2004-01-31",
+     "2005-01-31",
+     "2006-01-31",
+     "2007-01-31",
+     "2008-01-31",
+     "2009-01-31"
+    ],
+    "total": 500000.0,
+    "note": "the dollars due do not move: $50,000 on each date, whatever the price did in between"
+   },
+   "weekly_trough": {
+    "day": "1994-11-04",
+    "fall_from_start_pct": -14.482607403991455
+   }
+  },
+  "B_coupon_ladder": {
+   "label": "B: ten $50,000-face Treasuries bought at par, value with coupons received held as cash",
+   "start": {
+    "day": "1994-01-31",
+    "value": 500000.0
+   },
+   "high_before_trough": {
+    "day": "1994-01-31",
+    "value": 500000.0
+   },
+   "trough": {
+    "day": "1994-05-09",
+    "value": 445697.29365901736,
+    "fall_from_start_pct": -10.860541268196522,
+    "fall_from_high_pct": -10.860541268196522,
+    "bonds_only": 445697.29365901736,
+    "coupons_received": 0
+   },
+   "back_to_start": {
+    "day": "1995-05-05",
+    "first_day_below_start": "1994-02-01",
+    "trading_days_below_start": 314,
+    "trading_days_trough_to_back": 248
+   },
+   "back_to_high": {
+    "day": "1995-05-05"
+   },
+   "end_1994": {
+    "day": "1994-12-30",
+    "value": 456009.46987060533,
+    "vs_start_pct": -8.798106025878937
+   },
+   "end_1995": {
+    "day": "1995-12-29",
+    "value": 559646.8790747375,
+    "vs_start_pct": 11.929375814947507
+   },
+   "unchanged_curve_on_trough_day": 508441.3359574391,
+   "on_A_trough_day": {
+    "day": "1994-11-04",
+    "value": 445763.2232300729,
+    "vs_start_pct": -10.84735535398542
+   },
+   "duration_on_start_day_years": 7.8259019075869585,
+   "bonds": [
+    {
+     "maturity": "2000-01-31",
+     "coupon_pct": 5.1781723093502,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2001-01-31",
+     "coupon_pct": 5.3398801936238725,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2002-01-31",
+     "coupon_pct": 5.459354839970857,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2003-01-31",
+     "coupon_pct": 5.578919972091671,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2004-01-31",
+     "coupon_pct": 5.698540519594683,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2005-01-31",
+     "coupon_pct": 5.758555031280967,
+     "cost": 49999.99999999999
+    },
+    {
+     "maturity": "2006-01-31",
+     "coupon_pct": 5.817258161476952,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2007-01-31",
+     "coupon_pct": 5.875999984021747,
+     "cost": 50000.00000000001
+    },
+    {
+     "maturity": "2008-01-31",
+     "coupon_pct": 5.934769438815856,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2009-01-31",
+     "coupon_pct": 5.994405652553268,
+     "cost": 50000.0
+    }
+   ],
+   "pays": {
+    "principal": 500000.0,
+    "coupons": 300930.3894409124,
+    "total": 800930.3894409124,
+    "note": "fixed at purchase: each bond pays its stated coupons and $50,000 at maturity"
+   },
+   "weekly_trough": {
+    "day": "1994-11-04",
+    "fall_from_start_pct": -10.84735535398542
+   }
+  }
+ },
+ "short_end_sensitivity": {
+  "label": "sensitivity: base with DGS3MO and DGS6MO added from the 27 Sep 2026 mirror",
+  "days": 500,
+  "A_payments_value": {
+   "label": "A: ten $50,000 payments valued as zeros (the payments' value)",
+   "start": {
+    "day": "1993-12-31",
+    "value": 272104.00069582206
+   },
+   "high_before_trough": {
+    "day": "1994-01-12",
+    "value": 279041.93215775373
+   },
+   "trough": {
+    "day": "1994-11-04",
+    "value": 237933.98816393854,
+    "fall_from_start_pct": -12.557703100470496,
+    "fall_from_high_pct": -14.73181599480009
+   },
+   "back_to_start": {
+    "day": "1995-05-04",
+    "first_day_below_start": "1994-01-03",
+    "trading_days_below_start": 309,
+    "trading_days_trough_to_back": 122
+   },
+   "back_to_high": {
+    "day": "1995-05-09"
+   },
+   "end_1994": {
+    "day": "1994-12-30",
+    "value": 245724.16372082237,
+    "vs_start_pct": -9.694762630296283
+   },
+   "end_1995": {
+    "day": "1995-12-29",
+    "value": 316664.1546372341,
+    "vs_start_pct": 16.376148027027604
+   },
+   "unchanged_curve_on_trough_day": 288174.56055275584,
+   "duration_on_start_day_years": 9.975584186605882,
+   "pays": {
+    "dates": [
+     "2000-01-01",
+     "2001-01-01",
+     "2002-01-01",
+     "2003-01-01",
+     "2004-01-01",
+     "2005-01-01",
+     "2006-01-01",
+     "2007-01-01",
+     "2008-01-01",
+     "2009-01-01"
+    ],
+    "total": 500000.0,
+    "note": "the dollars due do not move: $50,000 on each date, whatever the price did in between"
+   },
+   "weekly_trough": {
+    "day": "1994-11-04",
+    "fall_from_start_pct": -12.557703100470496
+   }
+  },
+  "B_coupon_ladder": {
+   "label": "B: ten $50,000-face Treasuries bought at par, value with coupons received held as cash",
+   "start": {
+    "day": "1993-12-31",
+    "value": 500000.0
+   },
+   "high_before_trough": {
+    "day": "1994-01-12",
+    "value": 510110.339755926
+   },
+   "trough": {
+    "day": "1994-05-09",
+    "value": 454259.3873917623,
+    "fall_from_start_pct": -9.14812252164754,
+    "fall_from_high_pct": -10.948798330746811,
+    "bonds_only": 454259.3873917623,
+    "coupons_received": 0
+   },
+   "back_to_start": {
+    "day": "1995-04-20",
+    "first_day_below_start": "1994-01-03",
+    "trading_days_below_start": 301,
+    "trading_days_trough_to_back": 237
+   },
+   "back_to_high": {
+    "day": "1995-05-05"
+   },
+   "end_1994": {
+    "day": "1994-12-30",
+    "value": 464704.0171531763,
+    "vs_start_pct": -7.059196569364734
+   },
+   "end_1995": {
+    "day": "1995-12-29",
+    "value": 568802.6167469448,
+    "vs_start_pct": 13.760523349388976
+   },
+   "unchanged_curve_on_trough_day": 511383.3886689531,
+   "on_A_trough_day": {
+    "day": "1994-11-04",
+    "value": 454458.191101733,
+    "vs_start_pct": -9.108361779653396
+   },
+   "duration_on_start_day_years": 7.763317176252603,
+   "bonds": [
+    {
+     "maturity": "1999-12-31",
+     "coupon_pct": 5.368102736776729,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2000-12-31",
+     "coupon_pct": 5.529836951894442,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2001-12-31",
+     "coupon_pct": 5.629318351555959,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2002-12-31",
+     "coupon_pct": 5.728893155700342,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2003-12-31",
+     "coupon_pct": 5.82852685667474,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2004-12-31",
+     "coupon_pct": 5.8945336579247085,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2005-12-31",
+     "coupon_pct": 5.95922658114596,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2006-12-31",
+     "coupon_pct": 6.0239591839396445,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2007-12-31",
+     "coupon_pct": 6.088719874117938,
+     "cost": 50000.0
+    },
+    {
+     "maturity": "2008-12-31",
+     "coupon_pct": 6.154373187037761,
+     "cost": 49999.99999999999
+    }
+   ],
+   "pays": {
+    "principal": 500000.0,
+    "coupons": 309008.5317548879,
+    "total": 809008.5317548879,
+    "note": "fixed at purchase: each bond pays its stated coupons and $50,000 at maturity"
+   },
+   "weekly_trough": {
+    "day": "1994-11-04",
+    "fall_from_start_pct": -9.108361779653396
+   }
+  }
+ },
+ "card_Q232": {
+  "row_11": {
+   "start_31Dec1993": 272118,
+   "high_12Jan1994": 279053,
+   "trough_4Nov1994": 237959,
+   "fall_from_start_pct": -12.6,
+   "fall_from_high_pct": -14.7,
+   "unchanged_curve_4Nov1994": 288189,
+   "back_to_start": "1995-05-04",
+   "trading_days_below_start": 309,
+   "end_1995_29Dec": 316665
+  },
+  "row_12": {
+   "trough_pct": -9.15,
+   "trough_day": "1994-05-09",
+   "end_1994_pct": -7.06,
+   "back_to_cost": "1995-04-20",
+   "end_1995_pct": 13.8,
+   "paid_total": 809058,
+   "coupons_pct": [
+    5.37,
+    6.16
+   ]
+  }
+ },
+ "base_minus_card": {
+  "row_11": {
+   "start": 0.046424087311606854,
+   "high": -0.19163239473709837,
+   "trough": 0.22153960075229406,
+   "unchanged_curve": 0.08254148770356551,
+   "end_1995": -0.41221078095259145,
+   "trough_day_same": true,
+   "back_to_start_same": true,
+   "days_below_same": true
+  },
+  "row_12": {
+   "trough_pct_diff": 0.0030024608607988057,
+   "trough_day_same": true,
+   "back_to_cost_same": true,
+   "paid_total_diff": -49.70007066358812,
+   "paid_total_on_half_year_grid": 809057.5,
+   "why_paid_total_differs": "the card set coupons on an exact half-year grid; this script uses calendar days / 365.25 (longest coupon 6.155% against 6.154%); the falls and dates do not change"
+  }
+ }
+}

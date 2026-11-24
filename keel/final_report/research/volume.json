@@ -1,25 +1,25 @@
 {
- "built": "2026-11-24T07:11+11:00",
+ "built": "2026-11-24T19:51+11:00",
  "today": "2026-11-24",
- "store_ideas": 10673,
- "store_judged": 9845,
+ "store_ideas": 10876,
+ "store_judged": 10048,
  "totals": {
-  "workers": 526,
-  "cards": 266,
-  "rows": 9413,
-  "sources": 8975,
-  "passages": 168,
-  "readings": 91
+  "workers": 541,
+  "cards": 272,
+  "rows": 9616,
+  "sources": 9238,
+  "passages": 173,
+  "readings": 94
  },
  "days": [
   {
    "day": "2026-11-24",
-   "workers": 18,
-   "cards": 6,
-   "rows": 248,
-   "sources": 215,
-   "passages": 6,
-   "readings": 6
+   "workers": 33,
+   "cards": 12,
+   "rows": 451,
+   "sources": 478,
+   "passages": 11,
+   "readings": 9
   },
   {
    "day": "2026-11-23",
@@ -159,14 +159,6 @@
  ],
  "runs": [
   {
-   "date": "2026-11-17",
-   "run": "evening (overdrive)",
-   "research_workers": "13",
-   "analysis_workers": "19",
-   "readers": "8",
-   "notes": "Thirteen research workers: cards Q109-Q121 (reverse stress tests for 3e; reservoir firm yield; aviation fuel categories; Taiwan's rotating credit groups and their law; Taiwanese donor lists and exact sums; pencil and ink in law and archives; one-day move or averaging out; Olympic and Expo guarantees; data freshness; illustrators who founded places; Taiwan's public promises cut and floors; certainty words as numbers; Taiwanese ink, seal and type craft), 519 rows from about 490 sources read at source (many in part or as extracts, each card's Gaps says which); twelve raters judged every row the same evening (store 6,720 ideas); seven analysis workers (the numbers re-size: the ten payments carry the 0.5% cost margin, plan.py's day count fixed, every file swept; the aha test 5 pack and its results; landing Q109-Q121 in SKELETON, CONCEIT, GEM_LEDGER section 11 and REFERENCES 2h; the readers' fixes, 28 of 29) and two fresh voice writers; eight readers: voice round 7 (three), cold aha test 5 (three), coherence reader 8 and a lay reader"
-  },
-  {
    "date": "2026-11-18",
    "run": "morning (overdrive)",
    "research_workers": "14",
@@ -253,6 +245,14 @@
    "analysis_workers": "2",
    "readers": "10",
    "notes": "The co-sponsor part, settled in notes (research/COSPONSOR_NOTES.md). Six research workers, each reading primary sources at source (cards Q230 the paperwork crisis and book entry, Q231 VT's tracking difference, Q232 the 1994 bond fall, Q233 the 1991 Salomon squeeze, Q234 two centuries of rates, Q235 how \"certain\" is heard), about 210 sources, 248 rows, every row rated the same morning by raters EG and EH (store 10,673). Analysis: the numbers owner's worker (NUMBERS 8y, what a statement shows co-sponsors in 2031-32) and two raters. Readers: three playing funders on the notes and six blind readers for voice round 17 (range first against figure first: a tie; every reader asked what the bottom now is), plus one voice writer. Claims kept 7, changed 17, killed 3."
+  },
+  {
+   "date": "2026-11-24",
+   "run": "day 17 evening (paced, about half volume)",
+   "research_workers": "6",
+   "analysis_workers": "6",
+   "readers": "3",
+   "notes": "The conceit. Six research workers, each reading primary sources at source (cards Q236 copying pencils, Q237 election ink, Q238 printers' proofs and \"stet\", Q239 banknote signatures, Q240 what an inker may change, Q241 the ink stick and \"grind the ink first\"), about 200 sources, 203 rows, every row rated the same evening by raters EI, EJ and EK (store 10,876). Analysis: the numbers owner's worker (NUMBERS 8z, the 1994 replay with a script), the sources checker (works cited S5: 8 works added, none unverified), one voice writer and three raters. Readers: three blind readers for voice round 18 (the repaired words for co-sponsors: 86% followed, all booked $115,000, every reader asked what stands behind the make-up promise). Claims kept 12, changed 9, killed 4."
   }
  ],
  "cards": [

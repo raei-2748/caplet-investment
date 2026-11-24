@@ -11,7 +11,7 @@ lists them alphabetically with a 0.5-inch hanging indent, double-spaced, on a ne
 Caplet owns the citation of anything else Wharton asks to be cited.
 
 Counts: 201 checks of 182 distinct works; 173 ready to cite (verified or fixed at source),
-3 not yet verified at source, 6 dropped.
+3 not yet verified at source, 6 dropped. Tue 24 Nov evening (`sources_check/S5.md`): 181 ready to cite (Rev. Rul. 77-374 verified, seven new works the parts now name), seven more ready if a sentence names them, four reserve, none unverified, 8 dropped.
 
 Before citing, read in full (APA: cite only what was read; otherwise cite "as cited in" the work read): Sharpe and
 Tint (1990), Roy (1952), Black and Perold (1992), McDonald and Siegel (1986) (S1); Spence (1973), Crawford and Sobel
@@ -713,22 +713,110 @@ Wu, J. Q. (2008, December 20). Madoff scam hits Harvard Medical School grants. *
 
 <sub>Supports: 40: what Taiwan's art-village subsidy rules ask of a residency's other funders. Checked: S2 #40b, verified.</sub>
 
-## Not yet verified at source
+## Added Tue 24 Nov evening (`sources_check/S5.md`; each opened at source that evening)
 
-Financial Accounting Standards Board. (n.d.). *Not-for-profit entities: Revenue recognition* (FASB Accounting Standards Codification Subtopic 958-605, paras. 25-8, 25-10, 30-4). https://asc.fasb.org/ [best-known elements]
+### Ready to cite: named by the parts as they now stand (Rev. Rul. 77-374 moved here from "Not yet verified")
 
-<sub>not verified at source (official Codification behind a login) (S4 #3).</sub>
+Boulding, W., Morgan, R., & Staelin, R. (1997). Pulling the plug to stop the new product drain. *Journal of Marketing Research, 34*(1), 164–176. https://doi.org/10.1177/002224379703400114
+
+<sub>Supports: 3e: even agreed stopping rules are broken about half the time, so the ten payments need no one to keep a rule. Checked: S5 #14, verified (publisher DOI in place of card Q223's JSTOR DOI).</sub>
+
+Custody of Funds or Securities of Clients by Investment Advisers, 75 Fed. Reg. 1456 (Jan. 11, 2010) (codified at 17 C.F.R. pts. 275, 279). https://www.govinfo.gov/content/pkg/FR-2010-01-11/pdf/2010-18.pdf
+
+<sub>Supports: 3d (the broker's own statement) and Table 3's statement line. Checked: S5 #5, fixed (page 1456, not 1455).</sub>
+
+Ewaschuk, R. (2016). Monitoring distributed systems. In B. Beyer, C. Jones, J. Petoff, & N. R. Murphy (Eds.), *Site reliability engineering: How Google runs production systems* (pp. 55–66). O'Reilly Media. https://sre.google/sre-book/monitoring-distributed-systems/
+
+<sub>Supports: 3e and Table 3: watch the symptom, not the causes. Checked: S5 #12, verified.</sub>
+
+Financial Industry Regulatory Authority. (2024). *Rule 2231: Customer account statements* [Rule text, version effective January 1, 2024]. https://www.finra.org/rules-guidance/rulebooks/finra-rules/2231
+
+<sub>Supports: 3d: the broker may send the statement to a co-sponsor on Laura's written instruction (Supplementary Material .02); at least quarterly. Checked: S5 #7, verified.</sub>
+
+Francis, A., & Johnson, C. (2015). *Funding the extraordinary: An evaluation of The Kresge Foundation Arts and Culture Program's institutional capitalization grantmaking*. Nonprofit Finance Fund. https://kresge.org/wp-content/uploads/2020/06/Funding-the-Extraordinary-Final-NFF-Report.pdf
+
+<sub>Supports: 3d's lead-in: buildings need reserves their owners seldom set aside. Checked: S5 #9, verified.</sub>
 
 Rev. Rul. 77-374, 1977-2 C.B. 329.
 
-<sub>not verified at source (S3 #35).</sub>
+<sub>Supports: 3a (goldmine row 6), one clause if the budget allows; applies the test that Rev. Rul. 70-452 set, so never "set the test"; the "when rates fell" clause cites Internal Revenue Service (2016). Checked: S3 #35, S5 #2, verified (moved from "Not yet verified at source").</sub>
 
-Samuelson, P. A. (1963). Risk and uncertainty: A fallacy of large numbers. *Scientia, 98*, 108–113. [best-known elements]
+Teigen, K. H., & Juanchich, M. (2024). Do claims about certainty make estimates less certain? *Cognition, 252*, Article 105911. https://doi.org/10.1016/j.cognition.2024.105911
 
-<sub>not verified at source (volume and pages from secondary reference lists; the card's 98, 108–113 agrees with them) (S4 #71). Cite instead the 1994 reprint that was read, listed above with its original date (S1).</sub>
+<sub>Supports: 3d: no "certain" in Laura's words (C9). Checked: S5 #4, verified.</sub>
+
+Urbach, D. R., Govindarajan, A., Saskin, R., Wilton, A. S., & Baxter, N. N. (2014). Introduction of surgical safety checklists in Ontario, Canada. *New England Journal of Medicine, 370*(11), 1029–1038. https://doi.org/10.1056/NEJMsa1308261
+
+<sub>Supports: 3e: a list ticked is not a list acted on. Say reported use, never measured use: hospitals had to report checklist use, reported use never fell below 98%, and deaths and complications did not fall significantly. Checked: S5 #13, verified.</sub>
+
+### Ready, but on the References page only if a sentence names them
+
+Buffett, W. E. (2018, February 24). *To the shareholders of Berkshire Hathaway Inc.* [2017 letter]. Berkshire Hathaway. https://www.berkshirehathaway.com/letters/2017ltr.pdf
+
+<sub>Supports: not placed (card Q227 rows 29-32; 3c already has the RBA as its one outside parallel). The bet: made December 19, 2007, run January 1, 2008 to December 31, 2017 (reprinted at pp. 24-26 from the 2016 letter); never the letter's word "strips". Checked: S5 #16, #17, verified.</sub>
+
+D.C. Code § 28:8-503 (2026). https://code.dccouncil.gov/us/dc/council/code/sections/28:8-503
+
+<sub>Supports: 2.0's definition of ink, only if the law is named (UCC § 8-503 and Official Comment 2, as enacted in D.C.: "not a claim to a specific identifiable thing"). Replaces REFERENCES_APA row 907. Checked: S5 #15, verified.</sub>
+
+DeMiguel, V., Garlappi, L., & Uppal, R. (2009). Optimal versus naive diversification: How inefficient is the 1/*N* portfolio strategy? *The Review of Financial Studies, 22*(5), 1915–1953. https://doi.org/10.1093/rfs/hhm075
+
+<sub>Supports: 3b, pedigree at most. Checked: S5 #11, verified.</sub>
+
+Kahneman, D., & Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. *American Psychologist, 64*(6), 515–526. https://doi.org/10.1037/a0016755
+
+<sub>Supports: 3f (goldmine 43), only if 3f's text cites it; a reference with no citation in the text breaks APA. Checked: S5 #10, verified.</sub>
+
+Public Company Accounting Oversight Board. (2023). *AS 2310: The auditor's use of confirmation* (PCAOB Release No. 2023-008). https://pcaobus.org/oversight/standards/auditing-standards/details/as2310
+
+<sub>Supports: 3d, only if the statement is called the auditor's own way of checking (para. .16). Checked: S5 #8, verified.</sub>
+
+U.S. Securities and Exchange Commission. (2009, December 16). *SEC approves stronger safeguards to protect clients' assets controlled by investment advisers* [Press release 2009-269]. https://www.sec.gov/newsroom/press-releases/2009-269-sec-approves-stronger-safeguards-protect-clients-assets-controlled-investment-advisers
+
+<sub>Supports: 3d, only if the SEC's own reason is quoted ("false account statements"). Checked: S5 #6, verified.</sub>
+
+### Reserve: verified evidence behind writers' rules (listed only if named)
+
+Baron, J., & Hershey, J. C. (1988). Outcome bias in decision evaluation. *Journal of Personality and Social Psychology, 54*(4), 569–579. https://doi.org/10.1037/0022-3514.54.4.569
+
+<sub>Supports: reserve for 3f (Q228-005, -006). Checked: S5 #21, verified.</sub>
+
+Moher, D., Hopewell, S., Schulz, K. F., Montori, V., Gøtzsche, P. C., Devereaux, P. J., Elbourne, D., Egger, M., & Altman, D. G. (2010). CONSORT 2010 explanation and elaboration: Updated guidelines for reporting parallel group randomised trials. *BMJ, 340*, Article c869. https://doi.org/10.1136/bmj.c869
+
+<sub>Supports: reserve for 3e (Q219-020). Checked: S5 #19, verified.</sub>
+
+U.S. Food and Drug Administration. (2006). *Guidance for clinical trial sponsors: Establishment and operation of clinical trial data monitoring committees*. https://www.fda.gov/media/75398/download
+
+<sub>Supports: reserve for 3e, l.17's exclusion (Q219-006; aha test 10 candidate). Checked: S5 #18, verified.</sub>
+
+Weber, M., & Camerer, C. F. (1998). The disposition effect in securities trading: An experimental analysis. *Journal of Economic Behavior & Organization, 33*(2), 167–184. https://doi.org/10.1016/S0167-2681(97)00089-9
+
+<sub>Supports: reserve; the word rule "never automatic or stop-loss" (Q220-025). Checked: S5 #20, verified.</sub>
+
+### Form fixes for the References page (S5 task 3; seed 20261124, 20 entries sampled, 3 fixed, 5 more seen in passing)
+
+- BlackRock's (n.d.) entries are lettered by title: iBonds ETF maturity case study (n.d.-a), iShares fund closures
+  (n.d.-b), the five fund pages IBTM to IBTR (n.d.-c to n.d.-g).
+- The three 文化部 [Ministry of Culture] entries are transliterated (APA 7 section 9.38), with the translation in
+  brackets and no publisher element (the publisher is the author).
+- Board of Governors of the Federal Reserve System: EXTAUS is listed twice; keep (n.d.-c) and delete the plain (n.d.);
+  letter DGS1 (n.d.-a), H.15 (n.d.-b), EXTAUS (n.d.-c).
+- MSCI Inc. (2026a, 2026b) take the query strings of the series read (S4), not the bare service address.
+- Letters with no partner on the list (Kresge 2011a, RBA 2022a, Treasury 1992a, Vanguard 2026b-c, 文化部 2025c) are
+  dropped on the References page if only one work by that author in that year is cited.
+
+## Not yet verified at source
+
+None (Tue 24 Nov evening, S5): Rev. Rul. 77-374 is verified and listed above; ASC 958-605 and Samuelson (1963) are
+under "Dropped", each with the work to cite instead.
 
 ## Dropped, with the reason
 
+- Financial Accounting Standards Board (n.d.), ASC Subtopic 958-605: not verifiable at source (the Codification is behind
+  a login, and ASU 2018-08 does not print 25-8 to 25-10). Cite FASB (1993), paras. 6, 89 and 208, and FASB (2016),
+  paras. 958-605-55-18 and -19, which state what 25-8 requires; 25-10's wording is never quoted (S4 #3, S5 #1)
+- Samuelson, P. A. (1963), *Scientia*: not verifiable at source (no copy of the issue online; secondary lists disagree
+  on volume and pages). Cite the 1994 reprint that was read, with "(Original work published 1963)" (S4 #71, S5 #3)
 - DGBAS, 2013: dropped, a duplicate of the 2026 issue that the report cites (S3 #52)
 - DGBAS, 2014: dropped, a duplicate of the 2026 issue that the report cites (S3 #51)
 - International Development Association, 2022: dropped, the idea it supported went to the store (S3 #54)

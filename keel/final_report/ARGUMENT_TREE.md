@@ -220,10 +220,11 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   and the 0.5% margin is the answer (D2).
 - **Headline number.** About 91 in 100 for a top of at least $100,000; about 57 in 100 for $115,000.
 - **Client knowledge (GOLDMINE 25, placed Tue 24 Nov).** Laura graduated in 2018 "with a degree in Statistics &
-  Information Decisions Management" (case l.16), so row 1 is said in her own discipline, in one clause: after the move
+  Information Decisions Management" (case l.16). Row 1 is said in her own discipline, in one clause: after the move
   her confidence is ownership, and the model only says, seen from today, where in the range the top will land. It is
   why 3c gives her no "95%" for a figure already held: a statistician hears a probability as an estimate, and there is
-  nothing left to estimate.
+  nothing left to estimate. Never "a statistics graduate, so" (plain 20 heard it as a non sequitur, attack day): the
+  degree says how the sentence is phrased, never why she is sure (reconciled with section 6, Tue 24 Nov evening).
 - **Ahas (two, the most a part may hold).** Row 1: by 2031 nothing is left to estimate; the odds belong to the years
   before (Neyman's 1934 term at most a clause). Row 7: speaking early is the risk: a top named a year early would exceed
   what the move buys in about 11 of 100 futures. The forecast's small effect (the top states $115,000 for any share
@@ -266,6 +267,15 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   January 2033, which may be after other funders; "first" only of the commitment in writing). The team's lead-in says
   she shows co-sponsors the Treasuries held for her and gives them a signed letter ("offer ... as well as the money"
   was read as handing over the money, four of six). `research/COSPONSOR_NOTES.md` section 8.
+  **Voice round 18 (Tue 24 Nov evening, `voice/ROUND18.md`): the repairs held where aimed** (no stop at "$615,000 in
+  all" or the lead-in; 86% followed first time; all three booked $115,000), **and the question moved to what stands
+  behind the make-up promise.** Five changes (C13-C17): after the two ends, "two dates, not two outcomes" (since January
+  2031 all $115,000 is held); beside "no market can change either one", the one reason a fixed sum is still needed (her
+  Treasuries are held through a fund, which can pay out a little less than the Treasuries it holds); why the top with
+  its arithmetic (the $20,000 between the ends came from the shares moved in January 2031); in the team's lead-in, never
+  her words, what the building's Treasuries will pay by December 2032 is more than $115,000, so her undertaking covers
+  only what the fund itself might take, and the letter binds her estate (her flexibility is never sized for co-sponsors);
+  and no "on today's figures" beside the letter's sum (said once, in 3c).
 - **Why signed as well as held (cards Q200, Q213).** Owning shows the money exists; a signature says it will be given. A gift
   office counts a promise on verifiable paper (FAS 116 para 6, now ASC 958-605-25-8) and weighs whether the giver can
   pay only when it measures; Lehman Brothers' own five-year pledge of $10 million to Spelman College in 2007 became $3
@@ -504,7 +514,7 @@ reason (no gem lost, GEM_LEDGER).
 | 22 | A world fund adds about $75 against an $11,500 need | Table 3's note | Placed: the currency watch, never a hedge |
 | 23 | Her flexibility as a real option | 3b | Merged: D15's wording in prose; the option a note for judges only |
 | 24 | Breaking a promise costs trust | 3b | Placed, one clause (why the contribution equals the top) |
-| 25 | The client is a statistics graduate | store | Out (plain 20: "statistics graduate, so" reads as a non sequitur) |
+| 25 | The client is a statistics graduate | 3c | Placed Tue 24 Nov, one clause (Branch 4, "Client knowledge"), on plain 20's condition: never "a statistics graduate, so"; the degree explains why 3c gives no "95%" for a figure already held, never why she is confident (reconciled Tue 24 Nov evening) |
 | 26 | Willingness against ability | 2.3 | Placed, one clause: her caution is forced by arithmetic, since the payments take the whole first deposit |
 | 27 | A calendar of promises | 2.2 | Placed |
 | 28 | She starts where pensions end | store | Reserve for 3a; out unless 3a's budget frees |
@@ -523,6 +533,7 @@ reason (no gem lost, GEM_LEDGER).
 | 41 | The lottery holds zeros; her extra Treasuries are what the rule against them costs | 3a | Placed Sun 22 Nov evening (card Q211): the break of 3a's one outside parallel, one clause |
 | 42 | An account of a change of mind in five parts, the fourth (one thing now done differently) the one usually missing | 3f | Placed Mon 23 Nov evening (cards Q226, Q224-030): the shape of the copout account and the closing paragraph, no source named in 3f |
 | 43 | Judgement pays only where the answer comes back quickly; the team picked the ten Treasuries and let one fund hold the shares | 3f | Placed Mon 23 Nov evening (card Q227): the copout's lesson in the team's words; Kahneman and Klein (2009) to References; aha test 10 candidate |
+| 44 | Her name earns her living (sweep B #30) | 3d lead-in | Placed Tue 24 Nov evening, one clause in the judges' prose: the case's own reason (l.86, l.114) for the letter's fixed sum; the team's reading, never Laura's words |
 
 ## 7. What stays open, and who decides
 
