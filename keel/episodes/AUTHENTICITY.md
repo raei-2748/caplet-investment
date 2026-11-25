@@ -194,7 +194,14 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   that reassured, a three-sentence run with a "not X" slogan), then 17, two serious ("stet" as a word for holding
   nobody could follow; the second account given without its reason) and the rest small (a "So" ending, office words,
   the half of Amara's evening guess that was wrong left unsaid); each was cut or put in plain words, three entries at
-  one time merged into one, and the second read's fixes went in without a third read, for the same reason as Ep 54.
+  one time merged into one, and the second read's fixes went in without a third read, for the same reason as Ep 54. Ep 58 (Wed 25 Nov) failed two fresh reads:
+  about 20 lines (two serious: "sentence readings" never explained and "the fund" never introduced; small ones: entry
+  endings on a fix or a reveal, office words such as "the register" and "freeze", a paraphrase of Caplet's doc whose
+  record row did not say the doc raised it, a summary that said "the first section" for Section 2), then about 15 (one
+  serious: the same paraphrase, fixed by stating in the record row what the doc says; the rest small: present tense
+  for 2028 holdings, a comic shop line ending an entry, "written whole", why a letter breaks a use the plan allows);
+  each was cut or put in plain words, two events (the order of names, the reference list) cut for length, and the
+  second read's fixes went in without a third read, for the same reason as Ep 54.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
