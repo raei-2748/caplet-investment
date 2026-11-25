@@ -32,6 +32,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 - **CANON.** None.
 - **Trap.** 意在筆先 as the classical text; "grind the ink before you write"; an English gloss of our own presented as a
   translation; any student surname or the WInS username in Keel's files.
+- **Card Q252 (Wed 25 Nov evening).** Times New Roman has no Chinese characters, so the epigraph's 意在筆前 sets in a Chinese font beside it; the final PDF is checked by eye for the characters (no empty boxes) before it is sent. The epigraph takes no References entry (APA: an epigraph's source is listed only if it is a scholarly book or journal); a credit line under it may say the attribution is traditional (card Q241 row 027).
 
 ---
 
@@ -60,6 +61,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 - **CANON.** A4, A5 (IPS l.11: the rule the test applies); A26-A27 (VT's job is never the payments).
 - **Trap.** "Duration matches too"; a name before the thing (round 11's third failure); the conceit before its
   definition; "certain" with a figure as its subject; repeating IPS l.11 as the report's own words.
+- **Voice round 20 (Wed 25 Nov evening, `voice/ROUND20.md`).** The lead's reason is said so it holds for the top: the ten and the bottom are bought in Treasuries before any money goes into shares (January 2028), and the top is bought in Treasuries from half of the shares before she states it (January 2031); never "every dollar promised, or to be promised, is bought before any money goes into shares" (the professor marked it false). The comics fact never arrives before its purpose: the sentence says what the report needs (a word for a figure Treasuries held for her will pay) and the craft fact in the same sentence, or the definition first (all three stopped at the jump). The definition's two conditions (cash waiting earns nothing more; each fund pays out 0.5% less than its Treasuries) may take a second sentence (two of three stopped).
 
 ### 2.1 What the book is and what each holding does (about 130 words)
 
@@ -69,15 +71,16 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   deposit, which IPS l.13's completion covers ($2,388 in January 2028 money).
 - **Criteria.** PA (the table explained), IS (consistent with the IPS).
 - **Ideas, carried.** NUM-010 (the one day $300,000 bought all ten is 2.5's, not here); goldmine 1 ($302,287 of
-  Treasuries pays $500,000, in TNA l.7's words). The reconciliation (book x 1.5 against the plan) is Table 1's note,
+  Treasuries pays $500,000, in TNA l.7's words). The reconciliation (the WInS portfolio x 1.5 against the plan; never "book" in print, NAME_ORDER decision 5) is Table 1's note,
   not prose.
 - **Aha.** None.
-- **Conceit turn.** Beside Table 1: every Treasury row ink, VT the only pencil (one clause, or the table's note).
+- **Conceit turn.** Beside Table 1: every Treasury row ink, VT the only pencil (one clause beside the table, never in its note: CONCEIT guard 4; NAME_ORDER decision 9).
 - **Numbers.** NUMBERS 8g (holdings at cost), 2 ($302,287; $2,388), 8x (the reconciliation's figures).
 - **Exhibit.** Table 1.
 - **Sources.** iShares and Vanguard fund pages (dated); Treasury auction records for CUSIPs (card Q38).
 - **CANON.** A7, A11, A19 (the completion clause), B6, B9-B10, D3 (WInS shows the plan after 2028).
 - **Trap.** "Two-thirds scale", "scale model"; "after the freeze"; "a new standard" or "we changed"; any WInS return.
+- **Voice round 20.** WInS is set up at first use ("the competition's trading platform, WInS"; all three stopped). "The floor" gets its own clause: "more of the same fund, bought in January 2028, is the floor, the bottom of her range" (never "and, bought again in 2028, the floor"; all three stopped). The 2027 gap is one figure with its date, $2,287 in January 2027 or $2,388 in January 2028, or both with the reason they differ (a year's interest: a Treasury costs more as its date nears); all three marked the pair Sense ? beside "the cheapest to finish a year later", which is out (the reason is that the shortest-dated piece's price moves least with rates while it waits).
 
 ### 2.2 Construction and allocation (about 110 words)
 
@@ -102,6 +105,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   D6, D13.
 - **Trap.** "Glide path"; "duration matches too"; "diversified by date" as a slogan; the Feb-2036 bond said as if it
   failed a price check.
+- **Voice round 20.** 2037's fund gets its reason or nothing: the team's choice of a fund that pays out about two weeks before the payment over a bond paying out ten and a half months early (the team's record: the fund cost a little less, the bond's payout was more fixed); never "2037 aside" alone (all three stopped). The extra $36,774's job is in its own sentence: they keep the ten paid even if cash waiting earns nothing (all three stopped). "Nothing is rebalanced" is said with its true reason: the Treasuries are held to their dates and the shares have no target weight (never "each holding is matched to the date of what it pays": VT matches no date).
 
 ### 2.3 Diversification and risk (about 130 words)
 
@@ -134,6 +138,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 - **CANON.** A1-A2 (the career thesis), B3-B4 ("later and smaller"), D8, D11.
 - **Trap.** "Natural hedge"; a beta or a steady link for her income; "her genre fell 22.4%"; 1 - 0.99^10; "debt
   service first" as the standard institutional rule (Q245 changed it); Kimball as a rule of order.
+- **Voice round 20.** IBTM's quarter is said with what the concentration risks and who covers it (a fund's payout is not fixed and the fund can end early; her signed letter makes up any shortfall in the top; Table 3 row 4 watches an early end), never with only the reason a fund was used rather than a bond (all three stopped). "So we buy no shares until that deposit has arrived" is followed by what a smaller deposit does to the building: the bottom and the top fall, the ten do not (all three stopped; the consultant asked first). "Later" is shown, not left implicit: receipts kept falling after shares had turned (two of three).
 
 ### 2.5 How well it was done (about 100 words)
 
@@ -153,6 +158,8 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 - **CANON.** B28-B29, D15.
 - **Trap.** "Four-eyes" (the rule is one person); "a layer was in place"; "trades that cannot be undone" (say "any
   action on an order"); a time for the cancel (say "before the market opened"); fills as performance; the WInS return.
+
+- **Voice round 20.** The check is said with its purpose and its result: within 0.25 points to catch a stale price (two were found 29-30 September), and the fills 2.6 to 8.8 basis points from the market (NUMBERS 8m, a model); the 0.25 alone proves only that there was no gross error (the professor). The one-trader rule is said as what it is beside the click that led to it, never as what stops a mis-click (the click's layer was the lack of an undo; the teacher asked). "The year was rare" leads with what was rare (the first $300,000 bought nearly all ten), then the measure (all three stopped).
 
 ---
 
@@ -245,6 +252,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 - **Trap.** "Optimal"; "natural hedge"; "cushion"; "costs her $5,300 of what she keeps"; the 94.8% and 62.8%; a fixed
   figure set against a fixed figure for the like-for-like; "what she keeps" where a co-sponsor may read; 1/N as
   evidence for this split.
+- **Cold aha test 10 (Wed 25 Nov evening).** "Half sits on a flat stretch" scored 2.7 / 3.0 and each reader recalled a different figure; two found its median hides the bad case. Row 6 stays 3b's aha. The flat stretch (any share moved from 44.5% to 57.3% states the same $115,000, NUMBERS 8o) is a note's fact at most, never "changes almost nothing", and never beside "not how much there is" with the $5,300 price in the same breath.
 
 ### 3c The 2031 range and its confidence (about 200 words; tree Branch 4)
 
@@ -318,6 +326,8 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   planners from January 2028, and since Tue 24 Nov "$95,000, held since January 2028" there too); "she pays first";
   "certain"; "on today's figures" beside the letter's sum; "intends" or "plans"; "lead gift"; "secured"; "covers the
   decade"; a statement figure in her words; "escrow"; "monthly statement" as a rule.
+- **Cold aha test 10 (Wed 25 Nov evening): the statement below the signed top.** All three readers chose it for co-sponsors (conviction 4.0), so the lead-in carries it as planned (NUMBERS 8y): on the move day the building's Treasuries show about $111,700 against the $115,000 signed, and what they will pay by December 2032 is never under about $117,700 even if their cash earns nothing more. Three fixes: the team's lead-in states what the holding will pay, never the broker; "nothing is missing" is said of Treasuries held to their dates, and for the fund the letter's make-up (any shortfall in what the fund pays is hers) is named beside it; no model date for when it passes $115,000 ("a few months after the move" or nothing). A lead-in fact, not a spine row (the professor: a teaching example).
+- **Card Q251 (Wed 25 Nov evening; rated ES).** The statement's figure is its "market value" (a statement prices IBTM at its closing market price, 0.06% to 0.09% from net asset value on normal days), never "net asset value". Below the signed top on the move day is the ordinary shape of a dated promise: a US savings bond shows its cash-today value, below its sum, until the Treasury adds the rest on its date, and issuers of zero-coupon municipal bonds print a dated table of accreted values; either is a reserve for the lead-in's one clause, never a second parallel in 3d (Spelman and Lehman is 3d's), and never "the statement cannot fall" (a savings bond's value is a formula; IBTM's is a market price, which a rise in yields can lower for a while). A US recipient's books would also carry her letter below $115,000 until January 2033 (FAS 116 para 20; donors read the climb as part of the gift, para 115): a fact for the store, since whose books depends on the residency's form, outside the case.
 
 ### 3e Assumptions, limits and what to watch (about 200 words; tree Branch 6)
 
@@ -355,7 +365,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   the funds' value. Followed first time by all three readers in round 19.
 - **What each sentence must do (voice round 19; 3e followed first time in 54% of sentence readings).** (1) The
   payments' limit names what takes the loss in words set up inside 3e: "the floor" stopped all three (say the
-  late-2032 Treasury fund that sets the bottom of her range, as WORDS has it, at that point). (2) The top's limit
+  late-2032 Treasury fund, bought again in January 2028 as the floor, which sets the bottom of her range", at that point; NAME_ORDER decision 3). (2) The top's limit
   stopped all three: name IBTM as the late-2032 Treasury fund at first use in the part; say what "costs beyond its fee"
   are (a fund's trading and the cash it holds near its end) and why a Treasury fund can pay out a little less than its
   Treasuries; give the room and the record ($117,731 against $115,000; the ended funds within about 0.07%); say the
@@ -375,6 +385,10 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   prices"); "1 in 20" from overlapping windows; "about 42%"; "broke fastest", "LDI funds collapsed", "no pension promise
   broke", "nobody can make the plan sell", "every member was paid"; "automatic" or "stop-loss" for the 2031 move; a
   second parallel; the TNA's "nonexistent inflation risk"; "her shares do not tend to rise when costs do".
+- **Cold aha test 10 (Wed 25 Nov evening).** Row 9 kept (4.0 / 3.7, chosen for the limits by all three). All three asked what the 2000-03 episode did to her flexibility: in 8q's replay on Taiwan's own moves the January 2000 purchase is one of two January windows of 31 (1988, 2000) where her flexibility, with anything above the top, did not cover the move; say that with the episode, and keep the 25% cover in its own sentence with its return. **Second aha, 9b (tree section 4):** the ten payments ask one thing of anyone, not to sell what is already bought, and nothing in a crash; in one experiment, executives who had agreed a rule for when to stop backing a failing project broke it about half the time (8 of 17; Boulding, Morgan and Staelin, 1997). It replaces Q223-033 and Q222-027 as sentences: "only" shuts out a rise as firmly as a fall (a clause); Table 3's two plan-changing rows watch symptoms (its note, no citation). Traps from the readers: "rest on no rule" (one rule: holding what is bought); "the evidence on rules" for one experiment; "staying put costs nothing" without "for the payments" (a slump before the move costs part of the top); a fund swap among the acts that change the plan.
+- **Card Q248 (Wed 25 Nov evening; rated EW; reader studies of real investors, none of funders or judges).** The top's limit sentence is the one tested readers grasp least, a guarantee with a limit: it says what holds (the ten and the bottom), what can fall short and by about how much, and who makes it up (her letter, from her flexibility), in words set up inside 3e (readers do not link terms across sections, and one unknown term sinks the paragraph). A money figure over a percentage; the hard case with its dated history, never as a bare scenario (readers invent a likelihood or take it as a forecast); one denominator per part; no generic line ("markets can fall"); the limits in the team's own voice, never framed as a warning.
+- **Card Q250 (rated EU).** The Treasury's duty ends when it credits the custodian bank's account at the Federal Reserve (31 CFR 356.30), so a delay after that (broker, wire, the residency's bank) is never "a Treasury payment more than five business days late" and never a reason to change: IPS l.17 stays narrow and "guaranteed" stays true of the Treasuries. The waits between a holding's pay-out and each 1 January are NUMBERS 8m's (about 17 days for the funds, 47, 231 and 320 for the bonds), not the card's own counts. The standard "even if cash waiting earns nothing" covers every coupon and distribution from 2027, not only the last weeks.
+- **Card Q253 (rated ET).** The debt-limit risk is dated "2027" (the limit now binds about February-March 2027 and the X-date about August-December 2027), never "early 2028"; Table 3 row 2 still acts only on a payment more than five business days late. "Above the middle of published forecasts" holds with eighteen houses (BMO's 6.2% added); no median figure printed. October 2026's building-cost index (120.50, +7.18%) is the last the report can print (November's is released 8 Dec 2026, after the due date), said "October 2026, as first published".
 
 ### 3f Team Reflection (about 400 words; tree Branch 7)
 
@@ -408,6 +422,8 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 - **Trap.** "Readers" or "a blind test"; whose work any event rested on; "a severe test", "until it breaks",
   "four-eyes", "satisficing"; the 3.2% as the reason; blame; the mis-click beyond 2.5's reason for the rule; names
   beyond Darren, Eric and Ray; the Trading Notes repeated; an AI's share of the work as the point.
+- **Cold aha test 10 (Wed 25 Nov evening).** "The team did pick, where picking works" scored 2.0 / 3.3, no figure recalled; two readers said "a fixed rule does better" is asserted, since the research is about when intuition can be trusted, not stock pickers' records. Row 10 stays 3f's aha; the copout's lesson (goldmine 43) is said in the team's words, with VT's case (card Q46) as its evidence, never as a second aha.
+- **Card Q248 (rated EW).** "1 in N" makes a risk feel larger than "N in 100" does. 3f keeps "about 1 in 31" against none, the aha row tested cold at 4.0, because its point is the gap to zero; it is 3f's only chance figure, so the part has one denominator.
 
 ---
 
@@ -422,11 +438,12 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   958-605-25-8; Artists Rep; Oman; GIW), Q246 (MSCI, DGBAS, FRED), Q247 (Kahneman and Klein 2009; Shanteau 1992; Fama
   and French 2010).
 - **Trap.** A work cited in the list but not in the text; a link to open (Wharton: none); a Wharton page.
+- **Card Q252 (Wed 25 Nov evening; rated EX).** APA 7's forms read on APA's own pages, and its fix list applied to `research/WORKS_CITED_DRAFT.md` the same evening (33 of 34 items; its last section lists what stayed open and every old and new in-text letter). The common faults: same-author letters out of title order (in-text letters may have changed: the draft's end gives old and new, and a writer cites the new); the comma after a journal's name sits outside its italics; court cases are plain in the list; a title in Chinese characters is given in pinyin with an English translation in square brackets (Times New Roman has no Chinese characters).
 
 ## Exhibits (each answers one case question; single-spaced; counted in its section's pages)
 
 - **Table 1 (2.1-2.5).** Every holding at the original $300,000, totalling $300,000 and 100%, CUSIPs for the bonds,
-  one subtotal under the ten, the costs row, units bought against target. Note: the reconciliation (book x 1.5 against
+  one subtotal under the ten, the costs row, units bought against target. Note: the reconciliation (the WInS portfolio x 1.5 against
   the plan in January 2028), the DV01 pair only with its sentence. NUMBERS 8g, 8x. CANON B6-B11, B17, B39. Trap: a
   WInS return; Wharton's example identifier.
 - **Figure 1 (3a).** The reserve schedule: per payment, its holding, when its cash arrives, the payout at zero further
@@ -440,6 +457,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 - **Table 3 (3e).** Three lists; every "Changes" cell an act; the late-2032 fund watched for an early end or merger
   all year and its scheduled end in September-October; the statement line for co-sponsors (3d). NUMBERS 3, 8j, 8y.
   Trap: a building-cost trigger (CANON A34: two reasons only); "monthly"; "automatic".
+- **Table 3, cards Q249 and Q250 (Wed 25 Nov evening; rated EV and EU).** Each dated row rides a document that arrives anyway (the broker's statement, at least quarterly; the funds' end notices each October; the January trade confirmations; the 2031 meetings), since a set date with no cue is kept less well (Kvavilashvili and Fisher 2007: 10 of 19 against 16 of 20); row 7 rides the statement. A watch row's look stage names a small act (row 1: confirm the 2028 deposit's date with Laura by 1 December 2027); row 2 keeps its look (a debt-limit deadline within a month) apart from its act (a payment more than five business days late). The Who column uses Wharton's own pair, "Laura or her asset management team" (the Final Report instructions, WHARTON_NORTH_STAR l.122). Each row says its act (cold aha test 10). A note under the table may carry the December send-by date: the first payment and the facility contribution fall due together in January 2033, and Taiwan's banks close Fri 24 and Fri 31 December 2032 while the Federal Reserve is open, so the money leaves New York by about Wed 29 December, in US dollars to a US-dollar account (card Q250: into a NT$ account a large wire waits for a form). Bank forms, fees and Taiwan law stay out (outside the case).
 
 ---
 

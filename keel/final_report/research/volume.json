@@ -1,25 +1,25 @@
 {
- "built": "2026-11-25T07:03+11:00",
+ "built": "2026-11-25T19:55+11:00",
  "today": "2026-11-25",
- "store_ideas": 11103,
- "store_judged": 11103,
+ "store_ideas": 11362,
+ "store_judged": 11362,
  "totals": {
-  "workers": 570,
-  "cards": 278,
-  "rows": 9843,
-  "sources": 9340,
-  "passages": 178,
-  "readings": 97
+  "workers": 591,
+  "cards": 284,
+  "rows": 10102,
+  "sources": 9545,
+  "passages": 182,
+  "readings": 100
  },
  "days": [
   {
    "day": "2026-11-25",
-   "workers": 29,
-   "cards": 6,
-   "rows": 227,
-   "sources": 102,
-   "passages": 5,
-   "readings": 3
+   "workers": 50,
+   "cards": 12,
+   "rows": 486,
+   "sources": 307,
+   "passages": 9,
+   "readings": 6
   },
   {
    "day": "2026-11-24",
@@ -168,14 +168,6 @@
  ],
  "runs": [
   {
-   "date": "2026-11-18",
-   "run": "evening (overdrive)",
-   "research_workers": "14",
-   "analysis_workers": "22",
-   "readers": "9",
-   "notes": "Fourteen research workers: cards Q136-Q149 (illustrators and image models; the IPS as precommitment in its builders' words; what a late Treasury payment looks like; pledges that go unpaid; why residencies close; binding records in ink far from comics; Taiwan funders' budget calendars; near misses and learning; bill ETFs for waiting money; Taiwan's own arts-building overruns; data freshness, which found Fidelity International's 7.6% and moved the median of published forecasts; how gift offices count a figure; artists' receipts in official data; disagreement in small teams), 534 rows (each card's Gaps says what was read only in part); fourteen raters judged every row the same evening (store 7,841 ideas); eight analysis workers (numbers owner twice: four register slips fixed, the 13 Nov curve range and an early end of the late-2032 fund, NUMBERS sections 3 and 4; exhibits second and third passes; the aha test 7 pack and its results; landing Q136-Q149 in SKELETON, CONCEIT, GEM_LEDGER section 14, REFERENCES 2j and CANON B12-B14; the readers' fixes) and two fresh voice writers; nine readers: voice round 9 (three), cold aha test 7 (three), coherence reader 10, a lay reader and bond desk 5"
-  },
-  {
    "date": "2026-11-19",
    "run": "morning (overdrive, combining day)",
    "research_workers": "12",
@@ -262,6 +254,14 @@
    "analysis_workers": "9",
    "readers": "14",
    "notes": "Final ranking and section notes. Six research workers, each reading primary sources at source: second readings of the outside facts the report leans on hardest (cards Q242 the lottery's rule, Leibowitz and Redington; Q243 the RBA and the 2022 gilt crisis; Q244 Lehman and Spelman, CASE, FAS 116, Oman, GIW) and the week's best ideas a level deeper (Q245 the order of purchase against waterfalls; Q246 a share slump then a cost burst; Q247 where judgement pays), about 120 sources, 227 rows, every row rated the same morning by raters EP, EQ and ER. The store's final judgement: four raters (EL-EO) judged the 828 rows never judged, so every one of 11,103 ideas has a status and a reason, and all 44 gold nuggets are placed or merged. Analysis: the numbers freeze (136 figures checked, 7 mismatches fixed, NUMBERS 8za; the 7.5% is after withholding tax), seven raters and one voice writer. Readers: three blind readers for voice round 19 (3a and 3e) and eleven reviewers rehearsing the writing session's review loop on the submitted IPS with five planted faults (every fault caught by at least four). Claims kept 13, changed 15, killed 3."
+  },
+  {
+   "date": "2026-11-25",
+   "run": "day 18 evening (paced, about half volume)",
+   "research_workers": "6",
+   "analysis_workers": "9",
+   "readers": "6",
+   "notes": "Section 2 and the watch list. Six research workers, each reading primary sources at source (cards Q248 risk wording tested on real readers, Q249 watch lists people act on, Q250 from a maturing Treasury to the residency's account in Taiwan, Q251 how a holding is shown before its date, Q252 APA 7's forms and a fix list for the works cited, Q253 the last freshness check before the freeze), about 190 sources, 259 rows, every row rated the same evening by raters ES, ET, EU, EV, EW and EX (store 11,362). Analysis: the order of first names across Keel's files (NAME_ORDER.md: sixteen conflicts, settled by the lead the same evening), the sources checker applying card Q252's fix list, one voice writer and six raters. Readers: three blind readers for cold aha test 10 (row 9 holds 3e; \"what the ten ask of anyone\" is 3e's second aha; nugget 43 fails as an aha) and three for voice round 20 (Section 2 whole: 63% of sentence readings followed first time, every memory answer right). Claims kept 11, changed 14, killed 4."
   }
  ],
  "cards": [

@@ -96,7 +96,7 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   smaller deposit buys less VT first, and the ten payments still stand if it arrives about three-quarters smaller (card
   Q206; its figure for how much less VT is Keel arithmetic, to enter NUMBERS before any use). Her income is not bond-like either; the report claims no beta and no steady link, only that a
   recession "can" bring both, as 2008-09 and 2020 did (one-person artists' and writers' receipts -7.8% in 2009). Laura's own words, once: "until the day it hits the shelves" (GOLDMINE 36).
-- **The reconciliation (note under Table 1, D3).** Book x 1.5: $293,830 payment Treasuries, $109,148 floor, $39,787 VT;
+- **The reconciliation (note under Table 1, D3).** The WInS portfolio x 1.5 (never "book" in print; NAME_ORDER decision 5): $293,830 payment Treasuries, $109,148 floor, $39,787 VT;
   the plan in January 2028: $339,162, $81,244, $29,594. One reason: the book was built before the operating reserve was
   sized, and the case asks the team to size it. What is left splits the same way in both, about 73% floor, 27% VT. Never
   "after the freeze", "a new standard" or "we changed".
@@ -254,8 +254,8 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
 - **Claim.** A passage in her voice that a funder reads in thirty seconds: two sentences of purpose from the case's own
   material (who the residency serves, why Taiwan, why her); the range in her words with its two dates and how sure she
   is (panel 5, Mon 23 Nov, the bond and campaign judges: the case asks for a range "rather than promising one exact
-  amount" and for how confident she is, so her words say both ends, "$95,000 held for me since January 2028, and up to
-  $115,000 held since I moved my shares", one plain sentence of confidence, the Treasuries as its subject, and then
+  amount" and for how confident she is, so her words say both ends, "$95,000 held for me since January 2028, and
+  $115,000 held since I moved my shares" (never "up to" in her words, WORDS; NAME_ORDER decision 12), one plain sentence of confidence, the Treasuries as its subject, and then
   why she signs for the top: IPS l.15, "whatever figure you choose is money you already own", which says why she can
   sign any figure, so her words add why the top rather than the bottom (voice round 16, four of six readers asked):
   the half moved in January 2031 is the building's half from the start (IPS l.15: its returns "help determine your
@@ -426,7 +426,7 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
 ### Branch 7 (3f). The team changed its own first plan for its own reason, then checked it
 
 - **Claim.** Three moments, each ending on something that changed, or was tested and kept, in a recommendation earlier
-  in the report (card Q27): Laura's taste for risk priced both ways (the first plan, about three-quarters shares, set
+  in the report (card Q27): Laura's taste for risk priced both ways (the first plan, 75% shares, set
   aside for how a writer is paid, in the team's own words, never the IPS's sentence; CANON A3); the knife edge (the
   ten cost about the whole first deposit, so the 2028 deposit got a first job before any order); "a copout" (Darren
   argued one world fund was a copout and proposed picking stocks; "We decided, in the end, to keep the one world fund";
@@ -486,7 +486,8 @@ judge (card Q107). At most two in a part; every one on its own NUMBERS figure, n
 | 6 | 3b | Fewer shares would give the building more | In the central case, like for like, an all-Treasury plan with the same flexibility states $110,000 against $115,000, because the cautious count cuts a 2028 purchase by about 4.7% and a 2031 one by about 3% (NUMBERS 4, C8); Table 2's bad world beside it (panel 5, Mon 23 Nov) |
 | 7 | 3c | The share forecast drives the range | Speaking early does: a top named a year early would exceed what the move buys in about 11 of 100 futures |
 | 8 | 3d | Owning the money is enough for a funder | Owned answers whether she can pay; signed answers whether she will, and lets a funder count it (Lehman's $10 million to Spelman became $3 million); cold aha test 9 (Sun 22 Nov evening) kept it, 3.3 / 3.7, chosen for 3d by all three readers |
-| 9 | 3e | Her flexibility is safe because shares and costs rarely fall together | A slump followed by a cost burst can catch it (2000-2003: shares down more than 40%, then costs +27% in US$) |
+| 9 | 3e | Her flexibility is safe because shares and costs rarely fall together | A slump followed by a cost burst can catch it (2000-2003: shares down more than 40%, then costs +27% in US$); cold aha test 10 (Wed 25 Nov evening) kept it, 4.0 / 3.7, chosen for the limits by all three, who all asked what it did to her flexibility: in 8q's replay on Taiwan's own moves, the January 2000 purchase is one of two January windows of 31 where her flexibility, with anything above the top, did not cover the move, so say that, and never pair the slump with the 25% cover at 7.5% |
+| 9b | 3e | The plan holds because its rules will be kept | The ten payments ask one thing of anyone, not to sell what is already bought, and nothing at all in a crash; in one experiment executives who had agreed in advance to a rule for when to stop backing a failing project broke it about half the time (8 of 17; Boulding, Morgan and Staelin, 1997). Cold aha test 10: 3.7 / 4.0, its figure recalled by all three; never "rest on no rule" (they rest on one: holding what is bought), never "the evidence on rules" for one experiment; the acts left are receiving the 2028 deposit and the 2031 move; the word "only" in IPS l.17 shuts out a rise as firmly as a fall (a clause), and Table 3's two plan-changing rows watch symptoms (its note) |
 | 10 | 3f | A plan that passes "high" needs no further step | One step further took a miss from about 1 in 31 to none once the deposit is in (about 1 in 7 against none with half a deposit) |
 
 The deletion test (shares at zero: payments unchanged, the range one figure, the bottom) is the report's lead and 3e's

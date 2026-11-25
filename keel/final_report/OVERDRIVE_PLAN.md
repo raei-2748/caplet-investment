@@ -148,6 +148,8 @@ The writing session's review loop was rehearsed on Caplet's submitted IPS with f
 `WRITING_SESSION.md`. Analysis: the numbers freeze check (NUMBERS 8za: 136 figures, 7 mismatches fixed; the 7.5% is
 after withholding tax) and fact sheet version 11.
 
+**As run, Wed 25 Nov evening (Day 18, paced at about half volume).** Section 2 and the watch list. Six research workers (cards Q248-Q253: risk wording tested on real readers; watch lists people act on; from a maturing Treasury to the residency's account in Taiwan; how a holding is shown before its date; APA 7's forms with a fix list for the works cited; the last freshness check before the freeze), about 190 sources, 259 rows, every row rated the same evening by raters ES-EX (store 11,362, all judged). Claims kept 11, changed 14, killed 4. Voice round 20 (`voice/ROUND20.md`) read Section 2 whole for the first time: 63% of sentence readings followed first time, every memory answer right, nine stops each a name or a reason missing; fact sheet version 13 fixes two of its own reasons that readers found false. Cold aha test 10 kept row 9 in 3e and gave 3e a second aha ("what the ten ask of anyone"); nugget 43 failed as an aha and stays the team's lesson in 3f. Analysis: the order of first names (`NAME_ORDER.md`, sixteen conflicts settled the same evening; the watch list prints as Table 2) and card Q252's fix list applied to `research/WORKS_CITED_DRAFT.md`.
+
 ## The questions for each run
 
 The part of the report each question serves is in brackets. Every researcher is briefed to find the relation that does
