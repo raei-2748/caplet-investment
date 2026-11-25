@@ -3156,6 +3156,33 @@ mixed, 2 not counted; all 27 scripts that assert their own figures pass, and the
 - Fact sheet, version 6's changelog line "about 42%": a changelog states what a version said; version 11 marks it
   retired.
 
+### 8zb. Figure 1 on the fee-and-margin basis (Thu 26 Nov 2026, exhibits worker; `research/day19_2026-11-26/CHECK_EXHIBITS.md` items 3 and 20, section 3). MODEL; read from `numbers/results_reserve_2026-11-17.json`, block `fee_and_margin` (written by `numbers/reserve.py`); nothing re-run
+
+**The world** (the block's own words): "nothing earns interest, every waiting dollar pays the ETF's 0.15% a year, every iBond fund flow 0.5% smaller". This is ink's own count (each fund after the 0.5% margin) and the standard the extra Treasuries are sized to. Figure 1 is drawn on it from Thu 26 Nov (it was drawn on 8h's "fee" basis, $444,080 + $55,920 with $1,177 left).
+
+**Each payment** (`fee_and_margin.by_payment[year]`: `own_holding_pays` and `backstop_and_carry_cover`, unrounded in brackets). 8h already registers the totals and the 2033 and 2041 extra-Treasuries figures; the other eight rows are registered here.
+
+| Payment | Fee and margin: own Treasury pays | Fee and margin: extra Treasuries cover | Paid | Already in 8h |
+|---|---|---|---|---|
+| 2033 | $47,101 (47,100.96) | $2,899 (2,899.04) | $50,000 | extra Treasuries, $2,899 |
+| 2034 | $46,497 (46,497.10) | $3,503 (3,502.90) | $50,000 | no |
+| 2035 | $45,911 (45,911.11) | $4,089 (4,088.89) | $50,000 | no |
+| 2036 | $45,204 (45,204.04) | $4,796 (4,795.96) | $50,000 | no |
+| 2037 | $44,268 (44,268.28) | $5,732 (5,731.72) | $50,000 | no |
+| 2038 | $43,195 (43,195.04) | $6,805 (6,804.96) | $50,000 | no |
+| 2039 | $43,061 (43,061.09) | $6,939 (6,938.91) | $50,000 | no |
+| 2040 | $43,043 (43,043.06) | $6,957 (6,956.94) | $50,000 | no |
+| 2041 | $42,180 (42,179.79) | $7,820 (7,820.21) | $50,000 | extra Treasuries, $7,820 |
+| 2042 | $42,469 (42,469.11) | $7,531 (7,530.89) | $50,000 | no |
+| All ten (totals of unrounded figures) | $442,930 (`own_total` 442,929.57) | $57,070 (`backstop_total` 57,070.43) | $500,000 | yes (8h) |
+| Left after the last payment | $0 (`left_after_2042` 0.00) | | | yes (8h, "nothing is left") |
+
+**Rounding.** The rounded rows add to $442,929 and $57,071; the totals of the unrounded figures are $442,930 and $57,070, which add to $500,000. Figure 1's total row prints the totals; its note says the rows are rounded.
+
+**Against the "fee" basis (8h).** Only the five fund rows (2033-2037) move: each fund's own payout is $223 to $237 smaller (2033 $237, 2034 $234, 2035 $231, 2036 $227, 2037 $223 on the rounded rows) and the extra Treasuries cover the same amount more. The five bond rows (2038-2042) are the same on both bases. Cash dates (8h cash table) and the today's-rates figures ($46,566; $445,655; about $1.12 for each $1) do not move.
+
+**Words.** "If cash waiting earns nothing and each fund pays 0.5% less"; "the margin" only after it is glossed (NAME_ORDER row 19). With this basis, never "$1,177 to spare" beside Figure 1; the $1,177 stays the "fee" basis's figure (8h), said only with that basis named.
+
 ## 9. Still to add (later days)
 - **Done Wed 25 Nov (card Q231 row 45, the numbers owner's worker):** J.P. Morgan's 7.5% for AC World Equity forecasts
   the MSCI ACWI Net Total Return USD Index (LTCMA Methodology Handbook, 2027 edition, Exhibit 4; read 25 Nov 2026 on a

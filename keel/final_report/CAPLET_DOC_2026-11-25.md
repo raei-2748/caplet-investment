@@ -101,3 +101,7 @@ Options, each with the answer the next paragraph gives:
 How the writing session works with Caplet's draft is Caplet's call (decision card in the thread, Wed 25 Nov). Keel's
 default while it waits: the session writes a complete draft that follows Caplet's v2 map, Caplet's opening and the
 restrained pencil and ink, for the team to rewrite, with every check in `WRITING_SESSION.md` unchanged.
+
+Decided Wed 25 Nov 23:22 Sydney: Caplet answered "I simply want you to keep doing what you're doing". Keel reads it as
+the default above: it keeps reviewing each part Caplet writes in the doc as it lands, and on Fri 27 Nov the session
+writes a complete draft to Caplet's v2 map for the team to rewrite.

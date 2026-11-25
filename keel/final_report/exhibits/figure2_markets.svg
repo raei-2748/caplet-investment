@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-22T20:22:41.693218</dc:date>
+    <dc:date>2026-11-25T19:47:32.434180</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -30,10 +30,10 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 156.78 145.728 
-L 334.574118 145.728 
-L 334.574118 33.12 
-L 156.78 33.12 
+    <path d="M 191.88 145.728 
+L 349.159412 145.728 
+L 349.159412 41.4 
+L 191.88 41.4 
 z
 " style="fill: #ffffff"/>
    </g>
@@ -41,36 +41,36 @@ z
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="m2567c0e430" d="M 0 0 
+       <path id="m601287735d" d="M 0 0 
 L 0 3 
 " style="stroke: #000000; stroke-width: 0.6"/>
       </defs>
       <g>
-       <use xlink:href="#m2567c0e430" x="198.889133" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
+       <use xlink:href="#m601287735d" x="229.130387" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
       </g>
      </g>
      <g id="text_1">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="198.889133" y="159.468625" transform="rotate(-0 198.889133 159.468625)">$75k</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="229.130387" y="159.468625" transform="rotate(-0 229.130387 159.468625)">$75k</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m2567c0e430" x="257.37404" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
+       <use xlink:href="#m601287735d" x="280.867036" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="257.37404" y="159.468625" transform="rotate(-0 257.37404 159.468625)">$100k</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="280.867036" y="159.468625" transform="rotate(-0 280.867036 159.468625)">$100k</text>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m2567c0e430" x="315.858947" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
+       <use xlink:href="#m601287735d" x="332.603684" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
       </g>
      </g>
      <g id="text_3">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="315.858947" y="159.468625" transform="rotate(-0 315.858947 159.468625)">$125k</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="332.603684" y="159.468625" transform="rotate(-0 332.603684 159.468625)">$125k</text>
      </g>
     </g>
    </g>
@@ -78,175 +78,175 @@ L 0 3
     <g id="ytick_1">
      <g id="line2d_4"/>
      <g id="text_4">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="153.28" y="45.844983" transform="rotate(-0 153.28 45.844983)">Today's market rates</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="188.38" y="53.444435" transform="rotate(-0 188.38 53.444435)">Today's market rates</text>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_5"/>
      <g id="text_5">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="153.28" y="61.321518" transform="rotate(-0 153.28 61.321518)">Replay from 2006: shares fall</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="188.38" y="67.786723" transform="rotate(-0 188.38 67.786723)">Recession from history, 2006: shares fall</text>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_6"/>
      <g id="text_6">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="153.28" y="76.747271" transform="rotate(-0 153.28 76.747271)">Rates 3 points lower from Jan 2027</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="188.38" y="82.07823" transform="rotate(-0 188.38 82.07823)">Rates 3 points lower for good from Jan 2027</text>
      </g>
     </g>
     <g id="ytick_4">
      <g id="line2d_7"/>
      <g id="text_7">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="153.28" y="92.173025" transform="rotate(-0 153.28 92.173025)">Replay from 2007: rates fall early</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="188.38" y="96.369737" transform="rotate(-0 188.38 96.369737)">Recession from history, 2007: rates fall early</text>
      </g>
     </g>
     <g id="ytick_5">
      <g id="line2d_8"/>
      <g id="text_8">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="153.28" y="107.598778" transform="rotate(-0 153.28 107.598778)">Inflation: rates 3 points higher</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="188.38" y="110.661244" transform="rotate(-0 188.38 110.661244)">Inflation world: rates 3 points higher</text>
      </g>
     </g>
     <g id="ytick_6">
      <g id="line2d_9"/>
      <g id="text_9">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="153.28" y="139.942079" transform="rotate(-0 153.28 139.942079)">Median starting month</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="188.38" y="140.622627" transform="rotate(-0 188.38 140.622627)">Median starting month</text>
      </g>
     </g>
    </g>
    <g id="line2d_10">
-    <path d="M 245.677059 42.375452 
-L 292.464985 42.375452 
-" clip-path="url(#p7f2ba0e6c7)" style="fill: none; stroke: #000000; stroke-width: 2"/>
+    <path d="M 270.519706 49.974904 
+L 311.909025 49.974904 
+" clip-path="url(#p4f19012524)" style="fill: none; stroke: #000000; stroke-width: 2"/>
    </g>
    <g id="line2d_11">
     <defs>
-     <path id="m8f2011128a" d="M 0 3.5 
+     <path id="md2d03d4a9b" d="M 0 3.5 
 L 0 -3.5 
 " style="stroke: #000000"/>
     </defs>
-    <g clip-path="url(#p7f2ba0e6c7)">
-     <use xlink:href="#m8f2011128a" x="245.677059" y="42.375452" style="stroke: #000000"/>
-     <use xlink:href="#m8f2011128a" x="292.464985" y="42.375452" style="stroke: #000000"/>
+    <g clip-path="url(#p4f19012524)">
+     <use xlink:href="#md2d03d4a9b" x="270.519706" y="49.974904" style="stroke: #000000"/>
+     <use xlink:href="#md2d03d4a9b" x="311.909025" y="49.974904" style="stroke: #000000"/>
     </g>
    </g>
    <g id="line2d_12">
-    <path d="M 245.677059 57.801205 
-L 269.071022 57.801205 
-" clip-path="url(#p7f2ba0e6c7)" style="fill: none; stroke: #505050; stroke-width: 2"/>
+    <path d="M 270.519706 64.266411 
+L 291.214365 64.266411 
+" clip-path="url(#p4f19012524)" style="fill: none; stroke: #505050; stroke-width: 2"/>
    </g>
    <g id="line2d_13">
     <defs>
-     <path id="me0f3e7a1e9" d="M 0 3.5 
+     <path id="md8b825c34d" d="M 0 3.5 
 L 0 -3.5 
 " style="stroke: #505050"/>
     </defs>
-    <g clip-path="url(#p7f2ba0e6c7)">
-     <use xlink:href="#me0f3e7a1e9" x="245.677059" y="57.801205" style="fill: #505050; stroke: #505050"/>
-     <use xlink:href="#me0f3e7a1e9" x="269.071022" y="57.801205" style="fill: #505050; stroke: #505050"/>
+    <g clip-path="url(#p4f19012524)">
+     <use xlink:href="#md8b825c34d" x="270.519706" y="64.266411" style="fill: #505050; stroke: #505050"/>
+     <use xlink:href="#md8b825c34d" x="291.214365" y="64.266411" style="fill: #505050; stroke: #505050"/>
     </g>
    </g>
    <g id="line2d_14">
-    <path d="M 198.889133 73.226959 
-L 245.677059 73.226959 
-" clip-path="url(#p7f2ba0e6c7)" style="fill: none; stroke: #505050; stroke-width: 2"/>
+    <path d="M 229.130387 78.557918 
+L 270.519706 78.557918 
+" clip-path="url(#p4f19012524)" style="fill: none; stroke: #505050; stroke-width: 2"/>
    </g>
    <g id="line2d_15">
-    <g clip-path="url(#p7f2ba0e6c7)">
-     <use xlink:href="#me0f3e7a1e9" x="198.889133" y="73.226959" style="fill: #505050; stroke: #505050"/>
-     <use xlink:href="#me0f3e7a1e9" x="245.677059" y="73.226959" style="fill: #505050; stroke: #505050"/>
+    <g clip-path="url(#p4f19012524)">
+     <use xlink:href="#md8b825c34d" x="229.130387" y="78.557918" style="fill: #505050; stroke: #505050"/>
+     <use xlink:href="#md8b825c34d" x="270.519706" y="78.557918" style="fill: #505050; stroke: #505050"/>
     </g>
    </g>
    <g id="line2d_16">
-    <path d="M 210.586115 88.652712 
-L 245.677059 88.652712 
-" clip-path="url(#p7f2ba0e6c7)" style="fill: none; stroke: #505050; stroke-width: 2"/>
+    <path d="M 239.477717 92.849425 
+L 270.519706 92.849425 
+" clip-path="url(#p4f19012524)" style="fill: none; stroke: #505050; stroke-width: 2"/>
    </g>
    <g id="line2d_17">
-    <g clip-path="url(#p7f2ba0e6c7)">
-     <use xlink:href="#me0f3e7a1e9" x="210.586115" y="88.652712" style="fill: #505050; stroke: #505050"/>
-     <use xlink:href="#me0f3e7a1e9" x="245.677059" y="88.652712" style="fill: #505050; stroke: #505050"/>
+    <g clip-path="url(#p4f19012524)">
+     <use xlink:href="#md8b825c34d" x="239.477717" y="92.849425" style="fill: #505050; stroke: #505050"/>
+     <use xlink:href="#md8b825c34d" x="270.519706" y="92.849425" style="fill: #505050; stroke: #505050"/>
     </g>
    </g>
    <g id="line2d_18">
-    <path d="M 257.37404 104.078466 
-L 292.464985 104.078466 
-" clip-path="url(#p7f2ba0e6c7)" style="fill: none; stroke: #505050; stroke-width: 2"/>
+    <path d="M 280.867036 107.140932 
+L 311.909025 107.140932 
+" clip-path="url(#p4f19012524)" style="fill: none; stroke: #505050; stroke-width: 2"/>
    </g>
    <g id="line2d_19">
-    <g clip-path="url(#p7f2ba0e6c7)">
-     <use xlink:href="#me0f3e7a1e9" x="257.37404" y="104.078466" style="fill: #505050; stroke: #505050"/>
-     <use xlink:href="#me0f3e7a1e9" x="292.464985" y="104.078466" style="fill: #505050; stroke: #505050"/>
+    <g clip-path="url(#p4f19012524)">
+     <use xlink:href="#md8b825c34d" x="280.867036" y="107.140932" style="fill: #505050; stroke: #505050"/>
+     <use xlink:href="#md8b825c34d" x="311.909025" y="107.140932" style="fill: #505050; stroke: #505050"/>
     </g>
    </g>
    <g id="line2d_20">
-    <path d="M 245.677059 136.472548 
-L 292.464985 136.472548 
-" clip-path="url(#p7f2ba0e6c7)" style="fill: none; stroke: #505050; stroke-width: 2"/>
+    <path d="M 270.519706 137.153096 
+L 311.909025 137.153096 
+" clip-path="url(#p4f19012524)" style="fill: none; stroke: #505050; stroke-width: 2"/>
    </g>
    <g id="line2d_21">
-    <g clip-path="url(#p7f2ba0e6c7)">
-     <use xlink:href="#me0f3e7a1e9" x="245.677059" y="136.472548" style="fill: #505050; stroke: #505050"/>
-     <use xlink:href="#me0f3e7a1e9" x="292.464985" y="136.472548" style="fill: #505050; stroke: #505050"/>
+    <g clip-path="url(#p4f19012524)">
+     <use xlink:href="#md8b825c34d" x="270.519706" y="137.153096" style="fill: #505050; stroke: #505050"/>
+     <use xlink:href="#md8b825c34d" x="311.909025" y="137.153096" style="fill: #505050; stroke: #505050"/>
     </g>
    </g>
    <g id="line2d_22">
-    <path d="M 156.78 118.732932 
-L 334.574118 118.732932 
-" clip-path="url(#p7f2ba0e6c7)" style="fill: none; stroke: #9a9a9a; stroke-width: 0.5; stroke-linecap: square"/>
+    <path d="M 191.88 120.717863 
+L 349.159412 120.717863 
+" clip-path="url(#p4f19012524)" style="fill: none; stroke: #9a9a9a; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="patch_3">
-    <path d="M 156.78 145.728 
-L 334.574118 145.728 
+    <path d="M 191.88 145.728 
+L 349.159412 145.728 
 " style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_10">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="241.934025" y="44.916663" transform="rotate(-0 241.934025 44.916663)">$95k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="267.20856" y="52.516115" transform="rotate(-0 267.20856 52.516115)">$95k</text>
    </g>
    <g id="text_11">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="296.208019" y="44.916663" transform="rotate(-0 296.208019 44.916663)">$115k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="315.22017" y="52.516115" transform="rotate(-0 315.22017 52.516115)">$115k</text>
    </g>
    <g id="text_12">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="241.934025" y="60.342416" transform="rotate(-0 241.934025 60.342416)">$95k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="267.20856" y="66.807622" transform="rotate(-0 267.20856 66.807622)">$95k</text>
    </g>
    <g id="text_13">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="272.814056" y="60.342416" transform="rotate(-0 272.814056 60.342416)">$105k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="294.525511" y="66.807622" transform="rotate(-0 294.525511 66.807622)">$105k</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="195.146099" y="75.76817" transform="rotate(-0 195.146099 75.76817)">$75k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="225.819241" y="81.099129" transform="rotate(-0 225.819241 81.099129)">$75k</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="249.420093" y="75.76817" transform="rotate(-0 249.420093 75.76817)">$95k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="273.830851" y="81.099129" transform="rotate(-0 273.830851 81.099129)">$95k</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="206.84308" y="91.193923" transform="rotate(-0 206.84308 91.193923)">$80k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="236.166571" y="95.390636" transform="rotate(-0 236.166571 95.390636)">$80k</text>
    </g>
    <g id="text_17">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="249.420093" y="91.193923" transform="rotate(-0 249.420093 91.193923)">$95k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="273.830851" y="95.390636" transform="rotate(-0 273.830851 95.390636)">$95k</text>
    </g>
    <g id="text_18">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="253.631006" y="106.619677" transform="rotate(-0 253.631006 106.619677)">$100k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="277.55589" y="109.682142" transform="rotate(-0 277.55589 109.682142)">$100k</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="296.208019" y="106.619677" transform="rotate(-0 296.208019 106.619677)">$115k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="315.22017" y="109.682142" transform="rotate(-0 315.22017 109.682142)">$115k</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="241.934025" y="139.013759" transform="rotate(-0 241.934025 139.013759)">$95k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: end" x="267.20856" y="139.694307" transform="rotate(-0 267.20856 139.694307)">$95k</text>
    </g>
    <g id="text_21">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="296.208019" y="139.013759" transform="rotate(-0 296.208019 139.013759)">$115k</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="315.22017" y="139.694307" transform="rotate(-0 315.22017 139.694307)">$115k</text>
    </g>
    <g id="text_22">
-    <text style="font-style: italic; font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="2.34" y="128.838386" transform="rotate(-0 2.34 128.838386)">Every starting month since 1962 (585, overlapping):</text>
+    <text style="font-style: italic; font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="2.34" y="130.256195" transform="rotate(-0 2.34 130.256195)">Every starting month since 1962 (585, overlapping):</text>
    </g>
    <g id="text_23">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="156.78" y="27.12" transform="rotate(-0 156.78 27.12)">Bottom and top she could state in 2031</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="191.88" y="35.4" transform="rotate(-0 191.88 35.4)">Bottom and top she could state in 2031</text>
    </g>
   </g>
   <g id="axes_2">
    <g id="patch_4">
-    <path d="M 346.274118 145.728 
+    <path d="M 359.509412 145.728 
 L 460.98 145.728 
-L 460.98 33.12 
-L 346.274118 33.12 
+L 460.98 41.4 
+L 359.509412 41.4 
 z
 " style="fill: #ffffff"/>
    </g>
@@ -254,31 +254,31 @@ z
     <g id="xtick_4">
      <g id="line2d_23">
       <g>
-       <use xlink:href="#m2567c0e430" x="346.274118" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
+       <use xlink:href="#m601287735d" x="359.509412" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
       </g>
      </g>
      <g id="text_24">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="346.274118" y="159.468625" transform="rotate(-0 346.274118 159.468625)">$0</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="359.509412" y="159.468625" transform="rotate(-0 359.509412 159.468625)">$0</text>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_24">
       <g>
-       <use xlink:href="#m2567c0e430" x="397.25451" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
+       <use xlink:href="#m601287735d" x="404.607451" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
       </g>
      </g>
      <g id="text_25">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="397.25451" y="159.468625" transform="rotate(-0 397.25451 159.468625)">$20k</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="404.607451" y="159.468625" transform="rotate(-0 404.607451 159.468625)">$20k</text>
      </g>
     </g>
     <g id="xtick_6">
      <g id="line2d_25">
       <g>
-       <use xlink:href="#m2567c0e430" x="448.234902" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
+       <use xlink:href="#m601287735d" x="449.70549" y="145.728" style="stroke: #000000; stroke-width: 0.6"/>
       </g>
      </g>
      <g id="text_26">
-      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="448.234902" y="159.468625" transform="rotate(-0 448.234902 159.468625)">$40k</text>
+      <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: middle" x="449.70549" y="159.468625" transform="rotate(-0 449.70549 159.468625)">$40k</text>
      </g>
     </g>
    </g>
@@ -304,7 +304,7 @@ z
    </g>
    <g id="line2d_32">
     <defs>
-     <path id="m05c51b075a" d="M 0 2.25 
+     <path id="mbb4f99b069" d="M 0 2.25 
 C 0.596707 2.25 1.169055 2.012926 1.59099 1.59099 
 C 2.012926 1.169055 2.25 0.596707 2.25 0 
 C 2.25 -0.596707 2.012926 -1.169055 1.59099 -1.59099 
@@ -316,13 +316,13 @@ C -1.169055 2.012926 -0.596707 2.25 0 2.25
 z
 " style="stroke: #000000"/>
     </defs>
-    <g clip-path="url(#pd5f3262be9)">
-     <use xlink:href="#m05c51b075a" x="419.43098" y="42.375452" style="stroke: #000000"/>
+    <g clip-path="url(#p4e14d8e495)">
+     <use xlink:href="#mbb4f99b069" x="424.225098" y="49.974904" style="stroke: #000000"/>
     </g>
    </g>
    <g id="line2d_33">
     <defs>
-     <path id="m2736dadc96" d="M 0 2.25 
+     <path id="m5e2688b11e" d="M 0 2.25 
 C 0.596707 2.25 1.169055 2.012926 1.59099 1.59099 
 C 2.012926 1.169055 2.25 0.596707 2.25 0 
 C 2.25 -0.596707 2.012926 -1.169055 1.59099 -1.59099 
@@ -334,70 +334,71 @@ C -1.169055 2.012926 -0.596707 2.25 0 2.25
 z
 " style="stroke: #505050"/>
     </defs>
-    <g clip-path="url(#pd5f3262be9)">
-     <use xlink:href="#m2736dadc96" x="393.43098" y="57.801205" style="fill: #505050; stroke: #505050"/>
+    <g clip-path="url(#p4e14d8e495)">
+     <use xlink:href="#m5e2688b11e" x="401.225098" y="64.266411" style="fill: #505050; stroke: #505050"/>
     </g>
    </g>
    <g id="line2d_34">
-    <g clip-path="url(#pd5f3262be9)">
-     <use xlink:href="#m2736dadc96" x="396.234902" y="73.226959" style="fill: #505050; stroke: #505050"/>
+    <g clip-path="url(#p4e14d8e495)">
+     <use xlink:href="#m5e2688b11e" x="403.70549" y="78.557918" style="fill: #505050; stroke: #505050"/>
     </g>
    </g>
    <g id="line2d_35">
-    <g clip-path="url(#pd5f3262be9)">
-     <use xlink:href="#m2736dadc96" x="398.52902" y="88.652712" style="fill: #505050; stroke: #505050"/>
+    <g clip-path="url(#p4e14d8e495)">
+     <use xlink:href="#m5e2688b11e" x="405.734902" y="92.849425" style="fill: #505050; stroke: #505050"/>
     </g>
    </g>
    <g id="line2d_36">
-    <g clip-path="url(#pd5f3262be9)">
-     <use xlink:href="#m2736dadc96" x="416.627059" y="104.078466" style="fill: #505050; stroke: #505050"/>
+    <g clip-path="url(#p4e14d8e495)">
+     <use xlink:href="#m5e2688b11e" x="421.744706" y="107.140932" style="fill: #505050; stroke: #505050"/>
     </g>
    </g>
    <g id="line2d_37">
-    <g clip-path="url(#pd5f3262be9)">
-     <use xlink:href="#m2736dadc96" x="427.332941" y="136.472548" style="fill: #505050; stroke: #505050"/>
+    <g clip-path="url(#p4e14d8e495)">
+     <use xlink:href="#m5e2688b11e" x="431.215294" y="137.153096" style="fill: #505050; stroke: #505050"/>
     </g>
    </g>
    <g id="line2d_38">
-    <path d="M 346.274118 118.732932 
-L 460.98 118.732932 
-" clip-path="url(#pd5f3262be9)" style="fill: none; stroke: #9a9a9a; stroke-width: 0.5; stroke-linecap: square"/>
+    <path d="M 359.509412 120.717863 
+L 460.98 120.717863 
+" clip-path="url(#p4e14d8e495)" style="fill: none; stroke: #9a9a9a; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="patch_5">
-    <path d="M 346.274118 145.728 
+    <path d="M 359.509412 145.728 
 L 460.98 145.728 
 " style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_27">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="422.999608" y="44.916663" transform="rotate(-0 422.999608 44.916663)">$28,700</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="427.381961" y="52.516115" transform="rotate(-0 427.381961 52.516115)">$28,700</text>
    </g>
    <g id="text_28">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="396.999608" y="60.342416" transform="rotate(-0 396.999608 60.342416)">$18,500</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="404.381961" y="66.807622" transform="rotate(-0 404.381961 66.807622)">$18,500</text>
    </g>
    <g id="text_29">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="399.803529" y="75.76817" transform="rotate(-0 399.803529 75.76817)">$19,600</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="406.862353" y="81.099129" transform="rotate(-0 406.862353 81.099129)">$19,600</text>
    </g>
    <g id="text_30">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="402.097647" y="91.193923" transform="rotate(-0 402.097647 91.193923)">$20,500</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="408.891765" y="95.390636" transform="rotate(-0 408.891765 95.390636)">$20,500</text>
    </g>
    <g id="text_31">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="420.195686" y="106.619677" transform="rotate(-0 420.195686 106.619677)">$27,600</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="424.901569" y="109.682142" transform="rotate(-0 424.901569 109.682142)">$27,600</text>
    </g>
    <g id="text_32">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="430.901569" y="139.013759" transform="rotate(-0 430.901569 139.013759)">$31,800</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif; text-anchor: start" x="434.372157" y="139.694307" transform="rotate(-0 434.372157 139.694307)">$31,800</text>
    </g>
    <g id="text_33">
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif" transform="translate(346.274118 16.523711)">Her flexibility and anything</text>
-    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif" transform="translate(346.274118 27.12)">above the top, Jan 2033</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif" transform="translate(359.509412 14.212891)">Her flexibility and</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif" transform="translate(359.509412 24.80918)">anything above the</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', serif" transform="translate(359.509412 35.4)">top, Jan 2033</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p7f2ba0e6c7">
-   <rect x="156.78" y="33.12" width="177.794118" height="112.608"/>
+  <clipPath id="p4f19012524">
+   <rect x="191.88" y="41.4" width="157.279412" height="104.328"/>
   </clipPath>
-  <clipPath id="pd5f3262be9">
-   <rect x="346.274118" y="33.12" width="114.705882" height="112.608"/>
+  <clipPath id="p4e14d8e495">
+   <rect x="359.509412" y="41.4" width="101.470588" height="104.328"/>
   </clipPath>
  </defs>
 </svg>

@@ -184,14 +184,15 @@ def figure1(outputs):
                        bbox=dict(facecolor="white", edgecolor="none", pad=0.4))
             fig.canvas.draw()
             right = lab.get_window_extent().transformed(ax.transData.inverted()).x1
-            num_l = C2_R - width(D.dollars(r["own_if_nothing_earns"]))
+            num_l = C2_R - width(D.dollars(r["own_printed"]))
             assert right + 0.04 <= num_l, f"'waits {r['wait_words']}' runs into the number column"
         text(X_YEAR, y, str(r["year"]))
-        # one world (card Q73-035): only what pays each $50,000 if cash waiting earns nothing, after the 0.15% fee
-        text(C2_R, y, D.dollars(r["own_if_nothing_earns"]), ha="right")
-        text(C3_R, y, D.dollars(r["backstop_if_nothing_earns"]), ha="right")
+        # one world (card Q73-035): what pays each $50,000 if cash waiting earns nothing, after the 0.15% fee, with
+        # each fund's flows 0.5% smaller (Thu 26 Nov: the fee-and-margin basis, NUMBERS 8h, 8zb)
+        text(C2_R, y, D.dollars(r["own_printed"]), ha="right")
+        text(C3_R, y, D.dollars(r["backstop_printed"]), ha="right")
 
-    # ---- totals: 8h's totals of unrounded figures, which add up exactly, "$444,080 + $55,920 = $500,000" ----
+    # ---- totals: 8zb's totals of unrounded figures, which add up exactly, "$442,930 + $57,070 = $500,000" ----
     ax.plot([0, W], [last + 0.03, last + 0.03], color=INK, linewidth=0.6)
     yt = last + 0.03 + ROW_H / 2 + 0.01
     # Tue 17 Nov (coherence reader 7, M2): labelled as a ten-year sum of payouts, never "Total" (read as a size)
@@ -264,7 +265,8 @@ def figure2(outputs):
     hist = D.TABLE2_HISTORY
     assert len(rows) == 5 and len(hist) == 1, (len(rows), len(hist))
     fig, (a1, a2) = plt.subplots(1, 2, figsize=(F2_W, F2_H), sharey=True, gridspec_kw={"width_ratios": [1.55, 1]})
-    fig.subplots_adjust(left=0.335, right=0.985, top=0.80, bottom=0.12, wspace=0.08)
+    # Thu 26 Nov: the notes' longer row names (CHECK_EXHIBITS item 12) were clipped at 0.335; measured, 0.41 holds them
+    fig.subplots_adjust(left=0.41, right=0.985, top=0.75, bottom=0.12, wspace=0.08)
     ys = [7.0, 6.0, 5.0, 4.0, 3.0]
     y_hist = 0.9
     lab = []
@@ -300,7 +302,7 @@ def figure2(outputs):
     a2.set_xticks([0, 20, 40])
     a2.set_xticklabels(["$0", "$20k", "$40k"])
     a1.set_title("Bottom and top she could state in 2031", fontsize=10, loc="left", pad=6)
-    a2.set_title("Her flexibility and anything\nabove the top, Jan 2033", fontsize=10, loc="left", pad=6)
+    a2.set_title("Her flexibility and\nanything above the\ntop, Jan 2033", fontsize=10, loc="left", pad=6)   # Thu 26 Nov: three lines since the label column widened
     for path, dpi in outputs:
         if path.endswith(".svg"):
             fig.savefig(path, facecolor="white")
@@ -343,14 +345,18 @@ EXHIBITS = {
                f"floor and {D.dollars(D.RECON['book_x15'][2])} of VT; the plan in January 2028 holds "
                f"{D.dollars(D.RECON['plan_jan2028'][0])}, {D.dollars(D.RECON['plan_jan2028'][1])} and "
                f"{D.dollars(D.RECON['plan_jan2028'][2])}, because the portfolio was built before the operating "
-               f"reserve was sized (the extra Treasuries, {D.dollars(D.TOPUP_NO_INTEREST)}); in both, what is left "
+               # Thu 26 Nov (CHECK_EXHIBITS item 9; NAME_ORDER decision 2): Section 2 glosses the name at first use
+               f"reserve was sized (the extra Treasuries, {D.dollars(D.TOPUP_NO_INTEREST)}: more Treasuries bought in "
+               "January 2028 so the ten are paid even if cash waiting earns nothing); in both, what is left "
                f"goes about {round(100 * D.RECON['plan_floor_share'])}% to the floor and "
                f"{100 - round(100 * D.RECON['plan_floor_share'])}% to VT, the floor always over half the deposit "
                "(NUMBERS 8 (e), 4; ATTACKS D3, D17)",
                # Mon 16 Nov night (coherence reader 6, L3): the floor is the fund, the bottom is the figure (WORDS)
-               "Pays for: each holding's payment (1 January; 23 Oct snapshot); the floor: the late-2032 Treasury fund "
-               "whose payout sets the least Laura can promise in 2031 (TNA l.13), here IBTM's floor lot (CANON A24, "
-               "8g) (coherence reader 6, Mon 16 Nov, L3: the floor is the fund, the bottom is the figure, WORDS)",
+               # Thu 26 Nov (CHECK_EXHIBITS item 8; NAME_ORDER decision 3, row 30): the floor is the January 2028
+               # purchase of more of the fund, not the fund; never "IBTM's floor lot" or "IBTM floor shares"
+               "Pays for: each holding's payment (1 January; 23 Oct snapshot); the floor: more of the late-2032 "
+               "Treasury fund (IBTM), bought in January 2028, whose payout sets the bottom of her range; in the WInS "
+               "portfolio a second IBTM lot stands in for it (TNA l.13; CANON A24; 8g)",
                "costs row: $200 of fees and $1,109.42 of accrued bond interest, repaid with each bond's next coupon "
                "(8g v2)",
                "identifiers: tickers for funds, CUSIPs for bonds (8g, card Q38)",
@@ -359,7 +365,8 @@ EXHIBITS = {
                # registered Sun 22 Nov (NUMBERS 8 (e)); the tree allows it only here and only with its reason
                "if room (not in the budget): rate sensitivity, about $160 per 0.01 point against about $200 for the "
                "payments at the same scale, about four-fifths: matched by date, not duration; the holdings' interest "
-               "arrives before the payments, a wait the zero-interest test covers (NUMBERS 8 (e); ARGUMENT_TREE "
+               "arrives before the payments, a wait covered because the ten are paid even if cash waiting earns nothing "
+               "(NUMBERS 8 (e); NAME_ORDER decision 14; ARGUMENT_TREE "
                "branch 1)"]},
     "f1": {"label": "Figure 1",
            # Fri 13 Nov evening: WORDS.md's names ("the extra Treasuries", "cash waiting earns nothing"; the top-up is
@@ -378,45 +385,52 @@ EXHIBITS = {
            # prose (D18: "Section 3a states ... and one release rule"); the note keeps the market value (item 4)
            "section": "Section 3, part 3a", "note_budget_words": 109,
            "note_items": [
+               # Thu 26 Nov (CHECK_EXHIBITS items 3, 14-17, 20 and section 3): the figure is drawn on the fee-and-margin
+               # basis, ink's own count (FACTS l.183; NUMBERS 8h l.1199, l.1275; 8zb), and item 1 names that basis.
                # Mon 16 Nov night (coherence reader 6, M9; WORDS "The standard the payments meet"): the funds' basis
-               "1. \"if cash waiting earns nothing\" (the title's condition), defined once: money already received "
-               "earns nothing while it waits; every coupon and fund payout still counts (WORDS; 8h); fund rows: what "
-               f"each fund's bonds pay less its {100 * D.FUND_FEE:.2f}% fee, its net asset value, not a fixed sum "
-               "(coherence reader 6, Mon 16 Nov, M9)",
-               # Mon 16 Nov (NUMBERS 9): every figure read from exhibit_data, the backstop at its VALUE on 1 Jan 2033
-               # ($46,566, to the nearest $100), never its cost carried ($46,603; were $45,456 and $45,487 before Tue 17
-               # Nov evening's re-size). Since the re-size $1,177 is left after 2042 at zero interest with the fee (the
-               # payments' 0.5% margin), so the sum is said with it
-               f"2. the extra Treasuries' column reconciled: their "
+               "1. the condition, defined once: money a bond or fund has already paid out earns nothing while it waits "
+               "for its 1 January payment, and pays the short-term Treasury ETF's 0.15% a year; every coupon and fund "
+               "payout still counts; and each iBonds Treasury fund's payouts are counted 0.5% smaller, the margin for "
+               f"the funds' costs beyond their {100 * D.FUND_FEE:.2f}% fee (such as the cost of trading); fund rows: "
+               "what each fund's bonds pay, its net asset value, not a fixed sum (WORDS; 8h; 8zb; NAME_ORDER rows 14, "
+               "18, 19, 47)",
+               # the $130 between $57,200 and $57,070 is arithmetic, not a registered line: never printed until the
+               # numbers owner registers its split (fee against margin)
+               f"2. the extra Treasuries reconciled: their "
                f"{D.dollars(D.FIGURE1_NOTE_FACTS['topup_for_no_interest_jan2028'])} (January 2028) buys "
-               f"{D.dollars(D.FIGURE1_NOTE_FACTS['topup_face_and_fund_dollars'])} at face; "
-               f"with {D.dollars(D.FIGURE1_NOTE_FACTS['topup_interest_undiscounted'])} of their own interest, summed "
-               f"undiscounted, they pay {D.dollars(D.FIGURE1_TOTALS['backstop_if_nothing_earns'])} after "
-               f"{D.dollars(D.FIGURE1_NOTE_FACTS['topup_fee_while_waiting'])} of the waiting fund's 0.15% fee, with "
-               f"{D.dollars(D.FIGURE1_NOTE_FACTS['left_after_2042_with_fee'])} to spare, the 0.5% margin for fund costs (8h)",
-               f"3. rounding (required since Mon 16 Nov evening): rows are rounded to the dollar and add to "
-               f"{D.dollars(D.FIGURE1_FOOT[0])} and {D.dollars(D.FIGURE1_FOOT[1])}; the total row is 8h's totals "
-               f"of unrounded figures, {D.dollars(D.FIGURE1_TOTAL_ROW[0])} + {D.dollars(D.FIGURE1_TOTAL_ROW[1])} = "
-               f"{D.dollars(D.FIGURE1_TOTAL_ROW[2])} (8h)",
+               f"{D.dollars(D.FIGURE1_NOTE_FACTS['topup_face_and_fund_dollars'])} of face value and fund dollars; "
+               f"with {D.dollars(D.FIGURE1_NOTE_FACTS['topup_interest_undiscounted'])} of their own interest, added up "
+               f"undiscounted, that is {D.dollars(D.FIGURE1_NOTE_FACTS['topup_all_flows_undiscounted'])}; after the "
+               f"short-term Treasury ETF's 0.15% a year and the 0.5% margin, "
+               f"{D.dollars(D.FIGURE1_TOTALS['backstop_printed'])} reaches the payments and nothing is left: the "
+               "standard is met exactly (8h, 8zb)",
+               f"3. rounding: rows are rounded to the dollar and add to "
+               f"{D.dollars(D.FIGURE1_FOOT[0])} and {D.dollars(D.FIGURE1_FOOT[1])}; the total row is the totals "
+               f"of the unrounded figures, {D.dollars(D.FIGURE1_TOTAL_ROW[0])} + {D.dollars(D.FIGURE1_TOTAL_ROW[1])} = "
+               f"{D.dollars(D.FIGURE1_TOTAL_ROW[2])} (8zb)",
                f"4. the other basis, today's market rates (one world in the figure, card Q73-035): each own Treasury "
                f"pays its whole {D.dollars(D.FIGURE1_PAYMENT)} and about "
                f"{D.hundreds(D.FIGURE1_NOTE_FACTS['topup_comes_back_1jan2033'])} of the extra Treasuries comes back "
-               f"(1 Jan 2033 money): about {D.FIGURE1_PER_DOLLAR} for each $1 the payments need on 1 Jan 2033, because "
-               "the extra Treasuries are sized for cash waiting earning nothing (8h; card Q31); the operating "
-               f"reserve's size on 1 Jan 2033, printed once, here: about "
-               f"{D.hundreds(D.FIGURE1_NOTE_FACTS['reserve_1jan2033'])} at today's rates (8h; re-sized Tue 17 Nov "
-               "evening; coherence reader 7, M1, M2: never beside the total row, a ten-year sum of payouts)",
+               f"to Laura by 2042 (valued at 1 January 2033): about {D.FIGURE1_PER_DOLLAR} for each $1 the payments "
+               "need on 1 January 2033, because the extra Treasuries are sized for cash waiting earning nothing (8h; "
+               "card Q31); the operating reserve's size, printed once, here: about "
+               f"{D.hundreds(D.FIGURE1_NOTE_FACTS['reserve_1jan2033'])} at today's rates (8h, 8k; NAME_ORDER "
+               "decisions 6 and 7: never beside the total row, a ten-year sum of payouts)",
                "5. Treasury par curve of 6 Nov 2026; each payment in its own year's dollars (8h)",
                # Mon 23 Nov: GOLDMINE 16, placed here by the tree (NUMBERS 8a's sentence)
                "6. why the extra Treasuries rise with the years: interest earned on interest is 3% of the 2033 "
                "payment and about 15% of the 2041 and 2042 payments (8a)",
                "7. source line: \"Data from U.S. Department of the Treasury (n.d.); team calculations.\"",
-               # Mon 23 Nov (ARGUMENT_TREE branch 2: the replay's method named, never "rate levels" or a bare 55.6%)
-               "8. if room (not in the budget): rows end when the cash reaches Laura (a fund a few days after its 15 "
-               "December end, a bond on its maturity date or the next business day; 8h cash table); at zero interest "
-               "and before the waiting fund's fee the Treasuries pay about $502,600 against $500,000 owed (NUMBERS 8 "
-               "(e), no-fee basis named; 3a's prose); the top-up, $2,388, completes the ten, in \"Its own Treasury\"; "
-               "the floor's IBTM shares are a separate lot from the 2033 payment's"]},
+               # Thu 26 Nov (CHECK_EXHIBITS item 17): SECTION_NOTES asks for the release rule; one clause, if room
+               # (NUMBERS 8h release table); otherwise 3a's prose carries it
+               "8. if room (not in the budget): if the funds cost nothing beyond their fee, the own Treasuries pay "
+               f"{D.dollars(D.FIGURE1_TOTALS['own_if_nothing_earns'])}, the extra Treasuries "
+               f"{D.dollars(D.FIGURE1_TOTALS['backstop_if_nothing_earns'])}, and "
+               f"{D.dollars(D.FIGURE1_NOTE_FACTS['left_after_2042_with_fee'])} is left (8h four-world table); if cash "
+               "waiting earns nothing and pays no fee, and the funds cost nothing beyond their fee, the Treasuries pay "
+               "about $502,600 against the $500,000 owed (NUMBERS 8 (e)); rows end when the cash reaches Laura (8h "
+               "cash table); the top-up, $2,388, completes the ten, in \"Its own Treasury\" (8h); each 1 January, "
+               "short-term Treasury ETF money above what every later payment needs can come back (8h release table)"]},
     "t2": {"label": "Table 2",
            "title": "Laura's Plan for Both Deposits ($450,000) in Five Markets and in History Since 1962, Modelled",
            # Sun 15 Nov evening (bond desk 3c check, research/panel/2026-11-15_bond_desk_3c_precision.md): M2, the
@@ -525,7 +539,7 @@ EXHIBITS = {
                "nearest $100 (8i; bond desk 5, H1: one fund)",
                # Third pass: the same three dates said once each (the trade days are the dates the markets run to)
                "each column's own date: the bottom turns on markets to the floor's trade day, Mon 3 Jan 2028; the top "
-               "to the move's, Thu 2 Jan 2031, before the 2031 meetings; her flexibility to January 2033 (NUMBERS 4; "
+               "to the January 2031 move's trade day, Thu 2 Jan 2031, before the 2031 meetings; her flexibility to January 2033 (NUMBERS 4; "
                "IPS l.15)",
                "source line: \"Data from U.S. Department of the Treasury (n.d.), Board of Governors of the Federal "
                "Reserve System (n.d.-a) and Shiller (n.d.); team calculations.\""],
@@ -567,11 +581,16 @@ EXHIBITS = {
                "inflation world: prices up 5% a year",
                "flexibility: the half of VT promised to no one plus whatever the fund pays above the top, to the "
                "nearest $100 (8i; bond desk 5, H1: one fund)",
-               "dates: the bottom turns on markets to the floor's trade day, Mon 3 Jan 2028; the top to the move's, "
-               "Thu 2 Jan 2031, before the first 2031 meeting (NUMBERS 4, 8r; IPS l.15)",
+               # Thu 26 Nov (CHECK_EXHIBITS item 13; NAME_ORDER decision 4): a note may be read before 3b sets up "the
+               # move", so it says what moves and when
+               "dates: the bottom turns on markets to the floor's trade day, Mon 3 Jan 2028; the top to the January "
+               "2031 move's trade day, Thu 2 Jan 2031, before the first 2031 meeting (NUMBERS 4, 8r; IPS l.15)",
                "source line: \"Data from U.S. Department of the Treasury (n.d.), Board of Governors of the Federal "
                "Reserve System (n.d.-a) and Shiller (n.d.); team calculations.\""]},
-    "t3": {"label": "Table 3",
+    # Thu 26 Nov (NAME_ORDER decision 8; CHECK_EXHIBITS item 1): the watch list PRINTS AS TABLE 2 under APA 7
+    # numbering (Table 1, Figure 1, Figure 2, then this table); Keel's files keep its working name, "Table 3" (the key
+    # "t3", TABLE3_* in exhibit_data.py, the preview's file name and this script's comments)
+    "t3": {"label": "Table 2",
            # Thu 12 Nov (SKELETON Exhibits item 4): seven rows in three levels, five columns, one trigger per cell.
            # Fri 13 Nov evening: rows rewritten for three readers and card Q36, refitted to one page (18.4 lines without
            # the note, 21.4 with 40 words; was 18.9 and 21.9 with 35). Mon 16 Nov night: 27.9 lines after that night's
@@ -596,6 +615,11 @@ EXHIBITS = {
                # source line)
                "debt-limit deadline: the day the debt limit would stop the Treasury paying every bill, the \"X-date\"",
                "cash dates: fund payouts, maturities, trade days",
+               # Thu 26 Nov (CHECK_EXHIBITS items 2, 5, 6; NUMBERS 8y; WHARTON_NORTH_STAR l.122): the Who gloss and
+               # what the broker's statement shows (a fund sends none; never the single IBTM line)
+               D.TEAM_WHO_GLOSS,
+               "statement: the broker's own, at least quarterly, of a second account holding the building's two IBTM "
+               "lots and their paid distributions (8y); rows 6 and 7 are read with it",
                # Mon 16 Nov night (bond desk 4, L10): the 3.57 points (3.60 before Tue 17 Nov evening's re-size) are the standard's, with cash waiting earning
                # nothing (NUMBERS 5; the ladder alone holds to 3.89 points)
                f"payments hold, even if cash waiting earns nothing, to a {D.FALL_TAKES_WHOLE_DEPOSIT:.2f}-point fall "
@@ -1302,7 +1326,8 @@ def tables_md(measures):
     # Figure 1
     L.append(f"## {EXHIBITS['f1']['label']}. {EXHIBITS['f1']['title']} (working title)\n")
     L.append(f"{EXHIBITS['f1']['section']}. Source: NUMBERS 8h (MODEL), `results_reserve_{D.REGISTER_DATE}.json` blocks "
-             "`composition_1jan2033_base` and `fee` (`base`, today's market rates, for note item 4 only); cash dates "
+             "`composition_1jan2033_base` and `fee_and_margin` (NUMBERS 8zb, the printed basis since Thu 26 Nov; `fee`, 8h's "
+             "old basis, for note item 8; `base`, today's market rates, for note item 4 only); cash dates "
              "and the note's reconciliation from "
              f"`results_topup_{D.REGISTER_DATE}.json` (Fri 13 Nov; re-run Sun 15 Nov evening). The figure is `figure1_reserve.svg`; its numbers as text:\n")
     rows = []
@@ -1310,8 +1335,8 @@ def tables_md(measures):
         arrives = D.cash_words(r)             # Fri 13 Nov: the cash date (8h's cash table), not the fund's end date
         if r["wait_words"]:
             arrives += f" (waits {r['wait_words']})"
-        rows.append([r["year"], r["holding"], "Treasury bond" if r["kind"] == "T-bond" else "iBond Treasury fund",
-                     arrives, D.dollars(r["own_if_nothing_earns"]), D.dollars(r["backstop_if_nothing_earns"]), ""])
+        rows.append([r["year"], r["holding"], "Treasury bond" if r["kind"] == "T-bond" else D.FUND_TYPE,
+                     arrives, D.dollars(r["own_printed"]), D.dollars(r["backstop_printed"]), ""])
     # Mon 16 Nov evening (card Q73): one world; the heads print the sum and the total row adds up exactly
     own_tot, extra_tot, sum_tot = (D.dollars(v) for v in D.FIGURE1_TOTAL_ROW)
     # Tue 17 Nov (coherence reader 7, M2): the row's label says it is a sum of payouts 2033-2042, not a size
@@ -1321,12 +1346,14 @@ def tables_md(measures):
     L.append(_md_table([hd["payment"] + " (1 Jan)", "Paid from", "Type", "Cash arrives", " ".join(hd["c2"]),
                         f"{hd['plus']} {' '.join(hd['c3'])}", f"{hd['equals']} {hd['sum']}"], rows,
                        right={4, 5, 6}) + "\n")
-    L.append(f"As drawn (Mon 16 Nov evening, card Q73's three fixes): one world, cash waiting earning nothing after the "
-             f"0.15% fee on waiting money (8h's \"fee\" block); the heads read \"{' '.join(hd['c2'])} {hd['plus']} "
+    L.append(f"As drawn (Mon 16 Nov evening, card Q73's three fixes; basis changed Thu 26 Nov, CHECK_EXHIBITS item 3): "
+             f"one world, cash waiting earning nothing after the 0.15% fee on waiting money, with every iBonds Treasury "
+             f"fund flow 0.5% smaller (the `fee_and_margin` block, NUMBERS 8h and 8zb; it was the \"fee\" block, "
+             f"$444,080 + $55,920 with $1,177 left); the heads read \"{' '.join(hd['c2'])} {hd['plus']} "
              f"{' '.join(hd['c3'])} {hd['equals']} {hd['sum']}\" and the total row \"{D.FIGURE1_TOTAL_LABEL}: "
              f"{own_tot} {hd['plus']} {extra_tot} "
              f"{hd['equals']} {sum_tot}\" (Tue 17 Nov, coherence reader 7, M2: what the ten payments are paid over "
-             f"2033-2042, summed undiscounted, never the reserve's size, which is note item 4's; 8h's totals of "
+             f"2033-2042, summed undiscounted, never the reserve's size, which is note item 4's; 8zb's totals of "
              f"unrounded figures; the rows, rounded, add to "
              f"{D.dollars(D.FIGURE1_FOOT[0])} and {D.dollars(D.FIGURE1_FOOT[1])}, note item 3); the \"At today's "
              f"market rates\" column ($50,000 ten times) is now note item 4; no axis break (the timeline runs unbroken "
@@ -1347,8 +1374,8 @@ def tables_md(measures):
     L.append(cost("f2") + "\n")
 
     # Table 2
-    L.append(f"## {EXHIBITS['t2']['label']}. {EXHIBITS['t2']['title']} (Figure 2's data and the store's record; not in "
-             "the report since Mon 23 Nov)\n")
+    L.append(f"## Old {EXHIBITS['t2']['label']} (Figure 2's data and the store's record; not in the report since Mon 23 "
+             f"Nov; the label \"Table 2\" now prints on the watch list). {EXHIBITS['t2']['title']}\n")
     L.append(f"{EXHIBITS['t2']['section']}. Source: NUMBERS 8i (MODEL; the spread of the flexibility from 8j's joint "
              f"replay column), `results_joint_stress_{D.REGISTER_DATE}.json`.\n")
     rows = [[name] + D.table2_cells(v) for _, name, v in D.TABLE2_WORLDS]
@@ -1368,7 +1395,8 @@ def tables_md(measures):
              "note.\n")
 
     # Table 3
-    L.append(f"## {EXHIBITS['t3']['label']}. {EXHIBITS['t3']['title']} (working title)\n")
+    L.append(f"## {EXHIBITS['t3']['label']} in print (Keel files: Table 3, the watch list). {EXHIBITS['t3']['title']} "
+             "(working title)\n")
     L.append(f"{EXHIBITS['t3']['section']}. Source: SKELETON Exhibits item 4 (Thu 12 Nov spec: card Q30's cut, the bond "
              "reader of Wed 11 Nov, Keel's definitions of the two reasons); every figure from NUMBERS 2, 5, 8d, 8h and "
              "8j (and row 5's limit from NUMBERS 4) through `exhibit_data.py`, checked. Single-spaced; each level is an "

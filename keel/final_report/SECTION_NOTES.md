@@ -1,5 +1,61 @@
 # Section notes: one block per part, for the writers of Fri 27 Nov (Wed 25 Nov 2026, Day 18)
 
+## Caplet's v2 map (Thu 26 Nov)
+
+Friday writes a complete draft to Caplet's v2 map (`CAPLET_DOC_2026-11-25.md`; Caplet's word wins over every block
+below). The blocks below stay the checkers' brief for content; this table gives the order, the asks and the budget.
+Sources: `research/day19_2026-11-26/CAPLET_MAP.md` (Wharton's asks E1-E21; the 14 asks Caplet's outline does not
+clearly place, here U1-U14; the word budget) and `research/day19_2026-11-26/CHECK_PLAN.md` (fixes and re-pointings).
+
+**Reading rules for every block below.** In print, Table 2 is the watch list (this file's "Table 3"); where a block
+says "Table 2", read Figure 2 and its note. A line marked "Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC)" is
+history: no checker follows it. Every "Conceit turn" inside a part is a reserve: pencil and ink appear once in
+Section 2's opening and, optionally, once as a closing echo inside 3f's last paragraph. No letter or sentence promises
+to make up a shortfall from the half of the shares promised to no one (COSPONSOR_NOTES C3 dropped; IPS l.15; CANON
+A30). "Secures" is raised with Caplet, not adopted: "buys before she states it", and a gift office's "committed".
+
+| Caplet's part (pages) | Blocks below | Asks it must answer (Wharton E; unplaced U) | Exhibit | Words: target / ceiling |
+|---|---|---|---|---|
+| Title page (p1) | Title page | E19, E20 | None | none |
+| S2 opening (p2): the question, the deletion test as the unexpected insight, pencil and ink once | 2.0 | E2 (the thesis), E5 (the test is the evidence the plan does what the IPS says), E16 (evaluates IPS l.11, never repeats it) | Points to Table 1 | 100 / 115 |
+| S2 para 1, the investment decision: willing to take risk against able to bear it (p2) | 2.3 (her career "later and smaller", one dated cash flow, the 2028 deposit; aha 2, the order of purchase); 2.0's reason; dedication named here or in para 2, where construction begins | E2, E3, E5, E16; Client Knowledge (case l.86, l.114); round 21: the payments' recipient, the building and the co-sponsors set up here, before Table 1 | None | 75 / 85 |
+| S2 para 2, the evidence in the holdings (pp2-3) | 2.1, 2.2 (the rule, not a target mix; 2037's fund and its reason; the extra Treasuries' job), 2.3 (diversified across dates, not issuers; the layers left; IBTM's quarter with its risk and what covers it) | E1, E2, E3, E4, E17, E18 (each payment's cash arrives before its date; VT trades daily); U10 (diversification and the roles of the main holdings, in Wharton's words) | **Table 1** | 120 / 140 |
+| S2 para 3, the $300,000 WInS portfolio against the $450,000 plan (p4) | 2.1 ($302,287, $2,287 over, completed for $2,388 in January 2028); 2.2 (the three dated steps); "the floor" set up here with the January 2028 purchase | E5, E15, E16 (IPS l.13), E17; U11 (projections from $300,000 in January 2027 and $150,000 in January 2028, the frozen portfolio's instruments only, no WInS gains; repeated in Figure 2's note) | Table 1's note (the reconciliation, in numbers) | 80 / 90 |
+| S2 para 4, the decision under pressure: the 25-basis-point check (p4) | 2.5 (aha 3, the rare year; the one-trader rule with the click as its reason) | E5 (how effectively it was implemented) | Table 1's "Units bought / target" column | 75 / 90 |
+| S2 para 5, the next question (p4) | 3a's planted question (interest arrives early, its reinvestment rate is unknown; "cash waiting" set up in a clause); round 21's forward line naming the cost | Bridge to E6 and E7; E16 | None | 50 / 55 |
+| **Section 2 (pp2-4)** | | | Table 1, 22.9 lines | **500 / 575** |
+| S3 "Ten payments, ten dates" (pp5-6) | **3.0 here**, as the part's first paragraph (about 60 words); then 3a | E6, E7, E15, E18; U1 (the recommendation in one paragraph: ten years of payments held in Treasuries before the doors open, "a base, not the residency's whole budget", the reserve, the range and its confidence; the 6 November 2026 curve dated here, once); U2 (the reserve recommended as one, "we recommend a reserve of ...": its size, what it holds, how it runs down: each Treasury pays out before its own 1 January, nothing is sold, the extra Treasuries released by one rule); U3 ("a high degree of certainty" defined in so many words, how it was tested, its assumptions; the ink definition's two conditions land here); U9 (each payment's cash arrives before its 1 January) | **Figure 1** (its basis decided with the exhibits owner: CHECK_PLAN row 16) | 220 / 290 |
+| S3 "What certainty costs" (p7) | 3b's first half (the contribution and why shares, why half; aha 6); NUMBERS 4's cost table; the 2028 deposit's three uses; "one step further" planted | E8, E12 (the 7.5% first said here), E18; U4 (the facility contribution said as a recommendation in the part's first sentence: what the late-2032 Treasury fund pays plus the half of her shares moved in January 2031, never more than the top she states, and what she keeps, then the price); U9 (her flexibility sits in a fund traded every day) | First callout of Figure 2 (beside aha 6) | 180 / 230 |
+| S3 "Before Laura gives her word" (pp7-9) | 3c (two layers, held first; aha 1); 3d (the team's lead-in with Spelman and Lehman and aha 8; then Laura's words, set off) | E9, E10, E11; U5 (Laura's words, about 200-250, as a block under a sub-heading such as "In Laura's words", after the range and the lead-in); U6, first half (before the move only share prices move the top; aha 4's figure is said in part 1, so this part points back) | **Figure 2** placed here; Table 2 in print (the watch list) right after Laura's words | 385 (150 / 35 / 200) / 500 (190 / 60 / 250) |
+| S3 "When the world changes" (pp10-11) | 3e (the two reasons; how each promise could fall short, one figure each, with what covers it; ahas 9 and 9b; the gilt crisis); 3b's second half (her flexibility: $21,179 central; $28,682 with anything above the top; $9,621 in 1 future in 20; the 25% cover with its return) | E10, E12, E13, E16, E21; U6, second half (after the move no fall in share prices moves either end; only a fund's own costs or an early end could make it pay a little less); U7 (the case's five areas, one sentence each, or Figure 2's note named); U8 (the watch list in one sentence, with Wharton's "Laura or her asset management team" and each row's act; a change moves a figure she can state, never a payment, and only IPS l.17's two reasons change the plan); U13 ("a rise of about 25% in the cost of her share, if shares earn the 7.5% a year assumed", never a facility cost or funding gap) | Table 2 in print sits before this part's prose | 170 / 210 |
+| S3 "Why we changed our minds" (pp11-12, last) | 3f (aha 10; the copout told as it happened); the close | E14, E16; U12 (last, as Wharton requires; the closing echo of pencil and ink goes inside its last paragraph, never after it; the title must not suggest the copout changed the plan: what changed was the first plan, dropped for IPS l.9's reason) | None | 300 / 400 |
+| **Section 3 (pp5-12)** | | | 63.7 exhibit lines | **1,255 / 1,630** |
+| References (p13 on) | References | E19; U14 (a separate References page; APA in-text citations; page numbers bottom left; Times New Roman, a Chinese font for any epigraph characters) | None | Not counted |
+
+**"Before Laura gives her word" (3c with 3d): the overload resolved (Keel's call, Thu 26 Nov).** The part held two
+outside parallels, three ahas and about 450-500 words. It keeps one parallel, **Spelman and Lehman** (it carries aha 8
+and the letter), and two ahas, **row 1** (by 2031 nothing is left to estimate; the odds belong to the years before) and
+**row 8** (owned answers whether she can pay; signed answers whether she will). To reserves: **the RBA** (3c's
+parallel; not even a clause, since a clause is still a second parallel) and **aha 7** as an aha (speaking early). Aha
+7's fact (a top named a year early would exceed what the move buys in about 11 of 100 futures) may stand as one clause
+inside aha 1's sentence, as the reason nothing above the bottom is stated before the move; never told as its own
+puzzle and key. Neyman stays a clause at most, or none.
+
+**Other placements (CHECK_PLAN section 2).** Aha 4 ("certainty has dates", with NUMBERS 8p's 40% fall before the move:
+about $95,000-$105,000, the bottom and every payment unchanged) is the last sentence of part 1's recommendation
+paragraph, so part 1 holds ahas 4 and 5 (the cap is two). The $39,162 split ($2,388 completes the ten; $36,774 of
+extra Treasuries sizes the operating reserve) is said once, in part 1; part 2 points back to it in the 2028 deposit's
+three uses ($39,162 / $81,244 / $29,594) and never splits it again. Part 2 also carries the cost table: if the ten were
+sized only at the rates implied by today's prices, with no extra Treasuries, the same rule would state $125,000 to
+$155,000 (NUMBERS 4, "No margin"), against $95,000 to $115,000; "the top" is set up in that sentence's clause ("the
+top figure she could state in 2031"). Where the reserve's size is printed (part 1's recommendation sentence or Figure
+1's note) waits on the lead's NAME_ORDER decision 7 (CAPLET_MAP section 4 item 9); it is printed once. Budget: write to
+the targets; lay the draft out in the template before any cut; spare room goes first to the reflection (to 400), then
+Laura's words (to 250). Section 3 starts on a new page (page 5). If a part runs long, cut that part, never the next.
+This replaces the budget line below (seven Section 3 blocks at about 200 words each).
+
+---
+
 **Caplet's working doc (Wed 25 Nov 2026, late evening).** Caplet is drafting in its own doc to its own map (v2 tab; `CAPLET_DOC_2026-11-25.md` maps each paragraph to the blocks below, which still hold as the checkers' brief). Four changes from it: pencil and ink restrained to an opening reference and a closing echo; no make-up promise in Laura's letter (3d; IPS l.15 promises half the shares to no one); Section 2 opens on a question, then the deletion test; Figure 1 rebuilt on the fee-and-margin ledger or its basis labelled.
 
 Notes only, never sentences to paste: the writers write from Caplet's own voice and the fact sheet, and the main
@@ -15,7 +71,8 @@ Knowledge, PA Portfolio Analysis, AR Articulation, CP Creativity and Presentatio
 turn** / **Numbers** / **Exhibit** / **Sources** / **CANON** / **Trap**.
 
 Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 1,650 words, Figures 1-2 and Table 3;
-3f about 400, every other Section 3 part about 200 (3d's Laura passage may run to 250).
+3f about 400, every other Section 3 part about 200 (3d's Laura passage may run to 250). [Superseded Thu 26 Nov by the
+budget in "Caplet's v2 map" above: five parts, 220 / 180 / 385 / 170 / 300 words as targets.]
 
 ---
 
@@ -40,21 +97,53 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 
 ## Section 2. Portfolio Implementation (tree Branch 1; Wharton: 2-3 pages with Table 1)
 
+**Voice round 21 (Thu 26 Nov, `voice/ROUND21.md`; Section 2 written whole to Caplet's map, three blind readers).** For every
+Section 2 paragraph:
+- **Set up who and what before Table 1.** "Facility", "the floor" and "co-sponsors" reached all three readers before
+  they knew there was a building, who the other funders are or who the ten payments are owed to. Before the table, one
+  plain sentence each: the ten payments of $50,000 a year, 2033-2042, go to the residency for its running costs; the
+  building is the residency's facility, toward which Laura contributes once, in January 2033; the co-sponsors are the
+  other funders she approaches in 2031. Say what the payments are: "whose dates and amounts are fixed", never an
+  elided "are not" (heard as "not owed" or "not uncertain").
+- **Name the cost of the 90% in one forward line.** The judge found Section 2 describes and never weighs the Treasuries'
+  89.55% (Table 1) against an alternative or names what it costs. Section 2 ends with one line that names the price and
+  points to "What certainty costs", for example: the first $39,162 of the 2028 deposit buys the payments' standard, and
+  without it the same rule would state $125,000 to $155,000 rather than $95,000 to $115,000 (NUMBERS 2, 4). Section 3's
+  first parts answer it.
+- **No real event without its purpose in the same paragraph** (Book 18). "Eric fell asleep before it" is out: a name
+  never set up and no purpose a reader sees; the 00:30 open stays out of Section 2. The one-trader rule is said with the
+  click that led to it, as 2.5 says.
+- **No figure-free parenthesis.** "We built the account in October, before sizing one more set of Treasuries" made sense
+  to no reader: it goes to Table 1's note with the reconciliation's numbers, or out.
+- **Say each date a reason rests on.** Why a bond paying out ten and a half months early is worse needs the 2037
+  payment's date (1 January 2037); why a price too high could mean a bond nobody was trading needs its reason; "shortly
+  before" is wrong for the two early bonds. Continue the register of Caplet's own opening, never a plainer procedural one
+  (all three heard the join).
+
 ### 2.0 The lead (about 100 words)
 
-- **Job.** The deletion test first: every share worth nothing, all ten payments still paid on their dates and the
-  building still gets the bottom, $95,000 on the 6 November 2026 curve; only the top and her flexibility go. Then its
-  reason (the order of spending puts every promise into Treasuries before any money goes into shares), finance's name
-  for the family in one clause, the one thing claimed as new (the same rule applied to a promise not yet made, on the
-  date it is made), the definition of ink at first use, then Table 1.
+- **Job (Caplet's four moves, Thu 26 Nov).** A question first (Caplet's wording; Keel's candidate "When does Laura's
+  money stop being hers to risk?", which needs no name set up); then the deletion test as the unexpected insight: every
+  share worth nothing, all ten payments still paid on their dates and the building still gets the bottom, $95,000 on
+  the 6 November 2026 curve; only the top and her flexibility go. Its reason: the ten and the bottom are bought in
+  Treasuries before any money goes into shares (January 2028); the top is bought in Treasuries from half the shares
+  before she states it (January 2031). Then pencil and ink once, then construction. Finance's name for the family
+  (dedication, with Leibowitz once) and the one thing claimed as new (the same rule applied to a promise not yet made, on
+  the date it is made) move to paragraph 1 or 2, where construction begins (CAPLET_MAP section 4 item 4); at most one of
+  "liability-driven investing" or "cash-flow matching" in print, in that sentence. [Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC): the deletion test
+  as the first sentence; the old one-clause reason for the test, false for the top, is removed.]
 - **Criteria.** IS (the thesis a judge can repeat), CP (the report's one surprise in plain words).
 - **Ideas, carried.** H8-123 (the deletion test; H1-070 merged into it today), Q181-001 (the pencil judgment imagines
   the eraser gone: the same test), Q1c-029 (Leibowitz on dedication), Q150-007 and H3-003 (dedication against
   immunisation; Redington's rebalancing), H3-001 (liability-driven investing in one line). Goldmine 29.
 - **Aha.** None of the ten; the deletion test is the lead and 3e's proof sentence (tree section 4).
-- **Conceit turn.** The definition at first use, attack-day form: a dollar figure is in ink once Treasuries held for
-  her, directly or through Treasury funds, will pay it on its date, counted as if their cash earned nothing more and
-  after the 0.5% margin; pencil, a figure no Treasury held for her will pay yet. Glossed in the same sentence.
+- **Conceit (the one opening reference, Caplet's restraint).** Pencil starts from her uncertain career income,
+  continuing IPS l.19 ("You take risks on the page"); ink is a commitment backed by Treasuries held for her, said
+  exactly: a dollar figure Treasuries held for her, directly or through Treasury funds, will pay on its date. The
+  general gloss may follow, with her career as its first example (and the shares promised to no one as the second, if
+  Table 1's "VT the only pencil" clause is kept). The two conditions (counted as if their cash earned nothing more;
+  after the 0.5% margin) move to "Ten payments, ten dates", where the standard is defined. [Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC): pencil
+  defined first as "a figure no Treasury held for her will pay yet", and both conditions in Section 2's definition.]
 - **Numbers.** NUMBERS 4 (the bottom, $95,000, dated to the 6 Nov curve); NUMBERS 0 (the curve).
 - **Exhibit.** Table 1 follows.
 - **Sources.** Leibowitz (1986a), Financial Analysts Journal 42(1), 68-75, read again by card Q242: cite him for
@@ -76,7 +165,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   Treasuries pays $500,000, in TNA l.7's words). The reconciliation (the WInS portfolio x 1.5 against the plan; never "book" in print, NAME_ORDER decision 5) is Table 1's note,
   not prose.
 - **Aha.** None.
-- **Conceit turn.** Beside Table 1: every Treasury row ink, VT the only pencil (one clause beside the table, never in its note: CONCEIT guard 4; NAME_ORDER decision 9).
+- **Conceit turn.** [Reserve. Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 1: no turn in a part; the device appears once in Section 2's opening and, optionally, once as a closing echo inside 3f's last paragraph. Checkers never ask for this. Kept only if the opening's pencil includes the shares promised to no one.] Beside Table 1: every Treasury row ink, VT the only pencil (one clause beside the table, never in its note: CONCEIT guard 4; NAME_ORDER decision 9).
 - **Numbers.** NUMBERS 8g (holdings at cost), 2 ($302,287; $2,388), 8x (the reconciliation's figures).
 - **Exhibit.** Table 1.
 - **Sources.** iShares and Vanguard fund pages (dated); Treasury auction records for CUSIPs (card Q38).
@@ -130,7 +219,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   deposit's size is unknown, nothing below the ten has been promised to anyone, so the loser is money not yet
   promised; a waterfall makes up a shortfall from next month's money, and Laura has no next month. At most one
   clause of comparison, or none.
-- **Conceit turn.** One eraser, three lines: a recession can make her advances, share prices and co-sponsors' budgets
+- **Conceit turn.** [Reserve. Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 1: no turn in a part; the device appears once in Section 2's opening and, optionally, once as a closing echo inside 3f's last paragraph. Checkers never ask for this.] One eraser, three lines: a recession can make her advances, share prices and co-sponsors' budgets
   later and smaller in the same downturn ("can", never "together").
 - **Numbers.** NUMBERS 5 (a deposit about three-quarters smaller), 8x (IBTM 24.3% of all she holds in late 2032 at net
   asset value, a note's figure; "about a quarter" is WORDS' for 26.1%).
@@ -140,7 +229,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 - **CANON.** A1-A2 (the career thesis), B3-B4 ("later and smaller"), D8, D11.
 - **Trap.** "Natural hedge"; a beta or a steady link for her income; "her genre fell 22.4%"; 1 - 0.99^10; "debt
   service first" as the standard institutional rule (Q245 changed it); Kimball as a rule of order.
-- **Voice round 20.** IBTM's quarter is said with what the concentration risks and who covers it (a fund's payout is not fixed and the fund can end early; her signed letter makes up any shortfall in the top; Table 3 row 4 watches an early end), never with only the reason a fund was used rather than a bond (all three stopped). "So we buy no shares until that deposit has arrived" is followed by what a smaller deposit does to the building: the bottom and the top fall, the ten do not (all three stopped; the consultant asked first). "Later" is shown, not left implicit: receipts kept falling after shares had turned (two of three).
+- **Voice round 20.** IBTM's quarter is said with what the concentration risks and who covers it (a fund's payout is not fixed and the fund can end early; her flexibility is there if the fund pays a little less, her own choice, 3e; Table 3 row 4 watches an early end; [Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 2: the signed letter's make-up undertaking]), never with only the reason a fund was used rather than a bond (all three stopped). "So we buy no shares until that deposit has arrived" is followed by what a smaller deposit does to the building: the bottom and the top fall, the ten do not (all three stopped; the consultant asked first). "Later" is shown, not left implicit: receipts kept falling after shares had turned (two of three).
 
 ### 2.5 How well it was done (about 100 words)
 
@@ -153,7 +242,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   shortfall), H8-140 (an independent price check). Goldmine 3, 4 (merged into 40), 40.
 - **Aha (row 3): the rare year.** Built to need the year, not the day; its limit (a fall in yields of about 3.6 points
   before January 2027) is 3e's.
-- **Conceit turn.** In a market a click is ink, with the plain reason in the same sentence.
+- **Conceit turn.** [Reserve. Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 1: no turn in a part; the device appears once in Section 2's opening and, optionally, once as a closing echo inside 3f's last paragraph. Checkers never ask for this.] In a market a click is ink, with the plain reason in the same sentence.
 - **Numbers.** NUMBERS 8m (the price checks), 2 (the ten's cost), 8x.
 - **Exhibit.** Table 1's "Units bought / target" column and its note.
 - **Sources.** Perold (1988); SEC rule 15c3-5 as a likeness only (card Q88).
@@ -169,6 +258,8 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 
 ### 3.0 The recommendation in one paragraph (about 80 words)
 
+- **Home (Thu 26 Nov).** The first paragraph of Caplet's "Ten payments, ten dates", about 60 words (CAPLET_MAP U1):
+  the 6 November 2026 curve is dated here, once; aha 4 is its last sentence (see "Caplet's v2 map" above).
 - **Job.** Ten years of her operating commitment held in Treasuries before the residency's doors open, "a base, not the
   residency's whole budget"; then the reserve, the range and the confidence in one paragraph; certainty has dates.
 - **Criteria.** IS, CP (the answer before the argument).
@@ -176,7 +267,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   yearly and can be cut, so her ten payments are the base; rated 18 today), Q6c-015 and Q6c-016 (a 40% fall before the
   move gives about $95,000-$105,000; after it, neither end moves).
 - **Aha (row 4): certainty has dates.** A fall can shrink the next figure she states, never one already stated.
-- **Conceit turn.** The run is finished before it is offered (CONCEIT 3.0 row), one clause at most, or plain.
+- **Conceit turn.** [Reserve. Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 1: no turn in a part; the device appears once in Section 2's opening and, optionally, once as a closing echo inside 3f's last paragraph. Checkers never ask for this.] The run is finished before it is offered (CONCEIT 3.0 row), one clause at most, or plain.
 - **Numbers.** NUMBERS 8p (the 40% fall), 4 (the range), 2 (the reserve's size, printed once: in 3a's first sentence).
 - **Exhibit.** None.
 - **Sources.** Card Q202 (Hong-Gah Museum's running cost) only in the store.
@@ -199,7 +290,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   forward-rate case). Goldmine 6, 15, 16 (Figure 1's note), 41; reserves 28 and 33 (below).
 - **Aha (row 5).** The rate on reinvested interest was the one forecast the trade notes left ("reinvested coupons fund
   the rest", WN l.18, CANON A17), and the extra Treasuries take it out.
-- **Conceit turn.** The one line that waited in pencil, the interest on cash waiting, inked in January 2028 by the
+- **Conceit turn.** [Reserve. Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 1: no turn in a part; the device appears once in Section 2's opening and, optionally, once as a closing echo inside 3f's last paragraph. Checkers never ask for this.] The one line that waited in pencil, the interest on cash waiting, inked in January 2028 by the
   extra Treasuries.
 - **Outside parallel.** The California State Lottery Commission's investment policy (reaffirmed 25 September 2025,
   s.III), quoted whole; its break: the lottery holds zero-coupon Treasuries, so it has no interest to reinvest.
@@ -216,9 +307,12 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   2033 money, comes back by 2042" stopped all three; give the figure and when it comes back, and put its dating basis
   in Figure 1's note. (3) Everything else in A was followed: the standard's reason, the $39,162 split, the schedule
   and the two pots, all said back from memory by all three.
-- **Numbers.** NUMBERS 2 (the standard; $39,162; $2,388; $36,774; $46,566 shown as about $46,600; $1,177 spare), 8x
-  (the reserve pays about $502,600 at zero interest against $500,000; market value about $445,700, 111.7%: Figure 1's
-  note only), 3 (the 0.5% margin).
+- **Numbers.** NUMBERS 2 (the standard; $39,162; $2,388; $36,774; $46,566 shown as about $46,600), 8x (market value
+  about $445,700, 111.7%), 3 (the 0.5% margin). **Three bases (CHECK_PLAN row 16), one in print:** no fee or margin, the
+  reserve pays $502,604 at zero interest ($2,604 left; NUMBERS 8x); fee only, $444,080 + $55,920 ($1,177 left; Figure 1
+  today); fee and margin, $442,930 + $57,070 = $500,000, nothing left (NUMBERS 2; Caplet's map). Prose follows the basis
+  Figure 1 prints and labels any other figure with its basis; never "$502,605", never a bare "$1,177 spare" or "about
+  $502,600".
 - **Exhibit.** Figure 1, the reserve schedule (year, instrument, payout at zero further interest, the extra
   Treasuries' face; one release rule).
 - **Sources.** California State Lottery Commission (2025); MSRB glossary; Fama and Bliss (1987); Campbell and Shiller
@@ -243,7 +337,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 - **Aha (row 6).** In the central case, like for like, an all-Treasury plan holding back the same flexibility states
   $110,000 against $115,000, because the cautious count cuts a 2028 purchase about 4.7% and a 2031 one about 3%;
   Figure 2's bad world beside it.
-- **Conceit turn.** Ink only goes one way, glossed in dashes with what it shows (the figure rounded down, anything above
+- **Conceit turn.** [Reserve. Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 1: no turn in a part; the device appears once in Section 2's opening and, optionally, once as a closing echo inside 3f's last paragraph. Checkers never ask for this.] Ink only goes one way, glossed in dashes with what it shows (the figure rounded down, anything above
   it to her flexibility, half the shares pencil on purpose). Never as raising a stated range.
 - **Numbers.** NUMBERS 4 and C8 (4.65% and 2.98%), 8o (about $270 per $5,000 made certain; the flat stretch), 8u
   (about 25% cover if shares earn 7.5%; 23.6% at 6.5%), NUMBERS 4's table ($21,179 central; $9,621 in 1 future in 20).
@@ -270,14 +364,14 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   rated 21 today; goldmine 25), H6-125 (people hear odds in bins, so an owned end is stated as a fact; rated 17 today),
   H3-007 and Q16-001 (IBTM's own words on its payout and end), Q28-023 (two different ranges in one table), Q14a-015
   (counts out of a stated whole). Goldmine 9 (Figure 2's note), 10, 25.
-- **Ahas (two).** Row 1: by 2031 nothing is left to estimate; the odds belong to the years before. Row 7: speaking
+- **Ahas (two; Thu 26 Nov: row 1 only, since the part shares Caplet's "Before Laura gives her word" with 3d's row 8; row 7 to reserves, its 11-in-100 fact one clause inside row 1's sentence at most).** Row 1: by 2031 nothing is left to estimate; the odds belong to the years before. Row 7: speaking
   early is the risk (a top named a year early would exceed what the move buys in about 11 of 100 futures).
-- **Conceit turn.** Two inkings, two dates, said as a verb (inked in January 2028; inked before the 2031 meetings).
-- **Outside parallel.** The RBA: Media Release 2021-01, 2 February 2021 ("until 2024 at the earliest"; card Q243 today:
+- **Conceit turn.** [Reserve. Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 1: no turn in a part; the device appears once in Section 2's opening and, optionally, once as a closing echo inside 3f's last paragraph. Checkers never ask for this.] Two inkings, two dates, said as a verb (inked in January 2028; inked before the 2031 meetings).
+- **Outside parallel.** [To reserves Thu 26 Nov: Caplet's part "Before Laura gives her word" holds 3c and 3d, and its one parallel is Spelman and Lehman (see "Caplet's v2 map"). Not even a clause.] The RBA: Media Release 2021-01, 2 February 2021 ("until 2024 at the earliest"; card Q243 today:
   never cite release 2021-02, a payments-board update); its Review of the forward guidance, 15 November 2022, printed
   p.14 ("many people interpreted the forward guidance as 'a promise'"); the "pledge" endnote is on p.18, not p.17.
 - **Numbers.** NUMBERS 4 (the range, its rule, 91 and 57 in 100, 11 in 100), 0 (the curve's date), 8v (the forecast's
-  small effect: Table 2's note).
+  small effect: Figure 2's note).
 - **Exhibit.** Figure 2 (the dots: "In every market tested, all ten payments are paid in full"; history rows the median
   only).
 - **Sources.** Reserve Bank of Australia (2021, 2022); Neyman (1934), a clause at most.
@@ -288,13 +382,14 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 
 ### 3d Words for co-sponsors (Laura's passage about 250 words, the team's lead-in apart; tree Branch 5)
 
-- **Job.** The team's lead-in (she shows co-sponsors the Treasuries held for her and gives them a signed letter; what
-  the building's Treasuries will pay by December 2032 is more than $115,000, so her undertaking covers only what the
-  fund itself might take; the letter binds her estate), then her words: two sentences of purpose from the case; the
+- **Job.** The team's lead-in (she shows co-sponsors the Treasuries held for her and gives them a signed letter stating
+  the sum, $115,000 in US dollars, its purpose, its date and what holds it; what the building's Treasuries will pay by
+  December 2032 is more than $115,000; the letter may say "this promise binds my estate", C10), then her words: two sentences of purpose from the case; the
   range with its two dates and one plain sentence of confidence with the Treasuries as its subject; "two dates, not two
   outcomes"; why the top (the $20,000 between the ends came from the shares moved in January 2031, the building's half
-  from the start); her whole commitment in two parts, "$615,000 in all"; the letter's sum fixed at $115,000 in US
-  dollars, any shortfall hers; what she asks; what is never asked.
+  from the start); her whole commitment in two parts, "$615,000 in all"; the letter's sum, $115,000 in US dollars;
+  what she asks; what is never asked. No undertaking to make up a shortfall. [Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 2: "so her undertaking
+  covers only what the fund itself might take" and "any shortfall hers".]
 - **Criteria.** CP (communicates the contribution and its uncertainty to co-sponsors), CK.
 - **Ideas, carried.** Q213-016 (Lehman's own pledge to Spelman), Q213-001, Q213-003, Q213-004 (the accounting test is
   paper; a way out makes it an intention; FASB avoids "pledge"), Q213-027 (no failed pledge read had money held for the
@@ -309,9 +404,10 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
 - **What stands behind the signed top (voice rounds 18 and 19: asked by every reader of both rounds).** In the lead-in,
   never her words: the late-2032 fund's two purchases behind the top will pay $117,731 counted with no more interest,
   against $115,000 signed (NUMBERS 3); the five ended Treasury iBond funds paid within about 0.07% of their last price
-  (card Q3c); the make-up is for a fund's own costs, which no share price moves. Then co-sponsors see the broker's own
-  statement of the building's account (NUMBERS 8y: about $111,700 at the move, passing $115,000 about late August
-  2031, so beside it what its Treasuries will pay by mid-December 2032).
+  (card Q3c); what could make the fund pay a little less is its own costs or an early end, which no share price moves.
+  Then co-sponsors see the broker's own statement of the building's account (NUMBERS 8y: about $111,700 at the move,
+  passing $115,000 a few months after the move, no model date in print, cold aha test 10; so beside it what its
+  Treasuries will pay by mid-December 2032). [Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 2: "the make-up is for a fund's own costs".]
 - **Numbers.** NUMBERS 4 (the range; $115,000), 3 ($117,731; at most $4,589 if a fund ends early with cash at zero),
   8k ($615,000 as a sum of promises at face), 8y (the statement).
 - **Exhibit.** None (Laura's words are never in a table).
@@ -328,15 +424,16 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   planners from January 2028, and since Tue 24 Nov "$95,000, held since January 2028" there too); "she pays first";
   "certain"; "on today's figures" beside the letter's sum; "intends" or "plans"; "lead gift"; "secured"; "covers the
   decade"; a statement figure in her words; "escrow"; "monthly statement" as a rule.
-- **Cold aha test 10 (Wed 25 Nov evening): the statement below the signed top.** All three readers chose it for co-sponsors (conviction 4.0), so the lead-in carries it as planned (NUMBERS 8y): on the move day the building's Treasuries show about $111,700 against the $115,000 signed, and what they will pay by December 2032 is never under about $117,700 even if their cash earns nothing more. Three fixes: the team's lead-in states what the holding will pay, never the broker; "nothing is missing" is said of Treasuries held to their dates, and for the fund the letter's make-up (any shortfall in what the fund pays is hers) is named beside it; no model date for when it passes $115,000 ("a few months after the move" or nothing). A lead-in fact, not a spine row (the professor: a teaching example).
+- **Cold aha test 10 (Wed 25 Nov evening): the statement below the signed top.** All three readers chose it for co-sponsors (conviction 4.0), so the lead-in carries it as planned (NUMBERS 8y): on the move day the building's Treasuries show about $111,700 against the $115,000 signed, and what they will pay by December 2032 is never under about $117,700 even if their cash earns nothing more. Three fixes: the team's lead-in states what the holding will pay, never the broker; "nothing is missing" is said of Treasuries held to their dates, and for the fund, whose payout is not fixed, the room under the top is named beside it ($2,731, about 2.32% of the $117,731 it pays at zero interest; NUMBERS 3, 8u) [Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 2: "the letter's make-up"]; no model date for when it passes $115,000 ("a few months after the move" or nothing). A lead-in fact, not a spine row (the professor: a teaching example).
 - **Card Q251 (Wed 25 Nov evening; rated ES).** The statement's figure is its "market value" (a statement prices IBTM at its closing market price, 0.06% to 0.09% from net asset value on normal days), never "net asset value". Below the signed top on the move day is the ordinary shape of a dated promise: a US savings bond shows its cash-today value, below its sum, until the Treasury adds the rest on its date, and issuers of zero-coupon municipal bonds print a dated table of accreted values; either is a reserve for the lead-in's one clause, never a second parallel in 3d (Spelman and Lehman is 3d's), and never "the statement cannot fall" (a savings bond's value is a formula; IBTM's is a market price, which a rise in yields can lower for a while). A US recipient's books would also carry her letter below $115,000 until January 2033 (FAS 116 para 20; donors read the climb as part of the gift, para 115): a fact for the store, since whose books depends on the residency's form, outside the case.
 
 ### 3e Assumptions, limits and what to watch (about 200 words; tree Branch 6)
 
-- **Job.** Only two things change the plan, and neither is a market price (no 2028 deposit by 31 March 2028; a
-  Treasury payment more than five business days late). Then how each promise could fall short, one figure each, with
+- **Job.** Only two things change the plan, and neither is a market price: IPS l.17's "a missed deposit or a Treasury
+  default" (in our reading, Table 3 and card Q30, said as ours, never as the IPS's words: no 2028 deposit by 31 March
+  2028; a Treasury payment more than five business days late). Then how each promise could fall short, one figure each, with
   who carries the loss: the ten payments (a deposit about three-quarters smaller); the top she states (the fund's own
-  costs past about 2% of what it pays, made up from her flexibility under the letter); her flexibility (a rise of about
+  costs past about 2% of what it pays; her flexibility is there if the fund pays a little less) [Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 2: "made up from her flexibility under the letter"]; her flexibility (a rise of about
   25% in the cost of her share, if shares earn the 7.5% assumed). The hard case from history; Table 3 in one sentence;
   last, what no fall in share prices can change.
 - **Criteria.** PA (assumptions, limits, varying outcomes), CP (uncertainty said clearly), IS (the rule kept).
@@ -354,9 +451,9 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   24%, once through steel, once through the Taiwan dollar), which is the aha's count, said as two dated events; the four
   episodes since 1991 are the largest rises and only one followed a slump, so never "four times" as the aha's
   frequency. Five years on, world shares were about 17% below cost, never "about 10%".
-- **Conceit turn.** The closing line's gloss in dashes, rubbing out every pencil line, dated from January 2028 (voice
-  round 10) — **voice round 19: followed first time by one of three; it holds only once the top's sentence has said
-  what the make-up is for.** The writers test it plain against glossed in the session.
+- **Conceit turn.** [Reserve. Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 1: no turn in a part; the device appears once in Section 2's opening and, optionally, once as a closing echo inside 3f's last paragraph. Checkers never ask for this.] The closing line is plain: no fall in share prices can change the plan. History: the gloss in
+  dashes, rubbing out every pencil line, dated from January 2028 (voice round 10); voice round 19 followed it first time
+  in one of three readings.
 - **Outside parallel.** The 2022 gilt crisis, **in card Q243's corrected words (today):** the funds forced to sell were
   those that had borrowed against their gilts or used derivatives, pooled funds above all: long gilt yields jumped more
   than a percentage point in a few days, and the banks on the other side asked for more collateral faster than the
@@ -370,8 +467,9 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   late-2032 Treasury fund, bought again in January 2028 as the floor, which sets the bottom of her range", at that point; NAME_ORDER decision 3). (2) The top's limit
   stopped all three: name IBTM as the late-2032 Treasury fund at first use in the part; say what "costs beyond its fee"
   are (a fund's trading and the cash it holds near its end) and why a Treasury fund can pay out a little less than its
-  Treasuries; give the room and the record ($117,731 against $115,000; the ended funds within about 0.07%); say the
-  make-up is for a fund's own costs, which no share price moves. (3) The flexibility sentence: "her share of the
+  Treasuries; give the room and the record ($2,731 of room, $117,731 against $115,000, about 2.32%; the ended funds
+  within about 0.07%); say her flexibility is there if the fund pays a little less, her own choice, and that no share
+  price moves any of it [Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 2: "say the make-up is for a fund's own costs"]. (3) The flexibility sentence: "her share of the
   building" set up, and the cover at a lower return beside the 7.5% (23.6% at 6.5%). (4) The closing line after (2),
   so it is heard as true. The gilt sentence, the two reasons and Table 3's sentence were followed by all three: keep.
 - **Numbers.** NUMBERS 5 (three-quarters smaller), 8u (about 2%: 2.32% of $117,731; about 25%; 23.6% at 6.5%), 3
@@ -388,7 +486,7 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   broke", "nobody can make the plan sell", "every member was paid"; "automatic" or "stop-loss" for the 2031 move; a
   second parallel; the TNA's "nonexistent inflation risk"; "her shares do not tend to rise when costs do".
 - **Cold aha test 10 (Wed 25 Nov evening).** Row 9 kept (4.0 / 3.7, chosen for the limits by all three). All three asked what the 2000-03 episode did to her flexibility: in 8q's replay on Taiwan's own moves the January 2000 purchase is one of two January windows of 31 (1988, 2000) where her flexibility, with anything above the top, did not cover the move; say that with the episode, and keep the 25% cover in its own sentence with its return. **Second aha, 9b (tree section 4):** the ten payments ask one thing of anyone, not to sell what is already bought, and nothing in a crash; in one experiment, executives who had agreed a rule for when to stop backing a failing project broke it about half the time (8 of 17; Boulding, Morgan and Staelin, 1997). It replaces Q223-033 and Q222-027 as sentences: "only" shuts out a rise as firmly as a fall (a clause); Table 3's two plan-changing rows watch symptoms (its note, no citation). Traps from the readers: "rest on no rule" (one rule: holding what is bought); "the evidence on rules" for one experiment; "staying put costs nothing" without "for the payments" (a slump before the move costs part of the top); a fund swap among the acts that change the plan.
-- **Card Q248 (Wed 25 Nov evening; rated EW; reader studies of real investors, none of funders or judges).** The top's limit sentence is the one tested readers grasp least, a guarantee with a limit: it says what holds (the ten and the bottom), what can fall short and by about how much, and who makes it up (her letter, from her flexibility), in words set up inside 3e (readers do not link terms across sections, and one unknown term sinks the paragraph). A money figure over a percentage; the hard case with its dated history, never as a bare scenario (readers invent a likelihood or take it as a forecast); one denominator per part; no generic line ("markets can fall"); the limits in the team's own voice, never framed as a warning.
+- **Card Q248 (Wed 25 Nov evening; rated EW; reader studies of real investors, none of funders or judges).** The top's limit sentence is the one tested readers grasp least, a guarantee with a limit: it says what holds (the ten and the bottom), what can fall short and by about how much, and what covers it (her flexibility, her own choice; the letter carries no undertaking) [Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 2: "who makes it up (her letter, from her flexibility)"], in words set up inside 3e (readers do not link terms across sections, and one unknown term sinks the paragraph). A money figure over a percentage; the hard case with its dated history, never as a bare scenario (readers invent a likelihood or take it as a forecast); one denominator per part; no generic line ("markets can fall"); the limits in the team's own voice, never framed as a warning.
 - **Card Q250 (rated EU).** The Treasury's duty ends when it credits the custodian bank's account at the Federal Reserve (31 CFR 356.30), so a delay after that (broker, wire, the residency's bank) is never "a Treasury payment more than five business days late" and never a reason to change: IPS l.17 stays narrow and "guaranteed" stays true of the Treasuries. The waits between a holding's pay-out and each 1 January are NUMBERS 8m's (about 17 days for the funds, 47, 231 and 320 for the bonds), not the card's own counts. The standard "even if cash waiting earns nothing" covers every coupon and distribution from 2027, not only the last weeks.
 - **Card Q253 (rated ET).** The debt-limit risk is dated "2027" (the limit now binds about February-March 2027 and the X-date about August-December 2027), never "early 2028"; Table 3 row 2 still acts only on a payment more than five business days late. "Above the middle of published forecasts" holds with eighteen houses (BMO's 6.2% added); no median figure printed. October 2026's building-cost index (120.50, +7.18%) is the last the report can print (November's is released 8 Dec 2026, after the due date), said "October 2026, as first published".
 
@@ -452,11 +550,11 @@ Budget (tree section 7): Section 2 about 575 words and Table 1; Section 3 about 
   interest, the extra Treasuries' face; the release rule. Note: market value about $445,700 (111.7%) as a by-product;
   interest on interest is about 3% of the 2033 payment and about 15% of the last two (goldmine 16); the dating basis of
   "about $46,600" (voice round 19). NUMBERS 2, 8x. Trap: "uninvested cash"; "7.6 months" (the notes say 7.5).
-- **Figure 2 (3b-3c).** The dots, titled "In every market tested, all ten payments are paid in full"; rows for today's
+- **Figure 2 (placed in "Before Laura gives her word"; first called out in "What certainty costs" beside aha 6, Thu 26 Nov).** The dots, titled "In every market tested, all ten payments are paid in full"; rows for today's
   market rates, a recession from history, rates lower for good, an inflation world; history rows the median only. Note:
   the 7.5% as "above the middle of published forecasts" (no median figure), the forecast's small effect, the
   assumptions. NUMBERS 4, 8i, 8p, 8v. Trap: a 5th or 95th percentile; "forward rates" as a row name; "the gift".
-- **Table 3 (3e).** Three lists; every "Changes" cell an act; the late-2032 fund watched for an early end or merger
+- **Table 3 (3e; prints as Table 2, right after Laura's words).** Three lists; every "Changes" cell an act; the late-2032 fund watched for an early end or merger
   all year and its scheduled end in September-October; the statement line for co-sponsors (3d). NUMBERS 3, 8j, 8y.
   Trap: a building-cost trigger (CANON A34: two reasons only); "monthly"; "automatic".
 - **Table 3, cards Q249 and Q250 (Wed 25 Nov evening; rated EV and EU).** Each dated row rides a document that arrives anyway (the broker's statement, at least quarterly; the funds' end notices each October; the January trade confirmations; the 2031 meetings), since a set date with no cue is kept less well (Kvavilashvili and Fisher 2007: 10 of 19 against 16 of 20); row 7 rides the statement. A watch row's look stage names a small act (row 1: confirm the 2028 deposit's date with Laura by 1 December 2027); row 2 keeps its look (a debt-limit deadline within a month) apart from its act (a payment more than five business days late). The Who column uses Wharton's own pair, "Laura or her asset management team" (the Final Report instructions, WHARTON_NORTH_STAR l.122). Each row says its act (cold aha test 10). A note under the table may carry the December send-by date: the first payment and the facility contribution fall due together in January 2033, and Taiwan's banks close Fri 24 and Fri 31 December 2032 while the Federal Reserve is open, so the money leaves New York by about Wed 29 December, in US dollars to a US-dollar account (card Q250: into a NT$ account a large wire waits for a form). Bank forms, fees and Taiwan law stay out (outside the case).

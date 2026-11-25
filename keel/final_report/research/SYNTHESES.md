@@ -2015,7 +2015,7 @@ Verdict: **keep**. From `synth/SYN_E_2026-11-19.md`. Cold aha test 8 item LED.
   - The asymmetry may read as caution for its own sake. An accountant on the panel will note that modern standards
       reject one-sided caution. The answer is in the parts: Laura is not valuing an asset, she is making a capped promise
       to others, which is the debt-contract case Watts describes.
-    - The parallel has three members (margin, interest, top), but the conceit allows one turn per part. The 27 Nov
+    - The parallel has three members (margin, interest, top), but the conceit is now one opening reference and a closing echo (Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC)). The 27 Nov
       writers must pick one place for it.
 
 - **Source chain:**
@@ -2658,9 +2658,9 @@ Verdict: **keep; pedigree (3e).** Cards Q207, Q195, Q196.
   and her slack exceeds the settlement time the regulator saw. Her one rate risk, a fall before she buys, ended in
   January 2028; the other never starts.
 - **Why it fits Laura:** CANON A8-A10 (held to their dates; price noise ignored); TNA l.7; D20's gilt sentence.
-- **Against the frozen work:** none. Keep D20's words ("the portfolios that broke fastest were leveraged ones whose
+- **Against the frozen work:** none. Use card Q243's words instead (Thu 26 Nov): funds that had borrowed against their gilts or used derivatives were forced to sell; the PPF called it short-term liquidity, not solvency, with no claims (dated). Never D20's old words ("the portfolios that broke fastest were leveraged ones whose
   funding could be called; no pension promise broke").
-- **Its weakness:** in 2027 the payments' money is about $39,000 short of the standard and waits for the deposit, so
+- **Its weakness:** in 2027 the payments' money is $37,499 short in January 2027 money (the first $39,162 of the 2028 deposit in January 2028 money) of the standard and waits for the deposit, so
   "bought" holds from January 2028; German insurers' promises are longer and open, UK LDI was levered by design; the
   three to four days is one regulator's figure for one week.
 - **Where it lands:** 3e (Portfolio Analysis), the frame around its one parallel, with the plan's own limit in the
@@ -2746,7 +2746,7 @@ Verdict: **keep; pedigree (3b or 2.3).** Cards Q169, Q191.
   stops at Laura); Q191-005 (Black 1980: without tax "a firm's stockholders may not care" how the pension is split);
   Q191-010 and Q191-013 (Tepper 1981: owners "can offset any corporate asset/liability decision on personal account";
   shares in a pension fund "can only be rationalized by appealing to violations of the perfect markets assumptions");
-  NUMBERS 8o with D15 and WORDS ("gives up about $300 of expected return for each $5,000 made certain").
+  NUMBERS 8o with D15 and WORDS ("gives up about $270 of expected return (NUMBERS 8o: $267; Thu 26 Nov) for each $5,000 made certain").
 - **The new thing:** Damodaran (value) and Black and Tepper (a pension's mix) say the safe choice costs nothing in value
   to an owner who can undo it elsewhere. Joined, the condition fails for Laura at one place, the case's rule: no outside
   money may meet the payments (l.91-92) and none is added after January 2028 (l.63-65); she has income (l.61-63), the
