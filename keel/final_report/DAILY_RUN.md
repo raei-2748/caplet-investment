@@ -30,6 +30,8 @@ instead of it:
   page shows the last seven days, so the volume is visible to Caplet.
 On Fri 27 Nov the inputs freeze and the writing session starts; this floor ends there.
 
+**Thu 26 Nov evening (the last run before the session).** At the week's pacing (about half volume, so the usage limit carries Friday; `research/day19_2026-11-26/PREMORTEM.md` section 3), the evening run does the overdrive plan's second readings at source for the facts the report will print, builds the numbers extract (`drafts/session/NUMBERS_EXTRACT.md`, WRITING_SESSION.md 4.1) and checks voice/FACTS_PLAIN.md version 15 for sense, then freezes the inputs. No new research questions.
+
 ## Book 17 (Caplet, Sat 14 Nov, INSTRUCTIONS I104-I113): three things every run now does
 - **Voice, in every run** (Book 19, Sun 15 Nov: "a hell of a lot more"; two rounds a day to Wed 25, rehearsal Thu 26):
   run the next round in `voice/README.md`. Fresh writers read only Caplet's own writing (`voice/CORPUS.md`) and the plain facts; readers judge

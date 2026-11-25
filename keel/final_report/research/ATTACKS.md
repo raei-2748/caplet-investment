@@ -1,5 +1,11 @@
 # Attacks on the plan, and Keel's answers (attack day, Fri 20 Nov 2026, morning, Sydney)
 
+**Thu 26 Nov 2026 (Day 19; `research/day19_2026-11-26/CHECK_PLAN.md`).** Decisions below are amended where they
+stand: D1, D2, D6, D7, D9, D12, D13, D15, D20 and D22. Reading rules: in print Table 2 is the watch list (Keel's "Table
+3"), so this page's "Table 2" means Figure 2 and its note; per-part conceit turns are reserves (Caplet's direction,
+`CAPLET_DOC_2026-11-25.md` item 1); nothing in Laura's words or the letter draws on the half of the shares promised to
+no one (item 2).
+
 Notes for the Final Report, not report prose (no prose before Fri 27 Nov). Four independent judges who had never seen
 the work, each scored only on Wharton's guide, attacked four targets: the plan's analysis (A: `INTENT.md`,
 `voice/FACTS_PLAIN.md`), the store's top 50 rows (B), the aha register (C) and `research/SYNTHESES.md` (D). The packs
@@ -52,7 +58,7 @@ for the 27 Nov writers. Where evidence is needed a second-wave card was sent (se
 plan's answer is that it settles that uncertainty before she speaks. So the report has two layers, in two sentences,
 each with its own date. Seen from today, which figure she will be able to state is uncertain: a top of at least $100,000 in
 about 91 of 100 simulated futures, at least $115,000 (the central case) in about 57. Once the 2031 move is made, what she states is already held. In
-Laura's words: "$115,000, all of it held in Treasury funds before I say it, $95,000 of it since January 2028" (one form;
+Laura's words [amended Thu 26 Nov: the range first, each end its own sentence with its date, then what the bottom is, then why she signs for the top; COSPONSOR_NOTES C1, C13; the old one-sentence form below is history]: "$115,000, all of it held in Treasury funds before I say it, $95,000 of it since January 2028" (one form;
 never "$95,000 to $115,000, certain" as a two-number sentence; never "at least $115,000"). The bottom's job, for a
 co-sponsor: the part that markets could not move after January 2028. One sentence in 3c quotes the IPS's bridge,
 "whatever figure you choose is money you already own" (campaign 7), and one says why one day's prices may set the top
@@ -66,12 +72,12 @@ predetermined amount at maturity", and the team's own Trading Note said "the fin
 mention in each part, "a Treasury fund that holds Treasuries maturing in 2032 and, about 15 December 2032, pays its
 holders everything it then has" (corrected Sun 22 Nov, card Q208: never "only", which the prospectus does not say); the strong words (guaranteed, risk-free, set in stone) go on the Treasuries and on the five bonds held
 to maturity, never on a fund's payout; the 0.5% margin is shown as the answer to the prospectus line, which the report
-quotes. Ink is redefined: a dollar figure that the Treasuries and Treasury funds she owns will pay at their end, counted
+quotes. Ink is redefined: a dollar figure that the Treasuries and Treasury funds held for her will pay at their end ("held for her", never "she owns": CONCEIT l.5, NAME_ORDER decision 9), counted
 as if their cash earned nothing more, after the margin. "In every model future the fund pays at least the top" is never
 said without "the model contains no fund events"; one sentence in 3e lists every way the top could fall short: fund costs
 beyond about 2% of what the fund pays; an early end or merger (nothing short at today's market rates, at most about
-$4,600 short if cash waiting earned nothing, covered from her flexibility); a broker failure (a delay). Laura's words may
-carry the campaign judge's clause: any small shortfall in the fund is hers to make good from her flexibility (campaign 23).
+$4,600 short if cash waiting earned nothing, covered from her flexibility); a broker failure (a delay). [Struck: Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 2: the campaign judge's clause in Laura's words (campaign 23). Nothing in
+her words draws on the half promised to no one; 3e says her flexibility is there if the fund pays a little less.]
 FACTS_PLAIN's "does not change after that" goes. Lands: CONCEIT.md (definition), WORDS.md, FACTS_PLAIN v3, SKELETON 3c
 and 3e. Card Q196 (this morning) supports it: a fund holder has three questions a bondholder never has.
 
@@ -117,15 +123,15 @@ check (the lottery rule, the escrow test, Florida's prepaid plan, GIW, the RBA's
 House in 3c, the pencil patent, Antonio, Athens, the Fixed-term Parliaments Act, the Antideficiency Act clause as
 worded, the bought deal, Kahneman and Lovallo's timid choices, the IPCC's "unequivocal", Grossman and Van Huyck's "never
 repudiate". Every one stays in the store with its reason (no gem lost: GEM_LEDGER 17). Lands: AHA_REGISTER, CONCEIT.md
-(one turn per part, unchanged), SKELETON 3.0.
+(one turn per part, unchanged [Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 1: every per-part turn is a reserve]), SKELETON 3.0.
 
 **D7. One base for odds, one price for the ten, one picture for the pots** (professor 5, 7, 37; plain 21, 30). Prose
 uses one base for odds (the house model, named once); history goes to figure notes; tails from overlapping windows are
 "the worst of about 17 independent two-year spans", never "1 in 100" from them, and no model odds rarer than about 1 in
 100 (unchanged); correlations only with their sample size. One price for the ten in prose (the plan's instruments, with
-the fee), the others in Figure 1's note. A short assumptions table (Table 2's note): return, volatility, distribution,
+the fee), the others in Figure 1's note. A short assumptions table (Figure 2's note): return, volatility, distribution,
 rate model, correlation and path count for each model used. One drawing names every pot once
-(`charts/MONEY_PICTURE_2026-11-20.md`, this morning's analysis). Lands: SKELETON exhibits, Table 2's note.
+(`charts/MONEY_PICTURE_2026-11-20.md`, this morning's analysis). Lands: SKELETON exhibits, Figure 2's note.
 
 **D8. Owned is not given: name the written pledge** (campaign 2, 8, 11, 15; plain 12). Owning shows the money exists;
 a signed pledge says it will be given. 3d names the form Laura offers: a signed pledge letter (amount, purpose, date),
@@ -138,7 +144,7 @@ case). Lands: SKELETON 3d, AHA_REGISTER row 8 (slot open). Card Q200 (second wav
 currency her Treasuries pay, with its NT$ value on a named day; her flexibility is what she would use to keep that NT$
 value whole if the Taiwan dollar strengthens, which is IPS l.15's second use. Cover is said in dollars first (about
 $21,200 in the central case, about $28,700 with anything above the top, about $9,600 at 1 in 20) and as "a rise of about
-a quarter in the cost of her share", never "a building-cost rise of 25%"; the gentle test (the currency alone, 93 in 100)
+25% in the cost of her share, if shares earn the 7.5% a year assumed" ("about a quarter" is kept for 26.1%), never "a building-cost rise of 25%"; the gentle test (the currency alone, 93 in 100)
 and the hard one (costs and currency together, about $32,200, more than all her flexibility; four dated episodes since 1991, never "1 in 20", corrected Sun 22 Nov, card Q210) are given together with
 who carries the rest. One clause in 3e: the ten payments are fixed in US dollars by the case, so their NT$ value moves.
 Lands: SKELETON 3b, 3d, 3e; FACTS_PLAIN v3. Card Q203 (second wave).
@@ -157,16 +163,17 @@ figure, its date and form, what she has already committed to running costs, and 
 3d. Card Q202 (second wave).
 
 **D12. Her whole commitment, and the bottom statable early** (campaign 12, 13). Laura's words state her whole
-commitment: ten payments of $50,000 held in Treasuries from January 2028 and $115,000 for the building, about $615,000 in
-all, never "lead gift". She may tell the residency's own planners "at least $95,000" from January 2028, since it is held
+commitment: ten payments of $50,000 held in Treasuries from January 2028 and $115,000 for the building, "$615,000 in
+all" (never "about": COSPONSOR_NOTES C4, amended Thu 26 Nov), never "lead gift". She may tell the residency's own planners "$95,000, held since January 2028" (never "at least": C8) from January 2028, since it is held
 from then; the range for co-sponsors comes after the 2031 move. Lands: SKELETON 3c and 3d; FACTS_PLAIN v3 ("Laura states
 no figure before the 2031 move" becomes "no figure above the bottom").
 
 **D13. Name liability-driven investing, and claim only what is new** (professor 11; bond 10, 23). 2.0 or 2.3 names
 liability-driven investing and dedication (Leibowitz 1986, "a leading writer on dedication", never "the founder") in one
 sentence, then claims as new only the application: the same rule applied to a promise not yet made, on the date it is
-made. The TNA's "duration-matching" is made a consequence: matched payment by payment, which also matches duration bond by
-bond and needs no rebalancing. SB-1's claim becomes: with coupon bonds, certainty is bought by over-funding, and that
+made. The TNA's "duration-matching" is made a consequence: matched payment by payment, held to each date, so nothing needs
+rebalancing [amended Thu 26 Nov: never "duration matches too"; the WInS portfolio's DV01 is about $160 against the
+payments' about $200, NUMBERS 8x]. SB-1's claim becomes: with coupon bonds, certainty is bought by over-funding, and that
 over-funding is the extra Treasuries. Lands: SKELETON 2.0, 2.3, 3a; SYNTHESES SB-1.
 
 **D14. The zero-interest standard is the report's measure of IPS l.11's promise** (bond 7, 8, 9; professor 6). "IPS l.11
@@ -179,8 +186,8 @@ whose method is named: history's moves in the one-year yield, applied in proport
 only the extra Treasuries (bond 9; see "Answers that came back"). Lands: WORDS.md, FACTS_PLAIN v3,
 SKELETON 3a. Cards Q195 (this morning) and Q205 (second wave); `NUMBERS_ANSWERS.md`.
 
-**D15. Risk given up is not a cost** (professor 3, 13). "Gives up about $300 of expected return for each $5,000 made
-certain", set beside the 1-in-20 figure, never "costs her $5,300 of what she keeps" (WORDS); the price of "none" is a
+**D15. Risk given up is not a cost** (professor 3, 13). "Gives up about $270 of expected return for each $5,000 made
+certain" (NUMBERS 8o: $267; never "about $300", amended Thu 26 Nov), set beside the 1-in-20 figure, never "costs her $5,300 of what she keeps" (WORDS); the price of "none" is a
 range across the team's models with the driver named. 3f's comparison of the first plan with the Treasury plan is shown
 under three deposit cases (full, half, none), frequency and size of a miss for each (`NUMBERS_ANSWERS.md`); "1 in 31
 against none" is never said without "once the 2028 deposit is in" (plain 8).
@@ -209,16 +216,19 @@ means after a default: hold and wait); what changes the figures she can state (y
 costs, the Taiwan dollar, co-sponsors' pledges, the building's own timetable). Lands: Table 3, SKELETON 3e.
 
 **D20. Dated, honest wording fixes** (each a one-line change; lands in WORDS, FACTS_PLAIN v3 and the store): the
-governing thought takes a date, "from January 2028, every dollar she has promised is held in Treasuries; in 2027 the gap
-is about $39,000, and the deposit fills it first" (plain 11); "her flexibility", never "what she keeps", when the
+governing thought takes a date, "from January 2028, every dollar she has promised is held in Treasuries; the gap is $37,499 in
+January 2027 money (the first $39,162 of the 2028 deposit in January 2028 money), and the deposit fills it first" (plain 11;
+one date per figure, amended Thu 26 Nov); "her flexibility", never "what she keeps", when the
 listener is a co-sponsor (campaign 20); "potential co-sponsors, whom Laura approaches in 2031" (campaign 32); building
 costs and shares "have not come with falling shares; the two-year link is weak and unstable" (bond 16; professor 9;
 plain 14), never "so her shares do not tend to rise when costs do"; museums "that closed had been open a median of ten
 years", never "usually close within ten years" (campaign 9; professor 16; plain 9); "none of the three largest rating
 agencies rates the US AAA" (bond 22); "US law forbids an agency to commit money Congress has not yet appropriated", or
 nothing (bond 21; professor 15; plain 26); Rev. Rul. 77-374: "when rates fell, new trusts could no longer pass it" (bond
-20; professor 36); the 2022 gilt crisis: "the portfolios that broke fastest were leveraged ones whose funding could be
-called; no pension promise broke" (bond 5); the PRA's matching test: one true clause or nothing (bond 6); "the one place
+20; professor 36); the 2022 gilt crisis, in card Q243's words (amended Thu 26 Nov): funds that had borrowed against their gilts or used
+derivatives were forced to sell; the pensions' insurer told Parliament the crisis "was one of short-term liquidity, not
+fundamentally the solvency" of the schemes and had seen no claims from it (November 2022, so "no claims" carries its
+date); never "broke fastest" or "no pension promise broke" (bond 5); the PRA's matching test: one true clause or nothing (bond 6); "the one place
 this plan controls", never "the only place" (bond 30; professor 35); the two reasons to change "are not market prices",
 never "cannot" (professor 19); the TNA's "nonexistent inflation risk" is never repeated: the payments are fixed dollars,
 the residency's real costs rise, and the case lets fees and co-sponsors carry that (bond 33); "grows 7.5% a year,
@@ -235,10 +245,10 @@ Figures: `NUMBERS_ANSWERS.md`.
 **D22. Aha spine changes** (C). Row 1: Neyman becomes a clause at most (1934 for the term), the row's plain sentence
 leads ("by 2031 nothing is left to estimate; the odds belong to the years before"), and "non-photo blue" is dropped (it
 reads as hiding the uncertainty from co-sponsors, plain 3). Row 2: rewritten as D5. Row 3: the core fact stays (on one
-day between June 2007 and August 2026 did $300,000 buy all ten), the yield dependence is stated as a limit in 3e, the
+day between August 2007 and August 2026, 19 Oct 2023, did $300,000 buy all ten; "June 2007" corrected, card Q210), the yield dependence is stated as a limit in 3e, the
 fills get one clause or none. Row 6: only the like-for-like comparison ($110,000 for an all-Treasury plan holding back
 the same flexibility, against the plan's $115,000), the 94.8% out. Row 7: the aha is speaking early (about 11 of 100);
-the forecast's small effect goes to Table 2's note as a robustness check. Row 8: "100% owned against 60-80% raised" and
+the forecast's small effect goes to Figure 2's note as a robustness check. Row 8: "100% owned against 60-80% raised" and
 the comfort letter leave 3d; the slot is open for cards Q200-Q204. Row 10: as D16.
 
 ## Every attack and Keel's answer

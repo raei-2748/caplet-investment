@@ -249,6 +249,9 @@ def _short_holding(label):
     return label.split()[0]
 
 
+FM = RESERVE["fee_and_margin"]["by_payment"]     # Thu 26 Nov: Figure 1's printed basis (NUMBERS 8h, 8zb)
+
+
 def _figure1():
     own = [r for r in RESERVE["composition_1jan2033_base"] if r.get("role") == "own rung"]
     own.sort(key=lambda r: r["payment"])
@@ -274,6 +277,10 @@ def _figure1():
             "backstop_if_nothing_earns": f["backstop_and_carry_cover"],
             "own_if_nothing_earns_no_fee": z["own_holding_pays"],    # card Q28's column; the note's variant
             "backstop_if_nothing_earns_no_fee": z["backstop_and_carry_cover"],
+            # Thu 26 Nov (CHECK_EXHIBITS items 3 and 20; NUMBERS 8zb): the printed basis is the fee-and-margin world,
+            # ink's own count: cash waiting earns nothing and pays the ETF's 0.15%, every iBond fund flow 0.5% smaller
+            "own_printed": FM[str(year)]["own_holding_pays"],
+            "backstop_printed": FM[str(year)]["backstop_and_carry_cover"],
         })
     return rows
 
@@ -285,7 +292,12 @@ FIGURE1_TOTALS = {
     "backstop_if_nothing_earns": sum(r["backstop_if_nothing_earns"] for r in FIGURE1_ROWS),
     "own_if_nothing_earns_no_fee": sum(r["own_if_nothing_earns_no_fee"] for r in FIGURE1_ROWS),
     "backstop_if_nothing_earns_no_fee": sum(r["backstop_if_nothing_earns_no_fee"] for r in FIGURE1_ROWS),
+    "own_printed": sum(r["own_printed"] for r in FIGURE1_ROWS),
+    "backstop_printed": sum(r["backstop_printed"] for r in FIGURE1_ROWS),
 }
+assert abs(FIGURE1_TOTALS["own_printed"] - RESERVE["fee_and_margin"]["own_total"]) < 0.01
+assert abs(FIGURE1_TOTALS["backstop_printed"] - RESERVE["fee_and_margin"]["backstop_total"]) < 0.01
+assert abs(RESERVE["fee_and_margin"]["left_after_2042"]) < 0.01
 FIGURE1_NOTE_FACTS = {
     "left_after_2042_no_fee": RESERVE["zero_left_after_2042"],          # the $1,414 spare without the fee
     "left_after_2042_with_fee": RESERVE["fee_left_after_2042"],         # $1,177: the 0.5% margin (was $0 before Tue 17 Nov evening)
@@ -348,12 +360,16 @@ FIGURE1_HEADS = {
 }
 # Mon 16 Nov night (coherence reader 6, L2): the legend's fund key is the figure's own Type column, "iBond Treasury
 # fund" (was "iBonds Treasury ETF")
-FIGURE1_LEGEND = ("iBond Treasury fund", "Treasury bond", "$50,000 due on 1 January", "cash waiting")
-FIGURE1_TITLE = ("If Cash Waiting Earns Nothing, Each $50,000 Payment Is Still Met by Its Own Treasury and Extra "
-                 "Treasuries From the 2028 Deposit (Laura's Plan for Both Deposits, $450,000, Modelled)")
+# Thu 26 Nov (NAME_ORDER decision 14, which wins over WORDS l.22; CHECK_EXHIBITS item 7): "iBonds Treasury fund"
+FIGURE1_LEGEND = ("iBonds Treasury fund", "Treasury bond", "$50,000 due on 1 January", "cash waiting")
+FUND_TYPE = FIGURE1_LEGEND[0]
+# Thu 26 Nov (CHECK_EXHIBITS item 3, section 3's recommended title): the basis named in the title, fee and margin
+FIGURE1_TITLE = ("If Cash Waiting Earns Nothing and Each Fund Pays 0.5% Less, Each $50,000 Payment Is Still Met by Its "
+                 "Own Treasury and Extra Treasuries From the 2028 Deposit (Laura's Plan for Both Deposits, $450,000, "
+                 "Modelled)")
 # The total row: 8h's totals of unrounded figures, which add exactly to the ten payments ($500,000)
-FIGURE1_TOTAL_ROW = (FIGURE1_TOTALS["own_if_nothing_earns"], FIGURE1_TOTALS["backstop_if_nothing_earns"],
-                     FIGURE1_TOTALS["own_if_nothing_earns"] + FIGURE1_TOTALS["backstop_if_nothing_earns"])
+FIGURE1_TOTAL_ROW = (FIGURE1_TOTALS["own_printed"], FIGURE1_TOTALS["backstop_printed"],
+                     FIGURE1_TOTALS["own_printed"] + FIGURE1_TOTALS["backstop_printed"])
 assert round(FIGURE1_TOTAL_ROW[0]) + round(FIGURE1_TOTAL_ROW[1]) == round(FIGURE1_TOTAL_ROW[2]) == \
     10 * FIGURE1_PAYMENT == round(FIGURE1_TOTALS["at_forwards"]), FIGURE1_TOTAL_ROW
 # Tue 17 Nov (coherence reader 7, M1 and M2; the lead's call): the total row is what each payment's own Treasury and the
@@ -363,8 +379,8 @@ assert round(FIGURE1_TOTAL_ROW[0]) + round(FIGURE1_TOTAL_ROW[1]) == round(FIGURE
 # label keeps its words for the whole row. The reserve's size is printed once, in note item 4 (at today's rates)
 FIGURE1_TOTAL_LABEL = "Paid 2033-2042, added up"
 # What the printed rows add to (each row rounded to the dollar): the rounding note's pairing
-FIGURE1_FOOT = (sum(round(r["own_if_nothing_earns"]) for r in FIGURE1_ROWS),
-                sum(round(r["backstop_if_nothing_earns"]) for r in FIGURE1_ROWS))
+FIGURE1_FOOT = (sum(round(r["own_printed"]) for r in FIGURE1_ROWS),
+                sum(round(r["backstop_printed"]) for r in FIGURE1_ROWS))
 assert sum(FIGURE1_FOOT) == 10 * FIGURE1_PAYMENT, FIGURE1_FOOT
 
 
@@ -376,10 +392,12 @@ WORLDS = [
     # (key, plain name printed in the table, where the data sit in the JSON)
     # Mon 16 Nov night (coherence reader 6, L2): WORDS's name, "today's market rates", never "forward rates"
     ("forwards", "Today's market rates", ("scenarios", "forwards")),
-    ("2006-06", "Replay from 2006: shares fall", ("named", "2006-06")),
-    ("minus3", "Rates 3 points lower from Jan 2027", ("scenarios", "minus3")),   # Sat 14 Nov: timing labelled
-    ("2007-07", "Replay from 2007: rates fall early", ("named", "2007-07")),
-    ("inflation", "Inflation: rates 3 points higher", ("scenarios", "inflation")),
+    # Thu 26 Nov (CHECK_EXHIBITS item 12; SECTION_NOTES Figure 2; NAME_ORDER row 52; NUMBERS 8i row 2): the notes'
+    # row names, "a recession from history" (two, each with its year), "rates lower for good", "an inflation world"
+    ("2006-06", "Recession from history, 2006: shares fall", ("named", "2006-06")),
+    ("minus3", "Rates 3 points lower for good from Jan 2027", ("scenarios", "minus3")),   # Sat 14 Nov: timing labelled
+    ("2007-07", "Recession from history, 2007: rates fall early", ("named", "2007-07")),
+    ("inflation", "Inflation world: rates 3 points higher", ("scenarios", "inflation")),
 ]
 
 
@@ -617,6 +635,12 @@ _NUM = {5: "five"}
 # Mon 23 Nov (D19): the "look closer" level is gone, so the trigger column is "Act when"; both heads fit one line,
 # which pays for the co-sponsors' row (measured: the two-line head cost one body line)
 TABLE3_HEADER = ["Signal", "Who", "Carry on while", "Act when", "Changes; never changes"]
+# Thu 26 Nov (CHECK_EXHIBITS item 5; SECTION_NOTES Table 3, cards Q249-Q250; WHARTON_NORTH_STAR l.122): the Who column
+# uses Wharton's own pair, "Laura" or "her asset management team" (was "Team")
+# Measured Thu 26 Nov: the full phrase in the 0.48-in column broke "management" mid-word and took the table 6.9 lines
+# off its page, so the cell prints "Her team" and the note glosses it once in Wharton's words
+TEAM_WHO = "Her team"
+TEAM_WHO_GLOSS = "her team: her asset management team (Wharton's words)"
 # Mon 23 Nov (ATTACKS D19; ARGUMENT_TREE branch 6, "Watching, in three lists"): three lists, not three levels of
 # alarm: what changes the plan (the IPS's two reasons; after a default, hold and wait), what changes only the figures
 # she can state, and what tests her flexibility. The old "look closer" rows (fund notices, trade days) change a figure
@@ -655,8 +679,11 @@ TABLE3_ROWS = [
         f"The 2028 deposit ({dollars(DEPOSIT_2028)})",
         "Laura",
         # Sat 14 Nov (bond reader 2): a today's-rates figure, so labelled. Tue 17 Nov: "its first" to "first"
-        f"Confirmed by {CONFIRM_BY.day} {CONFIRM_BY.strftime('%b')} {CONFIRM_BY.year}; first {dollars(TOPUP)} "
-        "(today's rates) to the payments",
+        # Thu 26 Nov (CHECK_EXHIBITS items 4 and 6; cards Q249-Q250; NAME_ORDER row 42): the look is a small act,
+        # confirming the date with Laura by 1 Dec 2027, and the cell carries prose's one rounded figure, "about
+        # $39,000" ($39,162 stays in the note)
+        f"Its date confirmed with Laura by {CONFIRM_BY.day} {CONFIRM_BY.strftime('%b')} {CONFIRM_BY.year}; about "
+        f"{hundreds(round(TOPUP, -3))} first to the payments",
         f"Nothing received by {_d(MISSED_BY, weekday=False)} (a missed deposit)",
         # Mon 16 Nov night (coherence reader 6, M7; bond desk 4, L5): both bases, never the $3,016 alone (NUMBERS 5);
         # L5's action wording declined: card Q34 keeps the later money's order in 3e's prose.
@@ -677,7 +704,7 @@ TABLE3_ROWS = [
     # cells say "debt-limit deadline" in plain words; the note defines it once and keeps "the X-date" for a bond reader
     ("reason", [
         "Treasury payments; debt-limit deadline",
-        "Team",
+        TEAM_WHO,
         # 31 CFR 356.30(a): weekends and holidays alike (bond reader 2)
         "Paid when due, or the next business day",
         # measured Mon 23 Nov: the two triggers in four lines (the carry cell's deadline clause took a fifth)
@@ -690,7 +717,7 @@ TABLE3_ROWS = [
     # ASK_HUMANS); coherence reader 4: the 2031 date stays before the meetings (IPS l.15).
     ("figures", [
         "Treasury yields and share prices",
-        "Team",
+        TEAM_WHO,
         "Any level",   # Sat 14 Nov (coherence reader 4): the l.17 echo dropped, as SKELETON said
         # Tue 17 Nov evening (evening lay reader, stumble 3: the $85,000 read against IPS l.15's "the bottom will remain
         # constant"; "Why 4 Jan 2027?"; the lead's call): the bottom is set in January 2028 and stays put after it; the
@@ -710,7 +737,7 @@ TABLE3_ROWS = [
         # October); the notice window, the cash days, the fees' owners, one action per event and the frozen name of
         # the waiting fund go to TABLE3_FOR_3E. "Treasury fund" keeps VT out of the signal, so "Never: VT" still holds.
         "Treasury fund notices",
-        "Team",
+        TEAM_WHO,
         f"Notice by {NOTICE_BY} of a fund's final year; fees {100 * FUND_FEE:.2f}% and {100 * WAIT_FEE:.2f}%",
         "Early end, merger or end moved past a payment; fee rise; no notice by then",
         # the instrument changes, never the plan (the level's heading); a gap is paid from the extra Treasuries and the
@@ -737,7 +764,7 @@ TABLE3_ROWS = [
                  "a sale of shares")]),
     ("figures", [
         "Trades in 2027, 2028, 2031",
-        "Team",
+        TEAM_WHO,
         # Mon 16 Nov night (bond desk 4, M6): a stressed trade day is a watch item (NUMBERS 0, l.82), so the row has a
         # trigger for it. Tue 17 Nov: its distance is the register's, 0.5% of net asset value for each fund leg
         # (NUMBERS 4, "A trade-day limit for Table 3 row 5"; it replaces the [x]% placeholder); "of net asset value"
@@ -763,7 +790,12 @@ TABLE3_ROWS = [
         # 2032 payout" took five and six lines; the late-2032 fund's payout is December 2032 by its name
         "Pledges and building dates",
         "Laura",
-        "Signed; each sees the late-2032 fund's statement in 2031 and before it pays",
+        # Thu 26 Nov (CHECK_EXHIBITS items 2 and 6; NUMBERS 8y: a fund sends no statement, and a single IBTM line
+        # overstates the building's money by $20,000 to $27,000): the broker's own statement of a second account
+        # holding the building's two IBTM lots and their paid distributions, seen at the 2031 meetings and before the
+        # December 2032 payout
+        # (measured: "a second account, the building's" took six lines; the note says what the statement shows)
+        "Signed; each sees the broker's statement in 2031 and before Dec 2032",
         "A pledge short or late, or the building's date slipping",
         _changes("use her flexibility first, then co-sponsors, phasing or a later building date",
                  "her stated figure")]),
@@ -781,8 +813,9 @@ TABLE3_ROWS = [
         # October 2026, 8d) is outside the band while the five-year rate (3.19%) is inside it, so the cell names the
         # window; the two readings go to the 3e list (four lines kept, measured; "five-year building-cost rise ... a
         # year" took a fifth)
+        # Thu 26 Nov (CHECK_EXHIBITS item 6; cards Q249-Q250): row 7 rides the broker's statement (at least quarterly)
         f"Taiwan dollar under {100 * TWD_TEST:.0f}% stronger; five-year building costs {100 * CCI_BAND[0]:.1f}% to "
-        f"{100 * CCI_BAND[1]:.1f}% a year",
+        f"{100 * CCI_BAND[1]:.1f}% a year",   # its cue, the statement, is in the note (measured: a fifth and sixth line)
         # Mon 16 Nov night (bond desk 4, M7): one reading of "10% stronger", 8j's: 10% more US dollars for the same NT$
         # budget (never NT$ per US$ down 10%, 29.49, which gives $12,778); its building-cost trigger declined
         # (SKELETON's Sat 14 Nov decision, CANON A34). Tue 17 Nov: "$11,500 more on $115,000" (10% of it) says which
@@ -1096,6 +1129,32 @@ def check(verbose=True):
         cmp("Figure 1", f"{f['year']} nothing earns, no fee: backstop", round(f["backstop_if_nothing_earns_no_fee"]), ze[1], "8h")
     tot = [r for r in four if r[0].startswith("All ten")][0]
     T = FIGURE1_TOTALS
+    # ---- Figure 1, Thu 26 Nov: the printed basis, fee and margin, against NUMBERS 8zb (and 8h's totals) ----
+    s8zb = _section(md, "### 8zb.", "\n## 9.")
+    zb = {r[0]: r for r in _table_rows(s8zb, "| Payment | Fee and margin: own Treasury pays")}
+    for f in FIGURE1_ROWS:
+        r = zb[str(f["year"])]
+        cmp("Figure 1", f"{f['year']} fee and margin (printed): own Treasury", round(f["own_printed"]), _money(r[1])[0], "8zb")
+        cmp("Figure 1", f"{f['year']} fee and margin (printed): extra Treasuries", round(f["backstop_printed"]),
+            _money(r[2])[0], "8zb")
+        cmp("Figure 1", f"{f['year']} fee and margin: own + extra = $50,000",
+            round(f["own_printed"]) + round(f["backstop_printed"]), 50000, "8zb", tol=0)
+    ztot = [r for k, r in zb.items() if k.startswith("All ten")][0]
+    cmp("Figure 1", "Total own Treasuries, fee and margin", round(T["own_printed"]), _money(ztot[1])[0], "8zb")
+    cmp("Figure 1", "Total extra Treasuries, fee and margin", round(T["backstop_printed"]), _money(ztot[2])[0], "8zb")
+    s8h_flat = re.sub(r"\s+", " ", s8h)
+    m = re.search(r"the own holdings pay \$([\d,]+), the backstop and carry \$([\d,]+), from \$([\d,]+) for 2033 to "
+                  r"\$([\d,]+) for 2041, and nothing is left", s8h_flat)
+    cmp("Figure 1", "8h's own sentence: own total, fee and margin", round(T["own_printed"]),
+        _money("$" + m.group(1))[0] if m else None, "8h")
+    cmp("Figure 1", "8h's own sentence: extra total, fee and margin", round(T["backstop_printed"]),
+        _money("$" + m.group(2))[0] if m else None, "8h")
+    cmp("Figure 1", "8h's own sentence: 2033's extra Treasuries", round(FIGURE1_ROWS[0]["backstop_printed"]),
+        _money("$" + m.group(3))[0] if m else None, "8h")
+    cmp("Figure 1", "8h's own sentence: 2041's extra Treasuries", round(FIGURE1_ROWS[8]["backstop_printed"]),
+        _money("$" + m.group(4))[0] if m else None, "8h")
+    cmp("Figure 1", "Nothing left after 2042 on the printed basis", round(RESERVE["fee_and_margin"]["left_after_2042"]),
+        0, "8h, 8zb", tol=0)
     cmp("Figure 1", "Total at forward rates", round(T["at_forwards"]), _money(tot[1])[0], "8h")
     cmp("Figure 1", "Total own holdings, after fee", round(T["own_if_nothing_earns"]), _money(tot[4])[0], "8h")
     cmp("Figure 1", "Total backstop, after fee", round(T["backstop_if_nothing_earns"]), _money(tot[4])[1], "8h")
@@ -1110,19 +1169,19 @@ def check(verbose=True):
          "item names the pairing, Mon 16 Nov evening)")
     # ---- Figure 1, Mon 16 Nov evening: card Q73's three fixes (charts/DESIGNS.md section 2) ----
     # 1. The sum in the heads and a total row that adds up exactly
-    note("Figure 1", "Heads print the sum: Its own Treasury + Extra Treasuries = $50,000",
+    note("Figure 1", "Heads print the sum: Its own Treasury + Extra Treasuries = $50,000 (printed basis)",
          " ".join([" ".join(FIGURE1_HEADS["c2"]), FIGURE1_HEADS["plus"], " ".join(FIGURE1_HEADS["c3"]),
                    FIGURE1_HEADS["equals"], FIGURE1_HEADS["sum"]]),
          "each row's own + extra = $50,000 (checked per row above)", "8h, card Q73-036",
          "PASS" if FIGURE1_HEADS["sum"] == dollars(50000) and all(
-             round(f["own_if_nothing_earns"]) + round(f["backstop_if_nothing_earns"]) == 50000 for f in FIGURE1_ROWS)
+             round(f["own_printed"]) + round(f["backstop_printed"]) == 50000 for f in FIGURE1_ROWS)
          else "FAIL")
     a, b, s = (round(x) for x in FIGURE1_TOTAL_ROW)
     cmp("Figure 1", "Total row: own + extra = the sum printed (adds up exactly)", a + b, s, "8h", tol=0)
     cmp("Figure 1", "Total row: the sum = the ten payments at $50,000", s, 10 * 50000, "8h", tol=0)
     cmp("Figure 1", "Total row: the sum = 8h's All-ten total ($500,000)", s, _money(tot[1])[0], "8h", tol=0)
-    cmp("Figure 1", "Total row: own = 8h's All-ten total, after fee", a, _money(tot[4])[0], "8h", tol=0)
-    cmp("Figure 1", "Total row: extra = 8h's All-ten total, after fee", b, _money(tot[4])[1], "8h", tol=0)
+    cmp("Figure 1", "Total row: own = 8zb's All-ten total, fee and margin", a, _money(ztot[1])[0], "8zb", tol=0)
+    cmp("Figure 1", "Total row: extra = 8zb's All-ten total, fee and margin", b, _money(ztot[2])[0], "8zb", tol=0)
     # Tue 17 Nov (coherence reader 7, M2): the total row is a ten-year sum of payouts, never labelled as a size
     lab_ok = "total" not in FIGURE1_TOTAL_LABEL.lower() and "2033-2042" in FIGURE1_TOTAL_LABEL and \
         "added up" in FIGURE1_TOTAL_LABEL and round(a) != round(FIGURE1_NOTE_FACTS["reserve_1jan2033"])
@@ -1141,12 +1200,15 @@ def check(verbose=True):
     cmp("Figure 1", "Note, today's rates: every own Treasury pays its whole $50,000 (rows at forwards)",
         sum(1 for f in FIGURE1_ROWS if round(f["at_forwards"]) == 50000), 10, "8h", tol=0)
     # 3. The condition first in the title, then the verdict
-    note("Figure 1", "Title opens with the condition", FIGURE1_TITLE.split(",")[0], "If Cash Waiting Earns Nothing",
-         "card Q73-016, -037", "PASS" if FIGURE1_TITLE.startswith("If Cash Waiting Earns Nothing,") else "FAIL")
+    note("Figure 1", "Title opens with the condition, the basis named (fee and margin, Thu 26 Nov)",
+         FIGURE1_TITLE.split(",")[0], "If Cash Waiting Earns Nothing and Each Fund Pays 0.5% Less",
+         "card Q73-016, -037; CHECK_EXHIBITS item 3",
+         "PASS" if FIGURE1_TITLE.startswith("If Cash Waiting Earns Nothing and Each Fund Pays 0.5% Less,") else "FAIL")
     note("Figure 1", "Title keeps its scale and basis", "$450,000; Modelled", "specs.md section 0", "specs.md",
          "PASS" if "$450,000" in FIGURE1_TITLE and "Modelled" in FIGURE1_TITLE else "FAIL")
     note("Figure 1", "Title never gives a share NUMBERS does not hold (\"about 89%\")", FIGURE1_TITLE,
-         "no per cent", "DESIGNS section 2, rater P", "PASS" if "%" not in FIGURE1_TITLE else "FAIL")
+         "no per cent but the 0.5% margin (8h, 8zb)", "DESIGNS section 2, rater P",
+         "PASS" if "%" not in FIGURE1_TITLE.replace("0.5%", "") else "FAIL")
     left = [r for r in four if r[0].startswith("Left after the last payment")][0]
     cmp("Figure 1", "Left after 2042, nothing earns, no fee", round(FIGURE1_NOTE_FACTS["left_after_2042_no_fee"]),
         _money(left[3])[0], "8h")
@@ -1572,6 +1634,10 @@ def check(verbose=True):
     allowed = {dollars(DEPOSIT_2028), dollars(TOPUP), dollars(TOPUP_TEN_LACK), dollars(TOPUP_NO_INTEREST),
                dollars(MISSED_SHORT_2033), dollars(MISSED_SHORT_ZERO),
                dollars(BOTTOM_AFTER_1PT_FALL), dollars(TWD_NEED), dollars(CONTRIBUTION_FWD), hundreds(FLEX_FWD)}
+    # Thu 26 Nov: row 1 prints prose's one rounded figure for the first $39,162, "about $39,000" (WORDS l.78)
+    with open(WORDS_MD) as fh:
+        if f"about {hundreds(round(TOPUP, -3))}" in fh.read():
+            allowed.add(hundreds(round(TOPUP, -3)))
     found = set(re.findall(r"(?<![A-Z])\$[\d,]+", printed))   # NT$ and US$ mark an exchange rate, not a dollar figure
     # Mon 16 Nov night (bond desk 4, M7): the rate is printed as "NT$ per US$", 6 Nov 2026's level for scale only, and
     # the trigger at 8j's one reading of "10% stronger" (10% more US dollars: 32.768 / 1.10 = 29.79, 9.1% below).
@@ -1793,7 +1859,7 @@ def check(verbose=True):
          f"{100 * RECON['plan_floor_of_deposit']:.1f}%", "54.2% (section 4)", "4",
          "PASS" if "$81,244 / 54.2%" in md and RECON["plan_floor_of_deposit"] > 0.5 else "FAIL")
     m = re.search(r"\*\*\$502,604\*\*: the ten rungs pay \$445,405 and the extra Treasuries \$57,200", md)
-    note("Figure 1", "Note: the reserve pays about $502,600 at zero interest before the waiting fund's fee",
+    note("Figure 1", "Note: if cash waiting earns nothing and pays no fee, the Treasuries pay about $502,600",
          "about $502,600", m.group(0)[:40] if m else None, "8 (e)", "PASS" if m else "FAIL")
     m = re.search(r"3% of the 2033 payment, about 15% of the 2041 and 2042 payments", md)
     note("Figure 1", "Note: interest on interest, 3% of the 2033 payment, about 15% of the last two", "3%; about 15%",
@@ -1822,12 +1888,12 @@ if __name__ == "__main__":
     print("Table 1 (NUMBERS 8g v2, WInS record at cost)")
     for kind, cells in table1_rows():
         print(f"  {kind:<9}", " | ".join(c.replace("\n", " / ") for c in cells))
-    print("\nFigure 1 (NUMBERS 8h, MODEL): year | paid from | cash arrives | at forwards | nothing earns after fee: own + top-up")
+    print("\nFigure 1 (NUMBERS 8h, 8zb, MODEL): year | paid from | cash arrives | at forwards | printed, fee and margin: own + extra")
     for f in FIGURE1_ROWS:
         print(f"  {f['year']} | {f['holding']:<16} | {cash_words(f)} ({f['wait_words'] or str(f['months_cash']) + ' mo'}) |"
-              f" {dollars(f['at_forwards'])} | {dollars(f['own_if_nothing_earns'])} + {dollars(f['backstop_if_nothing_earns'])}")
+              f" {dollars(f['at_forwards'])} | {dollars(f['own_printed'])} + {dollars(f['backstop_printed'])}")
     T = FIGURE1_TOTALS
-    print(f"  Total {dollars(T['at_forwards'])} | {dollars(T['own_if_nothing_earns'])} + {dollars(T['backstop_if_nothing_earns'])}")
+    print(f"  Total {dollars(T['at_forwards'])} | {dollars(T['own_printed'])} + {dollars(T['backstop_printed'])}")
     print("\nTable 2 (NUMBERS 8i, 8j, MODEL)")
     for _, name, v in TABLE2_WORLDS:
         print(f"  {name:<36}", " | ".join(table2_cells(v)))

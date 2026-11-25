@@ -1,5 +1,17 @@
 # Works cited, draft (Mon 23 Nov 2026)
 
+**Thu 26 Nov 2026, change note.** Applied the fixes in `day19_2026-11-26/CHECK_REFERENCES.md`:
+- Journal names: *The Review of Financial Studies* (Andonov et al., Campbell and Thompson, Welch and Goyal), *The Chronicle of Philanthropy* (Gose, Masterson 2010), *The American Economic Review* (Lintner, Tobin).
+- RBA (2022) now points to the review's PDF, so "p. 14" has a paged source.
+- MSCI's price series takes the service address and Q246's read date (25 Nov), and prints as MSCI Inc. (2026) with no letter.
+- Census split into (n.d.-a) 2008 and (n.d.-b) 2009, titles from the Census Bureau's own pages, read today.
+- Wu dated 21 December 2008 (URL and page metadata; no date printed on the page).
+- Artists Repertory Theatre retrieved 25 November. Notes that said "Table 2" for the old dots table now say "Figure 2".
+- Added, each read at source today: FASB (2018), ASU 2018-08; Shanteau (1992); BoardSource (2026); 31 C.F.R. § 356.30; Hauser (2023), which is what "Bank of England (2023)" in 3e's Sources can only mean (cite it as Hauser, 2023).
+- Not applied: Caplet (2026b)'s date stays in the bracket (the check makes it optional, and only if all three Caplet entries take exact dates).
+- Open for the lead: Kahneman and Klein (2009) must either be cited in 3f's text or leave the References page (see its note). Not decided here.
+- The in-text forms writers should use are listed at the end of this file ("In-text forms for writers, Thu 26 Nov").
+
 Wed 25 Nov 2026, evening: card Q252's fix list applied (33 of 34 items; open items listed at the end).
 
 One APA 7 list built from the four sources checks of Mon 23 Nov (`sources_check/S1.md` to `S4.md`), each work opened
@@ -12,7 +24,7 @@ lists them alphabetically with a 0.5-inch hanging indent, double-spaced, on a ne
 (Wharton; APA 7). In this file italics are marked with asterisks. Wharton's own pages stay out except the case;
 Caplet owns the citation of anything else Wharton asks to be cited.
 
-Counts: 201 checks of 182 distinct works; 173 ready to cite (verified or fixed at source),
+Counts (history, written before card Q252 and the Thu 26 Nov fixes; do not build the References page from them): 201 checks of 182 distinct works; 173 ready to cite (verified or fixed at source),
 3 not yet verified at source, 6 dropped. Tue 24 Nov evening (`sources_check/S5.md`): 181 ready to cite (Rev. Rul. 77-374 verified, seven new works the parts now name), seven more ready if a sentence names them, four reserve, none unverified, 8 dropped.
 
 Before citing, read in full (APA: cite only what was read; otherwise cite "as cited in" the work read): Sharpe and
@@ -33,7 +45,7 @@ Amador, M., Werning, I., & Angeletos, G.-M. (2006). Commitment vs. flexibility. 
 
 <sub>Supports: Row 19: commitment against flexibility; why a written rule fixes the payments and leaves the gift flexible. Checked: S1 #19a, verified.</sub>
 
-Andonov, A., Bauer, R. M. M. J., & Cremers, K. J. M. (2017). Pension fund asset allocation and liability discount rates. *Review of Financial Studies*, *30*(8), 2555–2595. https://doi.org/10.1093/rfs/hhx020
+Andonov, A., Bauer, R. M. M. J., & Cremers, K. J. M. (2017). Pension fund asset allocation and liability discount rates. *The Review of Financial Studies*, *30*(8), 2555–2595. https://doi.org/10.1093/rfs/hhx020
 
 <sub>Supports: Second rank. Card use: a discount rate tied to expected returns makes a riskier portfolio make the same promise look cheaper. Checked: S2 #S3, verified.</sub>
 
@@ -45,9 +57,9 @@ Arrow, K. J., & Fisher, A. C. (1974). Environmental preservation, uncertainty, a
 
 <sub>Supports: Row 18: irreversibility, keep options open when a choice cannot be undone; bears on the facility gift. Checked: S1 #18, verified.</sub>
 
-Artists Repertory Theatre. (n.d.). *RISE: Capital campaign*. Retrieved November 23, 2026, from https://artistsrep.org/support/capital-campaign/
+Artists Repertory Theatre. (n.d.). *RISE: Capital campaign*. Retrieved November 25, 2026, from https://artistsrep.org/support/capital-campaign/
 
-<sub>Supports: 3d. Checked: S4 #19, verified.</sub>
+<sub>Supports: 3d. Checked: S4 #19, verified. Thu 26 Nov: retrieval date changed to 25 November, the day card Q244 read the words 3d quotes (the page can change).</sub>
 
 Bank of England. (2022, December 13). *Financial stability report: December 2022*. https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022
 
@@ -119,7 +131,7 @@ Bloomberg. (2007, October 17). Lehman gives $10 million to Spelman. *InvestmentN
 
 Board of Governors of the Federal Reserve System. (n.d.-a). *Market yield on U.S. Treasury securities at 1-year constant maturity, quoted on an investment basis (DGS1)* [Data set]. FRED, Federal Reserve Bank of St. Louis. Retrieved November 23, 2026, from https://fred.stlouisfed.org/series/DGS1
 
-<sub>Supports: Table 2 (U.S. yields from the start month); 3a (the replay since 1962). Checked: S4 #51, S3 #11, verified. Three works by this author with no date take n.d.-a, n.d.-b, n.d.-c by title on the References page.</sub>
+<sub>Supports: Figure 2 (U.S. yields from the start month); 3a (the replay since 1962). Checked: S4 #51, S3 #11, verified. Three works by this author with no date take n.d.-a, n.d.-b, n.d.-c by title on the References page.</sub>
 
 Board of Governors of the Federal Reserve System. (n.d.-b). *Selected interest rates (daily) - H.15* [Data set]. Retrieved November 23, 2026, from https://www.federalreserve.gov/releases/h15/
 
@@ -132,6 +144,10 @@ Board of Governors of the Federal Reserve System. (n.d.-c). *Taiwan dollars to U
 Board of Governors of the Federal Reserve System. (2023, April 28). *Review of the Federal Reserve's supervision and regulation of Silicon Valley Bank*. https://www.federalreserve.gov/publications/files/svb-review-20230428.pdf
 
 <sub>Supports: 31: safe assets sold before maturity caused these failures; the ladder never sells early. Checked: S2 #31a, verified.</sub>
+
+BoardSource. (2026, July 10). *Board governance best practices for nonprofit organizations*. Retrieved November 26, 2026, from https://boardsource.org/resources/recommended-board-practices/
+
+<sub>Supports: 3b (the case's "according to their means"; card Q32 row 14). Checked: read at source Thu 26 Nov (Sydney). Added Thu 26 Nov. The words are under the page's "Personal Giving" heading: each board member "is expected to make a meaningful personal contribution according to their means". The page's heading is now "Board Governance Best Practices for Nonprofit Organizations" (card Q32 listed it by its old name, *Recommended board practices*, as n.d.-a); it prints "Last updated: July 10, 2026" and no author, so the group is the author. Card Q32's other two BoardSource pages are not cited, so no letter.</sub>
 
 Bodie, Z. (1995). On the risk of stocks in the long run. *Financial Analysts Journal*, *51*(3), 18–22. https://doi.org/10.2469/faj.v51.n3.1901
 
@@ -181,7 +197,7 @@ Campbell, J. Y., & Shiller, R. J. (1991). Yield spreads and interest rate moveme
 
 <sub>Supports: 3a. Checked: S3 #28, fixed.</sub>
 
-Campbell, J. Y., & Thompson, S. B. (2008). Predicting excess stock returns out of sample: Can anything beat the historical average? *Review of Financial Studies*, *21*(4), 1509–1531. https://doi.org/10.1093/rfs/hhm055
+Campbell, J. Y., & Thompson, S. B. (2008). Predicting excess stock returns out of sample: Can anything beat the historical average? *The Review of Financial Studies*, *21*(4), 1509–1531. https://doi.org/10.1093/rfs/hhm055
 
 <sub>Supports: 21 (as 21a). Checked: S2 #21b, verified.</sub>
 
@@ -341,6 +357,10 @@ Financial Accounting Standards Board. (2016). *Not-for-profit entities (Topic 95
 
 <sub>Supports: 3d. Checked: S4 #2, verified.</sub>
 
+Financial Accounting Standards Board. (2018). *Not-for-profit entities (Topic 958): Clarifying the scope and the accounting guidance for contributions received and contributions made* (Accounting Standards Update No. 2018-08). https://storage.fasb.org/ASU_2018-08.pdf
+
+<sub>Supports: 3d ("unconditional is a separate test, now ASU 2018-08's"; card Q244 asks for its title in References). Checked: the PDF's cover read at source Thu 26 Nov: "Accounting Standards Update 2018-08, Not-for-Profit Entities (Topic 958), Clarifying the Scope and the Accounting Guidance for Contributions Received and Contributions Made, June 2018". Added Thu 26 Nov; form as REFERENCES_APA row 54.</sub>
+
 Financial Industry Regulatory Authority. (2024). *Rule 2231: Customer account statements* [Rule text, version effective January 1, 2024]. https://www.finra.org/rules-guidance/rulebooks/finra-rules/2231
 
 <sub>Supports: 3d: the broker may send the statement to a co-sponsor on Laura's written instruction (Supplementary Material .02); at least quarterly. Checked: S5 #7, verified. S5 status: ready to cite, named by the parts.</sub>
@@ -369,7 +389,7 @@ Gneezy, A., & Epley, N. (2014). Worth keeping but not exceeding: Asymmetric cons
 
 <sub>Supports: 3b (tree l.187: "None needed" for a parallel; cite only if the sentence is used). Checked: S3 #42, verified.</sub>
 
-Gose, B. (2009, April 9). Feeling the loss. *Chronicle of Philanthropy*. https://www.philanthropy.com/news/feeling-the-loss/
+Gose, B. (2009, April 9). Feeling the loss. *The Chronicle of Philanthropy*. https://www.philanthropy.com/news/feeling-the-loss/
 
 <sub>Supports: 3d. Checked: S4 #12, fixed.</sub>
 
@@ -379,11 +399,15 @@ Governmental Accounting Standards Board. (1998). *Accounting and financial repor
 
 Hansen, L. P., & Hodrick, R. J. (1980). Forward exchange rates as optimal predictors of future spot rates: An econometric analysis. *Journal of Political Economy*, *88*(5), 829–853. https://doi.org/10.1086/260910
 
-<sub>Supports: 3e (overlapping windows: never "1 in 20"), Table 2's note. Checked: S4 #35, verified.</sub>
+<sub>Supports: 3e (overlapping windows: never "1 in 20"), Figure 2's note. Checked: S4 #35, verified.</sub>
 
 Harvey, C. R., Liu, Y., & Zhu, H. (2016). … and the cross-section of expected returns. *The Review of Financial Studies*, *29*(1), 5–68. https://doi.org/10.1093/rfs/hhv059
 
 <sub>Supports: 3f. Checked: S4 #63, verified.</sub>
+
+Hauser, A. (2023, March 3). *Looking through a glass onion: Lessons from the 2022 LDI intervention* [Speech]. Bank of England. https://www.bankofengland.co.uk/speech/2023/march/andrew-hauser-opening-remarks-at-university-of-chicago-booth-school-of-business-workshop
+
+<sub>Supports: 3e, only if its words are used (card Q243 rows 34-36). Checked: read at source Thu 26 Nov: "Given at the Initiative on Global Markets' Workshop on Market Dysfunction, the University of Chicago Booth School of Business. Published on 03 March 2023". Added Thu 26 Nov for 3e's Sources line "Bank of England (2022, 2023)": no Bank of England 2023 entry exists, and the Bank's 2023 work behind 3e is this speech (or Pinter, 2023, already listed). A speech takes the speaker as author, so the in-text form is (Hauser, 2023), never (Bank of England, 2023). Breeden (2022), the other speech card Q243 read, is not added: no part quotes it yet; its form is in card Q243's Sources.</sub>
 
 Health and Safety Executive. (2001). *Reducing risks, protecting people: HSE's decision-making process*. HSE Books. https://assets.publishing.service.gov.uk/media/6634988fcf3b5081b14f30cd/IQ8.10.J_Document_9_Health_and_Safety_Executive__Reducing_risks__protecting_people__HSE_s_decision-making_process__2001.pdf
 
@@ -443,11 +467,11 @@ Jorion, P. (2009, March 16). *Philippe Jorion's Orange County case: Using value 
 
 J.P. Morgan Asset Management. (2026). *2027 long-term capital market assumptions: Assumption matrix, U.S. dollar* (31st ed.). https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/portfolio-insights/ltcma/noindex/ltcma-2027-matrix-usd.pdf
 
-<sub>Supports: 22: where the assumed return comes from, checked against a long history; 3b; 3c (Table 2's note); Table 2, 3e. Checked: S2 #22a, S3 #39, S4 #52, verified.</sub>
+<sub>Supports: 22: where the assumed return comes from, checked against a long history; 3b; 3c (Figure 2's note); Figure 2, 3e. Checked: S2 #22a, S3 #39, S4 #52, verified.</sub>
 
 Kahneman, D., & Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. *American Psychologist*, *64*(6), 515–526. https://doi.org/10.1037/a0016755
 
-<sub>Supports: 3f (goldmine 43), only if 3f's text cites it; a reference with no citation in the text breaks APA. Checked: S5 #10, verified. S5 status: ready, on the References page only if a sentence names it.</sub>
+<sub>**Open, for the lead (Thu 26 Nov):** APA 7 lists only works cited in the text, and SECTION_NOTES sends this work "to References only". The report must do one of two things: cite (Kahneman & Klein, 2009) in 3f's text, or drop this entry from the References page. Not decided here. Supports: 3f (goldmine 43), only if 3f's text cites it; a reference with no citation in the text breaks APA. Checked: S5 #10, verified. S5 status: ready, on the References page only if a sentence names it.</sub>
 
 Kimball, M. S. (1993). Standard risk aversion. *Econometrica*, *61*(3), 589–611. https://doi.org/10.2307/2951719
 
@@ -489,7 +513,7 @@ Leibowitz, M. L., & Weinberger, A. (1982). Contingent immunization—Part I: Ris
 
 <sub>Supports: Row 8: contingent immunisation, floor plus surplus; the plan's closest relative and the road not taken. Checked: S1 #8, verified.</sub>
 
-Lintner, J. (1956). Distribution of incomes of corporations among dividends, retained earnings, and taxes. *American Economic Review*, *46*(2), 97–113.
+Lintner, J. (1956). Distribution of incomes of corporations among dividends, retained earnings, and taxes. *The American Economic Review*, *46*(2), 97–113.
 
 <sub>Supports: Second rank. Card use: Q153, managers avoid a dividend change that may have to be reversed; 3c's range. Checked: S2 #S4, fixed.</sub>
 
@@ -513,7 +537,7 @@ Masterson, K. (2008, October 16). Colleges brace for drop in corporate giving. *
 
 <sub>Supports: 3d. Checked: S4 #7, verified.</sub>
 
-Masterson, K. (2010, October 8). As pledges fall short, colleges face the music. *Chronicle of Philanthropy*. https://www.philanthropy.com/news/as-pledges-fall-short-colleges-face-the-music/
+Masterson, K. (2010, October 8). As pledges fall short, colleges face the music. *The Chronicle of Philanthropy*. https://www.philanthropy.com/news/as-pledges-fall-short-colleges-face-the-music/
 
 <sub>Supports: 3d. Checked: S4 #8, fixed.</sub>
 
@@ -537,9 +561,9 @@ MSCI Inc. (2026a). *MSCI ACWI Index (USD), gross, end-of-month levels* (Index co
 
 <sub>Supports: 3e (replay). Checked: S3 #49, verified. **Mon 23 Nov evening: not cited.** The report's 2000-03 fall ("more than 40%") rests on the price series alone (NUMBERS 9, the series item closed); the old figures spliced this gross series with the price series. Kept here only as the record of the check. Listed as MSCI Inc. (2026b) until Wed 25 Nov (card Q252 fix 28).</sub>
 
-MSCI Inc. (2026b). *MSCI ACWI Index (USD), price, end-of-month levels* (Index code 892400) [Data set]. Retrieved November 23, 2026, from https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph?currency_symbol=USD&index_variant=STRD&start_date=19991201&end_date=20030228&data_frequency=END_OF_MONTH&index_codes=892400
+MSCI Inc. (2026). *MSCI ACWI Index (USD), price, end-of-month levels* (Index code 892400) [Data set]. Retrieved November 25, 2026, from https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph
 
-<sub>Supports: 3e (replay, aha 9; named in the brief). Checked: S3 #48, S4 #50, verified. Listed as MSCI Inc. (2026a) until Wed 25 Nov; S4 #50 was logged on a second form of this data set, MSCI Inc. (n.d.), whose query string this entry now carries; that entry was deleted on Wed 25 Nov (card Q252 fix 28).</sub>
+<sub>Supports: 3e (replay, aha 9; named in the brief). Checked: S3 #48, S4 #50, verified. Thu 26 Nov: the old URL was the query for December 1999 to February 2003 only, but 3e's aha 9 now prints figures from the series to 2026 (card Q246 read it for 1997-2026 at the service address on 25 Nov), so the entry takes the service address and that read's date. No letter on the References page, since the gross series (MSCI Inc., 2026a) is not cited; in this file it was MSCI Inc. (2026b). Listed as MSCI Inc. (2026a) until Wed 25 Nov; S4 #50 was logged on a second form of this data set, MSCI Inc. (n.d.), whose query string this entry now carries; that entry was deleted on Wed 25 Nov (card Q252 fix 28).</sub>
 
 Municipal Securities Rulemaking Board. (2013). *MSRB glossary of municipal securities terms* (3rd ed.). https://www.msrb.org/sites/default/files/2022-08/MSRB-Glossary-of-Municipal-Securities-Terms-Third_Edition-August-2013.pdf
 
@@ -601,9 +625,9 @@ Reserve Bank of Australia. (2021, February 2). *Statement by Philip Lowe, Govern
 
 <sub>Supports: 3c. Checked: S3 #46, verified.</sub>
 
-Reserve Bank of Australia. (2022, November 15). *Review of the RBA's approach to forward guidance*. https://www.rba.gov.au/monetary-policy/reviews/approach-to-forward-guidance/index.html
+Reserve Bank of Australia. (2022, November 15). *Review of the RBA's approach to forward guidance*. https://www.rba.gov.au/monetary-policy/reviews/approach-to-forward-guidance/pdf/review-of-the-rbas-approach-to-forward-guidance.pdf
 
-<sub>Supports: 3c (outside parallel). Checked: S3 #45, verified.</sub>
+<sub>Supports: 3c (outside parallel). Checked: S3 #45, verified. Thu 26 Nov: URL changed to the PDF so that 3c's page number (p. 14) points to a paged document. The PDF was opened on Thu 26 Nov: the passage on the guidance read as "a promise" sits between the running heads for pages 13 and 14, which fits p. 14; a writer quoting it checks the page in the PDF itself.</sub>
 
 Rev. Proc. 2016-42, 2016-34 I.R.B. 269. https://www.irs.gov/pub/irs-drop/rp-16-42.pdf
 
@@ -645,6 +669,10 @@ Securities Investor Protection Corporation. (n.d.-b). *What SIPC protects*. Retr
 
 <sub>Supports: 3e (a broker failure is a delay). Checked: S4 #47, verified.</sub>
 
+Shanteau, J. (1992). Competence in experts: The role of task characteristics. *Organizational Behavior and Human Decision Processes*, *53*(2), 252–266. https://doi.org/10.1016/0749-5978(92)90064-E
+
+<sub>Supports: 3f or 3c, only if a sentence uses it (card Q247). Checked: publisher's page read at source Thu 26 Nov (volume 53, issue 2, November 1992, pages 252-266). Added Thu 26 Nov.</sub>
+
 Sharpe, W. F. (1964). Capital asset prices: A theory of market equilibrium under conditions of risk. *The Journal of Finance*, *19*(3), 425–442. https://doi.org/10.1111/j.1540-6261.1964.tb02865.x
 
 <sub>Supports: 3f. Checked: S4 #67, verified.</sub>
@@ -659,7 +687,7 @@ Sharpe, W. F., & Tint, L. G. (1990). Liabilities—A new approach. *The Journal 
 
 Shiller, R. J. (n.d.). *US stock price, earnings and dividends as well as interest rates and cyclically adjusted price earnings ratio (CAPE) since 1871* [Data set]. Retrieved November 23, 2026, from https://shillerdata.com/
 
-<sub>Supports: Table 2 (stocks from the start month). Checked: S4 #54, verified.</sub>
+<sub>Supports: Figure 2 (stocks from the start month). Checked: S4 #54, verified.</sub>
 
 Shiller, R. J. (2011). *Financial markets* [Video lecture series, ECON 252]. Open Yale Courses. https://oyc.yale.edu/economics/econ-252
 
@@ -689,7 +717,7 @@ Teigen, K. H., & Juanchich, M. (2024). Do claims about certainty make estimates 
 
 <sub>Supports: 3d: no "certain" in Laura's words (C9). Checked: S5 #4, verified. S5 status: ready to cite, named by the parts.</sub>
 
-Tobin, J. (1974). What is permanent endowment income? *American Economic Review*, *64*(2), 427–432.
+Tobin, J. (1974). What is permanent endowment income? *The American Economic Review*, *64*(2), 427–432.
 
 <sub>Supports: 25: how an endowment decides what it can spend; sets up the operating reserve and the facility contribution. Checked: S2 #25a, fixed.</sub>
 
@@ -701,13 +729,17 @@ Urbach, D. R., Govindarajan, A., Saskin, R., Wilton, A. S., & Baxter, N. N. (201
 
 <sub>Supports: 3e: a list ticked is not a list acted on. Say reported use, never measured use: hospitals had to report checklist use, reported use never fell below 98%, and deaths and complications did not fall significantly. Checked: S5 #13, verified. S5 status: ready to cite, named by the parts.</sub>
 
-U.S. Census Bureau. (n.d.). [Nonemployer statistics: United States, by NAICS code and legal form of organization, 2008 and 2009] [Data sets nonemp08us.txt and nonemp09us.txt]. https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2009/historical-datasets/nonemp09us.txt
+U.S. Census Bureau. (n.d.-a). *Nonemployer statistics: 2008* [Data set, complete U.S. file]. U.S. Department of Commerce. https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2008/historical-datasets/nonemp08us.txt
 
-<sub>Supports: Section 2 (2.3). Checked: S3 #6, fixed.</sub>
+<sub>Supports: Section 2 (2.3). Checked: S3 #6, fixed. Thu 26 Nov (card Q252 fix 10): split from the old single entry. The .txt file prints no title (it is rows of figures only); the title is the Census Bureau's own page for the file, "Nonemployer Statistics: 2008" (https://census.gov/data/datasets/2008/econ/nonemployer-statistics/historical-datasets.html), which links this file as "Complete U.S. File". Both pages and both directory listings read Thu 26 Nov. No release date is printed (the directory shows a file date of 6 Jun 2017, a re-post, not the release), so n.d. Cite with no letter if only one of the two files is cited.</sub>
+
+U.S. Census Bureau. (n.d.-b). *Nonemployer statistics: 2009* [Data set, complete U.S. file]. U.S. Department of Commerce. https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2009/historical-datasets/nonemp09us.txt
+
+<sub>Supports: Section 2 (2.3). Checked: S3 #6, fixed. Thu 26 Nov: split as above; title from the Census Bureau's page "Nonemployer Statistics: 2009" (https://census.gov/data/datasets/2009/econ/nonemployer-statistics/historical-datasets.html), read Thu 26 Nov. If only the 2009 file is cited, this is (U.S. Census Bureau, n.d.) with no letter.</sub>
 
 U.S. Department of the Treasury. (n.d.). *Daily Treasury par yield curve rates* [Data set]. Retrieved November 23, 2026, from https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026
 
-<sub>Supports: Section 2 (2.1, 2.5); 3c; Table 2, Table 3 (the curve of 6 Nov 2026). Checked: S3 #9, S4 #53, verified.</sub>
+<sub>Supports: Section 2 (2.1, 2.5); 3c; Figure 2, and the watch list (Keel's Table 3, printed as Table 2) (the curve of 6 Nov 2026). Checked: S3 #9, S4 #53, verified.</sub>
 
 U.S. Department of the Treasury. (1992, May). *Report to the Congress on international economic and exchange rate policy*. https://home.treasury.gov/system/files/206/ReporttotheCongressonInternationalEconomicandExchangeRatePolicies-May1992.pdf
 
@@ -753,7 +785,7 @@ Weber, M., & Camerer, C. F. (1998). The disposition effect in securities trading
 
 <sub>Supports: reserve; the word rule "never automatic or stop-loss" (Q220-025). Checked: S5 #20, verified. S5 status: reserve, listed only if named.</sub>
 
-Welch, I., & Goyal, A. (2008). A comprehensive look at the empirical performance of equity premium prediction. *Review of Financial Studies*, *21*(4), 1455–1508. https://doi.org/10.1093/rfs/hhm014
+Welch, I., & Goyal, A. (2008). A comprehensive look at the empirical performance of equity premium prediction. *The Review of Financial Studies*, *21*(4), 1455–1508. https://doi.org/10.1093/rfs/hhm014
 
 <sub>Supports: 21: returns are hard to forecast, so the 7.5% is stated as an assumption, not a prediction. Checked: S2 #21a, verified.</sub>
 
@@ -773,6 +805,10 @@ Wharton Global Youth Program. (2026). *Meet Laura Gao: Storyteller, entrepreneur
 
 <sub>Supports: 3.0; 3c. Checked: S3 #55, verified.</sub>
 
+When does the Treasury pay principal and interest on securities?, 31 C.F.R. § 356.30 (2026). https://www.ecfr.gov/current/title-31/subtitle-B/chapter-II/subchapter-A/part-356/subpart-D/section-356.30
+
+<sub>Supports: 3e or the watch list, only if named (card Q250: the Treasury's duty ends at the credit to the owner's account). Checked: eCFR page read at source Thu 26 Nov; the section's heading is as given. Added Thu 26 Nov; form as REFERENCES_APA row 886. In text: (When Does the Treasury Pay Principal and Interest on Securities?, 2026), or name the rule in the sentence as 31 C.F.R. § 356.30.</sub>
+
 Work and Pensions Committee. (2023, June 23). *Defined benefit pensions with liability driven investments* (Seventh Report of Session 2022–23, HC 826). House of Commons. https://publications.parliament.uk/pa/cm5803/cmselect/cmworpen/826/report.html
 
 <sub>Supports: 3e. Checked: S4 #21, verified.</sub>
@@ -781,9 +817,9 @@ Woronkowicz, J., Joynes, D. C., Frumkin, P., Kolendo, A., Seaman, B., Gertner, R
 
 <sub>Supports: 38 (as 38a). Checked: S2 #38b, verified.</sub>
 
-Wu, J. Q. (2008, December 20). Madoff scam hits Harvard Medical School grants. *The Harvard Crimson*. https://www.thecrimson.com/article/2008/12/21/madoff-scam-hits-harvard-medical-school/
+Wu, J. Q. (2008, December 21). Madoff scam hits Harvard Medical School grants. *The Harvard Crimson*. https://www.thecrimson.com/article/2008/12/21/madoff-scam-hits-harvard-medical-school/
 
-<sub>Supports: 3d. Checked: S4 #10, verified.</sub>
+<sub>Supports: 3d. Checked: S4 #10, verified. Thu 26 Nov: date changed from 20 to 21 December. The article page, opened Thu 26 Nov, prints no date in its byline (June Q. Wu, Crimson Staff Writer); its URL and its page metadata both give 21 December 2008, and nothing on the page gives 20 December.</sub>
 
 ## Added Tue 24 Nov evening (`sources_check/S5.md`; each opened at source that evening)
 
@@ -922,3 +958,17 @@ On the References page, only this file's letters count.
     writer's form needs a check against the library guides that quote the Manual's chapter 11 (row 40).
   - Case names are italic in the text and roman in this list: (*Allegheny College v. National Chautauqua County Bank
     of Jamestown*, 1927), *GIW Industries*, *Picard*.
+
+## In-text forms for writers, Thu 26 Nov
+
+SECTION_NOTES gives some of these wrongly (CHECK_REFERENCES table A); writers use the forms on the right.
+
+- 3a: California State Lottery (2025b), or (2025) with no letter if the annual report (2025a) is not cited. Never "California State Lottery Commission".
+- 3b: Perold and Sharpe (1988/1995): the entry is the 1995 reprint, "(Original work published 1988)".
+- Row 11, if named: Samuelson (1963/1994).
+- 2.3: Heaton and Lucas, with the letter of the paper meant: (2000a) "Portfolio choice and asset prices", (2000b) background risk. One cited alone takes no letter.
+- 2.0, 2.2: Leibowitz (1986), no letter unless 1986b is also cited.
+- 3e: (Bank of England, 2022) for the Financial Stability Report; (Hauser, 2023) or (Pinter, 2023) for the Bank's 2023 work. Never (Bank of England, 2023).
+- 3d: (Council for Advancement and Support of Education [CASE], 2021, as cited in Taylor, 2021), with the page where the words are read in Taylor; (CASE, 2021, as cited in Taylor, 2021) after that. No CASE entry: CASE and Marts&Lundy (2021) is a different work.
+- 3f: Kahneman and Klein (2009) only if cited in 3f's text (open, see its entry).
+- 3b: (BoardSource, 2026). 3d: (Financial Accounting Standards Board [FASB], 2018).

@@ -1,6 +1,6 @@
 # Intent: what the Final Report must leave in a judge's head (version 2, Tue 10 Nov 2026, amended Wed 11 Nov morning and evening, Thu 12 Nov morning and evening and Fri 13 Nov morning and evening; first version Mon 9 Nov night)
 
-**Attack day (Fri 20 Nov 2026; `research/ATTACKS.md`).** The governing thought takes a date: from January 2028 every dollar she has promised is held in Treasuries; in 2027 the gap is about $39,000, and the 2028 deposit fills it first (D20). Failure 7's "never print $75,001" is withdrawn: the split rule is stated once in a note (D17). The WInS book's difference from the plan is printed as a reconciliation under Table 1 with one reason (the book was built before the reserve was sized); "never 'after the freeze', 'a new standard' or 'we changed'" stands (D3). The range has one form everywhere (D1).
+**Attack day (Fri 20 Nov 2026; `research/ATTACKS.md`).** The governing thought takes a date: from January 2028 every dollar she has promised is held in Treasuries; the gap is $37,499 in January 2027 money (the first $39,162 of the 2028 deposit in January 2028 money; one date per figure, never "about $39,000" undated), and the 2028 deposit fills it first (D20). Failure 7's "never print $75,001" is withdrawn: the split rule is stated once in a note (D17). The WInS book's difference from the plan is printed as a reconciliation under Table 1 with one reason (the book was built before the reserve was sized); "never 'after the freeze', 'a new standard' or 'we changed'" stands (D3). The range has one form everywhere (D1).
 
 Planning notes, not report text. No sentence here is meant to be pasted into the report. Every figure is from
 `NUMBERS.md`; every claim about what Caplet committed to is checked against `CANON.md`; every name for a thing is the one in `WORDS.md` (Wed 11 Nov evening). Re-scored by every run through
@@ -81,12 +81,12 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    IPS l.13's own clause, completes them from the 2028 deposit (coherence reader 6, Mon 16 Nov, H1). A team that shows its overrun and the rule that covers it is believed
    on the rest. (Thu 12 Nov, panel 2: the overrun is said in 3a with the top-up, not in the 2.0 lead, where beside a table
    totalling $300,000 at two-thirds scale it confuses; SKELETON's density cut.)
-3. In 2031 Laura states her range, about $95,000 to $115,000 on today's figures, and both ends are money she already
-   owns in Treasury funds; co-sponsors count the top, owned before she speaks; the bottom is the part owned since
+3. In 2031 Laura states her range, about $95,000 to $115,000 on today's figures, and both ends are held for her in
+   Treasuries through one fund, the late-2032 fund bought twice (January 2028 and the move; NUMBERS l.10); co-sponsors count the top, owned before she speaks; the bottom is the part owned since
    January 2028 (funder test, Mon 16 Nov evening; WHY_A_RANGE 4e, which calls this item "failure 3"). The contribution
-   falls short of the top only if the funds' costs beyond the fees pass the room held back under the top (the 0.5% margin
+   falls short of the top only if the fund's costs beyond its fee (on its two purchases) pass the room held back under the top (the 0.5% margin
    plus the rounding down, about 2% on today's figures; "the margin" is the 0.5% alone, coherence reader 9, H3, Wed 18 Nov; "about 3%" before the Tue 17 Nov evening re-size, coherence reader 8, M2) with
-   cash waiting earning nothing, and then by about $120 for each further 0.1% centrally (about $144 at the house 1-in-20
+   cash waiting earning nothing, and then by about $118 for each further 0.1% centrally (about $144 at the house 1-in-20
    high, NUMBERS 3; coherence reader 8, L6) (bond desk 4, Mon 16 Nov, H1; never "a few hundred dollars"; the coherence reader: this condition must
    travel with the confidence). (Notes, not words for the report: the written
    rule, the cap and the two exceptions are in SKELETON 3c and cards Q19, Q4c and Q26; the payments' standard costs the
@@ -126,7 +126,7 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    as the part owned since January 2028; in Laura's words nothing is named as able to lower the top (funder test, Mon
    16 Nov evening).
 4. **The reflection is generic, retells the Trading Notes, or is about analysis rather than people.** Guard: three or
-   four real events from the blind ranking, each saying what the team did and when, with names where the team's own record gives them (Darren's "copout", 5 Oct; Eric asleep before the 00:30 open, 7 Oct; Ray placing or cancelling every order from 7 Oct), analysis and decisions as "we", never credited to a named student, the AI's share never needed for the point to land, never a false attribution, and nothing that was not a person described as one (no "readers" or "blind test"; people in the room, Mon 16 Nov evening, `research/experience/PEOPLE_IN_THE_ROOM_2026-11-16.md`) (Book 18; amended Mon 16 Nov evening after panel 3's finalist found this line and SKELETON 3f at odds), each ending on what changed or what was tested and kept,
+   four real events from the blind ranking, each saying what the team did and when, with names where the team's own record gives them (Darren's "copout", 5 Oct; Ray placing or cancelling every order from 7 Oct, with the mis-click only as the rule's reason, in 2.5) [Thu 26 Nov: "Eric asleep before the 00:30 open" struck: no event told as blame (ATTACKS D16; tree Branch 7), and voice round 21 found it had no purpose a reader could see], analysis and decisions as "we", never credited to a named student, the AI's share never needed for the point to land, never a false attribution, and nothing that was not a person described as one (no "readers" or "blind test"; people in the room, Mon 16 Nov evening, `research/experience/PEOPLE_IN_THE_ROOM_2026-11-16.md`) (Book 18; amended Mon 16 Nov evening after panel 3's finalist found this line and SKELETON 3f at odds), each ending on what changed or what was tested and kept,
    with a number where the register has one; one of them a success.
 5. **It is too dense to follow at speed.** Guard: the stack test on the first page; word budgets per part
    (`SKELETON.md`: about 2,550 words of prose in all, its page arithmetic since the density cut; coherence reader 7, Tue 17 Nov, LOW 7); cut whole ideas, never squeeze sentences (EXPECTATIONS 3.2).

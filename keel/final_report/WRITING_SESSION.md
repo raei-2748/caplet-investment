@@ -1,6 +1,6 @@
 # The writing session, Fri 27 Nov 2026: how it runs
 
-**Caplet's working doc (Wed 25 Nov 2026, late evening; `CAPLET_DOC_2026-11-25.md`).** Caplet is drafting in its own doc. How Friday works with that draft is Caplet's call (decision card in the thread); the default until it answers: the session writes a complete draft to Caplet's v2 map and opening, with every check below unchanged.
+**Caplet's working doc (Wed 25 Nov 2026, late evening; `CAPLET_DOC_2026-11-25.md`).** Caplet is drafting in its own doc. Caplet answered Wed 25 Nov 23:22 Sydney ("keep doing what you're doing"): the session writes a complete draft to Caplet's v2 map and opening, with the restrained pencil and ink, for the team to rewrite. Section 4 below (Thu 26 Nov) is the session's plan and wins over sections 1-3 where they differ.
 
 Started Wed 25 Nov (Day 18) with the review loop, rehearsed that morning; Day 19 (Thu 26 Nov) adds the frozen inputs,
 the pre-mortem, the phases' timetable, the page template and the round log (README row 19). The plan it comes from:
@@ -70,15 +70,77 @@ the clean text). If a core step misses one at the report's full length, the rota
 - A writer copies the fact sheet's reasons word for word (round 20's two sense faults were version 12's own), so the
   fact sheet is checked for sense like report prose.
 
-## 3. Still to write on Thu 26 Nov (Day 19)
+## 3. Thu 26 Nov (Day 19): what was still to write
 
-The frozen inputs and their versions; the pre-mortem on the session; the phases' timetable (rounds 2-5 structure,
-6-9 evidence and the co-sponsor text, 10-12 sentences); the stop rule (two rounds the blind compare cannot tell apart,
-with the fresh reader recovering all three points, or hour 20); the page template; the round log's form (After Action
-Review: what we meant to fix, what changed, why, what next); the Sat 28 handover pack.
+All of it is now in section 4. The inputs as they stood after Wed 25 Nov are listed there with the versions frozen.
 
-As they stand after Wed 25 Nov (the candidates to freeze on Thu 26 Nov): `ARGUMENT_TREE.md` with today's card
-verdicts; `SECTION_NOTES.md` (the checkers' brief for each part: its job, criteria, ideas by store id, aha, turn,
-numbers, exhibit, sources, Canon lines and trap; the writers never see it); `voice/FACTS_PLAIN.md` version 13 (the
-writers' facts); `NUMBERS.md` with 8za (the freeze check of Wed 25 Nov); `WORDS.md`; `CANON.md`;
-`research/WORKS_CITED_DRAFT.md` with cards Q242-Q253 to add (card Q252's fix list first); `NAME_ORDER.md`.
+## 4. The session plan (written Thu 26 Nov, Day 19)
+
+Built from `research/day19_2026-11-26/PREMORTEM.md` (twenty causes, each with a guard), `CAPLET_MAP.md` (Caplet's v2
+map against every Wharton and case ask) and voice round 21 (`voice/ROUND21.md`: Section 2 written whole to Caplet's
+map, read blind by three readers: plan recovered 3/3, clarity 3 of 5, every shared stop a name or a reason missing).
+
+### 4.1 Frozen inputs (no new research during the session)
+Writers see only: `voice/CORPUS.md`, `FINAL_IPS_as_submitted.txt`, Caplet's own text from its doc (re-read at 06:00
+Fri, read only, saved under `drafts/session/caplet_v2_<time>.md`), and their part of `voice/FACTS_PLAIN.md` version 15.
+Checkers see: `SECTION_NOTES.md` (its "Caplet's v2 map" table first), `NUMBERS.md` through the numbers extract
+(`drafts/session/NUMBERS_EXTRACT.md`, every figure the report may print with its one basis and one date), `CANON.md`,
+`WORDS.md`, `NAME_ORDER.md`, `CASE_MAP.md` E with `research/day19_2026-11-26/CAPLET_MAP.md`'s E1-E21, the exhibits
+(`exhibits/`, Figure 1 on the fee-and-margin basis), `research/WORKS_CITED_DRAFT.md`, the D35 list. Nothing else is
+read for content; any gap found is a note for the handover, not research.
+
+### 4.2 Shape and timetable (Sydney time)
+- **06:00-10:00, round 1:** a whole rough draft. Caplet's Section 2 opening and Table 1 are kept as Caplet wrote them;
+  one writer per part continues it (Section 2's remainder; Section 3's five parts in Caplet's order; the title page
+  from Caplet's doc, never copying the WInS username into the repo). Then one core review.
+- **Rounds 2-4, structure and argument.** Structure freezes after round 4: a point reversed once is decided by the
+  lead and logged, never reversed again.
+- **Rounds 5-7, evidence:** numbers, the co-sponsor words (inside "Before Laura gives her word", set off), the
+  operating reserve as a recommendation, the watch list (Table 2 in print), the Team Reflection last.
+- **Rounds 8-9, sentences and voice** against Caplet's own writing; the join between Caplet's opening and the
+  continuation is checked by name (round 21: all three readers heard it).
+- **Final checks**, then the handover by Sat 09:00. Nine rounds in all; the stop rule may end it earlier and nothing
+  adds a round beyond nine. Two to four hours of margin stay unplanned.
+
+### 4.3 Budget
+About 1.8 million tokens a review round, 2.4 million for round 1, 1.5 million for final checks (PREMORTEM section 3).
+Soft cap 15 million after round 6 (above it, rotating reviewers run only when K1 or K2 fails); hard cap 21 million
+(stop rewriting, final checks on the best version, build the handover). The lead logs agents and an estimate after
+every round. Every frozen version is pushed, so a stop at any hour leaves a deliverable.
+
+### 4.4 Guards from the pre-mortem (the eight highest)
+1. Names before they are set up: each writer's brief lists the names its part may use, in `NAME_ORDER.md` order, with
+   the plain description that comes first; K10 runs on Caplet's text too; a sentence two readers stop at is rewritten
+   whole by its writer. Round 21's fixes: who the payments are paid to, the building and the co-sponsors come before
+   Table 1.
+2. Readers who pass what the students fail: each fresh reader first marks Caplet's seventeen failed version-61 lines
+   mixed with Caplet's own IPS lines, and is used only if it stops at most of the seventeen. "Followed first time" per
+   part is counted and held at 80% or more by round 9.
+3. One basis and one date per figure: the numbers extract, Figure 1 on fee-and-margin; K1 fails on any figure with two
+   values.
+4. Churn: structure frozen after round 4; at most five fixes a round, ranked by the number of reviewers naming them.
+5. A tour of the research: every paragraph names its branch in Caplet's map; anything without a home stays out and
+   goes to the cut list.
+6. Voice: writers read all of Caplet's own writing first; K4 and K9 every round; one blind check a round against a
+   paragraph of Caplet's.
+7. The fact sheet's reasons are copied word for word, so version 15 was checked for sense on Thu 26 Nov and is frozen.
+8. The usage limit: whole draft by hour 4, every version pushed, the caps above.
+Also: the draft keeps to Caplet's choices (v2 map, restrained pencil and ink, no make-up promise, "committed" never
+"secured"); Caplet's own sentences are never rewritten silently, and the stops in them go to the handover note; the
+draft is laid out in `template/` after round 1 and held to eleven pages so the last page is margin; the lead never
+writes report sentences.
+
+### 4.5 Stop rule
+Stop when two rounds in a row cannot be told apart in the blind compare, the fresh reader recovers the plan, the range
+and the lesson, and every killer item passes; or at round 9; or at the hard cap.
+
+### 4.6 Round log (After Action Review), one block per round in `drafts/session/ROUND_LOG.md`
+Round N, start and end time, agents and estimated tokens. What we meant to fix. What changed (parts, with the fix
+taken and by whom). Why (the reviewers who named it; the criterion). What did not change and why. Measures: fresh
+reader's three recoveries, reader-test answers, "followed first time" per part, killer items, page count. Blind
+compare result. Regressions found (added to the regression log). Next round's aim.
+
+### 4.7 Handover, Sat 28 Nov 09:00 (on the portal and in the thread; no Artifacts or Claude Docs)
+The draft as markdown on the portal, ready to paste into Caplet's doc; a one-page plain-English note (what it argues,
+what changed in the rounds, the stops found in Caplet's own sentences, what Caplet must decide); the works cited; a
+claims-and-sources sheet; a cut list; open risks; the round log.
