@@ -1,5 +1,7 @@
 # The writing session, Fri 27 Nov 2026: how it runs
 
+**Caplet's working doc (Wed 25 Nov 2026, late evening; `CAPLET_DOC_2026-11-25.md`).** Caplet is drafting in its own doc. How Friday works with that draft is Caplet's call (decision card in the thread); the default until it answers: the session writes a complete draft to Caplet's v2 map and opening, with every check below unchanged.
+
 Started Wed 25 Nov (Day 18) with the review loop, rehearsed that morning; Day 19 (Thu 26 Nov) adds the frozen inputs,
 the pre-mortem, the phases' timetable, the page template and the round log (README row 19). The plan it comes from:
 `research/meta/HOW_STRATEGISTS_PLAN.md` section 2d. The sentences are written by fresh writers who have read only

@@ -268,7 +268,7 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   all six readers booked $115,000 either way, a tie on the rule set in advance). **One sentence added after the two
   ends:** the bottom never depended on her shares (it would be there if every share had become worthless), and since
   January 2031 neither end does, so no share price or interest rate can change either; all six readers asked why a
-  range is stated if the top is held and signed, and what could make it $95,000. **The letter fixes the sum:** if the
+  range is stated if the top is held and signed, and what could make it $95,000. **The letter fixes the sum** [dropped by default Wed 25 Nov night, `CAPLET_DOC_2026-11-25.md` item 2: no pledge against the half the IPS promises to no one; the letter states the sum and what holds it]: if the
   fund pays less than $115,000 she makes up the difference herself, from her flexibility (funders on the co-sponsor
   notes, two of three; round 17, two of six asked what could make her pay less; the model never draws on it, NUMBERS 4;
   her flexibility already covers an early fund end, NUMBERS 3). The letter is in US dollars and says the Taiwan-dollar

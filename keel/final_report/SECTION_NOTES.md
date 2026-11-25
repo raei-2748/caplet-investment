@@ -1,5 +1,7 @@
 # Section notes: one block per part, for the writers of Fri 27 Nov (Wed 25 Nov 2026, Day 18)
 
+**Caplet's working doc (Wed 25 Nov 2026, late evening).** Caplet is drafting in its own doc to its own map (v2 tab; `CAPLET_DOC_2026-11-25.md` maps each paragraph to the blocks below, which still hold as the checkers' brief). Four changes from it: pencil and ink restrained to an opening reference and a closing echo; no make-up promise in Laura's letter (3d; IPS l.15 promises half the shares to no one); Section 2 opens on a question, then the deletion test; Figure 1 rebuilt on the fee-and-margin ledger or its basis labelled.
+
 Notes only, never sentences to paste: the writers write from Caplet's own voice and the fact sheet, and the main
 session checks against these blocks. One block per part of `SKELETON.md`; where SKELETON's part rows and
 `ARGUMENT_TREE.md` differ, the tree wins (its branch for each part is named in the block). Every figure is a
