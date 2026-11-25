@@ -53,13 +53,20 @@ the clean text). If a core step misses one at the report's full length, the rota
 
 **Models.** Reviewers on Sonnet with one page of rubric each; the writers and the lead on the main model.
 
-## 2. What the voice rounds add to the checks (rounds 11-19)
+## 2. What the voice rounds add to the checks (rounds 11-20)
 
 - A sentence two readers stop at is rewritten whole; the stops are almost always a name or a date that arrives
   before what it names (round 11's third failure; round 19's "the floor", IBTM, "in 1 January 2033 money").
 - One date per figure in prose; a figure's dating basis goes to the exhibit's note.
 - The team is the actor where a step is the team's (round 19: "we" fell to 0.4-0.9 per 100 words once a writer wrote
   about the plan's money).
+- Round 20 (Wed 25 Nov evening, Section 2 whole): nine stops by all three readers, every one a name or a reason
+  missing (WInS, "the floor", why the 2033 piece waits, why 2037 is a fund, the extra Treasuries' job). So every round
+  checks each part against `NAME_ORDER.md` (the order in which names are first used, with the lead's sixteen decisions):
+  a name used before it is set up in its part is a killer item. The watch list prints as Table 2 (APA numbering);
+  Keel's files call it Table 3, so every brief says "the watch list (Table 2 in print)".
+- A writer copies the fact sheet's reasons word for word (round 20's two sense faults were version 12's own), so the
+  fact sheet is checked for sense like report prose.
 
 ## 3. Still to write on Thu 26 Nov (Day 19)
 
@@ -70,6 +77,6 @@ Review: what we meant to fix, what changed, why, what next); the Sat 28 handover
 
 As they stand after Wed 25 Nov (the candidates to freeze on Thu 26 Nov): `ARGUMENT_TREE.md` with today's card
 verdicts; `SECTION_NOTES.md` (the checkers' brief for each part: its job, criteria, ideas by store id, aha, turn,
-numbers, exhibit, sources, Canon lines and trap; the writers never see it); `voice/FACTS_PLAIN.md` version 11 (the
+numbers, exhibit, sources, Canon lines and trap; the writers never see it); `voice/FACTS_PLAIN.md` version 13 (the
 writers' facts); `NUMBERS.md` with 8za (the freeze check of Wed 25 Nov); `WORDS.md`; `CANON.md`;
-`research/WORKS_CITED_DRAFT.md` with today's cards Q242-Q247 to add.
+`research/WORKS_CITED_DRAFT.md` with cards Q242-Q253 to add (card Q252's fix list first); `NAME_ORDER.md`.

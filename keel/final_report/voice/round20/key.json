@@ -1,0 +1,36 @@
+{
+ "readers": {
+  "1": {
+   "role": "professor",
+   "n_sentences_P2": 17,
+   "n_sentences_P3": 11
+  },
+  "2": {
+   "role": "consultant",
+   "n_sentences_P2": 17,
+   "n_sentences_P3": 11
+  },
+  "3": {
+   "role": "teacher",
+   "n_sentences_P2": 17,
+   "n_sentences_P3": 11
+  }
+ },
+ "we_per_100_words": {
+  "C": [
+   1.72,
+   116
+  ],
+  "S": [
+   2.29,
+   611
+  ]
+ },
+ "headings": [
+  "If every share went to nothing",
+  "What the portfolio holds",
+  "How it was built",
+  "What is spread, and what is not",
+  "How well it was bought"
+ ]
+}
