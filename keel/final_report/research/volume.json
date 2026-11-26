@@ -1,10 +1,10 @@
 {
- "built": "2026-11-26T06:51+11:00",
+ "built": "2026-11-26T19:25+11:00",
  "today": "2026-11-26",
  "store_ideas": 11362,
  "store_judged": 11362,
  "totals": {
-  "workers": 604,
+  "workers": 608,
   "cards": 284,
   "rows": 10102,
   "sources": 9545,
@@ -14,7 +14,7 @@
  "days": [
   {
    "day": "2026-11-26",
-   "workers": 13,
+   "workers": 17,
    "cards": 0,
    "rows": 0,
    "sources": 0,
@@ -178,14 +178,6 @@
  "runs": [
   {
    "date": "2026-11-19",
-   "run": "evening (overdrive, big ideas round)",
-   "research_workers": "15",
-   "analysis_workers": "8",
-   "readers": "16",
-   "notes": "Book 21 and Book 22. Twelve research workers on big ideas from far fields (cards Q163-Q174: literature of bonds and promises; the philosophy of promising; precommitment; the history of reserves; the gift; what certain means; Damodaran and Shiller read whole; the economics of artists; why buildings overrun; defeasance and the ledger; pencil and ink facts), 388 rows; a thirteenth on the copout (card Q175, from theory and wide reading); two on the prior art of sentences that make sense and of erudite but clear prose; six raters judged every row the same evening (239 keep, 69 adapt, 76 merged, 4 refuse; store 8,742 ideas); analysis: the writers' fact sheet rebuilt as facts only (version 2) and Keel's analysis of why version 61 could not be followed (voice/WHY_V61_FAILED.md); sixteen blind readers in comprehension study 1 (563 sentences, calibrated against Caplet's list); the overdrive plan to 27 Nov (OVERDRIVE_PLAN.md)"
-  },
-  {
-   "date": "2026-11-19",
    "run": "late evening (overdrive, one level deeper)",
    "research_workers": "12",
    "analysis_workers": "7",
@@ -271,6 +263,14 @@
    "analysis_workers": "10",
    "readers": "3",
    "notes": "Final checks before the writing session, no new research (the pre-mortem's budget guard). Five checkers read every file the writers and checkers need against each other, NUMBERS and CANON: the fact sheet, WORDS and NAME_ORDER (22 contradictions), the planning files (36 problems, nine re-pointings to Caplet's v2 map), the exhibits (20 mismatches; Figure 1 rebuilt on the fee-and-margin basis, NUMBERS 8zb), the works cited (190 entries, 11 fixed, six added after reading at source), and a map of Caplet's outline against every Wharton and case ask (14 unplaced asks given homes). One pre-mortem (twenty causes, each with a guard; nine rounds and two budget caps). Four fixers applied every finding (FACTS_PLAIN version 15). Voice round 21, the rehearsal: Section 2 written whole to Caplet's map by one fresh writer, read blind by three readers (plan recovered 3/3, clarity 3 of 5, the join between Caplet's opening and the continuation heard by all three)."
+  },
+  {
+   "date": "2026-11-26",
+   "run": "day 19 evening (freeze; paced, light)",
+   "research_workers": "1",
+   "analysis_workers": "3",
+   "readers": "0",
+   "notes": "The last run before the writing session, no new research questions. One worker read 37 outside facts the report will print at their sources (29 match; three wordings changed: the Census -7.8% is for sole proprietors, IBTA paid out about two weeks early, the Lottery policy was reaffirmed and adopted). The numbers extract for checkers (121 printable rows, 32 never-print forms; four placement faults fixed at source: the reserve's size printed once in the recommendation sentence, \"about $502,600\" and \"the floor always over half the deposit\" removed, the make-up wording marked dropped). A sense check of the fact sheet (62 sentences changed, three overstatements corrected; version 15.1, which also adds what certainty costs her range). Six writer briefs for the 06:00 start. Inputs frozen."
   }
  ],
  "cards": [

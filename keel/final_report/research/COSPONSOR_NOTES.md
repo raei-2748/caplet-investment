@@ -51,8 +51,8 @@ readers playing a co-sponsor, a foundation programme officer and a Taiwan arts o
   "no market can change what they pay"; Book 19). The top rests on IBTM, a fund that holds Treasuries maturing in 2032
   and pays about 15 December 2032 whatever it then has; its payout is not fixed to the dollar, and the 0.5% cut is the
   answer. What could still leave a stated end short: fund costs beyond the fee of more than 0.5% (about 2% in all would
-  break the top, NUMBERS 8u), an early end or merger of the fund while waiting cash earns nothing (at most about $4,600,
-  from her flexibility), a broker failure (late, and short only beyond what SIPC fills), or a US default. These belong
+  break the top, NUMBERS 8u), an early end or merger of the fund while waiting cash earns nothing (at most about $4,600
+  short; never "from her flexibility": the make-up promise is dropped Thu 26 Nov, Caplet's direction, CAPLET_DOC), a broker failure (late, and short only beyond what SIPC fills), or a US default. These belong
   to 3e and Table 3, never to Laura's words.
 - **What she gives.** Her contribution is the lower of what the fund pays and the stated top; centrally the fund pays
   $122,503, so she gives $115,000 and $7,503 joins her flexibility. In every tested path the contribution equals the top.
