@@ -201,7 +201,15 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   serious: the same paraphrase, fixed by stating in the record row what the doc says; the rest small: present tense
   for 2028 holdings, a comic shop line ending an entry, "written whole", why a letter breaks a use the plan allows);
   each was cut or put in plain words, two events (the order of names, the reference list) cut for length, and the
-  second read's fixes went in without a third read, for the same reason as Ep 54.
+  second read's fixes went in without a third read, for the same reason as Ep 54. Ep 59 (Thu 26 Nov) failed two fresh reads:
+  21 lines (five serious: "the basis" for Figure 1, the whole-point fall and "register" unexplained, the bottom of the
+  range bought in 2028 and "the same rule" never set up, which promise was dropped, which two plans end within
+  $1,100; small ones: an entry ending on the $1,100, a which-clause glossing the Lottery's "reaffirmed", the Lottery
+  with no reason to be there, "really"), then 10 (two serious: "the half of her shares ... for no one" and the
+  certainty-cost passage, both rewritten in plain steps; small ones: the reply turned into a settled plan without
+  saying it was Nora's reading, "weekly limit", three sentences opening "All three", an entry ending on the judge's
+  verdict); each was cut or put in plain words, the Lottery, the closed fund and the numbers list cut for length,
+  and the second read's fixes went in without a third read, for the same reason as Ep 54.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
