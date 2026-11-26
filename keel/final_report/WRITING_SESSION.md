@@ -82,7 +82,9 @@ map, read blind by three readers: plan recovered 3/3, clarity 3 of 5, every shar
 
 ### 4.1 Frozen inputs (no new research during the session)
 Writers see only: `voice/CORPUS.md`, `FINAL_IPS_as_submitted.txt`, Caplet's own text from its doc (re-read at 06:00
-Fri, read only, saved under `drafts/session/caplet_v2_<time>.md`), and their part of `voice/FACTS_PLAIN.md` version 15.
+Fri, read only, saved under `drafts/session/caplet_v2_<time>.md`), and their part of `voice/FACTS_PLAIN.md` version 15.1, through
+the per-part briefs in `drafts/session/briefs/` (README there gives the launch order). FROZEN Thu 26 Nov 19:25 Sydney:
+from here only the 06:00 re-read of Caplet's text may change an input.
 Checkers see: `SECTION_NOTES.md` (its "Caplet's v2 map" table first), `NUMBERS.md` through the numbers extract
 (`drafts/session/NUMBERS_EXTRACT.md`, every figure the report may print with its one basis and one date), `CANON.md`,
 `WORDS.md`, `NAME_ORDER.md`, `CASE_MAP.md` E with `research/day19_2026-11-26/CAPLET_MAP.md`'s E1-E21, the exhibits

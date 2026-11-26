@@ -109,7 +109,7 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   (D4). The plan buys no shares while the 2028 deposit is unknown, so a smaller deposit lands on the shares first: a
   smaller deposit buys less VT first, and the ten payments still stand if it arrives about three-quarters smaller (card
   Q206; its figure for how much less VT is Keel arithmetic, to enter NUMBERS before any use). Her income is not bond-like either; the report claims no beta and no steady link, only that a
-  recession "can" bring both, as 2008-09 and 2020 did (one-person artists' and writers' receipts -7.8% in 2009). Laura's own words, once: "until the day it hits the shelves" (GOLDMINE 36).
+  recession "can" bring both, as 2008-09 and 2020 did (receipts of artists and writers working as sole proprietors -7.8% in 2009). Laura's own words, once: "until the day it hits the shelves" (GOLDMINE 36).
 - **The reconciliation (note under Table 1, D3).** The WInS portfolio x 1.5 (never "book" in print; NAME_ORDER decision 5): $293,830 payment Treasuries, $109,148 floor, $39,787 VT;
   the plan in January 2028: $339,162, $81,244, $29,594. One reason: the book was built before the operating reserve was
   sized, and the case asks the team to size it. What is left splits the same way in both, about 73% floor, 27% VT. Never
@@ -168,7 +168,7 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
 - **Conceit.** [Reserve. Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 1: no turn in a part; pencil and ink appear once in Section 2's opening and, optionally, once as a closing echo inside 3f's last paragraph.] The one line that waited in pencil, the interest on cash waiting, inked in January 2028 by the extra
   Treasuries.
 - **Outside parallel (one).** The California State Lottery's rule, in the Lottery Commission's investment policy (not
-  a statute; approved for 2025 on 25 September 2025, Resolution 2025-FIN-003, s.III, p.1): its investments must mature
+  a statute; reaffirmed and adopted on 25 September 2025, Resolution 2025-FIN-003, s.III, p.1): its investments must mature
   in amounts "sufficient to meet required prize payouts on dates immediately prior, or as near prior as practicable, to
   prize payment dates" (card Q211, read at source Sun 22 Nov; card Q242, Wed 25 Nov: a redline before the Commission on
   19 Nov 2026 would change "mature in" to "mature into", adoption not posted, so the quotation starts at "sufficient",
@@ -401,7 +401,7 @@ Laura's words, D6) and what it leaves out. Words follow `WORDS.md` and FACTS_PLA
   default: hold and wait); what changes the figures she can state (yields before January 2027 and January 2028, shares
   to January 2031, a deposit between nothing and about $39,000); what tests her flexibility (Taiwan building costs, the
   Taiwan dollar, co-sponsors' pledges, the building's own timetable). The late-2032 fund watched for an early end or
-  merger all year, its scheduled end in September-October (IBTA ended 15 days early; the five ended iBond Treasury
+  merger all year, its scheduled end in September-October (IBTA stopped trading 15 days early and paid out 12 days early; the five ended iBond Treasury
   funds paid within about 0.07% of their last price, card Q3c).
 - **Headline line.** The closing line of the assumptions, plain: no fall in share prices can change the plan. [Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC),
   item 1: the gloss in dashes, rubbing out every pencil line.]
@@ -566,7 +566,7 @@ reason (no gem lost, GEM_LEDGER).
 | 16 | Interest on interest is 3% of the 2033 payment, about 15% of the last two | Figure 1's note | Placed |
 | 17 | A pledge fails with whoever made it (Lehman's was the bank's own pledge, card Q213; never "from a fortune") | 3d | Placed (aha 8, with card Q200) |
 | 18 | Her career leads the market; the deposit carries the risk | 2.3 | Merged into aha 2 and D4's "later and smaller"; $3,016 never alone |
-| 19 | Ended iBond funds paid within 0.066%; IBTA 15 days early | 3e, Table 3 | Placed |
+| 19 | Ended iBond funds paid within 0.066%; IBTA stopped trading 15 days early, paid 12 days early | 3e, Table 3 | Placed |
 | 20 | Sovereigns in their own currency do not repudiate | merged into 5 | Merged Wed 25 Nov (final pass) into 5: the same point (never default risk); the strong words need no outside proof (D6); store only |
 | 21 | Nobody can run on the plan | 3e | Placed (3e's one parallel, the 2022 gilt crisis) |
 | 22 | A world fund adds about $75 against an $11,500 need | Table 3's note | Placed: the currency watch, never a hedge |

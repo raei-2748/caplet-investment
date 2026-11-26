@@ -208,7 +208,7 @@ Section 2 paragraph:
 - **Criteria.** PA (risk analysed), CK (her income), IS (appropriate diversification).
 - **Ideas, carried.** Q63-017 (GIW Industries: "could have been avoided by staggering maturity dates"), Q206-002
   (Kimball: "risks should tend to crowd each other out"), Q206-029 (the background risk settled before share risk),
-  Q1c-005 (2009 receipts; the -7.8% for artists and writers, card Q206), H9-008 ("until the day it hits the shelves",
+  Q1c-005 (2009 receipts; the -7.8% for artists and writers working as sole proprietors, card Q206), H9-008 ("until the day it hits the shelves",
   goldmine 36), Q218-010 (a recession reaches the plan through its two inputs not held). Goldmine 2 (merged), 18, 26,
   39.
 - **Aha (row 2): the order of purchase.** The deposit pays the ten first, so it can arrive about three-quarters
@@ -268,7 +268,7 @@ Section 2 paragraph:
   move gives about $95,000-$105,000; after it, neither end moves).
 - **Aha (row 4): certainty has dates.** A fall can shrink the next figure she states, never one already stated.
 - **Conceit turn.** [Reserve. Dropped Thu 26 Nov: Caplet's direction (CAPLET_DOC), item 1: no turn in a part; the device appears once in Section 2's opening and, optionally, once as a closing echo inside 3f's last paragraph. Checkers never ask for this.] The run is finished before it is offered (CONCEIT 3.0 row), one clause at most, or plain.
-- **Numbers.** NUMBERS 8p (the 40% fall), 4 (the range), 2 (the reserve's size, printed once: in 3a's first sentence).
+- **Numbers.** NUMBERS 8p (the 40% fall), 4 (the range), 2 (the reserve's size, printed once: in the recommendation sentence of "Ten payments, ten dates", NAME_ORDER decision 7 as amended).
 - **Exhibit.** None.
 - **Sources.** Card Q202 (Hong-Gah Museum's running cost) only in the store.
 - **CANON.** A32-A33.
@@ -297,7 +297,7 @@ Section 2 paragraph:
   **Voice round 19 (today), two of three readers marked "what that ban costs her" as not making sense** (the $36,774
   mostly comes back): say what the ban makes her hold, and that what it costs is holding it, since about $46,600
   comes back if rates follow today's prices. **Card Q242 (today):** the quotation is word for word (s.III, p.1;
-  approved for 2025 on 25 September 2025, Resolution 2025-FIN-003), but a redline before the Commission on 19 November
+  reaffirmed and adopted on 25 September 2025, Resolution 2025-FIN-003), but a redline before the Commission on 19 November
   2026 would change "mature in" to "mature into", so quote from "sufficient"; the break is that the lottery's Treasuries
   are zero-coupon bonds and so leave it no interest to reinvest (its municipal bonds pay interest; the policy never
   requires zeros); never "the lottery holds zeros" or "the 2026 policy".
@@ -441,7 +441,7 @@ Section 2 paragraph:
   (both reasons are money failing to arrive), Q222-027 (watch symptoms, not causes), Q222-038 (Ontario's checklist: a
   list ticked is not a list acted on), Q214-016 (the PPF, November 2022), Q2a-002 (the spiral's size), Q210-008 and
   Q210-030 (overlapping windows printed as episodes), Q217-003 and Q217-007 (1986-88 from the currency alone), Q3c-004
-  and Q3c-007 (the five ended funds; IBTA 15 days early), H7-019 (the ladder is the opposite of a bank: no money falls
+  and Q3c-007 (the five ended funds; IBTA stopped trading 15 days early, paid 12 days early), H7-019 (the ladder is the opposite of a bank: no money falls
   due before money arrives; rated 18 today), Q85-036 (the 2000-03 replay). Goldmine 7 (merged), 12, 19, 21, 22.
 - **Aha (row 9).** A slump followed by a cost burst can catch her flexibility (world shares bought at the start of 2000
   more than 40% down three years later; building costs from January 2003 to December 2004 about 18% higher in NT$,
