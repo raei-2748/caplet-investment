@@ -7,7 +7,6 @@ b.append(ln(0, 54, W, 54, "#BBBBBB", 0.6))
 def lane(y, num, name, why, c, x0, dash=None, w=2.2):
     b.append(t(0, y + 3, f"{num}", 10, "bold", fill=c))
     b.append(t(12, y + 3, name, 10, "bold"))
-    b.append(lines(12, y + 15, why, 8.5, st="italic", fill=MUTE))
     b.append(ln(x0, y, X[3] - 8, y, c, w, dash))
     b.append(f'<path d="M{X[3]-8} {y-3.5} L{X[3]-2} {y} L{X[3]-8} {y+3.5} Z" fill="{c}"/>')
 # lane 1
@@ -47,6 +46,6 @@ for x, rows in [(X[0], ["Reprice the ladder"]),
                 (X[3], ["Each December,", "confirm the", "next $50,000"])]:
     b.append(diamond(x, yd, 3.8))
     b.append(lines(x + 7, yd + 3, rows, 8.5))
-b.append(t(0, yd + 48, "Only a missed deposit or a Treasury default changes the plan. A fall in share prices changes none of these steps.", 9, st="italic"))
-b.append(lines(0, yd + 66, NOTE, 7.5, fill=MUTE))
-open("comp_a.svg", "w").write(svg(yd + 80, "".join(b), "Figure 1", "How Laura’s Two Deposits Are Committed, in Order of Priority"))
+body = '<g transform="translate(0,-16)">' + "".join(b) + "</g>"
+h = yd + 34 - 16
+open("comp_a.svg", "w").write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}pt" height="{h}pt" viewBox="0 0 {W} {h}"><rect width="{W}" height="{h}" fill="#fff"/>' + t(0, 12, "Figure 1", 11, "bold") + body + "</svg>")
