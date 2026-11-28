@@ -29,9 +29,9 @@ for i, (lab, a, b) in enumerate(G):
 ly = 48
 s.append(f'<rect x="{x0+8}" y="{ly}" width="8" height="8" fill="{NAVY}"/><text x="{x0+20}" y="{ly+7.5}" font-size="9.5">Floor bought in 2028 (our plan): 1.5% of simulations below $95,000</text>')
 s.append(f'<rect x="{x0+8}" y="{ly+13}" width="8" height="8" fill="{SAGE}"/><text x="{x0+20}" y="{ly+20.5}" font-size="9.5">Floor bought in 2031 (alternative): 16.4% below $95,000</text>')
-note = ["Note. Projected Treasury payouts to the facility by December 2032, including projected reinvestment income, from 200,000",
-        "simulations with 7.5% median annual equity growth. Both strategies are measured against today’s $95,000 target, not against",
-        "a range stated in 2031: our plan’s 1.5% are futures in which yields fall before 2028. Source: Team calculations."]
+note = ["Note. Treasury payouts to the facility by December 2032, including reinvested interest, from 200,000 simulations in which",
+        "world shares grow 7.5% a year at the median. We compare both plans with today\u2019s $95,000 target, not with a range Laura",
+        "states in 2031. Our plan falls short of it only in futures where yields fall before 2028. Source: Team calculations."]
 s.append(lines(0, y0 + 40, note, 8, fill=MUTE))
 s.append('</svg>')
 open("early_late.svg", "w").write("".join(s))
