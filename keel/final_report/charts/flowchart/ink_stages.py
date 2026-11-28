@@ -5,10 +5,31 @@ NET = [47101, 46497, 45911, 45204, 44268, 43195, 43061, 43043, 42180, 42469]
 PEN = "#8A8A8A"
 U = 44 / 50000          # pt per dollar
 BASE = 176
-def pencil(x, y, w, h):
-    e = 2.2  # construction-line overshoot at each corner
-    return "".join(ln(a, b, c, d, PEN, 0.7) for a, b, c, d in [
-        (x - e, y, x + w + e, y), (x - e, y + h, x + w + e, y + h), (x, y - e, x, y + h + e), (x + w, y - e, x + w, y + h + e)])
+import random
+random.seed(7)
+DEFS = ('<defs><filter id="graphite" x="-5%" y="-5%" width="110%" height="110%">'
+        '<feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="n"/>'
+        '<feDisplacementMap in="SourceGraphic" in2="n" scale="1.3" xChannelSelector="R" yChannelSelector="G" result="d"/>'
+        '<feTurbulence type="fractalNoise" baseFrequency="2.2" numOctaves="1" seed="9" result="g"/>'
+        '<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.6 1.25" result="ga"/>'
+        '<feComposite in="d" in2="ga" operator="in"/></filter></defs>')
+def _j(v, a=0.5): return v + random.uniform(-a, a)
+def pencil(x, y, w, h, hatch=True):
+    e = 2.4
+    o = []
+    for k in range(2):  # two light passes, as a hand draws over a line
+        for a, b, c, d in [(x - e, y, x + w + e, y), (x - e, y + h, x + w + e, y + h), (x, y - e, x, y + h + e), (x + w, y - e, x + w, y + h + e)]:
+            o.append(f'<line x1="{_j(a):.2f}" y1="{_j(b):.2f}" x2="{_j(c):.2f}" y2="{_j(d):.2f}" stroke="#5A5A5A" stroke-width="{0.55 if k else 0.75}" stroke-linecap="round" opacity="{0.55 if k else 0.85}"/>')
+    if hatch:  # loose diagonal shading inside the box
+        cid = f"c{random.randint(0, 10**9)}"
+        o.append(f'<clipPath id="{cid}"><rect x="{x+1}" y="{y+1}" width="{w-2}" height="{h-2}"/></clipPath><g clip-path="url(#{cid})">')
+        sp = 3.2
+        i = -h
+        while i < w:
+            o.append(f'<line x1="{x+i+_j(0,0.6):.2f}" y1="{y+h:.2f}" x2="{x+i+h+_j(0,0.6):.2f}" y2="{y:.2f}" stroke="#8C8C8C" stroke-width="0.4" opacity="{random.uniform(0.45,0.75):.2f}"/>')
+            i += sp
+        o.append("</g>")
+    return '<g filter="url(#graphite)">' + "".join(o) + "</g>"
 def ink(x, v, w, c, v0=0):
     return f'<rect x="{x:.1f}" y="{BASE - v*U:.1f}" width="{w}" height="{(v-v0)*U:.1f}" fill="{c}"/>'
 def panel(x0, year, stage, cap):
@@ -44,4 +65,4 @@ for x0, yr, st, cap in P:
         b.append(t(xb + 10, BASE - 115000 * U - 5, "$115,000", 8.5, "bold", anc="middle"))
         b.append(t(xk + 10, BASE - 28700 * U - 5, "$28,700", 8.5, "bold", anc="middle"))
 H = BASE + 66
-open("ink_stages.svg", "w").write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}pt" height="{H}pt" viewBox="0 0 {W} {H}"><rect width="{W}" height="{H}" fill="#fff"/>' + "".join(b) + "</svg>")
+open("ink_stages.svg", "w").write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}pt" height="{H}pt" viewBox="0 0 {W} {H}"><rect width="{W}" height="{H}" fill="#fff"/>' + DEFS + "".join(b) + "</svg>")
