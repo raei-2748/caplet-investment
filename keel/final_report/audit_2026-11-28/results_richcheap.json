@@ -1,0 +1,22 @@
+{
+ "IBTM": {
+  "mean_vendor_minus_model_per_100": -0.216,
+  "min": -0.244,
+  "max": -0.193
+ },
+ "IBTO": {
+  "mean_vendor_minus_model_per_100": -0.139,
+  "min": -0.166,
+  "max": -0.097
+ },
+ "IBTP": {
+  "mean_vendor_minus_model_per_100": -0.085,
+  "min": -0.097,
+  "max": -0.078
+ },
+ "IBTR": {
+  "mean_vendor_minus_model_per_100": 0.256,
+  "min": -0.143,
+  "max": 1.44
+ }
+}

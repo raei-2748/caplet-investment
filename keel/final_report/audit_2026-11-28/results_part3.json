@@ -1,0 +1,57 @@
+{
+ "table1": {
+  "costs": {
+   "IBTM": 97489.95,
+   "IBTO": 23408.64,
+   "IBTP": 22155.3,
+   "IBTQ": 20973.24,
+   "IBTR": 19823.72,
+   "B2037": 19203.8,
+   "B2038": 18615.26,
+   "B2039": 16200.95,
+   "B2040": 15790.32,
+   "B2041": 14991.0,
+   "VT": 26524.61
+  },
+  "treasury_subtotal": 268652.18,
+  "treasury_weight_pct": 89.55,
+  "vt_weight_pct": 8.84,
+  "cash_weight_pct": 1.17,
+  "residual_after_cash": 1309.42,
+  "commissions": 200,
+  "residual_less_commissions": 1109.42
+ },
+ "standard_accrued_interest": {
+  "2026-10-07": 1349.42,
+  "2026-10-08": 1360.37
+ },
+ "book_share_of_each_full_rung": {
+  "2033": 0.651,
+  "2034": 0.648,
+  "2035": 0.644,
+  "2036": 0.642,
+  "2037": 0.639,
+  "2038": 0.659,
+  "2039": 0.677,
+  "2040": 0.625,
+  "2041": 0.647,
+  "2042": 0.654
+ },
+ "plan_jan2028_weights_pct": {
+  "operating (ten + $39,162)": 76.1,
+  "floor (IBTM)": 17.5,
+  "VT": 6.4
+ },
+ "plan_jan2028_total": 463318,
+ "book_weights_pct": {
+  "operating (ten rungs)": 65.3,
+  "floor stand-in (IBTM)": 24.3,
+  "VT": 8.8,
+  "cash and costs": 1.6
+ },
+ "book_times_1.5": {
+  "operating": 293830,
+  "floor": 109148,
+  "VT": 39787
+ }
+}

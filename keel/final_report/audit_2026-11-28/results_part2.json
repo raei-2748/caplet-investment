@@ -1,0 +1,156 @@
+{
+ "central": {
+  "topup": 2066,
+  "extra": 35454,
+  "R": 112480,
+  "floor": 82448,
+  "vt": 30032,
+  "vt31": 37242,
+  "moved": 18621,
+  "bot_u": 99387,
+  "top_u": 119215,
+  "bottom": 95000,
+  "top": 115000,
+  "pays_fwd": 124201,
+  "excess": 9201,
+  "kept": 21493,
+  "keep_total": 30694
+ },
+ "ibtm_per_dollar": {
+  "zero_from_jan2028": 1.211511,
+  "fwd_from_jan2028": 1.25886,
+  "zero_from_jan2031": 1.070164,
+  "fwd_from_jan2031": 1.096147
+ },
+ "central_on_drafts_sizes": {
+  "bottom_unrounded": 97936,
+  "top_unrounded": 117474,
+  "facility_pays_fwd": 122388,
+  "vt_jan2031": 36698,
+  "kept_half_2033": 21179,
+  "keep_total_at_115k": 28568
+ },
+ "house": {
+  "paths": 200000,
+  "top_at_least_115k": 0.6177,
+  "top_at_least_100k": 0.9274,
+  "bottom_stated_p5_p50_p95": [
+   85000.0,
+   95000.0,
+   115000.0
+  ],
+  "top_stated_p5_p50_p95": [
+   95000.0,
+   115000.0,
+   145000.0
+  ],
+  "table3_plan_p5_p50_p95": [
+   101818,
+   124518,
+   153084
+  ],
+  "table3_rival_p5_p50_p95": [
+   77483,
+   132251,
+   225330
+  ],
+  "plan_below_95k": 0.0091,
+  "rival_below_95k": 0.1547,
+  "median_gap_rival_minus_plan": 7733,
+  "p5_gap_plan_minus_rival": 24334,
+  "plan_behind_rival_share": 0.5975,
+  "keep_total_p5_p50_p95": [
+   16473,
+   28552,
+   49964
+  ],
+  "stated_ends_fail_at_zero_interest_with_0.5pct": 0,
+  "with_0.75pct_cut_bottom_short": 0.0503,
+  "with_0.75pct_cut_top_short": 0.0615,
+  "with_0.75pct_cut_either_short": 0.1085,
+  "with_0.75pct_cut_largest_short": 419,
+  "with_0.75pct_cut_short_at_forward_rates": 0,
+  "most_rule_binds_share": 0.168,
+  "either_short_cut_0.60pct": 0.0439,
+  "either_short_cut_0.65pct": 0.0657,
+  "either_short_cut_0.70pct": 0.0874,
+  "either_short_cut_0.75pct": 0.1085,
+  "either_short_cut_1.00pct": 0.2097
+ },
+ "history": {
+  "windows": 1770,
+  "first": "1871-01-01",
+  "last_start": "2018-06-01",
+  "plan_p5_p50_p95": [
+   117471,
+   125543,
+   137546
+  ],
+  "rival_p5_p50_p95": [
+   88796,
+   141192,
+   219096
+  ],
+  "plan_lowest": [
+   107315,
+   "1929-07-01"
+  ],
+  "rival_lowest": [
+   22880,
+   "1929-07-01"
+  ],
+  "rival_below_95k": 0.087,
+  "plan_below_95k": 0.0,
+  "keep_lowest": [
+   11831,
+   "1927-06-01"
+  ],
+  "top_stated_lowest": 100000.0,
+  "keep_total_start_jul1929": 14113,
+  "keep_total_p5": 20186
+ },
+ "fall40_before_move": {
+  "bottom": 95000.0,
+  "top": 110000.0,
+  "top_unrounded": 111284,
+  "below_purchase_price": {
+   "bottom": 95000.0,
+   "top": 105000.0,
+   "top_unrounded": 108963
+  },
+  "on_drafts_sizes_top_unrounded": {
+   "below_expected_2031": 109659,
+   "below_purchase_price": 107372
+  }
+ },
+ "without_extra_treasuries_same_range_rule": {
+  "bottom_unrounded": 130714,
+  "top_unrounded": 156791,
+  "bottom": 130000,
+  "top": 155000
+ },
+ "deposit_112500": {
+  "left": 74980,
+  "bottom": 90000.0,
+  "top": 90000.0
+ },
+ "deposit_75000": {
+  "left": 37480,
+  "bottom": 45000.0,
+  "top": 45000.0
+ },
+ "central_if_extra_pooled": {
+  "extra": 32153,
+  "bottom_unrounded": 102304,
+  "top_unrounded": 122713,
+  "bottom": 100000.0,
+  "top": 120000.0
+ },
+ "robustness_top_at_least_115k": {
+  "yield_vol_0.6pt": 0.6628,
+  "yield_vol_1.2pt": 0.5906,
+  "7.5pct_as_arithmetic_mean": 0.5956
+ },
+ "inflation_2.5pct_7yrs": 96746,
+ "inflation_2.4pct_7yrs": 97409
+}

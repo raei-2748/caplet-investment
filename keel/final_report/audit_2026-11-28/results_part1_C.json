@@ -1,0 +1,71 @@
+{
+ "curve_method": "C",
+ "ladder": {
+  "cost_by_rung_jan2027": {
+   "2033": 37950,
+   "2034": 36108,
+   "2035": 34339,
+   "2036": 32584,
+   "2037": 30881,
+   "2038": 29001,
+   "2039": 27432,
+   "2040": 25933,
+   "2041": 24502,
+   "2042": 23146
+  },
+  "ladder_cost_jan2027": 301876.0,
+  "pv_payments_jan2027": 300778.0,
+  "short_of_300k_jan2027": 1876.0,
+  "short_of_300k_in_jan2028_money": 1960.0
+ },
+ "stress": {
+  "net_receipts": {
+   "2033": 47417,
+   "2034": 46709,
+   "2035": 46143,
+   "2036": 45546,
+   "2037": 44413,
+   "2038": 43110,
+   "2039": 42990,
+   "2040": 42985,
+   "2041": 42151,
+   "2042": 42489
+  },
+  "total": 443953,
+  "gap_by_year": {
+   "2033": 2583,
+   "2034": 3291,
+   "2035": 3857,
+   "2036": 4454,
+   "2037": 5587,
+   "2038": 6890,
+   "2039": 7010,
+   "2040": 7015,
+   "2041": 7849,
+   "2042": 7511
+  },
+  "shortfall": 56047,
+  "shortfall_zero_interest_only": 53730
+ },
+ "extra_treasuries": {
+  "cost_jan2028": 32216,
+  "by_instrument": {
+   "2041": 16625,
+   "2042": 15592
+  },
+  "pooled_own_receipts_total": 444640
+ },
+ "second_deposit": {
+  "top_up_jan2028": 1960,
+  "extra": 32216,
+  "operating_total_from_2028_deposit": 34177,
+  "operating_allocation_nominal_total": 334177,
+  "left_for_facility": 115823
+ },
+ "reserve_2033": {
+  "value_1jan2033": 440452,
+  "pv_payments_1jan2033": 398180,
+  "ratio": 1.1062,
+  "undiscounted_receipts_under_stress_approx": 499699
+ }
+}

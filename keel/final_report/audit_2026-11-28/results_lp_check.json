@@ -1,0 +1,48 @@
+{
+ "pooled_bought_2028": {
+  "cost_at_purchase": 32153,
+  "in_jan2028_money": 32153,
+  "by_rung": {
+   "2041": 16544,
+   "2042": 15609
+  },
+  "spare_after_2042": 0
+ },
+ "own_rungs_kept_bought_2028": {
+  "cost_at_purchase": 35454,
+  "in_jan2028_money": 35454,
+  "by_rung": {
+   "2036": 1375,
+   "2037": 3974,
+   "2038": 5624,
+   "2039": 5836,
+   "2040": 5860,
+   "2041": 6825,
+   "2042": 5960
+  },
+  "spare_after_2042": 0
+ },
+ "own_rungs_kept_bought_2027": {
+  "cost_at_purchase": 34382,
+  "in_jan2028_money": 35908,
+  "by_rung": {
+   "2036": 248,
+   "2037": 3982,
+   "2038": 5647,
+   "2039": 5853,
+   "2040": 5876,
+   "2041": 6842,
+   "2042": 5934
+  },
+  "spare_after_2042": 0
+ },
+ "pooled_bought_2027": {
+  "cost_at_purchase": 31344,
+  "in_jan2028_money": 32736,
+  "by_rung": {
+   "2041": 15802,
+   "2042": 15542
+  },
+  "spare_after_2042": 0
+ }
+}
