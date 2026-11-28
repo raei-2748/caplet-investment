@@ -34,35 +34,40 @@ def ink(x, v, w, c, v0=0):
     return f'<rect x="{x:.1f}" y="{BASE - v*U:.1f}" width="{w}" height="{(v-v0)*U:.1f}" fill="{c}"/>'
 def panel(x0, year, stage, cap):
     o = [t(x0, 56, year, 11, "bold")]
-    bw, gap = 7, 1.6
-    for i in range(10):
-        x = x0 + i * (bw + gap)
-        o.append(pencil(x, BASE - 50000 * U, bw, 50000 * U))
-        o.append(ink(x, NET[i] if stage == 0 else 50000, bw, NAVY))
-    xb = x0 + 10 * (bw + gap) + 8
-    o.append(pencil(xb, BASE - 115000 * U, 20, 115000 * U))
-    if stage >= 1: o.append(ink(xb, 95000 if stage == 1 else 115000, 20, SAGE))
+    bw, gap = 4.8, 1.2
+    for k in range(10):
+        x = x0 + k * (bw + gap)
+        o.append(pencil(x, BASE - 50000 * U, bw, 50000 * U, hatch=False))
+        o.append(ink(x, NET[k] if stage == 0 else 50000, bw, NAVY))
+    xb = x0 + 10 * (bw + gap) + 6
+    o.append(pencil(xb, BASE - 115000 * U, 15, 115000 * U))
+    if stage >= 1: o.append(ink(xb, 95000 if stage == 1 else 115000, 15, SAGE))
     xk = xb + 28
-    o.append(pencil(xk, BASE - 28700 * U, 20, 28700 * U))
-    o.append(t(x0 + 42, BASE + 12, "Ten payments", 8.5, anc="middle", fill=MUTE))
-    o.append(t(xb + 10, BASE + 12, "Building", 8.5, anc="middle", fill=MUTE))
-    o.append(t(xk + 10, BASE + 12, "Kept", 8.5, anc="middle", fill=MUTE))
-    o.append(lines(x0, BASE + 30, cap, 9.5))
+    o.append(pencil(xk, BASE - 29594 * U, 15, 29594 * U))
+    if stage == 2:  # half the shares move into the building
+        sx, sy = xk + 7.5, BASE - 29594 * U - 4
+        ex, ey = xb + 17, BASE - 105000 * U
+        o.append(f'<path d="M{sx} {sy} C{sx} {ey+10}, {sx-2} {ey}, {ex+4} {ey}" fill="none" stroke="{SAGE}" stroke-width="1.1"/>')
+        o.append(f'<path d="M{ex} {ey} L{ex+5} {ey-2.8} L{ex+5} {ey+2.8} Z" fill="{SAGE}"/>')
+    o.append(t(x0 + 29, BASE + 11, "Payments", 7.5, anc="middle", fill=MUTE))
+    o.append(t(xb + 7.5, BASE + 11, "Building", 7.5, anc="middle", fill=MUTE))
+    o.append(t(xk + 7.5, BASE + 11, "Shares", 7.5, anc="middle", fill=MUTE))
+    o.append(lines(x0, BASE + 27, cap, 8.5))
     return "".join(o), xb, xk
 b = [t(0, 12, "Figure 1", 11, "bold")]
 b.append(f'<rect x="0" y="27" width="14" height="9" fill="{NAVY}"/><rect x="14" y="27" width="14" height="9" fill="{SAGE}"/>')
 b.append(t(34, 35, "Ink: paid by Treasuries Laura holds", 10))
 b.append(pencil(212, 27, 28, 9))
 b.append(t(246, 35, "Pencil: not yet paid for", 10))
-P = [(0, "2027", 0, ["$300,000 buys the ten Treasuries.", "If early cash earns nothing,", "they fall $57,070 short."]),
-     (160, "2028", 1, ["$39,162 of the second deposit", "fills the gap. $81,244 inks", "a $95,000 floor for the building."]),
-     (320, "2031", 2, ["Half the shares move to Treasuries,", "whatever the market has done:", "$115,000 in the central case."])]
+P = [(0, "2027", 0, ["$300,000 buys ten", "Treasuries, one per", "payment. If early cash", "earns nothing, they", "fall $57,070 short."]),
+     (118, "2028", 1, ["$39,162 closes the gap.", "$81,244 inks a $95,000", "floor for the building.", "$29,594 buys shares."]),
+     (236, "2031", 2, ["Half the shares move to", "Treasuries, whatever the", "market has done. Laura", "tells co-sponsors", "$95,000 to $115,000."]),
+     (354, "2033\u20132042", 3, ["A $445,655 reserve pays", "$50,000 each January.", "$115,000 to the building", "and about $28,700 kept,", "in the central case."])]
 for x0, yr, st, cap in P:
-    s, xb, xk = panel(x0, yr, st, cap); b.append(s)
+    s_, xb, xk = panel(x0, yr, st, cap); b.append(s_)
     if st == 1:
-        b.append(t(xb + 24, BASE - 95000 * U + 3, "$95,000", 8.5, "bold"))
-    if st == 2:
-        b.append(t(xb + 10, BASE - 115000 * U - 5, "$115,000", 8.5, "bold", anc="middle"))
-        b.append(t(xk + 10, BASE - 28700 * U - 5, "$28,700", 8.5, "bold", anc="middle"))
-H = BASE + 66
+        b.append(t(xb + 18, BASE - 95000 * U + 3, "$95,000", 8, "bold"))
+    if st == 3:
+        b.append(t(xb + 7.5, BASE - 115000 * U - 5, "$115,000", 8, "bold", anc="middle"))
+H = BASE + 78
 open("ink_stages.svg", "w").write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}pt" height="{H}pt" viewBox="0 0 {W} {H}"><rect width="{W}" height="{H}" fill="#fff"/>' + DEFS + "".join(b) + "</svg>")
