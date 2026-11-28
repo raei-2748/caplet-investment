@@ -70,4 +70,4 @@ for x0, yr, st, cap in P:
     if st == 3:
         b.append(t(xb + 7.5, BASE - 115000 * U - 5, "$115,000", 8, "bold", anc="middle"))
 H = BASE + 78
-open("ink_stages.svg", "w").write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}pt" height="{H}pt" viewBox="0 0 {W} {H}"><rect width="{W}" height="{H}" fill="#fff"/>' + DEFS + "".join(b) + "</svg>")
+open("ink_stages.svg", "w").write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W+16}pt" height="{H+12}pt" viewBox="-8 -6 {W+16} {H+12}"><rect x="-8" y="-6" width="{W+16}" height="{H+12}" fill="#fff"/>' + DEFS + "".join(b) + "</svg>")
